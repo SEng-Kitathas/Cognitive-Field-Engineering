@@ -40,3 +40,9 @@ Heavy source packages belong in GitHub Releases (or another explicitly opt-in ar
 ## Per-turn continuity rule
 
 Every material turn SHALL update the appropriate continuity files and create a Git commit. When authenticated remote access is available, that commit SHALL be pushed in the same turn. See `policy/PER_TURN_GIT_CONTINUITY_POLICY.md`.
+
+
+## Publication identity
+Initial continuity-complete publication remote head: `f7fdbd91068eb9629824d67185d358f4e77ea7c2`.
+Remote: `https://github.com/SEng-Kitathas/Cognitive-Field-Engineering.git`
+Heavy archive release assets are a separate opt-in surface and are not required by normal clone/install.

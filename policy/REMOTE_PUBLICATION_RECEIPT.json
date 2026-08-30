@@ -8,7 +8,5 @@
   "heads_match": true,
   "verified_utc": "2026-08-30T16:55:00Z",
   "normal_clone_policy": "thin; heavy archives/models/checkpoints excluded",
-  "heavy_assets_status": "MANIFESTED__RELEASE_UPLOAD_PENDING",
-  "local_publication_checkout": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\publication\\github\\Cognitive-Field-Engineering",
-  "per_turn_policy": "policy/PER_TURN_GIT_CONTINUITY_POLICY.md"
+  "heavy_assets_status": "MANIFESTED__RELEASE_UPLOAD_PENDING"
 }
