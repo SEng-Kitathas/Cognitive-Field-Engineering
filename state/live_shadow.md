@@ -18,10 +18,12 @@
 - Strongest statement: **core observation established; mechanism unresolved**.
 - Bounded-transport source audit verified treatment neighborhoods hold `capacity` and `incoming` fixed and span margins only `{0,+1}`; that support does not eliminate the rival `margin == 1` for the intended `margin > 0` rule.
 - v1.0 prompts explicitly supply substantial rule/policy semantics, so held-out-domain task performance is not equivalent to latent relation transfer.
-- Partial initial-state LoRA gradient replay recovered 6 neighborhood measurements. In the 2 bounded samples mean cosine was +0.110 with zero negative sibling pairs and mean coherence 0.918; 4 warrant samples averaged -0.023 with repeated negative pairs. This weakens but does not eliminate simple bounded sibling-gradient-conflict as the first explanation.
-- New post-hoc bounded diagnostic is statically qualified: 56 states × 3 prompt tiers = 168 cases; margins `-5,-2,-1,0,+1,+2,+5`; tiers RULE_EXPLICIT / BOUNDARY_LATENT / FULL_LATENT; cheap rivals are discriminated.
-- Read-only diagnostic campaign is ACTIVE under PID 6444 over NF4 + all 12 sealed v1.0 adapters. No weight updates occur.
-- Preliminary paired seed 2501 diagnostic: CONTROL 35/56 explicit, 32/56 boundary-latent, 16/56 full-latent; TREATMENT 33/56 explicit, 32/56 boundary-latent, 0/56 full-latent. Both are 0/24 on +1 overflow and overwhelmingly output `accept_all` on latent overflow. Treat as one-seed post-hoc evidence only.
+- Partial initial-state LoRA gradient replay recovered 6 neighborhood measurements. Bounded samples showed positive mean sibling cosine and zero negative pairs; warrant samples showed more conflict. This weakens but does not eliminate simple bounded sibling-gradient conflict.
+- The 13-model bounded latent/out-of-support diagnostic campaign is COMPLETE. Aggregate SHA: `e7bc9003d841eb1b72191ef978eec9ee9dbf0d6432bb75f0a4cf0b21105f417e`.
+- Six-seed post-hoc tier deltas T-C: RULE_EXPLICIT -5.06 pts mean, BOUNDARY_LATENT -5.65 pts mean, FULL_LATENT +2.08 pts mean at floor.
+- Pooled support pattern: TREATMENT vs CONTROL is -45 correct on negative slack, -16 at equality, +11 on old +1 overflow, +21 on far overflow. Seed signs are heterogeneous; pooled rows are not the inferential unit.
+- Action-confusion audit shows CONTROL is strongly `accept_all`-biased, while TREATMENT shifts the action basin toward overflow/backpressure, gaining some overflow correctness while creating more false-positive overflow behavior on safe states. Neither arm cleanly learns the intended strict inequality across the new support.
+- Current mechanistic posture: wrong/under-resolved identifying basis and action-policy entanglement strengthened; optimizer-visible geometry/horizon remains live; direct sibling-gradient conflict weakened; no mechanism confirmed.
 - v1.1 K-dose candidate remains technically qualified but parked behind mechanism discriminators; no v1.1 scientific training has started.
 - GitHub continuity publication is active; heavy archives remain opt-in release assets.
 
@@ -41,17 +43,17 @@
 - Current scientific work outranks unfinished exploratory campaign work until the live screen reaches a clean gate.
 
 ## Open Loops
-- Complete/read back the 13-model bounded latent/out-of-support diagnostic campaign.
-- Compare treatment vs control by prompt tier and by negative-slack / boundary / +1 old-support / far-overflow buckets.
-- Decide whether wrong identifying basis, optimizer-field starvation, sibling interference, horizon mismatch, or an unmodeled mechanism remains live.
-- Build a genuinely reconstituted bounded identifying basis only if diagnostic evidence still supports that branch.
-- K1/K2/K4 dose screen only if concentration remains causally justified.
-- No v1.1 scientific training before revised mechanism-first preregistration and lock.
+- Design the next preregistered bounded-transport discriminator so overflow-predicate identification is separated from mode-conditioned action policy.
+- Build an identifying numerical basis with negative slack, equality, and multiple positive margins before interpreting any concentration/horizon sweep as mechanism proof.
+- Decide whether the next experiment should isolate basis constitution first or optimizer update-field geometry first; do not run both as a blended rescue.
+- Keep K1/K2/K4 parked until concentration is still causally justified after the predicate/policy discriminator.
+- Preserve the tournament disposition: non-discrimination is evidence against the current mechanistic picture, not permission for a post-hoc combination explanation.
+- No v1.1 scientific training before the next mechanism-first preregistration and lock.
 
 ## Immediate Next Step
-- Monitor PID 6444 to terminal. Require per-model EVAL_MANIFEST readback and final aggregate before interpretation.
-- If campaign completes, run hostile paired-seed analysis of RULE_EXPLICIT vs BOUNDARY_LATENT vs FULL_LATENT and out-of-support margin buckets.
-- If campaign blocks, preserve the exact first failing model/receipt and do not infer scientific failure from wrapper/runtime failure.
+- Build a preregistered two-stage bounded-transport mechanism screen that separates (A) identifying the overflow predicate from (B) selecting the mode-conditioned action policy.
+- Use a newly generated identifying basis with support below, at, and above the boundary, including multiple positive margins, and keep global burden matched.
+- Freeze explicit failure predictions before any new weight outcome is observed.
 
 ## Last 10 Turn Reinforcement Window
 1. User asked to continue from the prior CFE work.
@@ -66,9 +68,8 @@
 10. Resume-tool audit correctly blocked on the current partial CONTROL output; stale current/next state was repaired.
 
 ## Delta Since Previous Shadow
-- Recovered and intentionally bounded the partial gradient-conflict diagnostic rather than spending GPU on a low-value full replay.
-- Built and statically qualified a 168-case bounded out-of-support / latent-rule diagnostic.
-- Built/compiled a fail-closed read-only campaign runner across NF4 and all 12 sealed adapters.
-- Launched campaign PID 6444; no scientific training or weight mutation is occurring.
-- This material turn is being committed/pushed under the per-turn Git continuity policy.
+- The bounded latent/out-of-support campaign completed 13/13 jobs with no execution failure.
+- Hostile analysis found neither arm cleanly learned the strict inequality; treatment shifts the action basin toward overflow/backpressure rather than producing a monotonic improvement.
+- Under-resolved basis/action-policy entanglement gained support; simple direct sibling-gradient conflict weakened.
+- Campaign aggregate and hostile summary are being committed/pushed under per-turn Git continuity policy.
 

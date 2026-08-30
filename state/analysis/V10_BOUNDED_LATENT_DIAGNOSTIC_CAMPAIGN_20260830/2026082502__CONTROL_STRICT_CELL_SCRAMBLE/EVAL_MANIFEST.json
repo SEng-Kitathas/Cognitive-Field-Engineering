@@ -1,0 +1,245 @@
+{
+  "adapter": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z\\train\\2026082502\\CONTROL_STRICT_CELL_SCRAMBLE\\adapter",
+  "adapter_files": {
+    "README.md": {
+      "bytes": 5380,
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a"
+    },
+    "adapter_config.json": {
+      "bytes": 1297,
+      "sha256": "693f449016bee44a461a34ea17ace7e0c26c71859083aea734ad563d9eaee9d0"
+    },
+    "adapter_model.safetensors": {
+      "bytes": 83945296,
+      "sha256": "f40747b09cdb66a03b0e94022632f30f23f88d3d818fc4c163516bd35345093b"
+    }
+  },
+  "attention_backend": "eager",
+  "base_snapshot_manifest_sha256": "0d429d3f6e0fa276fa7bb24c3566ed7ce3856c22230bb58936527f1f15f2bc6d",
+  "cases_sha256": "063b1ad366df98367e35ec411c63f45e62011f26e71498c4e60dbb30e37b4f1a",
+  "diagnostic_manifest_sha256": "7bde83d8487208c808907b3cbd4d5436bf3a389d372f247dccd99b906e0c5bf8",
+  "host_lock_sha256": "047fc0e619b5ebe61f7dd9c6e5e1a1b356affba07a8b27795b394c3ad443aea6",
+  "interpretation_ceiling": [
+    "Post-hoc diagnostic only.",
+    "Existing weights only; no training occurred.",
+    "RULE_EXPLICIT tests application with rule supplied.",
+    "BOUNDARY_LATENT removes the inequality but supplies policy.",
+    "FULL_LATENT removes both inequality and policy wording; failure may reflect task ambiguity as well as missing latent transfer."
+  ],
+  "label": "2026082502__CONTROL_STRICT_CELL_SCRAMBLE",
+  "metrics": {
+    "by_margin": {
+      "-1": {
+        "accuracy": 0.6666666666666666,
+        "correct": 16,
+        "n": 24
+      },
+      "-2": {
+        "accuracy": 0.6666666666666666,
+        "correct": 16,
+        "n": 24
+      },
+      "-5": {
+        "accuracy": 0.6666666666666666,
+        "correct": 16,
+        "n": 24
+      },
+      "0": {
+        "accuracy": 0.6666666666666666,
+        "correct": 16,
+        "n": 24
+      },
+      "1": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 24
+      },
+      "2": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 24
+      },
+      "5": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 24
+      }
+    },
+    "by_mode": {
+      "latest_state": {
+        "accuracy": 0.38095238095238093,
+        "correct": 32,
+        "n": 84
+      },
+      "transactional": {
+        "accuracy": 0.38095238095238093,
+        "correct": 32,
+        "n": 84
+      }
+    },
+    "by_tier": {
+      "BOUNDARY_LATENT": {
+        "accuracy": 0.5714285714285714,
+        "correct": 32,
+        "n": 56
+      },
+      "FULL_LATENT": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 56
+      },
+      "RULE_EXPLICIT": {
+        "accuracy": 0.5714285714285714,
+        "correct": 32,
+        "n": 56
+      }
+    },
+    "by_tier_margin": {
+      "BOUNDARY_LATENT": {
+        "-1": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "-2": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "-5": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "0": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        }
+      },
+      "FULL_LATENT": {
+        "-1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "-2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "-5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "0": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        }
+      },
+      "RULE_EXPLICIT": {
+        "-1": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "-2": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "-5": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "0": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        }
+      }
+    },
+    "overall": {
+      "accuracy": 0.38095238095238093,
+      "correct": 64,
+      "n": 168
+    },
+    "support_buckets": {
+      "boundary_equal": {
+        "accuracy": 0.6666666666666666,
+        "correct": 16,
+        "n": 24
+      },
+      "far_overflow": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 48
+      },
+      "negative_slack": {
+        "accuracy": 0.6666666666666666,
+        "correct": 48,
+        "n": 72
+      },
+      "old_overflow_support": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 24
+      }
+    }
+  },
+  "peak_allocated_bytes": 4256447488,
+  "peak_reserved_bytes": 4561305600,
+  "producer_run_manifest_sha256": "a72e7352a503ac87f7bda19640cfc779086f0c4b968131cca6475fb82e815e01",
+  "results_sha256": "082c43781f96f05f04e3eb6f00df4bc3751428f7dabf335bea7d1403dfc14d82",
+  "runtime_seconds": 165.25359392166138,
+  "schema": "cfe.v10.bounded-latent-diagnostic-eval.v1",
+  "status": "POST_HOC_READ_ONLY_DIAGNOSTIC_COMPLETE__NOT_CONFIRMATORY"
+}

@@ -1,0 +1,245 @@
+{
+  "adapter": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z\\train\\2026082504\\CONTROL_STRICT_CELL_SCRAMBLE\\adapter",
+  "adapter_files": {
+    "README.md": {
+      "bytes": 5380,
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a"
+    },
+    "adapter_config.json": {
+      "bytes": 1297,
+      "sha256": "90f59fe04db91d84e08c05459de60a3c2ada68efe9cbb78da194d4c0e952d39b"
+    },
+    "adapter_model.safetensors": {
+      "bytes": 83945296,
+      "sha256": "7816f780844354e37f365e66abedc707755c8bfaf7ab36a683379f98a77a1fa6"
+    }
+  },
+  "attention_backend": "eager",
+  "base_snapshot_manifest_sha256": "0d429d3f6e0fa276fa7bb24c3566ed7ce3856c22230bb58936527f1f15f2bc6d",
+  "cases_sha256": "063b1ad366df98367e35ec411c63f45e62011f26e71498c4e60dbb30e37b4f1a",
+  "diagnostic_manifest_sha256": "7bde83d8487208c808907b3cbd4d5436bf3a389d372f247dccd99b906e0c5bf8",
+  "host_lock_sha256": "047fc0e619b5ebe61f7dd9c6e5e1a1b356affba07a8b27795b394c3ad443aea6",
+  "interpretation_ceiling": [
+    "Post-hoc diagnostic only.",
+    "Existing weights only; no training occurred.",
+    "RULE_EXPLICIT tests application with rule supplied.",
+    "BOUNDARY_LATENT removes the inequality but supplies policy.",
+    "FULL_LATENT removes both inequality and policy wording; failure may reflect task ambiguity as well as missing latent transfer."
+  ],
+  "label": "2026082504__CONTROL_STRICT_CELL_SCRAMBLE",
+  "metrics": {
+    "by_margin": {
+      "-1": {
+        "accuracy": 0.7083333333333334,
+        "correct": 17,
+        "n": 24
+      },
+      "-2": {
+        "accuracy": 0.7083333333333334,
+        "correct": 17,
+        "n": 24
+      },
+      "-5": {
+        "accuracy": 0.6666666666666666,
+        "correct": 16,
+        "n": 24
+      },
+      "0": {
+        "accuracy": 0.6666666666666666,
+        "correct": 16,
+        "n": 24
+      },
+      "1": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 24
+      },
+      "2": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 24
+      },
+      "5": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 24
+      }
+    },
+    "by_mode": {
+      "latest_state": {
+        "accuracy": 0.40476190476190477,
+        "correct": 34,
+        "n": 84
+      },
+      "transactional": {
+        "accuracy": 0.38095238095238093,
+        "correct": 32,
+        "n": 84
+      }
+    },
+    "by_tier": {
+      "BOUNDARY_LATENT": {
+        "accuracy": 0.5714285714285714,
+        "correct": 32,
+        "n": 56
+      },
+      "FULL_LATENT": {
+        "accuracy": 0.03571428571428571,
+        "correct": 2,
+        "n": 56
+      },
+      "RULE_EXPLICIT": {
+        "accuracy": 0.5714285714285714,
+        "correct": 32,
+        "n": 56
+      }
+    },
+    "by_tier_margin": {
+      "BOUNDARY_LATENT": {
+        "-1": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "-2": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "-5": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "0": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        }
+      },
+      "FULL_LATENT": {
+        "-1": {
+          "accuracy": 0.125,
+          "correct": 1,
+          "n": 8
+        },
+        "-2": {
+          "accuracy": 0.125,
+          "correct": 1,
+          "n": 8
+        },
+        "-5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "0": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        }
+      },
+      "RULE_EXPLICIT": {
+        "-1": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "-2": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "-5": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "0": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "n": 8
+        },
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        }
+      }
+    },
+    "overall": {
+      "accuracy": 0.39285714285714285,
+      "correct": 66,
+      "n": 168
+    },
+    "support_buckets": {
+      "boundary_equal": {
+        "accuracy": 0.6666666666666666,
+        "correct": 16,
+        "n": 24
+      },
+      "far_overflow": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 48
+      },
+      "negative_slack": {
+        "accuracy": 0.6944444444444444,
+        "correct": 50,
+        "n": 72
+      },
+      "old_overflow_support": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 24
+      }
+    }
+  },
+  "peak_allocated_bytes": 4256447488,
+  "peak_reserved_bytes": 4561305600,
+  "producer_run_manifest_sha256": "76e879f1e2969df5a293d535e5208cabeace1b9c2af1551bf198159dbc81bfc3",
+  "results_sha256": "b6ac93da46e18e51df4af982d093352e0b774ef0206582116e9644429c390999",
+  "runtime_seconds": 155.86809849739075,
+  "schema": "cfe.v10.bounded-latent-diagnostic-eval.v1",
+  "status": "POST_HOC_READ_ONLY_DIAGNOSTIC_COMPLETE__NOT_CONFIRMATORY"
+}

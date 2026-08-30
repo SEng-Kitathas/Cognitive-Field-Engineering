@@ -147,3 +147,16 @@ Seed 2026082501 TREATMENT:
 - far overflow 1/48 = 0.0208
 
 Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `accept_all`; boundary-latent overflow is 0/24 correct in both arms. CONTROL occasionally emits correct transactional backpressure on farther overflow; TREATMENT does so less often. This weakens a simple output-contract explanation and is consistent with brittle/under-resolved bounded task binding, but one seed cannot establish mechanism.
+
+
+## Completed bounded latent / out-of-support campaign
+- Campaign status: COMPLETE, 13/13 jobs, no weight updates.
+- Aggregate SHA: `e7bc9003d841eb1b72191ef978eec9ee9dbf0d6432bb75f0a4cf0b21105f417e`.
+- RULE_EXPLICIT mean paired T-C delta: -0.05060.
+- BOUNDARY_LATENT mean paired T-C delta: -0.05655.
+- FULL_LATENT mean paired T-C delta: +0.02083 at near-floor performance.
+- Pooled support deltas: negative slack -45 T-C correct, equality -16, old +1 overflow +11, far overflow +21.
+- CONTROL behaves like a strong `accept_all` basin; TREATMENT shifts toward overflow/backpressure, gaining some overflow cases and losing more safe/equality cases.
+- Neither arm cleanly demonstrates the intended inequality across the expanded support.
+- Post-hoc hostile summary: `state/analysis/V10_BOUNDED_LATENT_DIAGNOSTIC_HOSTILE_SUMMARY_2026-08-30.md`.
+- Current implication: prioritize separating overflow-predicate identification from action-policy learning before any broader concentration sweep.

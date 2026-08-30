@@ -1,5 +1,7 @@
 {
+  "aggregate_sha256": "e7bc9003d841eb1b72191ef978eec9ee9dbf0d6432bb75f0a4cf0b21105f417e",
   "cases_sha256": "063b1ad366df98367e35ec411c63f45e62011f26e71498c4e60dbb30e37b4f1a",
+  "completed": 1788112328.4534945,
   "jobs": [
     {
       "eval_manifest_sha256": "89d2978de343420a3c6dd3de57a4c61b77c09662458a72a303b43b2178904579",
@@ -645,6 +647,2156 @@
       "results_sha256": "4b5fda5501e0288914084fd16862dfffb99e13cca34abeaa4afd6844a40def48",
       "seconds": 185.92955255508423,
       "status": "COMPLETE"
+    },
+    {
+      "eval_manifest_sha256": "10db545fe2fa30e215831edca26d73e35735a20ff25d747d4241c6b51530bf40",
+      "label": "2026082502__CONTROL_STRICT_CELL_SCRAMBLE",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.38095238095238093,
+            "correct": 32,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.38095238095238093,
+            "correct": 32,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.38095238095238093,
+          "correct": 64,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.6666666666666666,
+            "correct": 48,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "082c43781f96f05f04e3eb6f00df4bc3751428f7dabf335bea7d1403dfc14d82",
+      "seconds": 183.29085326194763,
+      "status": "COMPLETE"
+    },
+    {
+      "eval_manifest_sha256": "11be41f045c739a02448a469db5cb74d93426f9f4fc866ff0fb729a838554d06",
+      "label": "2026082502__TREATMENT_NEIGHBORHOOD",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.8333333333333334,
+            "correct": 20,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.7916666666666666,
+            "correct": 19,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.75,
+            "correct": 18,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.75,
+            "correct": 18,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.5119047619047619,
+            "correct": 43,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.38095238095238093,
+            "correct": 32,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.19642857142857142,
+            "correct": 11,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.375,
+              "correct": 3,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.25,
+              "correct": 2,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.25,
+              "correct": 2,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.44642857142857145,
+          "correct": 75,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.75,
+            "correct": 18,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.7916666666666666,
+            "correct": 57,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "5e0bb999aa5c3761888863cc158dc039b9a1885270d6cec99b1213f6929e86bd",
+      "seconds": 186.7976176738739,
+      "status": "COMPLETE"
+    },
+    {
+      "eval_manifest_sha256": "8f135972ae180fd2392752365e3488532aef98f0f7846a262fed238247abb507",
+      "label": "2026082503__CONTROL_STRICT_CELL_SCRAMBLE",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.375,
+            "correct": 9,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.375,
+            "correct": 9,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.375,
+            "correct": 9,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.3333333333333333,
+            "correct": 8,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.16666666666666666,
+            "correct": 4,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.16666666666666666,
+            "correct": 4,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.25,
+            "correct": 6,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.25,
+            "correct": 21,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.3333333333333333,
+            "correct": 28,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.05357142857142857,
+            "correct": 3,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.25,
+            "correct": 14,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.75,
+              "correct": 6,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.2916666666666667,
+          "correct": 49,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.3333333333333333,
+            "correct": 8,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.20833333333333334,
+            "correct": 10,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.375,
+            "correct": 27,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.16666666666666666,
+            "correct": 4,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "002d799a0bdb528aef3da7f371ee64cce619a90505a74d3289949849f9bbf6a2",
+      "seconds": 236.0697684288025,
+      "status": "COMPLETE"
+    },
+    {
+      "eval_manifest_sha256": "8cb4a5f94f8f9f05831ad6389622d10f4dc87f568b82bc49f459546b28a99fde",
+      "label": "2026082503__TREATMENT_NEIGHBORHOOD",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.9166666666666666,
+            "correct": 22,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.7916666666666666,
+            "correct": 19,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.875,
+            "correct": 21,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.8333333333333334,
+            "correct": 20,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.041666666666666664,
+            "correct": 1,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.5119047619047619,
+            "correct": 43,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.47619047619047616,
+            "correct": 40,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.5892857142857143,
+            "correct": 33,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.32142857142857145,
+            "correct": 18,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.75,
+              "correct": 6,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.375,
+              "correct": 3,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.625,
+              "correct": 5,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.49404761904761907,
+          "correct": 83,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.8333333333333334,
+            "correct": 20,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.020833333333333332,
+            "correct": 1,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.8611111111111112,
+            "correct": 62,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "47dda7f0b1bc24b51d425946d484cdd88e60fccf29e49de4366cbc86be51fb5e",
+      "seconds": 178.49024558067322,
+      "status": "COMPLETE"
+    },
+    {
+      "eval_manifest_sha256": "3814f4546389bea0a31171e6b4d5f433a85b0d66309800ff4749144ed63671f3",
+      "label": "2026082504__CONTROL_STRICT_CELL_SCRAMBLE",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.7083333333333334,
+            "correct": 17,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.7083333333333334,
+            "correct": 17,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.40476190476190477,
+            "correct": 34,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.38095238095238093,
+            "correct": 32,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.03571428571428571,
+            "correct": 2,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.39285714285714285,
+          "correct": 66,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.6944444444444444,
+            "correct": 50,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "b6ac93da46e18e51df4af982d093352e0b774ef0206582116e9644429c390999",
+      "seconds": 174.89575958251953,
+      "status": "COMPLETE"
+    },
+    {
+      "eval_manifest_sha256": "5cdeb6aa22217582ecf7f4ebecad8af7cd31491f3f6db496554616499395966d",
+      "label": "2026082504__TREATMENT_NEIGHBORHOOD",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.3333333333333333,
+            "correct": 8,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.375,
+            "correct": 9,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.4166666666666667,
+            "correct": 10,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.2916666666666667,
+            "correct": 7,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.2916666666666667,
+            "correct": 7,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.2916666666666667,
+            "correct": 7,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.25,
+            "correct": 6,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.19047619047619047,
+            "correct": 16,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.4523809523809524,
+            "correct": 38,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.6785714285714286,
+            "correct": 38,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.2857142857142857,
+            "correct": 16,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 0.875,
+              "correct": 7,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.75,
+              "correct": 6,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.375,
+              "correct": 3,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.375,
+              "correct": 3,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.375,
+              "correct": 3,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.25,
+              "correct": 2,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.375,
+              "correct": 3,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.32142857142857145,
+          "correct": 54,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.2916666666666667,
+            "correct": 7,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.2708333333333333,
+            "correct": 13,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.375,
+            "correct": 27,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.2916666666666667,
+            "correct": 7,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "32cf396e32769a111467c053068129b9e5208d9b2fac673efec714d7560c4f29",
+      "seconds": 242.57762694358826,
+      "status": "COMPLETE"
+    },
+    {
+      "eval_manifest_sha256": "3db5ddabbabd81eb00b1a570bdb4b57b6d217d7b9090edda793242c7c7dc9677",
+      "label": "2026082505__CONTROL_STRICT_CELL_SCRAMBLE",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.7083333333333334,
+            "correct": 17,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.041666666666666664,
+            "correct": 1,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.39285714285714285,
+            "correct": 33,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.39285714285714285,
+            "correct": 33,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.017857142857142856,
+            "correct": 1,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.5892857142857143,
+            "correct": 33,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.39285714285714285,
+          "correct": 66,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.020833333333333332,
+            "correct": 1,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.6805555555555556,
+            "correct": 49,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "46c965dd8a39bfeb2c2c50fc75ad7d7a7a58dc2bd76c1781d8f7a3e640638b6d",
+      "seconds": 164.6489541530609,
+      "status": "COMPLETE"
+    },
+    {
+      "eval_manifest_sha256": "704d4afc055de791ee2fa32d03612ac51c7bdee3774824912fcd5979759ec157",
+      "label": "2026082505__TREATMENT_NEIGHBORHOOD",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.08333333333333333,
+            "correct": 2,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.041666666666666664,
+            "correct": 1,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.3333333333333333,
+            "correct": 8,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.3333333333333333,
+            "correct": 8,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.3333333333333333,
+            "correct": 8,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.023809523809523808,
+            "correct": 2,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.2976190476190476,
+            "correct": 25,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.21428571428571427,
+            "correct": 12,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.26785714285714285,
+            "correct": 15,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 0.25,
+              "correct": 2,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.16071428571428573,
+          "correct": 27,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.3333333333333333,
+            "correct": 16,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.041666666666666664,
+            "correct": 3,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.3333333333333333,
+            "correct": 8,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "be528eb454b4c0b3313595852974d27f4356a96faf77b72670b4b47080d1f2eb",
+      "seconds": 255.16262817382812,
+      "status": "COMPLETE"
+    },
+    {
+      "eval_manifest_sha256": "5cfbdd955a458ae5938ba4cb7704beedf89ea8d951a97a417b34994590af89ba",
+      "label": "2026082506__CONTROL_STRICT_CELL_SCRAMBLE",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.38095238095238093,
+            "correct": 32,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.38095238095238093,
+            "correct": 32,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.38095238095238093,
+          "correct": 64,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.6666666666666666,
+            "correct": 48,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "e81456daf019da059a12dc25d081b876a78afa4023cbf1f15f4cc823faec4d9d",
+      "seconds": 162.58917021751404,
+      "status": "COMPLETE"
+    },
+    {
+      "eval_manifest_sha256": "04f8ca11834c32755af1b13acea87374e88cefaeea4a990daea5ee8fa17e89da",
+      "label": "2026082506__TREATMENT_NEIGHBORHOOD",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.5833333333333334,
+            "correct": 14,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.5416666666666666,
+            "correct": 13,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.5833333333333334,
+            "correct": 14,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.5833333333333334,
+            "correct": 14,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.041666666666666664,
+            "correct": 1,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.125,
+            "correct": 3,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.38095238095238093,
+            "correct": 32,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.32142857142857145,
+            "correct": 27,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.4642857142857143,
+            "correct": 26,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.5892857142857143,
+            "correct": 33,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 0.75,
+              "correct": 6,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.625,
+              "correct": 5,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.75,
+              "correct": 6,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.75,
+              "correct": 6,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.25,
+              "correct": 2,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.35119047619047616,
+          "correct": 59,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.5833333333333334,
+            "correct": 14,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.08333333333333333,
+            "correct": 4,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.5694444444444444,
+            "correct": 41,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "0ac5a9cda5709d1166f5925904dd6c7b15ef9167e4b5ea4d0ba1d7a52ac21e92",
+      "seconds": 180.80504775047302,
+      "status": "COMPLETE"
     }
   ],
   "laws": [
@@ -654,5 +2806,5 @@
   ],
   "schema": "cfe.v10.bounded-latent-diagnostic-campaign.v1",
   "started": 1788109497.4042552,
-  "status": "RUNNING"
+  "status": "COMPLETE"
 }

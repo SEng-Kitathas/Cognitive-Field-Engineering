@@ -342,3 +342,19 @@ Timestamp: 2026-08-30
 Tags: PRELIMINARY DIAGNOSTIC RESULT, SEED2501 PAIRED
 
 The bounded latent diagnostic campaign sealed NF4 and both seed-2026082501 arms. NF4 scored 0/56 on each strict tier and mostly failed the requested JSON contract. Trained adapters restored clean JSON behavior. CONTROL scored RULE_EXPLICIT 35/56, BOUNDARY_LATENT 32/56, FULL_LATENT 16/56; TREATMENT scored 33/56, 32/56, 0/56. By support bucket CONTROL: negative slack 61/72, equality 19/24, +1 overflow 0/24, far overflow 3/48. TREATMENT: 48/72, 16/24, 0/24, 1/48. Raw outputs show both arms overwhelmingly emit `accept_all` on overflow; all boundary-latent overflow cases are wrong in both arms. This is one paired post-hoc seed only and is not promoted to a mechanism conclusion. Campaign advanced to seed 2026082502 CONTROL.
+
+---
+
+## Exchange — USER
+Timestamp: 2026-08-30
+Tags: STATUS CHECK
+
+Operator requested: `Status check`.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: CAMPAIGN COMPLETE, HOSTILE SUMMARY, MECHANISM UPDATE
+
+Assistant audited the live bounded latent/out-of-support campaign. PID 6444 was terminal, GPU idle, campaign receipt status COMPLETE with 13/13 jobs and no stderr failure. Aggregate SHA `e7bc9003d841eb1b72191ef978eec9ee9dbf0d6432bb75f0a4cf0b21105f417e`. Mean paired T-C accuracy deltas across six seeds: RULE_EXPLICIT -0.05060, BOUNDARY_LATENT -0.05655, FULL_LATENT +0.02083 at near-floor. Pooled support counts showed TREATMENT -45 correct vs CONTROL on negative slack, -16 at equality, +11 on +1 overflow, +21 on far overflow. Seed signs were heterogeneous, so pooled rows were not promoted as inferential units. Action-confusion analysis showed CONTROL is strongly `accept_all`-biased, while TREATMENT shifts toward overflow/backpressure behavior, buying some overflow correctness at the cost of more false-positive overflow behavior on non-overflow/equality states. Neither arm cleanly learned the intended strict inequality over expanded support. This strengthens under-resolved/wrong identifying basis and action-policy entanglement, keeps optimizer-field/horizon live, and weakens simple direct sibling-gradient-conflict as the primary explanation. Post-hoc summary persisted at `state/analysis/V10_BOUNDED_LATENT_DIAGNOSTIC_HOSTILE_SUMMARY_2026-08-30.md`.
