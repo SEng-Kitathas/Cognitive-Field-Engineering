@@ -4,12 +4,12 @@ Date: 2026-08-29
 Current frontier: live v1.0 first causal screen, Stage 1.
 
 ## Immediate
-1. Build and run static hostile qualification for `state/candidates/v11_concentration_20260830`.
-2. Bind `TOKEN_AUDIT.json` and the fresh evaluation overlap audit into the candidate qualification.
-3. Build v1.1 evaluator wiring for the fresh 144-field + 96-LHIT surface; do not use evaluator feedback during training.
-4. Freeze training contract and `V11_FRESH_SEED_ARM_ORDER_2026-08-30.json` into a new input lock before scientific training.
-5. Run exact pinned-tokenizer replay and one-step repeatability against the new lock.
-6. Only after all gates pass, start the six-seed K1/K2/K4 screen.
+1. Complete/read back `state/analysis/V10_BOUNDED_LATENT_DIAGNOSTIC_CAMPAIGN_20260830` (PID 6444 at launch).
+2. Require all 13 read-only model evaluations or an explicit failed job receipt; no partial aggregate promotion.
+3. Analyze paired seed deltas separately for RULE_EXPLICIT, BOUNDARY_LATENT, FULL_LATENT and support buckets negative/equality/+1/far-overflow.
+4. Use the diagnostic to rank basis-under-resolution vs optimizer-field/horizon vs interference; do not call post-hoc results confirmation.
+5. Only then decide whether to build a new bounded source basis, an update-field permutation screen, or eventually run the parked K1/K2/K4 candidate.
+6. No v1.1 weight mutation before that decision is frozen/preregistered.
 
 ## Stage-1 close
 Completed:

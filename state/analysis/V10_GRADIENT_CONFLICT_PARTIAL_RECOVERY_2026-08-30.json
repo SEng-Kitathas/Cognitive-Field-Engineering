@@ -1,0 +1,85 @@
+{
+  "interpretation_ceiling": [
+    "Partial post-hoc initial-state diagnostic only.",
+    "Does not reconstruct historical gradients.",
+    "Too few bounded_transport neighborhoods to settle interference.",
+    "Observed bounded_transport samples had zero negative cosine pairs, so simple direct sibling-gradient conflict is not supported by these samples."
+  ],
+  "recovery_note": "Six completed per-neighborhood measurements survived in the old log. A fresh recovery replay reproduced row_index 0 exactly before being stopped. No optimizer updates occurred. Full replay was intentionally aborted because cost was high relative to information value.",
+  "rows": [
+    {
+      "coherence": 0.680181015498422,
+      "family": "warrant_vs_taint",
+      "mean_cos": 0.03495672903954983,
+      "neg_pairs": 2,
+      "processed": 1,
+      "row_index": 0
+    },
+    {
+      "coherence": 0.690357639862612,
+      "family": "warrant_vs_taint",
+      "mean_cos": 0.037644006622334324,
+      "neg_pairs": 2,
+      "processed": 2,
+      "row_index": 1
+    },
+    {
+      "coherence": 0.9735140090035751,
+      "family": "bounded_transport",
+      "mean_cos": 0.13425053594013056,
+      "neg_pairs": 0,
+      "processed": 3,
+      "row_index": 8
+    },
+    {
+      "coherence": 0.8626923952353536,
+      "family": "bounded_transport",
+      "mean_cos": 0.08488138411970188,
+      "neg_pairs": 0,
+      "processed": 4,
+      "row_index": 9
+    },
+    {
+      "coherence": 0.5017048600848294,
+      "family": "warrant_vs_taint",
+      "mean_cos": -0.07771977502852678,
+      "neg_pairs": 3,
+      "processed": 5,
+      "row_index": 16
+    },
+    {
+      "coherence": 0.4923902246295558,
+      "family": "warrant_vs_taint",
+      "mean_cos": -0.08798855589702725,
+      "neg_pairs": 3,
+      "processed": 6,
+      "row_index": 17
+    }
+  ],
+  "schema": "cfe.v10.gradient-conflict-partial-recovery.v1",
+  "source_log": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\gradient_replay_logs\\treatment2501_sample.stdout.log",
+  "source_log_sha256": "85d7a2e8ce5c54a69fb4e0d86d86c6dfd2e21a729448ed92ed11308e5591fea5",
+  "status": "PARTIAL_DIAGNOSTIC_RECOVERED__FULL_REPLAY_ABORTED_FOR_COST",
+  "summary": {
+    "bounded_transport": {
+      "mean_coherence": 0.9181032021194644,
+      "mean_of_sequence_mean_cosine": 0.10956596002991623,
+      "n_sequences": 2,
+      "negative_pair_counts": [
+        0,
+        0
+      ]
+    },
+    "warrant_vs_taint": {
+      "mean_coherence": 0.5911584350188548,
+      "mean_of_sequence_mean_cosine": -0.02327689881591747,
+      "n_sequences": 4,
+      "negative_pair_counts": [
+        2,
+        2,
+        3,
+        3
+      ]
+    }
+  }
+}

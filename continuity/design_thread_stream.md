@@ -314,3 +314,23 @@ Timestamp: 2026-08-30
 Tags: GITHUB PUSH VERIFIED, RELEASE VERIFIED, CONTINUITY POLICY ACTIVE
 
 Initial repository publication was pushed to `main` and remote head verified. A second receipt commit was pushed and verified at `c92c18e2629cbd07a0efd911ebb979b7cf1539c7`. Existing Git credentials were passed in-memory to GitHub CLI without printing/persisting the secret. GitHub Release `cfe-reincarnation-2026-08-30` was created at `https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-reincarnation-2026-08-30`. Readback verified four opt-in assets and SHA-256 digests: maximum reincarnation v3 `4991366d...73f8` (265,879,800 bytes), R3.1 SOP archive `4d205bec...a278` (104,946 bytes), historical conversation export `80d528d5...b091` (473,732 bytes; GitHub asset normalized to `this.conversation.txt`), and current GitHub reincarnation checkpoint `a0a51eea...dcaa` (486,029 bytes). Heavy assets remain outside normal Git clone/install. Three 2026-08-30 chat-upload-only archives are manifested by exact hash but were not present on the Windows server and therefore were not falsely claimed as uploaded. Final publication/release receipts are being committed under the new per-turn Git policy.
+
+---
+
+## Exchange — USER
+Timestamp: 2026-08-30
+Tags: PROCEED CFE
+
+Operator instructed: `okay, proceed with CFE`.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: MECHANISM DIAGNOSTIC, READ-ONLY CAMPAIGN, STATE CHANGE
+
+Assistant re-grounded from Git-published continuity. The old gradient logs yielded six valid initial-state neighborhood measurements; a fresh recovery replay reproduced row 0 exactly but was intentionally stopped because full replay cost was high relative to information value. Partial receipt `state/analysis/V10_GRADIENT_CONFLICT_PARTIAL_RECOVERY_2026-08-30.json` records bounded_transport n=2 mean cosine +0.1096, zero negative sibling pairs, coherence 0.9181 versus warrant_vs_taint n=4 mean cosine -0.0233 with repeated negative pairs; ceiling remains partial/post-hoc, not historical gradient reconstruction.
+
+Assistant then built `tools/build_v10_bounded_latent_diagnostic.py` and generated `state/candidates/v10_bounded_latent_diagnostic_20260830`: 56 states × 3 tiers = 168 unique prompts on new domain `dispatch_reservoir`, with margins -5,-2,-1,0,+1,+2,+5 and prompt tiers RULE_EXPLICIT / BOUNDARY_LATENT / FULL_LATENT. Static audit passed and discriminates cheap rival rules `margin==1`, `margin>=0`, `margin!=0`, and `margin>1`. Cases SHA `063b1ad366df98367e35ec411c63f45e62011f26e71498c4e60dbb30e37b4f1a`; audit SHA `3d11a6b4cac595cf2b832f60b238bbd1808b63d5a3861ad3a0b325dd3c6d4d8f`.
+
+Assistant built/compiled `tools/evaluate_v10_bounded_latent_diagnostic.py` and `tools/run_v10_bounded_latent_diagnostic_campaign.py`. The campaign verifies adapter payloads against sealed run manifests and evaluates NF4 plus all 12 v1.0 adapters sequentially with no training. It launched as PID 6444 with output root `state/analysis/V10_BOUNDED_LATENT_DIAGNOSTIC_CAMPAIGN_20260830`. Scientific interpretation remains post-hoc/read-only; no v1.1 weights have been mutated.

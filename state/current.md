@@ -111,3 +111,13 @@ SHA-256: `5a6c1e8af753de2e481a5a8187cde9742530dc01f1f4f6f89b1236a11c1d2a2c`
 - Per material turn: update continuity -> commit -> push when authenticated -> verify remote head.
 - Local prepared checkout: `publication/github/Cognitive-Field-Engineering`.
 - Publication is not called complete until remote commit readback succeeds.
+
+
+## Active post-hoc diagnostic campaign
+- Diagnostic source: `state/candidates/v10_bounded_latent_diagnostic_20260830`.
+- 56 bounded states × 3 tiers = 168 prompts; margins -5,-2,-1,0,+1,+2,+5.
+- Static audit: PASS; rival rules `==1`, `>=0`, `!=0`, `>1` are all discriminated.
+- Campaign: NF4 base + all 12 sealed adapters, read-only, no optimizer updates.
+- PID at launch: `6444`.
+- Output: `state/analysis/V10_BOUNDED_LATENT_DIAGNOSTIC_CAMPAIGN_20260830`.
+- Interpretation ceiling: post-hoc diagnostic only; FULL_LATENT failure can include prompt/task ambiguity and is not by itself proof of absent representation.

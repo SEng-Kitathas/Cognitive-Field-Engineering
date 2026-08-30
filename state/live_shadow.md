@@ -13,16 +13,16 @@
 
 ## Current Authoritative State
 - v1.0 first screen is complete through six paired seeds; execution integrity passed; no further adaptive extension authorized.
-- Earned empirical result: relational co-visibility geometry has a family-dependent transfer effect on unseen domains; observed family discordance is `+43 / 0 / -71`.
-- This rules out a simple "treatment globally better" story and shows the control is not generically broken.
-- Not earned: a predictive mechanism, a usable cognitive archetype, or a rule for which relations should receive which geometry.
-- Strongest epistemic statement: **core observation established; mechanism unresolved**.
-- Leading live mechanisms for bounded_transport harm: diversity starvation, sibling interference, wrong-neighborhood construction, optimizer-horizon mismatch.
-- Adapter geometry does not explain the sign flips.
-- Neighborhood identity is not learner-visible metadata; it is embodied via shared base-state/context realization.
-- Hostile autopsy persisted at `state/analysis/HOSTILE_CAUSAL_AUTOPSY_V10_2026-08-30.md`.
-- v1.1 K-dose candidate remains technically qualified as a candidate, but is demoted behind cheaper composition/horizon discriminators.
-- No v1.1 scientific training has started.
+- Earned empirical result: relational co-visibility geometry has a family-dependent held-out-domain task-performance effect; family discordance `+43 / 0 / -71`.
+- Not earned: predictive mechanism, latent cognitive archetype installation, or a general CFE technique.
+- Strongest statement: **core observation established; mechanism unresolved**.
+- Bounded-transport source audit verified treatment neighborhoods hold `capacity` and `incoming` fixed and span margins only `{0,+1}`; that support does not eliminate the rival `margin == 1` for the intended `margin > 0` rule.
+- v1.0 prompts explicitly supply substantial rule/policy semantics, so held-out-domain task performance is not equivalent to latent relation transfer.
+- Partial initial-state LoRA gradient replay recovered 6 neighborhood measurements. In the 2 bounded samples mean cosine was +0.110 with zero negative sibling pairs and mean coherence 0.918; 4 warrant samples averaged -0.023 with repeated negative pairs. This weakens but does not eliminate simple bounded sibling-gradient-conflict as the first explanation.
+- New post-hoc bounded diagnostic is statically qualified: 56 states × 3 prompt tiers = 168 cases; margins `-5,-2,-1,0,+1,+2,+5`; tiers RULE_EXPLICIT / BOUNDARY_LATENT / FULL_LATENT; cheap rivals are discriminated.
+- Read-only diagnostic campaign is ACTIVE under PID 6444 over NF4 + all 12 sealed v1.0 adapters. No weight updates occur.
+- v1.1 K-dose candidate remains technically qualified but parked behind mechanism discriminators; no v1.1 scientific training has started.
+- GitHub continuity publication is active; heavy archives remain opt-in release assets.
 
 ## Active Constraints
 - Do not restart or overwrite the completed CONTROL training output or the active corrected CONTROL evaluation output.
@@ -40,16 +40,17 @@
 - Current scientific work outranks unfinished exploratory campaign work until the live screen reaches a clean gate.
 
 ## Open Loops
-- Bounded-transport composition audit.
-- Fixed-density sibling-composition discriminator.
-- Optimizer-window permutation / horizon discriminator.
-- Revised preregistration with explicit falsifiers for starvation/interference/wrong-neighborhood/horizon hypotheses.
-- K1/K2/K4 dose screen only if still causally justified after those tests.
-- No v1.1 scientific training before revised lock and runtime qualification.
+- Complete/read back the 13-model bounded latent/out-of-support diagnostic campaign.
+- Compare treatment vs control by prompt tier and by negative-slack / boundary / +1 old-support / far-overflow buckets.
+- Decide whether wrong identifying basis, optimizer-field starvation, sibling interference, horizon mismatch, or an unmodeled mechanism remains live.
+- Build a genuinely reconstituted bounded identifying basis only if diagnostic evidence still supports that branch.
+- K1/K2/K4 dose screen only if concentration remains causally justified.
+- No v1.1 scientific training before revised mechanism-first preregistration and lock.
 
 ## Immediate Next Step
-- Complete Git commit/push of the publication checkout and verify the remote head. If remote authentication blocks push, report that exact blocker while preserving the complete local commit.
-- After publication integrity is verified, return to the mechanism frontier: recover gradient diagnostic, then read-only bounded out-of-support/latent evaluation before new v1.1 training.
+- Monitor PID 6444 to terminal. Require per-model EVAL_MANIFEST readback and final aggregate before interpretation.
+- If campaign completes, run hostile paired-seed analysis of RULE_EXPLICIT vs BOUNDARY_LATENT vs FULL_LATENT and out-of-support margin buckets.
+- If campaign blocks, preserve the exact first failing model/receipt and do not infer scientific failure from wrapper/runtime failure.
 
 ## Last 10 Turn Reinforcement Window
 1. User asked to continue from the prior CFE work.
@@ -64,8 +65,9 @@
 10. Resume-tool audit correctly blocked on the current partial CONTROL output; stale current/next state was repaired.
 
 ## Delta Since Previous Shadow
-- GitHub publication became an active project policy.
-- A thin-clone publication tree was prepared with continuity, commander intent, history/decisions, prohibitions, claim ledger, transcript reconstruction, full extracted R3.1 SOP archive, tools/state/research/campaign artifacts, and heavy-asset manifests.
-- Heavy archive/model/checkpoint payloads are explicitly excluded from normal Git and reserved for opt-in release/archive fetch.
-- Per-material-turn Git continuity policy is active, with push success requiring remote-head readback.
+- Recovered and intentionally bounded the partial gradient-conflict diagnostic rather than spending GPU on a low-value full replay.
+- Built and statically qualified a 168-case bounded out-of-support / latent-rule diagnostic.
+- Built/compiled a fail-closed read-only campaign runner across NF4 and all 12 sealed adapters.
+- Launched campaign PID 6444; no scientific training or weight mutation is occurring.
+- This material turn is being committed/pushed under the per-turn Git continuity policy.
 

@@ -1,0 +1,113 @@
+{
+  "audit": {
+    "cases": 168,
+    "laws": [
+      "POST_HOC_DIAGNOSTIC != CONFIRMATORY_EVIDENCE",
+      "NEW_SUPPORT != NEW_TRAINING",
+      "RULE_EXPLICIT != BOUNDARY_LATENT != FULL_LATENT"
+    ],
+    "margins": [
+      -5,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      5
+    ],
+    "prompt_unique": true,
+    "rival_discrimination": {
+      "EQ1": {
+        "examples": [
+          "v0:transactional:m+2",
+          "v0:transactional:m+5",
+          "v0:latest_state:m+2",
+          "v0:latest_state:m+5",
+          "v1:transactional:m+2",
+          "v1:transactional:m+5",
+          "v1:latest_state:m+2",
+          "v1:latest_state:m+5",
+          "v2:transactional:m+2",
+          "v2:transactional:m+5",
+          "v2:latest_state:m+2",
+          "v2:latest_state:m+5"
+        ],
+        "mismatch_states": 16
+      },
+      "GE0": {
+        "examples": [
+          "v0:transactional:m+0",
+          "v0:latest_state:m+0",
+          "v1:transactional:m+0",
+          "v1:latest_state:m+0",
+          "v2:transactional:m+0",
+          "v2:latest_state:m+0",
+          "v3:transactional:m+0",
+          "v3:latest_state:m+0"
+        ],
+        "mismatch_states": 8
+      },
+      "GT1": {
+        "examples": [
+          "v0:transactional:m+1",
+          "v0:latest_state:m+1",
+          "v1:transactional:m+1",
+          "v1:latest_state:m+1",
+          "v2:transactional:m+1",
+          "v2:latest_state:m+1",
+          "v3:transactional:m+1",
+          "v3:latest_state:m+1"
+        ],
+        "mismatch_states": 8
+      },
+      "NE0": {
+        "examples": [
+          "v0:transactional:m-5",
+          "v0:transactional:m-2",
+          "v0:transactional:m-1",
+          "v0:latest_state:m-5",
+          "v0:latest_state:m-2",
+          "v0:latest_state:m-1",
+          "v1:transactional:m-5",
+          "v1:transactional:m-2",
+          "v1:transactional:m-1",
+          "v1:latest_state:m-5",
+          "v1:latest_state:m-2",
+          "v1:latest_state:m-1"
+        ],
+        "mismatch_states": 24
+      }
+    },
+    "schema": "cfe.v10.bounded-latent-diagnostic-audit.v1",
+    "states": 56,
+    "status": "PASS_STATIC__POST_HOC_DIAGNOSTIC_ONLY",
+    "tiers": [
+      "RULE_EXPLICIT",
+      "BOUNDARY_LATENT",
+      "FULL_LATENT"
+    ],
+    "variants": [
+      {
+        "capacity": 23,
+        "incoming": 3
+      },
+      {
+        "capacity": 31,
+        "incoming": 5
+      },
+      {
+        "capacity": 47,
+        "incoming": 7
+      },
+      {
+        "capacity": 61,
+        "incoming": 9
+      }
+    ]
+  },
+  "audit_sha256": "3d11a6b4cac595cf2b832f60b238bbd1808b63d5a3861ad3a0b325dd3c6d4d8f",
+  "cases_bytes": 126972,
+  "cases_sha256": "063b1ad366df98367e35ec411c63f45e62011f26e71498c4e60dbb30e37b4f1a",
+  "schema": "cfe.v10.bounded-latent-diagnostic-manifest.v1",
+  "status": "CANDIDATE_READY_FOR_READ_ONLY_EVALUATION"
+}
