@@ -14,18 +14,18 @@
 ## Current Authoritative State
 - v1.0 first screen is complete through six paired seeds; execution integrity passed; no further adaptive extension authorized.
 - Earned empirical result: relational co-visibility geometry has a family-dependent held-out-domain task-performance effect; family discordance `+43 / 0 / -71`.
-- Not earned: predictive mechanism, latent cognitive archetype installation, or a general CFE technique.
-- Strongest statement: **core observation established; mechanism unresolved**.
-- Bounded-transport source audit verified treatment neighborhoods hold `capacity` and `incoming` fixed and span margins only `{0,+1}`; that support does not eliminate the rival `margin == 1` for the intended `margin > 0` rule.
-- v1.0 prompts explicitly supply substantial rule/policy semantics, so held-out-domain task performance is not equivalent to latent relation transfer.
-- Partial initial-state LoRA gradient replay recovered 6 neighborhood measurements. Bounded samples showed positive mean sibling cosine and zero negative pairs; warrant samples showed more conflict. This weakens but does not eliminate simple bounded sibling-gradient conflict.
-- The 13-model bounded latent/out-of-support diagnostic campaign is COMPLETE. Aggregate SHA: `e7bc9003d841eb1b72191ef978eec9ee9dbf0d6432bb75f0a4cf0b21105f417e`.
-- Six-seed post-hoc tier deltas T-C: RULE_EXPLICIT -5.06 pts mean, BOUNDARY_LATENT -5.65 pts mean, FULL_LATENT +2.08 pts mean at floor.
-- Pooled support pattern: TREATMENT vs CONTROL is -45 correct on negative slack, -16 at equality, +11 on old +1 overflow, +21 on far overflow. Seed signs are heterogeneous; pooled rows are not the inferential unit.
-- Action-confusion audit shows CONTROL is strongly `accept_all`-biased, while TREATMENT shifts the action basin toward overflow/backpressure, gaining some overflow correctness while creating more false-positive overflow behavior on safe states. Neither arm cleanly learns the intended strict inequality across the new support.
-- Current mechanistic posture: wrong/under-resolved identifying basis and action-policy entanglement strengthened; optimizer-visible geometry/horizon remains live; direct sibling-gradient conflict weakened; no mechanism confirmed.
-- v1.1 K-dose candidate remains technically qualified but parked behind mechanism discriminators; no v1.1 scientific training has started.
-- GitHub continuity publication is active; heavy archives remain opt-in release assets.
+- Not earned: predictive mechanism, latent cognitive archetype installation, or a general CFE technique. Strongest statement remains **core observation established; mechanism unresolved**.
+- Completed v1.0 bounded latent/out-of-support diagnostic showed neither arm cleanly learned the intended strict inequality; CONTROL forms a strong `accept_all` basin while TREATMENT shifts toward overflow/backpressure, trading some overflow gains for more false-positive overflow on safe/equality states.
+- Current next mechanism screen is now predicate/policy-factorized rather than another broad CFE treatment-vs-scramble comparison.
+- Frozen prereg v2 separates: (A) opaque `condition_z` boundary predicate learning; (B) mode-conditioned policy learning with overflow truth supplied and arithmetic absent.
+- Predicate arms: `PREDICATE_NARROW_SLICE` margins `{0,+1,0,+1}` vs `PREDICATE_IDENTIFYING_BASIS` margins `{-3,0,+1,+3}` with identical paired capacity/incoming contexts and 2/2 target balance.
+- Pre-outcome amendment removed the semantic word `overflow` and the inequality formula from predicate learner-visible prompts. Curator truth remains `condition_z := queued + incoming > capacity`.
+- Opaque-target candidate `state/candidates/v11_predicate_policy_r2_20260830` passed exact tokenizer burden parity: 18,120 total tokens and 2,304 supervised tokens per predicate arm; 72/72 paired sequence lengths exact; max 253 tokens.
+- Static hostile qualification passed 816 checks with zero failures. Status: `PASS_CANDIDATE__BASELINE_ADMISSION_NOT_RUN__NOT_LOCKED__NOT_TRAINED`.
+- Baseline admission gates were frozen before outcome: reject predicate benchmark if NF4 >=0.85 strict accuracy; skip policy training if NF4 policy >=0.90.
+- NF4 baseline admission evaluation is ACTIVE under PID 18524. No new mechanism trained-arm outcome exists yet and no v1.1 weight mutation has started.
+- K1/K2/K4 remains parked behind this mechanism screen.
+- GitHub continuity publication remains active; heavy archives are opt-in release assets.
 
 ## Active Constraints
 - Do not restart or overwrite the completed CONTROL training output or the active corrected CONTROL evaluation output.
@@ -43,17 +43,18 @@
 - Current scientific work outranks unfinished exploratory campaign work until the live screen reaches a clean gate.
 
 ## Open Loops
-- Design the next preregistered bounded-transport discriminator so overflow-predicate identification is separated from mode-conditioned action policy.
-- Build an identifying numerical basis with negative slack, equality, and multiple positive margins before interpreting any concentration/horizon sweep as mechanism proof.
-- Decide whether the next experiment should isolate basis constitution first or optimizer update-field geometry first; do not run both as a blended rescue.
-- Keep K1/K2/K4 parked until concentration is still causally justified after the predicate/policy discriminator.
-- Preserve the tournament disposition: non-discrimination is evidence against the current mechanistic picture, not permission for a post-hoc combination explanation.
-- No v1.1 scientific training before the next mechanism-first preregistration and lock.
+- Complete/read back NF4 baseline admission for predicate and policy tasks.
+- If predicate NF4 >=0.85, reject the predicate benchmark before training and redesign without using trained-arm outcomes.
+- If policy NF4 >=0.90, skip policy training as scientifically uninformative; otherwise qualify POLICY_FACTORIZED training.
+- If predicate is admitted, create a new input lock bound to prereg v2, candidate r2, token references/audit, exact base snapshot, and static qualification.
+- Rebind/requalify runtime/profile/repeatability under the new lock before any trained-arm execution.
+- No optimizer-window manipulation or K1/K2/K4 training in parallel with this basis screen.
+- Preserve non-discrimination disposition as evidence against current mechanism picture.
 
 ## Immediate Next Step
-- Build a preregistered two-stage bounded-transport mechanism screen that separates (A) identifying the overflow predicate from (B) selecting the mode-conditioned action policy.
-- Use a newly generated identifying basis with support below, at, and above the boundary, including multiple positive margins, and keep global burden matched.
-- Freeze explicit failure predictions before any new weight outcome is observed.
+- Monitor PID 18524 to terminal and require `ADMISSION.json` readback.
+- Apply the pre-frozen NF4 admission gates exactly.
+- If predicate is admitted, advance to input-lock/runtime replay; if rejected, stop before training and redesign the benchmark.
 
 ## Last 10 Turn Reinforcement Window
 1. User asked to continue from the prior CFE work.
@@ -68,8 +69,10 @@
 10. Resume-tool audit correctly blocked on the current partial CONTROL output; stale current/next state was repaired.
 
 ## Delta Since Previous Shadow
-- The bounded latent/out-of-support campaign completed 13/13 jobs with no execution failure.
-- Hostile analysis found neither arm cleanly learned the strict inequality; treatment shifts the action basin toward overflow/backpressure rather than producing a monotonic improvement.
-- Under-resolved basis/action-policy entanglement gained support; simple direct sibling-gradient conflict weakened.
-- Campaign aggregate and hostile summary are being committed/pushed under per-turn Git continuity policy.
+- Frozen a two-stage predicate/policy mechanism preregistration before new weight outcomes.
+- Added pre-outcome opaque-target amendment to remove pretrained semantic overflow shortcut.
+- Built r2 candidate and exact token references; predicate arms are exactly burden-matched.
+- Passed 816-check static hostile qualification with zero failures.
+- Launched NF4-only baseline admission PID 18524; no new scientific training has started.
+- This state is being committed/pushed before baseline admission readback.
 

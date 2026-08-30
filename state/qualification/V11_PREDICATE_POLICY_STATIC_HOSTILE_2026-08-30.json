@@ -1,0 +1,4101 @@
+{
+  "bindings": {
+    "amendment_sha256": "bdd51ca7ff97679dc032529b0386dd1b143c9ab514c51d58e2b100775dc8f1c1",
+    "candidate_manifest_sha256": "18a846937cce18cef89d48926ebc271817b4ebb3114c45cf13077ab326d4f352",
+    "generator_sha256": "1e2736c096fdb27022e62246865fb36db5d5c27ebddf6f222b5d661ec17d7b52",
+    "prereg_sha256": "ebb014831500a6f74961a4fb06af75bf33ba99a290af11e3ff954f8850e196a4",
+    "token_audit_sha256": "51c7c8cc10ce435d1a26e0618d45fee968925b40a980b77d31f33135a2c92bbe"
+  },
+  "check_count": 816,
+  "checks": [
+    {
+      "check": "candidate_prelock_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "token_audit_pass",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "prereg_v2_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "amendment_binding",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_72_blocks",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_34",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_34",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_34",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_35",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_35",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_35",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_36",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_36",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_36",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_37",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_37",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_37",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_38",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_38",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_38",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_39",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_39",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_39",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_40",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_40",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_40",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_41",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_41",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_41",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_42",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_42",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_42",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_43",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_43",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_43",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_44",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_44",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_44",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_45",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_45",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_45",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_46",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_46",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_46",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_47",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_47",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_47",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_49",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_49",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_49",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_50",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_50",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_50",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_51",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_51",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_51",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_52",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_52",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_52",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_53",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_53",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_53",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_54",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_54",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_54",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_55",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_55",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_55",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_56",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_56",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_56",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_57",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_57",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_57",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_58",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_58",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_58",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_59",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_59",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_59",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_60",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_60",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_60",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_61",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_61",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_61",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_62",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_62",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_62",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_63",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_63",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_63",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_64",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_64",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_64",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_65",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_65",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_65",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_66",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_66",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_66",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_67",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_67",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_67",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_68",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_68",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_68",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_69",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_69",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_69",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_70",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_70",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_70",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_roles_71",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_no_semantic_formula_leak_71",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_target_balance_71",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_72_blocks",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_34",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_34",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_34",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_35",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_35",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_35",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_36",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_36",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_36",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_37",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_37",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_37",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_38",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_38",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_38",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_39",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_39",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_39",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_40",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_40",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_40",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_41",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_41",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_41",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_42",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_42",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_42",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_43",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_43",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_43",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_44",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_44",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_44",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_45",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_45",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_45",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_46",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_46",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_46",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_47",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_47",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_47",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_49",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_49",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_49",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_50",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_50",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_50",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_51",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_51",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_51",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_52",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_52",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_52",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_53",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_53",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_53",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_54",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_54",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_54",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_55",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_55",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_55",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_56",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_56",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_56",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_57",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_57",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_57",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_58",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_58",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_58",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_59",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_59",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_59",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_60",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_60",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_60",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_61",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_61",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_61",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_62",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_62",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_62",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_63",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_63",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_63",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_64",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_64",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_64",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_65",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_65",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_65",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_66",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_66",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_66",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_67",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_67",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_67",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_68",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_68",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_68",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_69",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_69",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_69",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_70",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_70",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_70",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_roles_71",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_no_semantic_formula_leak_71",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_target_balance_71",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_34",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_34",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_34",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_35",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_35",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_35",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_36",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_36",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_36",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_37",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_37",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_37",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_38",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_38",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_38",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_39",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_39",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_39",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_40",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_40",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_40",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_41",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_41",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_41",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_42",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_42",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_42",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_43",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_43",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_43",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_44",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_44",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_44",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_45",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_45",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_45",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_46",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_46",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_46",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_47",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_47",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_47",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_49",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_49",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_49",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_50",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_50",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_50",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_51",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_51",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_51",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_52",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_52",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_52",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_53",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_53",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_53",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_54",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_54",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_54",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_55",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_55",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_55",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_56",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_56",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_56",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_57",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_57",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_57",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_58",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_58",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_58",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_59",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_59",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_59",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_60",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_60",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_60",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_61",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_61",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_61",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_62",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_62",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_62",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_63",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_63",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_63",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_64",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_64",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_64",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_65",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_65",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_65",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_66",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_66",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_66",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_67",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_67",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_67",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_68",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_68",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_68",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_69",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_69",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_69",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_70",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_70",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_70",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "paired_context_identity_71",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "narrow_support_71",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "identifying_support_71",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "predicate_global_token_equal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "predicate_supervised_token_equal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "predicate_pair_lengths_exact",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "predicate_paired_supervision_exact",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "predicate_eval_56",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "predicate_eval_support",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "predicate_eval_unique",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "predicate_eval_no_semantic_formula_leak",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_72_blocks",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_34",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_34",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_35",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_35",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_36",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_36",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_37",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_37",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_38",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_38",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_39",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_39",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_40",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_40",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_41",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_41",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_42",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_42",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_43",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_43",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_44",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_44",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_45",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_45",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_46",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_46",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_47",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_47",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_49",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_49",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_50",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_50",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_51",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_51",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_52",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_52",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_53",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_53",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_54",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_54",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_55",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_55",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_56",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_56",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_57",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_57",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_58",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_58",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_59",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_59",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_60",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_60",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_61",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_61",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_62",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_62",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_63",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_63",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_64",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_64",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_65",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_65",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_66",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_66",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_67",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_67",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_68",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_68",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_69",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_69",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_70",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_70",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_factorial_71",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_no_arithmetic_71",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_eval_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "policy_eval_domain_disjoint",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_token_reference_present",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_NARROW_SLICE_token_reference_72",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_token_reference_present",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "PREDICATE_IDENTIFYING_BASIS_token_reference_72",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "POLICY_FACTORIZED_token_reference_present",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "POLICY_FACTORIZED_token_reference_72",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_build_v11_predicate_policy_candidate.py",
+      "detail": null,
+      "pass": true
+    }
+  ],
+  "claims_not_authorized": [
+    "scientific start",
+    "wrong-basis mechanism confirmed",
+    "policy separability confirmed",
+    "CFE works"
+  ],
+  "failures": [],
+  "schema": "cfe.v11.predicate-policy-static-hostile.v1",
+  "status": "PASS_CANDIDATE__BASELINE_ADMISSION_NOT_RUN__NOT_LOCKED__NOT_TRAINED"
+}

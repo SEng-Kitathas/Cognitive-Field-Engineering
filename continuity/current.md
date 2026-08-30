@@ -160,3 +160,17 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Neither arm cleanly demonstrates the intended inequality across the expanded support.
 - Post-hoc hostile summary: `state/analysis/V10_BOUNDED_LATENT_DIAGNOSTIC_HOSTILE_SUMMARY_2026-08-30.md`.
 - Current implication: prioritize separating overflow-predicate identification from action-policy learning before any broader concentration sweep.
+
+
+## v1.1 predicate/policy mechanism screen — pretraining
+- No new mechanism weight outcome has been observed.
+- Prereg v2 SHA: `ebb014831500a6f74961a4fb06af75bf33ba99a290af11e3ff954f8850e196a4`.
+- Pre-outcome amendment SHA: `bdd51ca7ff97679dc032529b0386dd1b143c9ab514c51d58e2b100775dc8f1c1`.
+- Candidate r2 manifest SHA: `18a846937cce18cef89d48926ebc271817b4ebb3114c45cf13077ab326d4f352`.
+- Token audit SHA: `51c7c8cc10ce435d1a26e0618d45fee968925b40a980b77d31f33135a2c92bbe`.
+- Static hostile qualification: PASS, 816 checks, zero failures.
+- Predicate arms: identical paired contexts and exact token/supervision burden; narrow support `{0,+1,0,+1}` vs identifying support `{-3,0,+1,+3}`.
+- Predicate learner-visible target is opaque `condition_z`; formula and semantic word `overflow` absent.
+- Policy task supplies overflow truth + mode and removes arithmetic.
+- NF4 baseline admission is active under PID `18524`.
+- Frozen gates: predicate rejected if NF4 >=0.85; policy training skipped if NF4 >=0.90.

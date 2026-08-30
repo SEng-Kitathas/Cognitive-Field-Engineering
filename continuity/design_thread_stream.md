@@ -358,3 +358,25 @@ Timestamp: 2026-08-30
 Tags: CAMPAIGN COMPLETE, HOSTILE SUMMARY, MECHANISM UPDATE
 
 Assistant audited the live bounded latent/out-of-support campaign. PID 6444 was terminal, GPU idle, campaign receipt status COMPLETE with 13/13 jobs and no stderr failure. Aggregate SHA `e7bc9003d841eb1b72191ef978eec9ee9dbf0d6432bb75f0a4cf0b21105f417e`. Mean paired T-C accuracy deltas across six seeds: RULE_EXPLICIT -0.05060, BOUNDARY_LATENT -0.05655, FULL_LATENT +0.02083 at near-floor. Pooled support counts showed TREATMENT -45 correct vs CONTROL on negative slack, -16 at equality, +11 on +1 overflow, +21 on far overflow. Seed signs were heterogeneous, so pooled rows were not promoted as inferential units. Action-confusion analysis showed CONTROL is strongly `accept_all`-biased, while TREATMENT shifts toward overflow/backpressure behavior, buying some overflow correctness at the cost of more false-positive overflow behavior on non-overflow/equality states. Neither arm cleanly learned the intended strict inequality over expanded support. This strengthens under-resolved/wrong identifying basis and action-policy entanglement, keeps optimizer-field/horizon live, and weakens simple direct sibling-gradient-conflict as the primary explanation. Post-hoc summary persisted at `state/analysis/V10_BOUNDED_LATENT_DIAGNOSTIC_HOSTILE_SUMMARY_2026-08-30.md`.
+
+---
+
+## Exchange — USER
+Timestamp: 2026-08-30
+Tags: PROCEED INTELLIGENTLY
+
+Operator instructed: `Proceed as you see fit and most intelligent`.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: V11 MECHANISM PREREG, OPAQUE PREDICATE, STATIC QUALIFICATION, BASELINE ADMISSION
+
+Assistant selected the smallest separable next experiment rather than another broad CFE screen: separate overflow-predicate identification from mode-conditioned action policy. Prereg v2 freezes predicate arms `PREDICATE_NARROW_SLICE` margins {0,+1,0,+1} and `PREDICATE_IDENTIFYING_BASIS` margins {-3,0,+1,+3} with identical paired capacity/incoming contexts, sequence density, target balance, and optimizer topology. `POLICY_FACTORIZED` removes arithmetic and supplies overflow truth + mode.
+
+Before any new model outcome, assistant amended the predicate task to use opaque learner-visible `condition_z` and removed both the semantic word `overflow` and the strict inequality formula from predicate prompts. Amendment SHA `bdd51ca7ff97679dc032529b0386dd1b143c9ab514c51d58e2b100775dc8f1c1`; prereg v2 SHA `ebb014831500a6f74961a4fb06af75bf33ba99a290af11e3ff954f8850e196a4`. Baseline admission gates were frozen pre-outcome: predicate benchmark rejected if NF4 >=0.85 strict accuracy; policy training skipped if NF4 policy >=0.90.
+
+Candidate r2 was generated at `state/candidates/v11_predicate_policy_r2_20260830`. Exact pinned-tokenizer audit passed: both predicate arms 18,120 total tokens, 2,304 supervised tokens, 72/72 exact paired sequence lengths, max 253; token audit SHA `51c7c8cc10ce435d1a26e0618d45fee968925b40a980b77d31f33135a2c92bbe`. Independent static hostile audit passed 816 checks with zero failures; candidate manifest SHA `18a846937cce18cef89d48926ebc271817b4ebb3114c45cf13077ab326d4f352`.
+
+NF4-only baseline admission evaluation then launched under PID 18524. No new trained-arm outcome exists and no v1.1 weight mutation has started.

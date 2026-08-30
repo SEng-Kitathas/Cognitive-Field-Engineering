@@ -1,0 +1,175 @@
+{
+  "baseline_admission_gates": {
+    "policy_skip_training_if_nf4_accuracy_gte": 0.9,
+    "predicate_nf4_reject_if_accuracy_gte": 0.85,
+    "timing": "both gates fixed before any new trained-arm outcome"
+  },
+  "evaluation": {
+    "policy_primary": {
+      "new_domain": true,
+      "overflow_truth_supplied": true,
+      "primary_metric": "strict JSON action accuracy",
+      "secondary_slices": [
+        "non-overflow",
+        "transactional overflow",
+        "latest-state overflow"
+      ]
+    },
+    "predicate_primary": {
+      "formula_supplied": false,
+      "margins": [
+        -7,
+        -3,
+        -1,
+        0,
+        1,
+        3,
+        7
+      ],
+      "new_domain": true,
+      "primary_metric": "strict JSON condition_z accuracy",
+      "primary_unit": "paired seed/run",
+      "secondary_slices": [
+        "negative slack",
+        "equality",
+        "+1 near overflow",
+        "far overflow"
+      ]
+    }
+  },
+  "hard_prohibitions": [
+    "No K1/K2/K4 scientific training in parallel with this screen.",
+    "No optimizer-window manipulation in the predicate basis screen.",
+    "No post-outcome margin, seed, prompt, threshold, or action-set changes.",
+    "No claim that success proves CFE in general.",
+    "No automatic combination-mechanism rescue if dispositions fail."
+  ],
+  "parent_evidence": {
+    "post_hoc_ceiling": "motivates this screen but does not confirm its mechanism",
+    "v10_bounded_diagnostic_aggregate_sha256": "e7bc9003d841eb1b72191ef978eec9ee9dbf0d6432bb75f0a4cf0b21105f417e",
+    "v10_screen": "complete six-seed sign-changing co-visibility effect"
+  },
+  "policy_task": {
+    "arithmetic_present": false,
+    "input_factors": [
+      "overflow boolean supplied explicitly",
+      "mode"
+    ],
+    "name": "POLICY_FACTORIZED",
+    "purpose": "test whether policy mapping is independently learnable without boundary inference",
+    "target": "action"
+  },
+  "pre_outcome_amendment_sha256": "bdd51ca7ff97679dc032529b0386dd1b143c9ab514c51d58e2b100775dc8f1c1",
+  "predicate_arms": {
+    "PREDICATE_IDENTIFYING_BASIS": {
+      "per_block_margin_pattern": [
+        -3,
+        0,
+        1,
+        3
+      ],
+      "role": "identifying basis spanning safe slack, equality, near overflow, and farther overflow"
+    },
+    "PREDICATE_NARROW_SLICE": {
+      "per_block_margin_pattern": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "role": "embodies the v1.0 boundary-support defect without the action-policy task"
+    }
+  },
+  "predicate_matching": [
+    "same 72 block count per arm",
+    "same four capacity/incoming contexts at each paired block index",
+    "same four-exposure sequence topology",
+    "same source domain schedule",
+    "same optimizer/training contract",
+    "same per-seed sequence order across paired arms",
+    "no mode or action-policy target in predicate task",
+    "no explicit inequality formula in learner-visible predicate prompt",
+    "predicate learner-visible target is opaque condition_z; word overflow and inequality formula are absent"
+  ],
+  "preregistered_dispositions": {
+    "H_WRONG_BASIS_SUPPORTED": {
+      "requires_all": [
+        "predicate identifying-basis mean paired accuracy delta over narrow slice > 0",
+        "identifying basis wins at least 4 of 6 paired seeds",
+        "identifying basis improves the combined out-of-original-support margins (-7,-3,-1,+3,+7)",
+        "effect is not produced solely by output-format compliance"
+      ]
+    },
+    "H_WRONG_BASIS_WEAKENED": {
+      "trigger_any": [
+        "identifying basis does not have positive mean paired delta",
+        "identifying basis wins fewer than 4 of 6 paired seeds",
+        "any apparent benefit is confined to the old {0,+1} support"
+      ]
+    },
+    "NEXT_BRANCH": {
+      "if_non_discriminating": "EVIDENCE_AGAINST_CURRENT_MECHANISTIC_PICTURE",
+      "if_policy_not_learnable": "stop joint CFE interpretation for bounded transport and investigate policy/output semantics before geometry",
+      "if_predicate_basis_supported_and_policy_learnable": "build a separately preregistered JOINT_IDENTIFYING composition screen; do not jump directly to K1/K2/K4",
+      "if_predicate_basis_weakened": "demote wrong-basis mechanism and prioritize optimizer-field/horizon or unmodeled mechanism"
+    },
+    "POLICY_NOT_CLEANLY_SEPARABLE": {
+      "trigger_any": [
+        "mean policy accuracy < 0.95",
+        "fewer than 5 of 6 seeds reach 0.90",
+        "any action class pooled accuracy <= 0.80"
+      ]
+    },
+    "POLICY_SEPARABLY_LEARNABLE": {
+      "requires_all": [
+        "mean policy accuracy across six trained seeds >= 0.95",
+        "at least 5 of 6 policy seeds have accuracy >= 0.90",
+        "each action class is above 0.80 pooled accuracy"
+      ]
+    }
+  },
+  "questions": {
+    "POLICY": "Can the same learner reliably learn the mode-conditioned action policy when overflow truth is supplied explicitly and arithmetic identification is removed?",
+    "PREDICATE": "Does replacing the original under-resolved {0,+1} boundary slice with an identifying numerical basis improve learned transfer of an opaque condition_z predicate when sequence density and update-field structure are held fixed?"
+  },
+  "schema": "cfe.v11.predicate-policy-mechanism-prereg.v2",
+  "seed_plan": {
+    "fresh_seeds": [
+      2026082801,
+      2026082802,
+      2026082803,
+      2026082804,
+      2026082805,
+      2026082806
+    ],
+    "no_adaptive_extension": true,
+    "policy_seed_count": 6,
+    "predicate_order": {
+      "2026082801": [
+        "PREDICATE_NARROW_SLICE",
+        "PREDICATE_IDENTIFYING_BASIS"
+      ],
+      "2026082802": [
+        "PREDICATE_IDENTIFYING_BASIS",
+        "PREDICATE_NARROW_SLICE"
+      ],
+      "2026082803": [
+        "PREDICATE_NARROW_SLICE",
+        "PREDICATE_IDENTIFYING_BASIS"
+      ],
+      "2026082804": [
+        "PREDICATE_IDENTIFYING_BASIS",
+        "PREDICATE_NARROW_SLICE"
+      ],
+      "2026082805": [
+        "PREDICATE_NARROW_SLICE",
+        "PREDICATE_IDENTIFYING_BASIS"
+      ],
+      "2026082806": [
+        "PREDICATE_IDENTIFYING_BASIS",
+        "PREDICATE_NARROW_SLICE"
+      ]
+    }
+  },
+  "status": "FROZEN_DRAFT_V2_PRE_OUTCOME__OPAQUE_PREDICATE_TARGET"
+}

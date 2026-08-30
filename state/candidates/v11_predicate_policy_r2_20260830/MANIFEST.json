@@ -1,0 +1,74 @@
+{
+  "files": {
+    "POLICY_EVAL.private.jsonl": {
+      "bytes": 15752,
+      "sha256": "e1c898ee5d30bc8a4f791ec8ee9360882a9f4336688d55073351c125569af560"
+    },
+    "POLICY_FACTORIZED.jsonl": {
+      "bytes": 65688,
+      "sha256": "4e60b749eb8cc98a827ba3aacbc70b6cbe38b020cb9f561dd3570d25bc943a2a"
+    },
+    "POLICY_FACTORIZED.sidecar.private.jsonl": {
+      "bytes": 33936,
+      "sha256": "5c4e353d071ac13cc1f57a5cf5577934a0293ac8ad367d68e11dbb96dcceca1a"
+    },
+    "PREDICATE_EVAL.private.jsonl": {
+      "bytes": 19008,
+      "sha256": "c6cdfbd00be11acbfb8351ce1f2d03ab85eefa9b66598bb6a5b57abc9884dd9e"
+    },
+    "PREDICATE_IDENTIFYING_BASIS.jsonl": {
+      "bytes": 68712,
+      "sha256": "e8f67d1d7d7790e4210d75a6868d5a355caee645471d876d8f31dc1ff04eeed2"
+    },
+    "PREDICATE_IDENTIFYING_BASIS.sidecar.private.jsonl": {
+      "bytes": 50472,
+      "sha256": "d8d3e7f767fa7799df1c9f601b4fab95c5143d38786d7b7f145db49d7ea196d4"
+    },
+    "PREDICATE_NARROW_SLICE.jsonl": {
+      "bytes": 68352,
+      "sha256": "2773440a5e52212959cdd3d1c90a90164e0fbe651e5044248c99b6ce9efb95ac"
+    },
+    "PREDICATE_NARROW_SLICE.sidecar.private.jsonl": {
+      "bytes": 50040,
+      "sha256": "5621414e52ba2dceac911d81b61a0ace94df62c4d7b04b2eaf437cd795dc7aa3"
+    }
+  },
+  "laws": [
+    "PREDICATE_IDENTIFICATION != ACTION_POLICY_SELECTION",
+    "IDENTIFYING_BASIS != RICH_TRUTH_TABLE",
+    "CANDIDATE_GENERATION != SCIENTIFIC_START",
+    "NEW_DOMAIN != INDEPENDENT_REPLICATION"
+  ],
+  "paired_predicate_context_identity": true,
+  "policy_arithmetic_absent": true,
+  "policy_blocks": 72,
+  "policy_eval_cases": 48,
+  "policy_eval_domain": "release_station",
+  "policy_exposures": 288,
+  "policy_train_domains": [
+    "routing_desk",
+    "dispatch_lane",
+    "handoff_gate"
+  ],
+  "predicate_blocks_per_arm": 72,
+  "predicate_eval_cases": 56,
+  "predicate_eval_domain": "freight_buffer",
+  "predicate_exposures_per_arm": 288,
+  "predicate_formula_not_supplied": true,
+  "predicate_rival_mismatch_counts": {
+    "EQ1": 16,
+    "GE0": 8,
+    "GT1": 8,
+    "NE0": 24
+  },
+  "predicate_semantic_overflow_word_not_supplied": true,
+  "predicate_target_balance_per_block": "2 false / 2 true both arms",
+  "predicate_train_domains": [
+    "parcel_gate",
+    "ingest_lane",
+    "transfer_bin"
+  ],
+  "schema": "cfe.v11.predicate-policy-candidate.v1",
+  "seed": 92820260830,
+  "status": "CANDIDATE_GENERATED__NOT_TOKEN_QUALIFIED__NOT_LOCKED__NOT_TRAINED"
+}

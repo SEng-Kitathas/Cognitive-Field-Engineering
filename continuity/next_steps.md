@@ -4,12 +4,13 @@ Date: 2026-08-29
 Current frontier: live v1.0 first causal screen, Stage 1.
 
 ## Immediate
-1. Freeze a new bounded-transport mechanism preregistration that separately tests overflow-predicate identification and mode-conditioned action-policy selection.
-2. Build a new identifying source basis with negative slack, equality, and multiple positive margins; do not reuse `{0,+1}` as sufficient support.
-3. Include a discriminator that can fail the wrong-basis hypothesis without simultaneously changing optimizer horizon.
-4. After basis constitution is isolated, test update-field/horizon geometry using identical examples if that hypothesis remains live.
-5. Keep K1/K2/K4 concentration-dose candidate parked until these cheaper mechanism tests resolve enough ambiguity.
-6. No new scientific weight mutation until the new mechanism screen is statically qualified, preregistered, locked, and runtime-replayed.
+1. Complete/read back NF4 baseline admission PID 18524.
+2. Apply the pre-outcome gate exactly: reject predicate benchmark if NF4 strict accuracy >=0.85.
+3. Apply policy gate exactly: skip POLICY_FACTORIZED training if NF4 strict policy accuracy >=0.90.
+4. If predicate admitted, build exact v1.1 predicate/policy input lock and bind all candidate/token/prereg/qualification artifacts.
+5. Rebind host/profile to the new lock and rerun tokenizer/runtime/repeatability qualification before any trained arm.
+6. Only then launch fresh-seed predicate arms; policy training only if its baseline gate admits it.
+7. No K1/K2/K4 or optimizer-window scientific training in parallel.
 
 ## Stage-1 close
 Completed:
