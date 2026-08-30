@@ -1,0 +1,24 @@
+{
+  "schema": "cfe.v11.seed-arm-order.draft.v1",
+  "status": "DRAFT_FROZEN_CANDIDATE__NO_V11_OUTCOMES_OBSERVED",
+  "seeds": [2026082701, 2026082702, 2026082703, 2026082704, 2026082705, 2026082706],
+  "execution_order": {
+    "2026082701": ["K1_TRUE_NEIGHBORHOOD", "K2_PAIRED_NEIGHBORHOODS", "K4_STRICT_SCRAMBLE"],
+    "2026082702": ["K1_TRUE_NEIGHBORHOOD", "K4_STRICT_SCRAMBLE", "K2_PAIRED_NEIGHBORHOODS"],
+    "2026082703": ["K2_PAIRED_NEIGHBORHOODS", "K1_TRUE_NEIGHBORHOOD", "K4_STRICT_SCRAMBLE"],
+    "2026082704": ["K2_PAIRED_NEIGHBORHOODS", "K4_STRICT_SCRAMBLE", "K1_TRUE_NEIGHBORHOOD"],
+    "2026082705": ["K4_STRICT_SCRAMBLE", "K1_TRUE_NEIGHBORHOOD", "K2_PAIRED_NEIGHBORHOODS"],
+    "2026082706": ["K4_STRICT_SCRAMBLE", "K2_PAIRED_NEIGHBORHOODS", "K1_TRUE_NEIGHBORHOOD"]
+  },
+  "balance": {
+    "all_six_arm_permutations_used_once": true,
+    "each_arm_appears_twice_in_each_serial_position": true,
+    "fresh_vs_v10_outcome_seeds": true
+  },
+  "hard_stop": "Six paired seeds only for this candidate screen unless a separate extension rule is preregistered before any v1.1 outcome is observed.",
+  "laws": [
+    "ARM_ORDER_BALANCE != SCIENTIFIC POWER",
+    "FRESH_SEED != INDEPENDENT REPLICATION",
+    "DRAFT SCHEDULE != AUTHORIZATION TO TRAIN"
+  ]
+}

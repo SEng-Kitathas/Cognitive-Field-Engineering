@@ -1,0 +1,19 @@
+{
+  "pid": 6376,
+  "cmd": [
+    "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+    "-m",
+    "D:\\Singularity_Works\\repo\\corpus\\models\\internet_acquired\\bartowski\\Qwen2.5-Coder-1.5B-Instruct-abliterated-GGUF\\Qwen2.5-Coder-1.5B-Instruct-abliterated-Q4_K_L.gguf",
+    "-c",
+    "4096",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "8092",
+    "--offline",
+    "--parallel",
+    "1"
+  ],
+  "model_sha256": "108902ab59d8988d6efa27b06eb0675dcbf52b8209c7b49332172e2f5c003535",
+  "started_epoch": 1788035962.117531
+}

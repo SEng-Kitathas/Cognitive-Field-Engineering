@@ -1,0 +1,59 @@
+{
+  "arms": {
+    "K1_TRUE_NEIGHBORHOOD": {
+      "distinct_neighborhoods_per_block": 1
+    },
+    "K2_PAIRED_NEIGHBORHOODS": {
+      "distinct_neighborhoods_per_block": 2
+    },
+    "K4_STRICT_SCRAMBLE": {
+      "distinct_neighborhoods_per_block": 4
+    }
+  },
+  "each_source_once_per_arm": true,
+  "files": {
+    "K1_TRUE_NEIGHBORHOOD.jsonl": {
+      "bytes": 137262,
+      "sha256": "e43856ba561ec732535f4c46395df2a74f3a06e12472c3bebb49ebea4402b676"
+    },
+    "K1_TRUE_NEIGHBORHOOD.sidecar.private.jsonl": {
+      "bytes": 60616,
+      "sha256": "2dd2a1e2af9420e27cd59d08f4b639c59d5f2c17cc4b7c53137b44424378cedd"
+    },
+    "K2_PAIRED_NEIGHBORHOODS.jsonl": {
+      "bytes": 137262,
+      "sha256": "3d4f1dd650cbd59f84b4801ab25587ec5da735f406eeb85ab349481b64d48240"
+    },
+    "K2_PAIRED_NEIGHBORHOODS.sidecar.private.jsonl": {
+      "bytes": 60832,
+      "sha256": "41a86cae1060c6b9bc6a32a42582331340183b346e1a8d355a26232693651eb2"
+    },
+    "K4_STRICT_SCRAMBLE.jsonl": {
+      "bytes": 137262,
+      "sha256": "e056c35a3f920a044e8d42b2c1acb33b0c80ce57d4e197d34bbff2c432615cbe"
+    },
+    "K4_STRICT_SCRAMBLE.sidecar.private.jsonl": {
+      "bytes": 60472,
+      "sha256": "6e05818ab7379c6a4104257a361c49028375c5a0ab47094af1c3d477089ab4d2"
+    }
+  },
+  "global_individual_experience_multiset_equal": true,
+  "global_source_multiset_equal": true,
+  "k2_partition_counts": {
+    "(0, 0, 4, 4)": 24,
+    "(0, 4, 0, 4)": 24,
+    "(0, 4, 4, 0)": 24
+  },
+  "laws": [
+    "CANDIDATE_GENERATION != SCIENTIFIC START",
+    "GLOBAL EXPERIENCE PARITY != TOKEN BURDEN PARITY",
+    "NEIGHBORHOOD CONCENTRATION != GENERAL RELATIONAL LEARNING"
+  ],
+  "paired_family_domain_cell_target_sequence_equal": true,
+  "pairs": 72,
+  "schema": "cfe.v11.neighborhood-concentration-candidate.v1",
+  "seed": 81120260830,
+  "source_field": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\v06\\train_field.jsonl",
+  "source_field_sha256": "d2f0ba0236e643ef39aa09adb3c0787ef6040de1c2a2e6ce7fb30c350d7f0837",
+  "status": "CANDIDATE_GENERATED__NOT_TOKEN_QUALIFIED__NOT_PREREGISTERED"
+}

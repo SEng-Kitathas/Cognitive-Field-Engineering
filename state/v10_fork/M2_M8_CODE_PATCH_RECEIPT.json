@@ -1,0 +1,114 @@
+{
+  "touched_count": 18,
+  "touched": [
+    {
+      "path": "field/generate_cfe_field_v06.py",
+      "before": "3fd9e791c7ad24089b1f18f8ed4c581d5716652174a459e870d91aeeca205d85",
+      "after": "722226b635e06d77d125428cd56ebe947dc864a34f1eb2aa6a6629659ee1471a",
+      "bytes": 10471
+    },
+    {
+      "path": "evaluation/generate_eval_field_independent_v06.py",
+      "before": "7d802fb496127864513c465166b365bef640d434065ce66a54e643dc6776d05f",
+      "after": "d072cc46e9ff24359f069ed0bf0a76b259462736a9ade9d74a726c2c92890326",
+      "bytes": 7115
+    },
+    {
+      "path": "compiler/compile_experience_v06.py",
+      "before": "15467c4a4f70249bc10ce13914a00e4e013c9362de2cc8d330a677bd7f008e77",
+      "after": "72d101f558585444445d25604ef0571482b1ec16ac412634182a03a5d21328e7",
+      "bytes": 8612
+    },
+    {
+      "path": "compiler/compile_first_screen_v09.py",
+      "before": "2787320f3308af7ef158d1a2199e4d668b469b994926b16ed0c458b559dea4c8",
+      "after": "928fc381f43dfbb27ddd2a84a5b33e67e404b4e54f1e08c596d1aa6adb9a4e31",
+      "bytes": 8312
+    },
+    {
+      "path": "experiments/first_screen_v09/evaluate_first_screen_v09.py",
+      "before": "bd053eebf66f13e913a3dc2eb0bec364c593733eaded96598a25ab5c9a1285e6",
+      "after": "bf248dbc566133575e0f4d6ba597660976f71d772dd16e759786656cc0da38db",
+      "bytes": 7907
+    },
+    {
+      "path": "experiments/first_screen_v09/analyze_scientific_effect_v09.py",
+      "before": "0597cc607e3be1b2f21f29f6ab3c4359c6acdeceda271ab362e79a6a37fcc44f",
+      "after": "04977a435bfb8667b3b36e7a6490f27ff7ad154fb72de1b22664ba2c21114216",
+      "bytes": 6780
+    },
+    {
+      "path": "experiments/first_screen_v09/common_v09.py",
+      "before": "8eb14954a89c7858d69b534d82e79613e5cd612645d788ce7e2b75771814487d",
+      "after": "1fcb98e9b50375c2fc62cb18853c7df6e1e4732eb0c3f6d0c3c5b04b9e3abfa3",
+      "bytes": 6159
+    },
+    {
+      "path": "experiments/first_screen_v09/train_first_screen_v09.py",
+      "before": "a28bb900ac7395e66ab5023fedf57fed9f0f4af18be0b7da0ace1d606f50f6e6",
+      "after": "e2e059a7106de75c88f847547254ea8d9ee942b5e0474f5ab6c926f139fee920",
+      "bytes": 6427
+    },
+    {
+      "path": "experiments/first_screen_v09/preflight_cuda_fit_v09.py",
+      "before": "8ce8aac7395522ef50efe46797756a7de7befd7da7ccf9a6df4619be92fadaeb",
+      "after": "1191f0efe77aa7e0ec6709b84a7af7bb1e358d0b7e321c8bf27d68fd914e7b9a",
+      "bytes": 4627
+    },
+    {
+      "path": "experiments/first_screen_v09/evaluate_first_screen_v09.py",
+      "before": "bf248dbc566133575e0f4d6ba597660976f71d772dd16e759786656cc0da38db",
+      "after": "4c87a02a4d38f65d65644045b13aafc5d802cf78d0ae11d3a563b3ffb57e7844",
+      "bytes": 8152
+    },
+    {
+      "path": "experiments/first_screen_v09/training_contract.json",
+      "before": "075417b8b89f7f6f19e961f5e29d88654982bab41dac52cf45930181abd4613f",
+      "after": "93bc48b68e63f98e13b93e3f225d4750c63a47cb19746a7c5e75c2f1cdbf8e93",
+      "bytes": 4676
+    },
+    {
+      "path": "experiments/first_screen_v09/bootstrap_cuda_env_v09.ps1",
+      "before": "210515fd2be2016adef0ec3b689f28fa01a1d52e9de80ea42ad1fe8b65227de0",
+      "after": "8380412547e734e6912cd222a2185737f190af46f6f92eb04e9f1d4ba9819f91",
+      "bytes": 830
+    },
+    {
+      "path": "experiments/first_screen_v09/bootstrap_cuda_env_v09.sh",
+      "before": "4bfdc658c0b6978ac0f5de0114ec90882cacc4bf19def8a60fc8a39838a60999",
+      "after": "7547eea67b36282f49bda3212658e76d8bc8e1ec989669a56ced18b9c1d662e1",
+      "bytes": 670
+    },
+    {
+      "path": "experiments/first_screen_v09/requirements_v09.txt",
+      "before": "ac7cb3c45305b2d5a53b883b26c7b55afb5eb9176f081cfcc91b1761b6641c00",
+      "after": "98c319fcc3f1f84eb7f36f33e0d987f8f0053060f5566d39cf249a19a52ddb3c",
+      "bytes": 359
+    },
+    {
+      "path": "experiments/first_screen_v09/hostile_static_package_v09.py",
+      "before": "fa0bb3c738661a712babe9d03333fb78558c6b4ca008a3513fffe51fe842a87f",
+      "after": "121b7ef765aa78a621b99bb15bfcd33fdd85f7374f7c387e21cedda7dd676449",
+      "bytes": 9764
+    },
+    {
+      "path": "experiments/first_screen_v09/repeatability_probe_v10.py",
+      "before": null,
+      "after": "cbb7aac45326c6c5318d780be2f31ecd77cb540c3fe8a837262e08d211ef9f54",
+      "bytes": 1824
+    },
+    {
+      "path": "experiments/first_screen_v09/SEED_EXTENSION_PREREGISTRATION_V10.json",
+      "before": null,
+      "after": "86290633f34bc24d03532d541c740684e03fb5a6b33c31df821fa47a92696d82",
+      "bytes": 1690
+    },
+    {
+      "path": "experiments/first_screen_v09/make_input_lock_v09.py",
+      "before": "e62d597c79fc84d2ae3a9b3c3b2410e1214b4e2b4acbbd931c96eb295c85a148",
+      "after": "42167be03b47a0ca349bda7632d049a62ac6f1496deeb78399891a90bf6b610e",
+      "bytes": 3106
+    }
+  ],
+  "status": "CHILD_ONLY_ACTIVE_DRAFT_MUTATION__REQUALIFICATION_REQUIRED"
+}

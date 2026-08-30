@@ -1,0 +1,22 @@
+{
+  "pid": 9400,
+  "cmd": [
+    "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+    "-m",
+    "C:\\Users\\ancal\\Downloads\\CEG_CAPYBARA_Q3KS_HANDOFF\\capybarahermes-2.5-mistral-7b.Q3_K_S.gguf",
+    "-ngl",
+    "99",
+    "-c",
+    "4096",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "8091",
+    "--offline",
+    "--parallel",
+    "1"
+  ],
+  "started_epoch": 1788035064.4871616,
+  "stdout": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\campaign_runtime\\llama_server.stdout.log",
+  "stderr": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\campaign_runtime\\llama_server.stderr.log"
+}

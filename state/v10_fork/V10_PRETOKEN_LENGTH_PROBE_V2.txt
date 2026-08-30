@@ -1,0 +1,26 @@
+RC=0
+{
+  "arms": {
+    "CONTROL_STRICT_CELL_SCRAMBLE": {
+      "min": 431,
+      "max": 499,
+      "total": 33646,
+      "over_512": 0
+    },
+    "TREATMENT_NEIGHBORHOOD": {
+      "min": 430,
+      "max": 499,
+      "total": 33646,
+      "over_512": 0
+    }
+  },
+  "pair_equal": 70,
+  "max_abs_delta": 1,
+  "delta_hist": {
+    "0": 70,
+    "-1": 1,
+    "1": 1
+  }
+}
+
+STDERR

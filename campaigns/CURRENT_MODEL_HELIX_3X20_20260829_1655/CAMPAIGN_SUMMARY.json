@@ -1,0 +1,39 @@
+{
+  "campaigns": [
+    {
+      "campaign": 1,
+      "passes": 20,
+      "seed": "What is the next step in the v1.0 descendant creation process after protecting and fingerprinting the sealed v0.9 parent?",
+      "successor_question": "What is the strongest remaining threat to causal identification in CFE v1.0 after portability and regression gates are repaired?",
+      "csc_verdict": "PASS",
+      "deterministic_errors": [],
+      "model_audit": "VERDICT=PASS || ISSUE=<NONE> || SUCCESSOR_VALID=YES",
+      "audit_seconds": 29.121154069900513
+    },
+    {
+      "campaign": 2,
+      "passes": 20,
+      "seed": "What is the strongest remaining threat to causal identification in CFE v1.0 after portability and regression gates are repaired?",
+      "successor_question": "Which exact local model/weight artifacts, venvs, and caches can satisfy CFE\u2019s pinned training-base and runtime requirements without network acquisition, and what identity gaps remain?",
+      "csc_verdict": "PASS",
+      "deterministic_errors": [],
+      "model_audit": "VERDICT=PASS || ISSUE=<NONE> || SUCCESSOR_VALID=YES",
+      "audit_seconds": 27.54817247390747
+    },
+    {
+      "campaign": 3,
+      "passes": 20,
+      "seed": "Which exact local model/weight artifacts, venvs, and caches can satisfy CFE\u2019s pinned training-base and runtime requirements without network acquisition, and what identity gaps remain?",
+      "successor_question": "Can the exact pinned `argilla/CapybaraHermes-2.5-Mistral-7B` revision `d06c86726aadd8dadb92c5b9b9e3ce8ef246c471` be located and fully qualified somewhere on C:, D:, or E: without any network acquisition?",
+      "csc_verdict": "PASS",
+      "deterministic_errors": [],
+      "model_audit": "VERDICT=PASS || ISSUE=<NONE> || SUCCESSOR_VALID=YES",
+      "audit_seconds": 30.129133701324463
+    }
+  ],
+  "cross_campaign_errors": [],
+  "qualified_passes": 60,
+  "final_next_question": "Can the exact pinned `argilla/CapybaraHermes-2.5-Mistral-7B` revision `d06c86726aadd8dadb92c5b9b9e3ce8ef246c471` be located and fully qualified somewhere on C:, D:, or E: without any network acquisition?",
+  "promotion_authority": "NONE",
+  "sealed_parent_mutated": false
+}

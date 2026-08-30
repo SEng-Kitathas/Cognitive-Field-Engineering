@@ -1,0 +1,28 @@
+{
+  "lock_sha256": "a497c1cd013c834c9e9efc45b65fd09dbae0dca973f044afe706607cc8094695",
+  "hostile_sha256": "2b839278ee7486a90a5e85f67bbf81717a2da25d698eefab2dbf5e42b914f803",
+  "qualification_sha256": "5796799b76f27b7f528506f030ff3ec41d546baf4e3bcbfc34d486b5d25a2ba8",
+  "qualification": {
+    "claim_ceiling": "PREEXECUTION PACKAGE ATTACKED; NO WEIGHT-LEVEL CFE CLAIM",
+    "input_lock_sha256": "a497c1cd013c834c9e9efc45b65fd09dbae0dca973f044afe706607cc8094695",
+    "input_lock_status": "CANDIDATE_LOCKED_PRE_HOSTILE",
+    "laws": [
+      "ATTACKED PACKAGE != QUALIFIED MODEL RUNTIME",
+      "REFERENCE TOKENIZATION != PINNED RUNTIME TOKENIZER QUALIFICATION",
+      "PREEXECUTION QUALIFICATION != SCIENTIFIC EFFECT"
+    ],
+    "runtime_gates_remaining": [
+      "exact pinned Argilla snapshot identity",
+      "exact pinned runtime tokenizer replay of all v1.0 references",
+      "CUDA profile fit",
+      "two-run same-seed repeatability qualification"
+    ],
+    "schema": "cfe.v10.preexecution-qualification.v1",
+    "scientific_training_authorized": false,
+    "static_hostile_check_count": 347,
+    "static_hostile_pass_sha256": "2b839278ee7486a90a5e85f67bbf81717a2da25d698eefab2dbf5e42b914f803",
+    "status": "ATTACKED_CANDIDATE__PINNED_MODEL_RUNTIME_NOT_YET_QUALIFIED",
+    "token_reference_manifest_sha256": "88db2c3e11d59d559010c63a58e53ecb6ea1a50ae0bff5b9433b2b833a214f9f",
+    "token_reference_status": "SEALED_V09_BEHAVIORAL_EQUIVALENCE_PASS__EXACT_RUNTIME_REPLAY_REQUIRED"
+  }
+}

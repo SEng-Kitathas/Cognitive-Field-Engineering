@@ -1,0 +1,6 @@
+{
+  "test_before": "880e5c12ca059cb0674bb2bfff15ccc036cd55c986eaad02989579ccfa372d29",
+  "test_after": "548f7aacf90bfb8d088cb56d4d17f1e05dad199981a16c19b7b706730c257eac",
+  "hostile_before": "99cb317f8006ed2e8500cc5f68dfea2c6812fc14cbbc821fd7a36e0f992349d8",
+  "hostile_after": "22df1bd117320ce02cae6c56bde786626854fb24263e99205386450c30431d2c"
+}

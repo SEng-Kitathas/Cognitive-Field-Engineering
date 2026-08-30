@@ -1,0 +1,69 @@
+RC=0
+{
+  "snapshot": "D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\mistral_capybara_3shard",
+  "tokenizer_class": "LlamaTokenizer",
+  "report": {
+    "CONTROL_STRICT_CELL_SCRAMBLE": {
+      "rows": 72,
+      "mismatches": 72,
+      "first": [
+        {
+          "i": 0,
+          "id": "pair-000-C",
+          "got_len": 571,
+          "ref_len": 483,
+          "got_sha": "042b69f2c8361e7a35f9ce1445569a8beab4c43e2c974d293de3e99ba6d10bac",
+          "ref_sha": "a905719b782fb555c118a6885eb703b3f22511f4f1c90f273011aab447190f41"
+        },
+        {
+          "i": 1,
+          "id": "pair-001-C",
+          "got_len": 571,
+          "ref_len": 483,
+          "got_sha": "042b69f2c8361e7a35f9ce1445569a8beab4c43e2c974d293de3e99ba6d10bac",
+          "ref_sha": "a905719b782fb555c118a6885eb703b3f22511f4f1c90f273011aab447190f41"
+        },
+        {
+          "i": 2,
+          "id": "pair-002-C",
+          "got_len": 571,
+          "ref_len": 483,
+          "got_sha": "042b69f2c8361e7a35f9ce1445569a8beab4c43e2c974d293de3e99ba6d10bac",
+          "ref_sha": "a905719b782fb555c118a6885eb703b3f22511f4f1c90f273011aab447190f41"
+        }
+      ]
+    },
+    "TREATMENT_NEIGHBORHOOD": {
+      "rows": 72,
+      "mismatches": 72,
+      "first": [
+        {
+          "i": 0,
+          "id": "pair-000-T",
+          "got_len": 571,
+          "ref_len": 483,
+          "got_sha": "042b69f2c8361e7a35f9ce1445569a8beab4c43e2c974d293de3e99ba6d10bac",
+          "ref_sha": "a905719b782fb555c118a6885eb703b3f22511f4f1c90f273011aab447190f41"
+        },
+        {
+          "i": 1,
+          "id": "pair-001-T",
+          "got_len": 571,
+          "ref_len": 483,
+          "got_sha": "042b69f2c8361e7a35f9ce1445569a8beab4c43e2c974d293de3e99ba6d10bac",
+          "ref_sha": "a905719b782fb555c118a6885eb703b3f22511f4f1c90f273011aab447190f41"
+        },
+        {
+          "i": 2,
+          "id": "pair-002-T",
+          "got_len": 571,
+          "ref_len": 483,
+          "got_sha": "042b69f2c8361e7a35f9ce1445569a8beab4c43e2c974d293de3e99ba6d10bac",
+          "ref_sha": "a905719b782fb555c118a6885eb703b3f22511f4f1c90f273011aab447190f41"
+        }
+      ]
+    }
+  }
+}
+
+STDERR

@@ -1,0 +1,54 @@
+{
+  "result": {
+    "ANSWER": "Create `CFE_RND_V1_0_PREEXECUTION` as a descendant only; do not mutate the parent.",
+    "EVIDENCE": "2, 4",
+    "OARR": "No matching CapybaraHermes/Mistral sn",
+    "LOOP": "Defects P2–P7 and fresh reseal gates",
+    "SURVIVE": "Protected and fingerprinted sealed v0.9 parent",
+    "SCAR": "NONE",
+    "DEMOTE": "NONE",
+    "RESERVOIR": "No matching CapybaraHermes/Mistral sn",
+    "DISPOSITION": "In progress",
+    "CONFIDENCE": "0.95",
+    "NEXT": "What are the four historical generators that need to be patched to emit explicit UTF-8/LF canonical bytes?",
+    "confidence_numeric": 0.95,
+    "campaign": 1,
+    "pass": 1,
+    "active_question": "What is the next step in the v1.0 descendant creation process after protecting and fingerprinting the sealed v0.9 parent?",
+    "oarr_slice": "A",
+    "source_refs": [
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p7.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p8.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p2.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p1.0"
+    ],
+    "promotion_authority": "NONE",
+    "raw_outputs": [
+      "ANSWER=Create `CFE_RND_V1_0_PREEXECUTION` as a descendant only; do not mutate the parent. || EVIDENCE=2, 4 || OARR=No matching CapybaraHermes/Mistral sn || LOOP=Defects P2–P7 and fresh reseal gates || SURVIVE=Protected and fingerprinted sealed v0.9 parent || SCAR=NONE || DEMOTE=NONE || RESERVOIR=No matching CapybaraHermes/Mistral sn || DISPOSITION=In progress || CONFIDENCE=0.95 || NEXT=What are the four historical generators that need to be patched to emit explicit UTF-8/LF canonical bytes?"
+    ]
+  },
+  "model_meta": {
+    "usage": {
+      "completion_tokens": 154,
+      "prompt_tokens": 983,
+      "total_tokens": 1137,
+      "prompt_tokens_details": {
+        "cached_tokens": 248
+      }
+    },
+    "timings": {
+      "cache_n": 248,
+      "prompt_n": 735,
+      "prompt_ms": 6197.329,
+      "prompt_per_token_ms": 8.43174013605442,
+      "prompt_per_second": 118.59948051813936,
+      "predicted_n": 154,
+      "predicted_ms": 14632.549,
+      "predicted_per_token_ms": 95.01655194805195,
+      "predicted_per_second": 10.524482098095142
+    },
+    "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+    "fingerprint": "b8831-a279d0f0f",
+    "finish_reason": "stop"
+  }
+}

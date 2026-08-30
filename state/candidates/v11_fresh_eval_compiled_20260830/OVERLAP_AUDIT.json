@@ -1,0 +1,16 @@
+{
+  "claims_not_authorized": [
+    "semantic independence",
+    "blind evaluation",
+    "independent replication"
+  ],
+  "new_field_exact_unique": 144,
+  "new_field_overlap_with_old_eval": 0,
+  "new_field_overlap_with_training_individual_experiences": 0,
+  "new_field_rows": 144,
+  "new_lhit_exact_unique": 96,
+  "new_lhit_overlap_with_old_eval": 0,
+  "new_lhit_rows": 96,
+  "schema": "cfe.v11.fresh-eval-overlap-audit.v1",
+  "status": "PASS"
+}

@@ -1,0 +1,83 @@
+{
+  "result": {
+    "ANSWER": "Create v1.0 descendant by repairing portability and preregistered defects",
+    "EVIDENCE": "[2] [3]",
+    "OARR": "Run Mistral download to compare v1.0 with v0.9",
+    "LOOP": "Patch generator writes to UTF-8/LF",
+    "SURVIVE": "Canonicalized generator writes",
+    "SCAR": "No evidence of Mistral download",
+    "DEMOTE": "No evidence of portability repair",
+    "RESERVOIR": "No evidence of preregistered defects",
+    "DISPOSITION": "RESEARCH",
+    "CONFIDENCE": "0.8",
+    "NEXT": "What are the specific preregistered pre-live defects that need to be addressed in the v1.0 descendant creation process?",
+    "confidence_numeric": 0.8,
+    "campaign": 1,
+    "pass": 1,
+    "active_question": "What is the next step in the v1.0 descendant creation process after protecting and fingerprinting the sealed v0.9 parent?",
+    "oarr_slice": "A",
+    "source_refs": [
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualified_campaign_seed.json#p0.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p7.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p8.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p2.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p1.0"
+    ],
+    "promotion_authority": "NONE",
+    "qualification_attempts": [
+      {
+        "attempt": 1,
+        "raw": "ANSWER=Create v1.0 descendant by repairing portability and preregistered defects || EVIDENCE=[2] [3] || OARR=Run Mistral download to compare v1.0 with v0.9 || LOOP=Patch generator writes to UTF-8/LF || SURVIVE=Canonicalized generator writes || SCAR=No evidence of Mistral download || DEMOTE=No evidence of portability repair || RESERVOIR=No evidence of preregistered defects || DISPOSITION=RESEARCH || CONFIDENCE=0.8 || NEXT=What are the specific preregistered pre-live defects that need to be addressed in the v1.0 descendant creation process?",
+        "meta": {
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 147,
+            "prompt_tokens": 1305,
+            "total_tokens": 1452,
+            "prompt_tokens_details": {
+              "cached_tokens": 3
+            }
+          },
+          "timings": {
+            "cache_n": 3,
+            "prompt_n": 1302,
+            "prompt_ms": 13023.165,
+            "prompt_per_token_ms": 10.002430875576037,
+            "prompt_per_second": 99.97569715195961,
+            "predicted_n": 147,
+            "predicted_ms": 16668.061,
+            "predicted_per_token_ms": 113.38817006802722,
+            "predicted_per_second": 8.819262180525977
+          },
+          "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+          "fingerprint": "b8831-a279d0f0f"
+        },
+        "errors": []
+      }
+    ]
+  },
+  "model_meta": {
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 1305,
+      "total_tokens": 1452,
+      "prompt_tokens_details": {
+        "cached_tokens": 3
+      }
+    },
+    "timings": {
+      "cache_n": 3,
+      "prompt_n": 1302,
+      "prompt_ms": 13023.165,
+      "prompt_per_token_ms": 10.002430875576037,
+      "prompt_per_second": 99.97569715195961,
+      "predicted_n": 147,
+      "predicted_ms": 16668.061,
+      "predicted_per_token_ms": 113.38817006802722,
+      "predicted_per_second": 8.819262180525977
+    },
+    "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+    "fingerprint": "b8831-a279d0f0f"
+  }
+}

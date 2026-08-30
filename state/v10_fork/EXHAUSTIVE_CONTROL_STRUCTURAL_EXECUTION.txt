@@ -1,0 +1,26 @@
+RC=0
+STDOUT
+{
+  "ordered_legal_offset_tuples": 1680,
+  "selected_offsets_in_ensemble": true,
+  "selected_summary": {
+    "informational_exact_visible_state_byte_pairs": 70,
+    "informational_max_visible_state_byte_delta": 1,
+    "offsets": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "pairs": 72
+  },
+  "status": "PASS_STRUCTURAL__TOKEN_AUDIT_BLOCKED",
+  "structurally_qualified_offset_tuples": 1680,
+  "summary_sha256": "f2d1bafe06925da0c7dd05fe36412d6709fd349bb1ca30f0a47aaac66a6f457d",
+  "token_length_audit": {
+    "reason": "Exact sealed tokenizer executable/hash-equivalent tokenizer has not been recovered locally. UTF-8 byte-length diagnostics are informational and are not token evidence.",
+    "status": "BLOCKED_EXACT_TOKENIZER_REQUIRED"
+  }
+}
+
+STDERR

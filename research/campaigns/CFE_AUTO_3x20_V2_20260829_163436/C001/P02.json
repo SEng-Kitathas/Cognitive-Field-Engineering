@@ -1,0 +1,54 @@
+{
+  "result": {
+    "ANSWER": "Patch `worlds/generate_depth_probe_v05.py`, `worlds/generate_provenance_depth_v05.py`, `worlds/generate_provenance_latent_v05.py`, and `worlds/generate_anti_isomorph_probe_v05.py` to emit explicit UTF-8/LF canonical bytes.",
+    "EVIDENCE": "2, 3",
+    "OARR": "NONE",
+    "LOOP": "PATCH deterministic-regeneration subprocess calls to use `sys.executable` or the bound qualified interpreter",
+    "SURVIVE": "Protected and fingerprinted sealed v0.9 parent",
+    "SCAR": "NONE",
+    "DEMOTE": "NONE",
+    "RESERVOIR": "NONE",
+    "DISPOSITION": "In progress",
+    "CONFIDENCE": "1",
+    "NEXT": "What are the two deterministic-regeneration subprocess calls that need to be patched to use `sys.executable` or the bound qualified interpreter?",
+    "confidence_numeric": 1.0,
+    "campaign": 1,
+    "pass": 2,
+    "active_question": "What are the four historical generators that need to be patched to emit explicit UTF-8/LF canonical bytes?",
+    "oarr_slice": "A",
+    "source_refs": [
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p1.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p4.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p5.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p7.0"
+    ],
+    "promotion_authority": "NONE",
+    "raw_outputs": [
+      "ANSWER=Patch `worlds/generate_depth_probe_v05.py`, `worlds/generate_provenance_depth_v05.py`, `worlds/generate_provenance_latent_v05.py`, and `worlds/generate_anti_isomorph_probe_v05.py` to emit explicit UTF-8/LF canonical bytes. || EVIDENCE=2, 3 || OARR=NONE || LOOP=PATCH deterministic-regeneration subprocess calls to use `sys.executable` or the bound qualified interpreter || SURVIVE=Protected and fingerprinted sealed v0.9 parent || SCAR=NONE || DEMOTE=NONE || RESERVOIR=NONE || DISPOSITION=In progress || CONFIDENCE=1 || NEXT=What are the two deterministic-regeneration subprocess calls that need to be patched to use `sys.executable` or the bound qualified interpreter?"
+    ]
+  },
+  "model_meta": {
+    "usage": {
+      "completion_tokens": 183,
+      "prompt_tokens": 979,
+      "total_tokens": 1162,
+      "prompt_tokens_details": {
+        "cached_tokens": 262
+      }
+    },
+    "timings": {
+      "cache_n": 262,
+      "prompt_n": 717,
+      "prompt_ms": 6427.019,
+      "prompt_per_token_ms": 8.96376429567643,
+      "prompt_per_second": 111.56027389992157,
+      "predicted_n": 183,
+      "predicted_ms": 18715.887,
+      "predicted_per_token_ms": 102.27260655737705,
+      "predicted_per_second": 9.777789318775007
+    },
+    "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+    "fingerprint": "b8831-a279d0f0f",
+    "finish_reason": "stop"
+  }
+}

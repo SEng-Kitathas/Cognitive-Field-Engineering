@@ -1,0 +1,43 @@
+{
+  "failures": [],
+  "field": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\v06\\train_field.jsonl",
+  "laws": [
+    "STRUCTURAL_CONTROL_PASS != TOKEN_PARITY",
+    "BYTE_LENGTH != TOKEN_LENGTH",
+    "ENSEMBLE_AUDIT != POSTHOC_CONTROL_SELECTION"
+  ],
+  "ordered_legal_offset_tuples": 1680,
+  "schema": "cfe.v10.exhaustive-strict-control-audit.v1",
+  "selected_offsets": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "selected_offsets_in_ensemble": true,
+  "selected_summary": {
+    "informational_exact_visible_state_byte_pairs": 70,
+    "informational_max_visible_state_byte_delta": 1,
+    "offsets": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "pairs": 72
+  },
+  "selection_law": "(0,2,4,6) is evaluated as a preregistered member of the 1,680 legal ordered strict scrambles; no scientific outcome is used to reselect offsets.",
+  "status": "PASS_STRUCTURAL__TOKEN_AUDIT_BLOCKED",
+  "structural_invariants": {
+    "family_domain_cell_target_parity": true,
+    "four_distinct_control_neighborhoods": true,
+    "global_nuisance_multiset_parity": true,
+    "global_source_multiset_parity": true
+  },
+  "structurally_qualified_offset_tuples": 1680,
+  "summary_sha256": "f2d1bafe06925da0c7dd05fe36412d6709fd349bb1ca30f0a47aaac66a6f457d",
+  "token_length_audit": {
+    "reason": "Exact sealed tokenizer executable/hash-equivalent tokenizer has not been recovered locally. UTF-8 byte-length diagnostics are informational and are not token evidence.",
+    "status": "BLOCKED_EXACT_TOKENIZER_REQUIRED"
+  }
+}

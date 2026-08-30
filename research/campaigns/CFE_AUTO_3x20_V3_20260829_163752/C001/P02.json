@@ -1,0 +1,83 @@
+{
+  "result": {
+    "ANSWER": "Create v1.0 descendant by repairing portability and preregistered defects",
+    "EVIDENCE": "[1] [2] [3] [4] [5] [5]",
+    "OARR": "No evidence of Mistral download",
+    "LOOP": "Record/protect parent state before v1.0 creation",
+    "SURVIVE": "Canonicalized generator writes",
+    "SCAR": "No evidence of Mistral download",
+    "DEMOTE": "No evidence of portability repair",
+    "RESERVOIR": "Host qualification evidence",
+    "DISPOSITION": "RESEARCH",
+    "CONFIDENCE": "0.8",
+    "NEXT": "What specific pre-live defects need to be addressed in the v1.0 descendant creation process?",
+    "confidence_numeric": 0.8,
+    "campaign": 1,
+    "pass": 2,
+    "active_question": "What are the specific preregistered pre-live defects that need to be addressed in the v1.0 descendant creation process?",
+    "oarr_slice": "A",
+    "source_refs": [
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p7.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p8.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualified_campaign_seed.json#p0.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p2.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p1.1"
+    ],
+    "promotion_authority": "NONE",
+    "qualification_attempts": [
+      {
+        "attempt": 1,
+        "raw": "ANSWER=Create v1.0 descendant by repairing portability and preregistered defects || EVIDENCE=[1] [2] [3] [4] [5] [5] || OARR=No evidence of Mistral download || LOOP=Record/protect parent state before v1.0 creation || SURVIVE=Canonicalized generator writes || SCAR=No evidence of Mistral download || DEMOTE=No evidence of portability repair || RESERVOIR=Host qualification evidence || DISPOSITION=RESEARCH || CONFIDENCE=0.8 || NEXT=What specific pre-live defects need to be addressed in the v1.0 descendant creation process?",
+        "meta": {
+          "finish_reason": "stop",
+          "usage": {
+            "completion_tokens": 140,
+            "prompt_tokens": 1323,
+            "total_tokens": 1463,
+            "prompt_tokens_details": {
+              "cached_tokens": 337
+            }
+          },
+          "timings": {
+            "cache_n": 337,
+            "prompt_n": 986,
+            "prompt_ms": 10478.468,
+            "prompt_per_token_ms": 10.62724949290061,
+            "prompt_per_second": 94.09772497277272,
+            "predicted_n": 140,
+            "predicted_ms": 16613.922,
+            "predicted_per_token_ms": 118.67087142857142,
+            "predicted_per_second": 8.426667706758225
+          },
+          "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+          "fingerprint": "b8831-a279d0f0f"
+        },
+        "errors": []
+      }
+    ]
+  },
+  "model_meta": {
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 140,
+      "prompt_tokens": 1323,
+      "total_tokens": 1463,
+      "prompt_tokens_details": {
+        "cached_tokens": 337
+      }
+    },
+    "timings": {
+      "cache_n": 337,
+      "prompt_n": 986,
+      "prompt_ms": 10478.468,
+      "prompt_per_token_ms": 10.62724949290061,
+      "prompt_per_second": 94.09772497277272,
+      "predicted_n": 140,
+      "predicted_ms": 16613.922,
+      "predicted_per_token_ms": 118.67087142857142,
+      "predicted_per_second": 8.426667706758225
+    },
+    "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+    "fingerprint": "b8831-a279d0f0f"
+  }
+}

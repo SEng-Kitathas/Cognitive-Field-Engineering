@@ -1,0 +1,9 @@
+{
+  "status": "ABORTED_AFTER_P1_EVIDENCE_QUALIFICATION_FAILURE",
+  "accepted_scientific_passes": 0,
+  "probe_records_preserved": ["C001/P01.json"],
+  "reason": "P1 structurally satisfied non-empty OARR/LOOP+/Helix/Reservoir fields but its Reservoir claim ('No evidence of preregistered defects') contradicted persisted CFE next-step evidence that explicitly lists remaining v1.0 pre-live defects P2-P7.",
+  "adjudication": "Structural method compliance without source-grounded claim verification is insufficient. P1 is retained as a campaign-engine qualification probe only.",
+  "authority_effect": "NONE",
+  "sealed_parent_mutated": false
+}

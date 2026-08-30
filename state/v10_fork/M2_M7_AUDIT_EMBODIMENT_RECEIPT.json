@@ -1,0 +1,15 @@
+{
+  "created": [
+    {
+      "path": "qualification/v10/audit_case_uniqueness_v10.py",
+      "sha256": "f7c1f68be45532fa879f2bf5befa3a2064163e206e3bfeddaadc0a365ad08f2f",
+      "bytes": 7376
+    },
+    {
+      "path": "qualification/v10/exhaustive_control_audit_v10.py",
+      "sha256": "1e41cc25560b4a8cac7df50e31f12a2941112dc4b35585eafc2744ed8f735c2c",
+      "bytes": 6193
+    }
+  ],
+  "lockmaker_sha256": "a0a7c63c9b56807382b87d26768541c36be02b5c5d3f6f59f5419e6e19f47cd2"
+}

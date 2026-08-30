@@ -1,0 +1,23 @@
+RC=1
+STDOUT
+..............F........................................                  [100%]
+================================== FAILURES ===================================
+________________ test_input_lock_attacked_candidate_and_exact _________________
+
+    def test_input_lock_attacked_candidate_and_exact():
+        lock=j(ROOT/'design/CFE_V09_FIRST_SCREEN_INPUT_LOCK.json')
+        assert lock['status']=='ATTACKED_CANDIDATE' and lock['artifact_count']==32
+        for rel,m in lock['artifacts'].items():
+>           p=ROOT/rel; assert p.is_file(); assert p.stat().st_size==m['bytes']; assert sha(p)==m['sha256']
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AssertionError: assert 8312 == 8196
+E            +  where 8312 = os.stat_result(st_mode=33206, st_ino=1970324838369702, st_dev=1311186639376430799, st_nlink=1, st_uid=0, st_gid=0, st_size=8312, st_atime=1788038881, st_mtime=1788038697, st_ctime=1788038264).st_size
+E            +    where os.stat_result(st_mode=33206, st_ino=1970324838369702, st_dev=1311186639376430799, st_nlink=1, st_uid=0, st_gid=0, st_size=8312, st_atime=1788038881, st_mtime=1788038697, st_ctime=1788038264) = stat()
+E            +      where stat = WindowsPath('C:/Users/ancal/ProtoAGI/CFE/CFE_RND_V1_0_PREEXECUTION/compiler/compile_first_screen_v09.py').stat
+
+..\sealed_parents\v09\CFE_RND_V0_9_2026-08-25\tests\test_cfe_v09.py:15: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_cfe_v09.py::test_input_lock_attacked_candidate_and_exact - ...
+1 failed, 54 passed in 0.81s
+
+STDERR

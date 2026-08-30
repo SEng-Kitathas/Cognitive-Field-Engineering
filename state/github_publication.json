@@ -1,0 +1,11 @@
+{
+  "schema": "cfe.github-publication-state.v1",
+  "status": "PUBLICATION_PREPARED__REMOTE_COMMIT_NOT_YET_VERIFIED",
+  "remote": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering.git",
+  "local_publication_checkout": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\publication\\github\\Cognitive-Field-Engineering",
+  "default_clone_boundary": "code + continuity + doctrine + small R&D state; heavy archives/models/checkpoints excluded",
+  "heavy_asset_surface": "GitHub Releases / explicit opt-in archive fetch",
+  "per_turn_policy": "policy/PER_TURN_GIT_CONTINUITY_POLICY.md",
+  "required_readback_before_claiming_push": true,
+  "updated_utc": "2026-08-30T16:41:00Z"
+}

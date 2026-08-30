@@ -1,0 +1,54 @@
+{
+  "result": {
+    "ANSWER": "Patch `worlds/generate_depth_probe_v05.py`, `worlds/generate_provenance_depth_v05.py`, `worlds/generate_provenance_latent_v05.py`, and `worlds/generate_anti_isomorph_probe_v05.py` to use `sys.executable` or the bound qualified interpreter.",
+    "EVIDENCE": "[1] E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p1.0: 4. Patch deterministic-regeneration subprocess calls to use `sys.executable` or the bound qualified interpreter.",
+    "OARR": "NONE",
+    "LOOP": "NONE",
+    "SURVIVE": "Protected and fingerprinted sealed v0.9 parent",
+    "SCAR": "NONE",
+    "DEMOTE": "NONE",
+    "RESERVOIR": "NONE",
+    "DISPOSITION": "In progress",
+    "CONFIDENCE": "1",
+    "NEXT": "What is the impact of using `sys.executable` or the bound qualified interpreter on?",
+    "confidence_numeric": 1.0,
+    "campaign": 1,
+    "pass": 3,
+    "active_question": "What are the two deterministic-regeneration subprocess calls that need to be patched to use `sys.executable` or the bound qualified interpreter?",
+    "oarr_slice": "A",
+    "source_refs": [
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p1.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p8.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p2.0",
+      "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p1.0"
+    ],
+    "promotion_authority": "NONE",
+    "raw_outputs": [
+      "ANSWER=Patch `worlds/generate_depth_probe_v05.py`, `worlds/generate_provenance_depth_v05.py`, `worlds/generate_provenance_latent_v05.py`, and `worlds/generate_anti_isomorph_probe_v05.py` to use `sys.executable` or the bound qualified interpreter. || EVIDENCE=[1] E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p1.0: 4. Patch deterministic-regeneration subprocess calls to use `sys.executable` or the bound qualified interpreter. || OARR=NONE || LOOP=NONE || SURVIVE=Protected and fingerprinted sealed v0.9 parent || SCAR=NONE || DEMOTE=NONE || RESERVOIR=NONE || DISPOSITION=In progress || CONFIDENCE=1 || NEXT=What is the impact of using `sys.executable` or the bound qualified interpreter on"
+    ]
+  },
+  "model_meta": {
+    "usage": {
+      "completion_tokens": 205,
+      "prompt_tokens": 1087,
+      "total_tokens": 1292,
+      "prompt_tokens_details": {
+        "cached_tokens": 262
+      }
+    },
+    "timings": {
+      "cache_n": 262,
+      "prompt_n": 825,
+      "prompt_ms": 7476.245,
+      "prompt_per_token_ms": 9.062115151515151,
+      "prompt_per_second": 110.34951369303708,
+      "predicted_n": 205,
+      "predicted_ms": 21765.729,
+      "predicted_per_token_ms": 106.17428780487805,
+      "predicted_per_second": 9.41847617417271
+    },
+    "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+    "fingerprint": "b8831-a279d0f0f",
+    "finish_reason": "length"
+  }
+}

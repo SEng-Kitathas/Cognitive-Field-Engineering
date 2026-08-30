@@ -1,0 +1,26 @@
+{
+  "pid": 34772,
+  "cmd": [
+    "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+    "-m",
+    "D:\\Singularity_Works\\repo\\corpus\\models\\salvaged_from_lmstudio\\Melvin56\\Qwen2.5-Coder-7B-Instruct-abliterated-Q4_K_M-GGUF\\qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+    "-md",
+    "D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\Qwen2.5-0.5B-Instruct-Q4_K_M.gguf",
+    "--draft-max",
+    "12",
+    "--draft-min",
+    "2",
+    "--draft-p-min",
+    "0.70",
+    "-c",
+    "4096",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "8091",
+    "--offline",
+    "--parallel",
+    "1"
+  ],
+  "started_epoch": 1788036490.4412336
+}

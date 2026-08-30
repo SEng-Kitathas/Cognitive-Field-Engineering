@@ -1,0 +1,21 @@
+RC=0
+STDOUT
+BASE_LEN 32000 BOS 1 EOS 2
+ADDED 2 LEN 32002 END 32000 START 32001
+{
+  "CONTROL_STRICT_CELL_SCRAMBLE": {
+    "rows": 72,
+    "mismatches": 0,
+    "first": []
+  },
+  "TREATMENT_NEIGHBORHOOD": {
+    "rows": 72,
+    "mismatches": 0,
+    "first": []
+  }
+}
+b'<|im_start|>assistant\n' [32001, 13892, 13]
+b'<|im_start|>user\n' [32001, 2188, 13]
+b'<|im_end|>' [32000]
+
+STDERR

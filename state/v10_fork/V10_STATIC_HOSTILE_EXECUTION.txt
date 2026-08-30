@@ -1,0 +1,11 @@
+COMMAND=['C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\experiments\\first_screen_v09\\hostile_static_package_v09.py', '--q3-model', 'C:\\Users\\ancal\\Downloads\\CEG_CAPYBARA_Q3KS_HANDOFF\\capybarahermes-2.5-mistral-7b.Q3_K_S.gguf', '--behavioral-tokenizer-source', 'D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\mistral_capybara_3shard', '--v09-parent', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\sealed_parents\\v09\\CFE_RND_V0_9_2026-08-25', '--lock', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\design\\CFE_V10_FIRST_SCREEN_INPUT_LOCK.json', '--out', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\qualification\\v10\\STATIC_HOSTILE_PASS_V10.json']
+RC=0
+STDOUT
+INPUT_LOCK_PASS artifacts=48 lock=C:\Users\ancal\ProtoAGI\CFE\CFE_RND_V1_0_PREEXECUTION\design\CFE_V10_FIRST_SCREEN_INPUT_LOCK.json
+{
+  "status": "SURVIVED_STATIC_HOSTILE_PASS__V10_PREEXECUTION_CANDIDATE_ONLY",
+  "check_count": 347,
+  "out": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\qualification\\v10\\STATIC_HOSTILE_PASS_V10.json"
+}
+
+STDERR

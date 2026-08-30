@@ -1,0 +1,38 @@
+{
+  "schema": "cfe.v10.control-plane-incident.v1",
+  "status": "CONTAINED__SCIENTIFIC_OUTPUT_NOT_YET_INTERPRETED",
+  "run_root": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z",
+  "seed": 2026082501,
+  "arm": "CONTROL_STRICT_CELL_SCRAMBLE",
+  "incidents": [
+    {
+      "type": "BAD_WRAPPER_ARGUMENT",
+      "pid": 34464,
+      "failure": "ADAPTER_HASH_FAILURE README.md",
+      "cause": "external helper passed the train directory to --adapter instead of the adapter subdirectory",
+      "scientific_results_written": false,
+      "scientific_manifest_written": false,
+      "preserved_failure_receipt": "run_root/failed_attempts/2026082501_CONTROL_EVAL_WRAPPER_BAD_ADAPTER_PATH/FAILURE_RECEIPT.json"
+    },
+    {
+      "type": "DUPLICATE_EVALUATOR_RACE_PREVENTED",
+      "duplicate_controller_pid": 9992,
+      "duplicate_descendants_terminated": [16904, 29600, 4212],
+      "kept_valid_retry_wrapper_pid": 31096,
+      "kept_valid_retry_child_pid": 14420,
+      "reason": "two evaluators were targeting the same canonical eval output directory; the later duplicate was terminated before either evaluator wrote RESULTS.jsonl or EVAL_MANIFEST.json"
+    }
+  ],
+  "invariants_preserved": [
+    "training RUN_MANIFEST and adapter bytes were not changed",
+    "input/host/profile locks were not changed",
+    "experiment code and preregistration were not changed",
+    "failed invocation evidence was preserved instead of deleted",
+    "only one valid evaluator remained after containment"
+  ],
+  "laws": [
+    "CONTROL_PLANE_SUCCESS_OR_FAILURE != SCIENTIFIC_RESULT",
+    "DUPLICATE_WRITER != ACCEPTABLE_REPLAY",
+    "PRESERVE_FAILURE_EVIDENCE_BEFORE_RECOVERY"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "C:\\Users\\ancal\\ProtoAGI\\CFE\\sealed_parents\\v09\\CFE_RND_V0_9_2026-08-25",
+  "child": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION",
+  "parent_files": 242,
+  "child_files": 242,
+  "parent_pre_post_equal": true,
+  "child_initial_equal_parent": true,
+  "parent_tree_aggregate_sha256": "41a33cf474e82d4b443b31c26ab2d653b2bca071f95ad6bd24173d88090e881d",
+  "created_unix": 1788038266.7583964
+}

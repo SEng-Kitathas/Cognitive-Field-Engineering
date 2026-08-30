@@ -1,0 +1,96 @@
+COMMAND=['C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\compiler\\build_behavioral_token_reference_v10.py', '--arms-dir', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\pilot\\first_screen_v09', '--out', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\pilot\\first_screen_v09\\token_reference_q3', '--tokenizer-source', 'D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\mistral_capybara_3shard', '--v09-parent', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\sealed_parents\\v09\\CFE_RND_V0_9_2026-08-25', '--q3-model', 'C:\\Users\\ancal\\Downloads\\CEG_CAPYBARA_Q3KS_HANDOFF\\capybarahermes-2.5-mistral-7b.Q3_K_S.gguf']
+RC=0
+STDOUT
+{
+  "add_bos": true,
+  "arms": {
+    "CONTROL_STRICT_CELL_SCRAMBLE": {
+      "global_tokens": 33646,
+      "max_sequence_tokens": 499,
+      "rows": 72,
+      "sha256": "526d69e9a64830195a99636cc333500d7388d652dc36fbff49ebcf7bbef40297",
+      "supervised_tokens": 3288
+    },
+    "TREATMENT_NEIGHBORHOOD": {
+      "global_tokens": 33646,
+      "max_sequence_tokens": 499,
+      "rows": 72,
+      "sha256": "50b1b8a0fdc8a359e61ff64bd14ad66ded4a1eae525a171cca681a9632726f62",
+      "supervised_tokens": 3288
+    }
+  },
+  "authority_ceiling": "TOKEN_REFERENCE_GENERATION_ONLY__LOCAL_MODEL_WEIGHTS_NOT_CFE_BASE_AUTHORITY",
+  "chat_template": "<|im_start|>{role}\\n{content}<|im_end|>\\n",
+  "laws": [
+    "BEHAVIORAL_TOKEN_EQUIVALENCE_ON_SEALED_CORPUS != MODEL_WEIGHT_IDENTITY",
+    "REFERENCE_TOKENIZATION != RUNTIME_TOKENIZER_QUALIFICATION",
+    "Q3_REFERENCE != NF4_TRAINING_BASE"
+  ],
+  "loss_scope": "assistant content plus <|im_end|>; role header and trailing newline excluded",
+  "max_seq_len": 512,
+  "microbatch": 1,
+  "packing": false,
+  "paired_sequence_length_deltas": {
+    "-1": 1,
+    "0": 70,
+    "1": 1
+  },
+  "paired_sequence_length_equal_count": 70,
+  "paired_sequence_length_max_abs_delta": 1,
+  "paired_supervised_tokens_equal": true,
+  "q3_model_path": "C:\\Users\\ancal\\Downloads\\CEG_CAPYBARA_Q3KS_HANDOFF\\capybarahermes-2.5-mistral-7b.Q3_K_S.gguf",
+  "q3_model_sha256": "17736f224b217133bee8ee6b5cbb0c8d0bed45466008f9c96c3d058c9d078515",
+  "reconstruction": {
+    "added_special_tokens_count": 2,
+    "additional_special_tokens_in_id_order": [
+      "<|im_end|>",
+      "<|im_start|>"
+    ],
+    "base_vocab_size": 32000,
+    "im_end_id": 32000,
+    "im_start_id": 32001
+  },
+  "runtime_replay_gate": "Pinned argilla/CapybaraHermes-2.5-Mistral-7B revision must reproduce every v1.0 input_ids/loss_mask exactly before any scientific training.",
+  "schema": "cfe.v10.behavioral-token-reference.v1",
+  "status": "SEALED_V09_BEHAVIORAL_EQUIVALENCE_PASS__EXACT_RUNTIME_REPLAY_REQUIRED",
+  "tokenizer_source": "D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\mistral_capybara_3shard",
+  "tokenizer_source_files": {
+    "special_tokens_map.json": {
+      "bytes": 414,
+      "sha256": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0"
+    },
+    "tokenizer.json": {
+      "bytes": 1795303,
+      "sha256": "fc4f0bd70b3709312d9d1d9e5ba674794b6bc5abc17429897a540f93882f25fc"
+    },
+    "tokenizer.model": {
+      "bytes": 493443,
+      "sha256": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055"
+    },
+    "tokenizer_config.json": {
+      "bytes": 1414,
+      "sha256": "dd9a7bfe8b947935b85d9c4d885d5f244d61cfe42555cd9427e9024e323054bf"
+    }
+  },
+  "v09_behavioral_anchor": {
+    "assistant_header_ids": [
+      32001,
+      13892,
+      13
+    ],
+    "checked_sequences": 144,
+    "exact_input_id_matches": 144,
+    "exact_loss_mask_matches": 144,
+    "im_end_id": 32000,
+    "sealed_manifest_sha256": "c0959ee12a9c8a87fe829c64907b5c671bbdf35cb5e04e60c9a6e4aba8f17aab",
+    "sealed_q3_model_sha256": "17736f224b217133bee8ee6b5cbb0c8d0bed45466008f9c96c3d058c9d078515",
+    "sealed_q3_tokenizer_binary_sha256": "a9ec13ed59220ecd0feda0a185fa3f1d6679dcdad2b1b05803dee6404cc60c7c",
+    "user_header_ids": [
+      32001,
+      2188,
+      13
+    ]
+  }
+}
+
+STDERR

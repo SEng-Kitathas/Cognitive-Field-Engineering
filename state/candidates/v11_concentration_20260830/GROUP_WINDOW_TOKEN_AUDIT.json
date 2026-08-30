@@ -1,0 +1,431 @@
+{
+  "groups": {
+    "('bounded_transport', 'broker')": {
+      "equal": true,
+      "values": {
+        "K1_TRUE_NEIGHBORHOOD": {
+          "seq_lengths": [
+            432,
+            432,
+            432,
+            432,
+            430,
+            432,
+            432,
+            432
+          ],
+          "supervised": 360,
+          "tokens": 3454
+        },
+        "K2_PAIRED_NEIGHBORHOODS": {
+          "seq_lengths": [
+            431,
+            432,
+            432,
+            432,
+            431,
+            432,
+            432,
+            432
+          ],
+          "supervised": 360,
+          "tokens": 3454
+        },
+        "K4_STRICT_SCRAMBLE": {
+          "seq_lengths": [
+            432,
+            432,
+            432,
+            432,
+            431,
+            432,
+            431,
+            432
+          ],
+          "supervised": 360,
+          "tokens": 3454
+        }
+      }
+    },
+    "('bounded_transport', 'staging_lane')": {
+      "equal": true,
+      "values": {
+        "K1_TRUE_NEIGHBORHOOD": {
+          "seq_lengths": [
+            448,
+            448,
+            448,
+            448,
+            448,
+            448,
+            448,
+            448
+          ],
+          "supervised": 360,
+          "tokens": 3584
+        },
+        "K2_PAIRED_NEIGHBORHOODS": {
+          "seq_lengths": [
+            448,
+            448,
+            448,
+            448,
+            448,
+            448,
+            448,
+            448
+          ],
+          "supervised": 360,
+          "tokens": 3584
+        },
+        "K4_STRICT_SCRAMBLE": {
+          "seq_lengths": [
+            448,
+            448,
+            448,
+            448,
+            448,
+            448,
+            448,
+            448
+          ],
+          "supervised": 360,
+          "tokens": 3584
+        }
+      }
+    },
+    "('bounded_transport', 'work_queue')": {
+      "equal": true,
+      "values": {
+        "K1_TRUE_NEIGHBORHOOD": {
+          "seq_lengths": [
+            440,
+            440,
+            440,
+            440,
+            440,
+            440,
+            440,
+            440
+          ],
+          "supervised": 360,
+          "tokens": 3520
+        },
+        "K2_PAIRED_NEIGHBORHOODS": {
+          "seq_lengths": [
+            440,
+            440,
+            440,
+            440,
+            440,
+            440,
+            440,
+            440
+          ],
+          "supervised": 360,
+          "tokens": 3520
+        },
+        "K4_STRICT_SCRAMBLE": {
+          "seq_lengths": [
+            440,
+            440,
+            440,
+            440,
+            440,
+            440,
+            440,
+            440
+          ],
+          "supervised": 360,
+          "tokens": 3520
+        }
+      }
+    },
+    "('dependency_currentness', 'cache')": {
+      "equal": true,
+      "values": {
+        "K1_TRUE_NEIGHBORHOOD": {
+          "seq_lengths": [
+            471,
+            471,
+            471,
+            471,
+            471,
+            471,
+            471,
+            471
+          ],
+          "supervised": 192,
+          "tokens": 3768
+        },
+        "K2_PAIRED_NEIGHBORHOODS": {
+          "seq_lengths": [
+            471,
+            471,
+            471,
+            471,
+            471,
+            471,
+            471,
+            471
+          ],
+          "supervised": 192,
+          "tokens": 3768
+        },
+        "K4_STRICT_SCRAMBLE": {
+          "seq_lengths": [
+            471,
+            471,
+            471,
+            471,
+            471,
+            471,
+            471,
+            471
+          ],
+          "supervised": 192,
+          "tokens": 3768
+        }
+      }
+    },
+    "('dependency_currentness', 'calibration')": {
+      "equal": true,
+      "values": {
+        "K1_TRUE_NEIGHBORHOOD": {
+          "seq_lengths": [
+            473,
+            469,
+            473,
+            469,
+            473,
+            469,
+            473,
+            469
+          ],
+          "supervised": 192,
+          "tokens": 3768
+        },
+        "K2_PAIRED_NEIGHBORHOODS": {
+          "seq_lengths": [
+            473,
+            469,
+            473,
+            469,
+            473,
+            469,
+            473,
+            469
+          ],
+          "supervised": 192,
+          "tokens": 3768
+        },
+        "K4_STRICT_SCRAMBLE": {
+          "seq_lengths": [
+            473,
+            469,
+            473,
+            469,
+            473,
+            469,
+            473,
+            469
+          ],
+          "supervised": 192,
+          "tokens": 3768
+        }
+      }
+    },
+    "('dependency_currentness', 'registry')": {
+      "equal": true,
+      "values": {
+        "K1_TRUE_NEIGHBORHOOD": {
+          "seq_lengths": [
+            463,
+            467,
+            463,
+            467,
+            463,
+            467,
+            463,
+            467
+          ],
+          "supervised": 192,
+          "tokens": 3720
+        },
+        "K2_PAIRED_NEIGHBORHOODS": {
+          "seq_lengths": [
+            463,
+            467,
+            463,
+            467,
+            463,
+            467,
+            463,
+            467
+          ],
+          "supervised": 192,
+          "tokens": 3720
+        },
+        "K4_STRICT_SCRAMBLE": {
+          "seq_lengths": [
+            463,
+            467,
+            463,
+            467,
+            463,
+            467,
+            463,
+            467
+          ],
+          "supervised": 192,
+          "tokens": 3720
+        }
+      }
+    },
+    "('warrant_vs_taint', 'build')": {
+      "equal": true,
+      "values": {
+        "K1_TRUE_NEIGHBORHOOD": {
+          "seq_lengths": [
+            499,
+            499,
+            499,
+            499,
+            499,
+            499,
+            499,
+            499
+          ],
+          "supervised": 544,
+          "tokens": 3992
+        },
+        "K2_PAIRED_NEIGHBORHOODS": {
+          "seq_lengths": [
+            499,
+            499,
+            499,
+            499,
+            499,
+            499,
+            499,
+            499
+          ],
+          "supervised": 544,
+          "tokens": 3992
+        },
+        "K4_STRICT_SCRAMBLE": {
+          "seq_lengths": [
+            499,
+            499,
+            499,
+            499,
+            499,
+            499,
+            499,
+            499
+          ],
+          "supervised": 544,
+          "tokens": 3992
+        }
+      }
+    },
+    "('warrant_vs_taint', 'incident')": {
+      "equal": true,
+      "values": {
+        "K1_TRUE_NEIGHBORHOOD": {
+          "seq_lengths": [
+            485,
+            485,
+            485,
+            485,
+            485,
+            485,
+            485,
+            485
+          ],
+          "supervised": 544,
+          "tokens": 3880
+        },
+        "K2_PAIRED_NEIGHBORHOODS": {
+          "seq_lengths": [
+            485,
+            485,
+            485,
+            485,
+            485,
+            485,
+            485,
+            485
+          ],
+          "supervised": 544,
+          "tokens": 3880
+        },
+        "K4_STRICT_SCRAMBLE": {
+          "seq_lengths": [
+            485,
+            485,
+            485,
+            485,
+            485,
+            485,
+            485,
+            485
+          ],
+          "supervised": 544,
+          "tokens": 3880
+        }
+      }
+    },
+    "('warrant_vs_taint', 'lab')": {
+      "equal": true,
+      "values": {
+        "K1_TRUE_NEIGHBORHOOD": {
+          "seq_lengths": [
+            495,
+            495,
+            495,
+            495,
+            495,
+            495,
+            495,
+            495
+          ],
+          "supervised": 544,
+          "tokens": 3960
+        },
+        "K2_PAIRED_NEIGHBORHOODS": {
+          "seq_lengths": [
+            495,
+            495,
+            495,
+            495,
+            495,
+            495,
+            495,
+            495
+          ],
+          "supervised": 544,
+          "tokens": 3960
+        },
+        "K4_STRICT_SCRAMBLE": {
+          "seq_lengths": [
+            495,
+            495,
+            495,
+            495,
+            495,
+            495,
+            495,
+            495
+          ],
+          "supervised": 544,
+          "tokens": 3960
+        }
+      }
+    }
+  },
+  "law": "SAME_UPDATE_SOURCE_MULTISET + SAME_TOKEN/SUPERVISION_BURDEN != SAME_SEQUENCE_COVISIBILITY",
+  "schema": "cfe.v11.group-window-token-audit.v1",
+  "status": "PASS",
+  "tokenizer_snapshot": "D:\\CFE_HF_CACHE\\models--argilla--CapybaraHermes-2.5-Mistral-7B\\snapshots\\d06c86726aadd8dadb92c5b9b9e3ce8ef246c471"
+}

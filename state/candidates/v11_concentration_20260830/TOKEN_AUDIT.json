@@ -1,0 +1,60 @@
+{
+  "im_end_id": 32000,
+  "im_start_id": 32001,
+  "pairwise": {
+    "K1_TRUE_NEIGHBORHOOD__VS__K2_PAIRED_NEIGHBORHOODS": {
+      "delta_histogram": {
+        "-1": 1,
+        "0": 70,
+        "1": 1
+      },
+      "exact_lengths": 70,
+      "max_abs_delta": 1,
+      "paired_supervised_equal": true
+    },
+    "K1_TRUE_NEIGHBORHOOD__VS__K4_STRICT_SCRAMBLE": {
+      "delta_histogram": {
+        "-1": 1,
+        "0": 70,
+        "1": 1
+      },
+      "exact_lengths": 70,
+      "max_abs_delta": 1,
+      "paired_supervised_equal": true
+    },
+    "K2_PAIRED_NEIGHBORHOODS__VS__K4_STRICT_SCRAMBLE": {
+      "delta_histogram": {
+        "-1": 1,
+        "0": 70,
+        "1": 1
+      },
+      "exact_lengths": 70,
+      "max_abs_delta": 1,
+      "paired_supervised_equal": true
+    }
+  },
+  "schema": "cfe.v11.concentration-token-audit.v1",
+  "stats": {
+    "K1_TRUE_NEIGHBORHOOD": {
+      "global_tokens": 33646,
+      "max_tokens": 499,
+      "rows": 72,
+      "supervised_tokens": 3288
+    },
+    "K2_PAIRED_NEIGHBORHOODS": {
+      "global_tokens": 33646,
+      "max_tokens": 499,
+      "rows": 72,
+      "supervised_tokens": 3288
+    },
+    "K4_STRICT_SCRAMBLE": {
+      "global_tokens": 33646,
+      "max_tokens": 499,
+      "rows": 72,
+      "supervised_tokens": 3288
+    }
+  },
+  "status": "PASS",
+  "tokenizer_len_on_load": 32002,
+  "tokenizer_snapshot": "D:\\CFE_HF_CACHE\\models--argilla--CapybaraHermes-2.5-Mistral-7B\\snapshots\\d06c86726aadd8dadb92c5b9b9e3ce8ef246c471"
+}

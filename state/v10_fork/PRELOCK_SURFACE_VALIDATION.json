@@ -1,0 +1,165 @@
+{
+  "python_compile": [
+    {
+      "path": "experiments\\first_screen_v09\\analyze_scientific_effect_v09.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\analyze_seed_extension_v10.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\common_v09.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\decide_seed_extension_v10.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\evaluate_first_screen_v09.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\finalize_preexecution_qualification_v10.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\hostile_static_package_v09.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\launch_seed_extension_v10.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\make_input_lock_v09.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\preflight_cuda_fit_v09.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\prepare_host_v09.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\qualify_executed_first_screen_v09.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\qualify_seed_extension_v10.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\repeatability_probe_v10.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\train_first_screen_v09.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\verify_input_lock_v09.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "experiments\\first_screen_v09\\verify_preexecution_qualification_v10.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "compiler\\build_behavioral_token_reference_v10.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "compiler\\build_q3_token_reference_v09.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "compiler\\compile_experience_v06.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "compiler\\compile_first_screen_v09.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "qualification\\v10\\audit_case_uniqueness_v10.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "qualification\\v10\\exhaustive_control_audit_v10.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "field\\generate_cfe_field_v06.py",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "evaluation\\generate_eval_field_independent_v06.py",
+      "rc": 0,
+      "stderr": ""
+    }
+  ],
+  "bash": [
+    {
+      "path": "launch_first_screen_v09.sh",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "path": "bootstrap_cuda_env_v09.sh",
+      "rc": 0,
+      "stderr": ""
+    }
+  ],
+  "powershell": [
+    {
+      "path": "launch_first_screen_v09.ps1",
+      "rc": 2,
+      "stdout": "\nThe file could not be read: Cannot process argument because the value of argument \"path\" is not valid. Change the value of the \"path\" argument and run the operation again..\n",
+      "stderr": ""
+    },
+    {
+      "path": "bootstrap_cuda_env_v09.ps1",
+      "rc": 2,
+      "stdout": "\nThe file could not be read: Cannot process argument because the value of argument \"path\" is not valid. Change the value of the \"path\" argument and run the operation again..\n",
+      "stderr": ""
+    }
+  ],
+  "pip_check": {
+    "rc": 0,
+    "stdout": "No broken requirements found.\n",
+    "stderr": ""
+  },
+  "determinism_smoke": {
+    "rc": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\experiments\\first_screen_v09\\common_v09.py\", line 106, in configure_determinism\n    random.seed(seed); np.random.seed(seed); torch.manual_seed(seed); torch.cuda.manual_seed_all(seed)\n                       ^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/mtrand.pyx\", line 4833, in numpy.random.mtrand.seed\n  File \"numpy/random/mtrand.pyx\", line 255, in numpy.random.mtrand.RandomState.seed\n  File \"numpy/random/mtrand.pyx\", line 256, in numpy.random.mtrand.RandomState.seed\n  File \"numpy/random/_mt19937.pyx\", line 168, in numpy.random._mt19937.MT19937._legacy_seeding\n  File \"numpy/random/_mt19937.pyx\", line 182, in numpy.random._mt19937.MT19937._legacy_seeding\nValueError: Seed must be between 0 and 2**32 - 1\n"
+  }
+}

@@ -1,0 +1,108 @@
+COMMAND=['C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\experiments\\first_screen_v09\\prepare_host_v09.py', '--out', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\qualification\\v10\\runtime_host', '--cache-dir', 'D:\\CFE_HF_CACHE', '--allow-network', '--local-search-receipt', 'E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\v10_fork\\LOCAL_MODEL_ASSET_SEARCH_2026-08-29.json', '--lock', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\design\\CFE_V10_FIRST_SCREEN_INPUT_LOCK.json', '--qualification', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\qualification\\v10\\CFE_V10_PREEXECUTION_QUALIFICATION.json']
+RC=0
+STDOUT
+INPUT_LOCK_PASS artifacts=48 lock=C:\Users\ancal\ProtoAGI\CFE\CFE_RND_V1_0_PREEXECUTION\design\CFE_V10_FIRST_SCREEN_INPUT_LOCK.json
+{
+  "arms": {
+    "CONTROL_STRICT_CELL_SCRAMBLE": {
+      "mismatches": 0,
+      "rows": 72
+    },
+    "TREATMENT_NEIGHBORHOOD": {
+      "mismatches": 0,
+      "rows": 72
+    }
+  },
+  "base_snapshot_manifest_sha256": "0d429d3f6e0fa276fa7bb24c3566ed7ce3856c22230bb58936527f1f15f2bc6d",
+  "base_snapshot_path": "D:\\CFE_HF_CACHE\\models--argilla--CapybaraHermes-2.5-Mistral-7B\\snapshots\\d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+  "cuda": {
+    "compute_capability": [
+      8,
+      9
+    ],
+    "cublas_workspace_config": null,
+    "cuda_available": true,
+    "executable": "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "gpu_total_memory_bytes": 6438780928,
+    "machine": "AMD64",
+    "pip_check_returncode": 0,
+    "pip_check_stderr": [],
+    "pip_check_stdout": [
+      "No broken requirements found."
+    ],
+    "pip_freeze": [
+      "accelerate==1.14.0",
+      "bitsandbytes==0.50.2",
+      "certifi==2026.7.22",
+      "charset-normalizer==3.5.1",
+      "colorama==0.4.6",
+      "filelock==3.32.3",
+      "fsspec==2026.7.0",
+      "huggingface_hub==0.36.2",
+      "idna==3.19",
+      "iniconfig==2.3.0",
+      "Jinja2==3.1.6",
+      "MarkupSafe==3.0.3",
+      "mpmath==1.3.0",
+      "networkx==3.6.1",
+      "numpy==2.5.2",
+      "packaging==26.3",
+      "peft==0.20.0",
+      "pip==26.2.1",
+      "pluggy==1.6.0",
+      "psutil==7.2.2",
+      "Pygments==2.21.0",
+      "pytest==9.1.1",
+      "PyYAML==6.0.3",
+      "regex==2026.7.19",
+      "requests==2.34.2",
+      "safetensors==0.8.0",
+      "sentencepiece==0.2.2",
+      "setuptools==78.1.0",
+      "sympy==1.14.0",
+      "tokenizers==0.22.2",
+      "torch==2.12.1+cu126",
+      "tqdm==4.70.0",
+      "transformers==4.57.6",
+      "typing_extensions==4.16.0",
+      "urllib3==2.7.0",
+      "wheel==0.48.0"
+    ],
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "torch": "2.12.1+cu126",
+    "torch_cuda": "12.6"
+  },
+  "hf_repo": "argilla/CapybaraHermes-2.5-Mistral-7B",
+  "hf_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+  "input_lock_sha256": "a497c1cd013c834c9e9efc45b65fd09dbae0dca973f044afe706607cc8094695",
+  "local_search_receipt_sha256": "7ee3fecfa4f3d108277a6697869036ef960bf4486153f5c5f4529100eaa4788f",
+  "runtime_environment_sha256": "cebe73eef7ef793f23640afc6740ac9a7eaa7cdd4bc521c3bdd90ea7d91d669a",
+  "runtime_tokenizer_exact_match": true,
+  "schema": "cfe.v10.host-lock.v1",
+  "snapshot_acquisition_mode": "NETWORK_EXACT_REVISION_AFTER_LOCAL_SEARCH",
+  "snapshot_identity_evidence": {
+    "method": "snapshot_download_exact_revision",
+    "path_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471"
+  },
+  "status": "HOST_PREPARED__NO_SCIENTIFIC_TRAINING_YET",
+  "tokenizer_reference_manifest_sha256": "88db2c3e11d59d559010c63a58e53ecb6ea1a50ae0bff5b9433b2b833a214f9f"
+}
+
+STDERR
+
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in D:\CFE_HF_CACHE\models--argilla--CapybaraHermes-2.5-Mistral-7B. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+
+Fetching 13 files:  62%|██████▏   | 8/13 [00:01<00:01,  4.65it/s]
+Fetching 13 files:  77%|███████▋  | 10/13 [00:20<00:06,  2.00s/it]
+Fetching 13 files:  85%|████████▍ | 11/13 [09:32<01:44, 52.04s/it]
+Fetching 13 files:  92%|█████████▏| 12/13 [09:36<00:48, 48.02s/it]
+Fetching 13 files: 100%|██████████| 13/13 [11:15<00:00, 51.97s/it]
+Fetching 13 files: 100%|██████████| 13/13 [11:15<00:00, 51.97s/it]

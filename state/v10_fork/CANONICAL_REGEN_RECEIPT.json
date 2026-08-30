@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "changed_count": 16,
+  "changed": [
+    "evaluation/v06_independent/eval_field_independent.private.jsonl",
+    "evaluation/v06_independent/manifest.json",
+    "field/v06/eval_field.private.jsonl",
+    "field/v06/manifest.json",
+    "field/v06/train_field.jsonl",
+    "pilot/cfe_v06/eval_compile_independent/independent_rows.jsonl",
+    "pilot/cfe_v06/eval_compile_independent/manifest.json",
+    "pilot/cfe_v06/eval_compile_independent/neighborhood_blocks.jsonl",
+    "pilot/cfe_v06/eval_compile_independent/random_blocks_control.jsonl",
+    "pilot/cfe_v06/train_compile/independent_rows.jsonl",
+    "pilot/cfe_v06/train_compile/manifest.json",
+    "pilot/cfe_v06/train_compile/neighborhood_blocks.jsonl",
+    "pilot/cfe_v06/train_compile/random_blocks_control.jsonl",
+    "pilot/first_screen_v09/CONTROL_STRICT_CELL_SCRAMBLE.jsonl",
+    "pilot/first_screen_v09/TREATMENT_NEIGHBORHOOD.jsonl",
+    "pilot/first_screen_v09/manifest.json"
+  ],
+  "commands": [
+    {
+      "cmd": [
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\generate_cfe_field_v06.py",
+        "--out",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\v06",
+        "--eval-seed",
+        "90920260825"
+      ],
+      "rc": 0
+    },
+    {
+      "cmd": [
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\evaluation\\generate_eval_field_independent_v06.py",
+        "--out",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\evaluation\\v06_independent",
+        "--seed",
+        "70720260825"
+      ],
+      "rc": 0
+    },
+    {
+      "cmd": [
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\compiler\\compile_experience_v06.py",
+        "--field",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\v06\\train_field.jsonl",
+        "--lhit-field",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\v06\\train_lhit_field.jsonl",
+        "--out",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\pilot\\cfe_v06\\train_compile",
+        "--split",
+        "train"
+      ],
+      "rc": 0
+    },
+    {
+      "cmd": [
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\compiler\\compile_experience_v06.py",
+        "--field",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\evaluation\\v06_independent\\eval_field_independent.private.jsonl",
+        "--lhit-field",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\evaluation\\v06_independent\\eval_lhit_independent.private.jsonl",
+        "--out",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\pilot\\cfe_v06\\eval_compile_independent",
+        "--split",
+        "eval"
+      ],
+      "rc": 0
+    },
+    {
+      "cmd": [
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\compiler\\compile_first_screen_v09.py",
+        "--field",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\v06\\train_field.jsonl",
+        "--out",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\pilot\\first_screen_v09"
+      ],
+      "rc": 0
+    }
+  ],
+  "token_reference_q3": "INTENTIONALLY_NOT_REGENERATED__STALE_PENDING_EXACT_TOKENIZER"
+}

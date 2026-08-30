@@ -1,0 +1,8 @@
+{
+  "qualified_campaigns": 3,
+  "qualified_passes": 60,
+  "hard_stops_honored": true,
+  "next_question": "Can the exact pinned `argilla/CapybaraHermes-2.5-Mistral-7B` revision `d06c86726aadd8dadb92c5b9b9e3ce8ef246c471` be located and fully qualified somewhere on C:, D:, or E: without any network acquisition?",
+  "promotion_authority": "NONE",
+  "sealed_parent_mutated": false
+}

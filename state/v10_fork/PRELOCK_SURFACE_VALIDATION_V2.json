@@ -1,0 +1,32 @@
+{
+  "python_compile_files": 25,
+  "python_failures": [],
+  "powershell": [
+    {
+      "path": "launch_first_screen_v09.ps1",
+      "rc": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "path": "bootstrap_cuda_env_v09.ps1",
+      "rc": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "determinism": [
+    {
+      "seed": 90920260825,
+      "rc": 0,
+      "stdout": "{\"cublas_workspace_config\": \":4096:8\", \"cudnn_benchmark\": false, \"cudnn_deterministic\": true, \"deterministic_algorithms\": true, \"deterministic_debug_mode\": 2, \"matmul_allow_tf32\": false, \"numpy_seed\": 725947609, \"seed\": 90920260825}\n",
+      "stderr": ""
+    },
+    {
+      "seed": 2026082501,
+      "rc": 0,
+      "stdout": "{\"cublas_workspace_config\": \":4096:8\", \"cudnn_benchmark\": false, \"cudnn_deterministic\": true, \"deterministic_algorithms\": true, \"deterministic_debug_mode\": 2, \"matmul_allow_tf32\": false, \"numpy_seed\": 2026082501, \"seed\": 2026082501}\n",
+      "stderr": ""
+    }
+  ]
+}

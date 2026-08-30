@@ -1,0 +1,6363 @@
+{
+  "definition": "One optimizer-visible update-field = 8 consecutive four-cell sequences = 32 supervised exposures before an optimizer step.",
+  "schema": "cfe.v10.update-field-analysis.v1",
+  "seed_summary": [
+    {
+      "C_mean_bounded_capacity_span": 23,
+      "C_mean_distinct_neighborhoods": 25.77777777777778,
+      "T_mean_bounded_capacity_span": 8.222222222222221,
+      "T_mean_distinct_neighborhoods": 8,
+      "seed": 2026082501,
+      "structural_delta_T_minus_C": 0.04999999999999999
+    },
+    {
+      "C_mean_bounded_capacity_span": 24.22222222222222,
+      "C_mean_distinct_neighborhoods": 28,
+      "T_mean_bounded_capacity_span": 12.555555555555555,
+      "T_mean_distinct_neighborhoods": 8,
+      "seed": 2026082502,
+      "structural_delta_T_minus_C": -0.054166666666666696
+    },
+    {
+      "C_mean_bounded_capacity_span": 23.375,
+      "C_mean_distinct_neighborhoods": 27.555555555555557,
+      "T_mean_bounded_capacity_span": 13.25,
+      "T_mean_distinct_neighborhoods": 8,
+      "seed": 2026082503,
+      "structural_delta_T_minus_C": 0.03749999999999998
+    },
+    {
+      "C_mean_bounded_capacity_span": 22.88888888888889,
+      "C_mean_distinct_neighborhoods": 28,
+      "T_mean_bounded_capacity_span": 11.88888888888889,
+      "T_mean_distinct_neighborhoods": 8,
+      "seed": 2026082504,
+      "structural_delta_T_minus_C": -0.09999999999999998
+    },
+    {
+      "C_mean_bounded_capacity_span": 22.77777777777778,
+      "C_mean_distinct_neighborhoods": 27.555555555555557,
+      "T_mean_bounded_capacity_span": 9.444444444444445,
+      "T_mean_distinct_neighborhoods": 8,
+      "seed": 2026082505,
+      "structural_delta_T_minus_C": 0.050000000000000044
+    },
+    {
+      "C_mean_bounded_capacity_span": 21.555555555555557,
+      "C_mean_distinct_neighborhoods": 27.11111111111111,
+      "T_mean_bounded_capacity_span": 11.333333333333334,
+      "T_mean_distinct_neighborhoods": 8,
+      "seed": 2026082506,
+      "structural_delta_T_minus_C": -0.09999999999999998
+    }
+  ],
+  "seeds": {
+    "2026082501": {
+      "CONTROL_STRICT_CELL_SCRAMBLE": {
+        "mean_bounded_capacity_span": 23,
+        "mean_bounded_distinct_capacities": 8.444444444444445,
+        "mean_distinct_domains": 5.444444444444445,
+        "mean_distinct_neighborhoods": 25.77777777777778,
+        "mean_lexical_jaccard": 0.3493839046441624,
+        "windows": [
+          {
+            "bounded_transport": {
+              "capacity_span": 28,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 12,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 27
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2610011316698336,
+            "sequence_indices": [
+              71,
+              21,
+              11,
+              34,
+              45,
+              32,
+              40,
+              18
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 0
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 4,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 4,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 18
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 6
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.4696855837950574,
+            "sequence_indices": [
+              20,
+              27,
+              0,
+              16,
+              8,
+              49,
+              6,
+              48
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 16,
+              "distinct_review_codes": 8,
+              "exposures": 24,
+              "independence_counts": {
+                "False": 12,
+                "True": 12
+              },
+              "taint_counts": {
+                "False": 12,
+                "True": 12
+              }
+            },
+            "window_index": 1
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 8,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 11,
+              "exposures": 12,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 24
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3040342210796198,
+            "sequence_indices": [
+              42,
+              53,
+              22,
+              19,
+              61,
+              46,
+              3,
+              39
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 16,
+              "distinct_review_codes": 8,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 2
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 4,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 4,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 18
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 6,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.44107310730244104,
+            "sequence_indices": [
+              37,
+              51,
+              35,
+              12,
+              67,
+              64,
+              33,
+              28
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 3
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 20,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 22
+            },
+            "distinct_domains": 7,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 32,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2530730940888417,
+            "sequence_indices": [
+              2,
+              38,
+              68,
+              24,
+              17,
+              44,
+              60,
+              7
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 4
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 31,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 14,
+              "exposures": 24,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 12,
+                "transactional": 12
+              },
+              "overflow_counts": {
+                "False": 12,
+                "True": 12
+              },
+              "queue_span": 30
+            },
+            "distinct_domains": 4,
+            "distinct_families": 2,
+            "distinct_neighborhoods": 16,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 6,
+              "dependency_currentness": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.41520940481505164,
+            "sequence_indices": [
+              31,
+              25,
+              62,
+              47,
+              10,
+              58,
+              56,
+              43
+            ],
+            "window_index": 5
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 21,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 20
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 5,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3356184009979068,
+            "sequence_indices": [
+              29,
+              36,
+              66,
+              70,
+              14,
+              69,
+              15,
+              5
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 6
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 28,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 10,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 28
+            },
+            "distinct_domains": 6,
+            "distinct_families": 2,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "warrant_vs_taint": 5
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.397818498820042,
+            "sequence_indices": [
+              54,
+              9,
+              59,
+              50,
+              23,
+              1,
+              41,
+              55
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 16,
+              "distinct_review_codes": 8,
+              "exposures": 20,
+              "independence_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "taint_counts": {
+                "False": 10,
+                "True": 10
+              }
+            },
+            "window_index": 7
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 20,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 10,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 22
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2669416992286676,
+            "sequence_indices": [
+              57,
+              13,
+              63,
+              26,
+              30,
+              4,
+              65,
+              52
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 4,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 8
+          }
+        ]
+      },
+      "TREATMENT_NEIGHBORHOOD": {
+        "mean_bounded_capacity_span": 8.222222222222221,
+        "mean_bounded_distinct_capacities": 2.6666666666666665,
+        "mean_distinct_domains": 5.444444444444445,
+        "mean_distinct_neighborhoods": 8,
+        "mean_lexical_jaccard": 0.38169856059468243,
+        "windows": [
+          {
+            "bounded_transport": {
+              "capacity_span": 9,
+              "distinct_capacities": 3,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 6,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 9
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.28398930750274004,
+            "sequence_indices": [
+              71,
+              21,
+              11,
+              34,
+              45,
+              32,
+              40,
+              18
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 0
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 0,
+              "distinct_capacities": 1,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 1,
+              "distinct_queued": 2,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 1
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 6
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.4882034437699561,
+            "sequence_indices": [
+              20,
+              27,
+              0,
+              16,
+              8,
+              49,
+              6,
+              48
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 6,
+              "distinct_review_codes": 6,
+              "exposures": 24,
+              "independence_counts": {
+                "False": 12,
+                "True": 12
+              },
+              "taint_counts": {
+                "False": 12,
+                "True": 12
+              }
+            },
+            "window_index": 1
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 13,
+              "distinct_capacities": 3,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 5,
+              "exposures": 12,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 14
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3320030717684258,
+            "sequence_indices": [
+              42,
+              53,
+              22,
+              19,
+              61,
+              46,
+              3,
+              39
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 3,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 2
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 0,
+              "distinct_capacities": 1,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 1,
+              "distinct_queued": 2,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 1
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 6,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.4854093992701487,
+            "sequence_indices": [
+              37,
+              51,
+              35,
+              12,
+              67,
+              64,
+              33,
+              28
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 1,
+              "distinct_review_codes": 1,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 3
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 2,
+              "distinct_capacities": 2,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 4
+            },
+            "distinct_domains": 7,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.287907070943395,
+            "sequence_indices": [
+              2,
+              38,
+              68,
+              24,
+              17,
+              44,
+              60,
+              7
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 3,
+              "distinct_review_codes": 2,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 4
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 31,
+              "distinct_capacities": 6,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 6,
+              "distinct_queued": 11,
+              "exposures": 24,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 12,
+                "transactional": 12
+              },
+              "overflow_counts": {
+                "False": 12,
+                "True": 12
+              },
+              "queue_span": 31
+            },
+            "distinct_domains": 4,
+            "distinct_families": 2,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 6,
+              "dependency_currentness": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.46336484251569643,
+            "sequence_indices": [
+              31,
+              25,
+              62,
+              47,
+              10,
+              58,
+              56,
+              43
+            ],
+            "window_index": 5
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 3,
+              "distinct_capacities": 2,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 5
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 5,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3861335702636954,
+            "sequence_indices": [
+              29,
+              36,
+              66,
+              70,
+              14,
+              69,
+              15,
+              5
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 1,
+              "distinct_review_codes": 1,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 6
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 10,
+              "distinct_capacities": 3,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 6,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 11
+            },
+            "distinct_domains": 6,
+            "distinct_families": 2,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "warrant_vs_taint": 5
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.4262321359112124,
+            "sequence_indices": [
+              54,
+              9,
+              59,
+              50,
+              23,
+              1,
+              41,
+              55
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 5,
+              "distinct_review_codes": 3,
+              "exposures": 20,
+              "independence_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "taint_counts": {
+                "False": 10,
+                "True": 10
+              }
+            },
+            "window_index": 7
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 6,
+              "distinct_capacities": 3,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 6,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 7
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.28204420340687225,
+            "sequence_indices": [
+              57,
+              13,
+              63,
+              26,
+              30,
+              4,
+              65,
+              52
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 8
+          }
+        ]
+      }
+    },
+    "2026082502": {
+      "CONTROL_STRICT_CELL_SCRAMBLE": {
+        "mean_bounded_capacity_span": 24.22222222222222,
+        "mean_bounded_distinct_capacities": 9.777777777777779,
+        "mean_distinct_domains": 6.111111111111111,
+        "mean_distinct_neighborhoods": 28,
+        "mean_lexical_jaccard": 0.2743462153260167,
+        "windows": [
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 8,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 7,
+              "exposures": 8,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 24
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.269839200334694,
+            "sequence_indices": [
+              26,
+              57,
+              39,
+              14,
+              55,
+              3,
+              25,
+              5
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 4,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 0
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 31,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 11,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 30
+            },
+            "distinct_domains": 8,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 32,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.22890971348666478,
+            "sequence_indices": [
+              19,
+              45,
+              8,
+              49,
+              33,
+              24,
+              59,
+              69
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 1
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 21,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 21
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.27462173991929817,
+            "sequence_indices": [
+              67,
+              41,
+              35,
+              28,
+              46,
+              21,
+              53,
+              65
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 2
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 4,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 6,
+              "exposures": 8,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 18
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 20,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.27633729576795946,
+            "sequence_indices": [
+              29,
+              31,
+              70,
+              9,
+              20,
+              50,
+              52,
+              11
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 3
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 8,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 24
+            },
+            "distinct_domains": 7,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 32,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2603328927918577,
+            "sequence_indices": [
+              68,
+              32,
+              58,
+              13,
+              37,
+              2,
+              18,
+              30
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 4
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 10,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 22
+            },
+            "distinct_domains": 7,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 32,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.25058459139058037,
+            "sequence_indices": [
+              34,
+              47,
+              23,
+              40,
+              48,
+              64,
+              1,
+              56
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 5
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 8,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 7,
+              "exposures": 8,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 24
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2963488219922757,
+            "sequence_indices": [
+              61,
+              71,
+              4,
+              27,
+              44,
+              51,
+              6,
+              54
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 6
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 31,
+              "distinct_capacities": 16,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 16,
+              "distinct_queued": 12,
+              "exposures": 20,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 10,
+                "transactional": 10
+              },
+              "overflow_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "queue_span": 30
+            },
+            "distinct_domains": 4,
+            "distinct_families": 2,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 5,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.36409397174988123,
+            "sequence_indices": [
+              16,
+              22,
+              62,
+              17,
+              10,
+              43,
+              63,
+              12
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 7
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 25,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 11,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 27
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2480477105009391,
+            "sequence_indices": [
+              42,
+              66,
+              0,
+              38,
+              7,
+              60,
+              15,
+              36
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 8
+          }
+        ]
+      },
+      "TREATMENT_NEIGHBORHOOD": {
+        "mean_bounded_capacity_span": 12.555555555555555,
+        "mean_bounded_distinct_capacities": 2.6666666666666665,
+        "mean_distinct_domains": 6.111111111111111,
+        "mean_distinct_neighborhoods": 8,
+        "mean_lexical_jaccard": 0.3063413567396258,
+        "windows": [
+          {
+            "bounded_transport": {
+              "capacity_span": 1,
+              "distinct_capacities": 2,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 3,
+              "exposures": 8,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 2
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2948920884525863,
+            "sequence_indices": [
+              26,
+              57,
+              39,
+              14,
+              55,
+              3,
+              25,
+              5
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 3,
+              "distinct_review_codes": 3,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 0
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 20,
+              "distinct_capacities": 3,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 5,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 20
+            },
+            "distinct_domains": 8,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2698238346731851,
+            "sequence_indices": [
+              19,
+              45,
+              8,
+              49,
+              33,
+              24,
+              59,
+              69
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 1
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 9,
+              "distinct_capacities": 2,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 11
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.30997029073532617,
+            "sequence_indices": [
+              67,
+              41,
+              35,
+              28,
+              46,
+              21,
+              53,
+              65
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 2
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 2,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 19
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.29461020612061906,
+            "sequence_indices": [
+              29,
+              31,
+              70,
+              9,
+              20,
+              50,
+              52,
+              11
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 3,
+              "distinct_review_codes": 3,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 3
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 7,
+              "distinct_capacities": 2,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 8
+            },
+            "distinct_domains": 7,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3054985506455958,
+            "sequence_indices": [
+              68,
+              32,
+              58,
+              13,
+              37,
+              2,
+              18,
+              30
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 4
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 5,
+              "distinct_capacities": 3,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 6,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 6
+            },
+            "distinct_domains": 7,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2747878384884025,
+            "sequence_indices": [
+              34,
+              47,
+              23,
+              40,
+              48,
+              64,
+              1,
+              56
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 3,
+              "distinct_review_codes": 3,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 5
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 5,
+              "distinct_capacities": 2,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 6
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.31765458514472406,
+            "sequence_indices": [
+              61,
+              71,
+              4,
+              27,
+              44,
+              51,
+              6,
+              54
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 6
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 31,
+              "distinct_capacities": 5,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 5,
+              "distinct_queued": 8,
+              "exposures": 20,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 10,
+                "transactional": 10
+              },
+              "overflow_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "queue_span": 31
+            },
+            "distinct_domains": 4,
+            "distinct_families": 2,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 5,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.41182483243500995,
+            "sequence_indices": [
+              16,
+              22,
+              62,
+              17,
+              10,
+              43,
+              63,
+              12
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 3,
+              "distinct_review_codes": 3,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 7
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 17,
+              "distinct_capacities": 3,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 6,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 18
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.27800998396118337,
+            "sequence_indices": [
+              42,
+              66,
+              0,
+              38,
+              7,
+              60,
+              15,
+              36
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 8
+          }
+        ]
+      }
+    },
+    "2026082503": {
+      "CONTROL_STRICT_CELL_SCRAMBLE": {
+        "mean_bounded_capacity_span": 23.375,
+        "mean_bounded_distinct_capacities": 9.5,
+        "mean_distinct_domains": 5.333333333333333,
+        "mean_distinct_neighborhoods": 27.555555555555557,
+        "mean_lexical_jaccard": 0.29362553478889447,
+        "windows": [
+          {
+            "bounded_transport": {
+              "capacity_span": 28,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 11,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 27
+            },
+            "distinct_domains": 7,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.24110942085455284,
+            "sequence_indices": [
+              39,
+              59,
+              23,
+              11,
+              47,
+              68,
+              21,
+              25
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 0
+          },
+          {
+            "distinct_domains": 5,
+            "distinct_families": 2,
+            "distinct_neighborhoods": 32,
+            "exposures": 32,
+            "family_counts": {
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3785413243715235,
+            "sequence_indices": [
+              69,
+              38,
+              28,
+              22,
+              27,
+              49,
+              52,
+              19
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 16,
+              "distinct_review_codes": 8,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 1
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 20,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 22
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2880197511760968,
+            "sequence_indices": [
+              54,
+              55,
+              32,
+              42,
+              36,
+              53,
+              58,
+              67
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 2
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 25,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 25
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2655397379734622,
+            "sequence_indices": [
+              66,
+              46,
+              9,
+              20,
+              18,
+              65,
+              31,
+              33
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 3
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 26,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 15,
+              "exposures": 16,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 8,
+                "transactional": 8
+              },
+              "overflow_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "queue_span": 25
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 4,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2886696860125231,
+            "sequence_indices": [
+              60,
+              48,
+              13,
+              8,
+              70,
+              51,
+              12,
+              16
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 4
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 16,
+              "exposures": 20,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 10,
+                "transactional": 10
+              },
+              "overflow_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "queue_span": 24
+            },
+            "distinct_domains": 4,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 5,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.32879678495733916,
+            "sequence_indices": [
+              14,
+              57,
+              63,
+              37,
+              1,
+              15,
+              6,
+              10
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 5
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 26,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 11,
+              "exposures": 16,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 8,
+                "transactional": 8
+              },
+              "overflow_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "queue_span": 26
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 4,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2709972823425557,
+            "sequence_indices": [
+              2,
+              71,
+              26,
+              62,
+              3,
+              43,
+              61,
+              56
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 6
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 4,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 4,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 17
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.32235181751682923,
+            "sequence_indices": [
+              40,
+              64,
+              0,
+              17,
+              34,
+              4,
+              24,
+              7
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 7
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 21,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 12,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 21
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2586040078951675,
+            "sequence_indices": [
+              50,
+              5,
+              45,
+              29,
+              44,
+              35,
+              41,
+              30
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 8
+          }
+        ]
+      },
+      "TREATMENT_NEIGHBORHOOD": {
+        "mean_bounded_capacity_span": 13.25,
+        "mean_bounded_distinct_capacities": 3,
+        "mean_distinct_domains": 5.333333333333333,
+        "mean_distinct_neighborhoods": 8,
+        "mean_lexical_jaccard": 0.3265676056450965,
+        "windows": [
+          {
+            "bounded_transport": {
+              "capacity_span": 16,
+              "distinct_capacities": 3,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 6,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 16
+            },
+            "distinct_domains": 7,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2748173597392663,
+            "sequence_indices": [
+              39,
+              59,
+              23,
+              11,
+              47,
+              68,
+              21,
+              25
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 0
+          },
+          {
+            "distinct_domains": 5,
+            "distinct_families": 2,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.42427159898908257,
+            "sequence_indices": [
+              69,
+              38,
+              28,
+              22,
+              27,
+              49,
+              52,
+              19
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 1
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 2,
+              "distinct_capacities": 2,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 4
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.30755823554120953,
+            "sequence_indices": [
+              54,
+              55,
+              32,
+              42,
+              36,
+              53,
+              58,
+              67
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 3,
+              "distinct_review_codes": 3,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 2
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 19,
+              "distinct_capacities": 2,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 21
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3080478904545035,
+            "sequence_indices": [
+              66,
+              46,
+              9,
+              20,
+              18,
+              65,
+              31,
+              33
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 3
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 20,
+              "distinct_capacities": 4,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 8,
+              "exposures": 16,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 8,
+                "transactional": 8
+              },
+              "overflow_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "queue_span": 20
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 4,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.32224808926453463,
+            "sequence_indices": [
+              60,
+              48,
+              13,
+              8,
+              70,
+              51,
+              12,
+              16
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 3,
+              "distinct_review_codes": 3,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 4
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 17,
+              "distinct_capacities": 5,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 5,
+              "distinct_queued": 9,
+              "exposures": 20,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 10,
+                "transactional": 10
+              },
+              "overflow_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "queue_span": 18
+            },
+            "distinct_domains": 4,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 5,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.363160042499904,
+            "sequence_indices": [
+              14,
+              57,
+              63,
+              37,
+              1,
+              15,
+              6,
+              10
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 5
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 17,
+              "distinct_capacities": 4,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 8,
+              "exposures": 16,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 8,
+                "transactional": 8
+              },
+              "overflow_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "queue_span": 18
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 4,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3002949202247014,
+            "sequence_indices": [
+              2,
+              71,
+              26,
+              62,
+              3,
+              43,
+              61,
+              56
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 6
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 0,
+              "distinct_capacities": 1,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 1,
+              "distinct_queued": 2,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 1
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3531138654400009,
+            "sequence_indices": [
+              40,
+              64,
+              0,
+              17,
+              34,
+              4,
+              24,
+              7
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 7
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 15,
+              "distinct_capacities": 3,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 6,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 17
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.28559644865266587,
+            "sequence_indices": [
+              50,
+              5,
+              45,
+              29,
+              44,
+              35,
+              41,
+              30
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 8
+          }
+        ]
+      }
+    },
+    "2026082504": {
+      "CONTROL_STRICT_CELL_SCRAMBLE": {
+        "mean_bounded_capacity_span": 22.88888888888889,
+        "mean_bounded_distinct_capacities": 8.444444444444445,
+        "mean_distinct_domains": 5.777777777777778,
+        "mean_distinct_neighborhoods": 28,
+        "mean_lexical_jaccard": 0.29578682331658596,
+        "windows": [
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 8,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 23
+            },
+            "distinct_domains": 7,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2859379019362593,
+            "sequence_indices": [
+              62,
+              19,
+              3,
+              41,
+              1,
+              32,
+              49,
+              66
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 0
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 13,
+              "exposures": 16,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 8,
+                "transactional": 8
+              },
+              "overflow_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "queue_span": 24
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 4,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2743975978260019,
+            "sequence_indices": [
+              34,
+              31,
+              60,
+              61,
+              59,
+              53,
+              44,
+              18
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 4,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 1
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 4,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 4,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 18
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 32,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2971810046335351,
+            "sequence_indices": [
+              54,
+              69,
+              56,
+              27,
+              30,
+              37,
+              23,
+              20
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 2
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 4,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 4,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 17
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3224618193089128,
+            "sequence_indices": [
+              29,
+              26,
+              22,
+              47,
+              48,
+              55,
+              16,
+              36
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 3
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 28,
+              "distinct_capacities": 16,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 16,
+              "distinct_queued": 18,
+              "exposures": 24,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 12,
+                "transactional": 12
+              },
+              "overflow_counts": {
+                "False": 12,
+                "True": 12
+              },
+              "queue_span": 28
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 6,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.39454280811699527,
+            "sequence_indices": [
+              12,
+              4,
+              46,
+              57,
+              15,
+              14,
+              35,
+              13
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 4
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 28,
+              "distinct_capacities": 8,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 10,
+              "exposures": 12,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 28
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2507592169171547,
+            "sequence_indices": [
+              8,
+              0,
+              10,
+              68,
+              51,
+              40,
+              38,
+              39
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 5
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 20,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 20
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2974137163302616,
+            "sequence_indices": [
+              5,
+              9,
+              21,
+              17,
+              63,
+              2,
+              64,
+              65
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 6
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 8,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 10,
+              "exposures": 12,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 24
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2897956472499446,
+            "sequence_indices": [
+              50,
+              28,
+              43,
+              70,
+              67,
+              45,
+              24,
+              58
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 7
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 25,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 26
+            },
+            "distinct_domains": 7,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 32,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.24959169753020818,
+            "sequence_indices": [
+              52,
+              71,
+              33,
+              7,
+              11,
+              25,
+              6,
+              42
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 8
+          }
+        ]
+      },
+      "TREATMENT_NEIGHBORHOOD": {
+        "mean_bounded_capacity_span": 11.88888888888889,
+        "mean_bounded_distinct_capacities": 2.6666666666666665,
+        "mean_distinct_domains": 5.777777777777778,
+        "mean_distinct_neighborhoods": 8,
+        "mean_lexical_jaccard": 0.32905457968174745,
+        "windows": [
+          {
+            "bounded_transport": {
+              "capacity_span": 7,
+              "distinct_capacities": 2,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 8
+            },
+            "distinct_domains": 7,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.30960246012044096,
+            "sequence_indices": [
+              62,
+              19,
+              3,
+              41,
+              1,
+              32,
+              49,
+              66
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 3,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 0
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 4,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 8,
+              "exposures": 16,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 8,
+                "transactional": 8
+              },
+              "overflow_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "queue_span": 24
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 4,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2959218795645567,
+            "sequence_indices": [
+              34,
+              31,
+              60,
+              61,
+              59,
+              53,
+              44,
+              18
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 1
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 0,
+              "distinct_capacities": 1,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 1,
+              "distinct_queued": 2,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 1
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.342774826827574,
+            "sequence_indices": [
+              54,
+              69,
+              56,
+              27,
+              30,
+              37,
+              23,
+              20
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 3,
+              "distinct_review_codes": 2,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 2
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 0,
+              "distinct_capacities": 1,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 1,
+              "distinct_queued": 2,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 1
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3517719451470391,
+            "sequence_indices": [
+              29,
+              26,
+              22,
+              47,
+              48,
+              55,
+              16,
+              36
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 3,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 3
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 13,
+              "distinct_capacities": 6,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 6,
+              "distinct_queued": 11,
+              "exposures": 24,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 12,
+                "transactional": 12
+              },
+              "overflow_counts": {
+                "False": 12,
+                "True": 12
+              },
+              "queue_span": 15
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 6,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.445820059390608,
+            "sequence_indices": [
+              12,
+              4,
+              46,
+              57,
+              15,
+              14,
+              35,
+              13
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 1,
+              "distinct_review_codes": 1,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 4
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 16,
+              "distinct_capacities": 3,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 6,
+              "exposures": 12,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 17
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.279283476113038,
+            "sequence_indices": [
+              8,
+              0,
+              10,
+              68,
+              51,
+              40,
+              38,
+              39
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 5
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 14,
+              "distinct_capacities": 2,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 16
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3174486996989005,
+            "sequence_indices": [
+              5,
+              9,
+              21,
+              17,
+              63,
+              2,
+              64,
+              65
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 3,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 6
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 3,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 6,
+              "exposures": 12,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 24
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.33165489515032126,
+            "sequence_indices": [
+              50,
+              28,
+              43,
+              70,
+              67,
+              45,
+              24,
+              58
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 1,
+              "distinct_review_codes": 1,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 7
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 11,
+              "distinct_capacities": 2,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 11
+            },
+            "distinct_domains": 7,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2872129751232488,
+            "sequence_indices": [
+              52,
+              71,
+              33,
+              7,
+              11,
+              25,
+              6,
+              42
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 3,
+              "distinct_review_codes": 2,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 8
+          }
+        ]
+      }
+    },
+    "2026082505": {
+      "CONTROL_STRICT_CELL_SCRAMBLE": {
+        "mean_bounded_capacity_span": 22.77777777777778,
+        "mean_bounded_distinct_capacities": 8.88888888888889,
+        "mean_distinct_domains": 5.666666666666667,
+        "mean_distinct_neighborhoods": 27.555555555555557,
+        "mean_lexical_jaccard": 0.30547695516346307,
+        "windows": [
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 15,
+              "exposures": 20,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 10,
+                "transactional": 10
+              },
+              "overflow_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "queue_span": 24
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 5,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.32856058774354396,
+            "sequence_indices": [
+              59,
+              11,
+              24,
+              57,
+              20,
+              14,
+              37,
+              9
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 0
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 21,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 10,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 21
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.26856857845198684,
+            "sequence_indices": [
+              16,
+              0,
+              46,
+              43,
+              45,
+              29,
+              6,
+              65
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 1
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 23,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 11,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 23
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 32,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.27711830171900875,
+            "sequence_indices": [
+              61,
+              28,
+              15,
+              22,
+              32,
+              69,
+              68,
+              60
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 2
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 25,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 11,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 27
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2461615361212712,
+            "sequence_indices": [
+              44,
+              13,
+              38,
+              71,
+              21,
+              35,
+              56,
+              19
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 3
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 20,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 21
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 32,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 5,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3194249245611256,
+            "sequence_indices": [
+              30,
+              70,
+              36,
+              33,
+              42,
+              52,
+              25,
+              62
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 4
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 26,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 25
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 5
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3681320986043662,
+            "sequence_indices": [
+              2,
+              51,
+              41,
+              63,
+              49,
+              50,
+              67,
+              17
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 16,
+              "distinct_review_codes": 8,
+              "exposures": 20,
+              "independence_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "taint_counts": {
+                "False": 10,
+                "True": 10
+              }
+            },
+            "window_index": 5
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 4,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 4,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 19
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3214855888415891,
+            "sequence_indices": [
+              23,
+              27,
+              66,
+              58,
+              1,
+              64,
+              3,
+              48
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 6
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 4,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 4,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 17
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3318732249736827,
+            "sequence_indices": [
+              7,
+              5,
+              31,
+              53,
+              10,
+              39,
+              26,
+              18
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 4,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 7
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 31,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 14,
+              "exposures": 16,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 8,
+                "transactional": 8
+              },
+              "overflow_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "queue_span": 30
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 4,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2879677554545932,
+            "sequence_indices": [
+              12,
+              54,
+              34,
+              40,
+              4,
+              8,
+              55,
+              47
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 8
+          }
+        ]
+      },
+      "TREATMENT_NEIGHBORHOOD": {
+        "mean_bounded_capacity_span": 9.444444444444445,
+        "mean_bounded_distinct_capacities": 2.6666666666666665,
+        "mean_distinct_domains": 5.666666666666667,
+        "mean_distinct_neighborhoods": 8,
+        "mean_lexical_jaccard": 0.3358273301234988,
+        "windows": [
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 5,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 5,
+              "distinct_queued": 9,
+              "exposures": 20,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 10,
+                "transactional": 10
+              },
+              "overflow_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "queue_span": 19
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 5,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.35187787615031985,
+            "sequence_indices": [
+              59,
+              11,
+              24,
+              57,
+              20,
+              14,
+              37,
+              9
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 1,
+              "distinct_review_codes": 1,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 0
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 9,
+              "distinct_capacities": 3,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 6,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 9
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.2872995261933109,
+            "sequence_indices": [
+              16,
+              0,
+              46,
+              43,
+              45,
+              29,
+              6,
+              65
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 3,
+              "distinct_review_codes": 3,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 1
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 17,
+              "distinct_capacities": 3,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 6,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 18
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.32126547949014456,
+            "sequence_indices": [
+              61,
+              28,
+              15,
+              22,
+              32,
+              69,
+              68,
+              60
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 1,
+              "distinct_review_codes": 1,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 2
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 14,
+              "distinct_capacities": 3,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 3,
+              "distinct_queued": 5,
+              "exposures": 12,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 6,
+                "transactional": 6
+              },
+              "overflow_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "queue_span": 16
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 3,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.28090570943360677,
+            "sequence_indices": [
+              44,
+              13,
+              38,
+              71,
+              21,
+              35,
+              56,
+              19
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 3
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 10,
+              "distinct_capacities": 2,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 10
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 5,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3746207846360782,
+            "sequence_indices": [
+              30,
+              70,
+              36,
+              33,
+              42,
+              52,
+              25,
+              62
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 1,
+              "distinct_review_codes": 1,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 4
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 4,
+              "distinct_capacities": 2,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 6
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 5
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.39221835825388773,
+            "sequence_indices": [
+              2,
+              51,
+              41,
+              63,
+              49,
+              50,
+              67,
+              17
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 5,
+              "distinct_review_codes": 4,
+              "exposures": 20,
+              "independence_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "taint_counts": {
+                "False": 10,
+                "True": 10
+              }
+            },
+            "window_index": 5
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 0,
+              "distinct_capacities": 1,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 1,
+              "distinct_queued": 2,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 1
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3447154468157794,
+            "sequence_indices": [
+              23,
+              27,
+              66,
+              58,
+              1,
+              64,
+              3,
+              48
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 6
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 0,
+              "distinct_capacities": 1,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 1,
+              "distinct_queued": 2,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 1
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 3,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.348095571940353,
+            "sequence_indices": [
+              7,
+              5,
+              31,
+              53,
+              10,
+              39,
+              26,
+              18
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 3,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 7
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 13,
+              "distinct_capacities": 4,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 6,
+              "exposures": 16,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 8,
+                "transactional": 8
+              },
+              "overflow_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "queue_span": 13
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 4,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3214472181980089,
+            "sequence_indices": [
+              12,
+              54,
+              34,
+              40,
+              4,
+              8,
+              55,
+              47
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 3,
+              "distinct_review_codes": 3,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 8
+          }
+        ]
+      }
+    },
+    "2026082506": {
+      "CONTROL_STRICT_CELL_SCRAMBLE": {
+        "mean_bounded_capacity_span": 21.555555555555557,
+        "mean_bounded_distinct_capacities": 8,
+        "mean_distinct_domains": 5.222222222222222,
+        "mean_distinct_neighborhoods": 27.11111111111111,
+        "mean_lexical_jaccard": 0.3199037132994181,
+        "windows": [
+          {
+            "bounded_transport": {
+              "capacity_span": 20,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 21
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 32,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.29198377720066987,
+            "sequence_indices": [
+              58,
+              21,
+              46,
+              49,
+              20,
+              54,
+              65,
+              24
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 16,
+              "distinct_review_codes": 8,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 0
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 20,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 22
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.28013712379114847,
+            "sequence_indices": [
+              28,
+              0,
+              38,
+              69,
+              5,
+              42,
+              60,
+              36
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 1
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 28,
+              "distinct_capacities": 16,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 16,
+              "distinct_queued": 16,
+              "exposures": 20,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 10,
+                "transactional": 10
+              },
+              "overflow_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "queue_span": 28
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 5,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3054519595857359,
+            "sequence_indices": [
+              13,
+              47,
+              61,
+              53,
+              57,
+              17,
+              56,
+              33
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 2
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 4,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 4,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 17
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 5,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.36451207622863474,
+            "sequence_indices": [
+              31,
+              1,
+              25,
+              29,
+              32,
+              62,
+              19,
+              39
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 8,
+              "distinct_review_codes": 8,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 3
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 26,
+              "distinct_capacities": 12,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 12,
+              "distinct_queued": 14,
+              "exposures": 20,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 10,
+                "transactional": 10
+              },
+              "overflow_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "queue_span": 26
+            },
+            "distinct_domains": 4,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 24,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 5,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3095494475893147,
+            "sequence_indices": [
+              67,
+              44,
+              64,
+              63,
+              59,
+              18,
+              43,
+              41
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 4
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 21,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 16,
+              "exposures": 20,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 10,
+                "transactional": 10
+              },
+              "overflow_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "queue_span": 21
+            },
+            "distinct_domains": 4,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 20,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 5,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3585080570867683,
+            "sequence_indices": [
+              11,
+              70,
+              30,
+              15,
+              8,
+              12,
+              55,
+              10
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 5
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 4,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 4,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 18
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 32,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3028271512493398,
+            "sequence_indices": [
+              35,
+              66,
+              71,
+              4,
+              23,
+              34,
+              7,
+              45
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 6
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 18,
+              "distinct_capacities": 4,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 4,
+              "distinct_queued": 4,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 19
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 5
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.37233712620136733,
+            "sequence_indices": [
+              16,
+              22,
+              27,
+              52,
+              51,
+              14,
+              6,
+              26
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 16,
+              "distinct_review_codes": 8,
+              "exposures": 20,
+              "independence_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "taint_counts": {
+                "False": 10,
+                "True": 10
+              }
+            },
+            "window_index": 7
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 25,
+              "distinct_capacities": 8,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 8,
+              "distinct_queued": 8,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 25
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 28,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.29382670076178374,
+            "sequence_indices": [
+              2,
+              48,
+              68,
+              37,
+              3,
+              40,
+              50,
+              9
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 12,
+              "distinct_review_codes": 8,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 8
+          }
+        ]
+      },
+      "TREATMENT_NEIGHBORHOOD": {
+        "mean_bounded_capacity_span": 11.333333333333334,
+        "mean_bounded_distinct_capacities": 2.6666666666666665,
+        "mean_distinct_domains": 5.222222222222222,
+        "mean_distinct_neighborhoods": 8,
+        "mean_lexical_jaccard": 0.351571845270131,
+        "windows": [
+          {
+            "bounded_transport": {
+              "capacity_span": 14,
+              "distinct_capacities": 2,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 16
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.31505243449405285,
+            "sequence_indices": [
+              58,
+              21,
+              46,
+              49,
+              20,
+              54,
+              65,
+              24
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 4,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 0
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 16,
+              "distinct_capacities": 2,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 16
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3091220043105722,
+            "sequence_indices": [
+              28,
+              0,
+              38,
+              69,
+              5,
+              42,
+              60,
+              36
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 1
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 12,
+              "distinct_capacities": 5,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 5,
+              "distinct_queued": 9,
+              "exposures": 20,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 10,
+                "transactional": 10
+              },
+              "overflow_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "queue_span": 13
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 5,
+              "dependency_currentness": 1,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3503670153957616,
+            "sequence_indices": [
+              13,
+              47,
+              61,
+              53,
+              57,
+              17,
+              56,
+              33
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 2
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 0,
+              "distinct_capacities": 1,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 1,
+              "distinct_queued": 2,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 1
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 5,
+              "warrant_vs_taint": 2
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.39734587542154987,
+            "sequence_indices": [
+              31,
+              1,
+              25,
+              29,
+              32,
+              62,
+              19,
+              39
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 2,
+              "distinct_review_codes": 2,
+              "exposures": 8,
+              "independence_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "taint_counts": {
+                "False": 4,
+                "True": 4
+              }
+            },
+            "window_index": 3
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 26,
+              "distinct_capacities": 5,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 5,
+              "distinct_queued": 10,
+              "exposures": 20,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 10,
+                "transactional": 10
+              },
+              "overflow_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "queue_span": 26
+            },
+            "distinct_domains": 4,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 5,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.35537606653858883,
+            "sequence_indices": [
+              67,
+              44,
+              64,
+              63,
+              59,
+              18,
+              43,
+              41
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 1,
+              "distinct_review_codes": 1,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 4
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 21,
+              "distinct_capacities": 5,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 5,
+              "distinct_queued": 10,
+              "exposures": 20,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 10,
+                "transactional": 10
+              },
+              "overflow_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "queue_span": 21
+            },
+            "distinct_domains": 4,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 5,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 1
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.37648815916870804,
+            "sequence_indices": [
+              11,
+              70,
+              30,
+              15,
+              8,
+              12,
+              55,
+              10
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 1,
+              "distinct_review_codes": 1,
+              "exposures": 4,
+              "independence_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "taint_counts": {
+                "False": 2,
+                "True": 2
+              }
+            },
+            "window_index": 5
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 0,
+              "distinct_capacities": 1,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 1,
+              "distinct_queued": 2,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 1
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 4,
+              "warrant_vs_taint": 3
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3458526082599722,
+            "sequence_indices": [
+              35,
+              66,
+              71,
+              4,
+              23,
+              34,
+              7,
+              45
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 3,
+              "distinct_review_codes": 3,
+              "exposures": 12,
+              "independence_counts": {
+                "False": 6,
+                "True": 6
+              },
+              "taint_counts": {
+                "False": 6,
+                "True": 6
+              }
+            },
+            "window_index": 6
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 0,
+              "distinct_capacities": 1,
+              "distinct_incoming": 1,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 1,
+              "distinct_queued": 2,
+              "exposures": 4,
+              "incoming_span": 0,
+              "mode_counts": {
+                "latest_state": 2,
+                "transactional": 2
+              },
+              "overflow_counts": {
+                "False": 2,
+                "True": 2
+              },
+              "queue_span": 1
+            },
+            "distinct_domains": 5,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 1,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 5
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3995521191014481,
+            "sequence_indices": [
+              16,
+              22,
+              27,
+              52,
+              51,
+              14,
+              6,
+              26
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 5,
+              "distinct_review_codes": 4,
+              "exposures": 20,
+              "independence_counts": {
+                "False": 10,
+                "True": 10
+              },
+              "taint_counts": {
+                "False": 10,
+                "True": 10
+              }
+            },
+            "window_index": 7
+          },
+          {
+            "bounded_transport": {
+              "capacity_span": 13,
+              "distinct_capacities": 2,
+              "distinct_incoming": 2,
+              "distinct_margins": [
+                0,
+                1
+              ],
+              "distinct_neighborhoods": 2,
+              "distinct_queued": 4,
+              "exposures": 8,
+              "incoming_span": 1,
+              "mode_counts": {
+                "latest_state": 4,
+                "transactional": 4
+              },
+              "overflow_counts": {
+                "False": 4,
+                "True": 4
+              },
+              "queue_span": 15
+            },
+            "distinct_domains": 6,
+            "distinct_families": 3,
+            "distinct_neighborhoods": 8,
+            "exposures": 32,
+            "family_counts": {
+              "bounded_transport": 2,
+              "dependency_currentness": 2,
+              "warrant_vs_taint": 4
+            },
+            "mean_pairwise_sequence_lexical_jaccard": 0.3149903247405256,
+            "sequence_indices": [
+              2,
+              48,
+              68,
+              37,
+              3,
+              40,
+              50,
+              9
+            ],
+            "warrant_vs_taint": {
+              "distinct_neighborhoods": 4,
+              "distinct_review_codes": 3,
+              "exposures": 16,
+              "independence_counts": {
+                "False": 8,
+                "True": 8
+              },
+              "taint_counts": {
+                "False": 8,
+                "True": 8
+              }
+            },
+            "window_index": 8
+          }
+        ]
+      }
+    }
+  },
+  "status": "POST_HOC_INSTRUMENTATION__NOT_CAUSAL_CONFIRMATION"
+}

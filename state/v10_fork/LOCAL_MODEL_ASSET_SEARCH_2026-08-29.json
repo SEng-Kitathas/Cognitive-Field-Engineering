@@ -1,0 +1,39 @@
+{
+  "schema": "cfe.v10.local-model-asset-search.v1",
+  "status": "EXHAUSTED_NO_EXACT_PINNED_SNAPSHOT_FOUND",
+  "searched_drives": ["C:", "D:", "E:"],
+  "target": {
+    "hf_repo": "argilla/CapybaraHermes-2.5-Mistral-7B",
+    "hf_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471"
+  },
+  "verified_findings": [
+    {
+      "path": "C:\\Users\\ancal\\Downloads\\CEG_CAPYBARA_Q3KS_HANDOFF\\capybarahermes-2.5-mistral-7b.Q3_K_S.gguf",
+      "role": "Q3 tokenizer/runtime reference only",
+      "sha256": "17736f224b217133bee8ee6b5cbb0c8d0bed45466008f9c96c3d058c9d078515",
+      "not_authorized_as": "NF4/QLoRA training base"
+    },
+    {
+      "path": "D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\mistral_capybara_3shard",
+      "identity": "kaist-ai/mistral-orpo-capybara-7k",
+      "role": "non-CFE model weights; tokenizer source only after behavioral qualification",
+      "not_authorized_as": "pinned Argilla CFE base"
+    }
+  ],
+  "exact_revision_string_search": {
+    "C": "only CFE contracts/reference documents; no snapshot",
+    "D": "no exact revision hit",
+    "E": "only CFE campaign/contract references; no snapshot"
+  },
+  "tokenizer_recovery": {
+    "sealed_q3_tokenizer_binary_sha256": "a9ec13ed59220ecd0feda0a185fa3f1d6679dcdad2b1b05803dee6404cc60c7c",
+    "exact_binary_found": false,
+    "behavioral_reconstruction": "local Mistral base tokenizer + <|im_end|>=32000 + <|im_start|>=32001",
+    "sealed_v09_sequences_checked": 144,
+    "exact_input_id_matches": 144,
+    "exact_loss_mask_matches": 144,
+    "authority_ceiling": "token-reference generation only; future pinned runtime replay required"
+  },
+  "network_download_performed": false,
+  "law": "EMPTY_DEFAULT_CACHE != PERMISSION_TO_DOWNLOAD"
+}

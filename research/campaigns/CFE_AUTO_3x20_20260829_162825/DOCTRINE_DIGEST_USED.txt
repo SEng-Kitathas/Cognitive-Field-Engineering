@@ -1,0 +1,35 @@
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] This file governs how Rahl research is run. It is not engineering-product content and gains no product/foundation authority by living beside the engineering surface.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Inspect available project memory, exact artifacts, lineage, current state, scars, rejected/deferred branches, and frontier before inventing a clean slate.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Use remembered state to find evidence and preserve intent; reverify current facts when the decision depends on them.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Import mechanisms, constraints, scars, counterexamples, and experiment designs; donor identity or prestige does not transfer authority.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] ### G04 — Separate exploration from promotion
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Research branches, donors, prototypes, and candidate mechanisms do not self-promote into canonical or product authority.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] ### G05 — Run bounded discriminator-led campaigns
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Each pass must answer the discriminator exposed by the prior result; stop at the declared boundary and perform breadth checks.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Test the strongest claim and plausible rivals. Preserve useful failures as scars after repair.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Checkpoint intent, authority, lineage, evidence, unknowns, scars, and exact next action when work materially changes state.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Do not ship campaign cadence, reviewer choreography, role labels, or other in-house process rules as engineering-product requirements unless the product itself requires them.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Role/context changes can improve search but do not acquire independent evidence authority by naming.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] ### G13 — Use current AI capability aggressively but verify externally where consequence matters
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Models are useful for search, synthesis, code production, translation, and test generation; promotion-bearing claims still need evidence suited to the consequence.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Plans may bound the search, but the result of Pass N earns Pass N+1.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] Historical topology reference: `HSP -> Loop+/Research -> problem-space expansion -> OARR -> PDVER -> Research/Embodiment Arms -> shared evidence/scars -> Semantic Helix -> Attention Reservoir -> canonical integration authority -> recurse`.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] `ROLE_LABEL != AUTHORITY`
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **HSP:** Measurement/prediction-elicitation discipline survives; advisory/no selection authority.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Semantic Helix:** Material persistence improvement; broader value qualification remains open.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **OARR:** Rival-prediction semantic blind spot exposed/narrowed; not comprehensively finished.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Loop+:** No major new mechanism earned; retain pending behavioral A/B value evidence.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **CSC / Genome:** Useful bounded obligation/provider evidence; audit-only, no silent promotion/veto.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Attention Reservoir:** Selection/persistence defects attacked; generic storage does not own selection authority.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Engineering Memory Mesh:** V2 persistence path plus retry/generated-time intent scar; current broad value remains bounded.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Double Helix:** V2 persistence path earned; stale compatibility ownership retirement-eligible only in active descendant.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Evidence Bus:** Shared persistence ownership consolidated; domain semantics remain separate.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **PDVER:** Ambient-CWD provider identity defect exposed; full campaign not completed.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Campaign Gate:** Hard-stop/no-successor reachability defect fixed in bounded candidate.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **AUDIT:** verify, attack, reconcile evidence
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **MERGE:** reconcile branches/artifacts/findings without silent promotion
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **PROMOTION:** elevate a candidate only after qualification
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **R1 Conservative Auditor:** attack overclaim, authority leaks, and false completion
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **R2 Divergent Imagination Engine:** widen candidate space without promotion authority
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **R3 Evidence Synthesizer:** reconcile evidence, provenance, contradictions, and scope
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **R5 Reality Pressure Engine:** force executable/empirical consequence and attack the sur

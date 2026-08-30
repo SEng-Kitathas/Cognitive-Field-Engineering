@@ -1,0 +1,183 @@
+RC=1
+STDOUT
+
+STDERR
+INPUT LOCK FAILURE:
+[
+  {
+    "path": "compiler/compile_first_screen_v09.py",
+    "expected": {
+      "bytes": 8196,
+      "sha256": "2787320f3308af7ef158d1a2199e4d668b469b994926b16ed0c458b559dea4c8"
+    },
+    "got": {
+      "sha256": "928fc381f43dfbb27ddd2a84a5b33e67e404b4e54f1e08c596d1aa6adb9a4e31",
+      "bytes": 8312
+    }
+  },
+  {
+    "path": "evaluation/v06_independent/eval_field_independent.private.jsonl",
+    "expected": {
+      "bytes": 115776,
+      "sha256": "dfdd710eae48394918885181cdca0ec4c3fdf74a1241295a30fd60629de4630e"
+    },
+    "got": {
+      "sha256": "6906c11d73d2812a57968d813a2ce5a9f82d6bd0af783801e6628f7bcc034420",
+      "bytes": 116832
+    }
+  },
+  {
+    "path": "experiments/first_screen_v09/analyze_scientific_effect_v09.py",
+    "expected": {
+      "bytes": 6008,
+      "sha256": "0597cc607e3be1b2f21f29f6ab3c4359c6acdeceda271ab362e79a6a37fcc44f"
+    },
+    "got": {
+      "sha256": "04977a435bfb8667b3b36e7a6490f27ff7ad154fb72de1b22664ba2c21114216",
+      "bytes": 6780
+    }
+  },
+  {
+    "path": "experiments/first_screen_v09/bootstrap_cuda_env_v09.ps1",
+    "expected": {
+      "bytes": 740,
+      "sha256": "210515fd2be2016adef0ec3b689f28fa01a1d52e9de80ea42ad1fe8b65227de0"
+    },
+    "got": {
+      "sha256": "8380412547e734e6912cd222a2185737f190af46f6f92eb04e9f1d4ba9819f91",
+      "bytes": 830
+    }
+  },
+  {
+    "path": "experiments/first_screen_v09/bootstrap_cuda_env_v09.sh",
+    "expected": {
+      "bytes": 617,
+      "sha256": "4bfdc658c0b6978ac0f5de0114ec90882cacc4bf19def8a60fc8a39838a60999"
+    },
+    "got": {
+      "sha256": "7547eea67b36282f49bda3212658e76d8bc8e1ec989669a56ced18b9c1d662e1",
+      "bytes": 670
+    }
+  },
+  {
+    "path": "experiments/first_screen_v09/common_v09.py",
+    "expected": {
+      "bytes": 4827,
+      "sha256": "8eb14954a89c7858d69b534d82e79613e5cd612645d788ce7e2b75771814487d"
+    },
+    "got": {
+      "sha256": "1fcb98e9b50375c2fc62cb18853c7df6e1e4732eb0c3f6d0c3c5b04b9e3abfa3",
+      "bytes": 6159
+    }
+  },
+  {
+    "path": "experiments/first_screen_v09/evaluate_first_screen_v09.py",
+    "expected": {
+      "bytes": 6648,
+      "sha256": "bd053eebf66f13e913a3dc2eb0bec364c593733eaded96598a25ab5c9a1285e6"
+    },
+    "got": {
+      "sha256": "4c87a02a4d38f65d65644045b13aafc5d802cf78d0ae11d3a563b3ffb57e7844",
+      "bytes": 8152
+    }
+  },
+  {
+    "path": "experiments/first_screen_v09/preflight_cuda_fit_v09.py",
+    "expected": {
+      "bytes": 4214,
+      "sha256": "8ce8aac7395522ef50efe46797756a7de7befd7da7ccf9a6df4619be92fadaeb"
+    },
+    "got": {
+      "sha256": "1191f0efe77aa7e0ec6709b84a7af7bb1e358d0b7e321c8bf27d68fd914e7b9a",
+      "bytes": 4627
+    }
+  },
+  {
+    "path": "experiments/first_screen_v09/requirements_v09.txt",
+    "expected": {
+      "bytes": 291,
+      "sha256": "ac7cb3c45305b2d5a53b883b26c7b55afb5eb9176f081cfcc91b1761b6641c00"
+    },
+    "got": {
+      "sha256": "98c319fcc3f1f84eb7f36f33e0d987f8f0053060f5566d39cf249a19a52ddb3c",
+      "bytes": 359
+    }
+  },
+  {
+    "path": "experiments/first_screen_v09/train_first_screen_v09.py",
+    "expected": {
+      "bytes": 6623,
+      "sha256": "a28bb900ac7395e66ab5023fedf57fed9f0f4af18be0b7da0ace1d606f50f6e6"
+    },
+    "got": {
+      "sha256": "e2e059a7106de75c88f847547254ea8d9ee942b5e0474f5ab6c926f139fee920",
+      "bytes": 6427
+    }
+  },
+  {
+    "path": "experiments/first_screen_v09/training_contract.json",
+    "expected": {
+      "bytes": 3728,
+      "sha256": "075417b8b89f7f6f19e961f5e29d88654982bab41dac52cf45930181abd4613f"
+    },
+    "got": {
+      "sha256": "93bc48b68e63f98e13b93e3f225d4750c63a47cb19746a7c5e75c2f1cdbf8e93",
+      "bytes": 4676
+    }
+  },
+  {
+    "path": "field/v06/train_field.jsonl",
+    "expected": {
+      "bytes": 284942,
+      "sha256": "57e16538243d6ecaed1d40c1fb89eb25a2ae9f09c3874e8b0a778ba7572a4212"
+    },
+    "got": {
+      "sha256": "376d8065e9665c999edd901189bc870da7d16b2bee351c3f266acc4656320424",
+      "bytes": 287054
+    }
+  },
+  {
+    "path": "pilot/cfe_v06/eval_compile_independent/independent_rows.jsonl",
+    "expected": {
+      "bytes": 87000,
+      "sha256": "14dcc4a4fcb878ca95c0bb4cdbfa1a250823572ec56f0ff7b167654c58cfc9f6"
+    },
+    "got": {
+      "sha256": "9a1a34b284445679994fe2b962747ac4835e730b25575594ad01eadb2bc86db0",
+      "bytes": 89544
+    }
+  },
+  {
+    "path": "pilot/first_screen_v09/CONTROL_STRICT_CELL_SCRAMBLE.jsonl",
+    "expected": {
+      "bytes": 136230,
+      "sha256": "f0d587c0c2fca466f7966fb66cee6befd633b71f86d9927370e4a3a941e21134"
+    },
+    "got": {
+      "sha256": "09230910c82f28a5c1889ead8d96fc1985cdde700fbba65867e55f5ddd44d748",
+      "bytes": 141318
+    }
+  },
+  {
+    "path": "pilot/first_screen_v09/TREATMENT_NEIGHBORHOOD.jsonl",
+    "expected": {
+      "bytes": 136230,
+      "sha256": "475a7beea79d3a73ea81655acc8f8931adb4899fad293451f95c020b0b1cc9eb"
+    },
+    "got": {
+      "sha256": "4d040da12f368bee72902fceaf027110c6af7ba02fc4cf2331f4a8f3b3822f69",
+      "bytes": 141318
+    }
+  },
+  {
+    "path": "pilot/first_screen_v09/manifest.json",
+    "expected": {
+      "bytes": 1261,
+      "sha256": "ed9ba0f9a07282e4b764ece2ec25a180a7b1a35c4e149d555eaca936a82c93ea"
+    },
+    "got": {
+      "sha256": "f71226625ffdd1ea2e2ee4d0033043dca88bd7072051deaed8e422f92879e422",
+      "bytes": 1289
+    }
+  }
+]

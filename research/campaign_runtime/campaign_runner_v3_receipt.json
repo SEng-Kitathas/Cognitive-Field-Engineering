@@ -1,0 +1,11 @@
+{
+  "pid": 8936,
+  "cmd": [
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\tools\\run_autonomous_cfe_campaigns_v3.py"
+  ],
+  "started_epoch": 1788035871.6005201,
+  "runner_sha256": "9029a2c2755816e503ee9604cc0c34fe2a367d13b51228b0ad094394a4f3a31d",
+  "model_sha256": "b77b39f196ddd460b622fe101a500723887c470db50aebd217fec7370e6724c3",
+  "seed_sha256": "8c2725366d14925d30f3aaf974f89bcfbd81d0aef81b1c2a168c35c3e7af4e43"
+}

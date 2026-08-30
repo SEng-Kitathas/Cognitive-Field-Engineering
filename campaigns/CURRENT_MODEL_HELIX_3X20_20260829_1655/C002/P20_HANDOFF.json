@@ -1,0 +1,7 @@
+{
+  "hard_stop": true,
+  "no_p21": true,
+  "successor_question": "Which exact local model/weight artifacts, venvs, and caches can satisfy CFE\u2019s pinned training-base and runtime requirements without network acquisition, and what identity gaps remain?",
+  "csc_verdict": "PASS",
+  "promotion_authority": "NONE"
+}

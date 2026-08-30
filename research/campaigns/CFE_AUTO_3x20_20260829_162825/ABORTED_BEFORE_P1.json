@@ -1,0 +1,7 @@
+{
+  "status": "ABORTED_BEFORE_P1",
+  "scientific_passes_completed": 0,
+  "reason": "Capybara chat template ignored the requested json_object response format and emitted labeled prose; strict JSON parser failed closed after two attempts. Raw debug later confirmed valid semantic selector output but no accepted P1 seed artifact.",
+  "authority_effect": "NONE",
+  "sealed_parent_mutated": false
+}

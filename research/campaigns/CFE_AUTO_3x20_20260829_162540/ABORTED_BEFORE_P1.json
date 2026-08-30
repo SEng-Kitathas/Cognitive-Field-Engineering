@@ -1,0 +1,7 @@
+{
+  "status": "ABORTED_BEFORE_P1",
+  "scientific_passes_completed": 0,
+  "reason": "Initial autonomous seed prompt was over-wide (~3209 tokens) and exhausted the first JSON generation budget; runner was terminated before any P1 artifact existed so the scientific chain could be relaunched with a bounded context envelope.",
+  "authority_effect": "NONE",
+  "sealed_parent_mutated": false
+}

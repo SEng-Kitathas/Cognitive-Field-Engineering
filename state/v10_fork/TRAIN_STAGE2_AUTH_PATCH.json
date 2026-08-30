@@ -1,0 +1,6 @@
+{
+  "before": "e36f27ca810a0381b8ad5aaa5f6aff7b0f8ab077c222555ba9b33686b794c865",
+  "after": "bc6b35e199cb8b3f7dd8c336635f04dc77a3ac5e7bd5407caaf7d11ec106295f",
+  "path": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\experiments\\first_screen_v09\\train_first_screen_v09.py",
+  "stage2_gate": "exact prereg decision required"
+}

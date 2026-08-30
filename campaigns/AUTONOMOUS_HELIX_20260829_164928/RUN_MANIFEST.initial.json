@@ -1,0 +1,91 @@
+{
+  "run_id": "20260829_164928",
+  "started": "2026-08-29T16:49:28.778916",
+  "project_root": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE",
+  "live_cfe": "C:\\Users\\ancal\\ProtoAGI\\CFE",
+  "sealed_parent": "C:\\Users\\ancal\\ProtoAGI\\CFE\\sealed_parents\\v09\\CFE_RND_V0_9_2026-08-25",
+  "model_path": "D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\qwen3_4b_thinking_3shard",
+  "model_files": [
+    {
+      "path": "D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\qwen3_4b_thinking_3shard\\model-00001-of-00003.safetensors",
+      "exists": true,
+      "bytes": 3957900840,
+      "sha256": "98178c1cddbca8ad76102afdbf76e4df79b64b82377ad4dca34c755cac00571a"
+    },
+    {
+      "path": "D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\qwen3_4b_thinking_3shard\\model-00002-of-00003.safetensors",
+      "exists": true,
+      "bytes": 3987450520,
+      "sha256": "57b5bd1f667d420350f169342a90b50e5ffc2aa202ba1819da1af3367ff2261f"
+    },
+    {
+      "path": "D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\qwen3_4b_thinking_3shard\\model-00003-of-00003.safetensors",
+      "exists": true,
+      "bytes": 99630640,
+      "sha256": "e3cccb84e8926f3f18c334465639939a68af310b0729938fccc2de66a9a31953"
+    }
+  ],
+  "state_files": [
+    {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md",
+      "exists": true,
+      "bytes": 2279,
+      "sha256": "2e14c5ca2c0b78a541580cbd6ea05a0a60d360bd57195dca9fb2c46da356c5cf"
+    },
+    {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md",
+      "exists": true,
+      "bytes": 1747,
+      "sha256": "0e433d28f7c3cb5e9c761a8f1f51969492b03c15ec83c9be87cf46f3bf83341f"
+    }
+  ],
+  "sop_sources": [
+    {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\03_INTERNAL_RESEARCH_GOVERNANCE.md",
+      "exists": true,
+      "bytes": 3251,
+      "sha256": "39360ec774bc6d7703fffc92df580c085ccba1815e283a16d8717b6f151e6385"
+    },
+    {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\03A_RESEARCH_MACHINERY_AND_MODES.md",
+      "exists": true,
+      "bytes": 3249,
+      "sha256": "393f55668a21b013b8ed87a20002c0c9dd00051d578678f47f0eb1b3fc477c21"
+    },
+    {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\04_EXECUTION_AND_RELEASE_DISCIPLINE.md",
+      "exists": true,
+      "bytes": 2332,
+      "sha256": "f597ba92131cd7e783faa0ce7e440981ced27b756f216ce1f213f8fc691e99c6"
+    },
+    {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\05_ACTIVE_SCAR_INDEX.md",
+      "exists": true,
+      "bytes": 6235,
+      "sha256": "719711ab46abbaa622f2069119c20adde0a9f15fbfdf24d1a9317cbc8f17c195"
+    },
+    {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\07_COLD_START_USE_ORDER.md",
+      "exists": true,
+      "bytes": 951,
+      "sha256": "bdd1191b1fd592570b3d63f5992cdff2a1cf3134e64366759455e0be6454a7b4"
+    },
+    {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\ancestry\\V7\\02_ENGINEERING_RESEARCH_CONSTITUTION.md",
+      "exists": true,
+      "bytes": 50325,
+      "sha256": "0974dc4b11e5d33f09bd1fb347fbda0e697ff46be533899a145921de13351029"
+    },
+    {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C001\\C001_HSP_EXECUTION_MAP.md",
+      "exists": true,
+      "bytes": 2289,
+      "sha256": "2a0b7b22c661925d442d1ea83ed68d6515aa1bc4e39ef664fcb1255a5c2f6d94"
+    }
+  ],
+  "campaign_count": 3,
+  "passes_per_campaign": 20,
+  "mainline_mutation_authority": "NONE",
+  "csc_authority": "AUDIT_ONLY",
+  "question_authorship": "MODEL_ONLY_SEED_THEN_PREVIOUS_PASS_NEXT_QUESTION"
+}

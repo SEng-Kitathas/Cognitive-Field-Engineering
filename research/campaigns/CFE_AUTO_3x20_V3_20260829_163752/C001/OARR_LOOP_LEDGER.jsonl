@@ -1,0 +1,2 @@
+{"pass": 1, "slice": "A", "oarr": "Run Mistral download to compare v1.0 with v0.9", "loop_plus": "Patch generator writes to UTF-8/LF"}
+{"pass": 2, "slice": "A", "oarr": "No evidence of Mistral download", "loop_plus": "Record/protect parent state before v1.0 creation"}

@@ -1,0 +1,24 @@
+{
+  "pre": {
+    "worlds/generate_depth_probe_v05.py": "fdd8bfd7aebf597635430a6c53419a975606c42c62ae820ac7deaad52c351dba",
+    "worlds/generate_provenance_depth_v05.py": "be3c2abd2262b6ba87d7eb275c38581009ad73d4adc9359aad23a62575bbcc8a",
+    "worlds/generate_provenance_latent_v05.py": "28378d2bbf91ab2e1d9f60e75cedbaacb7be6766c49d51a8db6a2a7b408f6b81",
+    "worlds/generate_anti_isomorph_probe_v05.py": "bb3805f6ccc71c9ce682528f980ccf6b74007f138df77a2df77334401b057aeb",
+    "tests/test_v05.py": "7154f9e678bcaf656f2e5a61fb1f6a32d16551c758f623558275aff6cc42a12e"
+  },
+  "post": {
+    "worlds/generate_depth_probe_v05.py": "d5e65c7ba561a77ab2b7714da644bf4f6276fe58295f085e6ed8850267dc06d2",
+    "worlds/generate_provenance_depth_v05.py": "5c8145f13113f22a4bbe6f8c71f73c4eeadffd3e42a93d3d88117dac96e772e3",
+    "worlds/generate_provenance_latent_v05.py": "8e7c821ee6957127651b6b3b75feb9b1d367d3c57ab4a25ba359c441810139cc",
+    "worlds/generate_anti_isomorph_probe_v05.py": "00a3c546f6fcd6d3447fd88c2af2523bb33da5af477cca1627f234018ec675dd",
+    "tests/test_v05.py": "2369267661d2bbd05a5a7fe723e8ae7b45f5e28293e8dc6a5698723bb79c268e"
+  },
+  "changed": [
+    "worlds/generate_depth_probe_v05.py",
+    "worlds/generate_provenance_depth_v05.py",
+    "worlds/generate_provenance_latent_v05.py",
+    "worlds/generate_anti_isomorph_probe_v05.py",
+    "tests/test_v05.py"
+  ],
+  "subprocess_replacements": 4
+}

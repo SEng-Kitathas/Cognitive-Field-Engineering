@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "files": 228,
+  "bytes": 2309497,
+  "secret_hits": [],
+  "forbidden_tracked_payloads": [],
+  "large_files_over_10MB": []
+}

@@ -1,0 +1,8 @@
+{
+  "path": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\design\\CFE_V10_FIRST_SCREEN_INPUT_LOCK.json",
+  "sha256": "a497c1cd013c834c9e9efc45b65fd09dbae0dca973f044afe706607cc8094695",
+  "bytes": 8782,
+  "artifact_count": 48,
+  "status": "CANDIDATE_LOCKED_PRE_HOSTILE",
+  "schema": "cfe.v10.first-screen-input-lock.v1"
+}

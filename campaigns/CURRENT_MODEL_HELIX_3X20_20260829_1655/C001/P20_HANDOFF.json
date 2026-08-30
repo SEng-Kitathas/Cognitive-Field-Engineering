@@ -1,0 +1,7 @@
+{
+  "hard_stop": true,
+  "no_p21": true,
+  "successor_question": "What is the strongest remaining threat to causal identification in CFE v1.0 after portability and regression gates are repaired?",
+  "csc_verdict": "PASS",
+  "promotion_authority": "NONE"
+}

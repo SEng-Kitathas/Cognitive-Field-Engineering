@@ -1,0 +1,28 @@
+{
+  "run_id": "20260829_163752",
+  "campaign_count": 3,
+  "passes_per_campaign": 20,
+  "planned_scientific_passes": 60,
+  "qualification": "HARD_PER_PASS_OARR_LOOP_HELIX_RESERVOIR_NEXT_GATE",
+  "question_authoring": "MODEL_CHAIN_ONLY_NO_HAND_AUTHORED_PASS_QUESTIONS",
+  "seed_source": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualified_campaign_seed.json",
+  "seed_sha256": "8c2725366d14925d30f3aaf974f89bcfbd81d0aef81b1c2a168c35c3e7af4e43",
+  "seed_question": "What is the next step in the v1.0 descendant creation process after protecting and fingerprinting the sealed v0.9 parent?",
+  "model_path": "D:\\Singularity_Works\\repo\\corpus\\models\\salvaged_from_lmstudio\\Melvin56\\Qwen2.5-Coder-7B-Instruct-abliterated-Q4_K_M-GGUF\\qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+  "model_sha256": "b77b39f196ddd460b622fe101a500723887c470db50aebd217fec7370e6724c3",
+  "runtime_path": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+  "runtime_sha256": "01ddbfd39cb4f1aaea98dab3108179a78d5caa2105fbc971b871ca158e858c74",
+  "network_downloads": "NONE",
+  "server": "http://127.0.0.1:8091/v1/chat/completions",
+  "corpus_chunks": 8161,
+  "sealed_parent": "C:\\Users\\ancal\\ProtoAGI\\CFE\\sealed_parents\\v09\\CFE_RND_V0_9_2026-08-25",
+  "sealed_parent_mutation_allowed": false,
+  "sop_sources": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\03_INTERNAL_RESEARCH_GOVERNANCE.md",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\03A_RESEARCH_MACHINERY_AND_MODES.md",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\04_EXECUTION_AND_RELEASE_DISCIPLINE.md",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\01_ENGINEERING_AUTHORITY_SURFACE.md"
+  ],
+  "rails": "CFE PCMMAD/R3.1 scientific-pass law:\n1. Evidence inherits; confidence does not. Prior model prose is not evidence. UNKNOWN across untested gaps.\n2. Pass N+1 is earned by Pass N. The NEXT question becomes the next pass question verbatim. No prewritten future questions.\n3. Exactly 20 qualified scientific passes per campaign. P20 hard-stops; no P21. P20 NEXT is the successor-campaign question.\n4. OARR is mandatory each pass: give a concrete rival prediction, counterexample, removal, or altered variant. OARR=NONE is invalid.\n5. LOOP+ is mandatory each pass: widen one adjacent plausible branch before convergence. LOOP=NONE is invalid.\n6. Semantic Helix is mandatory: emit current survivor plus any new scar/demotion delta. Evidence may persist; confidence is recomputed.\n7. Attention Reservoir is mandatory each pass: name a neglected evidence class/branch or explicitly state bounded-complete with what was checked. RESERVOIR=NONE is invalid.\n8. CSC is audit-only with ZERO promotion authority and runs after P20. It cannot promote claims or architecture.\n9. Research success does not auto-promote product/architecture. Sealed v0.9 is immutable.\n10. Action/test output != qualified consequence. Keep source evidence distinct from inference.\n11. Every accepted pass must finish cleanly, satisfy all method fields, and produce a complete grammatical NEXT question.\n",
+  "csc_authority": "AUDIT_ONLY_NONE_PROMOTION"
+}

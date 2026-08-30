@@ -1,0 +1,26 @@
+{
+  "claims_not_authorized": [
+    "blind evaluation",
+    "independent replication",
+    "external transfer"
+  ],
+  "domains": [
+    "audit_dossier",
+    "cargo_ledger",
+    "telemetry_ring"
+  ],
+  "eval_field_fresh.private.jsonl_bytes": 115456,
+  "eval_field_fresh.private.jsonl_sha256": "46f15123f02e588496cb632557fecea7e7036bfc58ab50687d981e5b47eadf6f",
+  "eval_lhit_fresh.private.jsonl_bytes": 51172,
+  "eval_lhit_fresh.private.jsonl_sha256": "8231ded5fcc28f7e4f896b40b96cec434b9a150d88144f03bdb4069e684dce02",
+  "families": [
+    "bounded_transport",
+    "dependency_currentness",
+    "warrant_vs_taint"
+  ],
+  "field_objects": 144,
+  "lhit_objects": 96,
+  "schema": "cfe.v11.fresh-eval-source.v1",
+  "seed_commitment_sha256": "052022b8c62414336f7e376ccba7b64867bb9883004fecdf75598b6adf857a56",
+  "status": "FRESH_HELDOUT_SURFACE__SAME_RESEARCH_AGENT_NOT_INDEPENDENT_REPLICATION"
+}

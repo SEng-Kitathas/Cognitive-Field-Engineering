@@ -1,0 +1,25 @@
+{
+  "run_id": "20260829_162540",
+  "mode": "AUTONOMOUS_RESEARCH_CAMPAIGN",
+  "campaign_count": 3,
+  "passes_per_campaign": 20,
+  "scientific_passes_planned": 60,
+  "question_authoring": "MODEL_GENERATED_CHAIN_ONLY",
+  "p20_rule": "P20_PRESENTS_SUCCESSOR_CAMPAIGN_QUESTION_NO_P21",
+  "model_path": "C:\\Users\\ancal\\Downloads\\CEG_CAPYBARA_Q3KS_HANDOFF\\capybarahermes-2.5-mistral-7b.Q3_K_S.gguf",
+  "model_sha256": "17736f224b217133bee8ee6b5cbb0c8d0bed45466008f9c96c3d058c9d078515",
+  "runtime_path": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+  "runtime_sha256": "01ddbfd39cb4f1aaea98dab3108179a78d5caa2105fbc971b871ca158e858c74",
+  "server": "http://127.0.0.1:8091/v1/chat/completions",
+  "sealed_parent": "C:\\Users\\ancal\\ProtoAGI\\CFE\\sealed_parents\\v09\\CFE_RND_V0_9_2026-08-25",
+  "sealed_parent_mutation_allowed": false,
+  "corpus_chunks": 5320,
+  "doctrine_sources": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\03_INTERNAL_RESEARCH_GOVERNANCE.md",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\03A_RESEARCH_MACHINERY_AND_MODES.md",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\04_EXECUTION_AND_RELEASE_DISCIPLINE.md",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\01_ENGINEERING_AUTHORITY_SURFACE.md"
+  ],
+  "csc_authority": "AUDIT_ONLY_NONE_PROMOTION",
+  "network_downloads": "FORBIDDEN/NOT_USED"
+}

@@ -1,0 +1,36 @@
+# Local runtime / control-plane noise
+.pcmmad_sync_runs/
+**/__pycache__/
+*.py[cod]
+*.pid.json
+*.stdout.log
+*.stderr.log
+
+# Models / caches / checkpoints / executed weight artifacts
+models/
+model_cache/
+.hf_cache/
+checkpoints/
+executed/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+
+# Heavy R&D / reincarnation packages are release assets, never normal clone payload
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.mht
+*.mhtml
+
+# Local credentials / environment
+.env
+.env.*
+*.key
+*.pem
+credentials.*
+secrets.*

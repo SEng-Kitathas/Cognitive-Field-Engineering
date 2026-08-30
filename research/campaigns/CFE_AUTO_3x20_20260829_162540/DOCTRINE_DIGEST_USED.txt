@@ -1,0 +1,78 @@
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] This file governs how Rahl research is run. It is not engineering-product content and gains no product/foundation authority by living beside the engineering surface.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Inspect available project memory, exact artifacts, lineage, current state, scars, rejected/deferred branches, and frontier before inventing a clean slate.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Use remembered state to find evidence and preserve intent; reverify current facts when the decision depends on them.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Import mechanisms, constraints, scars, counterexamples, and experiment designs; donor identity or prestige does not transfer authority.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] ### G04 — Separate exploration from promotion
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Research branches, donors, prototypes, and candidate mechanisms do not self-promote into canonical or product authority.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] ### G05 — Run bounded discriminator-led campaigns
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Each pass must answer the discriminator exposed by the prior result; stop at the declared boundary and perform breadth checks.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Test the strongest claim and plausible rivals. Preserve useful failures as scars after repair.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Checkpoint intent, authority, lineage, evidence, unknowns, scars, and exact next action when work materially changes state.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Do not ship campaign cadence, reviewer choreography, role labels, or other in-house process rules as engineering-product requirements unless the product itself requires them.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Role/context changes can improve search but do not acquire independent evidence authority by naming.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] ### G13 — Use current AI capability aggressively but verify externally where consequence matters
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Models are useful for search, synthesis, code production, translation, and test generation; promotion-bearing claims still need evidence suited to the consequence.
+[03_INTERNAL_RESEARCH_GOVERNANCE.md] Plans may bound the search, but the result of Pass N earns Pass N+1.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] Historical topology reference: `HSP -> Loop+/Research -> problem-space expansion -> OARR -> PDVER -> Research/Embodiment Arms -> shared evidence/scars -> Semantic Helix -> Attention Reservoir -> canonical integration authority -> recurse`.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] `ROLE_LABEL != AUTHORITY`
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **HSP:** Measurement/prediction-elicitation discipline survives; advisory/no selection authority.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Semantic Helix:** Material persistence improvement; broader value qualification remains open.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **OARR:** Rival-prediction semantic blind spot exposed/narrowed; not comprehensively finished.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Loop+:** No major new mechanism earned; retain pending behavioral A/B value evidence.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **CSC / Genome:** Useful bounded obligation/provider evidence; audit-only, no silent promotion/veto.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Attention Reservoir:** Selection/persistence defects attacked; generic storage does not own selection authority.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Engineering Memory Mesh:** V2 persistence path plus retry/generated-time intent scar; current broad value remains bounded.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Double Helix:** V2 persistence path earned; stale compatibility ownership retirement-eligible only in active descendant.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Evidence Bus:** Shared persistence ownership consolidated; domain semantics remain separate.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **PDVER:** Ambient-CWD provider identity defect exposed; full campaign not completed.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **Campaign Gate:** Hard-stop/no-successor reachability defect fixed in bounded candidate.
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **AUDIT:** verify, attack, reconcile evidence
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **MERGE:** reconcile branches/artifacts/findings without silent promotion
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **PROMOTION:** elevate a candidate only after qualification
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **R1 Conservative Auditor:** attack overclaim, authority leaks, and false completion
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **R2 Divergent Imagination Engine:** widen candidate space without promotion authority
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **R3 Evidence Synthesizer:** reconcile evidence, provenance, contradictions, and scope
+[03A_RESEARCH_MACHINERY_AND_MODES.md] - **R5 Reality Pressure Engine:** force executable/empirical consequence and attack the survivor
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] R1/R2 compressed these duties too far. These are operational recovery statements bound to exact R6/V5 source sections. They are not new doctrine promotion.
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Authority: `R6_OPERATIONAL_QUALIFICATION_RULE`
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Before a consequential run, name the discriminator; tool work must advance it or preserve evidence.
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Authority: `R6_OPERATIONAL_QUALIFICATION_RULE`
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Consequential or durable runs name cwd/interpreter/environment, retain stdout/stderr/exit/completion evidence, and use stable artifact paths.
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Authority: `R6_OPERATIONAL_QUALIFICATION_RULE`
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Inspect final artifact or state rather than treating command success as the consequence.
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Authority: `R6_OPERATIONAL_ADMISSIBILITY_BOUNDARY`
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Timeout or ambiguous process state remains UNKNOWN until evidence resolves the result or effects.
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Authority: `R6_OPERATIONAL_ADMISSIBILITY_BOUNDARY`
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Authority: `R6_RELEASE_QUALIFICATION_RULE`
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Authority: `R6_VERIFIER_QUALIFICATION_RULE`
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Authority: `R6_VERIFIER_QUALIFICATION_RULE`
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Authority: `R6_VERIFIER_QUALIFICATION_RULE`
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Shared mutable declarations between verifier and specification are a common-mode trust boundary unless a distinct witness is added.
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Authority: `R6_CONTINUITY_QUALIFICATION_RULE`
+[04_EXECUTION_AND_RELEASE_DISCIPLINE.md] Continuity is as-of a checkpoint and must preserve current state, intent, authority boundaries, evidence, scars, rejected/deferred branches, lineage, known errata, and next discriminator.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] # Classified Engineering Authority Surface — R3.1
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Class meaning and conflict order come from `ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md`.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Each item below keeps its inherited statement classes. `authority_effect: NONE_COMPRESSION_ONLY` means this document adds no authority.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Intent/requirements define the desired direction; reality outranks narrative, while observations remain mediated evidence rather than reality itself.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Do not design normal operation at the failure edge. Treat ~20% as a default planning challenge only where a scalar percentage model is meaningful; qualify actual headroom with evidence and keep reserve classes/correlation explicit.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] ### C06 — Explicit authority topology
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Prefer singular logical ownership where one owner suffices; replicated/partitioned/migration authority must expose reconciliation, currentness, and cutover or conflict semantics.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] ### C07 — Narrow discriminative witnesses
+[01_ENGINEERING_AUTHORITY_SURFACE.md] For consequential guarantees, use witnesses that answer the assurance question without gratuitously rebuilding the whole operation. Independence, coverage, false-positive/negative costs, placement, and authority must be argued.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] ### C08 — Witness placement and authority are part of the guarantee
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Semantic honesty, information scent, ownership/effect/ lifecycle legibility, host/domain fluency, change behavior, and expert craft matter separately from executable correctness. Professional appearance alone has no authority.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] ### C13 — Quality is consequence- and obligation-relative
+[01_ENGINEERING_AUTHORITY_SURFACE.md] ### C14 — Diversity of failure axes and evidence sources
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Reviewer count, axis diversity, and evidence independence are distinct; none substitutes automatically for the others.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] ### C16 — Exact proof and probabilistic evidence are different claim classes
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Exact inheritance requires logical sufficiency; bounded probabilistic claims may rely on calibrated evidence with an explicit error model.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] ### C19 — Hostile survival is bounded evidence
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Inherited classes: `QUALIFICATION_RULE, SCAR`
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Passing known scars and mutations does not establish unknown-failure robustness; renew attack axes when broader claims are made.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Disposable spikes may trade polish for learning speed, but persistence, dependents, example/training use, or promotion trigger the relevant authorship and engineering gates.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] ### C21 — UNKNOWN does not require paralysis
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Keep uncertainty explicit while permitting authorized, reversible, observable, bounded-consequence actions that buy information. Irreversibility raises the qualification burden.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] ### C23 — Preserve scar evidence, not dead machinery by default
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Inherited classes: `DEFAULT, SCAR`
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Keep the discriminator, regression, provenance, or rationale needed to prevent recurrence; obsolete implementation needs a current job to remain.
+[01_ENGINEERING_AUTHORITY_SURFACE.md] Inherited classes: `QUALIFICATION_RULE, SCAR`

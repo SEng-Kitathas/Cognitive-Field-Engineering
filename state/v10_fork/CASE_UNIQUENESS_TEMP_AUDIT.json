@@ -1,0 +1,47 @@
+{
+  "arm_all_individual_experiences_unique": true,
+  "arm_individual_experience_multiset_equal": true,
+  "counts": {
+    "control_individual_experiences": 288,
+    "control_individual_experiences_unique": 288,
+    "eval_field_exact_unique_prompts": 144,
+    "eval_field_rows": 144,
+    "eval_field_semantic_equivalence_units": 12,
+    "eval_lhit_exact_unique_prompt_sequences": 96,
+    "eval_lhit_rows": 96,
+    "eval_lhit_semantic_equivalence_units": 7,
+    "training_exact_unique_prompts": 288,
+    "training_rows": 288,
+    "training_semantic_equivalence_units": 36,
+    "treatment_individual_experiences": 288,
+    "treatment_individual_experiences_unique": 288
+  },
+  "eval_field_all_exact_prompts_unique": true,
+  "eval_lhit_all_exact_prompt_sequences_unique": true,
+  "laws": [
+    "EXACT_PROMPT_UNIQUENESS != INDEPENDENT_REPLICATION",
+    "VISIBLE_NUISANCE_VARIATION != CAUSAL_EFFECT",
+    "EVAL_ROW != INDEPENDENT_N"
+  ],
+  "provenance_visible_outcome_independent_variation": {
+    "eval": true,
+    "eval_semantic_groups": 4,
+    "train": true,
+    "train_semantic_groups": 12
+  },
+  "schema": "cfe.v10.case-uniqueness-audit.v1",
+  "semantic_equivalence_multiplicity": {
+    "eval_field": {
+      "12": 12
+    },
+    "eval_lhit": {
+      "12": 6,
+      "24": 1
+    },
+    "train": {
+      "8": 36
+    }
+  },
+  "status": "PASS",
+  "training_all_exact_prompts_unique": true
+}

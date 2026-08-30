@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "cmd": [
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\generate_cfe_field_v06.py",
+        "--out",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\v06",
+        "--eval-seed",
+        "90920260825"
+      ],
+      "rc": 0,
+      "stdout_tail": "{\n  \"schema\": \"cfe.cognitive-experience-field.v0.6\",\n  \"status\": \"SOURCE_FIELD__NOT_TRAINING_DATA\",\n  \"train_seed_commitment\": \"06fddde9053473cddfe79b8852ac0db247c1beb48a697bb72455e5d8d4235a2c\",\n  \"eval_seed_commitment\": \"60324616430f78c641be261379becf88c3ae8c84e9e7ad2d13c4a4d785b7d6dd\",\n  \"eval_seed_disclosure\": \"PRIVATE_EVAL_FILE_ONLY\",\n  \"train_objects\": 288,\n  \"eval_objects\": 96,\n  \"train_lhit_objects\": 192,\n  \"eval_lhit_objects\": 64,\n  \"train_neighborhoods\": 72,\n  \"eval_neighborhoods\": 24,\n  \"families\": [\n    \"bounded_transport\",\n    \"dependency_currentness\",\n    \"warrant_vs_taint\"\n  ],\n  \"laws\": [\n    \"ROW != FIELD\",\n    \"CURATOR-NAMED MECHANISM != LEARNER-REQUIRED ONTOLOGY\",\n    \"DECLARED FIELD COVERAGE != COGNITIVE COMPLETENESS\"\n  ],\n  \"train_field.jsonl_sha256\": \"d2f0ba0236e643ef39aa09adb3c0787ef6040de1c2a2e6ce7fb30c350d7f0837\",\n  \"eval_field.private.jsonl_sha256\": \"c9d156642f5a43db5525c31c6b9f7e20de67eb1ab104fbf319489a2c970af435\",\n  \"train_lhit_field.jsonl_sha256\": \"4de9fdc0e962630d669f410a960b710dce83f9823d658d52da03666f66376b71\",\n  \"eval_lhit_field.private.jsonl_sha256\": \"d3eefb77593690e1fb9a5e40c7edc06982ae22065e4dfc6102222e13328b11c2\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "cmd": [
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\evaluation\\generate_eval_field_independent_v06.py",
+        "--out",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\evaluation\\v06_independent",
+        "--seed",
+        "70720260825"
+      ],
+      "rc": 0,
+      "stdout_tail": "{\n  \"schema\": \"cfe.independent-eval-source.v0.6\",\n  \"status\": \"INDEPENDENT_CODE_PATH__NEVER_TRAIN\",\n  \"seed_commitment\": \"41e1c64643327ba3f27c42b0150124309c646bab865fa0d44d91668e1284a534\",\n  \"field_objects\": 144,\n  \"lhit_objects\": 96,\n  \"same_research_agent_not_independent_replication\": true,\n  \"eval_field_independent.private.jsonl_sha256\": \"519fad78c48820985a91d44de7974132d678e28aca7a3e9f79487ecd5e55831c\",\n  \"eval_lhit_independent.private.jsonl_sha256\": \"a995f0a068303880dc77f296c4afd83d53fee4fd9f9d7f0755493f45d3fa02c9\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "cmd": [
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\compiler\\compile_experience_v06.py",
+        "--field",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\v06\\train_field.jsonl",
+        "--lhit-field",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\v06\\train_lhit_field.jsonl",
+        "--out",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\pilot\\cfe_v06\\train_compile",
+        "--split",
+        "train"
+      ],
+      "rc": 0,
+      "stdout_tail": "{\n  \"schema\": \"cfe.experience-compile.v0.6\",\n  \"status\": \"COMPILED_EXPERIENCE__NOT_TRAINED\",\n  \"split\": \"train\",\n  \"source_field_sha256\": \"d2f0ba0236e643ef39aa09adb3c0787ef6040de1c2a2e6ce7fb30c350d7f0837\",\n  \"lhit_source_sha256\": \"4de9fdc0e962630d669f410a960b710dce83f9823d658d52da03666f66376b71\",\n  \"rows\": 288,\n  \"neighborhood_blocks\": 72,\n  \"random_blocks\": 72,\n  \"lhits\": 192,\n  \"laws\": [\n    \"SOURCE_GEOMETRY != OPTIMIZER_VISIBLE_GEOMETRY\",\n    \"RELATION ADJACENCY != RELATIONAL LEARNING PRESSURE\",\n    \"MULTI-TURN != LHIT\"\n  ],\n  \"independent_rows.jsonl_sha256\": \"3efe707a219235f0b54bbb284e56c3fb2a30d895bc6c077f6891b361c25c4310\",\n  \"neighborhood_blocks.jsonl_sha256\": \"7b391487a6b7955da6dceabc4928dd3993f20c714bfb14a691d725bbc070e701\",\n  \"random_blocks_control.jsonl_sha256\": \"5e7882cf8b7a0112958bba137706df91f2e1576fe701b53e3dbd9acd28c0d41a\",\n  \"lhit.jsonl_sha256\": \"dbf18d6e874a7515ce2ea6cab3ed0467ec823a1d500fcd895df181cd5210ab03\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "cmd": [
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\compiler\\compile_experience_v06.py",
+        "--field",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\evaluation\\v06_independent\\eval_field_independent.private.jsonl",
+        "--lhit-field",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\evaluation\\v06_independent\\eval_lhit_independent.private.jsonl",
+        "--out",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\pilot\\cfe_v06\\eval_compile_independent",
+        "--split",
+        "eval"
+      ],
+      "rc": 0,
+      "stdout_tail": "{\n  \"schema\": \"cfe.experience-compile.v0.6\",\n  \"status\": \"COMPILED_EXPERIENCE__NOT_TRAINED\",\n  \"split\": \"eval\",\n  \"source_field_sha256\": \"519fad78c48820985a91d44de7974132d678e28aca7a3e9f79487ecd5e55831c\",\n  \"lhit_source_sha256\": \"a995f0a068303880dc77f296c4afd83d53fee4fd9f9d7f0755493f45d3fa02c9\",\n  \"rows\": 144,\n  \"neighborhood_blocks\": 36,\n  \"random_blocks\": 36,\n  \"lhits\": 96,\n  \"laws\": [\n    \"SOURCE_GEOMETRY != OPTIMIZER_VISIBLE_GEOMETRY\",\n    \"RELATION ADJACENCY != RELATIONAL LEARNING PRESSURE\",\n    \"MULTI-TURN != LHIT\"\n  ],\n  \"independent_rows.jsonl_sha256\": \"70de0ae4a8161c3bb8b44f876a2f5c943cb953a01fefabd1bbe55c41c8fc1f5b\",\n  \"neighborhood_blocks.jsonl_sha256\": \"608598b037cf348fcce07a3d281dfa7fba79d0ca9eb1f040c97fac7a044a0885\",\n  \"random_blocks_control.jsonl_sha256\": \"d7fe083d76688ff17f077cff589220c79f15e3d9990225567714c8bbe2feac3a\",\n  \"lhit.jsonl_sha256\": \"5984163649ed5dee6204119d685353ca2fcfa932e8e87c8f9321aca017863132\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "cmd": [
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\compiler\\compile_first_screen_v09.py",
+        "--field",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\v06\\train_field.jsonl",
+        "--out",
+        "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\pilot\\first_screen_v09"
+      ],
+      "rc": 0,
+      "stdout_tail": ",\n    4,\n    6\n  ],\n  \"files\": {\n    \"CONTROL_STRICT_CELL_SCRAMBLE.jsonl\": {\n      \"bytes\": 137190,\n      \"sha256\": \"bba3d661979584eb66dd5d641c769a9333051148ebde0cd31be0343eb6a9ac75\"\n    },\n    \"CONTROL_STRICT_CELL_SCRAMBLE.sidecar.private.jsonl\": {\n      \"bytes\": 59752,\n      \"sha256\": \"cc5fde5788cd0c78fa213d2f100eef9e665654292c30e42862fc3ee07a008d16\"\n    },\n    \"TREATMENT_NEIGHBORHOOD.jsonl\": {\n      \"bytes\": 137190,\n      \"sha256\": \"aca247ab0df9b92cbb06094150b54b8e14f5550996567946a6d78db6735d30b9\"\n    },\n    \"TREATMENT_NEIGHBORHOOD.sidecar.private.jsonl\": {\n      \"bytes\": 59320,\n      \"sha256\": \"ff9bed03d0d75c691bfdf38faafc05f64038fd0b965a827397e57a8b39fa5623\"\n    }\n  },\n  \"global_individual_experience_multiset_equal\": true,\n  \"messages_per_sequence\": 8,\n  \"paired_family_domain_cell_target_sequence_equal\": true,\n  \"pairs\": 72,\n  \"schema\": \"cfe.v09.first-screen-arms.v1\",\n  \"seed\": 80820260825,\n  \"source_field\": \"C:\\\\Users\\\\ancal\\\\ProtoAGI\\\\CFE\\\\CFE_RND_V1_0_PREEXECUTION\\\\field\\\\v06\\\\train_field.jsonl\",\n  \"source_field_sha256\": \"d2f0ba0236e643ef39aa09adb3c0787ef6040de1c2a2e6ce7fb30c350d7f0837\",\n  \"status\": \"DRAFT_UNATTACKED\",\n  \"treatment_distinct_neighborhoods_per_sequence\": 1\n}\n",
+      "stderr_tail": ""
+    }
+  ],
+  "canonical_uniqueness": {
+    "train_unique": 288,
+    "train_n": 288,
+    "eval_unique": 144,
+    "eval_n": 144,
+    "lhit_unique": 96,
+    "lhit_n": 96
+  },
+  "token_refs": "STILL_OLD_PENDING_BEHAVIORAL_REGEN"
+}

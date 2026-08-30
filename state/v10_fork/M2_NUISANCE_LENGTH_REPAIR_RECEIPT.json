@@ -1,0 +1,38 @@
+{
+  "status": "REPLACED_OVERSIZE_NUISANCE_WORDING",
+  "rejected_wording": "Review cycle #### is an unrelated record identifier.",
+  "replacement": "Review <A-L>.",
+  "reason": "first wording produced 24/72 sequences per arm over 512; max 543",
+  "changes": [
+    {
+      "path": "field/generate_cfe_field_v06.py",
+      "before": "722226b635e06d77d125428cd56ebe947dc864a34f1eb2aa6a6629659ee1471a",
+      "after": "a1a7d7ae37b1a8711e36a3c8cdaa4eed11c6ce77663683da827d169387909eec"
+    },
+    {
+      "path": "evaluation/generate_eval_field_independent_v06.py",
+      "before": "d072cc46e9ff24359f069ed0bf0a76b259462736a9ade9d74a726c2c92890326",
+      "after": "22aca155d9f01e7f329fc8cf445ff2a99fe88f7344ab07e95b0b36f55ad436cb"
+    },
+    {
+      "path": "compiler/compile_experience_v06.py",
+      "before": "72d101f558585444445d25604ef0571482b1ec16ac412634182a03a5d21328e7",
+      "after": "966fa55c340cdc0e2ef09bcc01ee90d8eaf18a4f2d10326d284da7ccc86d75fa"
+    },
+    {
+      "path": "compiler/compile_first_screen_v09.py",
+      "before": "928fc381f43dfbb27ddd2a84a5b33e67e404b4e54f1e08c596d1aa6adb9a4e31",
+      "after": "8d1129e1d6b7a7661c89a46022ca1e6dfb5e0d8774ce63356dd9c85e4caa0a3b"
+    },
+    {
+      "path": "qualification/v10/audit_case_uniqueness_v10.py",
+      "before": "f7c1f68be45532fa879f2bf5befa3a2064163e206e3bfeddaadc0a365ad08f2f",
+      "after": "473b89ccbfa2cf59885205b96ed6d9d8a8caf42d2ec714208ff14f10e8bdd961"
+    },
+    {
+      "path": "qualification/v10/exhaustive_control_audit_v10.py",
+      "before": "1e41cc25560b4a8cac7df50e31f12a2941112dc4b35585eafc2744ed8f735c2c",
+      "after": "59c352c3b7ce205db4c0d62ec78a273594dbb0332c9bf2745efdd85c2d0a1e76"
+    }
+  ]
+}

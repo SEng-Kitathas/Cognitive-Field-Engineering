@@ -1,0 +1,47 @@
+{
+  "schema": "cfe.github.archive-manifest.v1",
+  "policy": "Heavy packages are opt-in release assets; normal clone/install must not fetch them.",
+  "assets": [
+    {
+      "filename": "CFE_PCMMAD_MAXIMUM_REINCARNATION_V3_0_2026-08-29.zip",
+      "bytes": 265879800,
+      "sha256": "4991366d9308b756c8f318a46b16baf5ea3ed40a4584e4a452569d832b5a73f8",
+      "role": "maximum CFE/PCMMAD reincarnation source; heavy forensic archive",
+      "normal_clone": false
+    },
+    {
+      "filename": "RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29.zip",
+      "sha256": "4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278",
+      "role": "R3.1 SOP archive source package; exact extracted active SOP is tracked in Git",
+      "normal_clone": false
+    },
+    {
+      "filename": "CFE_CONTINUOUS_FORENSIC_REINCARNATION_V2_0_2026-08-26.zip",
+      "sha256": "49242be0191a062a8544b9f5cc3ca7a2f329f760fe2e6a5c2ca8d1adbe4bac54",
+      "role": "forensic reincarnation source package",
+      "normal_clone": false,
+      "bytes": 141175
+    },
+    {
+      "filename": "CEG_MAINDEV_DIMENSIONAL_FIELD_HANDOFF_V1_6_2026-08-25.zip",
+      "sha256": "4d534f1b4792cb65228b560164fad53d4a61d7ca4c92697be6ac017919eb991b",
+      "role": "v1.6 field design ancestor / handoff",
+      "normal_clone": false,
+      "bytes": 42836
+    },
+    {
+      "filename": "CFE_CLAUDE_RESEARCH_KIT_MAX_DEPTH_V1_0_2026-08-30.zip",
+      "sha256": "f1c8b6c796e46a438fac74395445ec7c9e831ab65eadfd2f0e84eb79e14afaa6",
+      "role": "deep recursive research kit / ancestry corpus",
+      "normal_clone": false,
+      "bytes": 266046833
+    },
+    {
+      "filename": "this conversation.txt",
+      "bytes": 473732,
+      "sha256": "80d528d544effa859f1dc9bec0982f1668cab6297f08a96eb8f46aa8f164b091",
+      "role": "operator-provided historical conversation export; attach as release asset",
+      "normal_clone": false
+    }
+  ]
+}

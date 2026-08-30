@@ -1,0 +1,82 @@
+{
+  "failures": [],
+  "field": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\field\\v06\\train_field.jsonl",
+  "laws": [
+    "REFERENCE_TOKEN_AUDIT != PINNED_RUNTIME_REPLAY",
+    "ENSEMBLE_AUDIT != POSTHOC_CONTROL_SELECTION",
+    "EVAL_ROW != INDEPENDENT_N"
+  ],
+  "ordered_legal_offset_tuples": 1680,
+  "schema": "cfe.v10.exhaustive-strict-control-audit.v2",
+  "selected_offsets": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "selected_offsets_in_ensemble": true,
+  "selected_summary": {
+    "exact_paired_sequence_token_lengths": 70,
+    "global_tokens_per_arm": 33646,
+    "max_abs_paired_sequence_token_delta": 1,
+    "offsets": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "pairs": 72,
+    "token_delta_histogram": {
+      "-1": 1,
+      "0": 70,
+      "1": 1
+    }
+  },
+  "selection_law": "(0,2,4,6) is evaluated as a preregistered member of the 1,680 legal ordered strict scrambles; no scientific outcome is used to reselect offsets.",
+  "status": "PASS_STRUCTURAL_AND_REFERENCE_TOKEN_AUDIT__RUNTIME_REPLAY_REQUIRED",
+  "structural_invariants": {
+    "family_domain_cell_target_parity": true,
+    "four_distinct_control_neighborhoods": true,
+    "global_nuisance_multiset_parity": true,
+    "global_source_multiset_parity": true
+  },
+  "structurally_qualified_offset_tuples": 1680,
+  "summary_sha256": "3289002d8b74dc7e1fcbe875bb9dcc421639cdd8227e13b87be7c5b5a6221d5d",
+  "token_length_audit": {
+    "additivity_check": {
+      "checked_sequences": 144,
+      "exact_matches": 144,
+      "failures": []
+    },
+    "best_exact_pair_count": 70,
+    "best_max_abs_delta": 1,
+    "controls_with_equal_exact_pairs_to_selected": 12,
+    "controls_with_more_exact_pairs_than_selected": 0,
+    "global_tokens_per_arm": 33646,
+    "runtime_gate": "Pinned Argilla revision must reproduce v1.0 token references exactly before training.",
+    "selected_exact_pair_count": 70,
+    "selected_max_abs_delta": 1,
+    "status": "PASS_BEHAVIORALLY_ANCHORED_REFERENCE_TOKEN_AUDIT__PINNED_RUNTIME_REPLAY_REQUIRED",
+    "v09_anchor": {
+      "assistant_header_ids": [
+        32001,
+        13892,
+        13
+      ],
+      "checked_sequences": 144,
+      "exact_input_id_matches": 144,
+      "exact_loss_mask_matches": 144,
+      "im_end_id": 32000,
+      "sealed_manifest_sha256": "c0959ee12a9c8a87fe829c64907b5c671bbdf35cb5e04e60c9a6e4aba8f17aab",
+      "sealed_q3_model_sha256": "17736f224b217133bee8ee6b5cbb0c8d0bed45466008f9c96c3d058c9d078515",
+      "sealed_q3_tokenizer_binary_sha256": "a9ec13ed59220ecd0feda0a185fa3f1d6679dcdad2b1b05803dee6404cc60c7c",
+      "user_header_ids": [
+        32001,
+        2188,
+        13
+      ]
+    },
+    "worst_exact_pair_count": 45,
+    "worst_max_abs_delta": 4
+  }
+}

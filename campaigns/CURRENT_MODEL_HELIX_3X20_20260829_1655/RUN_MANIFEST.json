@@ -1,0 +1,32 @@
+{
+  "run_id": "CURRENT_MODEL_HELIX_3X20_20260829_1655",
+  "mode": "ADAPTIVE_INTERPRETATION_RESEARCH_CAMPAIGN",
+  "cognition_engine": "GPT-5.6 Sol current reasoning model",
+  "artifact_plane": "CFE project server",
+  "campaign_count": 3,
+  "passes_per_campaign": 20,
+  "question_generation": "Sequential model-generated; each stored Next exactly equals following Question; C2/C3 seeds are prior P20 handoffs.",
+  "local_model_qualification": "V5 one-pass grammar/source audit qualified; ~57 seconds per fully audited local pass.",
+  "adaptive_interpretation": "Current reasoning model used for 60-pass cognition to preserve motion; server used for evidence retrieval/persistence; separate local Qwen7B used for CSC audit of each complete campaign.",
+  "methods": [
+    "HELIX",
+    "OARR",
+    "LOOP+",
+    "ATTENTION_RESERVOIR",
+    "CSC",
+    "R3.1_SOP"
+  ],
+  "promotion_authority": "NONE",
+  "sealed_parent_mutated": false,
+  "network_downloads": "NONE",
+  "evidence_surfaces": [
+    "state/current.md",
+    "state/next_steps.md",
+    "sealed v0.9 training_contract.json",
+    "sealed v0.9 RUNBOOK.md",
+    "prepare_host_v09.py",
+    "preflight_cuda_fit_v09.py",
+    "Discriminator A evidence",
+    "local drive asset inventory"
+  ]
+}

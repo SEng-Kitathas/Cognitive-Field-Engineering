@@ -1,0 +1,3385 @@
+{
+  "bindings": {
+    "candidate_manifest_sha256": "c9b11cf0b7f8edd29d4de6d175ecb63be063a65cedcc15520657796254851685",
+    "fresh_eval_overlap_audit_sha256": "cd42b9fc981555a016417ddaf5d3c892ca2cb39ec1dcd7ea3eea02cc47bf518c",
+    "seed_order_sha256": "9513ac0ce2e21776dcb7cd866bea212f869becd2bf5270b1f89a428ae967b1c9",
+    "token_audit_sha256": "9bdb38ab301ff7c3f4cdae2e490f4d24403781a167fa695bda7d7e869ce603a8"
+  },
+  "check_count": 670,
+  "checks": [
+    {
+      "check": "candidate_status_prelock",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_rows_72",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-000-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-000-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-000-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-001-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-001-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-001-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-002-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-002-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-002-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-003-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-003-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-003-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-004-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-004-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-004-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-005-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-005-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-005-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-006-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-006-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-006-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-007-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-007-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-007-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-008-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-008-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-008-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-009-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-009-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-009-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-010-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-010-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-010-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-011-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-011-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-011-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-012-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-012-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-012-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-013-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-013-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-013-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-014-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-014-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-014-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-015-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-015-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-015-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-016-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-016-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-016-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-017-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-017-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-017-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-018-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-018-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-018-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-019-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-019-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-019-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-020-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-020-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-020-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-021-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-021-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-021-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-022-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-022-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-022-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-023-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-023-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-023-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-024-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-024-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-024-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-025-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-025-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-025-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-026-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-026-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-026-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-027-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-027-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-027-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-028-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-028-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-028-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-029-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-029-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-029-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-030-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-030-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-030-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-031-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-031-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-031-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-032-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-032-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-032-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-033-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-033-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-033-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-034-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-034-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-034-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-035-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-035-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-035-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-036-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-036-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-036-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-037-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-037-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-037-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-038-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-038-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-038-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-039-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-039-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-039-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-040-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-040-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-040-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-041-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-041-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-041-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-042-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-042-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-042-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-043-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-043-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-043-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-044-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-044-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-044-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-045-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-045-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-045-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-046-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-046-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-046-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-047-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-047-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-047-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-048-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-048-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-048-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-049-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-049-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-049-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-050-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-050-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-050-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-051-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-051-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-051-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-052-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-052-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-052-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-053-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-053-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-053-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-054-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-054-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-054-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-055-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-055-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-055-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-056-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-056-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-056-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-057-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-057-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-057-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-058-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-058-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-058-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-059-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-059-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-059-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-060-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-060-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-060-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-061-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-061-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-061-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-062-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-062-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-062-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-063-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-063-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-063-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-064-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-064-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-064-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-065-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-065-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-065-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-066-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-066-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-066-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-067-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-067-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-067-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-068-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-068-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-068-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-069-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-069-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-069-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-070-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-070-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-070-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-071-K1_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-071-K1_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_pair-071-K1_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_each_source_once",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K1_TRUE_NEIGHBORHOOD_no_curator_metadata",
+      "detail": [],
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_rows_72",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-000-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-000-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-000-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-001-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-001-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-001-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-002-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-002-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-002-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-003-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-003-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-003-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-004-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-004-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-004-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-005-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-005-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-005-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-006-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-006-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-006-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-007-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-007-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-007-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-008-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-008-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-008-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-009-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-009-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-009-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-010-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-010-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-010-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-011-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-011-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-011-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-012-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-012-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-012-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-013-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-013-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-013-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-014-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-014-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-014-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-015-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-015-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-015-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-016-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-016-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-016-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-017-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-017-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-017-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-018-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-018-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-018-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-019-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-019-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-019-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-020-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-020-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-020-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-021-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-021-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-021-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-022-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-022-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-022-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-023-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-023-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-023-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-024-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-024-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-024-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-025-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-025-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-025-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-026-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-026-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-026-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-027-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-027-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-027-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-028-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-028-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-028-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-029-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-029-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-029-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-030-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-030-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-030-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-031-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-031-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-031-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-032-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-032-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-032-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-033-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-033-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-033-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-034-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-034-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-034-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-035-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-035-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-035-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-036-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-036-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-036-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-037-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-037-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-037-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-038-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-038-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-038-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-039-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-039-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-039-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-040-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-040-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-040-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-041-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-041-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-041-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-042-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-042-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-042-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-043-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-043-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-043-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-044-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-044-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-044-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-045-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-045-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-045-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-046-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-046-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-046-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-047-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-047-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-047-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-048-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-048-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-048-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-049-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-049-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-049-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-050-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-050-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-050-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-051-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-051-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-051-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-052-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-052-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-052-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-053-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-053-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-053-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-054-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-054-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-054-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-055-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-055-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-055-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-056-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-056-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-056-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-057-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-057-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-057-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-058-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-058-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-058-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-059-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-059-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-059-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-060-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-060-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-060-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-061-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-061-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-061-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-062-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-062-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-062-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-063-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-063-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-063-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-064-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-064-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-064-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-065-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-065-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-065-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-066-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-066-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-066-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-067-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-067-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-067-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-068-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-068-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-068-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-069-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-069-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-069-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-070-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-070-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-070-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-071-K2_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-071-K2_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_pair-071-K2_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_each_source_once",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_no_curator_metadata",
+      "detail": [],
+      "pass": true
+    },
+    {
+      "check": "K2_PAIRED_NEIGHBORHOODS_global_parity",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_rows_72",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-000-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-000-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-000-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-001-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-001-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-001-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-002-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-002-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-002-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-003-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-003-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-003-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-004-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-004-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-004-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-005-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-005-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-005-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-006-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-006-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-006-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-007-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-007-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-007-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-008-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-008-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-008-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-009-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-009-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-009-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-010-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-010-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-010-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-011-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-011-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-011-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-012-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-012-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-012-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-013-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-013-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-013-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-014-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-014-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-014-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-015-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-015-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-015-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-016-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-016-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-016-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-017-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-017-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-017-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-018-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-018-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-018-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-019-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-019-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-019-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-020-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-020-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-020-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-021-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-021-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-021-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-022-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-022-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-022-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-023-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-023-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-023-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-024-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-024-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-024-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-025-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-025-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-025-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-026-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-026-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-026-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-027-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-027-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-027-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-028-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-028-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-028-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-029-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-029-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-029-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-030-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-030-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-030-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-031-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-031-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-031-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-032-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-032-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-032-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-033-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-033-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-033-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-034-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-034-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-034-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-035-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-035-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-035-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-036-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-036-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-036-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-037-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-037-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-037-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-038-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-038-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-038-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-039-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-039-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-039-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-040-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-040-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-040-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-041-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-041-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-041-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-042-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-042-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-042-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-043-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-043-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-043-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-044-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-044-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-044-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-045-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-045-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-045-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-046-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-046-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-046-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-047-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-047-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-047-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-048-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-048-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-048-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-049-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-049-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-049-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-050-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-050-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-050-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-051-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-051-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-051-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-052-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-052-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-052-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-053-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-053-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-053-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-054-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-054-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-054-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-055-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-055-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-055-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-056-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-056-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-056-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-057-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-057-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-057-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-058-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-058-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-058-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-059-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-059-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-059-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-060-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-060-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-060-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-061-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-061-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-061-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-062-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-062-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-062-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-063-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-063-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-063-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-064-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-064-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-064-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-065-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-065-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-065-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-066-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-066-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-066-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-067-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-067-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-067-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-068-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-068-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-068-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-069-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-069-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-069-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-070-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-070-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-070-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-071-K4_learner_keys",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-071-K4_roles",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_pair-071-K4_topology",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_each_source_once",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_no_curator_metadata",
+      "detail": [],
+      "pass": true
+    },
+    {
+      "check": "K4_STRICT_SCRAMBLE_global_parity",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "k2_partition_balance",
+      "detail": {
+        "(0, 0, 4, 4)": 24,
+        "(0, 4, 0, 4)": 24,
+        "(0, 4, 4, 0)": 24
+      },
+      "pass": true
+    },
+    {
+      "check": "token_audit_pass",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "token_global_equal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "supervision_global_equal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_eval_overlap_pass",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_eval_zero_exact_overlap",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "all_six_permutations_once",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "arm_position_balance",
+      "detail": {
+        "('K1_TRUE_NEIGHBORHOOD', 0)": 2,
+        "('K1_TRUE_NEIGHBORHOOD', 1)": 2,
+        "('K1_TRUE_NEIGHBORHOOD', 2)": 2,
+        "('K2_PAIRED_NEIGHBORHOODS', 0)": 2,
+        "('K2_PAIRED_NEIGHBORHOODS', 1)": 2,
+        "('K2_PAIRED_NEIGHBORHOODS', 2)": 2,
+        "('K4_STRICT_SCRAMBLE', 0)": 2,
+        "('K4_STRICT_SCRAMBLE', 1)": 2,
+        "('K4_STRICT_SCRAMBLE', 2)": 2
+      },
+      "pass": true
+    },
+    {
+      "check": "compile_build_v11_concentration_screen.py",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_build_v11_fresh_eval_source.py",
+      "detail": null,
+      "pass": true
+    }
+  ],
+  "claims_not_authorized": [
+    "scientific start",
+    "runtime qualification",
+    "blind evaluation",
+    "independent replication",
+    "CFE effect"
+  ],
+  "failures": [],
+  "schema": "cfe.v11.static-hostile-candidate.v1",
+  "status": "PASS_CANDIDATE__NOT_LOCKED__NOT_RUNTIME_QUALIFIED__NOT_TRAINED"
+}

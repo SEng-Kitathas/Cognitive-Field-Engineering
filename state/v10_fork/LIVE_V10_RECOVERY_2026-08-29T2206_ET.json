@@ -1,0 +1,56 @@
+{
+  "schema": "cfe.v10.live-recovery.v1",
+  "status": "LIVE_STAGE1_CONTROL_IN_PROGRESS__LAUNCHER_PARENT_LOST__RUN_CHILD_SURVIVED",
+  "mode": "RECOVERY_AUDIT",
+  "live_root": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION",
+  "run_root": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z",
+  "verified": {
+    "v10_child_exists": true,
+    "sealed_parent_reverified_unchanged": true,
+    "premodel_pytest": "56 passed",
+    "negative_ingress_tests": "PASS",
+    "input_lock_sha256": "a497c1cd013c834c9e9efc45b65fd09dbae0dca973f044afe706607cc8094695",
+    "host_lock_sha256": "047fc0e619b5ebe61f7dd9c6e5e1a1b356affba07a8b27795b394c3ad443aea6",
+    "profile_lock_sha256": "65b8bef8e07034d39a509ef6f5922151b01e1bb9929a7fb36d81640167de2f59",
+    "repeatability_sha256": "f711c33fc1d74a864c13fb2b6347e25e73466f19ce534241785ec4481bf70131",
+    "repeatability_status": "REPEATABILITY_PASS",
+    "nf4_base_eval_manifest_sha256": "5613d7419e4223f8d1aa76524353c25f312ce93539e84c4f0ca4cb20ac9c3190",
+    "nf4_base_metrics": {
+      "field_accuracy": 0.0625,
+      "lhit_accuracy": 0.25,
+      "retention_accuracy": 0.4166666666666667,
+      "structural_combined_accuracy": 0.1375
+    },
+    "local_model_search_receipt_sha256": "7ee3fecfa4f3d108277a6697869036ef960bf4486153f5c5f4529100eaa4788f",
+    "local_model_search_status": "EXHAUSTED_NO_EXACT_PINNED_SNAPSHOT_FOUND",
+    "exact_model_repo": "argilla/CapybaraHermes-2.5-Mistral-7B",
+    "exact_model_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+    "snapshot_acquisition_mode": "NETWORK_EXACT_REVISION_AFTER_LOCAL_SEARCH",
+    "runtime_tokenizer_exact_match": true,
+    "active_stage1_seed": 2026082501,
+    "active_stage1_arm": "CONTROL_STRICT_CELL_SCRAMBLE",
+    "active_train_wrapper_pid": 30780,
+    "active_train_child_pid": 24132,
+    "active_train_run_manifest_present_at_recovery": false
+  },
+  "launcher_recovery": {
+    "original_powershell_parent_pid": 32624,
+    "original_powershell_parent_present_at_recovery": false,
+    "meaning": "current CONTROL child survived, but the original launcher cannot advance the frozen sequence after this child exits",
+    "resume_tool": "tools/resume_v10_first_screen.py",
+    "resume_tool_sha256": "f6b29f52ecd5dc8bbff8f120d71cd55daff31734bd5f28f4ead95fff2f872edd",
+    "resume_tool_compile": "PASS",
+    "resume_tool_audit_result": "BLOCKED_ON_PARTIAL_CONTROL_AS_DESIGNED",
+    "overwrite_policy": "REFUSE_PARTIAL_OR_CORRUPT_OUTPUT; VERIFY_COMPLETED_OUTPUT; RUN_ONLY_FIRST_MISSING_FROZEN_STEP"
+  },
+  "analysis_path_audit": {
+    "inferential_unit": "paired_seed_run",
+    "evaluation_rows_nested": true,
+    "row_level_promotion": false,
+    "extension_rule_input": "three Stage-1 structural treatment-control seed deltas only",
+    "extension_rule": "STOP only when all three deltas are nonzero and share one sign; otherwise EXTEND exactly once",
+    "family_domain_slices_can_change_extension_decision": false,
+    "automatic_scientific_promotion": false
+  },
+  "scientific_ceiling": "No CFE effect has been established yet. The live CONTROL arm is an unfinished scientific execution node until RUN_MANIFEST and adapter hashes are present and later paired execution is qualified."
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "cfe.v11.mechanism-tournament-disposition.v1",
+  "status": "FROZEN_BEFORE_NEW_MECHANISM_OUTCOMES",
+  "earned_observation": "Relational co-visibility geometry has a measurable family-dependent effect on unseen-domain transfer under v1.0.",
+  "not_earned": [
+    "predictive mechanism for the sign flip",
+    "usable cognitive archetype engineering rule",
+    "claim that CFE only needs tuning"
+  ],
+  "hypotheses": {
+    "H_STARVATION": {
+      "prediction": "At fixed valid local basis, increasing optimizer-visible contextual diversity improves bounded_transport and reduces or reverses the v1.0 deficit.",
+      "falsifier": "Bounded_transport remains comparably harmed across materially broader update-field diversity, while composition changes at fixed diversity explain the effect."
+    },
+    "H_INTERFERENCE": {
+      "prediction": "At fixed density and source burden, some arrangements of a semantically valid local basis produce greater gradient conflict and worse transfer than other arrangements of the same cells.",
+      "falsifier": "Rearrangements of the same valid cells do not materially change gradient conflict or transfer, while changing the cell basis itself does."
+    },
+    "H_WRONG_NEIGHBORHOOD": {
+      "prediction": "A genuinely reconstituted local basis that brackets the controlling boundary outperforms all rearrangements of the original four-cell truth-table basis without requiring greater global diversity.",
+      "falsifier": "At least one rearrangement of the original valid four-cell basis repairs the deficit under matched density and update-field diversity."
+    },
+    "H_OPTIMIZER_HORIZON": {
+      "prediction": "With identical sequences and content, changing only eight-sequence accumulation-window geometry changes gradient agreement and downstream transfer in the predicted direction.",
+      "falsifier": "Materially different accumulation-window geometry produces no reproducible effect while local composition or concentration does."
+    }
+  },
+  "mandatory_non_discrimination_disposition": {
+    "trigger": "No preregistered discriminator separates the live hypotheses, or all observed effects require post-hoc combinations to explain.",
+    "disposition": "EVIDENCE_AGAINST_CURRENT_MECHANISTIC_PICTURE",
+    "forbidden_relabel": [
+      "mechanism is probably a combination",
+      "needs more tuning",
+      "CFE still works but is more complex"
+    ],
+    "required_action": "Stop promotion and redesign the mechanistic model from the strongest surviving evidence before further scientific screens."
+  },
+  "ordering": [
+    "diagnostic gradient replay on frozen v1.0 examples",
+    "bounded_transport basis audit",
+    "fixed-density same-cell rearrangement discriminator",
+    "genuinely reconstituted boundary-basis discriminator",
+    "optimizer-window permutation discriminator",
+    "K1/K2/K4 concentration dose only if starvation remains live"
+  ],
+  "laws": [
+    "DIAGNOSTIC_REPLAY != HISTORICAL_GRADIENT_RECONSTRUCTION",
+    "POST_HOC_MECHANISM_DISCOVERY != CONFIRMATION",
+    "NON_DISCRIMINATION != PERMISSION_TO_ADD A COMBINATION EXPLANATION"
+  ]
+}

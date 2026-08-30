@@ -1,0 +1,9 @@
+{
+  "path": "experiments/first_screen_v09/prepare_host_v09.py",
+  "before": "80782feeb0c9ce75281c1fbd10910f6d0cfd539911b8ccb8f73a4ed4f56358df",
+  "after": "694ed93f4198fe35172794b3c32921910de184e0b8d15f4339febe307aa45b48",
+  "bytes": 6413,
+  "network_default": "DISABLED",
+  "network_gate": "--allow-network + exact local-search receipt",
+  "local_gate": "exact revision path or exact identity manifest"
+}

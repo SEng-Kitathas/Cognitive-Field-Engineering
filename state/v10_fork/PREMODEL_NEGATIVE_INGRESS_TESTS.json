@@ -1,0 +1,6 @@
+{
+  "no_network_default_rejected": true,
+  "known_wrong_local_snapshot_rejected": true,
+  "no_network_rc": 1,
+  "wrong_local_rc": 1
+}

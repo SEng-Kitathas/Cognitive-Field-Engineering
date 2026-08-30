@@ -1,0 +1,18 @@
+{
+  "schema": "cfe.v10.resume-tool-repair.v1",
+  "status": "REPAIRED_AND_RECOMPILED",
+  "path": "tools/resume_v10_first_screen.py",
+  "before_sha256": "f6b29f52ecd5dc8bbff8f120d71cd55daff31734bd5f28f4ead95fff2f872edd",
+  "after_sha256": "9b3b3f23970b4332e55b25f5452e81dea524066d17eaab793db44d631f09b62b",
+  "reason": "The first implementation described one-step recovery but --execute would continue through later missing steps. That was unsafe under the observed long-call transport failure that orphaned the original PowerShell launcher.",
+  "current_behavior": [
+    "audit-only mode reports the first missing lawful step",
+    "--execute runs exactly one missing lawful step",
+    "the step is verified before return",
+    "a RESUME_STEP_RECEIPTS.jsonl record is appended for each executed step",
+    "partial or corrupt output remains a hard stop",
+    "completed output is hash/identity checked before it is skipped"
+  ],
+  "compile_result": "PASS",
+  "postrepair_audit_result": "BLOCKED_ON_CURRENT_PARTIAL_CONTROL_AS_DESIGNED"
+}

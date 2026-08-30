@@ -1,0 +1,20 @@
+{
+  "independent_rows.jsonl_sha256": "a584764409e6b3af61b7260309a32ee9d00f983462691d993b371c2aea532754",
+  "laws": [
+    "SOURCE_GEOMETRY != OPTIMIZER_VISIBLE_GEOMETRY",
+    "RELATION ADJACENCY != RELATIONAL LEARNING PRESSURE",
+    "MULTI-TURN != LHIT"
+  ],
+  "lhit.jsonl_sha256": "3d0379ae186c2fc9a408ad33d306393671eca2bbb31dc2e258398a269b6387ea",
+  "lhit_source_sha256": "8231ded5fcc28f7e4f896b40b96cec434b9a150d88144f03bdb4069e684dce02",
+  "lhits": 96,
+  "neighborhood_blocks": 36,
+  "neighborhood_blocks.jsonl_sha256": "c615c2c094375a93be7a3f92ba76c9dc7e184d19c15816c6a9acf0edf25668f8",
+  "random_blocks": 36,
+  "random_blocks_control.jsonl_sha256": "bd9bbfedeedd1dd548b75a4c7ed404536f1e458b76dc91cc6c6c2781423d136d",
+  "rows": 144,
+  "schema": "cfe.experience-compile.v0.6",
+  "source_field_sha256": "46f15123f02e588496cb632557fecea7e7036bfc58ab50687d981e5b47eadf6f",
+  "split": "eval",
+  "status": "COMPILED_EXPERIENCE__NOT_TRAINED"
+}

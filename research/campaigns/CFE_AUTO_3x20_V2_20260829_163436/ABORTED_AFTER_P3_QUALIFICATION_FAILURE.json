@@ -1,0 +1,13 @@
+{
+  "status": "ABORTED_AFTER_P3_QUALIFICATION_FAILURE",
+  "accepted_scientific_passes": 0,
+  "probe_records_preserved": ["C001/P01.json", "C001/P02.json", "C001/P03.json"],
+  "reason": [
+    "P2/P3 emitted OARR=NONE despite mandatory OARR challenge pressure.",
+    "P3 emitted LOOP=NONE and RESERVOIR=NONE despite mandatory Loop+ and Attention Reservoir checks.",
+    "P3 NEXT was syntactically incomplete: 'What is the impact of using `sys.executable` or the bound qualified interpreter on?'."
+  ],
+  "adjudication": "Records are retained as campaign-engine qualification probes only; they do not count toward the requested 20-pass scientific campaign.",
+  "authority_effect": "NONE",
+  "sealed_parent_mutated": false
+}
