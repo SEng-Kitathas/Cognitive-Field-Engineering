@@ -185,3 +185,14 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - NF4 baseline admission: predicate 0/56, policy 0/48 strict; both admitted.
 - Final preexecution: `V11_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`.
 - Scientific v1.1 mechanism training has not started at this snapshot.
+
+
+## v1.1 predicate/policy active scientific campaign
+- Scientific boundary crossed after pretraining Git remote verification.
+- Campaign stamp: `20260830T184627Z`.
+- PID: `5916` (alive at launch readback).
+- Run root: `state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z`.
+- Receipt status at launch readback: `RUNNING`.
+- First job: seed `2026082801`, `PREDICATE_NARROW_SLICE` training.
+- Frozen job count: 18 train/eval jobs.
+- No adaptive extension or parallel mechanism screen authorized.

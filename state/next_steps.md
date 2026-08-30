@@ -4,12 +4,12 @@ Date: 2026-08-29
 Current frontier: live v1.0 first causal screen, Stage 1.
 
 ## Immediate
-1. Push/read back the fully qualified v1.1 predicate/policy package before launch.
-2. Launch exactly 18 frozen jobs: narrow predicate + identifying predicate + policy for each seed 2026082801..06; paired predicate order alternates as preregistered.
-3. Each job: train 72 sequences × 4 epochs = 36 optimizer steps -> seal adapter/RUN_MANIFEST -> evaluate held-out task -> seal EVAL_MANIFEST.
-4. Stop fail-closed on any partial output, hash mismatch, lock mismatch, global-step mismatch, or evaluation failure.
-5. No adaptive seed/prompt/support/optimizer changes after scientific launch.
-6. Aggregate only after all 18 jobs; then apply preregistered wrong-basis and policy-separability dispositions before broader interpretation.
+1. Inspect active campaign PID 5916 and `CAMPAIGN_RECEIPT.json` before any action.
+2. Continue only through the existing fail-closed campaign runner; never duplicate or overwrite a partial job.
+3. For each frozen job require 36 optimizer steps, sealed adapter/RUN_MANIFEST, then sealed EVAL_MANIFEST.
+4. No adaptive seed, prompt, margin, threshold, profile, optimizer, or order changes after launch.
+5. When all 18 jobs seal, verify aggregate identities and apply preregistered dispositions before hostile interpretation.
+6. Keep K1/K2/K4 and optimizer-window screens parked until this mechanism screen is resolved.
 
 ## Stage-1 close
 Completed:

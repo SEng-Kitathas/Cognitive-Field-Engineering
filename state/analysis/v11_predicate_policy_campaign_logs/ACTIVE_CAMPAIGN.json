@@ -1,0 +1,29 @@
+{
+  "pid": 5916,
+  "started_epoch": 1788115587.1047597,
+  "stamp": "20260830T184627Z",
+  "cmd": [
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\tools\\run_v11_predicate_policy_campaign.py",
+    "--project-root",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE",
+    "--candidate",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\candidates\\v11_predicate_policy_r2_20260830",
+    "--contract",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps\\V11_PREDICATE_POLICY_TRAINING_CONTRACT_2026-08-30.json",
+    "--lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\locks\\V11_PREDICATE_POLICY_INPUT_LOCK_2026-08-30.json",
+    "--host-lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V11_PREDICATE_POLICY_RUNTIME_20260830\\HOST_LOCK.json",
+    "--profile-lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V11_PREDICATE_POLICY_REPEATABILITY_20260830\\PROFILE_LOCK.json",
+    "--preexec",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V11_PREDICATE_POLICY_PREEXECUTION_20260830.json",
+    "--out",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z"
+  ],
+  "outroot": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z",
+  "stdout": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\v11_predicate_policy_campaign_logs\\20260830T184627Z.stdout.log",
+  "stderr": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\v11_predicate_policy_campaign_logs\\20260830T184627Z.stderr.log",
+  "scientific_boundary_crossed": true
+}

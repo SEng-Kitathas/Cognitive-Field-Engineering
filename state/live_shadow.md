@@ -13,18 +13,17 @@
 
 ## Current Authoritative State
 - v1.0 six-seed screen and post-hoc bounded diagnostics are complete. Earned observation remains family-dependent co-visibility effect; mechanism remains unresolved.
-- Next mechanism screen is predicate/policy-factorized and is now fully preexecution-qualified.
-- Prereg v2 uses opaque `condition_z` for predicate learning. Predicate arms: narrow `{0,+1,0,+1}` vs identifying `{-3,0,+1,+3}` with identical paired capacity/incoming contexts and exact token/supervision burden.
+- v1.1 predicate/policy mechanism screen is now the active scientific branch.
+- Predicate task is opaque `condition_z`; narrow support `{0,+1,0,+1}` vs identifying support `{-3,0,+1,+3}` with exact paired context/token/supervision matching.
 - Policy task removes arithmetic and supplies overflow truth + mode.
-- NF4 baseline admission completed: predicate 0/56 strict with 0% JSON parse, policy 0/48 strict with 0% JSON parse. Both tasks admitted under pre-frozen gates.
-- Scientific input lock: 27 files, SHA `f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a`.
-- Runtime re-verification: exact 11-file base snapshot rehashed PASS; 216/216 new training sequences tokenizer-replayed exactly; new max 253 <= old qualified max 499.
-- Host lock SHA `13379f2d678bdfd8b266f6985808d193c57519924a6c40cd85892ce30900418e`.
-- Two-run one-step repeatability PASS with matching initial trainable hash, loss hex, post-step hash, profile, and trainable parameter count. Repeatability SHA `aebde6719bc1f68f55e393f8e0d9cc3a9a98830121325ad40297f17e8bc41ae1`.
-- Profile lock `all_linear_r8` is inherited and freshly repeatability-qualified; SHA `8de85251eafb8cd05887c11935c0cdef44a5297618b7736d841db4f3ea1d30f4`.
-- Final preexecution status: `V11_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`. No v1.1 mechanism scientific training has started yet at this state snapshot.
-- Frozen fresh seeds: 2026082801..2026082806; predicate arm order alternates; policy training admitted for all six.
-- K1/K2/K4 and optimizer-window screens remain parked; they must not run in parallel.
+- NF4 admission: predicate 0/56, policy 0/48 strict; both tasks admitted under pre-frozen gates.
+- Input lock SHA `f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a`; host lock SHA `13379f2d678bdfd8b266f6985808d193c57519924a6c40cd85892ce30900418e`; repeatability PASS SHA `aebde6719bc1f68f55e393f8e0d9cc3a9a98830121325ad40297f17e8bc41ae1`; profile lock SHA `8de85251eafb8cd05887c11935c0cdef44a5297618b7736d841db4f3ea1d30f4`.
+- Final preexecution receipt SHA `c8030bb32dff393e5519e12d0454c1509df047c19b92f2fd9f4663ba9fe0709a`, status `V11_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`.
+- **Scientific boundary crossed** at campaign launch `20260830T184627Z`.
+- Active campaign PID `5916`; run root `state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z`; receipt status RUNNING.
+- First frozen job is seed `2026082801` `PREDICATE_NARROW_SLICE` training. GPU process verified alive; no completed scientific job existed at the boundary-crossing snapshot.
+- Campaign has exactly 18 frozen train/eval jobs: 2 predicate arms + 1 policy task × 6 seeds. Predicate order alternates by seed. No adaptive extension.
+- No K1/K2/K4 or optimizer-window scientific screen is permitted in parallel.
 
 ## Active Constraints
 - Do not restart or overwrite the completed CONTROL training output or the active corrected CONTROL evaluation output.
@@ -42,17 +41,17 @@
 - Current scientific work outranks unfinished exploratory campaign work until the live screen reaches a clean gate.
 
 ## Open Loops
-- Push/read back the fully qualified preexecution package before scientific boundary crossing.
-- Launch exactly the frozen 18-job campaign: two predicate arms + one policy task for each of six fresh seeds.
-- Require each training run to seal adapter + RUN_MANIFEST before evaluation; require each evaluation manifest before advancing.
-- No adaptive seeds, prompt changes, margin changes, threshold changes, optimization changes, or parallel mechanism screens after launch.
-- Aggregate only after all 18 train/eval jobs complete; paired seed/run remains predicate inferential unit.
-- Apply preregistered dispositions mechanically before hostile interpretation.
+- Let the active v1.1 predicate/policy campaign advance only through its fail-closed runner.
+- Require train adapter + RUN_MANIFEST before each evaluation; require EVAL_MANIFEST before next job.
+- No seed, prompt, margin, threshold, optimization, profile, or ordering changes after the scientific boundary crossing.
+- If any partial/corrupt/hash/global-step failure occurs, stop at the exact failing job and preserve the receipt; do not overwrite.
+- Aggregate only after all 18 jobs complete and apply preregistered dispositions mechanically.
+- K1/K2/K4 and optimizer-window screens remain parked until this mechanism screen resolves.
 
 ## Immediate Next Step
-- Commit/push/read back the locked and runtime-qualified package.
-- After remote identity matches, launch `run_v11_predicate_policy_campaign.py` as the sole CFE GPU scientific process.
-- Immediately record launch PID/run root and scientific-boundary crossing in continuity/Git.
+- On the next status/action turn, inspect PID 5916, CAMPAIGN_RECEIPT, sealed RUN/EVAL manifests, GPU state, and first incomplete frozen job.
+- Do not launch a duplicate campaign if PID 5916 or a valid continuation exists.
+- If terminal complete, verify all 18 jobs and aggregate before interpretation; if blocked, report the exact first failure.
 
 ## Last 10 Turn Reinforcement Window
 1. User asked to continue from the prior CFE work.
@@ -67,10 +66,9 @@
 10. Resume-tool audit correctly blocked on the current partial CONTROL output; stale current/next state was repaired.
 
 ## Delta Since Previous Shadow
-- NF4 admission completed and admitted both predicate and policy tasks.
-- Created/froze training contract and 27-file scientific input lock.
-- Reverified exact snapshot bytes and live tokenizer replay.
-- Fresh two-run repeatability passed; inherited profile is now requalified under the new lock.
-- Final preexecution receipt authorizes scientific training but no new v1.1 weight run has started yet.
-- This pre-boundary state is being pushed before launch.
+- Pretraining package was pushed/read back at Git commit `bf2a3cbc71a22f032f6319f7e135d0fc14f13328` before scientific launch.
+- Scientific boundary crossed only after that remote verification.
+- v1.1 predicate/policy campaign launched PID 5916 at run root `V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z`.
+- First frozen job is actively training; campaign receipt is RUNNING.
+- This boundary-crossing state is being committed/pushed under per-turn Git continuity policy.
 

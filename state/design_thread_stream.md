@@ -388,3 +388,11 @@ Timestamp: 2026-08-30
 Tags: V11 PREEXECUTION QUALIFIED, SCIENTIFIC TRAINING AUTHORIZED, PRE-BOUNDARY SNAPSHOT
 
 NF4 admission completed with predicate 0/56 and policy 0/48 strict accuracy, both with 0% JSON parse; under the pre-frozen gates both tasks were admitted. Training contract SHA `9945f8369f195a2a7796d96c687f5830ee7ff8d85ab1af7bc517d2ac6800ea6f`. A 27-file input lock was sealed at SHA `f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a`. Runtime re-verification rehashed all 11 exact base snapshot files, replayed all 216 new training sequences through the live tokenizer with zero mismatches, and confirmed new max sequence 253 <= old qualified max 499. Host lock SHA `13379f2d678bdfd8b266f6985808d193c57519924a6c40cd85892ce30900418e`. Fresh two-run one-step repeatability passed with identical required witnesses; repeatability SHA `aebde6719bc1f68f55e393f8e0d9cc3a9a98830121325ad40297f17e8bc41ae1`. Profile lock `all_linear_r8` SHA `8de85251eafb8cd05887c11935c0cdef44a5297618b7736d841db4f3ea1d30f4`. Final preexecution receipt status `V11_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`. No v1.1 mechanism scientific training had started at this snapshot; assistant intentionally committed this state before crossing the scientific boundary.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: V11 SCIENTIFIC BOUNDARY CROSSED, CAMPAIGN ACTIVE
+
+After remote verification of the complete pretraining package at Git commit `bf2a3cbc71a22f032f6319f7e135d0fc14f13328`, assistant crossed the v1.1 mechanism scientific boundary. No duplicate v1.1 process was present. The frozen predicate/policy campaign launched at stamp `20260830T184627Z`, PID 5916, output root `state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z`. Immediate readback verified PID alive, GPU active, campaign receipt `RUNNING`, and first frozen job `2026082801 / PREDICATE_NARROW_SLICE` in training. The campaign contains exactly 18 train/eval jobs: alternating paired predicate arms plus POLICY_FACTORIZED for each of six fresh seeds. No adaptive extension, K-dose, or optimizer-window screen is authorized in parallel.

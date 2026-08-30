@@ -1,0 +1,8 @@
+{
+  "input_lock_sha256": "f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a",
+  "jobs": [],
+  "preexec_sha256": "c8030bb32dff393e5519e12d0454c1509df047c19b92f2fd9f4663ba9fe0709a",
+  "schema": "cfe.v11.predicate-policy-campaign.v1",
+  "started": 1788115587.2079713,
+  "status": "RUNNING"
+}
