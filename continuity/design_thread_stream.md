@@ -412,3 +412,21 @@ Timestamp: 2026-08-30
 Tags: LIVE RESULT READBACK, FIRST V11 SEALED JOB
 
 Before answering the synthesis, assistant re-grounded live state. Campaign PID 5916 remained alive. First frozen job `2026082801 / PREDICATE_NARROW_SLICE` had sealed train+eval: strict condition_z 24/56 = 0.4286, JSON parse 1.0; equality 0/8, negative slack 0/24, +1 near overflow 8/8, far overflow 16/16, out-of-original-support 16/40 = 0.40. This is one unpaired arm and is not promoted to a causal effect. Seed-2801 identifying-basis training was active.
+
+---
+
+## Exchange — USER
+Timestamp: 2026-08-30
+Tags: ORIGINAL CFE THREAD, COMMANDERS INTENT, ORIGINAL BEAST
+
+Operator supplied the original thread in which CFE was invented, including the full `THE ORIGINAL BEAST — Commander's Intent for Cognitive Field Engineering Before the Formalism` text. Key invariant supplied: `The developmental structure of experience itself is the engineering medium.` Operator's source explicitly warns that Identifying CFE must not silently redefine the broader Developmental CFE program as sophisticated machine teaching, better SFT ordering, or benchmark optimization.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: INTENT PERSISTED, IDENTIFYING VS DEVELOPMENTAL CFE, LIVE SEED2801 PAIR
+
+Assistant treated the supplied invention-thread text as source-level Commander’s Intent, not as empirical proof. Verbatim source was persisted at `state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md`, 34,205 bytes, SHA `29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765`. Separate active binding doctrine was created at `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-30.md`, SHA `105cba0bff82e84fb980a5a681394a73857bcdbe6e450546b8c911f8c9e2791e`, preserving the source while making Identifying CFE vs Developmental CFE and anti-collapse rules explicit.
+
+Live campaign readback also showed seed 2026082801 fully paired: narrow predicate 24/56 overall and 16/40 out-of-original-support; identifying predicate 47/56 overall and 38/40 out-of-original-support; identifying-minus-narrow +0.4107 overall and +0.55 out-of-original-support. POLICY_FACTORIZED seed 2801 was 48/48. These remain one-paired-seed observations only; campaign continued into seed 2802.

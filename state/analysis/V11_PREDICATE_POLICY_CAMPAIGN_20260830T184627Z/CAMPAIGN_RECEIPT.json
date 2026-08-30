@@ -48,6 +48,116 @@
       "seed": 2026082801,
       "status": "COMPLETE",
       "task": "PREDICATE"
+    },
+    {
+      "dataset": "PREDICATE_IDENTIFYING_BASIS",
+      "eval_manifest_sha256": "6fd0f5938210d2fb1aa8943d3fc0163e2197cbe155ec240b6570f6dd182bd2cb",
+      "metrics": {
+        "by_support": {
+          "equality": {
+            "accuracy": 0.875,
+            "correct": 7,
+            "json_parse_rate": 1.0,
+            "n": 8
+          },
+          "far_overflow": {
+            "accuracy": 0.875,
+            "correct": 14,
+            "json_parse_rate": 1.0,
+            "n": 16
+          },
+          "near_overflow": {
+            "accuracy": 0.25,
+            "correct": 2,
+            "json_parse_rate": 1.0,
+            "n": 8
+          },
+          "negative_slack": {
+            "accuracy": 1.0,
+            "correct": 24,
+            "json_parse_rate": 1.0,
+            "n": 24
+          }
+        },
+        "out_of_original_support": {
+          "accuracy": 0.95,
+          "correct": 38,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "overall": {
+          "accuracy": 0.8392857142857143,
+          "correct": 47,
+          "json_parse_rate": 1.0,
+          "n": 56
+        }
+      },
+      "run_manifest_sha256": "b77177db65eb12fc7f13cd68beff718770e9c66c74d498c5612d9171055a163b",
+      "seed": 2026082801,
+      "status": "COMPLETE",
+      "task": "PREDICATE"
+    },
+    {
+      "dataset": "POLICY_FACTORIZED",
+      "eval_manifest_sha256": "d1fdb46235ef29df6cb08ec756992380bae6d811c6e4d8978251d119c5434098",
+      "metrics": {
+        "by_action": {
+          "accept_all": {
+            "accuracy": 1.0,
+            "correct": 24,
+            "json_parse_rate": 1.0,
+            "n": 24
+          },
+          "backpressure_or_fail_explicitly": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "drop_oldest_keep_latest": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "by_factor": {
+          "false__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "false__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "overall": {
+          "accuracy": 1.0,
+          "correct": 48,
+          "json_parse_rate": 1.0,
+          "n": 48
+        }
+      },
+      "run_manifest_sha256": "d5981ab9f560d491cce3442633e5b17c92a522d8e31b154f8276fea54e9a80d5",
+      "seed": 2026082801,
+      "status": "COMPLETE",
+      "task": "POLICY"
     }
   ],
   "preexec_sha256": "c8030bb32dff393e5519e12d0454c1509df047c19b92f2fd9f4663ba9fe0709a",

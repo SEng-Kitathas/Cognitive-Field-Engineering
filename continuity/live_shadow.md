@@ -7,23 +7,24 @@
 - Dominant Objective: finish the frozen v1.0 first-screen execution without corrupting lineage, preregistration, or scientific interpretation.
 
 ## Active User Intent
-- Continue CFE mechanistic work without regression, and publish a continuity-complete GitHub surface at `SEng-Kitathas/Cognitive-Field-Engineering` so a new thread can resume without operator re-explanation.
-- GitHub continuity is now a project requirement: every material turn updates continuity and produces a Git commit/push when authenticated remote access is available.
-- Normal clone/install must stay thin; heavy R&D/reincarnation/model/checkpoint payloads are opt-in archive assets.
+- Preserve and operationalize the original CFE Commander's Intent from the invention thread without smuggling later discoveries backward as if they were original.
+- Program invariant: **The developmental structure of experience itself is the engineering medium.**
+- Keep Identifying CFE (known target relation, hard mechanism science) distinct from Developmental CFE (lawful ecology, learner-discovered representations/strategies/compositions).
+- Do not let local success redefine CFE as better SFT ordering, machine teaching, benchmark training, curriculum tuning, or optimizer scheduling.
+- Continue the active v1.1 predicate/policy screen unchanged under its frozen scientific lock.
+- Maintain per-material-turn Git continuity; normal clone stays thin and heavy R&D remains opt-in.
 
 ## Current Authoritative State
-- v1.0 six-seed screen and post-hoc bounded diagnostics are complete. Earned observation remains family-dependent co-visibility effect; mechanism remains unresolved.
-- v1.1 predicate/policy mechanism screen is now the active scientific branch.
-- Predicate task is opaque `condition_z`; narrow support `{0,+1,0,+1}` vs identifying support `{-3,0,+1,+3}` with exact paired context/token/supervision matching.
-- Policy task removes arithmetic and supplies overflow truth + mode.
-- NF4 admission: predicate 0/56, policy 0/48 strict; both tasks admitted under pre-frozen gates.
-- Input lock SHA `f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a`; host lock SHA `13379f2d678bdfd8b266f6985808d193c57519924a6c40cd85892ce30900418e`; repeatability PASS SHA `aebde6719bc1f68f55e393f8e0d9cc3a9a98830121325ad40297f17e8bc41ae1`; profile lock SHA `8de85251eafb8cd05887c11935c0cdef44a5297618b7736d841db4f3ea1d30f4`.
-- Final preexecution receipt SHA `c8030bb32dff393e5519e12d0454c1509df047c19b92f2fd9f4663ba9fe0709a`, status `V11_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`.
-- **Scientific boundary crossed** at campaign launch `20260830T184627Z`.
-- Active campaign PID `5916`; run root `state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z`; receipt status RUNNING.
-- First frozen job seed `2026082801 / PREDICATE_NARROW_SLICE` is now COMPLETE and evaluated: 24/56 = 0.4286 overall, JSON parse 1.0; equality 0/8, negative slack 0/24, +1 near overflow 8/8, far overflow 16/16. This is one unpaired arm and is not a scientific conclusion.
-- Paired seed-2801 `PREDICATE_IDENTIFYING_BASIS` training is active; campaign PID 5916 alive at latest readback.
-- Campaign has exactly 18 frozen train/eval jobs: 2 predicate arms + 1 policy task × 6 seeds. Predicate order alternates by seed. No adaptive extension.
+- Program-level source intent is now preserved verbatim at `state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md`, SHA `29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765`.
+- Active binding doctrine: `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-30.md`, SHA `105cba0bff82e84fb980a5a681394a73857bcdbe6e450546b8c911f8c9e2791e`.
+- Program invariant: **The developmental structure of experience itself is the engineering medium.**
+- CFE has two explicit modes: Identifying CFE and Developmental CFE. The current bounded predicate/policy experiment is Identifying CFE only; it must not redefine the whole program.
+- Current empirical ceiling: learner-visible experience arrangement has produced reproducible, relation-dependent behavioral effects in the current fixed-learner regime; whether those effects generalize into a broader CFE law remains unresolved.
+- v1.0 six-seed screen and post-hoc bounded diagnostics remain complete; mechanism unresolved.
+- v1.1 predicate/policy campaign PID 5916 remains the active scientific branch under frozen lock and no adaptive extension.
+- Seed 2026082801 paired predicate result is now sealed: NARROW 24/56 = 0.4286 overall, 16/40 = 0.40 out-of-original-support; IDENTIFYING 47/56 = 0.8393 overall, 38/40 = 0.95 out-of-original-support. Paired overall delta +0.4107 and out-of-original-support delta +0.55 for identifying. This is **one paired seed**, not a mechanism conclusion.
+- Seed 2026082801 POLICY_FACTORIZED is 48/48 = 1.0 across all action classes. This is one seed and supports policy separability locally, not a program-level claim.
+- Campaign receipt has 3 completed jobs and is currently training seed 2026082802 `PREDICATE_IDENTIFYING_BASIS`.
 - No K1/K2/K4 or optimizer-window scientific screen is permitted in parallel.
 
 ## Active Constraints
@@ -50,9 +51,10 @@
 - K1/K2/K4 and optimizer-window screens remain parked until this mechanism screen resolves.
 
 ## Immediate Next Step
-- On the next status/action turn, inspect PID 5916, CAMPAIGN_RECEIPT, sealed RUN/EVAL manifests, GPU state, and first incomplete frozen job.
-- Do not launch a duplicate campaign if PID 5916 or a valid continuation exists.
-- If terminal complete, verify all 18 jobs and aggregate before interpretation; if blocked, report the exact first failure.
+- Preserve the original-beast intent artifacts and continue the already-running frozen v1.1 campaign without modification.
+- On the next scientific status check, inspect PID 5916, campaign receipt, and sealed manifests; do not infer from one paired seed.
+- After all six paired predicate seeds and six policy seeds seal, apply the preregistered dispositions mechanically before discussing any Identifying-CFE construction law.
+- Any successful local law must remain explicitly subordinate to the broader Developmental-CFE program intent.
 
 ## Last 10 Turn Reinforcement Window
 1. User asked to continue from the prior CFE work.
@@ -67,9 +69,9 @@
 10. Resume-tool audit correctly blocked on the current partial CONTROL output; stale current/next state was repaired.
 
 ## Delta Since Previous Shadow
-- Pretraining package was pushed/read back at Git commit `bf2a3cbc71a22f032f6319f7e135d0fc14f13328` before scientific launch.
-- Scientific boundary crossed only after that remote verification.
-- v1.1 predicate/policy campaign launched PID 5916 at run root `V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z`.
-- First frozen job is actively training; campaign receipt is RUNNING.
-- This boundary-crossing state is being committed/pushed under per-turn Git continuity policy.
+- Operator supplied the original CFE invention-thread intent and instructed it be retained as Commander's Intent.
+- Verbatim source intent persisted (34,205 bytes) and a separate active binding doctrine created without rewriting the source.
+- Explicitly separated Identifying CFE from Developmental CFE and added anti-collapse rules against redefining CFE as machine teaching/SFT ordering.
+- Seed-2801 paired predicate result and policy result were read back and recorded with a one-seed ceiling.
+- This doctrine/state change is being committed/pushed under per-turn Git continuity policy.
 

@@ -204,3 +204,21 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Equality: 0/8. Negative slack: 0/24. Near overflow +1: 8/8. Far overflow +3/+7: 16/16. JSON parse rate 1.0.
 - Out-of-original-support: 16/40 = 0.40.
 - This arm behaves like a one-sided positive-condition basin and does not yet identify the strict boundary. It is one arm of one seed; no paired effect claim is authorized until the seed-2801 identifying arm seals.
+
+
+## CFE program-level Commander's Intent
+- Source-level invention-thread intent: `state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md` SHA `29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765`.
+- Active binding: `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-30.md` SHA `105cba0bff82e84fb980a5a681394a73857bcdbe6e450546b8c911f8c9e2791e`.
+- Invariant: **The developmental structure of experience itself is the engineering medium.**
+- Identifying CFE = known target relation -> identifying experience -> acquisition/transfer mechanism science.
+- Developmental CFE = lawful ecology/consequences -> learner-discovered representations/strategies/compositions -> phenotype characterization.
+- Current predicate/policy campaign is Identifying CFE, an experimental specialization only. It does not redefine the whole CFE program.
+- Current empirical wording: learner-visible experience arrangement has produced reproducible, relation-dependent behavioral effects in the current fixed-learner regime; broader CFE law unresolved.
+
+
+## v1.1 seed 2801 paired result
+- NARROW predicate: 24/56 = 0.428571; out-of-original-support 16/40 = 0.40.
+- IDENTIFYING predicate: 47/56 = 0.839286; out-of-original-support 38/40 = 0.95.
+- Paired identifying-minus-narrow: +0.410714 overall; +0.55 out-of-original-support.
+- POLICY_FACTORIZED: 48/48 = 1.0.
+- Ceiling: one paired seed only. Campaign continues; no mechanism disposition until all six paired seeds seal.
