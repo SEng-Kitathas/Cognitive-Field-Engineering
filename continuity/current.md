@@ -196,3 +196,11 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - First job: seed `2026082801`, `PREDICATE_NARROW_SLICE` training.
 - Frozen job count: 18 train/eval jobs.
 - No adaptive extension or parallel mechanism screen authorized.
+
+
+## v1.1 first sealed scientific job
+- Seed `2026082801 / PREDICATE_NARROW_SLICE` train+eval COMPLETE.
+- Overall strict `condition_z` accuracy: 24/56 = 0.428571.
+- Equality: 0/8. Negative slack: 0/24. Near overflow +1: 8/8. Far overflow +3/+7: 16/16. JSON parse rate 1.0.
+- Out-of-original-support: 16/40 = 0.40.
+- This arm behaves like a one-sided positive-condition basin and does not yet identify the strict boundary. It is one arm of one seed; no paired effect claim is authorized until the seed-2801 identifying arm seals.

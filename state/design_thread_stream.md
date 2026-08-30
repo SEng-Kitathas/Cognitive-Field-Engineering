@@ -396,3 +396,19 @@ Timestamp: 2026-08-30
 Tags: V11 SCIENTIFIC BOUNDARY CROSSED, CAMPAIGN ACTIVE
 
 After remote verification of the complete pretraining package at Git commit `bf2a3cbc71a22f032f6319f7e135d0fc14f13328`, assistant crossed the v1.1 mechanism scientific boundary. No duplicate v1.1 process was present. The frozen predicate/policy campaign launched at stamp `20260830T184627Z`, PID 5916, output root `state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z`. Immediate readback verified PID alive, GPU active, campaign receipt `RUNNING`, and first frozen job `2026082801 / PREDICATE_NARROW_SLICE` in training. The campaign contains exactly 18 train/eval jobs: alternating paired predicate arms plus POLICY_FACTORIZED for each of six fresh seeds. No adaptive extension, K-dose, or optimizer-window screen is authorized in parallel.
+
+---
+
+## Exchange — USER
+Timestamp: 2026-08-30
+Tags: CFE BIG PICTURE, RESEARCH STATE
+
+Operator asked for a plain-language account of where CFE stands, end results to date, what the research is showing, and what CFE is shaping up to be, under the active vocabulary rule.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: LIVE RESULT READBACK, FIRST V11 SEALED JOB
+
+Before answering the synthesis, assistant re-grounded live state. Campaign PID 5916 remained alive. First frozen job `2026082801 / PREDICATE_NARROW_SLICE` had sealed train+eval: strict condition_z 24/56 = 0.4286, JSON parse 1.0; equality 0/8, negative slack 0/24, +1 near overflow 8/8, far overflow 16/16, out-of-original-support 16/40 = 0.40. This is one unpaired arm and is not promoted to a causal effect. Seed-2801 identifying-basis training was active.

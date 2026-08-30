@@ -21,7 +21,8 @@
 - Final preexecution receipt SHA `c8030bb32dff393e5519e12d0454c1509df047c19b92f2fd9f4663ba9fe0709a`, status `V11_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`.
 - **Scientific boundary crossed** at campaign launch `20260830T184627Z`.
 - Active campaign PID `5916`; run root `state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z`; receipt status RUNNING.
-- First frozen job is seed `2026082801` `PREDICATE_NARROW_SLICE` training. GPU process verified alive; no completed scientific job existed at the boundary-crossing snapshot.
+- First frozen job seed `2026082801 / PREDICATE_NARROW_SLICE` is now COMPLETE and evaluated: 24/56 = 0.4286 overall, JSON parse 1.0; equality 0/8, negative slack 0/24, +1 near overflow 8/8, far overflow 16/16. This is one unpaired arm and is not a scientific conclusion.
+- Paired seed-2801 `PREDICATE_IDENTIFYING_BASIS` training is active; campaign PID 5916 alive at latest readback.
 - Campaign has exactly 18 frozen train/eval jobs: 2 predicate arms + 1 policy task × 6 seeds. Predicate order alternates by seed. No adaptive extension.
 - No K1/K2/K4 or optimizer-window scientific screen is permitted in parallel.
 
