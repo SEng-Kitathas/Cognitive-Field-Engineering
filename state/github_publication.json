@@ -8,7 +8,31 @@
   "heads_match": true,
   "verified_utc": "2026-08-30T16:55:00Z",
   "normal_clone_policy": "thin; heavy archives/models/checkpoints excluded",
-  "heavy_assets_status": "MANIFESTED__RELEASE_UPLOAD_PENDING",
+  "heavy_assets_status": "RELEASE_PUBLISHED_VERIFIED_PARTIAL_SOURCE_SET",
   "local_publication_checkout": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\publication\\github\\Cognitive-Field-Engineering",
-  "per_turn_policy": "policy/PER_TURN_GIT_CONTINUITY_POLICY.md"
+  "per_turn_policy": "policy/PER_TURN_GIT_CONTINUITY_POLICY.md",
+  "release_tag": "cfe-reincarnation-2026-08-30",
+  "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-reincarnation-2026-08-30",
+  "release_assets_verified": [
+    {
+      "name": "CFE_GITHUB_REINCARNATION_CHECKPOINT_2026-08-30.zip",
+      "size": 486029,
+      "sha256": "a0a51eea57656fa9118c7aa64eb175df5f430c7abe11da36b3e409e0b2bedcaa"
+    },
+    {
+      "name": "CFE_PCMMAD_MAXIMUM_REINCARNATION_V3_0_2026-08-29.zip",
+      "size": 265879800,
+      "sha256": "4991366d9308b756c8f318a46b16baf5ea3ed40a4584e4a452569d832b5a73f8"
+    },
+    {
+      "name": "RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29.zip",
+      "size": 104946,
+      "sha256": "4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278"
+    },
+    {
+      "name": "this.conversation.txt",
+      "size": 473732,
+      "sha256": "80d528d544effa859f1dc9bec0982f1668cab6297f08a96eb8f46aa8f164b091"
+    }
+  ]
 }
