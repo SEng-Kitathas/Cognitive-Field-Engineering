@@ -222,3 +222,11 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Paired identifying-minus-narrow: +0.410714 overall; +0.55 out-of-original-support.
 - POLICY_FACTORIZED: 48/48 = 1.0.
 - Ceiling: one paired seed only. Campaign continues; no mechanism disposition until all six paired seeds seal.
+
+
+## v1.1 seed 2802 paired result
+- NARROW predicate: 24/56 = 0.428571; out-of-original-support 16/40 = 0.400000.
+- IDENTIFYING predicate: 35/56 = 0.625000; out-of-original-support 27/40 = 0.675000.
+- Paired identifying-minus-narrow: +0.196429 overall; +0.275000 out-of-original-support.
+- POLICY_FACTORIZED: 48/48 = 1.000000.
+- Ceiling: second paired seed only. No mechanism disposition until all six paired predicate seeds seal.

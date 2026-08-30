@@ -1,0 +1,2 @@
+{"processed": 1, "row_index": 0, "family": "warrant_vs_taint", "mean_cos": 0.03495672903954983, "neg_pairs": 2, "coherence": 0.680181015498422}
+{"processed": 2, "row_index": 1, "family": "warrant_vs_taint", "mean_cos": 0.037644006622334324, "neg_pairs": 2, "coherence": 0.690357639862612}

@@ -24,7 +24,8 @@
 - v1.1 predicate/policy campaign PID 5916 remains the active scientific branch under frozen lock and no adaptive extension.
 - Seed 2026082801 paired predicate result is now sealed: NARROW 24/56 = 0.4286 overall, 16/40 = 0.40 out-of-original-support; IDENTIFYING 47/56 = 0.8393 overall, 38/40 = 0.95 out-of-original-support. Paired overall delta +0.4107 and out-of-original-support delta +0.55 for identifying. This is **one paired seed**, not a mechanism conclusion.
 - Seed 2026082801 POLICY_FACTORIZED is 48/48 = 1.0 across all action classes. This is one seed and supports policy separability locally, not a program-level claim.
-- Campaign receipt has 3 completed jobs and is currently training seed 2026082802 `PREDICATE_IDENTIFYING_BASIS`.
+- Campaign has 6 completed jobs: seed 2801 and seed 2802 are fully paired plus policy. Seed 2802: NARROW 24/56 = 0.4286, IDENTIFYING 35/56 = 0.6250, POLICY 48/48 = 1.0. Campaign is training seed 2803 `PREDICATE_NARROW_SLICE`.
+- Research-lineage publication policy is now active: all non-heavy research evidence, including failed/superseded artifacts and logs, is Git-tracked; heavy weights/checkpoints are published as hashed release assets. Active mutable files get immutable per-turn snapshots.
 - No K1/K2/K4 or optimizer-window scientific screen is permitted in parallel.
 
 ## Active Constraints

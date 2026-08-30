@@ -1,0 +1,68 @@
+{
+  "bundles": [
+    {
+      "asset_name": "V11_PREDICATE_POLICY_2026082801_ADAPTERS.zip",
+      "bytes": 251838051,
+      "members": [
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082801/PREDICATE_NARROW_SLICE/train/adapter/adapter_model.safetensors",
+          "sha256": "3c37e51a0025325e050c5e5b7bb945bd810ed085c16928b28a9ffe1bd774ca42"
+        },
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082801/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_model.safetensors",
+          "sha256": "348310a03fff3b893609399a157698b74b6901f771283c132a550794ee751fee"
+        },
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082801/POLICY_FACTORIZED/train/adapter/adapter_model.safetensors",
+          "sha256": "b994f97bd4fc85e4896ac8ba1781ba386efa67cecb293ca8bac3e329720a625a"
+        }
+      ],
+      "seed": "2026082801",
+      "sha256": "2fa82f49613c7f675cd8efe5c889ce739c503325a4e9b9bb47b9c44ba5dc3d9d"
+    },
+    {
+      "asset_name": "V11_PREDICATE_POLICY_2026082802_ADAPTERS.zip",
+      "bytes": 251838051,
+      "members": [
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082802/PREDICATE_NARROW_SLICE/train/adapter/adapter_model.safetensors",
+          "sha256": "5ab32e4cd95f8bf5a1201203c69f01660ff57c697b88ad5df6ca9e0fe84d14b9"
+        },
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082802/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_model.safetensors",
+          "sha256": "eff90dab577ab6acd4547aa82ec1f2e1f60055f232ba45074c883eabbcf2cfb2"
+        },
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082802/POLICY_FACTORIZED/train/adapter/adapter_model.safetensors",
+          "sha256": "fb0bd05c060ae7dd21a1295ed1dc80600983dbdab0bf9a8d28893ad06f5a88a2"
+        }
+      ],
+      "seed": "2026082802",
+      "sha256": "7d138a9c29856bb72efaf8223006250177f85a5f4603ac0d9aecfb886f306971"
+    }
+  ],
+  "release_readback": {
+    "assets": [
+      {
+        "digest": "sha256:2fa82f49613c7f675cd8efe5c889ce739c503325a4e9b9bb47b9c44ba5dc3d9d",
+        "name": "V11_PREDICATE_POLICY_2026082801_ADAPTERS.zip",
+        "size": 251838051
+      },
+      {
+        "digest": "sha256:7d138a9c29856bb72efaf8223006250177f85a5f4603ac0d9aecfb886f306971",
+        "name": "V11_PREDICATE_POLICY_2026082802_ADAPTERS.zip",
+        "size": 251838051
+      }
+    ],
+    "tag": "cfe-v11-predicate-policy-research-2026-08-30",
+    "url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v11-predicate-policy-research-2026-08-30"
+  },
+  "schema": "cfe.v11.heavy-release-publication.v1",
+  "tag": "cfe-v11-predicate-policy-research-2026-08-30"
+}

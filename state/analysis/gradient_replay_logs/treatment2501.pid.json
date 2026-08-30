@@ -1,0 +1,18 @@
+{
+  "pid": 13776,
+  "started": 1788101035.4577124,
+  "cmd": [
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\tools\\diagnose_v10_gradient_conflict.py",
+    "--live-root",
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION",
+    "--run-root",
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z",
+    "--arm",
+    "TREATMENT_NEIGHBORHOOD",
+    "--seed",
+    "2026082501",
+    "--out",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V10_GRADIENT_CONFLICT_TREATMENT_SEED2501_2026-08-30.json"
+  ]
+}

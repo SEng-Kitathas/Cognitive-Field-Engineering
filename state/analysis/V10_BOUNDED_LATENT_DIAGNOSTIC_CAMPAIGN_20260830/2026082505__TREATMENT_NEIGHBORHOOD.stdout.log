@@ -1,0 +1,252 @@
+diagnostic 24/168
+diagnostic 48/168
+diagnostic 72/168
+diagnostic 96/168
+diagnostic 120/168
+diagnostic 144/168
+diagnostic 168/168
+{
+  "adapter": "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z\\train\\2026082505\\TREATMENT_NEIGHBORHOOD\\adapter",
+  "adapter_files": {
+    "README.md": {
+      "bytes": 5380,
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a"
+    },
+    "adapter_config.json": {
+      "bytes": 1297,
+      "sha256": "f5e4ef43d112ac8ba4e6638861b7f99268f96bcf578afe2d3be921551a390422"
+    },
+    "adapter_model.safetensors": {
+      "bytes": 83945296,
+      "sha256": "c29650c8077b0e1f922c5cbd0777f70f332ceef69dafa0b4fe6afa9b5c52c03d"
+    }
+  },
+  "attention_backend": "eager",
+  "base_snapshot_manifest_sha256": "0d429d3f6e0fa276fa7bb24c3566ed7ce3856c22230bb58936527f1f15f2bc6d",
+  "cases_sha256": "063b1ad366df98367e35ec411c63f45e62011f26e71498c4e60dbb30e37b4f1a",
+  "diagnostic_manifest_sha256": "7bde83d8487208c808907b3cbd4d5436bf3a389d372f247dccd99b906e0c5bf8",
+  "host_lock_sha256": "047fc0e619b5ebe61f7dd9c6e5e1a1b356affba07a8b27795b394c3ad443aea6",
+  "interpretation_ceiling": [
+    "Post-hoc diagnostic only.",
+    "Existing weights only; no training occurred.",
+    "RULE_EXPLICIT tests application with rule supplied.",
+    "BOUNDARY_LATENT removes the inequality but supplies policy.",
+    "FULL_LATENT removes both inequality and policy wording; failure may reflect task ambiguity as well as missing latent transfer."
+  ],
+  "label": "2026082505__TREATMENT_NEIGHBORHOOD",
+  "metrics": {
+    "by_margin": {
+      "-1": {
+        "accuracy": 0.08333333333333333,
+        "correct": 2,
+        "n": 24
+      },
+      "-2": {
+        "accuracy": 0.041666666666666664,
+        "correct": 1,
+        "n": 24
+      },
+      "-5": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 24
+      },
+      "0": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 24
+      },
+      "1": {
+        "accuracy": 0.3333333333333333,
+        "correct": 8,
+        "n": 24
+      },
+      "2": {
+        "accuracy": 0.3333333333333333,
+        "correct": 8,
+        "n": 24
+      },
+      "5": {
+        "accuracy": 0.3333333333333333,
+        "correct": 8,
+        "n": 24
+      }
+    },
+    "by_mode": {
+      "latest_state": {
+        "accuracy": 0.023809523809523808,
+        "correct": 2,
+        "n": 84
+      },
+      "transactional": {
+        "accuracy": 0.2976190476190476,
+        "correct": 25,
+        "n": 84
+      }
+    },
+    "by_tier": {
+      "BOUNDARY_LATENT": {
+        "accuracy": 0.21428571428571427,
+        "correct": 12,
+        "n": 56
+      },
+      "FULL_LATENT": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 56
+      },
+      "RULE_EXPLICIT": {
+        "accuracy": 0.26785714285714285,
+        "correct": 15,
+        "n": 56
+      }
+    },
+    "by_tier_margin": {
+      "BOUNDARY_LATENT": {
+        "-1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "-2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "-5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "0": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "1": {
+          "accuracy": 0.5,
+          "correct": 4,
+          "n": 8
+        },
+        "2": {
+          "accuracy": 0.5,
+          "correct": 4,
+          "n": 8
+        },
+        "5": {
+          "accuracy": 0.5,
+          "correct": 4,
+          "n": 8
+        }
+      },
+      "FULL_LATENT": {
+        "-1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "-2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "-5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "0": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "1": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "2": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        }
+      },
+      "RULE_EXPLICIT": {
+        "-1": {
+          "accuracy": 0.25,
+          "correct": 2,
+          "n": 8
+        },
+        "-2": {
+          "accuracy": 0.125,
+          "correct": 1,
+          "n": 8
+        },
+        "-5": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "0": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "1": {
+          "accuracy": 0.5,
+          "correct": 4,
+          "n": 8
+        },
+        "2": {
+          "accuracy": 0.5,
+          "correct": 4,
+          "n": 8
+        },
+        "5": {
+          "accuracy": 0.5,
+          "correct": 4,
+          "n": 8
+        }
+      }
+    },
+    "overall": {
+      "accuracy": 0.16071428571428573,
+      "correct": 27,
+      "n": 168
+    },
+    "support_buckets": {
+      "boundary_equal": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 24
+      },
+      "far_overflow": {
+        "accuracy": 0.3333333333333333,
+        "correct": 16,
+        "n": 48
+      },
+      "negative_slack": {
+        "accuracy": 0.041666666666666664,
+        "correct": 3,
+        "n": 72
+      },
+      "old_overflow_support": {
+        "accuracy": 0.3333333333333333,
+        "correct": 8,
+        "n": 24
+      }
+    }
+  },
+  "peak_allocated_bytes": 4256447488,
+  "peak_reserved_bytes": 4561305600,
+  "producer_run_manifest_sha256": "78bf19f2fe9ed174bdc060ec11bfbed6f65d544061ee8c81da15daa4b904e6ff",
+  "results_sha256": "be528eb454b4c0b3313595852974d27f4356a96faf77b72670b4b47080d1f2eb",
+  "runtime_seconds": 238.09768557548523,
+  "schema": "cfe.v10.bounded-latent-diagnostic-eval.v1",
+  "status": "POST_HOC_READ_ONLY_DIAGNOSTIC_COMPLETE__NOT_CONFIRMATORY"
+}

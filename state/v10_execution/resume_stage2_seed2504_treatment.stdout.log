@@ -1,0 +1,8 @@
+RUN train_2026082504_TREATMENT_NEIGHBORHOOD: ['C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\experiments\\first_screen_v09\\train_first_screen_v09.py', '--arm', 'TREATMENT_NEIGHBORHOOD', '--seed', '2026082504', '--host-lock', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z\\host\\HOST_LOCK.json', '--profile-lock', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z\\profile\\PROFILE_LOCK.json', '--extension-decision', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z\\SEED_EXTENSION_DECISION.json', '--out', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z\\train\\2026082504\\TREATMENT_NEIGHBORHOOD', '--lock', 'C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\design\\CFE_V10_FIRST_SCREEN_INPUT_LOCK.json']
+DONE train_2026082504_TREATMENT_NEIGHBORHOOD: rc=0 log=C:\Users\ancal\ProtoAGI\CFE\CFE_RND_V1_0_PREEXECUTION\executed\CFE_V10_FIRST_SCREEN_20260830T013957Z\logs\resume_20260830_011903_train_2026082504_TREATMENT_NEIGHBORHOOD.log
+{
+  "status": "ONE_STEP_COMPLETE",
+  "completed_step": "TRAIN_STAGE2",
+  "seed": 2026082504,
+  "arm": "TREATMENT_NEIGHBORHOOD"
+}

@@ -1,0 +1,18 @@
+{
+  "pid": 14928,
+  "utc": "2026-08-30T06:03:49Z",
+  "command": [
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\tools\\run_v10_until_blocker.py",
+    "--run-root",
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z",
+    "--live-root",
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION",
+    "--qualified-python",
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "--max-steps",
+    "32"
+  ],
+  "stdout": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\v10_execution\\stage2_until_blocker.stdout.jsonl",
+  "stderr": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\v10_execution\\stage2_until_blocker.stderr.log"
+}

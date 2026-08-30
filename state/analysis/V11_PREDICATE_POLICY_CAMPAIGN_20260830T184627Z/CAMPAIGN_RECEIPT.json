@@ -158,6 +158,164 @@
       "seed": 2026082801,
       "status": "COMPLETE",
       "task": "POLICY"
+    },
+    {
+      "dataset": "PREDICATE_IDENTIFYING_BASIS",
+      "eval_manifest_sha256": "5360cad5fe46fdcb5280d8ac4090bdd7b2c912a556b0a3c5f7b4c7cb768dd08a",
+      "metrics": {
+        "by_support": {
+          "equality": {
+            "accuracy": 1.0,
+            "correct": 8,
+            "json_parse_rate": 1.0,
+            "n": 8
+          },
+          "far_overflow": {
+            "accuracy": 0.1875,
+            "correct": 3,
+            "json_parse_rate": 1.0,
+            "n": 16
+          },
+          "near_overflow": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "json_parse_rate": 1.0,
+            "n": 8
+          },
+          "negative_slack": {
+            "accuracy": 1.0,
+            "correct": 24,
+            "json_parse_rate": 1.0,
+            "n": 24
+          }
+        },
+        "out_of_original_support": {
+          "accuracy": 0.675,
+          "correct": 27,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "overall": {
+          "accuracy": 0.625,
+          "correct": 35,
+          "json_parse_rate": 1.0,
+          "n": 56
+        }
+      },
+      "run_manifest_sha256": "690e185071275ec7152d5c2dd2500e5880f04408191c34978b93150d18a05736",
+      "seed": 2026082802,
+      "status": "COMPLETE",
+      "task": "PREDICATE"
+    },
+    {
+      "dataset": "PREDICATE_NARROW_SLICE",
+      "eval_manifest_sha256": "b56d0cf23f9b9f5d54868c0c1932f53ac1d2e19e0607801a9992060d2c90a278",
+      "metrics": {
+        "by_support": {
+          "equality": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "json_parse_rate": 1.0,
+            "n": 8
+          },
+          "far_overflow": {
+            "accuracy": 1.0,
+            "correct": 16,
+            "json_parse_rate": 1.0,
+            "n": 16
+          },
+          "near_overflow": {
+            "accuracy": 1.0,
+            "correct": 8,
+            "json_parse_rate": 1.0,
+            "n": 8
+          },
+          "negative_slack": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "json_parse_rate": 1.0,
+            "n": 24
+          }
+        },
+        "out_of_original_support": {
+          "accuracy": 0.4,
+          "correct": 16,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "overall": {
+          "accuracy": 0.42857142857142855,
+          "correct": 24,
+          "json_parse_rate": 1.0,
+          "n": 56
+        }
+      },
+      "run_manifest_sha256": "956146766eba8529bde686a1d47a5308554e3a323468a2e3d50c87cb6d2339dd",
+      "seed": 2026082802,
+      "status": "COMPLETE",
+      "task": "PREDICATE"
+    },
+    {
+      "dataset": "POLICY_FACTORIZED",
+      "eval_manifest_sha256": "a7c5a91144241c10b4fcb230ff501ebe2e75dcbc2f1b0d6fd8c9962b5e0999c1",
+      "metrics": {
+        "by_action": {
+          "accept_all": {
+            "accuracy": 1.0,
+            "correct": 24,
+            "json_parse_rate": 1.0,
+            "n": 24
+          },
+          "backpressure_or_fail_explicitly": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "drop_oldest_keep_latest": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "by_factor": {
+          "false__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "false__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "overall": {
+          "accuracy": 1.0,
+          "correct": 48,
+          "json_parse_rate": 1.0,
+          "n": 48
+        }
+      },
+      "run_manifest_sha256": "9ec431230b8abd8ecc6b140c8b3ef376a048c68054cdd29b0376109a15287f81",
+      "seed": 2026082802,
+      "status": "COMPLETE",
+      "task": "POLICY"
     }
   ],
   "preexec_sha256": "c8030bb32dff393e5519e12d0454c1509df047c19b92f2fd9f4663ba9fe0709a",

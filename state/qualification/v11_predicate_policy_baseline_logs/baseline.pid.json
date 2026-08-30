@@ -1,0 +1,18 @@
+{
+  "pid": 18524,
+  "started": 1788114939.9773598,
+  "cmd": [
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\tools\\run_v11_predicate_policy_baseline_admission.py",
+    "--host-lock",
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z\\host\\HOST_LOCK.json",
+    "--candidate",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\candidates\\v11_predicate_policy_r2_20260830",
+    "--prereg",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps\\V11_PREDICATE_POLICY_MECHANISM_PREREG_DRAFT_2026-08-30.json",
+    "--qualification",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V11_PREDICATE_POLICY_STATIC_HOSTILE_2026-08-30.json",
+    "--out",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V11_PREDICATE_POLICY_BASELINE_ADMISSION_20260830"
+  ]
+}

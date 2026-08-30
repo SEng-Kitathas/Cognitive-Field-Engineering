@@ -1,0 +1,37 @@
+{
+  "predicate_pair_exact_lengths": 72,
+  "predicate_pair_length_delta_histogram": {
+    "0": 72
+  },
+  "predicate_pair_max_abs_length_delta": 0,
+  "predicate_pair_supervised_delta_histogram": {
+    "0": 72
+  },
+  "predicate_paired_supervised_equal": true,
+  "schema": "cfe.v11.predicate-policy-token-audit.v1",
+  "stats": {
+    "POLICY_FACTORIZED": {
+      "global_tokens": 16128,
+      "max_tokens": 228,
+      "min_tokens": 220,
+      "rows": 72,
+      "supervised_tokens": 3240
+    },
+    "PREDICATE_IDENTIFYING_BASIS": {
+      "global_tokens": 16392,
+      "max_tokens": 229,
+      "min_tokens": 225,
+      "rows": 72,
+      "supervised_tokens": 1728
+    },
+    "PREDICATE_NARROW_SLICE": {
+      "global_tokens": 16392,
+      "max_tokens": 229,
+      "min_tokens": 225,
+      "rows": 72,
+      "supervised_tokens": 1728
+    }
+  },
+  "status": "PASS",
+  "tokenizer_snapshot": "D:\\CFE_HF_CACHE\\models--argilla--CapybaraHermes-2.5-Mistral-7B\\snapshots\\d06c86726aadd8dadb92c5b9b9e3ce8ef246c471"
+}

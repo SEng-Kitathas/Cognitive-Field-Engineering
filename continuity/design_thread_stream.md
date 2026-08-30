@@ -430,3 +430,23 @@ Tags: INTENT PERSISTED, IDENTIFYING VS DEVELOPMENTAL CFE, LIVE SEED2801 PAIR
 Assistant treated the supplied invention-thread text as source-level Commander’s Intent, not as empirical proof. Verbatim source was persisted at `state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md`, 34,205 bytes, SHA `29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765`. Separate active binding doctrine was created at `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-30.md`, SHA `105cba0bff82e84fb980a5a681394a73857bcdbe6e450546b8c911f8c9e2791e`, preserving the source while making Identifying CFE vs Developmental CFE and anti-collapse rules explicit.
 
 Live campaign readback also showed seed 2026082801 fully paired: narrow predicate 24/56 overall and 16/40 out-of-original-support; identifying predicate 47/56 overall and 38/40 out-of-original-support; identifying-minus-narrow +0.4107 overall and +0.55 out-of-original-support. POLICY_FACTORIZED seed 2801 was 48/48. These remain one-paired-seed observations only; campaign continued into seed 2802.
+
+---
+
+## Exchange — USER
+Timestamp: 2026-08-30
+Tags: ALL RESEARCH PUBLICATION, UNBROKEN LINEAGE
+
+Operator instructed: `Proceed (and ALL research is meant to be pushed, so it can be followed backwards in an unbroken chain)`.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: RESEARCH LINEAGE COMPLETE POLICY, HEAVY RELEASE, SEED2802 PAIR
+
+Assistant audited live CFE research tree against Git publication. Audit found 82 previously missing non-heavy research artifacts, primarily historical stdout/stderr/PID evidence, superseded predicate-policy candidate r1, baseline/repeatability/runtime logs, and completed seed-2802 run/eval artifacts. New active policy `policy/RESEARCH_LINEAGE_PUBLICATION_POLICY.md` requires all material research evidence, including failures/superseded attempts, to be published. 377 non-heavy research artifacts were synchronized to Git. Blanket ignores for research stdout/stderr/PID evidence were removed while `.pcmmad_sync_runs`, weights, caches, and archives remain excluded from normal Git.
+
+Six completed v1.1 adapter payloads were bundled by seed and uploaded to GitHub Release `cfe-v11-predicate-policy-research-2026-08-30`. Seed 2801 bundle 251,838,051 bytes SHA `2fa82f49613c7f675cd8efe5c889ce739c503325a4e9b9bb47b9c44ba5dc3d9d`; seed 2802 bundle 251,838,051 bytes SHA `7d138a9c29856bb72efaf8223006250177f85a5f4603ac0d9aecfb886f306971`. GitHub readback matched both SHA digests. Research publication manifest v2 binds all six heavy adapter paths to those release assets.
+
+Seed 2802 also sealed: narrow predicate 24/56 = 0.4286; identifying predicate 35/56 = 0.6250; policy 48/48 = 1.0. Campaign advanced into seed 2803. Because the active campaign receipt/logs mutate during execution, assistant created an immutable per-turn active-campaign snapshot rather than falsely requiring stable hashes for files being actively written.

@@ -1,0 +1,4 @@
+{
+  "status": "BLOCKED",
+  "reason": "partial train output exists without RUN_MANIFEST: seed=2026082503 arm=TREATMENT_NEIGHBORHOOD path=C:\\Users\\ancal\\ProtoAGI\\CFE\\CFE_RND_V1_0_PREEXECUTION\\executed\\CFE_V10_FIRST_SCREEN_20260830T013957Z\\train\\2026082503\\TREATMENT_NEIGHBORHOOD"
+}

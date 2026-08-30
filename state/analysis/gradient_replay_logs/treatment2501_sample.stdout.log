@@ -1,0 +1,6 @@
+{"processed": 1, "row_index": 0, "family": "warrant_vs_taint", "mean_cos": 0.03495672903954983, "neg_pairs": 2, "coherence": 0.680181015498422}
+{"processed": 2, "row_index": 1, "family": "warrant_vs_taint", "mean_cos": 0.037644006622334324, "neg_pairs": 2, "coherence": 0.690357639862612}
+{"processed": 3, "row_index": 8, "family": "bounded_transport", "mean_cos": 0.13425053594013056, "neg_pairs": 0, "coherence": 0.9735140090035751}
+{"processed": 4, "row_index": 9, "family": "bounded_transport", "mean_cos": 0.08488138411970188, "neg_pairs": 0, "coherence": 0.8626923952353536}
+{"processed": 5, "row_index": 16, "family": "warrant_vs_taint", "mean_cos": -0.07771977502852678, "neg_pairs": 3, "coherence": 0.5017048600848294}
+{"processed": 6, "row_index": 17, "family": "warrant_vs_taint", "mean_cos": -0.08798855589702725, "neg_pairs": 3, "coherence": 0.4923902246295558}

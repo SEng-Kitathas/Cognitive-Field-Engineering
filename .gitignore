@@ -2,9 +2,6 @@
 .pcmmad_sync_runs/
 **/__pycache__/
 *.py[cod]
-*.pid.json
-*.stdout.log
-*.stderr.log
 
 # Models / caches / checkpoints / executed weight artifacts
 models/
@@ -34,3 +31,6 @@ executed/
 *.pem
 credentials.*
 secrets.*
+
+# Research stdout/stderr/PID evidence is intentionally tracked under state/ and research/.
+# Only local control-plane synchronization noise stays ignored.

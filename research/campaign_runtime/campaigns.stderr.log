@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "E:\new pc\AI_Pushes_Sandbox\projects\CFE\tools\run_autonomous_cfe_campaigns.py", line 389, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "E:\new pc\AI_Pushes_Sandbox\projects\CFE\tools\run_autonomous_cfe_campaigns.py", line 333, in main
+    first_question, seed_meta = make_seed(corpus, doctrine)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\new pc\AI_Pushes_Sandbox\projects\CFE\tools\run_autonomous_cfe_campaigns.py", line 209, in make_seed
+    obj, meta = chat(system, user, max_tokens=120, temperature=0.25)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\new pc\AI_Pushes_Sandbox\projects\CFE\tools\run_autonomous_cfe_campaigns.py", line 174, in chat
+    raise RuntimeError(f"model JSON failure after retries: {last}")
+RuntimeError: model JSON failure after retries: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')

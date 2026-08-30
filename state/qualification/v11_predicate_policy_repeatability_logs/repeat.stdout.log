@@ -1,0 +1,93 @@
+{
+  "profile_lock": {
+    "host_lock_sha256": "13379f2d678bdfd8b266f6985808d193c57519924a6c40cd85892ce30900418e",
+    "inheritance_from_v10_profile_lock_sha256": "65b8bef8e07034d39a509ef6f5922151b01e1bb9929a7fb36d81640167de2f59",
+    "inheritance_reason": "Same exact base/runtime; new max 253 <= old qualified max 499; fresh two-run one-step repeatability PASS.",
+    "input_lock_sha256": "f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a",
+    "mutation_rule": "Any profile mutation after scientific start invalidates the full screen.",
+    "repeatability_qualification_sha256": "aebde6719bc1f68f55e393f8e0d9cc3a9a98830121325ad40297f17e8bc41ae1",
+    "schema": "cfe.v11.predicate-policy-profile-lock.v1",
+    "selected_profile": {
+      "alpha": 16,
+      "dropout": 0.0,
+      "name": "all_linear_r8",
+      "priority": 0,
+      "r": 8,
+      "targets": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "status": "PROFILE_INHERITED_AND_REPEATABILITY_QUALIFIED"
+  },
+  "repeatability": {
+    "host_lock_sha256": "13379f2d678bdfd8b266f6985808d193c57519924a6c40cd85892ce30900418e",
+    "input_lock_sha256": "f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a",
+    "mismatches": {},
+    "reference_id": "pred-000-PREDICATE_NARROW_SLICE",
+    "reference_tokens": 253,
+    "required_equal_witnesses": [
+      "selected_profile",
+      "initial_trainable_sha256",
+      "post_step_trainable_sha256",
+      "loss_hex",
+      "trainable_parameters"
+    ],
+    "runs": [
+      {
+        "attention_backend": "eager",
+        "determinism": {
+          "cublas_workspace_config": ":4096:8",
+          "cudnn_benchmark": false,
+          "cudnn_deterministic": true,
+          "deterministic_algorithms": true,
+          "deterministic_debug_mode": 2,
+          "matmul_allow_tf32": false,
+          "numpy_seed": 725947614,
+          "seed": 90920260830
+        },
+        "initial_trainable_sha256": "066df2c515ebd0b6bed49abb8b852bc8fadb0fcae66f3f3160cd11489c363b3d",
+        "loss": 0.5125295519828796,
+        "loss_hex": "0x1.066a460000000p-1",
+        "peak_allocated_bytes": 8184316416,
+        "peak_reserved_bytes": 8411676672,
+        "post_step_trainable_parameters": 20971520,
+        "post_step_trainable_sha256": "04c0d3bf1a5b87cb45789bf103a13525885a2be792e4b23b39999318005a118d",
+        "selected_profile": "all_linear_r8",
+        "tokens": 253,
+        "trainable_parameters": 20971520
+      },
+      {
+        "attention_backend": "eager",
+        "determinism": {
+          "cublas_workspace_config": ":4096:8",
+          "cudnn_benchmark": false,
+          "cudnn_deterministic": true,
+          "deterministic_algorithms": true,
+          "deterministic_debug_mode": 2,
+          "matmul_allow_tf32": false,
+          "numpy_seed": 725947614,
+          "seed": 90920260830
+        },
+        "initial_trainable_sha256": "066df2c515ebd0b6bed49abb8b852bc8fadb0fcae66f3f3160cd11489c363b3d",
+        "loss": 0.5125295519828796,
+        "loss_hex": "0x1.066a460000000p-1",
+        "peak_allocated_bytes": 8187835904,
+        "peak_reserved_bytes": 8453619712,
+        "post_step_trainable_parameters": 20971520,
+        "post_step_trainable_sha256": "04c0d3bf1a5b87cb45789bf103a13525885a2be792e4b23b39999318005a118d",
+        "selected_profile": "all_linear_r8",
+        "tokens": 253,
+        "trainable_parameters": 20971520
+      }
+    ],
+    "schema": "cfe.v11.predicate-policy-repeatability.v1",
+    "seed": 90920260830,
+    "status": "REPEATABILITY_PASS"
+  }
+}
