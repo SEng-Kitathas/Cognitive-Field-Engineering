@@ -21,6 +21,7 @@
 - Partial initial-state LoRA gradient replay recovered 6 neighborhood measurements. In the 2 bounded samples mean cosine was +0.110 with zero negative sibling pairs and mean coherence 0.918; 4 warrant samples averaged -0.023 with repeated negative pairs. This weakens but does not eliminate simple bounded sibling-gradient-conflict as the first explanation.
 - New post-hoc bounded diagnostic is statically qualified: 56 states × 3 prompt tiers = 168 cases; margins `-5,-2,-1,0,+1,+2,+5`; tiers RULE_EXPLICIT / BOUNDARY_LATENT / FULL_LATENT; cheap rivals are discriminated.
 - Read-only diagnostic campaign is ACTIVE under PID 6444 over NF4 + all 12 sealed v1.0 adapters. No weight updates occur.
+- Preliminary paired seed 2501 diagnostic: CONTROL 35/56 explicit, 32/56 boundary-latent, 16/56 full-latent; TREATMENT 33/56 explicit, 32/56 boundary-latent, 0/56 full-latent. Both are 0/24 on +1 overflow and overwhelmingly output `accept_all` on latent overflow. Treat as one-seed post-hoc evidence only.
 - v1.1 K-dose candidate remains technically qualified but parked behind mechanism discriminators; no v1.1 scientific training has started.
 - GitHub continuity publication is active; heavy archives remain opt-in release assets.
 

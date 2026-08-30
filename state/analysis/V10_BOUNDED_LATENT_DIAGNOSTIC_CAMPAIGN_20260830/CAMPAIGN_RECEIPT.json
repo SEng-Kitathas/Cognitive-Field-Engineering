@@ -1,0 +1,658 @@
+{
+  "cases_sha256": "063b1ad366df98367e35ec411c63f45e62011f26e71498c4e60dbb30e37b4f1a",
+  "jobs": [
+    {
+      "eval_manifest_sha256": "89d2978de343420a3c6dd3de57a4c61b77c09662458a72a303b43b2178904579",
+      "label": "NF4_BASE",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "0df95d1e028f029d235244db16c18a1a4845d2eee24c605aba180489f7f9e1a1",
+      "seconds": 480.435382604599,
+      "status": "COMPLETE"
+    },
+    {
+      "eval_manifest_sha256": "afb901d6606213375117fedde31a7c111e245e71de20de3b75fbcf7b8f970a5d",
+      "label": "2026082501__CONTROL_STRICT_CELL_SCRAMBLE",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.8333333333333334,
+            "correct": 20,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.875,
+            "correct": 21,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.8333333333333334,
+            "correct": 20,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.7916666666666666,
+            "correct": 19,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.041666666666666664,
+            "correct": 1,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.08333333333333333,
+            "correct": 2,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.4880952380952381,
+            "correct": 41,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.5,
+            "correct": 42,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.2857142857142857,
+            "correct": 16,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.625,
+            "correct": 35,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.625,
+              "correct": 5,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.5,
+              "correct": 4,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.375,
+              "correct": 3,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.25,
+              "correct": 2,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.49404761904761907,
+          "correct": 83,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.7916666666666666,
+            "correct": 19,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.0625,
+            "correct": 3,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.8472222222222222,
+            "correct": 61,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "b27609966aafdc161f125f209f60920ab86e0708233c781f3a690492a57a8c6b",
+      "seconds": 195.7124638557434,
+      "status": "COMPLETE"
+    },
+    {
+      "eval_manifest_sha256": "8d4848774b297608650503d5a8de7a2640133682455db49d16ecdced92132f8f",
+      "label": "2026082501__TREATMENT_NEIGHBORHOOD",
+      "metrics": {
+        "by_margin": {
+          "-1": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "-2": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "-5": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "0": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "1": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "2": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          },
+          "5": {
+            "accuracy": 0.041666666666666664,
+            "correct": 1,
+            "n": 24
+          }
+        },
+        "by_mode": {
+          "latest_state": {
+            "accuracy": 0.38095238095238093,
+            "correct": 32,
+            "n": 84
+          },
+          "transactional": {
+            "accuracy": 0.39285714285714285,
+            "correct": 33,
+            "n": 84
+          }
+        },
+        "by_tier": {
+          "BOUNDARY_LATENT": {
+            "accuracy": 0.5714285714285714,
+            "correct": 32,
+            "n": 56
+          },
+          "FULL_LATENT": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 56
+          },
+          "RULE_EXPLICIT": {
+            "accuracy": 0.5892857142857143,
+            "correct": 33,
+            "n": 56
+          }
+        },
+        "by_tier_margin": {
+          "BOUNDARY_LATENT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "FULL_LATENT": {
+            "-1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            }
+          },
+          "RULE_EXPLICIT": {
+            "-1": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-2": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "-5": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "0": {
+              "accuracy": 1.0,
+              "correct": 8,
+              "n": 8
+            },
+            "1": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "2": {
+              "accuracy": 0.0,
+              "correct": 0,
+              "n": 8
+            },
+            "5": {
+              "accuracy": 0.125,
+              "correct": 1,
+              "n": 8
+            }
+          }
+        },
+        "overall": {
+          "accuracy": 0.3869047619047619,
+          "correct": 65,
+          "n": 168
+        },
+        "support_buckets": {
+          "boundary_equal": {
+            "accuracy": 0.6666666666666666,
+            "correct": 16,
+            "n": 24
+          },
+          "far_overflow": {
+            "accuracy": 0.020833333333333332,
+            "correct": 1,
+            "n": 48
+          },
+          "negative_slack": {
+            "accuracy": 0.6666666666666666,
+            "correct": 48,
+            "n": 72
+          },
+          "old_overflow_support": {
+            "accuracy": 0.0,
+            "correct": 0,
+            "n": 24
+          }
+        }
+      },
+      "results_sha256": "4b5fda5501e0288914084fd16862dfffb99e13cca34abeaa4afd6844a40def48",
+      "seconds": 185.92955255508423,
+      "status": "COMPLETE"
+    }
+  ],
+  "laws": [
+    "READ_ONLY_DIAGNOSTIC != SCIENTIFIC_TRAINING",
+    "PARTIAL_JOB_SUCCESS != CAMPAIGN_SUCCESS",
+    "POST_HOC_DIAGNOSTIC != CONFIRMATION"
+  ],
+  "schema": "cfe.v10.bounded-latent-diagnostic-campaign.v1",
+  "started": 1788109497.4042552,
+  "status": "RUNNING"
+}

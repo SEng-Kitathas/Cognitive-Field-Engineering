@@ -121,3 +121,29 @@ SHA-256: `5a6c1e8af753de2e481a5a8187cde9742530dc01f1f4f6f89b1236a11c1d2a2c`
 - PID at launch: `6444`.
 - Output: `state/analysis/V10_BOUNDED_LATENT_DIAGNOSTIC_CAMPAIGN_20260830`.
 - Interpretation ceiling: post-hoc diagnostic only; FULL_LATENT failure can include prompt/task ambiguity and is not by itself proof of absent representation.
+
+
+## Preliminary bounded-latent seed 2501 result
+Post-hoc read-only diagnostic; one paired seed only; not confirmatory.
+
+NF4: 0/56 on all three strict tiers, largely because it does not follow the JSON output contract.
+
+Seed 2026082501 CONTROL:
+- RULE_EXPLICIT 35/56 = 0.625
+- BOUNDARY_LATENT 32/56 = 0.5714
+- FULL_LATENT 16/56 = 0.2857
+- negative slack 61/72 = 0.8472
+- equality 19/24 = 0.7917
+- old +1 overflow 0/24
+- far overflow 3/48 = 0.0625
+
+Seed 2026082501 TREATMENT:
+- RULE_EXPLICIT 33/56 = 0.5893
+- BOUNDARY_LATENT 32/56 = 0.5714
+- FULL_LATENT 0/56
+- negative slack 48/72 = 0.6667
+- equality 16/24 = 0.6667
+- old +1 overflow 0/24
+- far overflow 1/48 = 0.0208
+
+Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `accept_all`; boundary-latent overflow is 0/24 correct in both arms. CONTROL occasionally emits correct transactional backpressure on farther overflow; TREATMENT does so less often. This weakens a simple output-contract explanation and is consistent with brittle/under-resolved bounded task binding, but one seed cannot establish mechanism.

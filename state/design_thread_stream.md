@@ -334,3 +334,11 @@ Assistant re-grounded from Git-published continuity. The old gradient logs yield
 Assistant then built `tools/build_v10_bounded_latent_diagnostic.py` and generated `state/candidates/v10_bounded_latent_diagnostic_20260830`: 56 states × 3 tiers = 168 unique prompts on new domain `dispatch_reservoir`, with margins -5,-2,-1,0,+1,+2,+5 and prompt tiers RULE_EXPLICIT / BOUNDARY_LATENT / FULL_LATENT. Static audit passed and discriminates cheap rival rules `margin==1`, `margin>=0`, `margin!=0`, and `margin>1`. Cases SHA `063b1ad366df98367e35ec411c63f45e62011f26e71498c4e60dbb30e37b4f1a`; audit SHA `3d11a6b4cac595cf2b832f60b238bbd1808b63d5a3861ad3a0b325dd3c6d4d8f`.
 
 Assistant built/compiled `tools/evaluate_v10_bounded_latent_diagnostic.py` and `tools/run_v10_bounded_latent_diagnostic_campaign.py`. The campaign verifies adapter payloads against sealed run manifests and evaluates NF4 plus all 12 v1.0 adapters sequentially with no training. It launched as PID 6444 with output root `state/analysis/V10_BOUNDED_LATENT_DIAGNOSTIC_CAMPAIGN_20260830`. Scientific interpretation remains post-hoc/read-only; no v1.1 weights have been mutated.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: PRELIMINARY DIAGNOSTIC RESULT, SEED2501 PAIRED
+
+The bounded latent diagnostic campaign sealed NF4 and both seed-2026082501 arms. NF4 scored 0/56 on each strict tier and mostly failed the requested JSON contract. Trained adapters restored clean JSON behavior. CONTROL scored RULE_EXPLICIT 35/56, BOUNDARY_LATENT 32/56, FULL_LATENT 16/56; TREATMENT scored 33/56, 32/56, 0/56. By support bucket CONTROL: negative slack 61/72, equality 19/24, +1 overflow 0/24, far overflow 3/48. TREATMENT: 48/72, 16/24, 0/24, 1/48. Raw outputs show both arms overwhelmingly emit `accept_all` on overflow; all boundary-latent overflow cases are wrong in both arms. This is one paired post-hoc seed only and is not promoted to a mechanism conclusion. Campaign advanced to seed 2026082502 CONTROL.
