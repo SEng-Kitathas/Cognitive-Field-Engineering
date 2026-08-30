@@ -1,0 +1,48 @@
+{
+  "authorized_datasets": [
+    "PREDICATE_NARROW_SLICE",
+    "PREDICATE_IDENTIFYING_BASIS",
+    "POLICY_FACTORIZED"
+  ],
+  "authorized_seeds": [
+    2026082801,
+    2026082802,
+    2026082803,
+    2026082804,
+    2026082805,
+    2026082806
+  ],
+  "baseline_admission_sha256": "695ad60d898072cdf4f7efb58a709969002ee5f52c76ba65adefb8c2f2498917",
+  "claim_ceiling": "RUNTIME PACKAGE QUALIFIED; NO V11 MECHANISM EFFECT YET",
+  "host_lock_sha256": "13379f2d678bdfd8b266f6985808d193c57519924a6c40cd85892ce30900418e",
+  "input_lock_sha256": "f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a",
+  "laws": [
+    "QUALIFIED_RUNTIME != SCIENTIFIC_EFFECT",
+    "AUTHORIZED != EXECUTED",
+    "PREDICATE_RESULT != POLICY_RESULT",
+    "MECHANISM_SCREEN != GENERAL_CFE_VALIDATION"
+  ],
+  "profile_lock_sha256": "8de85251eafb8cd05887c11935c0cdef44a5297618b7736d841db4f3ea1d30f4",
+  "repeatability_qualification_sha256": "aebde6719bc1f68f55e393f8e0d9cc3a9a98830121325ad40297f17e8bc41ae1",
+  "schema": "cfe.v11.predicate-policy-preexecution.v1",
+  "scientific_training_authorized": true,
+  "selected_profile": {
+    "alpha": 16,
+    "dropout": 0.0,
+    "name": "all_linear_r8",
+    "priority": 0,
+    "r": 8,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "static_qualification_sha256": "3fd22526e2956c48130e11c9f4528d46c3dd6a02994f285b409a4285980a7cb0",
+  "status": "V11_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED",
+  "training_contract_sha256": "9945f8369f195a2a7796d96c687f5830ee7ff8d85ab1af7bc517d2ac6800ea6f"
+}

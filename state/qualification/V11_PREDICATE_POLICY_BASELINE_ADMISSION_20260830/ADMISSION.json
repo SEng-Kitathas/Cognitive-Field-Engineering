@@ -1,0 +1,80 @@
+{
+  "candidate_manifest_sha256": "18a846937cce18cef89d48926ebc271817b4ebb3114c45cf13077ab326d4f352",
+  "gates": {
+    "policy_skip_training_if_nf4_accuracy_gte": 0.9,
+    "predicate_nf4_reject_if_accuracy_gte": 0.85,
+    "timing": "both gates fixed before any new trained-arm outcome"
+  },
+  "host_lock_sha256": "047fc0e619b5ebe61f7dd9c6e5e1a1b356affba07a8b27795b394c3ad443aea6",
+  "laws": [
+    "BASELINE_ADMISSION != SCIENTIFIC_EFFECT",
+    "BASE_PRETRAINED_PRIOR != FIELD_LEARNING",
+    "REJECTED_BENCHMARK != NEGATIVE_CFE_RESULT"
+  ],
+  "metrics": {
+    "POLICY": {
+      "accuracy": 0.0,
+      "by_action": {
+        "accept_all": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 24
+        },
+        "backpressure_or_fail_explicitly": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 12
+        },
+        "drop_oldest_keep_latest": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 12
+        }
+      },
+      "correct": 0,
+      "json_parse_rate": 0.0,
+      "n": 48
+    },
+    "PREDICATE": {
+      "accuracy": 0.0,
+      "by_support": {
+        "equality": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "far_overflow": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 16
+        },
+        "near_overflow": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 8
+        },
+        "negative_slack": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 24
+        }
+      },
+      "correct": 0,
+      "json_parse_rate": 0.0,
+      "n": 56
+    }
+  },
+  "policy_training_admitted": true,
+  "policy_training_disposition": "TRAIN_POLICY_FACTORIZED",
+  "predicate_disposition": "ADMIT_PREDICATE_SCREEN",
+  "predicate_screen_admitted": true,
+  "prereg_sha256": "ebb014831500a6f74961a4fb06af75bf33ba99a290af11e3ff954f8850e196a4",
+  "results_sha256": {
+    "POLICY": "7f82264f832d052f4a612d05a28ae0d8b791e10b909fb065528b2e4093428933",
+    "PREDICATE": "e43f9870e31b20ad0c80953b1916bd4ce515ba2cbd20a5ff9f18ec0064ec6e56"
+  },
+  "runtime_seconds": 206.44011187553406,
+  "schema": "cfe.v11.predicate-policy-baseline-admission.v1",
+  "static_qualification_sha256": "3fd22526e2956c48130e11c9f4528d46c3dd6a02994f285b409a4285980a7cb0",
+  "status": "BASELINE_ADMISSION_COMPLETE__NO_NEW_TRAINED_ARM_OUTCOME"
+}

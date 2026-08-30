@@ -380,3 +380,11 @@ Before any new model outcome, assistant amended the predicate task to use opaque
 Candidate r2 was generated at `state/candidates/v11_predicate_policy_r2_20260830`. Exact pinned-tokenizer audit passed: both predicate arms 18,120 total tokens, 2,304 supervised tokens, 72/72 exact paired sequence lengths, max 253; token audit SHA `51c7c8cc10ce435d1a26e0618d45fee968925b40a980b77d31f33135a2c92bbe`. Independent static hostile audit passed 816 checks with zero failures; candidate manifest SHA `18a846937cce18cef89d48926ebc271817b4ebb3114c45cf13077ab326d4f352`.
 
 NF4-only baseline admission evaluation then launched under PID 18524. No new trained-arm outcome exists and no v1.1 weight mutation has started.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: V11 PREEXECUTION QUALIFIED, SCIENTIFIC TRAINING AUTHORIZED, PRE-BOUNDARY SNAPSHOT
+
+NF4 admission completed with predicate 0/56 and policy 0/48 strict accuracy, both with 0% JSON parse; under the pre-frozen gates both tasks were admitted. Training contract SHA `9945f8369f195a2a7796d96c687f5830ee7ff8d85ab1af7bc517d2ac6800ea6f`. A 27-file input lock was sealed at SHA `f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a`. Runtime re-verification rehashed all 11 exact base snapshot files, replayed all 216 new training sequences through the live tokenizer with zero mismatches, and confirmed new max sequence 253 <= old qualified max 499. Host lock SHA `13379f2d678bdfd8b266f6985808d193c57519924a6c40cd85892ce30900418e`. Fresh two-run one-step repeatability passed with identical required witnesses; repeatability SHA `aebde6719bc1f68f55e393f8e0d9cc3a9a98830121325ad40297f17e8bc41ae1`. Profile lock `all_linear_r8` SHA `8de85251eafb8cd05887c11935c0cdef44a5297618b7736d841db4f3ea1d30f4`. Final preexecution receipt status `V11_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`. No v1.1 mechanism scientific training had started at this snapshot; assistant intentionally committed this state before crossing the scientific boundary.

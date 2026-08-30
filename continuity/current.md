@@ -174,3 +174,14 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Policy task supplies overflow truth + mode and removes arithmetic.
 - NF4 baseline admission is active under PID `18524`.
 - Frozen gates: predicate rejected if NF4 >=0.85; policy training skipped if NF4 >=0.90.
+
+
+## v1.1 predicate/policy preexecution qualification
+- Input lock SHA: `f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a`.
+- Host lock SHA: `13379f2d678bdfd8b266f6985808d193c57519924a6c40cd85892ce30900418e`.
+- Repeatability SHA: `aebde6719bc1f68f55e393f8e0d9cc3a9a98830121325ad40297f17e8bc41ae1`.
+- Profile lock SHA: `8de85251eafb8cd05887c11935c0cdef44a5297618b7736d841db4f3ea1d30f4`.
+- Exact base snapshot 11/11 files rehashed PASS; tokenizer replay 216/216 PASS.
+- NF4 baseline admission: predicate 0/56, policy 0/48 strict; both admitted.
+- Final preexecution: `V11_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`.
+- Scientific v1.1 mechanism training has not started at this snapshot.

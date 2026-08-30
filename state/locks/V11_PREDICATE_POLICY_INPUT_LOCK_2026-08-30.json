@@ -1,0 +1,130 @@
+{
+  "anchors": {
+    "amendment_sha256": "bdd51ca7ff97679dc032529b0386dd1b143c9ab514c51d58e2b100775dc8f1c1",
+    "baseline_admission_sha256": "695ad60d898072cdf4f7efb58a709969002ee5f52c76ba65adefb8c2f2498917",
+    "candidate_manifest_sha256": "18a846937cce18cef89d48926ebc271817b4ebb3114c45cf13077ab326d4f352",
+    "prereg_sha256": "ebb014831500a6f74961a4fb06af75bf33ba99a290af11e3ff954f8850e196a4",
+    "token_audit_sha256": "51c7c8cc10ce435d1a26e0618d45fee968925b40a980b77d31f33135a2c92bbe",
+    "training_contract_sha256": "9945f8369f195a2a7796d96c687f5830ee7ff8d85ab1af7bc517d2ac6800ea6f"
+  },
+  "file_count": 27,
+  "files": {
+    "state/candidates/v11_predicate_policy_r2_20260830/MANIFEST.json": {
+      "bytes": 2439,
+      "sha256": "18a846937cce18cef89d48926ebc271817b4ebb3114c45cf13077ab326d4f352"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/POLICY_EVAL.private.jsonl": {
+      "bytes": 15752,
+      "sha256": "e1c898ee5d30bc8a4f791ec8ee9360882a9f4336688d55073351c125569af560"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/POLICY_FACTORIZED.jsonl": {
+      "bytes": 65688,
+      "sha256": "4e60b749eb8cc98a827ba3aacbc70b6cbe38b020cb9f561dd3570d25bc943a2a"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/POLICY_FACTORIZED.sidecar.private.jsonl": {
+      "bytes": 33936,
+      "sha256": "5c4e353d071ac13cc1f57a5cf5577934a0293ac8ad367d68e11dbb96dcceca1a"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/POLICY_FACTORIZED.token_reference.private.jsonl": {
+      "bytes": 122952,
+      "sha256": "b65313ef8873a8e8d06a308672a00452d2d9eef78c626b451c89479af5c6015f"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_EVAL.private.jsonl": {
+      "bytes": 19008,
+      "sha256": "c6cdfbd00be11acbfb8351ce1f2d03ab85eefa9b66598bb6a5b57abc9884dd9e"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_IDENTIFYING_BASIS.jsonl": {
+      "bytes": 68712,
+      "sha256": "e8f67d1d7d7790e4210d75a6868d5a355caee645471d876d8f31dc1ff04eeed2"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_IDENTIFYING_BASIS.sidecar.private.jsonl": {
+      "bytes": 50472,
+      "sha256": "d8d3e7f767fa7799df1c9f601b4fab95c5143d38786d7b7f145db49d7ea196d4"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_IDENTIFYING_BASIS.token_reference.private.jsonl": {
+      "bytes": 139920,
+      "sha256": "cf5cd42158c621d50cd7d1733b42063f8202c72616f2637040d58d060ab1df05"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_NARROW_SLICE.jsonl": {
+      "bytes": 68352,
+      "sha256": "2773440a5e52212959cdd3d1c90a90164e0fbe651e5044248c99b6ce9efb95ac"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_NARROW_SLICE.sidecar.private.jsonl": {
+      "bytes": 50040,
+      "sha256": "5621414e52ba2dceac911d81b61a0ace94df62c4d7b04b2eaf437cd795dc7aa3"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_NARROW_SLICE.token_reference.private.jsonl": {
+      "bytes": 139560,
+      "sha256": "3ad319c4c27f5fce57ef91a0295948505e378fdd0c4c7c4fec0cc8d9c2061ed9"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/TOKEN_AUDIT.json": {
+      "bytes": 1046,
+      "sha256": "51c7c8cc10ce435d1a26e0618d45fee968925b40a980b77d31f33135a2c92bbe"
+    },
+    "state/next_steps/V11_PREDICATE_POLICY_MECHANISM_PREREG_DRAFT_2026-08-30.json": {
+      "bytes": 6205,
+      "sha256": "ebb014831500a6f74961a4fb06af75bf33ba99a290af11e3ff954f8850e196a4"
+    },
+    "state/next_steps/V11_PREDICATE_POLICY_PREREG_AMENDMENT_PRE_OUTCOME_2026-08-30.md": {
+      "bytes": 2083,
+      "sha256": "bdd51ca7ff97679dc032529b0386dd1b143c9ab514c51d58e2b100775dc8f1c1"
+    },
+    "state/next_steps/V11_PREDICATE_POLICY_TRAINING_CONTRACT_2026-08-30.json": {
+      "bytes": 3937,
+      "sha256": "9945f8369f195a2a7796d96c687f5830ee7ff8d85ab1af7bc517d2ac6800ea6f"
+    },
+    "state/qualification/V11_PREDICATE_POLICY_BASELINE_ADMISSION_20260830/ADMISSION.json": {
+      "bytes": 2349,
+      "sha256": "695ad60d898072cdf4f7efb58a709969002ee5f52c76ba65adefb8c2f2498917"
+    },
+    "state/qualification/V11_PREDICATE_POLICY_BASELINE_ADMISSION_20260830/POLICY_RESULTS.jsonl": {
+      "bytes": 27226,
+      "sha256": "7f82264f832d052f4a612d05a28ae0d8b791e10b909fb065528b2e4093428933"
+    },
+    "state/qualification/V11_PREDICATE_POLICY_BASELINE_ADMISSION_20260830/PREDICATE_RESULTS.jsonl": {
+      "bytes": 26571,
+      "sha256": "e43f9870e31b20ad0c80953b1916bd4ce515ba2cbd20a5ff9f18ec0064ec6e56"
+    },
+    "state/qualification/V11_PREDICATE_POLICY_STATIC_HOSTILE_2026-08-30.json": {
+      "bytes": 87234,
+      "sha256": "3fd22526e2956c48130e11c9f4528d46c3dd6a02994f285b409a4285980a7cb0"
+    },
+    "tools/audit_v11_predicate_policy_candidate.py": {
+      "bytes": 6020,
+      "sha256": "d3e4b091c22e75eaab22a5aa26c35b30238c9e334527097f5ebe9f6c26b3dc2d"
+    },
+    "tools/build_v11_predicate_policy_candidate.py": {
+      "bytes": 9967,
+      "sha256": "1e2736c096fdb27022e62246865fb36db5d5c27ebddf6f222b5d661ec17d7b52"
+    },
+    "tools/evaluate_v11_predicate_policy.py": {
+      "bytes": 5230,
+      "sha256": "91d42fe7c5e277601b6928d220dbd3314ffcfa6fbedd4dd9eb0e02d0c04baeb5"
+    },
+    "tools/run_v11_predicate_policy_baseline_admission.py": {
+      "bytes": 5707,
+      "sha256": "a8372447c9a081f3da0235b9d8b4cbfc4c59f5b014d04458d7d702dfdc954482"
+    },
+    "tools/run_v11_predicate_policy_campaign.py": {
+      "bytes": 6597,
+      "sha256": "2eb5b95d3578998f50a71ff5e85ec8f352b9d00fede6fab36877fe9090974073"
+    },
+    "tools/train_v11_predicate_policy.py": {
+      "bytes": 6836,
+      "sha256": "5d626a5fdb3ac5bb0681fc5419f24634160211289e399830bf2f842b989b3f28"
+    },
+    "tools/v11_predicate_policy_common.py": {
+      "bytes": 3401,
+      "sha256": "615b7368abaa249b408a3f34c863cc40a100d66c19793cc856f2f1b10ea8186b"
+    }
+  },
+  "laws": [
+    "LOCKED_INPUTS != QUALIFIED_RUNTIME",
+    "BASELINE_ADMITTED != SCIENTIFIC_EFFECT",
+    "LOCK_MUTATION_REQUIRES_NEW_IDENTITY"
+  ],
+  "mutation_rule": "Any byte change to a locked file invalidates this lock and requires a new lock before runtime qualification.",
+  "schema": "cfe.v11.predicate-policy-input-lock.v1",
+  "scientific_training_authorized": false,
+  "status": "LOCKED_PRE_RUNTIME__NO_SCIENTIFIC_TRAINING"
+}

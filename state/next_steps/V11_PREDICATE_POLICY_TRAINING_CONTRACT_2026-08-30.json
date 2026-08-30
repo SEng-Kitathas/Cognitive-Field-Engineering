@@ -1,0 +1,83 @@
+{
+  "schema": "cfe.v11.predicate-policy-training-contract.v1",
+  "status": "FROZEN_PRE_SCIENTIFIC_TRAINING",
+  "model": {
+    "hf_repo": "argilla/CapybaraHermes-2.5-Mistral-7B",
+    "hf_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+    "base_snapshot_manifest_sha256": "0d429d3f6e0fa276fa7bb24c3566ed7ce3856c22230bb58936527f1f15f2bc6d"
+  },
+  "tasks": {
+    "PREDICATE": {
+      "arms": ["PREDICATE_NARROW_SLICE", "PREDICATE_IDENTIFYING_BASIS"],
+      "rows_per_arm": 72,
+      "primary_metric": "strict JSON condition_z accuracy on held-out freight_buffer broad-support evaluation",
+      "paired_unit": "seed/run"
+    },
+    "POLICY": {
+      "arms": ["POLICY_FACTORIZED"],
+      "rows_per_arm": 72,
+      "primary_metric": "strict JSON action accuracy on held-out release_station evaluation",
+      "purpose": "separability/feasibility gate, not a co-visibility arm comparison"
+    }
+  },
+  "seeds": [2026082801, 2026082802, 2026082803, 2026082804, 2026082805, 2026082806],
+  "predicate_execution_order": {
+    "2026082801": ["PREDICATE_NARROW_SLICE", "PREDICATE_IDENTIFYING_BASIS"],
+    "2026082802": ["PREDICATE_IDENTIFYING_BASIS", "PREDICATE_NARROW_SLICE"],
+    "2026082803": ["PREDICATE_NARROW_SLICE", "PREDICATE_IDENTIFYING_BASIS"],
+    "2026082804": ["PREDICATE_IDENTIFYING_BASIS", "PREDICATE_NARROW_SLICE"],
+    "2026082805": ["PREDICATE_NARROW_SLICE", "PREDICATE_IDENTIFYING_BASIS"],
+    "2026082806": ["PREDICATE_IDENTIFYING_BASIS", "PREDICATE_NARROW_SLICE"]
+  },
+  "policy_execution_rule": "Run POLICY_FACTORIZED for all six fresh seeds only because the pre-outcome NF4 admission gate admitted policy training.",
+  "profile": {
+    "inherit_from_v10_selected_profile": "all_linear_r8",
+    "inheritance_requires": [
+      "same exact base snapshot",
+      "same CUDA/runtime package identity on critical packages",
+      "new maximum training sequence <= old qualified maximum training sequence",
+      "new two-run one-step repeatability PASS before scientific training"
+    ],
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.0,
+    "targets": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  },
+  "optimization": {
+    "load_in_4bit": true,
+    "bnb_quant_type": "nf4",
+    "bnb_double_quant": true,
+    "compute_dtype": "float16",
+    "attention_backend": "eager",
+    "gradient_checkpointing": true,
+    "optimizer": "paged_adamw_8bit",
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "constant",
+    "weight_decay": 0.0,
+    "max_grad_norm": 1.0,
+    "packing": false,
+    "evaluation_during_training": false,
+    "checkpoint_selection": "none; fixed final step only",
+    "determinism_contract": "FAIL_CLOSED_TORCH_DETERMINISTIC_ALGORITHMS_AND_DEBUG_ERROR"
+  },
+  "sequence": {
+    "epochs": 4,
+    "microbatch": 1,
+    "gradient_accumulation_steps": 8,
+    "expected_optimizer_steps": 36,
+    "max_seq_len": 512,
+    "shuffle": false,
+    "dataset_order": "per-seed deterministic permutation, identical between paired predicate arms",
+    "loss_scope": "assistant content plus <|im_end|>; user/role text excluded"
+  },
+  "baseline_admission_sha256": "695ad60d898072cdf4f7efb58a709969002ee5f52c76ba65adefb8c2f2498917",
+  "preregistration_sha256": "ebb014831500a6f74961a4fb06af75bf33ba99a290af11e3ff954f8850e196a4",
+  "static_qualification_sha256": "3fd22526e2956c48130e11c9f4528d46c3dd6a02994f285b409a4285980a7cb0",
+  "hard_stops": [
+    "No trained-arm execution before new input lock, runtime tokenizer replay, inherited-profile binding, and repeatability PASS.",
+    "No seed extension beyond the six frozen seeds.",
+    "No evaluator outcome may change optimization, prompt, margin support, arm order, or thresholds.",
+    "No policy result may be used to retrospectively redefine the predicate question.",
+    "No K1/K2/K4 or optimizer-window scientific screen runs in parallel."
+  ]
+}
