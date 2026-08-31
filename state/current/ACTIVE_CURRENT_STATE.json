@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-08-31T07:52:03-04:00",
+  "as_of": "2026-08-31T08:02:52-04:00",
   "blockers": [],
-  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0752-04-00.md",
-  "commander_active_binding_sha256": "6c2770c3462e04c785393b7b529cc6d2563683c82eb64fc215e4648c9744b1fd",
+  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0802-04-00.md",
+  "commander_active_binding_sha256": "641e1d86e7caf9d090a2df05e173b97bd9981b855ba36da2619ac78603d258eb",
   "commander_source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
   "frontier": "V13_SCIENTIFIC_CAMPAIGN_ACTIVE",
   "mode": "BUILD-COMMIT",
@@ -13,7 +13,7 @@
     "status": "COMPLETE"
   },
   "v13": {
-    "active_job": "2026083103 WINDOW_SEPARATED training",
+    "active_job": "2026083103 WINDOW_SEPARATED evaluation in progress; unsealed",
     "campaign_status": "RUNNING",
     "complete_pairs": 2,
     "pid": 23156,

@@ -55,6 +55,17 @@
       "run_manifest_sha256": "f49c01e140f31a0dfced05daa63a034b20c2508288188ba27dbe04ffb20267c9",
       "seed": 2026083103,
       "status": "COMPLETE"
+    },
+    {
+      "arm": "WINDOW_SEPARATED",
+      "composed_accuracy": 0.5,
+      "eval_manifest_sha256": "fb9129c0b493c0e8eb7ad0a98b56654899b7646188b98c4cf5c770d60d411d52",
+      "policy_accuracy": 1.0,
+      "predicate_accuracy": 0.5,
+      "predicate_balanced_accuracy": 0.5,
+      "run_manifest_sha256": "ce99319cfd181bc2471546b5cea4512b811c69f9dece5a05384d929ecf7abe71",
+      "seed": 2026083103,
+      "status": "COMPLETE"
     }
   ],
   "preexec_sha256": "4c08e6633c64af2bfd4f5adb9e67a7a099f6f76f52c3d1ce553b039561ad9ed4",

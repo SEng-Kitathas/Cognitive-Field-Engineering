@@ -1,10 +1,10 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0752-04-00.md",
-  "active_binding_sha256": "6c2770c3462e04c785393b7b529cc6d2563683c82eb64fc215e4648c9744b1fd",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0802-04-00.md",
+  "active_binding_sha256": "641e1d86e7caf9d090a2df05e173b97bd9981b855ba36da2619ac78603d258eb",
   "alignment": "ALIGNED",
   "branch": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE__CAMPAIGN_ACTIVE",
   "frontier": {
-    "active_job": "2026083103 WINDOW_SEPARATED training",
+    "active_job": "2026083103 WINDOW_SEPARATED evaluation in progress; unsealed",
     "complete_pairs": 2,
     "pid": 23156,
     "pid_status": "ALIVE",
@@ -18,9 +18,9 @@
       "status": "SEALED_PARTIAL_PAIR"
     }
   },
-  "reason": "Continue exact frozen mate before any pair-level inference; partial publication preserves lineage without changing science.",
+  "reason": "Explanatory turn only; preserve exact frozen science and restate arc from source intent plus earned evidence.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T07:52:03-04:00"
+  "timestamp": "2026-08-31T08:02:52-04:00"
 }

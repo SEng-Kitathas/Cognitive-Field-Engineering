@@ -1,0 +1,25 @@
+{
+  "active_blockers": [],
+  "active_commander_binding": {
+    "alignment": "ALIGNED",
+    "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0802-04-00.md",
+    "sha256": "641e1d86e7caf9d090a2df05e173b97bd9981b855ba36da2619ac78603d258eb"
+  },
+  "commander_source": {
+    "path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+  },
+  "discussion_task": "retrospective of CFE origin, maturation, current state, and outlook",
+  "frontier": {
+    "active_job": "2026083103 WINDOW_SEPARATED evaluation in progress; unsealed",
+    "complete_pairs": 2,
+    "sealed_jobs": 5,
+    "v13_pid": 23156,
+    "v13_pid_status": "ALIVE"
+  },
+  "mode": "DISCUSSION_OVERLAY__SCIENTIFIC_RUNNER_BUILD_COMMIT",
+  "role": "R4 Convergence Refiner",
+  "schema": "cfe.per-turn-reconciliation-receipt.v3",
+  "science_delta": "NONE__NO_NEW_SEALED_RESULT",
+  "timestamp": "2026-08-31T08:02:52-04:00"
+}
