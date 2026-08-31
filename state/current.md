@@ -36,3 +36,7 @@ None.
 - 0/6 trajectories sealed; seed3111 produced no result artifacts; no eval admitted.
 - Scientific question remains unresolved.
 - Recovery mode active.
+
+## Frontier correction — 2026-08-31 13:58 Eastern Daylight Time
+- V14R1 failed/demoted.
+- V14R attempt2 ACTIVE: `job-1b72da92b63f`, PID `4616` ALIVE, 0/6 sealed.

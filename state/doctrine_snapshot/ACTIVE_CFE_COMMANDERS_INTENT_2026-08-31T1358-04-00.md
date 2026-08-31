@@ -2,7 +2,7 @@
 
 Status: **ACTIVE PROGRAM-LEVEL INTENT / CURRENT FRONTIER BINDING**
 
-Supersedes as active binding only: `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1334-04-00.md`
+Supersedes as active binding only: `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1358-04-00.md`
 
 Verbatim source authority remains unchanged:
 `state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md`
@@ -353,3 +353,8 @@ Until then:
 - Scientific interpretation: NONE. No horizon checkpoint/evaluation result is admitted; dose/horizon question remains unresolved.
 - Recovery must distinguish execution attempt from scientific identity: retry may preserve V14R1 scientific identity only if all frozen scientific/runtime bindings still verify unchanged; otherwise create a new identity.
 
+## Per-turn frontier readback — 2026-08-31 13:58 Eastern Daylight Time
+- V14R1 remains failed / demoted (`SUPERVISION_LOST`, 0/6 sealed, no science).
+- Successor recovery identity `V14R_PREDICATE_DOSE_HORIZON_20260831` attempt 2 is ACTIVE.
+- Job `job-1b72da92b63f`, PID `4616` `ALIVE`, receipt `RUNNING`, 0/6 trajectories sealed.
+- This successor is the sole active horizon runner.

@@ -46,3 +46,6 @@ Continue V14R1 unchanged; preserve origin provenance by append-only successor no
 - User observed V14R1 die in Resource Monitor; verified job FAILED / SUPERVISION_LOST.
 - 0/6 sealed, no seed3111 artifacts, no scientific result.
 - Previous "active" state is superseded; recovery required before rerun.
+
+## Turn delta — 2026-08-31 13:58 Eastern Daylight Time
+- Corrected recovery frontier: V14R1 dead; V14R attempt2 now active as `job-1b72da92b63f` / PID `4616` ALIVE, 0/6 sealed.

@@ -1,22 +1,25 @@
 {
   "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1358-04-00.md",
-  "active_binding_sha256": "b8d06d53d7bcd8b2c8e03a0b8c8f3f42d71f077be57a4e07fa88c13e4e48c865",
+  "active_binding_sha256": "e710d859751aec3d910d4b81c30c8055cb78cb0343d03ddafef7325580e4db18",
   "alignment": "ALIGNED",
-  "branch": "V14R1_EXECUTION_FAILED__RECOVERY_REQUIRED",
+  "branch": "V14R_ATTEMPT2_ACTIVE",
   "frontier": {
     "v14r1": {
-      "failure_kind": "SUPERVISION_LOST",
-      "job_id": "job-d4aac6ed6175",
-      "pid": 35196,
-      "retryable": true,
       "scientific_result": "NONE",
+      "status": "FAILED_DEMOTED"
+    },
+    "v14r_attempt2": {
+      "identity": "V14R_PREDICATE_DOSE_HORIZON_20260831",
+      "job_id": "job-1b72da92b63f",
+      "pid": 4616,
+      "pid_status": "ALIVE",
       "sealed_trajectories": 0,
-      "status": "FAILED"
+      "status": "RUNNING"
     }
   },
-  "reason": "Operator observation confirmed by server job state and empty campaign artifacts.",
+  "reason": "Verified successor attempt 2 running after V14R1 supervision loss.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T13:58:05-04:00"
+  "timestamp": "2026-08-31T13:58:42-04:00"
 }

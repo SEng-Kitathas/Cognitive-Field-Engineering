@@ -22,3 +22,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | V14R1 execution attempt `job-d4aac6ed6175` | server status + logs + campaign receipt | FAILED SUPERVISION_LOST; 0/6 sealed; no science |
 | V14R1 dose/horizon scientific question | no admitted eval | unresolved |
+
+| V14R attempt2 `job-1b72da92b63f` | direct execution status + receipt | RUNNING, 0/6 sealed |

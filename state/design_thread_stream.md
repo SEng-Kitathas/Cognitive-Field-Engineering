@@ -816,3 +816,8 @@ User reported the V14R1 job failed and was seen dying in Resource Monitor, then 
 
 ## Turn — ASSISTANT / VERIFIED RECOVERY RECORD
 Server status confirmed `job-d4aac6ed6175` FAILED with `SUPERVISION_LOST` (retryable). On-disk receipt stale RUNNING, 0 sealed jobs, stdout only `TRAIN 2026083111`, stderr empty, no seed3111 result artifacts. No scientific result admitted. Recovery mode activated.
+
+---
+## Status correction — ASSISTANT
+Timestamp: 2026-08-31 13:58 Eastern Daylight Time
+Verified newer recovery attempt `V14R_PREDICATE_DOSE_HORIZON_20260831` attempt2 is RUNNING as `job-1b72da92b63f`, PID `4616`, with 0/6 sealed; V14R1 remains failed/demoted.
