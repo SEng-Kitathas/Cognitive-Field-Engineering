@@ -1,27 +1,30 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1212-04-00.md",
-  "active_binding_sha256": "54635ba7eb03d01bd7fc07b84cf67e4271721617ac94d79c940f1fa140a3b7e0",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1245-04-00.md",
+  "active_binding_sha256": "03bd263141cb64a06773eda3095f32cff10643855a6e4527794107c358bf03ca",
   "alignment": "ALIGNED",
-  "branch": "V14R1_ACTIVE__STARMAP_ARCHAEOLOGY_INGESTED",
+  "branch": "V14R1_ACTIVE__STARMAP_ORIGIN_ATTRIBUTION_V2",
   "frontier": {
-    "starmap_archaeology": {
-      "canonical_invariant": "SHAPE_OF_REACHABILITY",
-      "cfe_relationship": "INFERENCE_GEOMETRY_VS_DEVELOPMENTAL_GEOMETRY__STRONG_LINEAGE_CANDIDATE_NOT_ESTABLISHED_DERIVATION",
-      "delta_sha256": "46fda32867a813e44614f1b25bd0a3e4d44fa2173f1509155dbe3f779dcef993",
-      "source_sha256": "a5fd4fe3ca8809d0bfe3e6fb3289a70086c17c2d3f1febd04c93a9b4ba9f8b41",
-      "status": "INGESTED_AS_CONTROLLED_EVIDENCE"
+    "starmap_origin": {
+      "approximate_period": "circa 2024",
+      "exact_date": "UNKNOWN",
+      "formalization": "Claude per operator recollection",
+      "geometric_framing": "operator",
+      "native_mechanism": "operator",
+      "note_sha256": "b45ad7dd63688bb66902a1a3ec95e1fe30fbc3a698572aba9be0799fe83a1432",
+      "quote_status": "REMEMBERED_NOT_TRANSCRIPT_VERIFIED",
+      "traversability": "Claude per operator recollection"
     },
     "v14r1": {
-      "campaign_status": "RUNNING",
       "job_id": "job-d4aac6ed6175",
       "pid": 35196,
       "pid_status": "ALIVE",
-      "sealed_trajectories": 0
+      "sealed_trajectories": 0,
+      "status": "RUNNING"
     }
   },
-  "reason": "Admit archaeology corrections and hypotheses without contaminating active prospective dose/horizon science.",
+  "reason": "Separate origin of geometric framing from Claude-assisted formalization while preserving uncertainty and active experiment isolation.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T12:12:54-04:00"
+  "timestamp": "2026-08-31T12:45:13-04:00"
 }

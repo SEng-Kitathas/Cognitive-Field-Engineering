@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-31T12:12:54-04:00",
+  "as_of": "2026-08-31T12:45:13-04:00",
   "decisions": [
     {
       "consequence": "no CFE graduation at first useful Microseed handoff",
@@ -182,6 +182,13 @@
       "evidence_basis": "archaeology under-exploited mechanisms",
       "replay_trigger": "dependency ranking changes after V14R1",
       "status": "RESEARCH_ROUTING_DECISION"
+    },
+    {
+      "consequence": "preserve operator origin of geometry framing and Claude role as formalizer/consequence extractor",
+      "decision": "Attribute StarMap geometric framing to operator; Claude formalized/recognized cognitive geometry and traversability after clarification",
+      "evidence_basis": "operator current recollection",
+      "replay_trigger": "recover original Claude transcript or operator correction",
+      "status": "OPERATOR_REPORTED_PROVENANCE_V2"
     }
   ],
   "schema": "cfe.active-decisions.v1"

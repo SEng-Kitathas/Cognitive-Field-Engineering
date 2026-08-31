@@ -1,19 +1,13 @@
 {
-  "as_of": "2026-08-31T12:12:54-04:00",
+  "as_of": "2026-08-31T12:45:13-04:00",
   "blocked": [],
   "p0": [
-    "keep job-d4aac6ed6175/PID 35196",
-    "complete V14R1",
-    "no StarMap contamination",
-    "publish immutable evidence"
+    "keep V14R1 job-d4aac6ed6175/PID 35196 unchanged",
+    "no StarMap intervention"
   ],
   "p1": [
-    "generative field compiler",
-    "typed-edge identifiability",
-    "coverage tension",
-    "traversal-history activation",
-    "concept-handle fidelity",
-    "inference/developmental geometry coupling"
+    "targeted origin transcript hunt using operator phrase variants",
+    "append-only supersession if recovered"
   ],
-  "schema": "cfe.active-next-steps.v6"
+  "schema": "cfe.active-next-steps.v8"
 }

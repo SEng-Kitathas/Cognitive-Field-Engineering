@@ -63,3 +63,6 @@ User clarified StarMap cognitive geometry = personal cognitive phenomenology int
 
 ## 2026-08-31 12:12 Eastern Daylight Time — STARMAP ARCHAEOLOGY INGESTION
 Uploaded archaeology source SHA `a5fd4fe3ca8809d0bfe3e6fb3289a70086c17c2d3f1febd04c93a9b4ba9f8b41` ingested through provenance manifest and CFE evidence delta. Corrected genealogy and shape-of-reachability research invariant recorded. V14R1 remained active 0/6.
+
+## 2026-08-31 12:45 Eastern Daylight Time — STARMAP ORIGIN ATTRIBUTION V2
+User clarified they originated the geometric framing: approximately "My mind works almost geometrically." Claude then clarified/formalized and recognized traversability. Successor provenance note written; V14R1 unchanged.

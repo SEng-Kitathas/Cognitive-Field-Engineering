@@ -1,0 +1,31 @@
+{
+  "approximate_period": "circa 2024",
+  "attribution": {
+    "cognitive_geometry_formal_label": "Claude per operator recollection, derived from operator geometric framing",
+    "geometric_framing": "operator",
+    "mechanization_intent": "operator",
+    "native_mechanism": "operator",
+    "traversable_property": "Claude per operator recollection"
+  },
+  "exact_date": "UNKNOWN",
+  "laws": [
+    "OPERATOR MEMORY != TRANSCRIPT-VERIFIED QUOTE",
+    "FORMALIZATION ASSIST != ORIGIN OF UNDERLYING FRAMING",
+    "RECOVERED ARTIFACT DATE != CONCEPTION DATE"
+  ],
+  "markdown_path": "research/STARMAP_ORIGIN_PROVENANCE_CORRECTION_V2_2026-08-31.md",
+  "markdown_sha256": "b45ad7dd63688bb66902a1a3ec95e1fe30fbc3a698572aba9be0799fe83a1432",
+  "quote_status": "REMEMBERED_WORDING_NOT_TRANSCRIPT_VERIFIED",
+  "schema": "cfe.starmap-origin-provenance-correction.v2",
+  "sequence": [
+    "operator describes native cognitive process",
+    "operator frames it as mind working almost geometrically",
+    "Claude asks clarifying question",
+    "Claude formalizes/compresses as cognitive geometry",
+    "Claude identifies traversability as a property",
+    "StarMap formalization/embodiment follows"
+  ],
+  "status": "OPERATOR_REPORTED_DATE_UNCERTAIN",
+  "supersedes_active_interpretation": "research/STARMAP_ORIGIN_PROVENANCE_CORRECTION_2026-08-31.md",
+  "timestamp": "2026-08-31T12:45:13-04:00"
+}

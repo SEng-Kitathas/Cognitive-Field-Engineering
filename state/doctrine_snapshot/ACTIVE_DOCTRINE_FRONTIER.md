@@ -1,27 +1,16 @@
 # CFE ACTIVE DOCTRINE FRONTIER
 
-As of: 2026-08-31 12:12 Eastern Daylight Time
+As of: 2026-08-31 12:45 Eastern Daylight Time
 
-## Load-bearing doctrine
-- Developmental experience structure is the engineering medium.
-- `CURATOR ONTOLOGY != LEARNER ONTOLOGY`.
-- `SOURCE GEOMETRY != COMPILED EXPOSURE GEOMETRY != OPTIMIZER-VISIBLE GEOMETRY != LEARNED GEOMETRY`.
+## StarMap origin attribution
+- Mechanism: operator.
+- Geometric framing: operator.
+- Formalization `cognitive geometry`: Claude per operator recollection.
+- Traversability recognition: Claude per operator recollection.
+- Exact date unknown; circa 2024 recollection only.
 
-## Historical research invariant — not doctrine
-**Shape-of-reachability**: the same elements under different typed relations/arrangement/traversal can support different reachable cognitive futures.
-
-Historical crosswalk:
-- StarMap: inference geometry.
-- CFE: developmental geometry.
-- Relationship: strong lineage candidate, not established derivation.
-
-## Newly active research seams
-- typed-edge identifiability
-- coverage tension / missing field support
-- traversal-history activation
-- concept-handle fidelity
-- local + long-range topology
-- generative field compiler
+`FORMALIZATION ASSIST != ORIGIN OF UNDERLYING FRAMING`
+`OPERATOR MEMORY != TRANSCRIPT-VERIFIED QUOTE`
 
 ## Active science
-V14R1 remains isolated from these hypotheses until its frozen horizon experiment closes.
+V14R1 remains frozen and isolated from StarMap-derived interventions.

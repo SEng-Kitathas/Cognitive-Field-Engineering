@@ -778,3 +778,13 @@ User uploaded `STARMAP ARCHAEOLOGY 2026-08-31.md`.
 Timestamp: 2026-08-31 12:12 Eastern Daylight Time
 Tags: SOURCE INGESTION, LINEAGE CORRECTION, V14R1 ISOLATION
 Read the 971-line archaeology source and preserved upload identity SHA `a5fd4fe3ca8809d0bfe3e6fb3289a70086c17c2d3f1febd04c93a9b4ba9f8b41` / 42,804 bytes. Source corrects genealogy: SME+v1.0 core lineage, SoAoA donor, Pattern descendant, Evidence application; IW-CO profile quarantined. Adopted `shape-of-reachability` as a research-organizing historical invariant and the StarMap inference-geometry/CFE developmental-geometry distinction while keeping direct derivation inferred. Recovered coverage tension, traversal history and concept-handle fidelity as prospective seams. V14R1 remained active and uncontaminated at 0/6 sealed.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 12:45 Eastern Daylight Time
+Tags: STARMAP ORIGIN ATTRIBUTION CORRECTION
+User clarified that they themselves said approximately "My mind works almost geometrically"; Claude absorbed that framing rather than originating it.
+
+## Turn — ASSISTANT / EXECUTION RECORD
+Timestamp: 2026-08-31 12:45 Eastern Daylight Time
+Recorded successor provenance: operator originated mechanism and geometric framing; Claude clarified/formalized as cognitive geometry and recognized traversability. Exact date remains unknown/circa-2024 recollection; wording is not transcript verified. V14R1 remained isolated and active.

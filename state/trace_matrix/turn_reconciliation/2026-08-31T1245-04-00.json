@@ -1,0 +1,33 @@
+{
+  "active_blockers": [],
+  "active_commander_binding": {
+    "alignment": "ALIGNED",
+    "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1245-04-00.md",
+    "sha256": "03bd263141cb64a06773eda3095f32cff10643855a6e4527794107c358bf03ca"
+  },
+  "commander_source": {
+    "path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+  },
+  "frontier": {
+    "starmap_origin_v2": {
+      "exact_date": "UNKNOWN",
+      "formalization": "Claude operator-recalled",
+      "geometric_framing": "operator",
+      "mechanism": "operator",
+      "note_sha256": "b45ad7dd63688bb66902a1a3ec95e1fe30fbc3a698572aba9be0799fe83a1432",
+      "traversable": "Claude operator-recalled"
+    },
+    "v14r1": {
+      "job_id": "job-d4aac6ed6175",
+      "pid": 35196,
+      "pid_status": "ALIVE",
+      "sealed_trajectories": 0,
+      "status": "RUNNING"
+    }
+  },
+  "mode": "BUILD-COMMIT",
+  "role": "R4 lineage convergence / R5 execution",
+  "schema": "cfe.per-turn-reconciliation-receipt.v4",
+  "timestamp": "2026-08-31T12:45:13-04:00"
+}

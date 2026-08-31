@@ -1,0 +1,26 @@
+{
+  "approximate_period": "circa 2024",
+  "attribution": {
+    "cognitive_geometry_label": "Claude formalization/reflection of operator framing, operator-recalled",
+    "geometry_framing": "operator",
+    "mechanism_description": "operator",
+    "traversable_property": "Claude formalization/reflection, operator-recalled"
+  },
+  "exact_date": "UNKNOWN",
+  "markdown_path": "research/STARMAP_ORIGIN_PROVENANCE_CORRECTION_2026-08-31_R2.md",
+  "markdown_sha256": "fef0812480f2d98a2b6ab54d3ce3c757e391ce10cc6640a69b6f128fe61b6406",
+  "quote_status": "REMEMBERED_WORDING_NOT_TRANSCRIPT_VERIFIED",
+  "remembered_operator_phrase": "My mind works almost geometrically",
+  "schema": "cfe.starmap-origin-provenance-correction.v2",
+  "sequence": [
+    "operator supplies geometric self-description",
+    "operator explains mechanism",
+    "Claude asks clarifying question",
+    "Claude reflects/formalizes as cognitive geometry",
+    "Claude identifies traversability",
+    "StarMap formalization follows"
+  ],
+  "status": "OPERATOR_REPORTED_DATE_UNCERTAIN",
+  "supersedes": "research/STARMAP_ORIGIN_PROVENANCE_CORRECTION_2026-08-31.md",
+  "timestamp": "2026-08-31T12:44:59-04:00"
+}
