@@ -79,6 +79,46 @@
       ],
       "seed": "2026083104",
       "sha256": "29a2a234f2a34dcc68dd68f6f40ee80fce682da467bee542bf7edd5156678461"
+    },
+    {
+      "asset_name": "V13_OPTIMIZER_INTERFERENCE_2026083105_ADAPTERS.zip",
+      "bytes": 167892106,
+      "members": [
+        {
+          "arm": "LOCAL_MIXED",
+          "bytes": 83945296,
+          "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/train/adapter/adapter_model.safetensors",
+          "sha256": "abb00826d13c4220d773860fc3fc80bc09426def3ed44e64b2400f2e8ac84a49"
+        },
+        {
+          "arm": "WINDOW_SEPARATED",
+          "bytes": 83945296,
+          "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/WINDOW_SEPARATED/train/adapter/adapter_model.safetensors",
+          "sha256": "06bc6e2f1d3965ad1bc69dde51448e41fd45f759e7893c6598f6233f4d69b4ca"
+        }
+      ],
+      "seed": "2026083105",
+      "sha256": "cd1aae6db0de40a0f7c6075a49da714a624e6bd48dde73273a756f562351d761"
+    },
+    {
+      "asset_name": "V13_OPTIMIZER_INTERFERENCE_2026083106_ADAPTERS.zip",
+      "bytes": 167892106,
+      "members": [
+        {
+          "arm": "LOCAL_MIXED",
+          "bytes": 83945296,
+          "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083106/LOCAL_MIXED/train/adapter/adapter_model.safetensors",
+          "sha256": "609e28de2e7f045e9f5b72dae58a6228786efde8605bc1004b6cdc2a476f0e86"
+        },
+        {
+          "arm": "WINDOW_SEPARATED",
+          "bytes": 83945296,
+          "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083106/WINDOW_SEPARATED/train/adapter/adapter_model.safetensors",
+          "sha256": "d4a37f261688eb59e3b4d79209f078c6524839fc18c0caa11c608ae70de80b44"
+        }
+      ],
+      "seed": "2026083106",
+      "sha256": "68cb0942d8dccf358044b1ae4d7f8edb752c1413d617d9262a1d97df63f54206"
     }
   ],
   "partial_bundles": [
@@ -143,7 +183,8 @@
       },
       "seed": "2026083105",
       "sha256": "b267ce5ba27a8063f66a5ad2f8bb22124dac18132f71ad9d75394d96c8030f54",
-      "status": "ACTIVE_PARTIAL__MATE_NOT_SEALED"
+      "status": "SUPERSEDED_FOR_ACTIVE_MAPPING_BY_FULL_PAIR_BUNDLE",
+      "superseded_by_asset": "V13_OPTIMIZER_INTERFERENCE_2026083105_ADAPTERS.zip"
     }
   ],
   "release_readback": {
@@ -184,15 +225,25 @@
         "size": 83946241
       },
       {
+        "digest": "sha256:cd1aae6db0de40a0f7c6075a49da714a624e6bd48dde73273a756f562351d761",
+        "name": "V13_OPTIMIZER_INTERFERENCE_2026083105_ADAPTERS.zip",
+        "size": 167892106
+      },
+      {
         "digest": "sha256:b267ce5ba27a8063f66a5ad2f8bb22124dac18132f71ad9d75394d96c8030f54",
         "name": "V13_OPTIMIZER_INTERFERENCE_2026083105_LOCAL_MIXED_PARTIAL.zip",
         "size": 83946216
+      },
+      {
+        "digest": "sha256:68cb0942d8dccf358044b1ae4d7f8edb752c1413d617d9262a1d97df63f54206",
+        "name": "V13_OPTIMIZER_INTERFERENCE_2026083106_ADAPTERS.zip",
+        "size": 167892106
       }
     ],
     "tag": "cfe-v13-optimizer-interference-research-2026-08-31",
     "url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v13-optimizer-interference-research-2026-08-31"
   },
   "schema": "cfe.v13.heavy-release-publication.v1",
-  "status": "PARTIAL_ACTIVE_CAMPAIGN",
+  "status": "COMPLETE__ALL_SIX_SEED_BUNDLES_REMOTE_DIGEST_VERIFIED",
   "tag": "cfe-v13-optimizer-interference-research-2026-08-31"
 }

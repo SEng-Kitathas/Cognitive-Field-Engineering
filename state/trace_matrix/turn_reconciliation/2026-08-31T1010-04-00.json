@@ -1,0 +1,32 @@
+{
+  "active_blockers": [],
+  "active_commander_binding": {
+    "alignment": "ALIGNED",
+    "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1010-04-00.md",
+    "sha256": "431753c44609f5831bc38da2ccb1ffc02628c9280d71179c84153dd72401ad12"
+  },
+  "commander_source": {
+    "path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+  },
+  "decisions": [
+    "close v1.3 mechanically",
+    "next branch dose/horizon per predeclared trigger",
+    "admit StarMap parts only prospectively",
+    "discard literal/brittle StarMap baggage"
+  ],
+  "frontier": {
+    "next_scientific_family": "DOSE_OPTIMIZER_HORIZON",
+    "starmap_salvage": {
+      "json_sha256": "343530003b0393da006ada2dfeffb5ef4f6c3296c3ba1b6c392d7dcff6962489",
+      "markdown_sha256": "806189768d577337293ccca62581b803a8cbe49ab6f7fad410b8535479b70917",
+      "status": "RESEARCH_CROSSWALK_NOT_DOCTRINE"
+    },
+    "v13": "COMPLETE__LOCAL_INTERFERENCE_WEAKENED",
+    "v13_aggregate_sha256": "5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f"
+  },
+  "mode": "BUILD-COMMIT",
+  "role": "R4 Convergence Refiner",
+  "schema": "cfe.per-turn-reconciliation-receipt.v3",
+  "timestamp": "2026-08-31T10:10:12-04:00"
+}

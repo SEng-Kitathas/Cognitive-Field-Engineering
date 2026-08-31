@@ -1,0 +1,27 @@
+{
+  "aggregate_path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/AGGREGATE.json",
+  "aggregate_sha256": "5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f",
+  "dispositions": {
+    "INTERFERENCE_AND_COMPOSITION_SUPPORTED": false,
+    "INTERFERENCE_HELPED_BUT_COMPOSITION_DID_NOT": false,
+    "LOCAL_INTERFERENCE_SUPPORTED": false,
+    "LOCAL_INTERFERENCE_WEAKENED": true,
+    "TWO_SIDED_PREDICATE_COMPETENCE_EARNED": false,
+    "next_branch": "HOSTILE_INTERPRETATION_REQUIRED"
+  },
+  "earned_conclusion": "Homogeneous optimizer-window separation did not improve predicate competence or zero-shot composition; simple local mixed-window interference is weakened in this fixed learner/regime.",
+  "hostile_closeout_path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_HOSTILE_CLOSEOUT_2026-08-31.md",
+  "hostile_closeout_sha256": "b9177c306435bdf2f9ad0426efe1b4849b74e2cee77b44ba099cf9ba97ec52b7",
+  "next_branch": "HOSTILE_RANKING_REQUIRED__DO_NOT_REPEAT_WINDOW_REARRANGEMENT",
+  "paired_summary": {
+    "mean_composition_delta_separated_minus_mixed": -0.005208333333333324,
+    "mean_policy_direct_mixed": 1.0,
+    "mean_policy_direct_separated": 0.90625,
+    "mean_predicate_delta_separated_minus_mixed": -0.038194444444444454,
+    "separated_composition_wins": 2,
+    "separated_predicate_wins": 0
+  },
+  "schema": "cfe.v13.optimizer-interference-final-disposition.v1",
+  "starmap_salvage_is_post_closeout_crosswalk": true,
+  "status": "COMPLETE"
+}

@@ -1,52 +1,39 @@
 # CFE LIVE SHADOW
 
 ## Thread Identity
-- Last Updated: 2026-08-31 08:28 Eastern Daylight Time
-- Chat Mode: DISCUSSION
-- Scientific Runner: BUILD-COMMIT, PID `23156` alive
-- Objective: explain CFE trajectory while preserving live experiment continuity.
+- Last Updated: 2026-08-31 10:10 Eastern Daylight Time
+- Mode: BUILD-COMMIT
+- Objective: close v1.3, salvage StarMap lineage without contamination, then move into dose/horizon.
 
 ## Active User Intent
-Understand where CFE started, where it is now, and how credible/promising it looks; continue maturing CFE independently and keep all continuity/research/intent surfaces fresh per turn.
+- Push CFE to maximum attainable maturity, not MVP.
+- Keep every decision/research/Commander binding/continuity surface fresh per turn.
+- Strip historical StarMap work for any useful parts; discard baggage freely.
 
 ## Current Authoritative State
-- Original Commander source SHA `29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765` immutable.
-- Active binding `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0828-04-00.md` SHA `f7d8498e47101afb2f1b06c1efe349a9e75ed747d07d6a6dd86dafb4b8433e19`.
-- v1.0: no stable generic neighborhood advantage; strong relation-specific arrangement effects.
-- v1.1: identifying support matters; strict boundary still unresolved.
-- v1.2: factorized composition basis not supported.
-- v1.3: 7/12 sealed = 3/6 pairs; seed3103 separation deltas predicate +0.0000, composition +0.0208; one-sided competence persists. Seed3104 separated half sealed; mixed active.
+- Commander source SHA `29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765` immutable; active binding `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1010-04-00.md` SHA `431753c44609f5831bc38da2ccb1ffc02628c9280d71179c84153dd72401ad12`.
+- v1.3 COMPLETE 12/12; aggregate `5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f`; `LOCAL_INTERFERENCE_WEAKENED=true`; two-sided predicate competence not earned.
+- v1.3 full heavy lineage: all six seed bundles remote digest verified.
+- Next branch trigger: dose / optimizer horizon.
+- StarMap salvage written: field/map separation, generative field compiler, typed edges, local/long-range topology, dynamic relevance, bounded consequence chains admitted only as prospective research.
+- Literal radial/Hilbert cognitive geometry and brittle historical heuristics are not admitted.
 
 ## Decisions Locked In
-- No MVP closure or Microseed-driven graduation.
-- Finish frozen v1.3 before next branch.
-- Treat simple local interference as weakened, not disposed.
-- Preserve distinction between Identifying CFE and broader Developmental CFE.
+- No more accumulation-window rearrangement as primary rescue.
+- v1.4 family = dose/optimizer horizon.
+- StarMap cannot post-hoc rescue v1.3.
+- StarMap-derived experiments remain prospective and separately preregistered.
 
 ## Open Loops
-- dose/horizon
-- richer predicate-field resolution
-- learner decomposition/interface mismatch
-- transition from known-rule identification to lawful developmental ecology
+- Can increased dose/horizon stabilize two-sided predicate competence?
+- Does primitive/composition dissociation persist after competence stabilizes?
+- Can a generative field compiler eliminate source->exposure->eval drift?
+- Do typed causal/temporal/attribution edges create distinct developmental phenotypes?
 
 ## Immediate Next Step
-Finish v1.3 unchanged; then hostile closeout and choose next discriminator.
+Design and freeze the v1.4 dose/horizon discriminator; then qualify before training.
 
 ## Delta Since Previous Shadow
-- v1.3 advanced to 7/12 sealed, 3/6 complete pairs.
-- Seed3103 complete pair further weakens simple local interference.
-- Seed3104 separated half sealed and published; mixed arm active.
-- Turn shifted chat role to R4 for explanatory synthesis without changing scientific runner.
-
-## Turn delta — 2026-08-31 08:59 Eastern Daylight Time
-- User identified the sci-fi "AI core" analogy: lattice/field geometry carrying attribution, temporal relevance, and causal connection.
-- Verified scientific frontier advanced to 9/12 sealed = 4/6 complete pairs.
-- Seed3104 shows identical one-sided predicate phenotype across arms but different policy/composition phenotypes under different optimizer-visible arrangements.
-- Interpretation locked: program-level geometry intuition strengthened; literal/general AI-core claim remains analogy, not earned fact.
-
-## Turn delta — 2026-08-31 09:28 Eastern Daylight Time
-- User requested E-drive `starmap` audit.
-- Confirmed partial scan: 239 content-hit files; 215 substantive; 175 unique substantive contents; ~4402 occurrences.
-- Strong lineage: NEAL-CORE StarMap v1.0, Starmap Geometry, Hilbert-Starmap memory, Pattern Starmap/Forge, actual `starmap.py` references.
-- Full 2 TB traversal did not complete; scanners were explicitly stopped. Status: PARTIAL_NOT_EXHAUSTIVE.
-- v1.3 runner untouched: PID `23156` ALIVE, 11/12 sealed = 5/6 pairs.
+- v1.3 advanced from active 9/12 to COMPLETE 12/12 and closed hostilely.
+- StarMap lineage was decomposed into promote/adapt/quarantine/discard buckets.
+- Six StarMap-derived research hypotheses added without doctrine promotion.

@@ -1,0 +1,73 @@
+{
+  "check_count": 12,
+  "checks": [
+    {
+      "check": "prereg_frozen",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "train_rows_72",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "eval_rows_48",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "token_masks_aligned",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "max_seq_le_v13_predicate_217",
+      "detail": 217,
+      "pass": true
+    },
+    {
+      "check": "checkpoint_steps_exact",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "horizon_math",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no_policy_or_composed",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "all_schedules_permutations",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "fresh_seed_orders_distinct",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "tokenref_exact_inherited",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "eval_exact_inherited",
+      "detail": null,
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "laws": [
+    "SAME TRAJECTORY != SEPARATE INITIALIZATIONS",
+    "MORE EXPOSURE != MORE FIELD RESOLUTION",
+    "STATIC PASS != SCIENTIFIC EFFECT"
+  ],
+  "schema": "cfe.v14.predicate-horizon-static-hostile.v1",
+  "status": "PASS_CANDIDATE__NOT_LOCKED__NOT_TRAINED"
+}

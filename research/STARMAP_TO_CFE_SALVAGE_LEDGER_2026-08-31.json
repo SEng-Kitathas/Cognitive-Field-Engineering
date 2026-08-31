@@ -1,0 +1,103 @@
+{
+  "adapt": [
+    "salience",
+    "history-relative novelty",
+    "edge tension",
+    "clusters/constellations",
+    "multiple maps over canonical source"
+  ],
+  "date": "2026-08-31T10:08:38-04:00",
+  "discard": [
+    "query-position salience formula",
+    "generic similarity threshold edge creation",
+    "tension=salience difference",
+    "literal radial/star layout requirement",
+    "retroactive claim StarMap was already proven cognitive substrate"
+  ],
+  "markdown_path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.md",
+  "markdown_sha256": "806189768d577337293ccca62581b803a8cbe49ab6f7fad410b8535479b70917",
+  "promote_to_research": [
+    {
+      "candidate_law": "SOURCE FIELD != LEARNER-SPECIFIC FIELD PROJECTION",
+      "id": "S1",
+      "name": "FIELD != MAP"
+    },
+    {
+      "candidate_law": "FIELD SPECIFICATION != PASSIVE SIDECAR",
+      "id": "S2",
+      "name": "Generative field specification"
+    },
+    {
+      "candidate_law": "RELATIONAL DISTANCE != RELATIONAL TYPE",
+      "id": "S3",
+      "name": "Typed edges"
+    },
+    {
+      "candidate_law": "LOCAL COHERENCE != LONG-HORIZON CONNECTIVITY",
+      "id": "S4",
+      "name": "Local + long-range topology"
+    },
+    {
+      "candidate_law": "STATIC GRAPH != DEVELOPMENTAL FIELD",
+      "id": "S5",
+      "name": "Dynamic activation / temporal relevance"
+    },
+    {
+      "candidate_law": "ONE-HOP CO-OCCURRENCE != CAUSAL DEPTH",
+      "id": "S6",
+      "name": "Derivation chains / fixed-point consequence"
+    }
+  ],
+  "proposed_architecture": [
+    "Canonical Developmental Field",
+    "Learner Field Projection",
+    "Exposure Compiler",
+    "Field Verifier"
+  ],
+  "proposed_branches": [
+    "ST-1 typed-edge identifiability",
+    "ST-2 local/long-range topology",
+    "ST-3 history-relative activation",
+    "ST-4 generative field compiler validation"
+  ],
+  "quarantine": [
+    "Euclidean/radial vector geometry",
+    "Hilbert curve as cognitive law",
+    "hardware HOT/COLD semantics",
+    "Council of Sages multi-model councils"
+  ],
+  "schema": "cfe.starmap-salvage-ledger.v1",
+  "source_audit": {
+    "approx_occurrences": 4402,
+    "confirmed_content_hit_files": 238,
+    "status": "PARTIAL_NOT_EXHAUSTIVE",
+    "substantive_files": 215,
+    "unique_substantive_contents": 175
+  },
+  "source_paths": {
+    "concept_geometry": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\921dc4f13cfc\\C__Users__ancal__Desktop__everything__Download__Download__AI__4.1.md",
+    "forge": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\6fd91dd8fe43\\C__Users__ancal__Desktop__everything__forge_design_thread.txt",
+    "genealogy": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\9c959f9b2d30\\C__Users__ancal__Desktop__everything__OTHER_CONTEXT-READ_EVERY_LINE.txt",
+    "hilbert": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\0ea9e1c1e43b\\C__Users__ancal__Desktop__everything__Download__Download__KarnOS_Google_AI_Mode_Transcript.md",
+    "neal_concept": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\3989567a9b36\\C__Users__ancal__Desktop__Shortcuts__CLAUDE_context.txt",
+    "neal_topology": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\50cd1a135159\\C__Users__ancal__Desktop__everything__Download__Download__NEAL-CORE-v22.8-UNIFIED-SPEC.md"
+  },
+  "status": "RESEARCH_CROSSWALK_NOT_DOCTRINE",
+  "v13_context": {
+    "aggregate_sha256": "5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f",
+    "dispositions": {
+      "INTERFERENCE_AND_COMPOSITION_SUPPORTED": false,
+      "INTERFERENCE_HELPED_BUT_COMPOSITION_DID_NOT": false,
+      "LOCAL_INTERFERENCE_SUPPORTED": false,
+      "LOCAL_INTERFERENCE_WEAKENED": true,
+      "TWO_SIDED_PREDICATE_COMPETENCE_EARNED": false,
+      "next_branch": "HOSTILE_INTERPRETATION_REQUIRED"
+    },
+    "mean_composition_delta_separated_minus_mixed": -0.005208333333333324,
+    "mean_policy_mixed": 1.0,
+    "mean_policy_separated": 0.90625,
+    "mean_predicate_delta_separated_minus_mixed": -0.038194444444444454,
+    "separated_composition_wins": 2,
+    "separated_predicate_wins": 0
+  }
+}

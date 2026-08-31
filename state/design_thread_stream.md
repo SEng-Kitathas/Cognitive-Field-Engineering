@@ -722,3 +722,14 @@ User requested all mentions of `starmap` on E:.
 Timestamp: 2026-08-31 09:28 Eastern Daylight Time
 Tags: NON-MUTATING SEARCH, PARTIAL COVERAGE, LINEAGE FOUND
 Attempted full-drive path/content traversal. Direct control-channel scans timed out, then detached local scanners were used. Before completion, 239 content-hit files were confirmed; filtering obvious dependency/game noise left 215 substantive files, 175 unique substantive contents, and ~4402 occurrences. Strong StarMap lineage was found across NEAL, CogOS/AI design, TQ2/Forge, Hilbert-memory, and old conversation/context surfaces. Since E: is ~2 TB and traversal remained incomplete, scanners were explicitly terminated and the result labeled PARTIAL_NOT_EXHAUSTIVE.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 10:10 Eastern Daylight Time
+Tags: PROCEED, STRIP FOR PARTS
+User authorized StarMap lineage reconstruction and explicitly instructed not to preserve historical architecture for its own sake: strip everything useful for parts. User later asked “So?” after a control timeout.
+
+## Turn — ASSISTANT / EXECUTION RECORD
+Timestamp: 2026-08-31 10:10 Eastern Daylight Time
+Tags: STARMAP SALVAGE, V13 CLOSEOUT, RESEARCH CROSSWALK
+Resumed from saved de-duplicated StarMap corpus rather than rescanning E:. Reconstructed four historical StarMap mechanism families and extracted code/spec mechanics. Created promote/adapt/quarantine/discard salvage ledger. Separately verified v1.3 COMPLETE 12/12 and closed it as LOCAL_INTERFERENCE_WEAKENED; StarMap was forbidden from post-hoc rescue. Previously declared branch trigger selects dose/optimizer horizon next. All active continuity and Commander surfaces refreshed.

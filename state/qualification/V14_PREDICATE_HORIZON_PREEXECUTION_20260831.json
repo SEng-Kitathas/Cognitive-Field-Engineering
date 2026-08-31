@@ -1,0 +1,90 @@
+{
+  "authorization_scope": "six fresh predicate-only trajectories with fixed H1/H2/H4 checkpoints",
+  "bindings": {
+    "baseline_inheritance_sha256": "2c5e0e907de8abb565b4ba610a8059cbc97df2a475a79140fd4e63ca5328c4ba",
+    "host_lock_sha256": "e8eff02aaf8b38e5361c963d877f7ac3285863c47f16ed1e2791cadb1d9fb67c",
+    "input_lock_sha256": "4dc91f2d5cdf7f75007861d0a990315fdb0d6512016dc2c3b59f9d4596aff9e2",
+    "preregistration_sha256": "06d7cdf596240cc1b147c59ad7ce73612dd3fd1e9a303507bbce90e36b1eca7f",
+    "profile_lock_sha256": "7329c94cb3e312217c8bfc318b571e3fd3994a7caef808d2ff5daea085b5045c",
+    "repeatability_qualification_sha256": "c033016ce1a6d974076d8d140d382cebeb781c5580aa8bcc35f8b0cda39cf893",
+    "static_qualification_sha256": "eee4995ca76045af1f9c2f757da61b06cfa63083b00fe946d5c50cbfe45748b9",
+    "training_contract_sha256": "2545051a74260f88e108983556b57ff3644334be6a4d1caf29b0d18195c60260"
+  },
+  "checks": [
+    {
+      "check": "lock_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "host_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "tokenizer_exact",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "repeatability_pass",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "profile_lock_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "static_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "baseline_headroom_admitted",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "contract_prereg_binding",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "contract_candidate_binding",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no_v14_campaign_exists",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_v14_predicate_horizon_common.py",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_train_v14_predicate_horizon.py",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_evaluate_v14_predicate_horizon.py",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_run_v14_predicate_horizon_campaign.py",
+      "detail": null,
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "hard_stop": "Any locked-byte/runtime identity drift requires new qualification before training.",
+  "schema": "cfe.v14.predicate-horizon-preexecution.v1",
+  "scientific_difference": "developmental horizon only",
+  "status": "V14_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED"
+}

@@ -1,0 +1,139 @@
+{
+  "candidate_laws": [
+    "FIELD TOPOLOGY != EMBEDDING TOPOLOGY",
+    "RELATION TYPE != PROXIMITY",
+    "PHYSICAL LOCALITY != DEVELOPMENTAL LOCALITY",
+    "ACTIVATION PROPAGATION != LEARNER COGNITION",
+    "FIELD SCHEMA SHOULD GENERATE EXPOSURE + EVALUATION + TRACE",
+    "PERSISTENT FIELD != STATIC MEMORY STORE",
+    "CURATOR TOPOLOGY != LEARNER ONTOLOGY"
+  ],
+  "components": [
+    {
+      "cfe_disposition": "PROMOTE_AS_RESEARCH_INSTRUMENT",
+      "component": "typed_field_graph",
+      "historical_mechanism": "nodes + edges + clusters/topology addresses; explicit relation-bearing structure",
+      "reason": "CFE needs a curator-side representation of field topology, but it must remain distinct from learner ontology.",
+      "source": [
+        "EARLY_GEOMETRY_ENGINE",
+        "LATE_NEAL_TOPOLOGY"
+      ]
+    },
+    {
+      "cfe_disposition": "PROMOTE_AND_EXPAND",
+      "component": "typed_edge_semantics",
+      "historical_mechanism": "edge type/weight plus later derivation graph and directional trust-chain concepts",
+      "reason": "Replace generic semantic edges with explicit causal, temporal, attribution, consequence, contradiction, recurrence, support, anti-isomorph and provenance edge types.",
+      "source": [
+        "EARLY_GEOMETRY_ENGINE",
+        "PATTERN_STARMAP_FORGE"
+      ]
+    },
+    {
+      "cfe_disposition": "PROMOTE_AS_DIAGNOSTIC_CANDIDATES_ONLY",
+      "component": "salience_novelty_activation",
+      "historical_mechanism": "node salience, novelty relative to history, activation state and spreading activation",
+      "reason": "Potential field-pressure and retrieval diagnostics; must not be treated as learner internal state without evidence.",
+      "source": [
+        "EARLY_GEOMETRY_ENGINE",
+        "LATE_NEAL_TOPOLOGY"
+      ]
+    },
+    {
+      "cfe_disposition": "PROMOTE_AS_MULTISCALE_FIELD_CONCEPT",
+      "component": "degree_of_removal_and_multiscale_locality",
+      "historical_mechanism": "radial relevance distance; hot local and cold long-range edges",
+      "reason": "Local vs long-range relational structure is useful; radial layout and hardware cache mapping are implementation choices, not ontology.",
+      "source": [
+        "EARLY_RADIAL_LINEAGE",
+        "LATE_NEAL_TOPOLOGY"
+      ]
+    },
+    {
+      "cfe_disposition": "PROMOTE_AS_DEVELOPMENTAL_RESEARCH_SEAM",
+      "component": "persistent_history_novelty",
+      "historical_mechanism": "novelty computed against persistent CIL historical centroids",
+      "reason": "CFE requires history-sensitive field state, but centroid distance is only one crude estimator.",
+      "source": [
+        "EARLY_GEOMETRY_ENGINE"
+      ]
+    },
+    {
+      "cfe_disposition": "PROMOTE_STRONGLY_TO_COMPILER_ARCHITECTURE",
+      "component": "field_schema_generates_behavior",
+      "historical_mechanism": "pattern genome generates gates, transformations and evidence; starmap and enforcer are two projections of one source",
+      "reason": "One authoritative field specification should generate exposure schedule, evaluation slices, audits and trace surfaces to prevent schema/compiler drift.",
+      "source": [
+        "PATTERN_STARMAP_FORGE"
+      ]
+    },
+    {
+      "cfe_disposition": "PROMOTE_TO_FIELD_ANALYSIS_CONTROL_PLANE",
+      "component": "fixed_point_derivation",
+      "historical_mechanism": "multi-hop fact propagation / spreading activation with convergence budget",
+      "reason": "Useful for analyzing relational reach and consequence chains; not evidence of learner cognition.",
+      "source": [
+        "PATTERN_STARMAP_FORGE",
+        "LATE_NEAL_TOPOLOGY"
+      ]
+    },
+    {
+      "cfe_disposition": "QUARANTINE_AS_STORAGE_OPTIMIZATION",
+      "component": "hilbert_locality",
+      "historical_mechanism": "PCA/embed projection to 3D then Hilbert mapping for locality/cache layout",
+      "reason": "Physical locality can improve implementation efficiency but PHYSICAL LOCALITY != DEVELOPMENTAL LOCALITY.",
+      "source": [
+        "HILBERT_STARMAP_OS",
+        "LATE_NEAL_TOPOLOGY"
+      ]
+    },
+    {
+      "cfe_disposition": "REJECT_AS_RELATION_TRUTH",
+      "component": "embedding_similarity_edges",
+      "historical_mechanism": "cosine/L2 proximity used to define edges, coherence and clusters",
+      "reason": "Semantic embedding proximity cannot stand in for causal/temporal/attribution relation identity; CURATOR EMBEDDING GEOMETRY != LEARNER FIELD GEOMETRY.",
+      "source": [
+        "EARLY_GEOMETRY_ENGINE",
+        "GEOMETRIC_REASONING_SPEC"
+      ]
+    },
+    {
+      "cfe_disposition": "REJECT_AS_DEFAULT_CFE_NEIGHBORHOOD",
+      "component": "kmeans_neighborhoods",
+      "historical_mechanism": "k-means clusters treated as coherent concept neighborhoods",
+      "reason": "v1.0-v1.3 show coherent proximity does not imply identifying or useful developmental pressure.",
+      "source": [
+        "EARLY_GEOMETRY_ENGINE"
+      ]
+    },
+    {
+      "cfe_disposition": "QUARANTINE_AS_CONTROL_HEURISTIC",
+      "component": "entropy_rehydration",
+      "historical_mechanism": "low/high entropy triggers physical topology re-sort",
+      "reason": "Could inspire drift monitors, but entropy thresholds and physical reordering are not an earned cognitive homeostasis law.",
+      "source": [
+        "LATE_NEAL_TOPOLOGY"
+      ]
+    },
+    {
+      "cfe_disposition": "PROMOTE_TO_FIELD_LINEAGE",
+      "component": "topology_address_and_provenance",
+      "historical_mechanism": "constellation/slot identity plus immutable ledger / derivation provenance",
+      "reason": "Stable node/edge identity and derivation lineage are directly useful for reproducible field compilation and causal audit.",
+      "source": [
+        "LATE_NEAL_TOPOLOGY",
+        "PATTERN_STARMAP_FORGE"
+      ]
+    }
+  ],
+  "created_at": "2026-08-31T09:46:24-04:00",
+  "hard_prohibitions": [
+    "Do not expose curator edge labels to learner unless experiment explicitly tests that exposure.",
+    "Do not use embedding distance as causal/temporal/attribution truth.",
+    "Do not import Hilbert/PCA topology as a cognitive law.",
+    "Do not let StarMap terminology override CFE evidence or Commander intent."
+  ],
+  "schema": "cfe.starmap-to-cfe-component-crosswalk.v1",
+  "source_manifest_sha256": "3d1144c9af7d973c1ff9f61d12372d9cde78ec02360763a929b659a5d620e123",
+  "status": "FORENSIC_SALVAGE_COMPLETE__NO_AUTOMATIC_DOCTRINE_PROMOTION"
+}

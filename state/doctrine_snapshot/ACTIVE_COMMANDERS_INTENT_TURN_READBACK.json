@@ -1,24 +1,23 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0928-04-00.md",
-  "active_binding_sha256": "e93ee3ffcd19fdc6bf475132992306113dbabe863992a12421567242921933ae",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1010-04-00.md",
+  "active_binding_sha256": "431753c44609f5831bc38da2ccb1ffc02628c9280d71179c84153dd72401ad12",
   "alignment": "ALIGNED",
-  "branch": "STARMAP_E_DRIVE_AUDIT__V13_RUNNER_UNCHANGED",
+  "branch": "V13_CLOSED__V14_DOSE_HORIZON_NEXT__STARMAP_CROSSWALK_ACTIVE",
   "frontier": {
-    "starmap_audit": {
-      "approx_occurrences": 4402,
-      "confirmed_content_hit_files": 239,
-      "saved_analysis": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\.pcmmad_sync_runs\\starmap_substantive_unique.json",
-      "status": "PARTIAL_NOT_EXHAUSTIVE",
-      "substantive_hit_files": 215,
-      "unique_substantive_contents": 175
+    "aggregate_sha256": "5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f",
+    "starmap_salvage": {
+      "json_path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.json",
+      "json_sha256": "343530003b0393da006ada2dfeffb5ef4f6c3296c3ba1b6c392d7dcff6962489",
+      "markdown_path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.md",
+      "markdown_sha256": "806189768d577337293ccca62581b803a8cbe49ab6f7fad410b8535479b70917",
+      "status": "RESEARCH_CROSSWALK_NOT_DOCTRINE"
     },
-    "v13_complete_pairs": 5,
-    "v13_pid": 23156,
-    "v13_pid_status": "ALIVE",
-    "v13_sealed_jobs": 11
+    "v13": "COMPLETE__LOCAL_INTERFERENCE_WEAKENED",
+    "v14_next_family": "DOSE_OPTIMIZER_HORIZON"
   },
+  "reason": "v1.3 closed mechanically; next branch follows predeclared trigger. StarMap parts are queued prospectively without post-hoc rescue.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T09:28:55-04:00"
+  "timestamp": "2026-08-31T10:10:12-04:00"
 }

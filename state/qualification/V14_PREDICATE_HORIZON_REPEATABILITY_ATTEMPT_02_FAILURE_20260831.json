@@ -1,0 +1,11 @@
+{
+  "causal_interpretation": "resource contention is a plausible contributor but not yet verified as the crash cause",
+  "disposition": "preserve failure; retry exact locked probe after terminating only identified scanner processes",
+  "exit_code": 3221225477,
+  "new_evidence_after_failure": "Three stale StarMap scan process trees were discovered alive; terminating them increased free physical memory from ~13.4 GB to ~16.45 GB and free virtual memory from ~12.0 GB to ~14.85 GB.",
+  "phase": "first probe model checkpoint shard load",
+  "schema": "cfe.v14.repeatability-failed-attempt.v1",
+  "scientific_outcome": null,
+  "scientific_training_started": false,
+  "status": "RUNTIME_PROCESS_CRASH_BEFORE_REPEATABILITY_RESULT"
+}

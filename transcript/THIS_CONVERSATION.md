@@ -48,3 +48,6 @@ Grounded explanation in original Commander intent plus exact v1.0-v1.3 evidence.
 
 ## 2026-08-31 09:28 Eastern Daylight Time — STARMAP AUDIT
 Partial E-drive audit confirmed 239 content-hit files, 215 substantive, 175 unique substantive contents, ~4402 occurrences. Exhaustive scan not completed; detached scanners explicitly terminated.
+
+## 2026-08-31 10:10 Eastern Daylight Time — STARMAP SALVAGE / V13 CLOSEOUT
+User authorized stripping StarMap lineage for parts. Reconstructed four mechanism families; created research-only salvage ledger. v1.3 independently completed 12/12 and closed LOCAL_INTERFERENCE_WEAKENED. Next scientific family remains dose/horizon per predeclared trigger.

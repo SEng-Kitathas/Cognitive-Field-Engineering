@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-08-31T09:46:24-04:00",
+  "scan_context": {
+    "approx_occurrences": 4402,
+    "confirmed_content_hit_files": 238,
+    "coverage": "PARTIAL_NOT_EXHAUSTIVE",
+    "substantive_hit_files": 215,
+    "unique_substantive_contents": 175
+  },
+  "schema": "cfe.starmap-historical-source-manifest.v1",
+  "sources": [
+    {
+      "bytes": 120557,
+      "path": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\921dc4f13cfc\\C__Users__ancal__Desktop__everything__Download__Download__AI__4.1.md",
+      "relevant_line_anchors": [
+        677,
+        1105
+      ],
+      "role": "EARLY_GEOMETRY_ENGINE",
+      "sha256": "921dc4f13cfc87bcceb729ca7bf402c22fc35f62ea2624015cd27c6c69f10c8e",
+      "source_class": "HISTORICAL_OPERATOR_CORPUS__FORENSIC_COPY"
+    },
+    {
+      "bytes": 3925008,
+      "path": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\3989567a9b36\\C__Users__ancal__Desktop__Shortcuts__CLAUDE_context.txt",
+      "relevant_line_anchors": [
+        2224,
+        2377
+      ],
+      "role": "GEOMETRIC_REASONING_SPEC",
+      "sha256": "3989567a9b369de7a0291fc2d96dfbd48921f4562fbfb6f7a24f48f33016a513",
+      "source_class": "HISTORICAL_OPERATOR_CORPUS__FORENSIC_COPY"
+    },
+    {
+      "bytes": 527595,
+      "path": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\44488bf56ed8\\C__Users__ancal__Desktop__everything__Download__Download__NEAL-CORE-v22.8-UNIFIED-SPEC_1_.md",
+      "relevant_line_anchors": [
+        119,
+        140,
+        12044,
+        12223,
+        14274,
+        14453,
+        15031,
+        15210,
+        15429,
+        15608
+      ],
+      "role": "LATE_NEAL_TOPOLOGY",
+      "sha256": "44488bf56ed8dc852010da66b85b499040c15174754ffda521b050a184a77ae4",
+      "source_class": "HISTORICAL_OPERATOR_CORPUS__FORENSIC_COPY"
+    },
+    {
+      "bytes": 655228,
+      "path": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\6d7e8d2c0e72\\C__Users__ancal__Desktop__everything__forge_design_thread.txt",
+      "relevant_line_anchors": [
+        745,
+        818,
+        828,
+        858,
+        963,
+        1100
+      ],
+      "role": "PATTERN_STARMAP_FORGE",
+      "sha256": "6d7e8d2c0e72e7900ee78b617d3b2af233e284ecc1d44d35e427037c9349e33f",
+      "source_class": "HISTORICAL_OPERATOR_CORPUS__FORENSIC_COPY"
+    },
+    {
+      "bytes": 358748,
+      "path": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\0ea9e1c1e43b\\C__Users__ancal__Desktop__everything__Download__Download__KarnOS_Google_AI_Mode_Transcript.md",
+      "relevant_line_anchors": [
+        524,
+        614,
+        671,
+        683
+      ],
+      "role": "HILBERT_STARMAP_OS",
+      "sha256": "0ea9e1c1e43b3ef0c2158591ac197615d21e03c47ee8faf62b34a62ea0e6c36f",
+      "source_class": "HISTORICAL_OPERATOR_CORPUS__FORENSIC_COPY"
+    },
+    {
+      "bytes": 4876891,
+      "path": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\9c959f9b2d30\\C__Users__ancal__Desktop__everything__OTHER_CONTEXT-READ_EVERY_LINE.txt",
+      "relevant_line_anchors": [
+        32971,
+        33030
+      ],
+      "role": "EARLY_RADIAL_LINEAGE",
+      "sha256": "9c959f9b2d301b661e34eaf4de1af883ae234041947934050337e4af2f7d5411",
+      "source_class": "HISTORICAL_OPERATOR_CORPUS__FORENSIC_COPY"
+    },
+    {
+      "bytes": 123115,
+      "path": "E:\\AI_Pushes_Sandbox\\projects\\classicboy-citra-forensic-ingress\\docs\\imported_code_quality_surfaces_pass2\\payloads\\5a9b5de1b5ff\\C__Users__ancal__Desktop__everything__Download__Download__Physics_of_Intelligence_extracted.md",
+      "relevant_line_anchors": [
+        1938,
+        1942
+      ],
+      "role": "ATTACHMENT_INDEX",
+      "sha256": "5a9b5de1b5ffb93cd51915768efa925d136c1f530487765975756d2f71f9b143",
+      "source_class": "HISTORICAL_OPERATOR_CORPUS__FORENSIC_COPY"
+    }
+  ],
+  "status": "BOUNDED_FORENSIC_LINEAGE__NOT_EXHAUSTIVE_E_DRIVE"
+}

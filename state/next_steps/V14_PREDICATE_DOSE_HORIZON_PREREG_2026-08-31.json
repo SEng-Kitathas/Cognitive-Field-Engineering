@@ -1,0 +1,128 @@
+{
+  "causal_variable": "developmental exposure horizon to the identifying predicate field",
+  "evaluation": {
+    "cases": 48,
+    "paired_longitudinal_unit": "seed trajectory",
+    "primary_metric": "balanced accuracy = mean(false-truth accuracy,true-truth accuracy)",
+    "readout": "PREDICATE_DIRECT only",
+    "secondary": [
+      "overall accuracy",
+      "false-truth accuracy",
+      "true-truth accuracy",
+      "support-bucket accuracy"
+    ]
+  },
+  "evidence_ceiling": "This screen can establish, weaken, or reveal non-monotonic developmental-horizon effects for the opaque predicate under the fixed CapybaraHermes/Mistral learner. It cannot establish a universal CFE dose law or developmental ecology law.",
+  "fresh_seeds": [
+    2026083111,
+    2026083112,
+    2026083113,
+    2026083114,
+    2026083115,
+    2026083116
+  ],
+  "hard_prohibitions": [
+    "No policy examples.",
+    "No composed examples.",
+    "No post-outcome horizon extension beyond H4.",
+    "No post-outcome row-order, optimizer, profile, support, prompt, or evaluator changes.",
+    "No separate initialization per horizon within a seed.",
+    "No StarMap-derived learner-facing geometry intervention in parallel.",
+    "StarMap S0/S1 curator-side instrumentation may proceed only if it does not change candidate bytes, training order, evaluation, or runtime.",
+    "No Microseed transfer claim."
+  ],
+  "optimization": {
+    "attention_backend": "eager",
+    "determinism": "fail-closed",
+    "gradient_accumulation_steps": 8,
+    "inherit_exactly_from_v13_except_training_horizon_and_predicate_only_dataset": true,
+    "learning_rate": 0.0001,
+    "max_epochs": 16,
+    "max_optimizer_steps": 144,
+    "microbatch": 1,
+    "model_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+    "optimizer": "paged_adamw_8bit",
+    "packing": false,
+    "profile": "all_linear_r8",
+    "shuffle": false
+  },
+  "parent_evidence": {
+    "v13_aggregate_sha256": "5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f",
+    "v13_disposition": "LOCAL_INTERFERENCE_WEAKENED",
+    "v13_final_disposition_sha256": "526ae885dc21c53e28a4d5f7773d2756dd27815dd3ed3d8c6646675612f9825f"
+  },
+  "per_seed_schedule": "one deterministic permutation of all 72 predicate rows, frozen before outcomes and repeated identically each epoch; same trajectory yields H1/H2/H4 checkpoints",
+  "preregistered_dispositions": {
+    "DOSE_HORIZON_WEAKENED": {
+      "trigger_all": [
+        "HORIZON_IMPROVES_COMPETENCE is false",
+        "INTERMEDIATE_HORIZON_OPTIMUM is false",
+        "neither H2 nor H4 yields two-sided competence on at least 4 of 6 seeds"
+      ]
+    },
+    "DOSE_ROTATES_BASIN_WITHOUT_COMPETENCE": {
+      "trigger": "H2 or H4 causes a material truth-side redistribution while neither HORIZON_IMPROVES_COMPETENCE nor INTERMEDIATE_HORIZON_OPTIMUM is true; treat large slice movement as phenotype rotation, not competence."
+    },
+    "HORIZON_IMPROVES_COMPETENCE": {
+      "requires_all": [
+        "mean paired H4-H1 balanced-accuracy delta > 0",
+        "H4 beats H1 on at least 4 of 6 seeds",
+        "pooled H4 false-truth accuracy >= pooled H1 false-truth accuracy",
+        "pooled H4 true-truth accuracy >= pooled H1 true-truth accuracy",
+        "H4 mean balanced accuracy >= 0.75",
+        "at least 4 of 6 H4 seeds have false-truth accuracy >= 0.65",
+        "at least 4 of 6 H4 seeds have true-truth accuracy >= 0.65",
+        "at least 4 of 6 H4 seeds have overall accuracy >= 0.75"
+      ]
+    },
+    "INTERMEDIATE_HORIZON_OPTIMUM": {
+      "requires_all": [
+        "mean paired H2-H1 balanced-accuracy delta > 0",
+        "mean paired H2-H4 balanced-accuracy delta > 0",
+        "H2 beats H1 on at least 4 of 6 seeds",
+        "H2 mean balanced accuracy >= 0.75",
+        "at least 4 of 6 H2 seeds have false-truth accuracy >= 0.65",
+        "at least 4 of 6 H2 seeds have true-truth accuracy >= 0.65",
+        "at least 4 of 6 H2 seeds have overall accuracy >= 0.75"
+      ]
+    },
+    "NEXT_IF_DOSE_HORIZON_WEAKENED": "prioritize richer predicate-field resolution and learner-interface/decomposition discrimination; do not extend beyond H4 adaptively",
+    "NEXT_IF_HORIZON_IMPROVES_COMPETENCE": "replicate the horizon law on a fresh relation/domain before broad promotion",
+    "NEXT_IF_INTERMEDIATE_OPTIMUM": "replicate the non-monotonic horizon optimum and investigate overexposure/attractor collapse"
+  },
+  "program_mode": "IDENTIFYING_CFE__DEVELOPMENTAL_HORIZON_SPECIALIZATION",
+  "question": "Holding the exact identifying-predicate experience multiset, learner, optimizer, adapter profile, and per-seed row order fixed, does continued exposure along the same training trajectory move the learner from low-complexity one-sided predicate basins into stable two-sided predicate competence?",
+  "schema": "cfe.v14.predicate-dose-horizon-prereg.v1",
+  "shared_experience": {
+    "composed_training_examples": 0,
+    "dataset": "PREDICATE_IDENTIFYING_V12",
+    "eval_sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744",
+    "policy_training_examples": 0,
+    "rows": 72,
+    "source_dataset_sha256": "d44e507ad80f88ce4d2f25e970062614a1f1a0ba22089c7e5f0402a540f4ef80",
+    "source_sidecar_sha256": "eb3e8b547a9595fe1d9fd88cfda9ccd0905a06a45ba026bf2789018422eaa066",
+    "source_token_reference_sha256": "48e57594b7e90031d7c46838270bc247e5ea9bf6b8c88afc9b6a73b491b383d7"
+  },
+  "status": "FROZEN_BEFORE_ANY_V14_MODEL_OUTCOME",
+  "trajectory_design": {
+    "checkpoints": {
+      "H1": {
+        "epochs": 4,
+        "optimizer_steps": 36,
+        "relative_exposure": 1
+      },
+      "H2": {
+        "epochs": 8,
+        "optimizer_steps": 72,
+        "relative_exposure": 2
+      },
+      "H4": {
+        "epochs": 16,
+        "optimizer_steps": 144,
+        "relative_exposure": 4
+      }
+    },
+    "reason": "Same-trajectory checkpoints isolate continued exposure from separate initialization variance.",
+    "unit": "one fresh initialized learner trajectory per seed"
+  }
+}

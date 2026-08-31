@@ -1,0 +1,10 @@
+{
+  "disposition": "preserve failure record; retry exact locked probe without changing scientific inputs",
+  "exit_code": 3221225477,
+  "gpu_health_after_failure": "CUDA tensor smoke test PASS; RTX 4050 visible; 328 MiB used / 6141 MiB total",
+  "phase": "first probe model checkpoint shard load",
+  "schema": "cfe.v14.repeatability-failed-attempt.v1",
+  "scientific_outcome": null,
+  "scientific_training_started": false,
+  "status": "RUNTIME_PROCESS_CRASH_BEFORE_REPEATABILITY_RESULT"
+}

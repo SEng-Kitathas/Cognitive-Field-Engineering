@@ -1,4 +1,6 @@
 {
+  "aggregate_sha256": "5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f",
+  "completed": 1788183676.9514432,
   "input_lock_sha256": "31cc908c415fe3f64d7b396bbd75e8cd3846672bc3e37a82905dcd0ddc1e5489",
   "jobs": [
     {
@@ -121,10 +123,21 @@
       "run_manifest_sha256": "0695a360a0860d64871800542397456e398b583e67ac1a60f3fe17a3f2f69375",
       "seed": 2026083106,
       "status": "COMPLETE"
+    },
+    {
+      "arm": "LOCAL_MIXED",
+      "composed_accuracy": 0.40625,
+      "eval_manifest_sha256": "3c54f347c84f60b2463044d641da12bd8ab617e4c82f62228440ce8456fd0b22",
+      "policy_accuracy": 1.0,
+      "predicate_accuracy": 0.5,
+      "predicate_balanced_accuracy": 0.5,
+      "run_manifest_sha256": "a9e38f49ed2d8dfb8d14936ca98883a1b1168441a0c352b3fb7035ea3e93a853",
+      "seed": 2026083106,
+      "status": "COMPLETE"
     }
   ],
   "preexec_sha256": "4c08e6633c64af2bfd4f5adb9e67a7a099f6f76f52c3d1ce553b039561ad9ed4",
   "schema": "cfe.v13.optimizer-interference-campaign.v1",
   "started": 1788172505.959989,
-  "status": "RUNNING"
+  "status": "COMPLETE"
 }

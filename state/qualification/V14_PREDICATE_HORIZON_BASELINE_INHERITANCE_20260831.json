@@ -1,0 +1,28 @@
+{
+  "claims_not_authorized": [
+    "v14 effect",
+    "runtime identity",
+    "scientific training start"
+  ],
+  "evaluation_identity": {
+    "PREDICATE_EVAL.private.jsonl": {
+      "bytes": 15640,
+      "exact": true,
+      "v13_sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744",
+      "v14_sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744"
+    }
+  },
+  "reason": "Base model and exact predicate evaluator bytes are unchanged; v1.2 base predicate accuracy was 0/48. Runtime identity is independently reverified before v1.4 training.",
+  "schema": "cfe.v14.predicate-horizon-baseline-inheritance.v1",
+  "screen_admitted": true,
+  "source_v12_admission_path": "state/qualification/V12_FACTOR_PRIMITIVE_BASELINE_ADMISSION_20260830/ADMISSION.json",
+  "source_v12_admission_sha256": "b8adf6c257e1a1344c43951a47081f37bfdc0bfdafd4d0747a906057024a866c",
+  "source_v12_predicate_metrics": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "json_parse_rate": 0.0,
+    "n": 48
+  },
+  "status": "BASELINE_HEADROOM_INHERITED_BY_EXACT_PREDICATE_EVALUATOR_IDENTITY__NO_V14_TRAINED_OUTCOME",
+  "v14_candidate_manifest_sha256": "dd0577ca49c93e75f111c1506cf7f8bc0abcac2341ac46433fd48927584f76a3"
+}

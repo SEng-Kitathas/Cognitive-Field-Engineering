@@ -1,0 +1,29 @@
+{
+  "schema": "cfe.v14.active-campaign.v1",
+  "status": "SUBMITTED",
+  "pid": 27236,
+  "started_utc": "2026-08-31T14:02:51.720642+00:00",
+  "outroot": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z",
+  "stdout": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\v14_predicate_horizon_campaign_logs\\CAMPAIGN_20260831T140251Z.stdout.log",
+  "stderr": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\v14_predicate_horizon_campaign_logs\\CAMPAIGN_20260831T140251Z.stderr.log",
+  "command": [
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\tools\\run_v14_predicate_horizon_campaign.py",
+    "--project-root",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE",
+    "--candidate",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\candidates\\v14_predicate_horizon_20260831",
+    "--contract",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps\\V14_PREDICATE_DOSE_HORIZON_TRAINING_CONTRACT_2026-08-31.json",
+    "--lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\locks\\V14_PREDICATE_HORIZON_INPUT_LOCK_2026-08-31.json",
+    "--host-lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V14_PREDICATE_HORIZON_RUNTIME_20260831\\HOST_LOCK.json",
+    "--profile-lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V14_PREDICATE_HORIZON_REPEATABILITY_20260831\\PROFILE_LOCK.json",
+    "--preexec",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V14_PREDICATE_HORIZON_PREEXECUTION_20260831.json",
+    "--out",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z"
+  ]
+}

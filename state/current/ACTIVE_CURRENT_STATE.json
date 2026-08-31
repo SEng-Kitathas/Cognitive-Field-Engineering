@@ -1,57 +1,39 @@
 {
-  "as_of": "2026-08-31T08:28:35-04:00",
+  "as_of": "2026-08-31T10:10:12-04:00",
   "blockers": [],
-  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0828-04-00.md",
-  "commander_active_binding_sha256": "f7d8498e47101afb2f1b06c1efe349a9e75ed747d07d6a6dd86dafb4b8433e19",
+  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1010-04-00.md",
+  "commander_active_binding_sha256": "431753c44609f5831bc38da2ccb1ffc02628c9280d71179c84153dd72401ad12",
   "commander_source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "frontier": "V13_SCIENTIFIC_CAMPAIGN_ACTIVE",
-  "mode": "DISCUSSION_CHAT__BUILD_COMMIT_RUNNER_UNCHANGED",
-  "role": "R4 explanation / R5 scientific execution",
-  "schema": "cfe.active-current-state.v3",
+  "frontier": "V13_CLOSED__V14_DOSE_HORIZON_NEXT",
+  "mode": "BUILD-COMMIT",
+  "next_scientific_branch": "DOSE_OPTIMIZER_HORIZON",
+  "role": "R4 Convergence Refiner",
+  "schema": "cfe.active-current-state.v4",
+  "starmap_salvage": {
+    "json_path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.json",
+    "json_sha256": "343530003b0393da006ada2dfeffb5ef4f6c3296c3ba1b6c392d7dcff6962489",
+    "markdown_path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.md",
+    "markdown_sha256": "806189768d577337293ccca62581b803a8cbe49ab6f7fad410b8535479b70917",
+    "status": "RESEARCH_CROSSWALK_NOT_DOCTRINE"
+  },
   "v13": {
-    "active_job": "2026083104 LOCAL_MIXED training",
-    "complete_pairs": 3,
-    "pid": 23156,
-    "pid_status": "ALIVE",
-    "sealed_jobs": 7,
-    "seed3103": {
-      "separation_composition_delta": 0.020833333333333315,
-      "separation_policy_delta": 0.0,
-      "separation_predicate_delta": 0.0
+    "aggregate_sha256": "5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f",
+    "disposition": {
+      "INTERFERENCE_AND_COMPOSITION_SUPPORTED": false,
+      "INTERFERENCE_HELPED_BUT_COMPOSITION_DID_NOT": false,
+      "LOCAL_INTERFERENCE_SUPPORTED": false,
+      "LOCAL_INTERFERENCE_WEAKENED": true,
+      "TWO_SIDED_PREDICATE_COMPETENCE_EARNED": false,
+      "next_branch": "HOSTILE_INTERPRETATION_REQUIRED"
     },
-    "seed3104_window_separated": {
-      "composition": 0.3958333333333333,
-      "composition_truth": {
-        "false": {
-          "accuracy": 0.0,
-          "correct": 0,
-          "json_parse_rate": 1.0,
-          "n": 48
-        },
-        "true": {
-          "accuracy": 0.7916666666666666,
-          "correct": 38,
-          "json_parse_rate": 1.0,
-          "n": 48
-        }
-      },
-      "eval_sha256": "488457a146a6025c9cfbebb5d2d8c2fbc2a57734bfdf4b5c1cb924518d0fe36a",
-      "policy": 0.5,
-      "predicate": 0.5,
-      "predicate_truth": {
-        "false": {
-          "accuracy": 1.0,
-          "correct": 24,
-          "json_parse_rate": 1.0,
-          "n": 24
-        },
-        "true": {
-          "accuracy": 0.0,
-          "correct": 0,
-          "json_parse_rate": 1.0,
-          "n": 24
-        }
-      }
-    }
+    "paired_summary": {
+      "mean_composition_delta_separated_minus_mixed": -0.005208333333333324,
+      "mean_policy_direct_mixed": 1.0,
+      "mean_policy_direct_separated": 0.90625,
+      "mean_predicate_delta_separated_minus_mixed": -0.038194444444444454,
+      "separated_composition_wins": 2,
+      "separated_predicate_wins": 0
+    },
+    "status": "COMPLETE"
   }
 }

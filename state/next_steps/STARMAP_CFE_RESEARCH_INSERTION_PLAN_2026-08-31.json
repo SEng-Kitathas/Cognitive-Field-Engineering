@@ -1,0 +1,43 @@
+{
+  "bindings": {
+    "component_crosswalk_sha256": "d3f12de21bd2dc1312d27ce15ddf7fde14bacfeaa6f65f8d3906a600182cd860",
+    "salvage_report_sha256": "cf45ef8228e7ae9c4eb06eaf2330ea04ec16d46d443da086732322f2714b96a6",
+    "source_manifest_sha256": "3d1144c9af7d973c1ff9f61d12372d9cde78ec02360763a929b659a5d620e123",
+    "v13_final_disposition_sha256": "526ae885dc21c53e28a4d5f7773d2756dd27815dd3ed3d8c6646675612f9825f"
+  },
+  "candidate_compiler_law": "FIELD SPEC -> EXPOSURE COMPILER + EVALUATION COMPILER + TRACE COMPILER",
+  "created_at": "2026-08-31T09:46:24-04:00",
+  "forbidden_transfers": [
+    "embedding similarity as relation truth",
+    "Hilbert topology as cognitive law",
+    "StarMap activation as learner internal activation"
+  ],
+  "parallelism_rule": "S0/S1 instrumentation may proceed beside v1.4 because it does not alter learner training; S2 may not run in parallel with v1.4.",
+  "phases": [
+    {
+      "action": "define curator-side typed CFE field graph and compiler contracts",
+      "learner_mutation": false,
+      "phase": "S0_FIELD_SCHEMA"
+    },
+    {
+      "action": "compile v1.0-v1.3 sidecars into typed graphs and test descriptors against observed family/seed outcomes",
+      "interpretation": "hypothesis generation only",
+      "learner_mutation": false,
+      "phase": "S1_RETROSPECTIVE_INSTRUMENTATION"
+    },
+    {
+      "action": "preregister one typed relation-geometry intervention under fixed experience multiset",
+      "dependency": "v1.4 predicate dose/horizon closes",
+      "learner_mutation": true,
+      "phase": "S2_PROSPECTIVE_GEOMETRY"
+    },
+    {
+      "action": "test temporal/causal/consequence field dynamics in a substrate that can sustain history",
+      "dependency": "bounded mechanisms survive",
+      "learner_mutation": true,
+      "phase": "S3_PERSISTENT_DEVELOPMENTAL_FIELD"
+    }
+  ],
+  "schema": "cfe.starmap-research-insertion-plan.v1",
+  "status": "FROZEN_RESEARCH_PLAN__NOT_LEARNER_INTERVENTION"
+}

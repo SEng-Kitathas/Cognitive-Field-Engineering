@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-31T08:28:35-04:00",
+  "as_of": "2026-08-31T10:10:12-04:00",
   "decisions": [
     {
       "consequence": "no CFE graduation at first useful Microseed handoff",
@@ -70,6 +70,34 @@
       "evidence_basis": "v1.3 seed3103 complete pair",
       "replay_trigger": "v1.3 aggregate closeout",
       "status": "VERIFIED_INTERIM_SCIENTIFIC_INTERPRETATION"
+    },
+    {
+      "consequence": "do not continue rearranging windows as primary rescue",
+      "decision": "Close v1.3 as LOCAL_INTERFERENCE_WEAKENED, not supported",
+      "evidence_basis": "frozen aggregate + prereg disposition",
+      "replay_trigger": "evaluator/execution defect",
+      "status": "VERIFIED_SCIENTIFIC_DISPOSITION"
+    },
+    {
+      "consequence": "prepare prereg without StarMap post-hoc adaptation",
+      "decision": "Trigger dose/optimizer-horizon as next scientific family",
+      "evidence_basis": "predeclared v1.3 branch rule when local interference is weakened",
+      "replay_trigger": "new evidence invalidates dependency",
+      "status": "LOCKED_NEXT_BRANCH_DECISION"
+    },
+    {
+      "consequence": "typed field/map/compiler hypotheses enter research queue, not doctrine",
+      "decision": "Admit StarMap parts only as prospective research crosswalk",
+      "evidence_basis": "historical source reconstruction + current CFE scars",
+      "replay_trigger": "prospective tests fail or source reconstruction corrected",
+      "status": "VERIFIED_RESEARCH_ROUTING_DECISION"
+    },
+    {
+      "consequence": "retain only abstract topology/locality lessons",
+      "decision": "Discard literal StarMap geometry from CFE core",
+      "evidence_basis": "old implementations collapse relation into embeddings/radial similarity and brittle heuristics",
+      "replay_trigger": "new primary evidence supports literal mechanism",
+      "status": "VERIFIED_SALVAGE_DECISION"
     }
   ],
   "schema": "cfe.active-decisions.v1"
