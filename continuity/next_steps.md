@@ -4,12 +4,13 @@ Date: 2026-08-29
 Current frontier: live v1.0 first causal screen, Stage 1.
 
 ## Immediate
-1. Do not launch the mechanically named JOINT_IDENTIFYING branch yet; preserve that prereg disposition but treat it as blocked by incomplete predicate competence.
-2. Draft/freeze a new predicate-competence discriminator with class-symmetric evaluation, per-side minimum thresholds, and explicit constant-class rejection.
-3. Keep optimizer/profile/horizon unchanged so the next test isolates basis constitution rather than combining mechanisms.
-4. If and only if two-sided predicate competence is prospectively established, return to a separately locked joint predicate+policy composition screen.
-5. Future scientific locks must declare both raw execution identity and canonical checkout/transport identity pre-outcome.
-6. Continue full research-lineage publication: all non-heavy evidence to Git, heavy artifacts to hashed release assets, failures preserved.
+1. Push/read back the reconciled and portability-hardened v1.2 preexecution package.
+2. Launch exactly the frozen v1.2 factorized primitive-composition campaign after remote verification.
+3. Preserve zero joint numeric-state+mode -> action training examples.
+4. Require separate predicate-direct, policy-direct, and composed-action readouts for every arm/seed.
+5. Apply both-truth-side composition criteria and the `COMPOSITION_PRESENT_BUT_PREDICATE_UNRESOLVED` disposition mechanically.
+6. No adaptive seeds, K-dose, optimizer-window screen, or prompt/support changes in parallel.
+7. Continue complete Git + heavy-release research publication.
 
 ## Stage-1 close
 Completed:

@@ -1,0 +1,33 @@
+{
+  "authorized_arms": [
+    "COMPOSE_NARROW_BASIS",
+    "COMPOSE_IDENTIFYING_BASIS"
+  ],
+  "authorized_seeds": [
+    2026082901,
+    2026082902,
+    2026082903,
+    2026082904,
+    2026082905,
+    2026082906
+  ],
+  "baseline_admission_sha256": "b8adf6c257e1a1344c43951a47081f37bfdc0bfdafd4d0747a906057024a866c",
+  "claim_ceiling": "RUNTIME PACKAGE QUALIFIED; NO V12 COMPOSITION EFFECT YET",
+  "host_lock_sha256": "672f4884946d61a5175bcf6cd2f7d8d7f78d553427bcf73a0cc16f86ecd8155e",
+  "input_lock_sha256": "f4cbcb189a23e41d169795f0e6e64f8eec79ea6eeef22a6d509ae01b5d6f5b6d",
+  "laws": [
+    "AUTHORIZED != EXECUTED",
+    "COMPOSITION TEST != COMPOSED-ANSWER TRAINING",
+    "NORMALIZATION_EQUIVALENT != ORIGINAL EXECUTION IDENTITY",
+    "IDENTIFYING CFE != DEVELOPMENTAL CFE"
+  ],
+  "portability_seal_sha256": "39f2ce2d8ea339a07f92fef59024b4385f9219afa097a9550cab17ab956437f7",
+  "preregistration_sha256": "e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9",
+  "profile_lock_sha256": "0f1c2a751eda72348dab8d7f037e86e03c8ce911189c29628ebbcc3a6067956e",
+  "repeatability_qualification_sha256": "e81ffe9933ca2a645a902fd781d97b72a8b18ea3ad8160060648774dab578ceb",
+  "schema": "cfe.v12.factor-primitive-preexecution.v1",
+  "scientific_training_authorized": true,
+  "static_qualification_sha256": "3f72abbcf839085972186cf6c129111a2dd1de6633672653bb8e6619750a2ee6",
+  "status": "V12_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED",
+  "training_contract_sha256": "a2136043b8fdefb9acf9100bb341458e823324216c384ffd91c4e75b8aefe58f"
+}

@@ -271,3 +271,12 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Synthetic LF checkout verifies 19 `EXACT_BYTES` + 8 `NORMALIZATION_EQUIVALENT`, zero failures.
 - Companion seal: `state/trace_matrix/V11_PREDICATE_POLICY_LOCK_PORTABILITY_SEAL_2026-08-30.json`, SHA `a099c58fe010996147ae01a897cb54f7604caad2899be5cb012e3f74b993226c`.
 - `NORMALIZATION_EQUIVALENT` is reproduction provenance only; it does not retroactively authorize original execution.
+
+
+## v1.2 preexecution authorization
+- Branch reconciliation: `state/analysis/V11_V12_BRANCH_RECONCILIATION_2026-08-30.md`.
+- v1.2 portability seal SHA `39f2ce2d8ea339a07f92fef59024b4385f9219afa097a9550cab17ab956437f7`.
+- Final preexecution status: `V12_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`.
+- Input lock SHA `f4cbcb189a23e41d169795f0e6e64f8eec79ea6eeef22a6d509ae01b5d6f5b6d`.
+- No v1.2 scientific trained-arm outcome exists at this snapshot.
+- Direct composed-answer training remains forbidden; factorized primitive composition is authorized under the frozen v1.2 controls.

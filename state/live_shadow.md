@@ -43,18 +43,17 @@
 - Current scientific work outranks unfinished exploratory campaign work until the live screen reaches a clean gate.
 
 ## Open Loops
-- Do not launch JOINT_IDENTIFYING scientific training yet despite the mechanical prereg next-branch label.
-- Freeze a new predicate-competence screen or admission gate that is class-symmetric and cannot be passed by constant/near-constant decision basins.
-- Require pre-outcome per-side minima across negative slack, equality, near-positive, and far-positive support; prefer balanced evaluation burden.
-- Keep optimizer horizon unchanged in that discriminator so basis competence and update-field effects are not blended.
-- After two-sided predicate competence is demonstrated prospectively, return to the preregistered joint-composition branch.
-- Future scientific locks must declare raw execution identity plus canonical repository/transport identity before execution.
-- Continue research-lineage publication on every material turn.
+- v1.2 factorized primitive-composition branch is valid and now preexecution-authorized; it was preregistered after the v1.1 one-sided predicate seam was already known and contains explicit truth-side/predicate-readout safeguards.
+- Direct training of the composed numeric-state+mode -> action answer remains prohibited.
+- v1.2 may test zero-shot composition of separately trained predicate and policy primitives; any composed gain with one-sided predicate behavior must fall into `COMPOSITION_PRESENT_BUT_PREDICATE_UNRESOLVED` and cannot promote a clean boundary law.
+- No K1/K2/K4 or optimizer-window screen may run in parallel.
+- Future locks must declare raw execution identity plus canonical transport identity before scientific execution.
+- Continue full research-lineage publication every material turn.
 
 ## Immediate Next Step
-- Publish/read back the completed v1.1 campaign, portability repair, hostile final interpretation, and all six heavy seed bundles.
-- Next scientific design task: preregister a two-sided predicate-competence discriminator with balanced/class-symmetric evaluation and explicit rejection of constant-class solutions.
-- No new weights until that new screen is locked and runtime-qualified.
+- Push/read back the reconciled v1.2 prelaunch state, including portability seal and final preexecution receipt.
+- Only after remote identity matches, launch the frozen v1.2 factorized primitive-composition campaign as the sole CFE GPU scientific process.
+- Record launch PID/run root immediately and publish the boundary crossing.
 
 ## Last 10 Turn Reinforcement Window
 1. User asked to continue from the prior CFE work.
@@ -69,10 +68,9 @@
 10. Resume-tool audit correctly blocked on the current partial CONTROL output; stale current/next state was repaired.
 
 ## Delta Since Previous Shadow
-- v1.1 campaign completed 18/18 jobs.
-- Mechanical prereg result supports wrong-basis sensitivity and policy separability, but hostile analysis found the identifying basis still does not robustly learn the strict predicate.
-- This exposed a success-criterion scope defect: aggregate improvement can be produced partly by moving between class basins under an imbalanced held-out class count.
-- Opus portability report was independently reproduced locally: current checkout 27/27 exact; LF-normalized checkout 19 exact + 8 normalization-equivalent.
-- Added portability policy, companion seal, and verifier without changing the historical scientific lock.
-- All remaining heavy adapters were uploaded; direct release readback verifies all six seed bundles.
+- Located the earlier v1.1 hostile closeout that v1.2 was actually bound to; it already documented the one-sided predicate seam.
+- Reconciled the later stricter overlay with v1.2: direct composed-answer training is blocked, but factorized zero-shot composition remains admissible because the seam is preregistered and explicitly tested.
+- Added v1.2 companion portability seal SHA `39f2ce2d8ea339a07f92fef59024b4385f9219afa097a9550cab17ab956437f7` before any v1.2 scientific trained-arm outcome.
+- Final v1.2 preexecution gate passed: `V12_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`.
+- No v1.2 scientific weights have moved yet at this snapshot.
 

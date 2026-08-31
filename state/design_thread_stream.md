@@ -502,3 +502,13 @@ Live campaign had completed 18/18 jobs. Aggregate SHA `3e631f81a5c063fda3fdcf06f
 Hostile support-level analysis found the identifying arm did not robustly learn the strict boundary: narrow mean balanced accuracy 0.5174 and mostly true-basin behavior; identifying mean balanced accuracy 0.6076, strong false/equality competence but weak positive-side competence in most seeds. Therefore the prereg mechanical pass is preserved but does not authorize a claim of full predicate acquisition. Joint composition training is blocked pending a new two-sided predicate-competence gate.
 
 All 18 adapters were published as six seed-scoped heavy release bundles. Direct GitHub release readback verified size/digest for all six assets under `cfe-v11-predicate-policy-research-2026-08-30`.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: V11-V12 RECONCILIATION, V12 PORTABILITY SEAL, PREEXECUTION AUTHORIZED
+
+Assistant detected and resolved an apparent conflict between a later strict v1.1 overlay and the already-preregistered v1.2 factorized primitive-composition branch. The v1.2 prereg was bound to the earlier hostile closeout that already documented one-sided predicate behavior. v1.2 explicitly balances truth support, keeps predicate/policy readouts separate, requires composed improvement on both truth sides, and contains `COMPOSITION_PRESENT_BUT_PREDICATE_UNRESOLVED`. Therefore direct composed-answer training remains blocked, but the factorized zero-shot composition screen remains scientifically admissible. Reconciliation persisted at `state/analysis/V11_V12_BRANCH_RECONCILIATION_2026-08-30.md`.
+
+Before any v1.2 scientific weight outcome, a companion portability seal was created at SHA `39f2ce2d8ea339a07f92fef59024b4385f9219afa097a9550cab17ab956437f7`. Final preexecution gate then passed with status `V12_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`. No v1.2 weights had moved at this snapshot.
