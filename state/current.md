@@ -44,3 +44,6 @@ None.
 ## Donor classification correction — 2026-08-31 14:18 Eastern Daylight Time
 - Parent↔Child hierarchy document: operator-reported hostile-engineering-verified Microseed solution to Steve Grand public unsolved problem.
 - CFE status: verified external engineering donor; not independently replayed in CFE this turn; transfer remains unverified.
+
+## Publication boundary correction — 2026-08-31 14:19 Eastern Daylight Time
+- Live V14R attempt2 files accidentally entered Git commit 4b6fbd9 during donor-provenance sync. Corrective commit removes them from current publication tree; live scientific campaign untouched.

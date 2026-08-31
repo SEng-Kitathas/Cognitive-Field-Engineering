@@ -830,3 +830,8 @@ User clarified that the developmental hierarchical organism document is not theo
 
 ## Turn — ASSISTANT / RECORD
 Reclassified donor from speculative architecture to verified external engineering donor, while preserving the transfer boundary `VERIFIED_IN_MICROSEED != VERIFIED_IN_CFE`.
+
+---
+## Control-plane correction — ASSISTANT
+Timestamp: 2026-08-31 14:19 Eastern Daylight Time
+Detected that donor-provenance sync accidentally published active V14R attempt2 files. Removed active subtree from current Git publication tree, recorded append-only maintenance note, did not alter live campaign.

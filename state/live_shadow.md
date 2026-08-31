@@ -53,3 +53,6 @@ Continue V14R1 unchanged; preserve origin provenance by append-only successor no
 ## Turn delta — 2026-08-31 14:18 Eastern Daylight Time
 - Donor classification corrected: Parent↔Child document is operator-reported as a hostile-engineering-verified Microseed solution to a Steve Grand public unsolved problem, not speculative theory.
 - CFE treats it as VERIFIED EXTERNAL ENGINEERING DONOR; transfer into CFE remains unverified.
+
+## Turn delta — 2026-08-31 14:19 Eastern Daylight Time
+- Corrected publication leak: mutable V14R attempt2 artifacts were accidentally committed to stable Git; removed from current publication tree without history rewrite; live runner untouched.
