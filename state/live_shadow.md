@@ -49,3 +49,7 @@ Continue V14R1 unchanged; preserve origin provenance by append-only successor no
 
 ## Turn delta — 2026-08-31 13:58 Eastern Daylight Time
 - Corrected recovery frontier: V14R1 dead; V14R attempt2 now active as `job-1b72da92b63f` / PID `4616` ALIVE, 0/6 sealed.
+
+## Turn delta — 2026-08-31 14:18 Eastern Daylight Time
+- Donor classification corrected: Parent↔Child document is operator-reported as a hostile-engineering-verified Microseed solution to a Steve Grand public unsolved problem, not speculative theory.
+- CFE treats it as VERIFIED EXTERNAL ENGINEERING DONOR; transfer into CFE remains unverified.

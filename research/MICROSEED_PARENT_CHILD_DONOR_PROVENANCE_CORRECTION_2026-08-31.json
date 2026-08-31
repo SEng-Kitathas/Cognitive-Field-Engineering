@@ -1,0 +1,15 @@
+{
+  "cfe_local_replay_status": "NOT_REPLAYED_IN_THIS_TURN",
+  "donor_classification": "VERIFIED_EXTERNAL_ENGINEERING_DONOR",
+  "fit": "Microseed",
+  "markdown_path": "research/MICROSEED_PARENT_CHILD_DONOR_PROVENANCE_CORRECTION_2026-08-31.md",
+  "markdown_sha256": "494ac78b672f68eae51ef163704922d445905cb7b32f58dbab8e1f6aa4768b49",
+  "problem_origin": "Steve Grand public unsolved problem",
+  "schema": "cfe.microseed-parent-child-donor-provenance-correction.v1",
+  "solver": "operator",
+  "source_document": "DEVELOPMENTAL_HIERARCHICAL_COGNITIVE_ORGANISM_WHITE_PAPER.docx",
+  "source_verification_status": "hostile-engineering verified, operator-reported",
+  "status": "OPERATOR_REPORTED_SOURCE_VERIFICATION",
+  "timestamp": "2026-08-31T14:18:38-04:00",
+  "transfer_guard": "MECHANISM VERIFIED IN SOURCE SYSTEM != TRANSFER VERIFIED IN TARGET SYSTEM"
+}

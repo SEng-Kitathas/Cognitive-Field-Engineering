@@ -821,3 +821,12 @@ Server status confirmed `job-d4aac6ed6175` FAILED with `SUPERVISION_LOST` (retry
 ## Status correction — ASSISTANT
 Timestamp: 2026-08-31 13:58 Eastern Daylight Time
 Verified newer recovery attempt `V14R_PREDICATE_DOSE_HORIZON_20260831` attempt2 is RUNNING as `job-1b72da92b63f`, PID `4616`, with 0/6 sealed; V14R1 remains failed/demoted.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 14:18 Eastern Daylight Time
+Tags: DONOR PROVENANCE CORRECTION
+User clarified that the developmental hierarchical organism document is not theory: it is their hostile-engineering-verified solution to a Steve Grand public unsolved problem that fit Microseed.
+
+## Turn — ASSISTANT / RECORD
+Reclassified donor from speculative architecture to verified external engineering donor, while preserving the transfer boundary `VERIFIED_IN_MICROSEED != VERIFIED_IN_CFE`.

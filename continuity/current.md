@@ -40,3 +40,7 @@ None.
 ## Frontier correction — 2026-08-31 13:58 Eastern Daylight Time
 - V14R1 failed/demoted.
 - V14R attempt2 ACTIVE: `job-1b72da92b63f`, PID `4616` ALIVE, 0/6 sealed.
+
+## Donor classification correction — 2026-08-31 14:18 Eastern Daylight Time
+- Parent↔Child hierarchy document: operator-reported hostile-engineering-verified Microseed solution to Steve Grand public unsolved problem.
+- CFE status: verified external engineering donor; not independently replayed in CFE this turn; transfer remains unverified.

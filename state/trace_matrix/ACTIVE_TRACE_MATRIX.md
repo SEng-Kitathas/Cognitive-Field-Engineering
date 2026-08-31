@@ -24,3 +24,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | V14R1 dose/horizon scientific question | no admitted eval | unresolved |
 
 | V14R attempt2 `job-1b72da92b63f` | direct execution status + receipt | RUNNING, 0/6 sealed |
+
+| Developmental hierarchical organism donor | operator provenance correction | hostile-engineering verified in Microseed, operator-reported; CFE transfer unverified |
