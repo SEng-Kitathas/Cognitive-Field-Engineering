@@ -844,3 +844,12 @@ User instructed CFE to proceed duly informed, especially because both the verifi
 
 ## Turn — ASSISTANT / EMBODIMENT
 Created dual-donor research crosswalk preserving evidence asymmetry. StarMap supplies geometry hypotheses; Microseed supplies source-system verified target mechanisms; CFE supplies prospective causal tests. Defined DD-0..DD-6 ladder. V14R attempt2 remained isolated and had advanced to 2/6 sealed.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 15:16 Eastern Daylight Time
+Tags: DONOR PROVENANCE CORRECTION
+User clarified the hierarchy package was independently researched from first principles, Grand encountered midstream, then independently embodied/red-teamed to reality survival; Microseed is later fit, not mechanism origin.
+
+## Turn — ASSISTANT / RECORD
+Reclassified donor accordingly and removed Microseed-origin implication.

@@ -1,0 +1,24 @@
+{
+  "classification": "STANDALONE_HOSTILE_ENGINEERING_VERIFIED_FIRST_PRINCIPLES_DONOR",
+  "grand_relation": "public problem-context / cross-reference encountered midstream",
+  "lineage": [
+    "independent first-principles problem research",
+    "midstream contact with Steve Grand public issue",
+    "Grand material slotted into rudimentary framework",
+    "independent derivation and embodiment",
+    "repeated hostile red-team and forced reality contact",
+    "surviving standalone engineering solution",
+    "later fit with Microseed"
+  ],
+  "markdown_path": "research/GRAND_PROBLEM_STANDALONE_SOLUTION_PROVENANCE_CORRECTION_2026-08-31.md",
+  "markdown_sha256": "6afe2e05e0a07731cdc219b06d290491cca2a80a40d7f435ede00c9b1211154f",
+  "microseed_relation": "later fit / compatibility, not origin",
+  "not_classifications": [
+    "Microseed mechanism",
+    "theory white paper",
+    "Grand-derived implementation"
+  ],
+  "schema": "cfe.grand-problem-standalone-solution-provenance.v1",
+  "status": "OPERATOR_REPORTED_PROVENANCE_CORRECTION",
+  "timestamp": "2026-08-31T15:16:18-04:00"
+}

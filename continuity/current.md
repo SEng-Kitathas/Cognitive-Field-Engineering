@@ -27,3 +27,7 @@ DD-0 compiler qualification -> DD-1 typed relations -> DD-2 shape-of-reachabilit
 
 ## Resume point
 Complete V14R attempt2 unchanged. Apply frozen disposition mechanically, then hostile-rank DD-0..DD-6 against the result.
+
+## Donor provenance correction — 2026-08-31 15:16 Eastern Daylight Time
+- Hierarchical organism package is NOT a Microseed mechanism and NOT theory.
+- Correct lineage: independent first-principles research -> midstream Grand problem contact -> independent embodiment/red-team/reality survival -> standalone verified donor -> later fit with Microseed.

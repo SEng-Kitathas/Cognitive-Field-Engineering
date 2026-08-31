@@ -32,3 +32,6 @@ Do not touch V14R. On completion, apply preregistered disposition, hostile close
 - Dual-donor crosswalk embodied.
 - Post-V14R DD-0..DD-6 ladder defined.
 - V14R advanced to 2/6 sealed.
+
+## Turn delta — 2026-08-31 15:16 Eastern Daylight Time
+- Reclassified hierarchy donor as standalone first-principles hostile-engineering-verified solution; Grand encountered midstream as public problem-context; Microseed is later fit, not origin.

@@ -30,3 +30,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | Dual-donor CFE crosswalk | StarMap archaeology + operator provenance + Microseed verified-donor correction | `research/CFE_DUAL_DONOR_STARMAP_MICROSEED_CROSSWALK_2026-08-31.md` SHA `519a5923049f9cbd56f36318154cbd8e15993825df710dd1910e8c328f6bbdf2` | active research frontier, not doctrine |
 | DD-4 cross-level effect acquisition | StarMap geometry hypotheses + Microseed source-system verified mechanism | future prospective CFE transfer experiment | not yet executed |
 | V14R attempt2 progress | campaign receipt | 2/6 sealed | active |
+
+| Standalone hierarchical organism donor provenance | operator clarification | independent first-principles origin; Grand midstream context; standalone hostile-engineering verification; later Microseed fit | active provenance |
