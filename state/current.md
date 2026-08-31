@@ -288,3 +288,11 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Run root `state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z`.
 - First frozen job: seed 2026082901 `COMPOSE_NARROW_BASIS`.
 - No duplicate/parallel CFE scientific campaign authorized.
+
+
+## v1.2 seed 2901 paired result
+- NARROW: predicate-direct 24/48 = 0.50; policy-direct 40/48 = 0.8333; composed action 34/96 = 0.3542. Composed false-truth 0/48; true-truth 34/48 = 0.7083.
+- IDENTIFYING: predicate-direct 24/48 = 0.50; policy-direct 40/48 = 0.8333; composed action 24/96 = 0.25. Composed false-truth 0/48; true-truth 24/48 = 0.50.
+- Paired identifying-minus-narrow composed delta: -0.104167. Predicate delta: 0.0.
+- Both arms retain the one-sided predicate basin on this seed. This is one paired seed only; no composition disposition is authorized.
+- Exact seed adapters published under release tag `cfe-v12-factor-primitive-research-2026-08-31`.

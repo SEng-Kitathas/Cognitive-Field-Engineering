@@ -1,0 +1,38 @@
+{
+  "bundles": [
+    {
+      "asset_name": "V12_FACTOR_PRIMITIVE_2026082901_ADAPTERS.zip",
+      "bytes": 167892142,
+      "members": [
+        {
+          "arm": "COMPOSE_NARROW_BASIS",
+          "bytes": 83945296,
+          "path": "state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z/2026082901/COMPOSE_NARROW_BASIS/train/adapter/adapter_model.safetensors",
+          "sha256": "18023dd2a11dfe64d81f12ca94cba98d909a6d3fe2f6fa4aa7db1b42f3ad0cf3"
+        },
+        {
+          "arm": "COMPOSE_IDENTIFYING_BASIS",
+          "bytes": 83945296,
+          "path": "state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z/2026082901/COMPOSE_IDENTIFYING_BASIS/train/adapter/adapter_model.safetensors",
+          "sha256": "e8fde0c04198f416675b1db88284cb37b828cb365f46fb61bd01dfca6f594197"
+        }
+      ],
+      "seed": "2026082901",
+      "sha256": "868be92afd0ddc68bb0d71ed7e521927e295b90910d1f92b66ecfae1f6464be5"
+    }
+  ],
+  "release_readback": {
+    "assets": [
+      {
+        "digest": "sha256:868be92afd0ddc68bb0d71ed7e521927e295b90910d1f92b66ecfae1f6464be5",
+        "name": "V12_FACTOR_PRIMITIVE_2026082901_ADAPTERS.zip",
+        "size": 167892142
+      }
+    ],
+    "tag": "cfe-v12-factor-primitive-research-2026-08-31",
+    "url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v12-factor-primitive-research-2026-08-31"
+  },
+  "schema": "cfe.v12.heavy-release-publication.v1",
+  "status": "PARTIAL_ACTIVE_CAMPAIGN",
+  "tag": "cfe-v12-factor-primitive-research-2026-08-31"
+}

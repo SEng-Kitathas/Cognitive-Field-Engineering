@@ -26,7 +26,9 @@
 - Companion portability seal SHA `a099c58fe010996147ae01a897cb54f7604caad2899be5cb012e3f74b993226c`; verifier distinguishes `EXACT_BYTES`, `NORMALIZATION_EQUIVALENT`, `FAIL`, `MISSING`. Normalization equivalence is reproduction provenance only, not original execution authorization.
 - All 18 completed v1.1 adapters are published as six verified seed-scoped GitHub Release bundles under tag `cfe-v11-predicate-policy-research-2026-08-30`; release digests read back and match local bundles.
 - Research-lineage publication policy remains active: every non-heavy material research artifact is Git-tracked; heavy artifacts are published with hashed release bindings; failed/superseded work remains in the chain.
-- v1.2 scientific boundary crossed after remote prelaunch verification. Active PID `13780`; run root `state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z`; first frozen job is seed 2026082901 `COMPOSE_NARROW_BASIS`.
+- v1.2 scientific campaign PID `13780` remains active at run root `state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z`. Seed 2901 is fully paired and sealed; runner has advanced beyond it.
+- Seed 2901: NARROW composed 34/96=0.3542, IDENTIFYING 24/96=0.25; both predicate-direct 24/48=0.50 and one-sided true; both policy-direct 40/48=0.8333. One paired seed only; no disposition.
+- Seed-2901 exact adapters are release-published and digest-verified.
 
 ## Active Constraints
 - Do not restart or overwrite the completed CONTROL training output or the active corrected CONTROL evaluation output.

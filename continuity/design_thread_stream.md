@@ -520,3 +520,11 @@ Timestamp: 2026-08-30 local / 2026-08-31 UTC
 Tags: V12 SCIENTIFIC BOUNDARY CROSSED
 
 After remote verification of prelaunch Git head `09271d85d5b905461f8f847383b5d4a0ff70f4bb`, assistant launched the frozen v1.2 factorized primitive-composition campaign. PID 13780, run root `state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z`, first job seed 2026082901 `COMPOSE_NARROW_BASIS`. No duplicate v1.2 process existed at launch.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30/31
+Tags: V12 SEED2901 SEALED, RESEARCH PUBLICATION
+
+Active v1.2 campaign sealed seed 2026082901. NARROW: predicate 24/48, policy 40/48, composed 34/96; composed false-truth 0/48 and true-truth 34/48. IDENTIFYING: predicate 24/48, policy 40/48, composed 24/96; composed false-truth 0/48 and true-truth 24/48. Identifying-minus-narrow composed delta -0.104167; predicate delta 0. Both arms remain one-sided on predicate. This is one paired seed only and did not alter the frozen campaign. Both exact adapters were bundled and digest-verified on release tag `cfe-v12-factor-primitive-research-2026-08-31`.
