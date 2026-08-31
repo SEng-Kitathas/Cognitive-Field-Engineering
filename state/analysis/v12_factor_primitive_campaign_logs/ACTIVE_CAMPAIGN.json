@@ -1,0 +1,30 @@
+{
+  "pid": 13780,
+  "started_epoch": 1788142451.6476235,
+  "stamp": "20260831T021411Z",
+  "cmd": [
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\tools\\run_v12_factor_primitive_campaign.py",
+    "--project-root",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE",
+    "--candidate",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\candidates\\v12_factor_primitive_composition_20260830",
+    "--contract",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps\\V12_FACTOR_PRIMITIVE_TRAINING_CONTRACT_2026-08-30.json",
+    "--lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\locks\\V12_FACTOR_PRIMITIVE_INPUT_LOCK_2026-08-30.json",
+    "--host-lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V12_FACTOR_PRIMITIVE_RUNTIME_20260830\\HOST_LOCK.json",
+    "--profile-lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V12_FACTOR_PRIMITIVE_REPEATABILITY_20260830\\PROFILE_LOCK.json",
+    "--preexec",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V12_FACTOR_PRIMITIVE_PREEXECUTION_20260830.json",
+    "--out",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z"
+  ],
+  "outroot": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z",
+  "stdout": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\v12_factor_primitive_campaign_logs\\20260831T021411Z.stdout.log",
+  "stderr": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\v12_factor_primitive_campaign_logs\\20260831T021411Z.stderr.log",
+  "scientific_boundary_crossed": true,
+  "prelaunch_git_head": "09271d85d5b905461f8f847383b5d4a0ff70f4bb"
+}

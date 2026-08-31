@@ -1,0 +1,18 @@
+{
+  "pid": 13780,
+  "prelaunch_git_head": "09271d85d5b905461f8f847383b5d4a0ff70f4bb",
+  "receipt": {
+    "input_lock_sha256": "f4cbcb189a23e41d169795f0e6e64f8eec79ea6eeef22a6d509ae01b5d6f5b6d",
+    "jobs": [],
+    "preexec_sha256": "620138de7a594778ba91a6447b5046f1f06a76435ee50d326e8b125a1fc6a1cf",
+    "schema": "cfe.v12.factor-primitive-campaign.v1",
+    "started": 1788142451.7612267,
+    "status": "RUNNING"
+  },
+  "receipt_present": true,
+  "run_root": "state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z",
+  "schema": "cfe.v12.launch-snapshot.v1",
+  "status": "SCIENTIFIC_BOUNDARY_CROSSED",
+  "stderr_path": "state/analysis/v12_factor_primitive_campaign_logs/20260831T021411Z.stderr.log",
+  "stdout_path": "state/analysis/v12_factor_primitive_campaign_logs/20260831T021411Z.stdout.log"
+}

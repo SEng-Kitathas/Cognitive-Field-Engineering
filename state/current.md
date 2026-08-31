@@ -280,3 +280,11 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Input lock SHA `f4cbcb189a23e41d169795f0e6e64f8eec79ea6eeef22a6d509ae01b5d6f5b6d`.
 - No v1.2 scientific trained-arm outcome exists at this snapshot.
 - Direct composed-answer training remains forbidden; factorized primitive composition is authorized under the frozen v1.2 controls.
+
+
+## v1.2 active scientific campaign
+- Scientific boundary crossed only after remote prelaunch head `09271d85d5b905461f8f847383b5d4a0ff70f4bb` was verified.
+- PID `13780`.
+- Run root `state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z`.
+- First frozen job: seed 2026082901 `COMPOSE_NARROW_BASIS`.
+- No duplicate/parallel CFE scientific campaign authorized.

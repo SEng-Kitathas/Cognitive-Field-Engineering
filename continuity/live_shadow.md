@@ -26,6 +26,7 @@
 - Companion portability seal SHA `a099c58fe010996147ae01a897cb54f7604caad2899be5cb012e3f74b993226c`; verifier distinguishes `EXACT_BYTES`, `NORMALIZATION_EQUIVALENT`, `FAIL`, `MISSING`. Normalization equivalence is reproduction provenance only, not original execution authorization.
 - All 18 completed v1.1 adapters are published as six verified seed-scoped GitHub Release bundles under tag `cfe-v11-predicate-policy-research-2026-08-30`; release digests read back and match local bundles.
 - Research-lineage publication policy remains active: every non-heavy material research artifact is Git-tracked; heavy artifacts are published with hashed release bindings; failed/superseded work remains in the chain.
+- v1.2 scientific boundary crossed after remote prelaunch verification. Active PID `13780`; run root `state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z`; first frozen job is seed 2026082901 `COMPOSE_NARROW_BASIS`.
 
 ## Active Constraints
 - Do not restart or overwrite the completed CONTROL training output or the active corrected CONTROL evaluation output.
@@ -51,9 +52,10 @@
 - Continue full research-lineage publication every material turn.
 
 ## Immediate Next Step
-- Push/read back the reconciled v1.2 prelaunch state, including portability seal and final preexecution receipt.
-- Only after remote identity matches, launch the frozen v1.2 factorized primitive-composition campaign as the sole CFE GPU scientific process.
-- Record launch PID/run root immediately and publish the boundary crossing.
+- Inspect only the existing v1.2 campaign PID 13780 / receipt before any future action; never duplicate the runner.
+- Let the frozen factorized primitive-composition campaign advance fail-closed.
+- Publish each sealed non-heavy job artifact and corresponding heavy adapter under the research-lineage policy.
+- On completion, apply preregistered composition truth-side/predicate/policy dispositions before interpretation.
 
 ## Last 10 Turn Reinforcement Window
 1. User asked to continue from the prior CFE work.

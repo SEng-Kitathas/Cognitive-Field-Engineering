@@ -512,3 +512,11 @@ Tags: V11-V12 RECONCILIATION, V12 PORTABILITY SEAL, PREEXECUTION AUTHORIZED
 Assistant detected and resolved an apparent conflict between a later strict v1.1 overlay and the already-preregistered v1.2 factorized primitive-composition branch. The v1.2 prereg was bound to the earlier hostile closeout that already documented one-sided predicate behavior. v1.2 explicitly balances truth support, keeps predicate/policy readouts separate, requires composed improvement on both truth sides, and contains `COMPOSITION_PRESENT_BUT_PREDICATE_UNRESOLVED`. Therefore direct composed-answer training remains blocked, but the factorized zero-shot composition screen remains scientifically admissible. Reconciliation persisted at `state/analysis/V11_V12_BRANCH_RECONCILIATION_2026-08-30.md`.
 
 Before any v1.2 scientific weight outcome, a companion portability seal was created at SHA `39f2ce2d8ea339a07f92fef59024b4385f9219afa097a9550cab17ab956437f7`. Final preexecution gate then passed with status `V12_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`. No v1.2 weights had moved at this snapshot.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30 local / 2026-08-31 UTC
+Tags: V12 SCIENTIFIC BOUNDARY CROSSED
+
+After remote verification of prelaunch Git head `09271d85d5b905461f8f847383b5d4a0ff70f4bb`, assistant launched the frozen v1.2 factorized primitive-composition campaign. PID 13780, run root `state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z`, first job seed 2026082901 `COMPOSE_NARROW_BASIS`. No duplicate v1.2 process existed at launch.
