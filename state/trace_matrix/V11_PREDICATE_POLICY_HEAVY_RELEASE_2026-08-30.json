@@ -1,4 +1,5 @@
 {
+  "adapter_count": 18,
   "bundles": [
     {
       "asset_name": "V11_PREDICATE_POLICY_2026082801_ADAPTERS.zip",
@@ -45,6 +46,98 @@
       ],
       "seed": "2026082802",
       "sha256": "7d138a9c29856bb72efaf8223006250177f85a5f4603ac0d9aecfb886f306971"
+    },
+    {
+      "asset_name": "V11_PREDICATE_POLICY_2026082803_ADAPTERS.zip",
+      "bytes": 251838051,
+      "members": [
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_NARROW_SLICE/train/adapter/adapter_model.safetensors",
+          "sha256": "cffa0e7568e9acb02440fb283cabd0135059dc26bc0442112832017232c88a5a"
+        },
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_model.safetensors",
+          "sha256": "20639fad10f9c4bb72b505166dc7d59eb78d0064e169979fb2d57d9e0876d124"
+        },
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/POLICY_FACTORIZED/train/adapter/adapter_model.safetensors",
+          "sha256": "19300b02f49053ae739db3c68beef83bae8e83d22a32ce71dce12274a7ec6f1c"
+        }
+      ],
+      "seed": "2026082803",
+      "sha256": "3b07eca8ee004da5695d35fa1b05506536bcc346788f4d78b60609345838b615"
+    },
+    {
+      "asset_name": "V11_PREDICATE_POLICY_2026082804_ADAPTERS.zip",
+      "bytes": 251838051,
+      "members": [
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_NARROW_SLICE/train/adapter/adapter_model.safetensors",
+          "sha256": "4f7cc990737ac7fdad637a4509407494ab0b5e42d4e4592d413e713cb29964a2"
+        },
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_model.safetensors",
+          "sha256": "32afc34b1f2166455722bae93aaad1b9cb72499c695a61986c9c3870322b3c57"
+        },
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/POLICY_FACTORIZED/train/adapter/adapter_model.safetensors",
+          "sha256": "af884803556510c2c0dcde12c19304d53f764c45e96857a4322cb3808a72749d"
+        }
+      ],
+      "seed": "2026082804",
+      "sha256": "77bf21c69899dfdf1c7c96a03a09f4f71f2646a4974a777a7c04545edad473c7"
+    },
+    {
+      "asset_name": "V11_PREDICATE_POLICY_2026082805_ADAPTERS.zip",
+      "bytes": 251838051,
+      "members": [
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_NARROW_SLICE/train/adapter/adapter_model.safetensors",
+          "sha256": "a2e02d19de140ac80a823b8de06a543ed3664bbe1da42b75c015853c56c4ea58"
+        },
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_model.safetensors",
+          "sha256": "69b966040dc028a40442400a24d64a66033c0cc9dbb56f3d2628e46de648ce5b"
+        },
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/POLICY_FACTORIZED/train/adapter/adapter_model.safetensors",
+          "sha256": "a115b85a5676e41e7eb812ed7c5ff2381b4c943c986552fb3f55d5f340a2fff7"
+        }
+      ],
+      "seed": "2026082805",
+      "sha256": "f0c25c6f730f66ced92f78baa6ccf5f9208ed626a8d87ee963aa90453d9073eb"
+    },
+    {
+      "asset_name": "V11_PREDICATE_POLICY_2026082806_ADAPTERS.zip",
+      "bytes": 251838051,
+      "members": [
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_NARROW_SLICE/train/adapter/adapter_model.safetensors",
+          "sha256": "933eb358c59eca5eff12d39489b10f9e28fef72d9fcdcbd542b7d3f19c0f499d"
+        },
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_model.safetensors",
+          "sha256": "cff5acf602f4ad5a963b193af5302fa9169a23df431c71cbdc02094a4197a8b2"
+        },
+        {
+          "bytes": 83945296,
+          "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/POLICY_FACTORIZED/train/adapter/adapter_model.safetensors",
+          "sha256": "60bac3646fcbb0bfa33709431db8e783a93e7180634ad9d6407b89a02a64bf43"
+        }
+      ],
+      "seed": "2026082806",
+      "sha256": "56448de46bb241fc5d932c11e1b5e8a1551ef4ef0ab21d7bd245856d5938984f"
     }
   ],
   "release_readback": {
@@ -58,11 +151,32 @@
         "digest": "sha256:7d138a9c29856bb72efaf8223006250177f85a5f4603ac0d9aecfb886f306971",
         "name": "V11_PREDICATE_POLICY_2026082802_ADAPTERS.zip",
         "size": 251838051
+      },
+      {
+        "digest": "sha256:3b07eca8ee004da5695d35fa1b05506536bcc346788f4d78b60609345838b615",
+        "name": "V11_PREDICATE_POLICY_2026082803_ADAPTERS.zip",
+        "size": 251838051
+      },
+      {
+        "digest": "sha256:77bf21c69899dfdf1c7c96a03a09f4f71f2646a4974a777a7c04545edad473c7",
+        "name": "V11_PREDICATE_POLICY_2026082804_ADAPTERS.zip",
+        "size": 251838051
+      },
+      {
+        "digest": "sha256:f0c25c6f730f66ced92f78baa6ccf5f9208ed626a8d87ee963aa90453d9073eb",
+        "name": "V11_PREDICATE_POLICY_2026082805_ADAPTERS.zip",
+        "size": 251838051
+      },
+      {
+        "digest": "sha256:56448de46bb241fc5d932c11e1b5e8a1551ef4ef0ab21d7bd245856d5938984f",
+        "name": "V11_PREDICATE_POLICY_2026082806_ADAPTERS.zip",
+        "size": 251838051
       }
     ],
     "tag": "cfe-v11-predicate-policy-research-2026-08-30",
     "url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v11-predicate-policy-research-2026-08-30"
   },
-  "schema": "cfe.v11.heavy-release-publication.v1",
+  "schema": "cfe.v11.heavy-release-publication.v2",
+  "status": "ALL_18_ADAPTERS_PUBLISHED_AND_DIGEST_VERIFIED",
   "tag": "cfe-v11-predicate-policy-research-2026-08-30"
 }

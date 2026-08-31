@@ -230,3 +230,15 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Paired identifying-minus-narrow: +0.196429 overall; +0.275000 out-of-original-support.
 - POLICY_FACTORIZED: 48/48 = 1.000000.
 - Ceiling: second paired seed only. No mechanism disposition until all six paired predicate seeds seal.
+
+
+## v1.1 final six-seed closeout
+- Campaign COMPLETE: 18/18 jobs; aggregate SHA `3e631f81a5c063fda3fdcf06f26fed8fe9e6de7217ce8e085f8ef161800ccf4d`.
+- Predicate identifying-minus-narrow deltas: +0.4107, +0.1964, +0.2500, +0.1964, -0.0536, +0.0536. Mean +0.1756; 5/6 positive.
+- Mean out-of-original-support delta +0.2417.
+- Preregistered `H_WRONG_BASIS_SUPPORTED` fires.
+- Hostile slice: identifying improves equality +0.6458 and negative slack +0.7014, but hurts +1 overflow -0.6250 and far overflow -0.4479. Therefore broader support improves transfer but does not cleanly recover the strict boundary.
+- POLICY_FACTORIZED = 48/48 on all six seeds; `POLICY_SEPARABLY_LEARNABLE` fires strongly.
+- Final disposition SHA `e9f665d9280917c4383c44eeaec7bc9a38a7eec56e3c529e51ea3444386ed0ae`.
+- All 18 adapters published to release tag `cfe-v11-predicate-policy-research-2026-08-30`, digest verified.
+- Next frozen branch: v1.2 factorized primitive composition with no joint training examples.

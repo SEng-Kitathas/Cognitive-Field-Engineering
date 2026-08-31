@@ -1,0 +1,13 @@
+{
+  "aggregate_sha256": "3e631f81a5c063fda3fdcf06f26fed8fe9e6de7217ce8e085f8ef161800ccf4d",
+  "campaign_jobs": 18,
+  "campaign_receipt_sha256": "29a904d28a9eda8fef72bc814c6c97c4d8f9563ffd7095d8be7a4be378d55e2a",
+  "final_disposition_sha256": "e9f665d9280917c4383c44eeaec7bc9a38a7eec56e3c529e51ea3444386ed0ae",
+  "heavy_release_state_sha256": "1962855ed72837f8e7090de7442ab9a5f392af28cd9e9d3534d9113d5dad5e04",
+  "hostile_closeout_sha256": "1010271f7d244c1a7f8c9450cd9c9b8bdaccb8707643c3d90ea323a9da5fb69f",
+  "schema": "cfe.v11.campaign-completion-snapshot.v1",
+  "status": "FINAL_COMPLETE_SNAPSHOT",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "c4f4d9c5803543e659807ab20dc05aca565839473e8915dd3ba78fe37a31cf10",
+  "v12_prereg_sha256": "e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9"
+}

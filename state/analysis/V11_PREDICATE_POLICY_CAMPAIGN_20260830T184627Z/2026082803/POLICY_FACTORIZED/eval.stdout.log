@@ -1,0 +1,74 @@
+{
+  "candidate_manifest_sha256": "18a846937cce18cef89d48926ebc271817b4ebb3114c45cf13077ab326d4f352",
+  "contract_sha256": "9945f8369f195a2a7796d96c687f5830ee7ff8d85ab1af7bc517d2ac6800ea6f",
+  "dataset": "POLICY_FACTORIZED",
+  "host_lock_sha256": "13379f2d678bdfd8b266f6985808d193c57519924a6c40cd85892ce30900418e",
+  "input_lock_sha256": "f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a",
+  "interpretation_ceiling": [
+    "Evaluation of a preregistered mechanism screen is descriptive until paired-seed aggregate qualification is complete.",
+    "New domain is not independent replication."
+  ],
+  "metrics": {
+    "by_action": {
+      "accept_all": {
+        "accuracy": 1.0,
+        "correct": 24,
+        "json_parse_rate": 1.0,
+        "n": 24
+      },
+      "backpressure_or_fail_explicitly": {
+        "accuracy": 1.0,
+        "correct": 12,
+        "json_parse_rate": 1.0,
+        "n": 12
+      },
+      "drop_oldest_keep_latest": {
+        "accuracy": 1.0,
+        "correct": 12,
+        "json_parse_rate": 1.0,
+        "n": 12
+      }
+    },
+    "by_factor": {
+      "false__latest_state": {
+        "accuracy": 1.0,
+        "correct": 12,
+        "json_parse_rate": 1.0,
+        "n": 12
+      },
+      "false__transactional": {
+        "accuracy": 1.0,
+        "correct": 12,
+        "json_parse_rate": 1.0,
+        "n": 12
+      },
+      "true__latest_state": {
+        "accuracy": 1.0,
+        "correct": 12,
+        "json_parse_rate": 1.0,
+        "n": 12
+      },
+      "true__transactional": {
+        "accuracy": 1.0,
+        "correct": 12,
+        "json_parse_rate": 1.0,
+        "n": 12
+      }
+    },
+    "overall": {
+      "accuracy": 1.0,
+      "correct": 48,
+      "json_parse_rate": 1.0,
+      "n": 48
+    }
+  },
+  "peak_allocated_bytes": 4235145728,
+  "peak_reserved_bytes": 4561305600,
+  "producer_run_manifest_sha256": "12fc07e049f1456e69910717efe53cba39c441f06b7528884929ab88c1d97739",
+  "results_sha256": "51e5f57112db246e53403aaca36d201fcf4b8e65d114145c4e075d0146ed975d",
+  "runtime_seconds": 62.568087100982666,
+  "schema": "cfe.v11.predicate-policy-eval.v1",
+  "seed": 2026082803,
+  "status": "EVALUATION_EXECUTED__SCIENTIFIC_EFFECT_UNQUALIFIED",
+  "task": "POLICY"
+}

@@ -1,0 +1,128 @@
+{
+  "schema": "cfe.v12.factor-primitive-composition-prereg.v1",
+  "status": "FROZEN_DRAFT_BEFORE_ANY_V12_MODEL_OUTCOME",
+  "program_mode": "IDENTIFYING_CFE__COMPOSITION_SPECIALIZATION",
+  "parent_evidence": {
+    "v11_aggregate_sha256": "3e631f81a5c063fda3fdcf06f26fed8fe9e6de7217ce8e085f8ef161800ccf4d",
+    "v11_hostile_closeout_sha256": "1010271f7d244c1a7f8c9450cd9c9b8bdaccb8707643c3d90ea323a9da5fb69f",
+    "v11_predicate_disposition": "H_WRONG_BASIS_SUPPORTED_WITH_RESIDUAL_BOUNDARY_ASYMMETRY",
+    "v11_policy_disposition": "POLICY_SEPARABLY_LEARNABLE",
+    "evidence_ceiling": "local fixed-learner Identifying-CFE mechanism evidence only"
+  },
+  "question": "When predicate and policy primitives are trained separately and the exact composed task is never shown, does an identifying predicate basis improve zero-shot composition into the correct opaque action relative to a narrow under-resolved predicate basis, while policy experience and optimizer-visible mixture are held fixed?",
+  "core_composition": "NUMERIC_STATE -> condition_z; condition_z + mode -> opaque_action; evaluate NUMERIC_STATE + mode -> opaque_action without exposing condition_z",
+  "arms": {
+    "COMPOSE_NARROW_BASIS": {
+      "predicate_margin_pattern_per_block": [0, 1, 0, 1],
+      "policy_stream": "POLICY_Z_FACTORIZED_SHARED",
+      "joint_training_examples": 0
+    },
+    "COMPOSE_IDENTIFYING_BASIS": {
+      "predicate_margin_pattern_per_block": [-3, 0, 1, 3],
+      "policy_stream": "POLICY_Z_FACTORIZED_SHARED",
+      "joint_training_examples": 0
+    }
+  },
+  "policy_interface": {
+    "predicate_output_key": "condition_z",
+    "policy_inputs": ["condition_z", "mode"],
+    "opaque_actions": {
+      "condition_z_false_any_mode": "action_r",
+      "condition_z_true_transactional": "action_s",
+      "condition_z_true_latest_state": "action_t"
+    },
+    "semantic_words_forbidden_in_learner_visible_policy_or_composition_prompts": ["overflow", "backpressure", "drop_oldest", "accept_all"],
+    "reason": "Prevent pretrained action/overflow semantics from carrying the composition."
+  },
+  "training_geometry": {
+    "predicate_sequences_per_arm": 72,
+    "policy_sequences_per_arm": 72,
+    "total_sequences_per_arm": 144,
+    "experiences_per_sequence": 4,
+    "microbatch": 1,
+    "gradient_accumulation_steps": 8,
+    "epochs": 4,
+    "expected_optimizer_steps": 72,
+    "update_field_rule": "Every optimizer window contains exactly 4 predicate sequences and 4 policy sequences; sequence indices/order are paired-identical between arms except predicate contents.",
+    "packing": false,
+    "paired_seed_dataset_order": "exactly identical between arms",
+    "policy_examples": "byte-identical between arms",
+    "predicate_contexts": "paired-identical capacity/incoming contexts between arms",
+    "target_balance": "predicate 2 false / 2 true per block; policy exact 2x2 condition_z x mode factorial per block"
+  },
+  "evaluation": {
+    "fresh_domains_required": true,
+    "no_training_prompt_exact_overlap": true,
+    "margins": [-7, -2, 0, 1, 4, 9],
+    "balanced_condition_truth": "3 false margins / 3 true margins",
+    "readouts": {
+      "PREDICATE_DIRECT": "numeric state -> condition_z",
+      "POLICY_DIRECT": "condition_z + mode -> opaque action",
+      "COMPOSED_ACTION_PRIMARY": "numeric state + mode -> opaque action; condition_z hidden"
+    },
+    "primary_unit": "paired seed/run",
+    "primary_metric": "strict JSON COMPOSED_ACTION accuracy",
+    "mandatory_slices": [
+      "condition_z false",
+      "condition_z true",
+      "equality margin=0",
+      "near positive margin=+1",
+      "far negative margins",
+      "far positive margins",
+      "transactional mode",
+      "latest_state mode",
+      "each opaque action class"
+    ],
+    "interpretation_rule": "Final action accuracy may not be interpreted without the paired predicate-direct and policy-direct readouts."
+  },
+  "baseline_admission": {
+    "timing": "before any v12 trained-arm outcome",
+    "reject_composed_benchmark_if_nf4_accuracy_gte": 0.80,
+    "reject_policy_direct_if_nf4_accuracy_gte": 0.90,
+    "note": "Opaque action labels are intended to preserve learning headroom."
+  },
+  "fresh_seeds": [2026082901, 2026082902, 2026082903, 2026082904, 2026082905, 2026082906],
+  "execution_order": {
+    "2026082901": ["COMPOSE_NARROW_BASIS", "COMPOSE_IDENTIFYING_BASIS"],
+    "2026082902": ["COMPOSE_IDENTIFYING_BASIS", "COMPOSE_NARROW_BASIS"],
+    "2026082903": ["COMPOSE_NARROW_BASIS", "COMPOSE_IDENTIFYING_BASIS"],
+    "2026082904": ["COMPOSE_IDENTIFYING_BASIS", "COMPOSE_NARROW_BASIS"],
+    "2026082905": ["COMPOSE_NARROW_BASIS", "COMPOSE_IDENTIFYING_BASIS"],
+    "2026082906": ["COMPOSE_IDENTIFYING_BASIS", "COMPOSE_NARROW_BASIS"]
+  },
+  "preregistered_dispositions": {
+    "COMPOSITION_BASIS_SUPPORTED": {
+      "requires_all": [
+        "mean paired COMPOSED_ACTION identifying-minus-narrow accuracy delta > 0",
+        "identifying arm wins COMPOSED_ACTION on at least 4 of 6 paired seeds",
+        "identifying arm improves composed accuracy on both condition_z=false and condition_z=true pooled slices",
+        "POLICY_DIRECT mean accuracy >= 0.95 in both arms",
+        "predicate-direct identifying-minus-narrow mean delta > 0"
+      ]
+    },
+    "COMPOSITION_NOT_SUPPORTED": {
+      "trigger_any": [
+        "mean paired COMPOSED_ACTION delta <= 0",
+        "identifying wins fewer than 4 of 6 paired seeds",
+        "apparent composed benefit comes only from one truth side",
+        "policy-direct learning fails the 0.95 mean gate",
+        "predicate-direct identifying advantage disappears"
+      ]
+    },
+    "COMPOSITION_PRESENT_BUT_PREDICATE_UNRESOLVED": {
+      "trigger": "COMPOSED_ACTION improves but predicate-direct remains strongly one-sided across boundary slices",
+      "disposition": "do not promote a clean boundary/compiler law; next work remains predicate-field resolution"
+    },
+    "NEXT_BRANCH_IF_SUPPORTED": "Only after hostile interpretation: design a fresh-domain composition/transfer replication or broader Developmental-CFE ecology step; do not jump automatically to K-dose.",
+    "NEXT_BRANCH_IF_NOT_SUPPORTED": "Do not rescue by tuning. Re-rank update-field/horizon and primitive-interface hypotheses."
+  },
+  "hard_prohibitions": [
+    "No joint numeric-state+mode -> action training example may appear in either arm.",
+    "No condition_z may be supplied in the composed primary evaluation.",
+    "No semantic overflow/action words may appear in opaque policy/composition learner-visible prompts.",
+    "No adaptive seed extension beyond the six frozen seeds.",
+    "No K1/K2/K4 or optimizer-window scientific screen may run in parallel.",
+    "No post-outcome change to margins, prompt contract, action mapping, thresholds, update-field mixture, or evaluation slices.",
+    "No result from this Identifying-CFE specialization may silently redefine Developmental CFE."
+  ]
+}

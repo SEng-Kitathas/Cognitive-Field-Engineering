@@ -4,12 +4,13 @@ Date: 2026-08-29
 Current frontier: live v1.0 first causal screen, Stage 1.
 
 ## Immediate
-1. Inspect active campaign PID 5916 and `CAMPAIGN_RECEIPT.json` before any action.
-2. Continue only through the existing fail-closed campaign runner; never duplicate or overwrite a partial job.
-3. For each frozen job require 36 optimizer steps, sealed adapter/RUN_MANIFEST, then sealed EVAL_MANIFEST.
-4. No adaptive seed, prompt, margin, threshold, profile, optimizer, or order changes after launch.
-5. When all 18 jobs seal, verify aggregate identities and apply preregistered dispositions before hostile interpretation.
-6. Keep K1/K2/K4 and optimizer-window screens parked until this mechanism screen is resolved.
+1. Publish/read back the complete v1.1 six-seed closeout, all non-heavy evidence, and all 18 heavy adapter bindings.
+2. Preserve v1.2 prereg SHA `e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9` remotely before building its candidate.
+3. Build v1.2 candidate with two matched arms: narrow predicate basis vs identifying predicate basis; both receive byte-identical opaque POLICY_Z experience; no joint examples.
+4. Enforce optimizer-window geometry: every accumulation window exactly 4 predicate + 4 policy sequences, same indices/order across arms.
+5. Build fresh direct-predicate, direct-policy, and hidden-interface composed-action evaluations.
+6. Token/burden/overlap/static-hostile audit before NF4 admission; no v1.2 training until new lock/runtime/repeatability pass.
+7. Keep K1/K2/K4 and optimizer-window screens parked.
 
 ## Stage-1 close
 Completed:

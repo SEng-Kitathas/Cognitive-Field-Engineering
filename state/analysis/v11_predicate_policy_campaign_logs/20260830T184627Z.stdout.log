@@ -11,3 +11,565 @@ EVAL 2026082802 PREDICATE_NARROW_SLICE
 TRAIN 6 18 2026082802 POLICY_FACTORIZED
 EVAL 2026082802 POLICY_FACTORIZED
 TRAIN 7 18 2026082803 PREDICATE_NARROW_SLICE
+EVAL 2026082803 PREDICATE_NARROW_SLICE
+TRAIN 8 18 2026082803 PREDICATE_IDENTIFYING_BASIS
+EVAL 2026082803 PREDICATE_IDENTIFYING_BASIS
+TRAIN 9 18 2026082803 POLICY_FACTORIZED
+EVAL 2026082803 POLICY_FACTORIZED
+TRAIN 10 18 2026082804 PREDICATE_IDENTIFYING_BASIS
+EVAL 2026082804 PREDICATE_IDENTIFYING_BASIS
+TRAIN 11 18 2026082804 PREDICATE_NARROW_SLICE
+EVAL 2026082804 PREDICATE_NARROW_SLICE
+TRAIN 12 18 2026082804 POLICY_FACTORIZED
+EVAL 2026082804 POLICY_FACTORIZED
+TRAIN 13 18 2026082805 PREDICATE_NARROW_SLICE
+EVAL 2026082805 PREDICATE_NARROW_SLICE
+TRAIN 14 18 2026082805 PREDICATE_IDENTIFYING_BASIS
+EVAL 2026082805 PREDICATE_IDENTIFYING_BASIS
+TRAIN 15 18 2026082805 POLICY_FACTORIZED
+EVAL 2026082805 POLICY_FACTORIZED
+TRAIN 16 18 2026082806 PREDICATE_IDENTIFYING_BASIS
+EVAL 2026082806 PREDICATE_IDENTIFYING_BASIS
+TRAIN 17 18 2026082806 PREDICATE_NARROW_SLICE
+EVAL 2026082806 PREDICATE_NARROW_SLICE
+TRAIN 18 18 2026082806 POLICY_FACTORIZED
+EVAL 2026082806 POLICY_FACTORIZED
+{
+  "dispositions": {
+    "H_WRONG_BASIS": "SUPPORTED",
+    "POLICY_SEPARABILITY": "LEARNABLE",
+    "next_branch": "JOINT_IDENTIFYING_PREREG_REQUIRED"
+  },
+  "policy": {
+    "seeds": {
+      "2026082801": {
+        "by_action": {
+          "accept_all": {
+            "accuracy": 1.0,
+            "correct": 24,
+            "json_parse_rate": 1.0,
+            "n": 24
+          },
+          "backpressure_or_fail_explicitly": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "drop_oldest_keep_latest": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "by_factor": {
+          "false__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "false__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "overall": {
+          "accuracy": 1.0,
+          "correct": 48,
+          "json_parse_rate": 1.0,
+          "n": 48
+        }
+      },
+      "2026082802": {
+        "by_action": {
+          "accept_all": {
+            "accuracy": 1.0,
+            "correct": 24,
+            "json_parse_rate": 1.0,
+            "n": 24
+          },
+          "backpressure_or_fail_explicitly": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "drop_oldest_keep_latest": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "by_factor": {
+          "false__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "false__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "overall": {
+          "accuracy": 1.0,
+          "correct": 48,
+          "json_parse_rate": 1.0,
+          "n": 48
+        }
+      },
+      "2026082803": {
+        "by_action": {
+          "accept_all": {
+            "accuracy": 1.0,
+            "correct": 24,
+            "json_parse_rate": 1.0,
+            "n": 24
+          },
+          "backpressure_or_fail_explicitly": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "drop_oldest_keep_latest": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "by_factor": {
+          "false__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "false__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "overall": {
+          "accuracy": 1.0,
+          "correct": 48,
+          "json_parse_rate": 1.0,
+          "n": 48
+        }
+      },
+      "2026082804": {
+        "by_action": {
+          "accept_all": {
+            "accuracy": 1.0,
+            "correct": 24,
+            "json_parse_rate": 1.0,
+            "n": 24
+          },
+          "backpressure_or_fail_explicitly": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "drop_oldest_keep_latest": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "by_factor": {
+          "false__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "false__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "overall": {
+          "accuracy": 1.0,
+          "correct": 48,
+          "json_parse_rate": 1.0,
+          "n": 48
+        }
+      },
+      "2026082805": {
+        "by_action": {
+          "accept_all": {
+            "accuracy": 1.0,
+            "correct": 24,
+            "json_parse_rate": 1.0,
+            "n": 24
+          },
+          "backpressure_or_fail_explicitly": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "drop_oldest_keep_latest": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "by_factor": {
+          "false__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "false__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "overall": {
+          "accuracy": 1.0,
+          "correct": 48,
+          "json_parse_rate": 1.0,
+          "n": 48
+        }
+      },
+      "2026082806": {
+        "by_action": {
+          "accept_all": {
+            "accuracy": 1.0,
+            "correct": 24,
+            "json_parse_rate": 1.0,
+            "n": 24
+          },
+          "backpressure_or_fail_explicitly": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "drop_oldest_keep_latest": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "by_factor": {
+          "false__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "false__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__latest_state": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          },
+          "true__transactional": {
+            "accuracy": 1.0,
+            "correct": 12,
+            "json_parse_rate": 1.0,
+            "n": 12
+          }
+        },
+        "overall": {
+          "accuracy": 1.0,
+          "correct": 48,
+          "json_parse_rate": 1.0,
+          "n": 48
+        }
+      }
+    },
+    "summary": {
+      "mean_accuracy": 1.0,
+      "pooled_action_accuracy": {
+        "accept_all": 1.0,
+        "backpressure_or_fail_explicitly": 1.0,
+        "drop_oldest_keep_latest": 1.0
+      },
+      "seed_accuracies": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "seeds_gte_0_90": 6
+    }
+  },
+  "predicate": {
+    "seeds": {
+      "2026082801": {
+        "delta": 0.41071428571428575,
+        "identifying": {
+          "accuracy": 0.8392857142857143,
+          "correct": 47,
+          "json_parse_rate": 1.0,
+          "n": 56
+        },
+        "identifying_out_of_original_support": {
+          "accuracy": 0.95,
+          "correct": 38,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "narrow": {
+          "accuracy": 0.42857142857142855,
+          "correct": 24,
+          "json_parse_rate": 1.0,
+          "n": 56
+        },
+        "narrow_out_of_original_support": {
+          "accuracy": 0.4,
+          "correct": 16,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "out_delta": 0.5499999999999999
+      },
+      "2026082802": {
+        "delta": 0.19642857142857145,
+        "identifying": {
+          "accuracy": 0.625,
+          "correct": 35,
+          "json_parse_rate": 1.0,
+          "n": 56
+        },
+        "identifying_out_of_original_support": {
+          "accuracy": 0.675,
+          "correct": 27,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "narrow": {
+          "accuracy": 0.42857142857142855,
+          "correct": 24,
+          "json_parse_rate": 1.0,
+          "n": 56
+        },
+        "narrow_out_of_original_support": {
+          "accuracy": 0.4,
+          "correct": 16,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "out_delta": 0.275
+      },
+      "2026082803": {
+        "delta": 0.25,
+        "identifying": {
+          "accuracy": 0.6607142857142857,
+          "correct": 37,
+          "json_parse_rate": 1.0,
+          "n": 56
+        },
+        "identifying_out_of_original_support": {
+          "accuracy": 0.725,
+          "correct": 29,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "narrow": {
+          "accuracy": 0.4107142857142857,
+          "correct": 23,
+          "json_parse_rate": 1.0,
+          "n": 56
+        },
+        "narrow_out_of_original_support": {
+          "accuracy": 0.375,
+          "correct": 15,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "out_delta": 0.35
+      },
+      "2026082804": {
+        "delta": 0.19642857142857145,
+        "identifying": {
+          "accuracy": 0.625,
+          "correct": 35,
+          "json_parse_rate": 1.0,
+          "n": 56
+        },
+        "identifying_out_of_original_support": {
+          "accuracy": 0.675,
+          "correct": 27,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "narrow": {
+          "accuracy": 0.42857142857142855,
+          "correct": 24,
+          "json_parse_rate": 1.0,
+          "n": 56
+        },
+        "narrow_out_of_original_support": {
+          "accuracy": 0.4,
+          "correct": 16,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "out_delta": 0.275
+      },
+      "2026082805": {
+        "delta": -0.0535714285714286,
+        "identifying": {
+          "accuracy": 0.625,
+          "correct": 35,
+          "json_parse_rate": 1.0,
+          "n": 56
+        },
+        "identifying_out_of_original_support": {
+          "accuracy": 0.675,
+          "correct": 27,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "narrow": {
+          "accuracy": 0.6785714285714286,
+          "correct": 38,
+          "json_parse_rate": 1.0,
+          "n": 56
+        },
+        "narrow_out_of_original_support": {
+          "accuracy": 0.75,
+          "correct": 30,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "out_delta": -0.07499999999999996
+      },
+      "2026082806": {
+        "delta": 0.0535714285714286,
+        "identifying": {
+          "accuracy": 0.48214285714285715,
+          "correct": 27,
+          "json_parse_rate": 1.0,
+          "n": 56
+        },
+        "identifying_out_of_original_support": {
+          "accuracy": 0.475,
+          "correct": 19,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "narrow": {
+          "accuracy": 0.42857142857142855,
+          "correct": 24,
+          "json_parse_rate": 1.0,
+          "n": 56
+        },
+        "narrow_out_of_original_support": {
+          "accuracy": 0.4,
+          "correct": 16,
+          "json_parse_rate": 1.0,
+          "n": 40
+        },
+        "out_delta": 0.07499999999999996
+      }
+    },
+    "summary": {
+      "mean_delta": 0.1755952380952381,
+      "mean_out_of_original_support_delta": 0.24166666666666667,
+      "positive_seeds": 5,
+      "seed_deltas": [
+        0.41071428571428575,
+        0.19642857142857145,
+        0.25,
+        0.19642857142857145,
+        -0.0535714285714286,
+        0.0535714285714286
+      ]
+    }
+  },
+  "schema": "cfe.v11.predicate-policy-aggregate.v1",
+  "status": "COMPLETE__HOSTILE_INTERPRETATION_REQUIRED"
+}

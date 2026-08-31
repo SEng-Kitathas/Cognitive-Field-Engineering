@@ -450,3 +450,25 @@ Assistant audited live CFE research tree against Git publication. Audit found 82
 Six completed v1.1 adapter payloads were bundled by seed and uploaded to GitHub Release `cfe-v11-predicate-policy-research-2026-08-30`. Seed 2801 bundle 251,838,051 bytes SHA `2fa82f49613c7f675cd8efe5c889ce739c503325a4e9b9bb47b9c44ba5dc3d9d`; seed 2802 bundle 251,838,051 bytes SHA `7d138a9c29856bb72efaf8223006250177f85a5f4603ac0d9aecfb886f306971`. GitHub readback matched both SHA digests. Research publication manifest v2 binds all six heavy adapter paths to those release assets.
 
 Seed 2802 also sealed: narrow predicate 24/56 = 0.4286; identifying predicate 35/56 = 0.6250; policy 48/48 = 1.0. Campaign advanced into seed 2803. Because the active campaign receipt/logs mutate during execution, assistant created an immutable per-turn active-campaign snapshot rather than falsely requiring stable hashes for files being actively written.
+
+---
+
+## Exchange — USER
+Timestamp: 2026-08-30
+Tags: PROCEED, PROJECT-RELEVANT CROSS-PROJECT LESSONS
+
+Operator authorized proceeding as makes the most sense after clarifying that only project-relevant portions of the external HOSTILE_OS discussion matter for CFE.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: V11 COMPLETE, HOSTILE CLOSEOUT, EVIDENCE DOCTRINE, V12 PREREG
+
+Assistant abstracted only transferable process rules into `ACTIVE_EVIDENCE_SCOPE_AND_REPRODUCIBILITY_RULES_2026-08-30.md`: verifier scope must match earned evidence; corrected interpretation does not rewrite history; external report != hash-verified evidence; execution path != artifact identity; artifact package != executable environment. No HOSTILE_OS-specific IRQ/QEMU details were imported into CFE science.
+
+v1.1 predicate/policy campaign was found COMPLETE, 18/18. Aggregate SHA `3e631f81a5c063fda3fdcf06f26fed8fe9e6de7217ce8e085f8ef161800ccf4d`. Preregistered identifying-basis disposition fired: mean paired delta +0.175595, 5/6 positive, mean OOS delta +0.241667. Policy separability fired at 1.0 across all six seeds and action classes. Hostile support analysis found identifying support improves negative slack/equality but harms positive overflow slices, so the result is an improved decision surface rather than clean strict-boundary learning. Final hostile closeout SHA `1010271f7d244c1a7f8c9450cd9c9b8bdaccb8707643c3d90ea323a9da5fb69f`; machine disposition SHA `e9f665d9280917c4383c44eeaec7bc9a38a7eec56e3c529e51ea3444386ed0ae`.
+
+The preregistered next branch was honored by freezing v1.2 factorized primitive composition before any new model outcome. V1.2 trains numeric-state->condition_z and condition_z+mode->opaque_action separately, never shows the composed task, then evaluates numeric-state+mode->opaque_action with condition_z hidden. Both arms share identical policy experience; only predicate basis differs. Prereg SHA `e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9`. No v1.2 scientific training started.
+
+All 18 v1.1 adapter payloads are now available as six seed-scoped bundles on release tag `cfe-v11-predicate-policy-research-2026-08-30`, with GitHub digest readback matching local bundles.

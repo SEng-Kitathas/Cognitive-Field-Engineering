@@ -1,0 +1,60 @@
+{
+  "candidate_manifest_sha256": "18a846937cce18cef89d48926ebc271817b4ebb3114c45cf13077ab326d4f352",
+  "contract_sha256": "9945f8369f195a2a7796d96c687f5830ee7ff8d85ab1af7bc517d2ac6800ea6f",
+  "dataset": "PREDICATE_NARROW_SLICE",
+  "host_lock_sha256": "13379f2d678bdfd8b266f6985808d193c57519924a6c40cd85892ce30900418e",
+  "input_lock_sha256": "f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a",
+  "interpretation_ceiling": [
+    "Evaluation of a preregistered mechanism screen is descriptive until paired-seed aggregate qualification is complete.",
+    "New domain is not independent replication."
+  ],
+  "metrics": {
+    "by_support": {
+      "equality": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "json_parse_rate": 1.0,
+        "n": 8
+      },
+      "far_overflow": {
+        "accuracy": 1.0,
+        "correct": 16,
+        "json_parse_rate": 1.0,
+        "n": 16
+      },
+      "near_overflow": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "json_parse_rate": 1.0,
+        "n": 8
+      },
+      "negative_slack": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "json_parse_rate": 1.0,
+        "n": 24
+      }
+    },
+    "out_of_original_support": {
+      "accuracy": 0.4,
+      "correct": 16,
+      "json_parse_rate": 1.0,
+      "n": 40
+    },
+    "overall": {
+      "accuracy": 0.42857142857142855,
+      "correct": 24,
+      "json_parse_rate": 1.0,
+      "n": 56
+    }
+  },
+  "peak_allocated_bytes": 4238465024,
+  "peak_reserved_bytes": 4561305600,
+  "producer_run_manifest_sha256": "dd01ed1f7e0c2112cccf694048d63f382d7552ed23fd0edba31d2b51d0342218",
+  "results_sha256": "101343743ffd48ea8b25e92208fa3051bce3fd428071ae58cd74637fb282a7b6",
+  "runtime_seconds": 54.44281053543091,
+  "schema": "cfe.v11.predicate-policy-eval.v1",
+  "seed": 2026082804,
+  "status": "EVALUATION_EXECUTED__SCIENTIFIC_EFFECT_UNQUALIFIED",
+  "task": "PREDICATE"
+}

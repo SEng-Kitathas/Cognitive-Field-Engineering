@@ -1,0 +1,55 @@
+{
+  "schema": "cfe.v11.predicate-policy-final-disposition.v1",
+  "status": "FINAL_SIX_SEED_DISPOSITION__HOSTILE_CLOSEOUT_COMPLETE",
+  "aggregate_sha256": "3e631f81a5c063fda3fdcf06f26fed8fe9e6de7217ce8e085f8ef161800ccf4d",
+  "hostile_closeout_sha256": "1010271f7d244c1a7f8c9450cd9c9b8bdaccb8707643c3d90ea323a9da5fb69f",
+  "predicate": {
+    "seed_deltas_identifying_minus_narrow": [
+      0.41071428571428575,
+      0.19642857142857145,
+      0.25,
+      0.19642857142857145,
+      -0.0535714285714286,
+      0.0535714285714286
+    ],
+    "mean_delta": 0.1755952380952381,
+    "median_delta": 0.19642857142857145,
+    "positive_seeds": 5,
+    "negative_seeds": 1,
+    "mean_out_of_original_support_delta": 0.24166666666666667,
+    "descriptive_two_sided_exact_sign_p": 0.21875,
+    "preregistered_disposition": "H_WRONG_BASIS_SUPPORTED",
+    "hostile_correction": "Identifying support improves overall and out-of-original-support accuracy but does not cleanly recover margin>0. It strongly improves negative/equality states while reducing positive-overflow accuracy. Treat as decision-surface improvement, not solved strict-boundary learning."
+  },
+  "policy": {
+    "seed_accuracies": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+    "mean_accuracy": 1.0,
+    "pooled_action_accuracy": {
+      "accept_all": 1.0,
+      "backpressure_or_fail_explicitly": 1.0,
+      "drop_oldest_keep_latest": 1.0
+    },
+    "preregistered_disposition": "POLICY_SEPARABLY_LEARNABLE"
+  },
+  "support_slice_mean_deltas_identifying_minus_narrow": {
+    "equality": 0.6458333333333334,
+    "negative_slack": 0.7013888888888888,
+    "near_overflow_plus1": -0.625,
+    "far_overflow": -0.4479166666666667
+  },
+  "execution_checks": {
+    "jobs_complete": "18/18",
+    "paired_initial_trainable_hash_match": true,
+    "paired_dataset_order_hash_match": true,
+    "narrow_first_mean_delta": 0.20238095238095238,
+    "identifying_first_mean_delta": 0.14880952380952384,
+    "simple_serial_order_explanation_supported": false
+  },
+  "next_branch": {
+    "preregistered_branch": "JOINT_IDENTIFYING_COMPOSITION_SCREEN",
+    "implementation_choice": "factorized primitive composition: train numeric->condition_z and condition_z+mode->opaque_action separately; never train numeric+mode->action; evaluate hidden-interface composition",
+    "v12_prereg_sha256": "e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9",
+    "scientific_training_started": false
+  },
+  "evidence_ceiling": "Prospective local Identifying-CFE evidence that discriminating support geometry materially changes transfer under this fixed learner/compiler/runtime regime. Not a universal CFE law, not Developmental CFE, and not proof of a solved boundary compiler."
+}

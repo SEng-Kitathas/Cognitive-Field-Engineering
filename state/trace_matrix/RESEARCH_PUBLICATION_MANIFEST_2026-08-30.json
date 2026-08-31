@@ -823,9 +823,807 @@
       "surface": "GIT"
     },
     {
-      "bytes": 8879,
+      "bytes": 2216,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/POLICY_FACTORIZED/eval/EVAL_MANIFEST.json",
+      "sha256": "e82f5ee6ab307bf30d0cc6cf5288037a800c882d1fc193009cb414e7aaccb508",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 21416,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/POLICY_FACTORIZED/eval/RESULTS.jsonl",
+      "sha256": "51e5f57112db246e53403aaca36d201fcf4b8e65d114145c4e075d0146ed975d",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 570,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/POLICY_FACTORIZED/eval.stderr.log",
+      "sha256": "fa9c6a5a48b6bf4657b531bdfad3d4ae684b033769f514b131a0de3fde4330f6",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2290,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/POLICY_FACTORIZED/eval.stdout.log",
+      "sha256": "7fa8f7c300fade1edafe04a78be86976bc010b2ebcbca6f29342c51a57113a74",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/POLICY_FACTORIZED/train/adapter/adapter_config.json",
+      "sha256": "1e59d0a32339808e93a402209b3e101192e33bf68ab7aba0efdd804e3ca1072d",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/POLICY_FACTORIZED/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V11_PREDICATE_POLICY_2026082803_ADAPTERS.zip",
+        "bundle_member_sha256": "19300b02f49053ae739db3c68beef83bae8e83d22a32ce71dce12274a7ec6f1c",
+        "bundle_sha256": "3b07eca8ee004da5695d35fa1b05506536bcc346788f4d78b60609345838b615",
+        "release_tag": "cfe-v11-predicate-policy-research-2026-08-30"
+      },
+      "sha256": "19300b02f49053ae739db3c68beef83bae8e83d22a32ce71dce12274a7ec6f1c",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/POLICY_FACTORIZED/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 9064,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/POLICY_FACTORIZED/train/RUN_MANIFEST.json",
+      "sha256": "12fc07e049f1456e69910717efe53cba39c441f06b7528884929ab88c1d97739",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6930,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/POLICY_FACTORIZED/train.stderr.log",
+      "sha256": "483d7fbd1911c75730e0c77fdc742b99eb6a0607cac2330c59f4587ffc943910",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 12918,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/POLICY_FACTORIZED/train.stdout.log",
+      "sha256": "0dbb9560b500718f0abfb0d6bd9da82940faceabaa0aa71a3aa28015ae63eeae",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1903,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_IDENTIFYING_BASIS/eval/EVAL_MANIFEST.json",
+      "sha256": "0e47b69a0328a291b15b4e5ca31f2330a1839538252c4d10f93045c262f74e3a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 24337,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_IDENTIFYING_BASIS/eval/RESULTS.jsonl",
+      "sha256": "5820f053b604ed19236cf292e50002355b53a6625dc9bd292746fa1df7f5b6b1",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 569,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_IDENTIFYING_BASIS/eval.stderr.log",
+      "sha256": "58853abf2e248fc9a39e1f8a586a614749e48448c76a493e70bb6291a450d6eb",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1963,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_IDENTIFYING_BASIS/eval.stdout.log",
+      "sha256": "adb55fd38b9839b081e20c5c34b7f7fdf61444cb7c2c31308361986aa38ca70f",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_config.json",
+      "sha256": "061e72bbf9a10015505fd1a5fdb1af7396c6ebfd82329f055c53d55759d0af28",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V11_PREDICATE_POLICY_2026082803_ADAPTERS.zip",
+        "bundle_member_sha256": "20639fad10f9c4bb72b505166dc7d59eb78d0064e169979fb2d57d9e0876d124",
+        "bundle_sha256": "3b07eca8ee004da5695d35fa1b05506536bcc346788f4d78b60609345838b615",
+        "release_tag": "cfe-v11-predicate-policy-research-2026-08-30"
+      },
+      "sha256": "20639fad10f9c4bb72b505166dc7d59eb78d0064e169979fb2d57d9e0876d124",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_IDENTIFYING_BASIS/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 9044,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_IDENTIFYING_BASIS/train/RUN_MANIFEST.json",
+      "sha256": "545a690cc402b21b7fdd6167c20e8751371baff8b1647c6da2228b601de7f5fa",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6930,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_IDENTIFYING_BASIS/train.stderr.log",
+      "sha256": "2e0fb8298d60309c1edf0916e12bc5ce80238a402b4bf1cd611012aaf4c2474b",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 12869,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_IDENTIFYING_BASIS/train.stdout.log",
+      "sha256": "b4b1a282e45f099a732a6aa945a10da1a38752cce524d290633d2d709d49aebf",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1898,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_NARROW_SLICE/eval/EVAL_MANIFEST.json",
+      "sha256": "70dac9a636309e497b6ffa4364b0132d5b7c0f9684d828e6d17d70a5de0e1ab9",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 24251,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_NARROW_SLICE/eval/RESULTS.jsonl",
+      "sha256": "3c6de3fe9f76d05ac4c10d24448ca933490eb5219ace26775e29732f887f01f0",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 570,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_NARROW_SLICE/eval.stderr.log",
+      "sha256": "bd3ffd8d59333b78e04349b76c393a910a160137a4fd43de4a25c9189649ae33",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1958,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_NARROW_SLICE/eval.stdout.log",
+      "sha256": "bf209620e55853a4a9d6259d5708a71bee18df57ab23c7f65fad2305863b3f05",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_NARROW_SLICE/train/adapter/adapter_config.json",
+      "sha256": "adc9b7b87bcb53969b1f8fc30b22a6cfceee0e0c439d08d04f4790b2134e54e0",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_NARROW_SLICE/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V11_PREDICATE_POLICY_2026082803_ADAPTERS.zip",
+        "bundle_member_sha256": "cffa0e7568e9acb02440fb283cabd0135059dc26bc0442112832017232c88a5a",
+        "bundle_sha256": "3b07eca8ee004da5695d35fa1b05506536bcc346788f4d78b60609345838b615",
+        "release_tag": "cfe-v11-predicate-policy-research-2026-08-30"
+      },
+      "sha256": "cffa0e7568e9acb02440fb283cabd0135059dc26bc0442112832017232c88a5a",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_NARROW_SLICE/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 9032,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_NARROW_SLICE/train/RUN_MANIFEST.json",
+      "sha256": "537859ac7f7628d9d3127b78cab6655b380b88dd494c4ff1e3f8de13bcc482a1",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6930,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_NARROW_SLICE/train.stderr.log",
+      "sha256": "312f31625c07a07b1a4885652a78109e475e583a38a255496bd0df738d1d92f6",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 12849,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082803/PREDICATE_NARROW_SLICE/train.stdout.log",
+      "sha256": "93d653a3826a3f14c26cf5e6778985b39d74df04b02a812c1360fc451f32acd1",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2215,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/POLICY_FACTORIZED/eval/EVAL_MANIFEST.json",
+      "sha256": "3c58701defa2ef77272c616abad5888ee7612990abc80bedc1c4e03985093fe0",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 21416,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/POLICY_FACTORIZED/eval/RESULTS.jsonl",
+      "sha256": "51e5f57112db246e53403aaca36d201fcf4b8e65d114145c4e075d0146ed975d",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 570,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/POLICY_FACTORIZED/eval.stderr.log",
+      "sha256": "51bac22478d9555eeafcaaa68d440937ac209596604d28608e0fa5623448fb9c",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2289,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/POLICY_FACTORIZED/eval.stdout.log",
+      "sha256": "22542944c5d84fc73ed32960f2c36f8dd342e8b3c1e0704c12c953d3a7a60688",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/POLICY_FACTORIZED/train/adapter/adapter_config.json",
+      "sha256": "c1faa8a6b1d0bfd4c528ddd58f111c958a953b7205d68bcef52de553161974f5",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/POLICY_FACTORIZED/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V11_PREDICATE_POLICY_2026082804_ADAPTERS.zip",
+        "bundle_member_sha256": "af884803556510c2c0dcde12c19304d53f764c45e96857a4322cb3808a72749d",
+        "bundle_sha256": "77bf21c69899dfdf1c7c96a03a09f4f71f2646a4974a777a7c04545edad473c7",
+        "release_tag": "cfe-v11-predicate-policy-research-2026-08-30"
+      },
+      "sha256": "af884803556510c2c0dcde12c19304d53f764c45e96857a4322cb3808a72749d",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/POLICY_FACTORIZED/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 9029,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/POLICY_FACTORIZED/train/RUN_MANIFEST.json",
+      "sha256": "3f7a641be04ac9cfa43058779c234edfb4ef1837d9ca185f4e8ad9f3aa998d84",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6930,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/POLICY_FACTORIZED/train.stderr.log",
+      "sha256": "fbd935eb47372d69f679f0856060b59aff55092da5e0e3dc8e07f88aeaf2d666",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 12849,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/POLICY_FACTORIZED/train.stdout.log",
+      "sha256": "294d7903c37683ae3513f468b54df7d55982e317b4b1133401740b605f57d00c",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1891,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_IDENTIFYING_BASIS/eval/EVAL_MANIFEST.json",
+      "sha256": "4baf127056915525f044151a99d695099d4c9d7e358a4ed7572de0ecfcfc91f6",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 24343,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_IDENTIFYING_BASIS/eval/RESULTS.jsonl",
+      "sha256": "e73b2dd27091f8ddfbcd0d09b2e228add4d9043863cb224aba46d64256dd74db",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 570,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_IDENTIFYING_BASIS/eval.stderr.log",
+      "sha256": "e579fad1e8df6594870c93b84b8ce438ab39de18be0bc7772d40de574db9df86",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1951,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_IDENTIFYING_BASIS/eval.stdout.log",
+      "sha256": "25002046016959fccf58c5f68dcb5b4904700c42e400415e921617e27e698ba6",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_config.json",
+      "sha256": "73c521b0f4b6c17f6196b14012b41a703de550f32822c07ad6c230500b5afd83",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V11_PREDICATE_POLICY_2026082804_ADAPTERS.zip",
+        "bundle_member_sha256": "32afc34b1f2166455722bae93aaad1b9cb72499c695a61986c9c3870322b3c57",
+        "bundle_sha256": "77bf21c69899dfdf1c7c96a03a09f4f71f2646a4974a777a7c04545edad473c7",
+        "release_tag": "cfe-v11-predicate-policy-research-2026-08-30"
+      },
+      "sha256": "32afc34b1f2166455722bae93aaad1b9cb72499c695a61986c9c3870322b3c57",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_IDENTIFYING_BASIS/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 9051,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_IDENTIFYING_BASIS/train/RUN_MANIFEST.json",
+      "sha256": "97fb5b2eef766716f9b713c2264e096b0454f848de95585914abdc50569999fa",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6929,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_IDENTIFYING_BASIS/train.stderr.log",
+      "sha256": "d70062a40d327e658545bbd429cfa352af1443c5ed352a5fa20a0e0035cdce22",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 12881,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_IDENTIFYING_BASIS/train.stdout.log",
+      "sha256": "61b527ac47ea12fc1bcbb470884a521eab9416504de22f1579a01c7c40319747",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1894,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_NARROW_SLICE/eval/EVAL_MANIFEST.json",
+      "sha256": "726dd2eae147398347287b3a4a0b0ca21509beda27ddf24c00734ec406253044",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 24248,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_NARROW_SLICE/eval/RESULTS.jsonl",
+      "sha256": "101343743ffd48ea8b25e92208fa3051bce3fd428071ae58cd74637fb282a7b6",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 570,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_NARROW_SLICE/eval.stderr.log",
+      "sha256": "b9074b63ddce73f960e97b6a0e68ab3404f40f4494a2405cb1c55a09894b45dc",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1954,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_NARROW_SLICE/eval.stdout.log",
+      "sha256": "f808df3f2b5df7bf18e9678b7f9b7e55d9341362fa20c6be32f418811eaa96a5",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_NARROW_SLICE/train/adapter/adapter_config.json",
+      "sha256": "06359d4a544a5f2a37f6fae81fde6d7928ac5230a4754931a8f9f311851842f0",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_NARROW_SLICE/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V11_PREDICATE_POLICY_2026082804_ADAPTERS.zip",
+        "bundle_member_sha256": "4f7cc990737ac7fdad637a4509407494ab0b5e42d4e4592d413e713cb29964a2",
+        "bundle_sha256": "77bf21c69899dfdf1c7c96a03a09f4f71f2646a4974a777a7c04545edad473c7",
+        "release_tag": "cfe-v11-predicate-policy-research-2026-08-30"
+      },
+      "sha256": "4f7cc990737ac7fdad637a4509407494ab0b5e42d4e4592d413e713cb29964a2",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_NARROW_SLICE/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 9038,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_NARROW_SLICE/train/RUN_MANIFEST.json",
+      "sha256": "dd01ed1f7e0c2112cccf694048d63f382d7552ed23fd0edba31d2b51d0342218",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6930,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_NARROW_SLICE/train.stderr.log",
+      "sha256": "8f6f0b7c299e89362c831e6240a804ea1b70aba7bf6ed696d5230d1a717d4c08",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 12862,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082804/PREDICATE_NARROW_SLICE/train.stdout.log",
+      "sha256": "4c1ca83f1d4d448c5312d00e31160e49951acee029d39a789fb5e9cf41abd2a2",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2215,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/POLICY_FACTORIZED/eval/EVAL_MANIFEST.json",
+      "sha256": "b8cdf740a8149f51013930a7cc220ec624da180d718dc12a9e613d4a7caa760b",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 21416,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/POLICY_FACTORIZED/eval/RESULTS.jsonl",
+      "sha256": "51e5f57112db246e53403aaca36d201fcf4b8e65d114145c4e075d0146ed975d",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 570,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/POLICY_FACTORIZED/eval.stderr.log",
+      "sha256": "0a96a426ffac9335e90e1c740c2a66c3b8f20fc854b6d0ee645e8e3356880e6c",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2289,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/POLICY_FACTORIZED/eval.stdout.log",
+      "sha256": "56e0549fc70b45755d059926d290077d395a5402736cab1be33467c790db82e4",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/POLICY_FACTORIZED/train/adapter/adapter_config.json",
+      "sha256": "f5d60b91a2d9b5ff7f4febbf29920e44141c343ee6f8e82ef008dde570ff8eea",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/POLICY_FACTORIZED/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V11_PREDICATE_POLICY_2026082805_ADAPTERS.zip",
+        "bundle_member_sha256": "a115b85a5676e41e7eb812ed7c5ff2381b4c943c986552fb3f55d5f340a2fff7",
+        "bundle_sha256": "f0c25c6f730f66ced92f78baa6ccf5f9208ed626a8d87ee963aa90453d9073eb",
+        "release_tag": "cfe-v11-predicate-policy-research-2026-08-30"
+      },
+      "sha256": "a115b85a5676e41e7eb812ed7c5ff2381b4c943c986552fb3f55d5f340a2fff7",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/POLICY_FACTORIZED/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 9044,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/POLICY_FACTORIZED/train/RUN_MANIFEST.json",
+      "sha256": "7998cc64934b79e980286f907c656dee83c97f4db28d42d008ac965f6fd57b1d",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6929,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/POLICY_FACTORIZED/train.stderr.log",
+      "sha256": "f43b9326b4328c3f69670dc3aac80cc759f42887b2ac385f9d60d89157719f99",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 12877,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/POLICY_FACTORIZED/train.stdout.log",
+      "sha256": "3642366759efd8b236c6fd61fbc9144251359c12637ceb00ace0bfd646227f10",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1891,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_IDENTIFYING_BASIS/eval/EVAL_MANIFEST.json",
+      "sha256": "73e902d4bfa6dcf1e0a8b0b9981bb6a45b7b4ee02b1ab8137e67cbaddf21a30c",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 24343,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_IDENTIFYING_BASIS/eval/RESULTS.jsonl",
+      "sha256": "e73b2dd27091f8ddfbcd0d09b2e228add4d9043863cb224aba46d64256dd74db",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 570,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_IDENTIFYING_BASIS/eval.stderr.log",
+      "sha256": "cbd698397a09c7427dcc0f41a512a85b6fa535bd41acffb549dafe12bb1d9684",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1951,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_IDENTIFYING_BASIS/eval.stdout.log",
+      "sha256": "05be07b9d6cd85784a944b6fa2bfc4a4587a151d85888460910c5f0fa4f718c1",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_config.json",
+      "sha256": "95d7fd944f30ec980d5fad1845bec0822216fd1bf9a46fc0ba8d86702b9225f2",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V11_PREDICATE_POLICY_2026082805_ADAPTERS.zip",
+        "bundle_member_sha256": "69b966040dc028a40442400a24d64a66033c0cc9dbb56f3d2628e46de648ce5b",
+        "bundle_sha256": "f0c25c6f730f66ced92f78baa6ccf5f9208ed626a8d87ee963aa90453d9073eb",
+        "release_tag": "cfe-v11-predicate-policy-research-2026-08-30"
+      },
+      "sha256": "69b966040dc028a40442400a24d64a66033c0cc9dbb56f3d2628e46de648ce5b",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_IDENTIFYING_BASIS/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 9037,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_IDENTIFYING_BASIS/train/RUN_MANIFEST.json",
+      "sha256": "9bda8aa4498064e2c495d739d1c1d50bf48b0cd5e7be8f72405b9b0e17dede57",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6930,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_IDENTIFYING_BASIS/train.stderr.log",
+      "sha256": "8b564549e473cdeb77680ba344844a4403d00d300b4cee6731280d2420fdba4a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 12854,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_IDENTIFYING_BASIS/train.stdout.log",
+      "sha256": "94d27424ec34869b4b2618cd09a0f0a58d8e5cc2d32a95a340f7c43c8b4df3e6",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1896,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_NARROW_SLICE/eval/EVAL_MANIFEST.json",
+      "sha256": "127f0832f80cca6e4cbf38a219a002c580c3970640b08d395e84750ba0045e78",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 24334,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_NARROW_SLICE/eval/RESULTS.jsonl",
+      "sha256": "993cc8d4141034c22a6e4a661e334a926930b1a69a30600b70318cc695dbd24c",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 570,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_NARROW_SLICE/eval.stderr.log",
+      "sha256": "33d81b3ca3b0e5a67301b1b63fd2a493c35c3b2808c142b3fa20b976a81d7f76",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1956,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_NARROW_SLICE/eval.stdout.log",
+      "sha256": "7cca29dab41cd98de9d7b95b172e00e620dedb0b4367bcbcd431ff9673ddddc0",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_NARROW_SLICE/train/adapter/adapter_config.json",
+      "sha256": "82f435430042856973afa54f6eae7aca06bfd4e984d509637b75c5ff0279f401",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_NARROW_SLICE/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V11_PREDICATE_POLICY_2026082805_ADAPTERS.zip",
+        "bundle_member_sha256": "a2e02d19de140ac80a823b8de06a543ed3664bbe1da42b75c015853c56c4ea58",
+        "bundle_sha256": "f0c25c6f730f66ced92f78baa6ccf5f9208ed626a8d87ee963aa90453d9073eb",
+        "release_tag": "cfe-v11-predicate-policy-research-2026-08-30"
+      },
+      "sha256": "a2e02d19de140ac80a823b8de06a543ed3664bbe1da42b75c015853c56c4ea58",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_NARROW_SLICE/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 9043,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_NARROW_SLICE/train/RUN_MANIFEST.json",
+      "sha256": "dffb507fb34603d3c76ce384eed603f88358b0c1379359134ea6f6f4368e8524",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6930,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_NARROW_SLICE/train.stderr.log",
+      "sha256": "251816eafdbf76a285f0215b7a6ac8859d2c82d6f8e464769d6c158c3c66b37c",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 12870,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082805/PREDICATE_NARROW_SLICE/train.stdout.log",
+      "sha256": "6a599b0203329e80599c9e520d4feb6d8732d61b0feb759168ca96d1da44a009",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2215,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/POLICY_FACTORIZED/eval/EVAL_MANIFEST.json",
+      "sha256": "e422b163c3617c468b21ef082d142fa2d4c04b9cd96f58a6373f4349c47375be",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 21416,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/POLICY_FACTORIZED/eval/RESULTS.jsonl",
+      "sha256": "51e5f57112db246e53403aaca36d201fcf4b8e65d114145c4e075d0146ed975d",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 570,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/POLICY_FACTORIZED/eval.stderr.log",
+      "sha256": "3a3386a4e0732c006370790d1c11194dd6336b19c960b5b329a58bdd7e29bdf6",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2289,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/POLICY_FACTORIZED/eval.stdout.log",
+      "sha256": "3744a6097e46a03edcb03b658b9b6e7229998e8b5c71476bd65e0b5ca6276c19",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/POLICY_FACTORIZED/train/adapter/adapter_config.json",
+      "sha256": "b20fba4b75a8d0e6becbf1cb46bf9a5ac6cff207ad64289521b976d8b8185640",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/POLICY_FACTORIZED/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V11_PREDICATE_POLICY_2026082806_ADAPTERS.zip",
+        "bundle_member_sha256": "60bac3646fcbb0bfa33709431db8e783a93e7180634ad9d6407b89a02a64bf43",
+        "bundle_sha256": "56448de46bb241fc5d932c11e1b5e8a1551ef4ef0ab21d7bd245856d5938984f",
+        "release_tag": "cfe-v11-predicate-policy-research-2026-08-30"
+      },
+      "sha256": "60bac3646fcbb0bfa33709431db8e783a93e7180634ad9d6407b89a02a64bf43",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/POLICY_FACTORIZED/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 9047,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/POLICY_FACTORIZED/train/RUN_MANIFEST.json",
+      "sha256": "46d284154305ca8c0b946c2928c57bd0dbcf0954f84dea5932972f32cd249803",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6930,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/POLICY_FACTORIZED/train.stderr.log",
+      "sha256": "ed8de6e734701ac0377571b5dbe12110ee3a0d0f4ecb74e8c360e0e85f8a260d",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 12885,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/POLICY_FACTORIZED/train.stdout.log",
+      "sha256": "b49fc7c105529414becd44a5e1e1f2ca3c0011a877f8d296fbc895f8836def9a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1919,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_IDENTIFYING_BASIS/eval/EVAL_MANIFEST.json",
+      "sha256": "e8761e5e5424cd8cde185b54e4198cbf3cf5f49af991019e450cbcdbfcaaaf0e",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 24259,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_IDENTIFYING_BASIS/eval/RESULTS.jsonl",
+      "sha256": "db7884f7da86a12d96dfb54d5db7acd4e20252736c624e9440f7f6891e294776",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 570,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_IDENTIFYING_BASIS/eval.stderr.log",
+      "sha256": "36c6ae9548645c6ab3fb2dce338d293eb396caf3a640a103012fb3dbb47d4d45",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1979,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_IDENTIFYING_BASIS/eval.stdout.log",
+      "sha256": "2d265c70874378e69f331a6b4588eb36a3cc4b12c487bac10901ed23e0be5d2f",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_config.json",
+      "sha256": "d6abc2c4820004b3523e7813ecac9c6092373d591808ab3216d5ca4d66847b28",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_IDENTIFYING_BASIS/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V11_PREDICATE_POLICY_2026082806_ADAPTERS.zip",
+        "bundle_member_sha256": "cff5acf602f4ad5a963b193af5302fa9169a23df431c71cbdc02094a4197a8b2",
+        "bundle_sha256": "56448de46bb241fc5d932c11e1b5e8a1551ef4ef0ab21d7bd245856d5938984f",
+        "release_tag": "cfe-v11-predicate-policy-research-2026-08-30"
+      },
+      "sha256": "cff5acf602f4ad5a963b193af5302fa9169a23df431c71cbdc02094a4197a8b2",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_IDENTIFYING_BASIS/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 9035,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_IDENTIFYING_BASIS/train/RUN_MANIFEST.json",
+      "sha256": "524ea941248a09312eccb2fb61c2eefa8d1672b5ec17d61a2b97bd72a6f16dea",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6930,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_IDENTIFYING_BASIS/train.stderr.log",
+      "sha256": "0d799eee74b7d2453d379bee75f3a7f20eff1d076cd6f41f476f028e82180888",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 12852,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_IDENTIFYING_BASIS/train.stdout.log",
+      "sha256": "d45eac69a10f898010a6916154c36126b8cb6a43684364f9d994b7d3f2373e26",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1894,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_NARROW_SLICE/eval/EVAL_MANIFEST.json",
+      "sha256": "90f7f5e1290989703e9e4b207cad3a1e0294f471a5c5ca0f934f6233f8dffc31",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 24248,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_NARROW_SLICE/eval/RESULTS.jsonl",
+      "sha256": "101343743ffd48ea8b25e92208fa3051bce3fd428071ae58cd74637fb282a7b6",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 570,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_NARROW_SLICE/eval.stderr.log",
+      "sha256": "6a5ba90c5d279cd393f76da9bf25d23b3ebd14c95841d6dcb9ff77d19df572bd",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1954,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_NARROW_SLICE/eval.stdout.log",
+      "sha256": "7dfb2a5197e9050209b5649d4f2aea14d77573b3b1dbe2ef5012c0a1d8d88bc4",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_NARROW_SLICE/train/adapter/adapter_config.json",
+      "sha256": "1e77a963d763153288386119ca791cb962b77d1178b608031cc1c20b0afa85be",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_NARROW_SLICE/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V11_PREDICATE_POLICY_2026082806_ADAPTERS.zip",
+        "bundle_member_sha256": "933eb358c59eca5eff12d39489b10f9e28fef72d9fcdcbd542b7d3f19c0f499d",
+        "bundle_sha256": "56448de46bb241fc5d932c11e1b5e8a1551ef4ef0ab21d7bd245856d5938984f",
+        "release_tag": "cfe-v11-predicate-policy-research-2026-08-30"
+      },
+      "sha256": "933eb358c59eca5eff12d39489b10f9e28fef72d9fcdcbd542b7d3f19c0f499d",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_NARROW_SLICE/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 9035,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_NARROW_SLICE/train/RUN_MANIFEST.json",
+      "sha256": "f9168729883b65627c5e9dc650007f3ba648f49b9e5f62f1d710659f4fd9d191",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6930,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_NARROW_SLICE/train.stderr.log",
+      "sha256": "5025b187337f93358d013d0937ab199a987ff300eea8d8968067b62eb481b0f4",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 12855,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/2026082806/PREDICATE_NARROW_SLICE/train.stdout.log",
+      "sha256": "0dbfa60277ea01f49aba260964c8a661d3092d3229158b82ecdf8c4c712e9d7c",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 13543,
+      "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/AGGREGATE.json",
+      "sha256": "3e631f81a5c063fda3fdcf06f26fed8fe9e6de7217ce8e085f8ef161800ccf4d",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 26169,
       "path": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z/CAMPAIGN_RECEIPT.json",
-      "sha256": "6c4f78c97d2b0b15f9fafce98ed3fa6e90aeda053f598d9c7140295bb1fe1b9a",
+      "sha256": "29a904d28a9eda8fef72bc814c6c97c4d8f9563ffd7095d8be7a4be378d55e2a",
       "surface": "GIT"
     },
     {
@@ -835,15 +1633,27 @@
       "surface": "GIT"
     },
     {
-      "bytes": 562,
+      "bytes": 15639,
       "path": "state/analysis/v11_predicate_policy_campaign_logs/20260830T184627Z.stdout.log",
-      "sha256": "8f8ca66c6ca57937d38381bfa552d739f649a23cfa4387154bbbad35575b4ca7",
+      "sha256": "c4f4d9c5803543e659807ab20dc05aca565839473e8915dd3ba78fe37a31cf10",
       "surface": "GIT"
     },
     {
       "bytes": 1798,
       "path": "state/analysis/v11_predicate_policy_campaign_logs/ACTIVE_CAMPAIGN.json",
       "sha256": "c2f8d908eed29341c37ea251a5626d0b426a715ccfcd40a79713e59309dce4dd",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2761,
+      "path": "state/analysis/V11_PREDICATE_POLICY_FINAL_DISPOSITION_2026-08-30.json",
+      "sha256": "e9f665d9280917c4383c44eeaec7bc9a38a7eec56e3c529e51ea3444386ed0ae",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 7626,
+      "path": "state/analysis/V11_PREDICATE_POLICY_HOSTILE_CLOSEOUT_2026-08-30.md",
+      "sha256": "1010271f7d244c1a7f8c9450cd9c9b8bdaccb8707643c3d90ea323a9da5fb69f",
       "surface": "GIT"
     },
     {
@@ -1111,15 +1921,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 15092,
+      "bytes": 16511,
       "path": "state/current.md",
-      "sha256": "8320bfd74beae21edac14e35eebf2b786246873ad000b42fa68e4c2475e5b289",
+      "sha256": "2e46ea8d685b73a6b4f85f058ddcb35d6cd8d800cad1e327775c7d85e4229c3e",
       "surface": "GIT"
     },
     {
-      "bytes": 30837,
+      "bytes": 34944,
       "path": "state/design_thread_stream.md",
-      "sha256": "73e394d3d3c543e11a1739ab65acd6fd58910bf3a25aa805a398062d0732011a",
+      "sha256": "a024db1cbfc314c5f5f155da1635549a585e98b57ab3982fe5d46c548522ba6e",
       "surface": "GIT"
     },
     {
@@ -1132,6 +1942,12 @@
       "bytes": 2720,
       "path": "state/doctrine_snapshot/ACTIVE_DOCTRINE_1991ISH_PROSE_RULE.md",
       "sha256": "5ea46fd80284eba66ece045aa2af919693e09dcd9f553d6565e51c955162704b",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 3930,
+      "path": "state/doctrine_snapshot/ACTIVE_EVIDENCE_SCOPE_AND_REPRODUCIBILITY_RULES_2026-08-30.md",
+      "sha256": "fc622b62bac1a833f3e60cead55368c3bd987e640c87441a8d9a876cf1269f9a",
       "surface": "GIT"
     },
     {
@@ -1159,9 +1975,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 6592,
+      "bytes": 6783,
       "path": "state/live_shadow.md",
-      "sha256": "a9a90a95eabe063c6a48da9f3fd2175ec5f8e244f3322e6cab71853a6ee0fbfc",
+      "sha256": "c97c14b151184fb008b4873b6d86ade27a55cc42ab1662607cd25bc178ae8263",
       "surface": "GIT"
     },
     {
@@ -1213,9 +2029,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 3187,
+      "bytes": 7035,
+      "path": "state/next_steps/V12_FACTOR_PRIMITIVE_COMPOSITION_PREREG_DRAFT_2026-08-30.json",
+      "sha256": "e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 3417,
       "path": "state/next_steps.md",
-      "sha256": "d04eb1a1d10f25a19f0d7de24e2853fe1b02735331ba9f633caf7161c7c2472b",
+      "sha256": "0ce4120f3cd3a13f57914ea146b7679179440fbc7b41e25723c02ef053c6f3e2",
       "surface": "GIT"
     },
     {
@@ -1339,15 +2161,21 @@
       "surface": "GIT"
     },
     {
-      "bytes": 90776,
-      "path": "state/trace_matrix/RESEARCH_PUBLICATION_MANIFEST_2026-08-30.json",
-      "sha256": "63ab5c928a5dd4953e38a77fdb9f09cd281508aa916eee89dad27ac4552847d0",
+      "bytes": 11862,
+      "path": "state/trace_matrix/ACTIVE_V11_CAMPAIGN_SNAPSHOT_2026-08-30T1531-0400.json",
+      "sha256": "65952945964c3d4dc1a5fada7a710884e525a33a78e77a634379312b63e26ade",
       "surface": "GIT"
     },
     {
-      "bytes": 3027,
+      "bytes": 867,
+      "path": "state/trace_matrix/V11_PREDICATE_POLICY_FINAL_COMPLETION_SNAPSHOT_2026-08-30.json",
+      "sha256": "55eb8ad09debfe7311693fbd6108d2073e84a17fa7819901a1297814e7d3faf4",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 8419,
       "path": "state/trace_matrix/V11_PREDICATE_POLICY_HEAVY_RELEASE_2026-08-30.json",
-      "sha256": "4badce5df8c1c86fcf12ef356dca1f22fb6ea1c70de45d9107b29d552701e7fe",
+      "sha256": "1962855ed72837f8e7090de7442ab9a5f392af28cd9e9d3534d9113d5dad5e04",
       "surface": "GIT"
     },
     {
@@ -2317,9 +3145,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 672,
+      "bytes": 1249,
       "path": "docs/DO_NOT_REINTRODUCE.md",
-      "sha256": "6e6a786587f472f4076d2304b7443275087e2a9fc8a3be61505f66a3d4d2e45e",
+      "sha256": "d3320e51cceec58c60cd67d3f4924e71ca59a8f2f7393678e8dc1a1dc1b863a6",
       "surface": "GIT"
     },
     {
@@ -2347,16 +3175,17 @@
       "surface": "GIT"
     }
   ],
-  "entry_count": 385,
-  "git_entry_count": 379,
-  "heavy_entry_count": 6,
-  "heavy_published_count": 6,
+  "entry_count": 511,
+  "git_entry_count": 493,
+  "heavy_entry_count": 18,
+  "heavy_published_count": 18,
   "heavy_release_tag": "cfe-v11-predicate-policy-research-2026-08-30",
   "laws": [
     "FAILED_ATTEMPT != DISPOSABLE_HISTORY",
     "NOT_IN_NORMAL_GIT != NOT_PUBLISHED",
     "COMPLETE RESEARCH LINEAGE = GIT EVIDENCE + HASHED HEAVY RELEASE SURFACE"
   ],
-  "schema": "cfe.research-publication-manifest.v2",
-  "status": "LIVE_TREE_SNAPSHOT_WITH_RELEASE_BINDINGS"
+  "schema": "cfe.research-publication-manifest.v4",
+  "self_reference_rule": "This manifest intentionally does not include itself in entries; its identity is provided by the Git commit and external SHA readback.",
+  "status": "V11_COMPLETE_PLUS_V12_PREREG_SNAPSHOT"
 }
