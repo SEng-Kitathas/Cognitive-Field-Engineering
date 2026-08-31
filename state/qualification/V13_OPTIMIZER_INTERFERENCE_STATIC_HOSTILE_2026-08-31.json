@@ -1,0 +1,23 @@
+{
+  "bindings": {
+    "candidate_manifest_sha256": "afb37e44a427f8352dac9b50e03503cd96c282c81d44f74759cc69cb9d93ef31",
+    "prereg_sha256": "da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5",
+    "source_v12_candidate_manifest_sha256": "b03b0eca0ecf39554491e787e64a5fae0102bcff7700c81630f66c3005bc1ca1"
+  },
+  "burden": {
+    "global_tokens": 31200,
+    "rows": 144,
+    "supervised_tokens": 4608
+  },
+  "causal_difference": "accumulation-window primitive mixing only",
+  "check_count": 283,
+  "claims_not_authorized": [
+    "optimizer interference effect",
+    "two-sided predicate competence",
+    "composition effect",
+    "Microseed transfer"
+  ],
+  "failures": [],
+  "schema": "cfe.v13.optimizer-interference-static-hostile.v1",
+  "status": "PASS_CANDIDATE__NOT_LOCKED__NOT_TRAINED"
+}

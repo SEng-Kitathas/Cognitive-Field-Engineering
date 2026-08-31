@@ -1,0 +1,68 @@
+{
+  "base_snapshot_manifest_sha256": "0d429d3f6e0fa276fa7bb24c3566ed7ce3856c22230bb58936527f1f15f2bc6d",
+  "base_snapshot_path": "D:\\CFE_HF_CACHE\\models--argilla--CapybaraHermes-2.5-Mistral-7B\\snapshots\\d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+  "hf_repo": "argilla/CapybaraHermes-2.5-Mistral-7B",
+  "hf_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+  "inherited_selected_profile": {
+    "alpha": 16,
+    "dropout": 0.0,
+    "name": "all_linear_r8",
+    "priority": 0,
+    "r": 8,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "input_lock_sha256": "31cc908c415fe3f64d7b396bbd75e8cd3846672bc3e37a82905dcd0ddc1e5489",
+  "laws": [
+    "SAME SOURCE != SAME EXECUTABLE ENVIRONMENT",
+    "OLD PROFILE FIT != NEW LOCK REPEATABILITY",
+    "TOKEN REFERENCE PRESENT != LIVE TOKENIZER MATCH"
+  ],
+  "profile_inheritance_length_gate": true,
+  "runtime_critical": {
+    "bitsandbytes": "0.50.2",
+    "compute_capability": [
+      8,
+      9
+    ],
+    "cuda_available": true,
+    "executable": "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "gpu_total_memory_bytes": 6438780928,
+    "numpy": "2.5.2",
+    "peft": "0.20.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "torch": "2.12.1+cu126",
+    "torch_cuda": "12.6",
+    "transformers": "4.57.6"
+  },
+  "runtime_tokenizer_exact_match": true,
+  "schema": "cfe.v13.optimizer-interference-host-lock.v1",
+  "snapshot_all_files_reverified": true,
+  "snapshot_file_count": 11,
+  "status": "HOST_REVERIFIED__TOKENIZER_REPLAY_PASS__PROFILE_REPEATABILITY_PENDING",
+  "tokenizer_replay": {
+    "POLICY_Z_SHARED": {
+      "max_tokens": 219,
+      "mismatches": 0,
+      "rows": 72
+    },
+    "PREDICATE_IDENTIFYING_V12": {
+      "max_tokens": 217,
+      "mismatches": 0,
+      "rows": 72
+    }
+  },
+  "v12_host_lock_sha256": "672f4884946d61a5175bcf6cd2f7d8d7f78d553427bcf73a0cc16f86ecd8155e",
+  "v12_profile_lock_sha256": "0f1c2a751eda72348dab8d7f037e86e03c8ce911189c29628ebbcc3a6067956e",
+  "v12_qualified_max_tokens": 219,
+  "v13_max_tokens": 219
+}

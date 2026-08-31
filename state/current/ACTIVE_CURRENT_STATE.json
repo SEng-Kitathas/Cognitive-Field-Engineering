@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-08-31T06:20:00-04:00",
+  "as_of": "2026-08-31T06:34:00-04:00",
   "blockers": [],
   "commander_active_binding_sha256": "30090fe63437ea3b0d4306d6782192fa61868a9308475a46992c950324eb3b5f",
   "commander_source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "frontier": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE",
+  "frontier": "V13_PREEXECUTION_QUALIFIED__PRELAUNCH_PUBLICATION_PENDING",
   "mode": "BUILD-COMMIT",
   "role": "R5 Reality Pressure Engine",
   "schema": "cfe.active-current-state.v1",
@@ -13,6 +13,16 @@
     "jobs": "12/12",
     "receipt_sha256": "501dc31c844e17b8ad0c155a69584af0f38756ebc129f030f3de51fc5264586f",
     "status": "COMPLETE"
+  },
+  "v13": {
+    "candidate_manifest_sha256": "afb37e44a427f8352dac9b50e03503cd96c282c81d44f74759cc69cb9d93ef31",
+    "host_lock_sha256": "45b76a3c3cb30ac1fdebac669eef121b34f8fbf2764bcd5df84f28cf3aeaeb67",
+    "input_lock_sha256": "31cc908c415fe3f64d7b396bbd75e8cd3846672bc3e37a82905dcd0ddc1e5489",
+    "preexec_sha256": "4c08e6633c64af2bfd4f5adb9e67a7a099f6f76f52c3d1ce553b039561ad9ed4",
+    "prereg_sha256": "da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5",
+    "profile_lock_sha256": "bdc751bf1391aa45bdfdc57a663b83e6457e28335a9605dd4c1873d379bc4066",
+    "scientific_training_started": false,
+    "status": "V13_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED"
   },
   "v13_prereg_sha256": "da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5"
 }

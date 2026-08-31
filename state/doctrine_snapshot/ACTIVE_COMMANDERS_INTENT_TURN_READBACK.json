@@ -2,15 +2,15 @@
   "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31.md",
   "active_binding_sha256": "30090fe63437ea3b0d4306d6782192fa61868a9308475a46992c950324eb3b5f",
   "alignment": "ALIGNED",
-  "branch": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE",
+  "branch": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE__PREEXECUTION_QUALIFIED",
   "operator_constraints": [
     "CFE must continue beyond minimum viable form",
     "all active decisions/research/intent/continuity surfaces refreshed per substantive turn",
     "Microseed urgency does not graduate CFE"
   ],
-  "reason": "The branch tests how developmental experience is transported into optimizer-visible pressure while keeping the experience multiset fixed. Scheduling is treated as a transport mechanism, not as the definition of CFE.",
+  "reason": "The qualified branch tests transport from an identical experience multiset into different optimizer-visible update fields. It remains a bounded mechanism specialization and does not redefine CFE as scheduling.",
   "schema": "cfe.commander-intent-turn-readback.v1",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T06:20:00-04:00"
+  "timestamp": "2026-08-31T06:34:00-04:00"
 }

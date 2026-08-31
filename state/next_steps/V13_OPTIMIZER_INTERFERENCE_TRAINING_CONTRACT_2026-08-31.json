@@ -1,0 +1,102 @@
+{
+  "schema": "cfe.v13.optimizer-interference-training-contract.v1",
+  "status": "FROZEN_PRE_SCIENTIFIC_TRAINING",
+  "model": {
+    "hf_repo": "argilla/CapybaraHermes-2.5-Mistral-7B",
+    "hf_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+    "base_snapshot_manifest_sha256": "0d429d3f6e0fa276fa7bb24c3566ed7ce3856c22230bb58936527f1f15f2bc6d"
+  },
+  "arms": {
+    "LOCAL_MIXED": {
+      "predicate_dataset": "PREDICATE_IDENTIFYING_V12",
+      "policy_dataset": "POLICY_Z_SHARED",
+      "window_geometry": "every accumulation window has 4 predicate + 4 policy rows"
+    },
+    "WINDOW_SEPARATED": {
+      "predicate_dataset": "PREDICATE_IDENTIFYING_V12",
+      "policy_dataset": "POLICY_Z_SHARED",
+      "window_geometry": "alternating homogeneous accumulation windows: 8 predicate or 8 policy rows"
+    }
+  },
+  "seeds": [2026083101, 2026083102, 2026083103, 2026083104, 2026083105, 2026083106],
+  "execution_order": {
+    "2026083101": ["LOCAL_MIXED", "WINDOW_SEPARATED"],
+    "2026083102": ["WINDOW_SEPARATED", "LOCAL_MIXED"],
+    "2026083103": ["LOCAL_MIXED", "WINDOW_SEPARATED"],
+    "2026083104": ["WINDOW_SEPARATED", "LOCAL_MIXED"],
+    "2026083105": ["LOCAL_MIXED", "WINDOW_SEPARATED"],
+    "2026083106": ["WINDOW_SEPARATED", "LOCAL_MIXED"]
+  },
+  "profile": {
+    "inherit_from_v12_selected_profile": "all_linear_r8",
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.0,
+    "targets": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+    "inheritance_requires": [
+      "same exact base snapshot",
+      "same critical CUDA/runtime identity",
+      "v13 max sequence <= v12 qualified max sequence",
+      "fresh v13 two-run one-step repeatability PASS"
+    ]
+  },
+  "optimization": {
+    "load_in_4bit": true,
+    "bnb_quant_type": "nf4",
+    "bnb_double_quant": true,
+    "compute_dtype": "float16",
+    "attention_backend": "eager",
+    "gradient_checkpointing": true,
+    "optimizer": "paged_adamw_8bit",
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "constant",
+    "weight_decay": 0.0,
+    "max_grad_norm": 1.0,
+    "packing": false,
+    "evaluation_during_training": false,
+    "checkpoint_selection": "none; fixed final step only",
+    "determinism_contract": "FAIL_CLOSED_TORCH_DETERMINISTIC_ALGORITHMS_AND_DEBUG_ERROR"
+  },
+  "sequence": {
+    "predicate_rows": 72,
+    "policy_rows": 72,
+    "rows_per_arm": 144,
+    "global_tokens_per_arm": 31200,
+    "supervised_tokens_per_arm": 4608,
+    "epochs": 4,
+    "microbatch": 1,
+    "gradient_accumulation_steps": 8,
+    "expected_optimizer_steps": 72,
+    "max_seq_len": 512,
+    "shuffle": false,
+    "schedule_seed_xor": "0xCFE13A",
+    "mixed_window_shuffle_xor": "0x13",
+    "window_contract_local_mixed": "18 optimizer windows per epoch; exactly 4 predicate + 4 policy rows per window",
+    "window_contract_separated": "18 optimizer windows per epoch; 9 predicate-only + 9 policy-only windows; alternating primitive type; start type alternates by seed parity",
+    "loss_scope": "assistant content plus <|im_end|>; user/role text excluded"
+  },
+  "evaluation": {
+    "readouts": ["PREDICATE_DIRECT", "POLICY_DIRECT", "COMPOSED_ACTION_PRIMARY"],
+    "predicate_cases": 48,
+    "policy_cases": 48,
+    "composed_cases": 96,
+    "primary_mechanism_metric": "paired direct-predicate balanced accuracy",
+    "secondary_metric": "paired composed-action accuracy",
+    "paired_unit": "seed/run"
+  },
+  "bindings": {
+    "preregistration_sha256": "da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5",
+    "candidate_manifest_sha256": "afb37e44a427f8352dac9b50e03503cd96c282c81d44f74759cc69cb9d93ef31",
+    "static_qualification_sha256": "d372ccae53489fb944364586f6144d117f0567cb73a7448a8601eebd68ffb6b3",
+    "baseline_inheritance_sha256": "b541ee80cc8e4f309e77064fce42544d231f4b5653a2841b9b4809a4c59446fa",
+    "source_v12_baseline_admission_sha256": "b8adf6c257e1a1344c43951a47081f37bfdc0bfdafd4d0747a906057024a866c"
+  },
+  "hard_stops": [
+    "No scientific training before input lock, runtime tokenizer replay, profile binding, and repeatability PASS.",
+    "No change to experience content between arms.",
+    "No joint numeric-state+mode -> action training examples.",
+    "No adaptive seed extension beyond six frozen seeds.",
+    "No post-outcome schedule, prompt, support, optimizer, profile, or evaluation change.",
+    "No K-dose or primitive-interface scientific screen in parallel."
+  ]
+}

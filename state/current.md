@@ -50,5 +50,15 @@ with evidence that identifying support matters, but stable primitive acquisition
 ## Current blocker
 None. Local endpoint is restored.
 
+## v1.3 qualification
+- Candidate manifest SHA `afb37e44a427f8352dac9b50e03503cd96c282c81d44f74759cc69cb9d93ef31`.
+- Static hostile qualification: PASS 283 checks, zero failures.
+- Baseline headroom inherited by exact evaluator identity; receipt SHA `b541ee80cc8e4f309e77064fce42544d231f4b5653a2841b9b4809a4c59446fa`.
+- Input lock SHA `31cc908c415fe3f64d7b396bbd75e8cd3846672bc3e37a82905dcd0ddc1e5489`.
+- Host/runtime reverified; 144/144 training rows tokenizer-exact; host lock SHA `45b76a3c3cb30ac1fdebac669eef121b34f8fbf2764bcd5df84f28cf3aeaeb67`.
+- Fresh two-run repeatability PASS; profile lock SHA `bdc751bf1391aa45bdfdc57a663b83e6457e28335a9605dd4c1873d379bc4066`.
+- Preexecution status `V13_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`; preexec SHA `4c08e6633c64af2bfd4f5adb9e67a7a099f6f76f52c3d1ce553b039561ad9ed4`.
+- No v1.3 scientific trained-arm outcome exists at this snapshot.
+
 ## Resume point
-Publish the reconciled v1.2/v1.3 checkpoint, then build and qualify the frozen v1.3 schedule intervention.
+Publish/read back the exact v1.3 prelaunch package, then launch the frozen six-pair campaign.

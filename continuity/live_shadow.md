@@ -24,6 +24,9 @@
 - v1.2 hostile closeout SHA `8c34140248f0ee5325c3abbbbb507cc7f6a8452e90d6176f132b71b043a69937`; final disposition SHA `3eb15758fa14cd5586d69519736934b0727471f3329603203d09304cfb9fef54`.
 - All 12 v1.2 adapters are published and digest-verified; heavy release state SHA `11835f7471459eb78d705cbaea083ec7470b5ff814f2e1c351fd139d2e65327f`.
 - v1.3 optimizer-visible primitive-interference prereg is frozen before any v1.3 outcome, SHA `da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5`.
+- v1.3 candidate passed 283 static hostile checks; exact burden 31,200/4,608; schedule-only arm difference.
+- v1.3 input lock SHA `31cc908c415fe3f64d7b396bbd75e8cd3846672bc3e37a82905dcd0ddc1e5489`; host lock SHA `45b76a3c3cb30ac1fdebac669eef121b34f8fbf2764bcd5df84f28cf3aeaeb67`; profile lock SHA `bdc751bf1391aa45bdfdc57a663b83e6457e28335a9605dd4c1873d379bc4066`; preexec SHA `4c08e6633c64af2bfd4f5adb9e67a7a099f6f76f52c3d1ce553b039561ad9ed4`.
+- v1.3 runtime/tokenizer replay and fresh repeatability PASS. No v1.3 scientific trained-arm outcome exists yet.
 - v1.3 will rerun both arms on fresh paired seeds; no reuse of v1.2 outcomes as a convenient control.
 
 ## Active Constraints
@@ -51,10 +54,9 @@
 - Microseed language-gate handoff remains pending actual Microseed-side artifact inspection and CFE v1.2/v1.3 frontier packaging.
 
 ## Immediate Next Step
-- Publish/read back this reconciled v1.2 closeout + active Commander binding + v1.3 prereg checkpoint.
-- Build v1.3 schedule implementation and static hostile audit.
-- Qualify exact lock/runtime/repeatability before scientific weight mutation.
-- Launch only after remote prelaunch verification.
+- Publish/read back the exact v1.3 qualified prelaunch package.
+- Launch one frozen v1.3 campaign only after remote head equality is verified.
+- Preserve per-pair lineage and heavy adapters as jobs seal.
 
 ## Last 10 Turn Reinforcement Window
 1. Operator reported Microseed pre-lingual substrate milestone and language-gate pre-research boundary.
@@ -73,4 +75,5 @@
 - Added final v1.2 hostile interpretation and disposition.
 - Added no-MVP maturation constraint and per-turn continuity reconciliation rule.
 - Promoted optimizer-visible primitive interference to the next frozen discriminator.
+- Built and fully qualified the v1.3 schedule-only intervention; scientific start still pending remote prelaunch verification.
 - Refreshed active Commander binding to the current frontier without modifying the original source.

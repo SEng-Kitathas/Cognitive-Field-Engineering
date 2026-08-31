@@ -1,0 +1,101 @@
+{
+  "authorization_scope": "six fresh paired seeds LOCAL_MIXED vs WINDOW_SEPARATED under exact frozen v1.3 contract",
+  "bindings": {
+    "baseline_inheritance_sha256": "b541ee80cc8e4f309e77064fce42544d231f4b5653a2841b9b4809a4c59446fa",
+    "candidate_manifest_sha256": "afb37e44a427f8352dac9b50e03503cd96c282c81d44f74759cc69cb9d93ef31",
+    "host_lock_sha256": "45b76a3c3cb30ac1fdebac669eef121b34f8fbf2764bcd5df84f28cf3aeaeb67",
+    "input_lock_sha256": "31cc908c415fe3f64d7b396bbd75e8cd3846672bc3e37a82905dcd0ddc1e5489",
+    "preregistration_sha256": "da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5",
+    "profile_lock_sha256": "bdc751bf1391aa45bdfdc57a663b83e6457e28335a9605dd4c1873d379bc4066",
+    "repeatability_qualification_sha256": "2ddcaaff9eac0a13b96471bd60c328906ddaca640bd2ba2e0887fe35818df693",
+    "static_qualification_sha256": "d372ccae53489fb944364586f6144d117f0567cb73a7448a8601eebd68ffb6b3",
+    "training_contract_sha256": "0bb1130de69c0d896a457c78ac1ccc7f895bb527e2d71d8cefb68b2692f6b390"
+  },
+  "checks": [
+    {
+      "check": "lock_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "host_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "tokenizer_exact",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "repeatability_pass",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "profile_lock_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "profile_lock_input_binding",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "profile_lock_host_binding",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "static_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "baseline_headroom_admitted",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "contract_prereg_binding",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "contract_candidate_binding",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no_v13_scientific_campaign_exists",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_v13_optimizer_interference_common.py",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_train_v13_optimizer_interference.py",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_evaluate_v13_optimizer_interference.py",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_run_v13_optimizer_interference_campaign.py",
+      "detail": null,
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "hard_stop": "Any locked-byte or runtime-identity drift requires new qualification before training.",
+  "schema": "cfe.v13.optimizer-interference-preexecution.v1",
+  "scientific_difference": "accumulation-window primitive mixing only",
+  "status": "V13_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED"
+}

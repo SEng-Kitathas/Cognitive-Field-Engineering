@@ -1,0 +1,63 @@
+{
+  "host_lock_sha256": "45b76a3c3cb30ac1fdebac669eef121b34f8fbf2764bcd5df84f28cf3aeaeb67",
+  "input_lock_sha256": "31cc908c415fe3f64d7b396bbd75e8cd3846672bc3e37a82905dcd0ddc1e5489",
+  "mismatches": {},
+  "reference_id": "v12policy-000",
+  "reference_tokens": 219,
+  "required_equal_witnesses": [
+    "selected_profile",
+    "initial_trainable_sha256",
+    "post_step_trainable_sha256",
+    "loss_hex",
+    "trainable_parameters"
+  ],
+  "runs": [
+    {
+      "determinism": {
+        "cublas_workspace_config": ":4096:8",
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "deterministic_algorithms": true,
+        "deterministic_debug_mode": 2,
+        "matmul_allow_tf32": false,
+        "numpy_seed": 1125947615,
+        "seed": 91320260831
+      },
+      "initial_trainable_sha256": "6c171d892a778c3caaac53cdf1b394b894f1e27b74c2f619784e6c4a521ac265",
+      "loss": 1.4314098358154297,
+      "loss_hex": "0x1.6e70e00000000p+0",
+      "peak_allocated_bytes": 7687299584,
+      "peak_reserved_bytes": 8101298176,
+      "post_step_trainable_parameters": 20971520,
+      "post_step_trainable_sha256": "687318bb69e5970a30db3c08b014d7ce32839d81fa3bc108c780a9f7d7c2a428",
+      "selected_profile": "all_linear_r8",
+      "tokens": 219,
+      "trainable_parameters": 20971520
+    },
+    {
+      "determinism": {
+        "cublas_workspace_config": ":4096:8",
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "deterministic_algorithms": true,
+        "deterministic_debug_mode": 2,
+        "matmul_allow_tf32": false,
+        "numpy_seed": 1125947615,
+        "seed": 91320260831
+      },
+      "initial_trainable_sha256": "6c171d892a778c3caaac53cdf1b394b894f1e27b74c2f619784e6c4a521ac265",
+      "loss": 1.4314098358154297,
+      "loss_hex": "0x1.6e70e00000000p+0",
+      "peak_allocated_bytes": 7689428480,
+      "peak_reserved_bytes": 8130658304,
+      "post_step_trainable_parameters": 20971520,
+      "post_step_trainable_sha256": "687318bb69e5970a30db3c08b014d7ce32839d81fa3bc108c780a9f7d7c2a428",
+      "selected_profile": "all_linear_r8",
+      "tokens": 219,
+      "trainable_parameters": 20971520
+    }
+  ],
+  "schema": "cfe.v13.optimizer-interference-repeatability.v1",
+  "seed": 91320260831,
+  "status": "REPEATABILITY_PASS"
+}

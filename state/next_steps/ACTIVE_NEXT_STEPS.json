@@ -1,14 +1,11 @@
 {
-  "as_of": "2026-08-31T06:20:00-04:00",
+  "as_of": "2026-08-31T06:34:00-04:00",
   "blocked": [],
   "p0": [
-    "publish reconciled v1.2/v1.3 checkpoint",
-    "build v1.3 schedule implementation",
-    "static hostile audit",
-    "input lock",
-    "runtime/tokenizer/repeatability qualification",
-    "remote prelaunch checkpoint",
-    "run six paired v1.3 seeds"
+    "publish/read back v1.3 prelaunch package",
+    "launch one frozen six-pair v1.3 campaign",
+    "publish sealed pairs/heavy adapters",
+    "apply aggregate dispositions mechanically"
   ],
   "parked": [
     "K-dose until v1.3 closes",

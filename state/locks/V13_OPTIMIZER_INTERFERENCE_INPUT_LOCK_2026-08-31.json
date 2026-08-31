@@ -1,0 +1,107 @@
+{
+  "anchors": {
+    "baseline_inheritance_sha256": "b541ee80cc8e4f309e77064fce42544d231f4b5653a2841b9b4809a4c59446fa",
+    "candidate_manifest_sha256": "afb37e44a427f8352dac9b50e03503cd96c282c81d44f74759cc69cb9d93ef31",
+    "preregistration_sha256": "da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5",
+    "source_v12_baseline_admission_sha256": "b8adf6c257e1a1344c43951a47081f37bfdc0bfdafd4d0747a906057024a866c",
+    "static_qualification_sha256": "d372ccae53489fb944364586f6144d117f0567cb73a7448a8601eebd68ffb6b3",
+    "training_contract_sha256": "0bb1130de69c0d896a457c78ac1ccc7f895bb527e2d71d8cefb68b2692f6b390"
+  },
+  "file_count": 21,
+  "files": {
+    "state/candidates/v13_optimizer_interference_20260831/COMPOSE_EVAL.private.jsonl": {
+      "bytes": 40592,
+      "sha256": "8661422a56186a639397cc39566e0c20dcb451c0e26b282a5c13f437a1456acb"
+    },
+    "state/candidates/v13_optimizer_interference_20260831/MANIFEST.json": {
+      "bytes": 104639,
+      "sha256": "afb37e44a427f8352dac9b50e03503cd96c282c81d44f74759cc69cb9d93ef31"
+    },
+    "state/candidates/v13_optimizer_interference_20260831/POLICY_EVAL.private.jsonl": {
+      "bytes": 14264,
+      "sha256": "da4d15e38c66130c271c860f7374a00933d943ab9dfb470b291f8a8f1225fc47"
+    },
+    "state/candidates/v13_optimizer_interference_20260831/POLICY_Z_SHARED.jsonl": {
+      "bytes": 60768,
+      "sha256": "e5c9915449a07bda8cea8d293aa836da5395d2e6899f919bc984ba9003d32ed7"
+    },
+    "state/candidates/v13_optimizer_interference_20260831/POLICY_Z_SHARED.sidecar.private.jsonl": {
+      "bytes": 32472,
+      "sha256": "0bd9582a64da4cb62c2c8d15b24a4122be6dfdca9ddc9cf65bd2993cc24d54ae"
+    },
+    "state/candidates/v13_optimizer_interference_20260831/POLICY_Z_SHARED.token_reference.private.jsonl": {
+      "bytes": 121608,
+      "sha256": "f8c770be1ea66b712a451b0311c11f8f2e02e84e529920362c70ecde2023387f"
+    },
+    "state/candidates/v13_optimizer_interference_20260831/PREDICATE_EVAL.private.jsonl": {
+      "bytes": 15640,
+      "sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744"
+    },
+    "state/candidates/v13_optimizer_interference_20260831/PREDICATE_IDENTIFYING_V12.jsonl": {
+      "bytes": 59832,
+      "sha256": "d44e507ad80f88ce4d2f25e970062614a1f1a0ba22089c7e5f0402a540f4ef80"
+    },
+    "state/candidates/v13_optimizer_interference_20260831/PREDICATE_IDENTIFYING_V12.sidecar.private.jsonl": {
+      "bytes": 50112,
+      "sha256": "eb3e8b547a9595fe1d9fd88cfda9ccd0905a06a45ba026bf2789018422eaa066"
+    },
+    "state/candidates/v13_optimizer_interference_20260831/PREDICATE_IDENTIFYING_V12.token_reference.private.jsonl": {
+      "bytes": 121152,
+      "sha256": "48e57594b7e90031d7c46838270bc247e5ea9bf6b8c88afc9b6a73b491b383d7"
+    },
+    "state/next_steps/V13_OPTIMIZER_INTERFERENCE_TRAINING_CONTRACT_2026-08-31.json": {
+      "bytes": 4524,
+      "sha256": "0bb1130de69c0d896a457c78ac1ccc7f895bb527e2d71d8cefb68b2692f6b390"
+    },
+    "state/next_steps/V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE_PREREG_2026-08-31.json": {
+      "bytes": 8107,
+      "sha256": "da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5"
+    },
+    "state/qualification/V12_FACTOR_PRIMITIVE_BASELINE_ADMISSION_20260830/ADMISSION.json": {
+      "bytes": 2931,
+      "sha256": "b8adf6c257e1a1344c43951a47081f37bfdc0bfdafd4d0747a906057024a866c"
+    },
+    "state/qualification/V13_BASELINE_INHERITANCE_20260831.json": {
+      "bytes": 3203,
+      "sha256": "b541ee80cc8e4f309e77064fce42544d231f4b5653a2841b9b4809a4c59446fa"
+    },
+    "state/qualification/V13_OPTIMIZER_INTERFERENCE_STATIC_HOSTILE_2026-08-31.json": {
+      "bytes": 806,
+      "sha256": "d372ccae53489fb944364586f6144d117f0567cb73a7448a8601eebd68ffb6b3"
+    },
+    "tools/audit_v13_optimizer_interference_candidate.py": {
+      "bytes": 5587,
+      "sha256": "f2245198e82fe628ccc05dc84ee55293bd694b61523c9543d845c2402f082d83"
+    },
+    "tools/evaluate_v13_optimizer_interference.py": {
+      "bytes": 5655,
+      "sha256": "982df224e214fe64c2328a3ab4f8bd83adecc675cddacd2c9d100b3ee6b5077f"
+    },
+    "tools/lock_v13_optimizer_interference.py": {
+      "bytes": 4024,
+      "sha256": "557391b931282ad59f4360327de0f172df0eef19ea89ce2b1da2b85e0c96b486"
+    },
+    "tools/run_v13_optimizer_interference_campaign.py": {
+      "bytes": 8192,
+      "sha256": "bb7c97d7c86e30f3c23fa01c4aaf2de9fc002a8b9121268f9e4e9a36e4500a0f"
+    },
+    "tools/train_v13_optimizer_interference.py": {
+      "bytes": 7044,
+      "sha256": "657a2d0f4b868ab97c0ae1ad3ab662e21ccc4768192a63ca23eb09b53d1f07a0"
+    },
+    "tools/v13_optimizer_interference_common.py": {
+      "bytes": 3651,
+      "sha256": "136e8c806ce09d1702dadad4c60a7502af402c284aa83e9d2e8b6921ab279d32"
+    }
+  },
+  "laws": [
+    "LOCKED_INPUTS != QUALIFIED_RUNTIME",
+    "SAME EXPERIENCE MULTISET != SAME OPTIMIZER-VISIBLE DEVELOPMENTAL PRESSURE",
+    "LOCK MUTATION REQUIRES NEW IDENTITY"
+  ],
+  "mutation_rule": "Any locked-byte change invalidates this lock and requires new identity/runtime qualification.",
+  "schema": "cfe.v13.optimizer-interference-input-lock.v1",
+  "scientific_difference": "accumulation-window primitive mixing only",
+  "scientific_training_authorized": false,
+  "status": "LOCKED_PRE_RUNTIME__NO_V13_SCIENTIFIC_TRAINING"
+}

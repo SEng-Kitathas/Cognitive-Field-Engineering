@@ -4,14 +4,12 @@ Date: 2026-08-31
 Frontier: v1.2 closed; v1.3 optimizer-visible primitive-interference prereg frozen.
 
 ## Immediate P0
-1. Publish and remote-read-back the v1.2 final closeout, final disposition, complete heavy-release binding, active Commander binding, per-turn reconciliation policy, and v1.3 prereg.
-2. Build v1.3 schedule code with exact shared v1.2 identifying-predicate + policy datasets and evaluations.
-3. Static-audit: exact experience multiset equality, exact token/supervised burden, 18 windows/epoch, 72 optimizer steps, no joint composed-answer training, and schedule-only arm difference.
-4. Freeze input lock.
-5. Reverify base/runtime/tokenizer; run fresh repeatability under v1.3 lock.
-6. Publish/read back prelaunch package.
-7. Run six fresh paired seeds: `LOCAL_MIXED` vs `WINDOW_SEPARATED`.
-8. Apply preregistered interference, two-sided competence, and composition dispositions mechanically.
+1. Publish/read back the fully qualified v1.3 prelaunch package.
+2. Launch exactly one frozen six-pair v1.3 campaign.
+3. Run six fresh paired seeds: `LOCAL_MIXED` vs `WINDOW_SEPARATED`.
+4. Publish each sealed pair and exact adapters under the research-lineage policy.
+5. On 12/12 completion, apply preregistered interference, two-sided competence, and composition dispositions mechanically.
+6. Hostile-close the mechanism before choosing dose/horizon or primitive-interface next branch.
 
 ## If v1.3 weakens local interference
 - Run dose/horizon discriminator next; do not keep rearranging windows.

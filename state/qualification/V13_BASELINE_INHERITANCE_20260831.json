@@ -1,0 +1,108 @@
+{
+  "claims_not_authorized": [
+    "v13 effect",
+    "runtime identity",
+    "scientific training start"
+  ],
+  "evaluation_identity": {
+    "COMPOSE_EVAL.private.jsonl": {
+      "bytes": 40592,
+      "exact": true,
+      "v12_sha256": "8661422a56186a639397cc39566e0c20dcb451c0e26b282a5c13f437a1456acb",
+      "v13_sha256": "8661422a56186a639397cc39566e0c20dcb451c0e26b282a5c13f437a1456acb"
+    },
+    "POLICY_EVAL.private.jsonl": {
+      "bytes": 14264,
+      "exact": true,
+      "v12_sha256": "da4d15e38c66130c271c860f7374a00933d943ab9dfb470b291f8a8f1225fc47",
+      "v13_sha256": "da4d15e38c66130c271c860f7374a00933d943ab9dfb470b291f8a8f1225fc47"
+    },
+    "PREDICATE_EVAL.private.jsonl": {
+      "bytes": 15640,
+      "exact": true,
+      "v12_sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744",
+      "v13_sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744"
+    }
+  },
+  "reason": "The base model, prompts, expected outputs, and evaluator cases are exactly unchanged. Re-running deterministic NF4 base inference would not change the scientific intervention; runtime identity will still be reverified before v1.3 training.",
+  "schema": "cfe.v13.baseline-inheritance.v1",
+  "screen_admitted": true,
+  "source_v12_admission_path": "state/qualification/V12_FACTOR_PRIMITIVE_BASELINE_ADMISSION_20260830/ADMISSION.json",
+  "source_v12_admission_sha256": "b8adf6c257e1a1344c43951a47081f37bfdc0bfdafd4d0747a906057024a866c",
+  "source_v12_metrics": {
+    "COMPOSE": {
+      "accuracy": 0.0,
+      "by_action": {
+        "action_r": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 48
+        },
+        "action_s": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 24
+        },
+        "action_t": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 24
+        }
+      },
+      "by_truth": {
+        "false": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 48
+        },
+        "true": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 48
+        }
+      },
+      "correct": 0,
+      "json_parse_rate": 0.0,
+      "n": 96
+    },
+    "POLICY": {
+      "accuracy": 0.0,
+      "by_action": {
+        "action_r": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 24
+        },
+        "action_s": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 12
+        },
+        "action_t": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 12
+        }
+      },
+      "correct": 0,
+      "json_parse_rate": 0.0,
+      "n": 48
+    },
+    "PREDICATE": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "json_parse_rate": 0.0,
+      "n": 48
+    }
+  },
+  "status": "BASELINE_HEADROOM_INHERITED_BY_EXACT_EVALUATOR_IDENTITY__NO_V13_TRAINED_OUTCOME",
+  "v13_candidate_manifest_sha256": "afb37e44a427f8352dac9b50e03503cd96c282c81d44f74759cc69cb9d93ef31"
+}

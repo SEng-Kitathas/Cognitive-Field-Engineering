@@ -592,3 +592,11 @@ Timestamp: 2026-08-31 06:20 ET
 Tags: V12 CLOSEOUT, V13 PREREG, PER-TURN RECONCILIATION
 
 Control endpoint verified healthy. v1.2 read back COMPLETE 12/12 with aggregate SHA af26fd4b626afddd2bb22445cf276cf3690b5e4352bb96f3b8acddcb0ec0ff20. Preregistered composition basis NOT SUPPORTED: mean identifying-minus-narrow composed delta -0.006944, 2/6 positive seeds, false-side delta -0.104167, true-side +0.090278. Direct policy mean 0.972222 both arms. Predicate remained unstable; seed 2905 identifying reached 0.854167 direct predicate while composing worse than narrow. All 12 v1.2 adapters were release-published and digest-verified. v1.2 hostile closeout and final disposition were created. New active Commander binding 2026-08-31 preserves source intent and adds no-MVP maturation constraint. Per-turn continuity reconciliation policy was created. v1.3 optimizer-visible primitive-interference prereg was frozen before any v1.3 model outcome, using fresh paired seeds and rerunning both arms. Live Shadow, Current, Next Steps, Revisit Ledger, Trace Matrix, and active Commander readback were reconciled to the actual frontier.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-31 06:34 ET
+Tags: V13 QUALIFIED, PRELAUNCH
+
+v1.3 optimizer-visible primitive-interference candidate was built by byte-copying the exact frozen v1.2 identifying-predicate/policy/evaluator artifacts. Static hostile audit passed 283 checks with zero failures. Exact shared burden is 31,200 total tokens and 4,608 supervised tokens. Baseline headroom was inherited by exact evaluator identity from the admitted v1.2 NF4 baseline. A 21-file v1.3 input lock was sealed. Base snapshot and critical runtime identity were reverified; 144/144 training rows replayed exactly through the live tokenizer. Fresh two-run one-step repeatability passed. Final preexecution status is V13_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED. No v1.3 trained-arm output existed at this update.
