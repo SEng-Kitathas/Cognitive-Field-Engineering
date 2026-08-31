@@ -37,3 +37,9 @@ Finish v1.3 unchanged; then hostile closeout and choose next discriminator.
 - Seed3103 complete pair further weakens simple local interference.
 - Seed3104 separated half sealed and published; mixed arm active.
 - Turn shifted chat role to R4 for explanatory synthesis without changing scientific runner.
+
+## Turn delta — 2026-08-31 08:59 Eastern Daylight Time
+- User identified the sci-fi "AI core" analogy: lattice/field geometry carrying attribution, temporal relevance, and causal connection.
+- Verified scientific frontier advanced to 9/12 sealed = 4/6 complete pairs.
+- Seed3104 shows identical one-sided predicate phenotype across arms but different policy/composition phenotypes under different optimizer-visible arrangements.
+- Interpretation locked: program-level geometry intuition strengthened; literal/general AI-core claim remains analogy, not earned fact.

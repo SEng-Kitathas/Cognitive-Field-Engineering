@@ -59,6 +59,26 @@
       ],
       "seed": "2026083103",
       "sha256": "8197dadcba6f774b2c34f0ba057c2aff34a34f7c80d65349227e957bef9b8836"
+    },
+    {
+      "asset_name": "V13_OPTIMIZER_INTERFERENCE_2026083104_ADAPTERS.zip",
+      "bytes": 167892106,
+      "members": [
+        {
+          "arm": "LOCAL_MIXED",
+          "bytes": 83945296,
+          "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083104/LOCAL_MIXED/train/adapter/adapter_model.safetensors",
+          "sha256": "528310b56f0d1558f8c94c0815e58cc259498adb3601d51bdac5551639f01f7c"
+        },
+        {
+          "arm": "WINDOW_SEPARATED",
+          "bytes": 83945296,
+          "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083104/WINDOW_SEPARATED/train/adapter/adapter_model.safetensors",
+          "sha256": "64254737d15b798c73375074bccea392a712949e8682df1e8cbdf356796fc0a3"
+        }
+      ],
+      "seed": "2026083104",
+      "sha256": "29a2a234f2a34dcc68dd68f6f40ee80fce682da467bee542bf7edd5156678461"
     }
   ],
   "partial_bundles": [
@@ -107,6 +127,22 @@
       },
       "seed": "2026083104",
       "sha256": "df6375a5b0d31f659a4b43bd1591d15a8348ec5cd65cfc66d6b102033e5f941b",
+      "status": "SUPERSEDED_FOR_ACTIVE_MAPPING_BY_FULL_PAIR_BUNDLE",
+      "superseded_by_asset": "V13_OPTIMIZER_INTERFERENCE_2026083104_ADAPTERS.zip"
+    },
+    {
+      "arm": "LOCAL_MIXED",
+      "asset_name": "V13_OPTIMIZER_INTERFERENCE_2026083105_LOCAL_MIXED_PARTIAL.zip",
+      "bytes": 83946216,
+      "member": {
+        "arm": "LOCAL_MIXED",
+        "bytes": 83945296,
+        "pair_status": "MATE_NOT_SEALED_AT_PUBLICATION",
+        "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/train/adapter/adapter_model.safetensors",
+        "sha256": "abb00826d13c4220d773860fc3fc80bc09426def3ed44e64b2400f2e8ac84a49"
+      },
+      "seed": "2026083105",
+      "sha256": "b267ce5ba27a8063f66a5ad2f8bb22124dac18132f71ad9d75394d96c8030f54",
       "status": "ACTIVE_PARTIAL__MATE_NOT_SEALED"
     }
   ],
@@ -138,9 +174,19 @@
         "size": 83946216
       },
       {
+        "digest": "sha256:29a2a234f2a34dcc68dd68f6f40ee80fce682da467bee542bf7edd5156678461",
+        "name": "V13_OPTIMIZER_INTERFERENCE_2026083104_ADAPTERS.zip",
+        "size": 167892106
+      },
+      {
         "digest": "sha256:df6375a5b0d31f659a4b43bd1591d15a8348ec5cd65cfc66d6b102033e5f941b",
         "name": "V13_OPTIMIZER_INTERFERENCE_2026083104_WINDOW_SEPARATED_PARTIAL.zip",
         "size": 83946241
+      },
+      {
+        "digest": "sha256:b267ce5ba27a8063f66a5ad2f8bb22124dac18132f71ad9d75394d96c8030f54",
+        "name": "V13_OPTIMIZER_INTERFERENCE_2026083105_LOCAL_MIXED_PARTIAL.zip",
+        "size": 83946216
       }
     ],
     "tag": "cfe-v13-optimizer-interference-research-2026-08-31",

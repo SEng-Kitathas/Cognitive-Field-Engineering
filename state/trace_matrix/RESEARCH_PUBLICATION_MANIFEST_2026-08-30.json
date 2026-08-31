@@ -3013,6 +3013,42 @@
       "surface": "GIT"
     },
     {
+      "bytes": 570,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083104/LOCAL_MIXED/eval.stderr.log",
+      "sha256": "d285e50f1df330eb56b96da8655175cae28bd29782de795127260378261ac763",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 5418,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083104/LOCAL_MIXED/eval.stdout.log",
+      "sha256": "9ca86216f8fc65c628ab5291fec6bcf24ed4e2bd4deb50167a70a6ea15164b3c",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 49958,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083104/LOCAL_MIXED/eval/COMPOSED_ACTION_PRIMARY.jsonl",
+      "sha256": "b7a1805e98320ea85d1a0174b6e448e292bbc6fd5b3ac85e601abd615824027c",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 5217,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083104/LOCAL_MIXED/eval/EVAL_MANIFEST.json",
+      "sha256": "517da431838b94f8b62e6023b44a08ab7a090fa613468cdc5626e46e7bbc4fa1",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 18920,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083104/LOCAL_MIXED/eval/POLICY_DIRECT.jsonl",
+      "sha256": "7d17f14825907c094b73f8e34d7d2cc44c75454b1295d235e8c7eae1c34be2d2",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 20224,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083104/LOCAL_MIXED/eval/PREDICATE_DIRECT.jsonl",
+      "sha256": "78c662e48b3d7304496a7854223efca5422913c496a23e7f66b7ef2e53647969",
+      "surface": "GIT"
+    },
+    {
       "bytes": 13070,
       "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083104/LOCAL_MIXED/train.stderr.log",
       "sha256": "70306bf5c485232b0d35c7cf687cbed43bde68059f6c521909a970298d6dae99",
@@ -3109,9 +3145,117 @@
       "surface": "GIT"
     },
     {
-      "bytes": 3421,
+      "bytes": 569,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/eval.stderr.log",
+      "sha256": "380df2503dc41c993e54908fb630f1c8e5315a3550280244c097dae5afe5b9b1",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 5550,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/eval.stdout.log",
+      "sha256": "43c2c00b8f5b36b190928bdb9b3e02986795e4dfb6094ce9c43dbc800a407dea",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 49948,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/eval/COMPOSED_ACTION_PRIMARY.jsonl",
+      "sha256": "bd18663bad26195ae0a6a68ed73e932d6b701a9eda9424a9bf5730a11fc3f365",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 5349,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/eval/EVAL_MANIFEST.json",
+      "sha256": "75abd93b2c573b90500a0d8a14c6a5088d329b7d613e3f1b44469ed5febc54e8",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 18920,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/eval/POLICY_DIRECT.jsonl",
+      "sha256": "7d17f14825907c094b73f8e34d7d2cc44c75454b1295d235e8c7eae1c34be2d2",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 20138,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/eval/PREDICATE_DIRECT.jsonl",
+      "sha256": "beb3903a8f4666ed085af763ed31ba1dee892c281ee07f65c7398e2955a88ad3",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 13070,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/train.stderr.log",
+      "sha256": "9bb87657b4e74998db295da9d859167214019630409c4382fe4bf090a980d226",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 26916,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/train.stdout.log",
+      "sha256": "c725f636b61b95f66382b6bfd9607b9c50afe1615431f99764f565582aa4c7c1",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 19069,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/train/RUN_MANIFEST.json",
+      "sha256": "8f604344b294f287abc08e87e8f74dc43ca0a18de1c7450545cdff73c2f6685e",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/train/adapter/adapter_config.json",
+      "sha256": "f9f5bc19bb318c204445a8f4ddd80470797be2756cd0deb24d8bd6ac1d95566a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 18920,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/WINDOW_SEPARATED/eval/POLICY_DIRECT.jsonl",
+      "sha256": "7d17f14825907c094b73f8e34d7d2cc44c75454b1295d235e8c7eae1c34be2d2",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 20133,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/WINDOW_SEPARATED/eval/PREDICATE_DIRECT.jsonl",
+      "sha256": "fdfda48974c7277a91ee9cb62cf6b1c085f4944cd2fc03cb805050c38acd14e4",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 13070,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/WINDOW_SEPARATED/train.stderr.log",
+      "sha256": "5fcdd77a89f9344392dfef4520869cea87893dfcc478e0f0aa9be732208a1b73",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 26948,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/WINDOW_SEPARATED/train.stdout.log",
+      "sha256": "7112faaa1ee44a59184b3146af8a871247ea466305dc1a8a7f408c6a8618a942",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 19096,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/WINDOW_SEPARATED/train/RUN_MANIFEST.json",
+      "sha256": "a308df363660b1b962cfde3062f032d12764988fcfbe1208b50c24e0e5fe4307",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/WINDOW_SEPARATED/train/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/WINDOW_SEPARATED/train/adapter/adapter_config.json",
+      "sha256": "4a21a94d93c3d00f230690cb04eecc2c2eb31242305a55b77be49f669e83a5b7",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 4321,
       "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/CAMPAIGN_RECEIPT.json",
-      "sha256": "8e1129dc7f2b6b5f607d70eedaed07d771d027963a08dc15c7690a366b05c8a7",
+      "sha256": "ab58ff0dd798c15548c1bfe5eb9f9e3986d6318b62be8f7ff35f8ee8ef5cff46",
       "surface": "GIT"
     },
     {
@@ -3235,9 +3379,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 552,
+      "bytes": 691,
       "path": "state/analysis/v13_optimizer_interference_campaign_logs/campaign_20260831T103505Z.stdout.log",
-      "sha256": "ed006720a1cc6f29937b7ce6ea5be9f567b09533262204083c58e702ff6c8b1b",
+      "sha256": "fe55e1e42468a35637ff05de4c96964120b8eef9c846d003eb86f164615808a7",
       "surface": "GIT"
     },
     {
@@ -3649,9 +3793,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1888,
+      "bytes": 2290,
       "path": "state/current.md",
-      "sha256": "1a2f5e9f95ad9ccd9b807fcc1323fc0fde8b65fe142d93fadba80d2d42cc81db",
+      "sha256": "1d19bf1fdcbea815ce2ff99d0e5711bda8b503f6e00e6ed14a3eff0932bd0b76",
       "surface": "GIT"
     },
     {
@@ -3667,9 +3811,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 52743,
+      "bytes": 53623,
       "path": "state/design_thread_stream.md",
-      "sha256": "620963d8a6e680bdf0921b60279f29597a5590a26f10a4a9c393e82d5e19ed62",
+      "sha256": "b8f375c1fdecb23b8ffda68c552eb1035803a55fc5094f157bc28d7d30a6c90e",
       "surface": "GIT"
     },
     {
@@ -3721,9 +3865,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1063,
+      "bytes": 15579,
+      "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0859-04-00.md",
+      "sha256": "9651c9fff558191683e2e01f99227e8ea4bb9fd4995aae1d4ed54391735d5c41",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1889,
       "path": "state/doctrine_snapshot/ACTIVE_COMMANDERS_INTENT_TURN_READBACK.json",
-      "sha256": "02310da390ccdf33cff7bf6cecc99ac320db5753470b7d00f01a9a620d6d9762",
+      "sha256": "f62134e2335fe9d9ed42713979a870405d186ad3a0f73e26b0bbef0e0d930f46",
       "surface": "GIT"
     },
     {
@@ -3733,9 +3883,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1289,
+      "bytes": 1557,
       "path": "state/doctrine_snapshot/ACTIVE_DOCTRINE_FRONTIER.md",
-      "sha256": "56eba73354149e722b4f9000164022eadf47d0c879b6883244f5476792b721d3",
+      "sha256": "11964674f9537d88b9b0e8fc2676bf378963410fb3dc56a981aab1fd1cd3e98f",
       "surface": "GIT"
     },
     {
@@ -3769,9 +3919,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 2015,
+      "bytes": 2583,
       "path": "state/live_shadow.md",
-      "sha256": "64151d04bb0a12d568cc329677e0ec821d10d9f7c06ee7070b643f516dec4f12",
+      "sha256": "9323b0958156652a9289de7421be7071840860a3fa97c9cce1733ff93d47c561",
       "surface": "GIT"
     },
     {
@@ -4111,15 +4261,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 756,
+      "bytes": 935,
       "path": "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md",
-      "sha256": "7dd493d9e5b6f0d607235dbf5ccb5dba0d636fe4d5620eb3f28e017b4ff36037",
+      "sha256": "a1eec423817ec9037fdcb36518216d6385b448187ce66b9994dcac5efb0f9f6d",
       "surface": "GIT"
     },
     {
-      "bytes": 970,
+      "bytes": 1378,
       "path": "state/trace_matrix/ACTIVE_TRACE_MATRIX.md",
-      "sha256": "1172484852d4639666f0c2746ed42dce2adf02bb789866f70d2329eb1720763f",
+      "sha256": "0244c606158179e007e2425cb80fa59ccee8751b978673ee0c7b973fed39783d",
       "surface": "GIT"
     },
     {
@@ -4183,9 +4333,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 6751,
+      "bytes": 8866,
       "path": "state/trace_matrix/V13_OPTIMIZER_INTERFERENCE_HEAVY_RELEASE_2026-08-31.json",
-      "sha256": "b6fb2cd90cf532b9ad2c94a1e5b59cd79cb42602263cf72c2bb9d80757b2b5e7",
+      "sha256": "58ad2ef9d23dbe9dc1fedf1234cc1027c683bea90c77c1c8f32c6358109f73c4",
       "surface": "GIT"
     },
     {
@@ -4240,6 +4390,12 @@
       "bytes": 4077,
       "path": "state/trace_matrix/turn_reconciliation/2026-08-31T0828-04-00.json",
       "sha256": "1ac98f6f3b2cd081263c2729a45c410d1b91912387bfced8e48e22adaab08877",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1950,
+      "path": "state/trace_matrix/turn_reconciliation/2026-08-31T0859-04-00.json",
+      "sha256": "8c7222e42b22dec641858fc45331ce89919db42cdbb9df4698ee97bbfa596432",
       "surface": "GIT"
     },
     {
@@ -5414,6 +5570,19 @@
     },
     {
       "bytes": 83945296,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083104/LOCAL_MIXED/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V13_OPTIMIZER_INTERFERENCE_2026083104_ADAPTERS.zip",
+        "asset_sha256": "29a2a234f2a34dcc68dd68f6f40ee80fce682da467bee542bf7edd5156678461",
+        "member_sha256": "528310b56f0d1558f8c94c0815e58cc259498adb3601d51bdac5551639f01f7c",
+        "publication_status": "PUBLISHED_FULL_PAIR",
+        "release_tag": "cfe-v13-optimizer-interference-research-2026-08-31"
+      },
+      "sha256": "528310b56f0d1558f8c94c0815e58cc259498adb3601d51bdac5551639f01f7c",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
       "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083104/WINDOW_SEPARATED/train/adapter/adapter_model.safetensors",
       "publication": {
         "asset_name": "V13_OPTIMIZER_INTERFERENCE_2026083104_WINDOW_SEPARATED_PARTIAL.zip",
@@ -5424,12 +5593,25 @@
       },
       "sha256": "64254737d15b798c73375074bccea392a712949e8682df1e8cbdf356796fc0a3",
       "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083105/LOCAL_MIXED/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V13_OPTIMIZER_INTERFERENCE_2026083105_LOCAL_MIXED_PARTIAL.zip",
+        "asset_sha256": "b267ce5ba27a8063f66a5ad2f8bb22124dac18132f71ad9d75394d96c8030f54",
+        "member_sha256": "abb00826d13c4220d773860fc3fc80bc09426def3ed44e64b2400f2e8ac84a49",
+        "publication_status": "PUBLISHED_PARTIAL_PAIR_MATE_PENDING",
+        "release_tag": "cfe-v13-optimizer-interference-research-2026-08-31"
+      },
+      "sha256": "abb00826d13c4220d773860fc3fc80bc09426def3ed44e64b2400f2e8ac84a49",
+      "surface": "HEAVY_RELEASE"
     }
   ],
-  "entry_count": 861,
-  "git_entry_count": 824,
-  "heavy_entry_count": 37,
-  "heavy_published_count": 37,
+  "entry_count": 889,
+  "git_entry_count": 850,
+  "heavy_entry_count": 39,
+  "heavy_published_count": 39,
   "laws": [
     "FRESH ACTIVE STATE != REWRITTEN HISTORY",
     "FAILED ATTEMPT != DISPOSABLE HISTORY",
@@ -5438,6 +5620,6 @@
   ],
   "schema": "cfe.research-publication-manifest.v9",
   "self_reference_rule": "manifest excluded from own entries",
-  "status": "V13_ACTIVE_CAMPAIGN__7_OF_12_SEALED__PER_TURN_RECONCILED",
+  "status": "V13_ACTIVE_CAMPAIGN__9_OF_12_SEALED__PER_TURN_RECONCILED",
   "unpublished_heavy_count": 0
 }

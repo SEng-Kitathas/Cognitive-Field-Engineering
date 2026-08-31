@@ -12,3 +12,7 @@ As of: 2026-08-31 08:28 Eastern Daylight Time
 | Curator decomposition may differ from learner decomposition | v1.2-v1.3 dissociation | candidate law, unproven |
 | CFE is mature predictive engineering | no evidence yet | not earned |
 | CFE program remains viable | repeated mechanism-specific effects + falsifiable next branches | provisional but strengthening as research program |
+
+| Geometry matters at program level | v1.0 matched-content arrangement effects + v1.1 support geometry + v1.3 seed3104 phenotype divergence | bounded load-bearing interpretation |
+| Any chosen geometry is beneficial | repeated sign reversals across v1.0-v1.3 | rejected |
+| AI core analogy | architecture-level analogy to persistent structured developmental field | explanatory only, not scientific claim |

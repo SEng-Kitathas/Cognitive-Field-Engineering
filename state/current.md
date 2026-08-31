@@ -33,3 +33,9 @@ None.
 
 ## Resume point
 Keep PID `23156` only; finish seed3104 LOCAL_MIXED, then seeds3105-3106 unchanged.
+
+## Turn update — 2026-08-31 08:59 Eastern Daylight Time
+- v1.3 advanced to 9/12 sealed = 4/6 complete pairs.
+- Seed3104 separation deltas: predicate +0.0000, policy -0.5000, composition -0.0417.
+- Seed3105 LOCAL_MIXED sealed: predicate 0.7083, policy 1.0000, composition 0.5417; mate pending.
+- Program interpretation: geometry/arrangement matters, but no single geometry is universally beneficial.

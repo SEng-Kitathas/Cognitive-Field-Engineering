@@ -11,3 +11,5 @@ As of: 2026-08-31 08:28 Eastern Daylight Time
 | P1 | Richer predicate-field resolution | open | next branch ranking after v1.3 |
 | P1 | Developmental-CFE ecology | open broader frontier | later explicit ecology prereg |
 | P1 | Microseed transfer | unverified | Microseed-side evidence |
+
+- P0: determine which geometry dimensions are causal vs merely correlated: attribution edges, temporal order, causal/consequence links, optimizer-visible grouping, dose/horizon.

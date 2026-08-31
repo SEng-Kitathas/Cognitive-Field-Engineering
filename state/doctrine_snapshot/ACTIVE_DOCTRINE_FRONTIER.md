@@ -23,3 +23,7 @@ Scientific mode: BUILD-COMMIT | Chat mode: DISCUSSION
 
 ## Evidence ceiling
 Learner-visible experience arrangement has produced reproducible, relation-dependent behavioral effects in the current fixed-learner regime; whether those effects generalize into a broader CFE law remains unresolved.
+
+## Turn delta
+- Arrangement/lattice geometry is now explicitly interpreted as typed relational-temporal-causal geometry, not Euclidean shape.
+- Seed3104: identical predicate readout but policy/composition divergence under arrangement change strengthens this framing.
