@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-31T11:00:41-04:00",
+  "as_of": "2026-08-31T11:02:14-04:00",
   "decisions": [
     {
       "consequence": "no CFE graduation at first useful Microseed handoff",
@@ -119,6 +119,13 @@
       "evidence_basis": "LOCK MUTATION REQUIRES NEW IDENTITY + exact old bytes unrecoverable",
       "replay_trigger": "any V14R locked-byte drift",
       "status": "VERIFIED_RECOVERY_DECISION"
+    },
+    {
+      "consequence": "do not launch V14R1 unless V14R invalidates",
+      "decision": "Use V14R as sole canonical recovery identity; demote V14R1 unlaunched branch",
+      "evidence_basis": "V14R fully qualified/running; V14R1 preparatory only with no campaign/repeatability outcome",
+      "replay_trigger": "V14R fail-closed identity invalidation",
+      "status": "VERIFIED_CONVERGENCE_DECISION"
     }
   ],
   "schema": "cfe.active-decisions.v1"

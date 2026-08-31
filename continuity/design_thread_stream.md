@@ -750,3 +750,9 @@ User clarified: “Both, I described with the intent to convert to mechanism.”
 Timestamp: 2026-08-31 11:00 Eastern Daylight Time
 Tags: LINEAGE CORRECTION, V14 INTEGRITY RECOVERY, V14R LAUNCH
 Corrected genealogy to self-observed cognition plus explicit co-originating mechanization intent. Historical source supports this intended observe/formalize/mechanize path. During reconciliation, V14 Attempt A was found blocked because a post-lock continuity mutation changed the lock-bound v1.3 final disposition. Original bytes were unrecoverable; Attempt A was invalidated scientifically. Created V14R with unchanged scientific design/new provenance identity; host revalidation, tokenizer replay, fresh repeatability and preexecution all passed; launched job job-1c115593cb12 PID 30856.
+
+---
+## Execution Update — ASSISTANT
+Timestamp: 2026-08-31 11:02 Eastern Daylight Time
+Tags: RECOVERY IDENTITY CONVERGENCE
+Discovered a pre-existing V14R1 preparatory recovery chain but no V14R1 campaign or scientific outcome. Chose already fully-qualified/running V14R as sole canonical recovery identity and demoted V14R1 to preserved, unlaunched lineage.

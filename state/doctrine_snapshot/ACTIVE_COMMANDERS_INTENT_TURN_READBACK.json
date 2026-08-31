@@ -1,23 +1,21 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1100-04-00.md",
-  "active_binding_sha256": "d89da11fbbaecbc34ebab8d539e3574c5ce4f0e97c00faf2255c8b1d57740e8a",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1102-04-00.md",
+  "active_binding_sha256": "71d0c5f2be5b1c11b06ba2b5ec302de58a5e2ef0959de26462e1d383f0c4c962",
   "alignment": "ALIGNED",
-  "branch": "V14R_PREDICATE_DOSE_HORIZON_ACTIVE__STARMAP_LINEAGE_CORRECTED",
+  "branch": "V14R_CANONICAL_ACTIVE__V14R1_DEMOTED",
   "frontier": {
-    "starmap_lineage": "SELF_OBSERVATION_PLUS_EXPLICIT_MECHANIZATION_INTENT",
-    "v14_attempt_a": "INVALIDATED_NON_SCIENTIFIC",
+    "starmap_lineage": "SELF_OBSERVATION_PLUS_DELIBERATE_MECHANIZATION",
     "v14r": {
-      "input_lock_sha256": "6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38",
       "job_id": "job-1c115593cb12",
       "pid": 30856,
       "pid_status": "ALIVE",
-      "preexec_sha256": "8d255cc44169330d48a962f88617744aa75add7adb861d8a23b2246ef1a6a7ee",
       "sealed_trajectories": 0
-    }
+    },
+    "v14r1": "UNLAUNCHED_PREPARATORY_BRANCH_DEMOTED"
   },
-  "reason": "Historical genealogy corrected and scientific integrity restored through new lock identity rather than weakening verification.",
+  "reason": "Converged duplicate recovery planning onto one active scientific identity without restarting valid V14R.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T11:00:41-04:00"
+  "timestamp": "2026-08-31T11:02:14-04:00"
 }

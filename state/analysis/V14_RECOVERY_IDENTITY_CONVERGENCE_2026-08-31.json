@@ -1,0 +1,23 @@
+{
+  "canonical_identity": "V14R_PREDICATE_DOSE_HORIZON_20260831",
+  "canonical_input_lock_sha256": "6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38",
+  "canonical_job_id": "job-1c115593cb12",
+  "canonical_pid": 30856,
+  "canonical_reason": [
+    "fully requalified under internally consistent new prereg/contract/lock bindings",
+    "fresh host revalidation PASS",
+    "fresh repeatability PASS",
+    "preexecution PASS",
+    "campaign already running with zero scientific results inspected at convergence time"
+  ],
+  "demoted_preparatory_branch": {
+    "identity": "V14R1",
+    "reason": "parallel recovery design discovered after V14R launch; no campaign root, no repeatability completion, no model outcome",
+    "retention": "preserve as lineage; do not launch unless V14R invalidates",
+    "status": "UNLAUNCHED_PREPARATORY_RECOVERY_BRANCH__NOT_SCIENTIFIC"
+  },
+  "law": "ONE RECOVERY IDENTITY AT A TIME",
+  "schema": "cfe.v14.recovery-identity-convergence.v1",
+  "scientific_design_equivalence": "same causal variable, same candidate, same six seeds, same H1/H2/H4 horizons, same runtime profile; no StarMap intervention",
+  "timestamp": "2026-08-31T11:02:14-04:00"
+}

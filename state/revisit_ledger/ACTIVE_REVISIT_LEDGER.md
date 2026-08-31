@@ -18,3 +18,5 @@ As of: 2026-08-31 10:10 Eastern Daylight Time
 
 | P0 | V14R dose/horizon | active clean recovery identity | six fresh longitudinal trajectories | running |
 | P1 | Operator-derived cognitive geometry -> CFE | deliberate mechanization intent verified historically; causal relevance untested | prospective typed-edge/history/topology screens | open |
+
+| P2 | V14R1 preparatory branch | retained only for lineage | revisit only if V14R invalidates | parked |

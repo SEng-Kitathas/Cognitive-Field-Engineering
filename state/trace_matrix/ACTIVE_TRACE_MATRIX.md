@@ -20,3 +20,5 @@ As of: 2026-08-31 10:10 Eastern Daylight Time
 | StarMap origin correction | operator clarification + recovered source | self-observation WITH explicit mechanization intent verified historically; mechanism itself operator-reported |
 | V14 Attempt A invalidation | H1 evaluator lock failure + lock/current byte identities | non-scientific procedural failure |
 | V14R recovery identity | lock `6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38` + host/repeatability/preexec PASS | scientific execution authorized and running |
+
+| V14 recovery identity convergence | V14R fully qualified/running; V14R1 unlaunched | V14R canonical, V14R1 demoted preparatory |

@@ -32,3 +32,7 @@ Continue V14R unchanged to six trajectories or fail closed.
 - StarMap genealogy strengthened from “self-description later formalized” to “self-description explicitly intended for mechanization from origin.”
 - V14 Attempt A integrity defect identified and isolated.
 - V14R passed all gates and launched cleanly.
+
+## Recovery convergence delta — 2026-08-31 11:02 Eastern Daylight Time
+- V14R chosen as sole canonical recovery identity; V14R1 preserved but demoted unlaunched.
+- V14R job `job-1c115593cb12`, PID `30856` ALIVE, 0/6 sealed.

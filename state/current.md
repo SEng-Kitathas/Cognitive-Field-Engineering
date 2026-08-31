@@ -35,3 +35,8 @@ Engineer developmental experience as the medium and mature CFE into a predictive
 
 ## Resume point
 Do not duplicate job `job-1c115593cb12` / PID `30856`. Continue V14R unchanged to six sealed trajectories unless it fails closed.
+
+## Recovery identity convergence — 2026-08-31 11:02 Eastern Daylight Time
+- V14R remains canonical and running under job `job-1c115593cb12` / PID `30856` (ALIVE); 0/6 sealed.
+- V14R1 is demoted to an unlaunched preparatory recovery branch; no campaign, no scientific outcome.
+- Law: `ONE RECOVERY IDENTITY AT A TIME`.
