@@ -1,49 +1,29 @@
 # CFE CURRENT STATE
 
-As of: 2026-08-31 12:45 Eastern Daylight Time
+As of: 2026-08-31 15:03 Eastern Daylight Time
 Mode: BUILD-COMMIT
-Role: R4 lineage convergence; R5 owns active V14R1 execution
+Role: R4 convergence with R5 active science pressure
 
-## StarMap origin provenance
-- Exact date: **UNKNOWN**; operator recalls circa 2024.
-- Native cognitive mechanism: operator.
-- Geometric framing: operator — remembered wording approximately **"My mind works almost geometrically."**
-- Claude then clarified, formalized/compressed the idea as **cognitive geometry**, and recognized **traversability** as a consequence/property.
-- Mechanization intent: operator.
-- All remembered wording remains unverified until original transcript recovery.
+## Verified / controlled state
+- StarMap lineage: operator-origin cognitive geometry framing/mechanization intent; historical mechanism archaeology; prospective CFE truth unearned.
+- Microseed developmental hierarchy: operator-reported hostile-engineering-verified source-system solution to a Steve Grand public unsolved problem; CFE-local transfer unverified.
+- Dual-donor crosswalk: `research/CFE_DUAL_DONOR_STARMAP_MICROSEED_CROSSWALK_2026-08-31.md` SHA `519a5923049f9cbd56f36318154cbd8e15993825df710dd1910e8c328f6bbdf2`.
+- V14R attempt2: `job-1b72da92b63f`, PID `4616`, receipt `RUNNING`, 2/6 sealed.
 
-## Scientific frontier
-- V14R1 job `job-d4aac6ed6175`, PID `35196` ALIVE; 0/6 trajectories sealed.
-- No StarMap-derived learner intervention allowed during V14R1.
+## Research baseline
+StarMap informs **what geometry may matter**. Microseed informs **what useful developmental mechanism may be worth acquiring**. CFE tests the causal bridge.
 
-## Blockers
-None.
+## Strong bridge question
+Can learner-visible developmental geometry change acquisition/currentness/transfer of a cross-scale effect relation without supplying the internal hierarchy?
 
-## Origin-lineage correction — 2026-08-31 12:45 Eastern Daylight Time
-- Operator-originated framing: "my mind works almost geometrically" + mechanism description.
-- Claude-originated contribution, per memory: clarification and formalization/reflection as "cognitive geometry" and "traversable".
-- Exact date unknown; circa 2024 remembered.
-- V14R1: `job-d4aac6ed6175` / PID `35196` ALIVE; 0/6 sealed.
+## Post-V14R ladder
+DD-0 compiler qualification -> DD-1 typed relations -> DD-2 shape-of-reachability -> DD-3 coverage tension -> DD-4 cross-level effect transfer -> DD-5 subordinate drift/currentness -> DD-6 relation-to-unit emergence.
 
-## Execution recovery — 2026-08-31 13:34 Eastern Daylight Time
-- User correctly reported prior job died. Verified V14R and V14R1 both failed `SUPERVISION_LOST` at exactly 13:25:04 ET.
-- No checkpoint/eval/train manifest from either; no science admitted.
-- V14R is authoritative; V14R1 demoted duplicate.
-- V14R Attempt 2 active: job `job-1b72da92b63f`, PID `4616` ALIVE, 0/6 sealed.
+## Constraints
+- `CURATOR RELATION != LEARNER REPRESENTATION`.
+- `PHENOMENOLOGICAL SIGNAL != UNIVERSAL LAW`.
+- `MECHANISM VERIFIED IN SOURCE SYSTEM != TRANSFER VERIFIED IN TARGET SYSTEM`.
+- No donor-derived intervention inside active V14R attempt2.
 
-## V14R1 failure correction — 2026-08-31 13:58 Eastern Daylight Time
-- Job `job-d4aac6ed6175` / PID `35196` is FAILED (`SUPERVISION_LOST`), not active.
-- 0/6 trajectories sealed; seed3111 produced no result artifacts; no eval admitted.
-- Scientific question remains unresolved.
-- Recovery mode active.
-
-## Frontier correction — 2026-08-31 13:58 Eastern Daylight Time
-- V14R1 failed/demoted.
-- V14R attempt2 ACTIVE: `job-1b72da92b63f`, PID `4616` ALIVE, 0/6 sealed.
-
-## Donor classification correction — 2026-08-31 14:18 Eastern Daylight Time
-- Parent↔Child hierarchy document: operator-reported hostile-engineering-verified Microseed solution to Steve Grand public unsolved problem.
-- CFE status: verified external engineering donor; not independently replayed in CFE this turn; transfer remains unverified.
-
-## Publication boundary correction — 2026-08-31 14:19 Eastern Daylight Time
-- Live V14R attempt2 files accidentally entered Git commit 4b6fbd9 during donor-provenance sync. Corrective commit removes them from current publication tree; live scientific campaign untouched.
+## Resume point
+Complete V14R attempt2 unchanged. Apply frozen disposition mechanically, then hostile-rank DD-0..DD-6 against the result.

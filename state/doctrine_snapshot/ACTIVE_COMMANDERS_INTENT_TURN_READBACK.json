@@ -1,25 +1,24 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1358-04-00.md",
-  "active_binding_sha256": "e710d859751aec3d910d4b81c30c8055cb78cb0343d03ddafef7325580e4db18",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1503-04-00.md",
+  "active_binding_sha256": "5ba4f288f09e192ad47a9c9e9059ad328ff0bb92671a73135bf2ebc3640a1fd3",
   "alignment": "ALIGNED",
-  "branch": "V14R_ATTEMPT2_ACTIVE",
+  "branch": "V14R_ATTEMPT2_ACTIVE__DUAL_DONOR_FRONTIER_READY",
   "frontier": {
-    "v14r1": {
-      "scientific_result": "NONE",
-      "status": "FAILED_DEMOTED"
+    "dual_donor_crosswalk": {
+      "path": "research/CFE_DUAL_DONOR_STARMAP_MICROSEED_CROSSWALK_2026-08-31.md",
+      "sha256": "519a5923049f9cbd56f36318154cbd8e15993825df710dd1910e8c328f6bbdf2",
+      "status": "ACTIVE_RESEARCH_NOT_DOCTRINE"
     },
     "v14r_attempt2": {
-      "identity": "V14R_PREDICATE_DOSE_HORIZON_20260831",
       "job_id": "job-1b72da92b63f",
       "pid": 4616,
-      "pid_status": "ALIVE",
-      "sealed_trajectories": 0,
+      "sealed_trajectories": 2,
       "status": "RUNNING"
     }
   },
-  "reason": "Verified successor attempt 2 running after V14R1 supervision loss.",
+  "reason": "Proceed informed by StarMap and verified Microseed donor while preserving active experiment isolation.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T13:58:42-04:00"
+  "timestamp": "2026-08-31T15:03:28-04:00"
 }

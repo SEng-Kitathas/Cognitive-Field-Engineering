@@ -1,23 +1,20 @@
 # CFE NEXT STEPS
 
-As of: 2026-08-31 12:45 Eastern Daylight Time
+As of: 2026-08-31 15:03 Eastern Daylight Time
 
-## P0
-1. Keep V14R1 `job-d4aac6ed6175` / PID `35196` unchanged through closeout.
-2. No StarMap-derived learner intervention.
+## P0 — active science
+1. Keep `job-1b72da92b63f` / PID `4616` as sole V14R attempt2 runner.
+2. No mutation of frozen scientific inputs.
+3. At 6/6: verify aggregate, mechanically apply preregistered horizon disposition, hostile closeout, publish sealed evidence.
 
-## P1 archaeology
-1. Target circa-2024 Claude transcript if/when archive search is worthwhile.
-2. Search for operator phrase variants around `mind works almost geometrically`, plus `cognitive geometry`, `traversable`, and a nearby Claude clarifying question.
-3. If recovered, preserve raw transcript and supersede remembered provenance by addition.
+## P1 — donor-informed frontier after V14R
+1. **DD-0** generative field compiler qualification.
+2. **DD-1** typed-relation identifiability.
+3. **DD-2** shape-of-reachability / long-range bridge.
+4. **DD-3** coverage-tension / missing-support geometry.
+5. **DD-4** minimal cross-level effect acquisition transfer using Microseed-verified mechanism as external functional target.
+6. **DD-5** subordinate drift/currentness.
+7. **DD-6** repeated relation -> reusable higher-order unit.
 
-## Archaeology follow-up
-- If original Claude transcript is recovered, compare exact wording/date against operator recollection; append successor evidence, do not silently overwrite recollection.
-
-## Immediate execution
-- Keep only V14R Attempt 2 `job-1b72da92b63f` / PID `4616` active. Monitor for first sealed seed before any other GPU campaign.
-- Add duplicate-runner prelaunch gate before next scientific campaign.
-
-## Recovery P0
-- Verify V14R1 lock, host/profile/preexec hashes still match exactly. If yes, relaunch as a new execution attempt under the same scientific identity; if not, mint a new identity.
-- Do not reuse any artifact from failed attempt unless independently verified complete and identity-matching.
+## Guard
+Donor nouns remain curator constructs unless learner-side evidence earns analogous structure.

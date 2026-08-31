@@ -1,0 +1,30 @@
+{
+  "active_campaign_guard": "NO_DONOR_DERIVED_INTERVENTION_IN_V14R_ATTEMPT2",
+  "donors": {
+    "microseed_hierarchy": {
+      "evidence_class": "hostile-engineering verified in source system, operator-reported; CFE replay pending",
+      "guard": "MECHANISM VERIFIED IN SOURCE SYSTEM != TRANSFER VERIFIED IN TARGET SYSTEM",
+      "role": "verified external target-mechanism donor"
+    },
+    "starmap": {
+      "evidence_class": "operator phenomenology + historical mechanization archaeology",
+      "guard": "PHENOMENOLOGICAL SIGNAL != UNIVERSAL LAW",
+      "role": "geometry hypothesis generator"
+    }
+  },
+  "markdown_path": "research/CFE_DUAL_DONOR_STARMAP_MICROSEED_CROSSWALK_2026-08-31.md",
+  "markdown_sha256": "519a5923049f9cbd56f36318154cbd8e15993825df710dd1910e8c328f6bbdf2",
+  "program": [
+    "DD-0 generative field compiler qualification",
+    "DD-1 typed-relation identifiability",
+    "DD-2 shape-of-reachability / long-range bridge",
+    "DD-3 coverage-tension geometry",
+    "DD-4 cross-level effect acquisition transfer",
+    "DD-5 developmental currentness / subordinate drift",
+    "DD-6 relation-to-unit emergence"
+  ],
+  "schema": "cfe.dual-donor-crosswalk.v1",
+  "shared_question": "Can developmental experience geometry control acquisition of a cross-scale effect relation without prescribing the internal hierarchy?",
+  "status": "ACTIVE_RESEARCH_CROSSWALK_NOT_DOCTRINE",
+  "timestamp": "2026-08-31T15:02:44-04:00"
+}
