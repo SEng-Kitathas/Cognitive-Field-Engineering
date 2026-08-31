@@ -1,18 +1,17 @@
 {
   "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1245-04-00.md",
-  "active_binding_sha256": "03bd263141cb64a06773eda3095f32cff10643855a6e4527794107c358bf03ca",
+  "active_binding_sha256": "7d5fac67ab9ac798ad8a27e3613afb9571912c26199e7fa15a55a0961a5211fc",
   "alignment": "ALIGNED",
-  "branch": "V14R1_ACTIVE__STARMAP_ORIGIN_ATTRIBUTION_V2",
+  "branch": "V14R1_ACTIVE__STARMAP_ORIGIN_ATTRIBUTION_R2",
   "frontier": {
     "starmap_origin": {
       "approximate_period": "circa 2024",
+      "cognitive_geometry_label": "Claude formalization/reflection, operator-recalled",
       "exact_date": "UNKNOWN",
-      "formalization": "Claude per operator recollection",
-      "geometric_framing": "operator",
-      "native_mechanism": "operator",
-      "note_sha256": "b45ad7dd63688bb66902a1a3ec95e1fe30fbc3a698572aba9be0799fe83a1432",
-      "quote_status": "REMEMBERED_NOT_TRANSCRIPT_VERIFIED",
-      "traversability": "Claude per operator recollection"
+      "geometry_framing": "operator",
+      "mechanism_description": "operator",
+      "note_sha256": "fef0812480f2d98a2b6ab54d3ce3c757e391ce10cc6640a69b6f128fe61b6406",
+      "traversable_property": "Claude formalization/reflection, operator-recalled"
     },
     "v14r1": {
       "job_id": "job-d4aac6ed6175",
@@ -22,9 +21,9 @@
       "status": "RUNNING"
     }
   },
-  "reason": "Separate origin of geometric framing from Claude-assisted formalization while preserving uncertainty and active experiment isolation.",
+  "reason": "Correct lineage attribution while preserving scientific isolation.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T12:45:13-04:00"
+  "timestamp": "2026-08-31T12:45:35-04:00"
 }

@@ -10,3 +10,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 1. Target circa-2024 Claude transcript if/when archive search is worthwhile.
 2. Search for operator phrase variants around `mind works almost geometrically`, plus `cognitive geometry`, `traversable`, and a nearby Claude clarifying question.
 3. If recovered, preserve raw transcript and supersede remembered provenance by addition.
+
+## Archaeology follow-up
+- If original Claude transcript is recovered, compare exact wording/date against operator recollection; append successor evidence, do not silently overwrite recollection.

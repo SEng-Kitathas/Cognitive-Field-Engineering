@@ -2,7 +2,7 @@
 
 Status: **ACTIVE PROGRAM-LEVEL INTENT / CURRENT FRONTIER BINDING**
 
-Supersedes as active binding only: `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1212-04-00.md`
+Supersedes as active binding only: `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1245-04-00.md`
 
 Verbatim source authority remains unchanged:
 `state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md`
@@ -328,5 +328,12 @@ Until then:
 - Claude's role is therefore formalization/compression and consequence extraction, not origin of the geometry framing: clarification -> `cognitive geometry` label -> recognition that it is `traversable`.
 - Active provenance note `research/STARMAP_ORIGIN_PROVENANCE_CORRECTION_V2_2026-08-31.md` SHA `b45ad7dd63688bb66902a1a3ec95e1fe30fbc3a698572aba9be0799fe83a1432` supersedes the prior origin note for interpretation while preserving the prior note historically.
 - Exact date remains UNKNOWN; circa 2024 is operator recollection only; remembered wording is not transcript-verified.
+- V14R1 remains ACTIVE and uncontaminated: job `job-d4aac6ed6175`, PID `35196` `ALIVE`, receipt `RUNNING`, 0/6 trajectories sealed.
+## Per-turn frontier readback — 2026-08-31 12:45 Eastern Daylight Time
+
+- Operator corrected StarMap origin attribution: operator explicitly framed their cognition as "my mind works almost geometrically" and described the mechanism; Claude then absorbed that framing, asked for clarification, and reflected/formalized it as "cognitive geometry" and "traversable".
+- Exact date remains unknown; approximate period remains operator-recalled as circa 2024. Remembered wording is not transcript-verified quotation.
+- Geometry framing and mechanism are operator-originated; Claude's role is formalizing/refining the framing, not originating geometry.
+- Successor provenance note `research/STARMAP_ORIGIN_PROVENANCE_CORRECTION_2026-08-31_R2.md` SHA `fef0812480f2d98a2b6ab54d3ce3c757e391ce10cc6640a69b6f128fe61b6406` preserves this correction append-only.
 - V14R1 remains ACTIVE and uncontaminated: job `job-d4aac6ed6175`, PID `35196` `ALIVE`, receipt `RUNNING`, 0/6 trajectories sealed.
 

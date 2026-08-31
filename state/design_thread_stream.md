@@ -788,3 +788,13 @@ User clarified that they themselves said approximately "My mind works almost geo
 ## Turn — ASSISTANT / EXECUTION RECORD
 Timestamp: 2026-08-31 12:45 Eastern Daylight Time
 Recorded successor provenance: operator originated mechanism and geometric framing; Claude clarified/formalized as cognitive geometry and recognized traversability. Exact date remains unknown/circa-2024 recollection; wording is not transcript verified. V14R1 remained isolated and active.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 12:45 Eastern Daylight Time
+Tags: STARMAP ORIGIN ATTRIBUTION CORRECTION
+User clarified they themselves said "My mind works almost geometrically"; Claude absorbed that framing rather than originating geometry.
+
+## Turn — ASSISTANT / EXECUTION RECORD
+Timestamp: 2026-08-31 12:45 Eastern Daylight Time
+Recorded successor provenance note. Correct attribution: operator supplied geometry framing and mechanism; Claude clarified and formalized/reflected "cognitive geometry" and "traversable". Exact date unknown, circa 2024 remembered. V14R1 remained isolated and active.

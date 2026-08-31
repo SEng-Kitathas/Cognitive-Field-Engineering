@@ -66,3 +66,6 @@ Uploaded archaeology source SHA `a5fd4fe3ca8809d0bfe3e6fb3289a70086c17c2d3f1febd
 
 ## 2026-08-31 12:45 Eastern Daylight Time — STARMAP ORIGIN ATTRIBUTION V2
 User clarified they originated the geometric framing: approximately "My mind works almost geometrically." Claude then clarified/formalized and recognized traversability. Successor provenance note written; V14R1 unchanged.
+
+## 2026-08-31 12:45 Eastern Daylight Time — STARMAP ORIGIN ATTRIBUTION R2
+User clarified operator supplied the geometry framing ("my mind works almost geometrically"); Claude absorbed/refined it into cognitive geometry/traversable after clarification.

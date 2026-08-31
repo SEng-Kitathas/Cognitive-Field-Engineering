@@ -8,3 +8,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | P1 | Original Claude clarification/coining exchange | unresolved | recover primary transcript |
 | P1 | Exact origin date | UNKNOWN | primary transcript/artifact |
 | P1 | Exact wording | operator-recalled | primary transcript |
+
+| P1 | Recover original Claude clarification transcript | would verify exact wording/date of cognitive geometry/traversable formalization | original transcript/archive search | open |

@@ -14,3 +14,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 ## Active science
 V14R1 remains frozen and isolated from StarMap-derived interventions.
+
+## StarMap origin attribution correction
+- Geometry framing and mechanism are operator-originated; Claude formalized/reflected the framing after clarification. This is provenance, not scientific doctrine.

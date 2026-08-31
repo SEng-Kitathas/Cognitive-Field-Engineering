@@ -30,3 +30,8 @@ Continue V14R1 unchanged; preserve origin provenance by append-only successor no
 ## Delta Since Previous Shadow
 - Geometry framing attribution moved from Claude to operator.
 - Claude role narrowed to formalization and traversability recognition.
+
+## Turn delta — 2026-08-31 12:45 Eastern Daylight Time
+- Origin attribution corrected again: operator said "my mind works almost geometrically" and described mechanism; Claude absorbed/refined that into "cognitive geometry" and "traversable" after clarification.
+- Date remains unknown, circa 2024 by operator memory; wording not transcript-verified.
+- V14R1 unchanged: job `job-d4aac6ed6175`, PID `35196` ALIVE, 0/6 sealed.
