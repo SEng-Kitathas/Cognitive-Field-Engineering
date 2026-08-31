@@ -1,0 +1,134 @@
+{
+  "anchors": {
+    "baseline_admission_sha256": "b8adf6c257e1a1344c43951a47081f37bfdc0bfdafd4d0747a906057024a866c",
+    "candidate_manifest_sha256": "b03b0eca0ecf39554491e787e64a5fae0102bcff7700c81630f66c3005bc1ca1",
+    "prereg_sha256": "e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9",
+    "static_qualification_sha256": "3f72abbcf839085972186cf6c129111a2dd1de6633672653bb8e6619750a2ee6",
+    "token_schedule_audit_sha256": "f3aa40f53d7c75b277213ed3753b51fb806d3eccc07097d508b4c115e6423679",
+    "training_contract_sha256": "a2136043b8fdefb9acf9100bb341458e823324216c384ffd91c4e75b8aefe58f"
+  },
+  "file_count": 28,
+  "files": {
+    "state/candidates/v12_factor_primitive_composition_20260830/COMPOSE_EVAL.private.jsonl": {
+      "bytes": 40592,
+      "sha256": "8661422a56186a639397cc39566e0c20dcb451c0e26b282a5c13f437a1456acb"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/MANIFEST.json": {
+      "bytes": 2625,
+      "sha256": "b03b0eca0ecf39554491e787e64a5fae0102bcff7700c81630f66c3005bc1ca1"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/POLICY_EVAL.private.jsonl": {
+      "bytes": 14264,
+      "sha256": "da4d15e38c66130c271c860f7374a00933d943ab9dfb470b291f8a8f1225fc47"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/POLICY_Z_SHARED.jsonl": {
+      "bytes": 60768,
+      "sha256": "e5c9915449a07bda8cea8d293aa836da5395d2e6899f919bc984ba9003d32ed7"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/POLICY_Z_SHARED.sidecar.private.jsonl": {
+      "bytes": 32472,
+      "sha256": "0bd9582a64da4cb62c2c8d15b24a4122be6dfdca9ddc9cf65bd2993cc24d54ae"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/POLICY_Z_SHARED.token_reference.private.jsonl": {
+      "bytes": 121608,
+      "sha256": "f8c770be1ea66b712a451b0311c11f8f2e02e84e529920362c70ecde2023387f"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_EVAL.private.jsonl": {
+      "bytes": 15640,
+      "sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_IDENTIFYING_V12.jsonl": {
+      "bytes": 59832,
+      "sha256": "d44e507ad80f88ce4d2f25e970062614a1f1a0ba22089c7e5f0402a540f4ef80"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_IDENTIFYING_V12.sidecar.private.jsonl": {
+      "bytes": 50112,
+      "sha256": "eb3e8b547a9595fe1d9fd88cfda9ccd0905a06a45ba026bf2789018422eaa066"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_IDENTIFYING_V12.token_reference.private.jsonl": {
+      "bytes": 121152,
+      "sha256": "48e57594b7e90031d7c46838270bc247e5ea9bf6b8c88afc9b6a73b491b383d7"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_NARROW_V12.jsonl": {
+      "bytes": 59472,
+      "sha256": "923dc0abc85674ebc8d21c75827a0b5d446a98f72efe84a470407a2a87960288"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_NARROW_V12.sidecar.private.jsonl": {
+      "bytes": 49680,
+      "sha256": "71846cf0f5bf11c9af6d50767e86f40d60a0084fb291c4dfc33325cde3c73623"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_NARROW_V12.token_reference.private.jsonl": {
+      "bytes": 120792,
+      "sha256": "6ecd38db3e3ebb030ad4d2b22b980e426910d66157cc95d54bf6d33892ffad46"
+    },
+    "state/candidates/v12_factor_primitive_composition_20260830/TOKEN_SCHEDULE_AUDIT.json": {
+      "bytes": 2808,
+      "sha256": "f3aa40f53d7c75b277213ed3753b51fb806d3eccc07097d508b4c115e6423679"
+    },
+    "state/next_steps/V12_FACTOR_PRIMITIVE_COMPOSITION_PREREG_DRAFT_2026-08-30.json": {
+      "bytes": 7035,
+      "sha256": "e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9"
+    },
+    "state/next_steps/V12_FACTOR_PRIMITIVE_TRAINING_CONTRACT_2026-08-30.json": {
+      "bytes": 4157,
+      "sha256": "a2136043b8fdefb9acf9100bb341458e823324216c384ffd91c4e75b8aefe58f"
+    },
+    "state/qualification/V12_FACTOR_PRIMITIVE_BASELINE_ADMISSION_20260830/ADMISSION.json": {
+      "bytes": 2931,
+      "sha256": "b8adf6c257e1a1344c43951a47081f37bfdc0bfdafd4d0747a906057024a866c"
+    },
+    "state/qualification/V12_FACTOR_PRIMITIVE_BASELINE_ADMISSION_20260830/COMPOSE_RESULTS.jsonl": {
+      "bytes": 56742,
+      "sha256": "9fb51eb499c8749066dd0691b02b0329c753bd7575d6fc4b529626de45929738"
+    },
+    "state/qualification/V12_FACTOR_PRIMITIVE_BASELINE_ADMISSION_20260830/POLICY_RESULTS.jsonl": {
+      "bytes": 22607,
+      "sha256": "03eea1d027ac7c7e43ae1a23a41ab439ec953c515470fb949d648bff89f79183"
+    },
+    "state/qualification/V12_FACTOR_PRIMITIVE_BASELINE_ADMISSION_20260830/PREDICATE_RESULTS.jsonl": {
+      "bytes": 22543,
+      "sha256": "9aba7bf9d6f81bd8ad4a19e16929f2dc4e8c352dc206e728b9a1d56c57284782"
+    },
+    "state/qualification/V12_FACTOR_PRIMITIVE_STATIC_HOSTILE_2026-08-30.json": {
+      "bytes": 733,
+      "sha256": "3f72abbcf839085972186cf6c129111a2dd1de6633672653bb8e6619750a2ee6"
+    },
+    "tools/audit_v12_factor_primitive_composition_candidate.py": {
+      "bytes": 6969,
+      "sha256": "f756917e7baca203294626dcf46b3affb8accb94204df3fd236b7ca3ef78f5b2"
+    },
+    "tools/build_v12_factor_primitive_composition_candidate.py": {
+      "bytes": 10693,
+      "sha256": "19adad2c4251263c51c659b74c6cf30c6d74027b0a0a01ded31f0c187b1da660"
+    },
+    "tools/evaluate_v12_factor_primitive.py": {
+      "bytes": 5331,
+      "sha256": "f540215b0497aa71851846e3eb4f97013d2cc332365d8985d23684ac1badeb3e"
+    },
+    "tools/run_v12_factor_primitive_baseline_admission.py": {
+      "bytes": 5462,
+      "sha256": "3bc423917306270f61c5b44910083a1893f785a609f1aaa77b15e284ccd6c36c"
+    },
+    "tools/run_v12_factor_primitive_campaign.py": {
+      "bytes": 6236,
+      "sha256": "d2296d7b4d67fed19870c23b6ba093111bb820f72d410ca31a6dfdb7d47fa8b7"
+    },
+    "tools/train_v12_factor_primitive.py": {
+      "bytes": 6533,
+      "sha256": "0f12ccb7ff31dc6ea06e4957657646827e0288faae90eabc01c9619e5e556b65"
+    },
+    "tools/v12_factor_primitive_common.py": {
+      "bytes": 3799,
+      "sha256": "393840d9277a5ede540109c5ab7d6caa6c07092dc51975e010790907946e0f7a"
+    }
+  },
+  "laws": [
+    "LOCKED_INPUTS != QUALIFIED_RUNTIME",
+    "BASELINE_ADMITTED != COMPOSITION_EFFECT",
+    "LOCK_MUTATION_REQUIRES_NEW_IDENTITY"
+  ],
+  "mutation_rule": "Any locked-byte change invalidates this lock and requires new identity/runtime qualification.",
+  "schema": "cfe.v12.factor-primitive-input-lock.v1",
+  "scientific_training_authorized": false,
+  "status": "LOCKED_PRE_RUNTIME__NO_V12_SCIENTIFIC_TRAINING"
+}

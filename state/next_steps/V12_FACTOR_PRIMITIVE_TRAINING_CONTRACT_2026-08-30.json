@@ -1,0 +1,95 @@
+{
+  "schema": "cfe.v12.factor-primitive-training-contract.v1",
+  "status": "FROZEN_PRE_SCIENTIFIC_TRAINING",
+  "model": {
+    "hf_repo": "argilla/CapybaraHermes-2.5-Mistral-7B",
+    "hf_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+    "base_snapshot_manifest_sha256": "0d429d3f6e0fa276fa7bb24c3566ed7ce3856c22230bb58936527f1f15f2bc6d"
+  },
+  "arms": {
+    "COMPOSE_NARROW_BASIS": {
+      "predicate_dataset": "PREDICATE_NARROW_V12",
+      "policy_dataset": "POLICY_Z_SHARED"
+    },
+    "COMPOSE_IDENTIFYING_BASIS": {
+      "predicate_dataset": "PREDICATE_IDENTIFYING_V12",
+      "policy_dataset": "POLICY_Z_SHARED"
+    }
+  },
+  "seeds": [2026082901, 2026082902, 2026082903, 2026082904, 2026082905, 2026082906],
+  "execution_order": {
+    "2026082901": ["COMPOSE_NARROW_BASIS", "COMPOSE_IDENTIFYING_BASIS"],
+    "2026082902": ["COMPOSE_IDENTIFYING_BASIS", "COMPOSE_NARROW_BASIS"],
+    "2026082903": ["COMPOSE_NARROW_BASIS", "COMPOSE_IDENTIFYING_BASIS"],
+    "2026082904": ["COMPOSE_IDENTIFYING_BASIS", "COMPOSE_NARROW_BASIS"],
+    "2026082905": ["COMPOSE_NARROW_BASIS", "COMPOSE_IDENTIFYING_BASIS"],
+    "2026082906": ["COMPOSE_IDENTIFYING_BASIS", "COMPOSE_NARROW_BASIS"]
+  },
+  "profile": {
+    "inherit_from_v11_selected_profile": "all_linear_r8",
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.0,
+    "targets": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+    "inheritance_requires": [
+      "same exact base snapshot",
+      "same critical CUDA/runtime identity",
+      "new maximum sequence <= old qualified maximum sequence",
+      "fresh v12 two-run one-step repeatability PASS"
+    ]
+  },
+  "optimization": {
+    "load_in_4bit": true,
+    "bnb_quant_type": "nf4",
+    "bnb_double_quant": true,
+    "compute_dtype": "float16",
+    "attention_backend": "eager",
+    "gradient_checkpointing": true,
+    "optimizer": "paged_adamw_8bit",
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "constant",
+    "weight_decay": 0.0,
+    "max_grad_norm": 1.0,
+    "packing": false,
+    "evaluation_during_training": false,
+    "checkpoint_selection": "none; fixed final step only",
+    "determinism_contract": "FAIL_CLOSED_TORCH_DETERMINISTIC_ALGORITHMS_AND_DEBUG_ERROR"
+  },
+  "sequence": {
+    "predicate_rows": 72,
+    "policy_rows": 72,
+    "rows_per_arm": 144,
+    "epochs": 4,
+    "microbatch": 1,
+    "gradient_accumulation_steps": 8,
+    "expected_optimizer_steps": 72,
+    "max_seq_len": 512,
+    "shuffle": false,
+    "schedule_seed_xor": "0xCFE12A",
+    "window_shuffle_xor": "0x12",
+    "window_contract": "18 optimizer windows per epoch; exactly 4 predicate + 4 policy rows per window; paired arms use identical predicate indices, policy indices, and within-window logical order",
+    "loss_scope": "assistant content plus <|im_end|>; user/role text excluded"
+  },
+  "evaluation": {
+    "readouts": ["PREDICATE_DIRECT", "POLICY_DIRECT", "COMPOSED_ACTION_PRIMARY"],
+    "composed_cases": 96,
+    "predicate_cases": 48,
+    "policy_cases": 48,
+    "primary_metric": "strict JSON COMPOSED_ACTION accuracy",
+    "paired_unit": "seed/run"
+  },
+  "bindings": {
+    "preregistration_sha256": "e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9",
+    "candidate_manifest_sha256": "b03b0eca0ecf39554491e787e64a5fae0102bcff7700c81630f66c3005bc1ca1",
+    "token_schedule_audit_sha256": "f3aa40f53d7c75b277213ed3753b51fb806d3eccc07097d508b4c115e6423679",
+    "static_qualification_sha256": "3f72abbcf839085972186cf6c129111a2dd1de6633672653bb8e6619750a2ee6",
+    "baseline_admission_sha256": "b8adf6c257e1a1344c43951a47081f37bfdc0bfdafd4d0747a906057024a866c"
+  },
+  "hard_stops": [
+    "No scientific training before input lock, runtime tokenizer replay, profile binding, and repeatability PASS.",
+    "No joint numeric-state+mode -> action training examples.",
+    "No adaptive seed extension beyond six frozen seeds.",
+    "No prompt, margin, action mapping, evaluation slice, optimizer, profile, or schedule change after lock.",
+    "No K1/K2/K4 or optimizer-window scientific screen in parallel."
+  ]
+}

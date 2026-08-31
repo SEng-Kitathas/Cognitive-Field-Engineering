@@ -15,19 +15,17 @@
 - Maintain per-material-turn Git continuity; normal clone stays thin and heavy R&D remains opt-in.
 
 ## Current Authoritative State
-- Program invariant: **The developmental structure of experience itself is the engineering medium.** Identifying CFE remains a controlled specialization; Developmental CFE remains the broader program.
-- v1.0 six-seed screen and post-hoc bounded diagnostics are complete. The relation-dependent arrangement effect is earned; general CFE law remains unresolved.
-- v1.1 predicate/policy mechanism screen is COMPLETE: 18/18 frozen train/eval jobs sealed; campaign aggregate SHA `3e631f81a5c063fda3fdcf06f26fed8fe9e6de7217ce8e085f8ef161800ccf4d`.
-- Preregistered predicate disposition: `H_WRONG_BASIS_SUPPORTED`. Identifying-minus-narrow predicate delta mean +17.56 points, median +19.64 points, 5/6 positive seeds, mean out-of-original-support delta +24.17 points.
-- Hostile correction: identifying support did not cleanly learn `margin > 0`. It strongly improved negative slack/equality but reduced positive-overflow accuracy. Treat as a major decision-surface improvement, not a solved strict-boundary compiler.
-- Preregistered policy disposition: `POLICY_SEPARABLY_LEARNABLE`. POLICY_FACTORIZED scored 48/48 on every seed; all action classes pooled 1.0.
-- Paired initialization hashes and dataset-order hashes matched within every seed. Alternating execution-order groups both retained positive mean identifying deltas; no simple serial-position explanation is supported.
-- Final v1.1 hostile closeout: `state/analysis/V11_PREDICATE_POLICY_HOSTILE_CLOSEOUT_2026-08-30.md` SHA `1010271f7d244c1a7f8c9450cd9c9b8bdaccb8707643c3d90ea323a9da5fb69f`.
-- Final machine disposition: `state/analysis/V11_PREDICATE_POLICY_FINAL_DISPOSITION_2026-08-30.json` SHA `e9f665d9280917c4383c44eeaec7bc9a38a7eec56e3c529e51ea3444386ed0ae`.
-- All 18 completed v1.1 adapter weights are published as six seed-scoped GitHub Release bundles with remote digest readback; normal Git remains thin.
-- Cross-project transferable process doctrine is active at `state/doctrine_snapshot/ACTIVE_EVIDENCE_SCOPE_AND_REPRODUCIBILITY_RULES_2026-08-30.md` SHA `fc622b62bac1a833f3e60cead55368c3bd987e640c87441a8d9a876cf1269f9a`.
-- v1.2 composition preregistration is frozen before any v1.2 model outcome: `state/next_steps/V12_FACTOR_PRIMITIVE_COMPOSITION_PREREG_DRAFT_2026-08-30.json` SHA `e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9`.
-- v1.2 candidate has been generated and statically qualified: 1,157 checks, zero failures; exact paired burden and 4+4 optimizer windows verified. No v1.2 model output has been observed yet and no v1.2 weights have trained. K1/K2/K4 and optimizer-window screens remain parked.
+- Program-level CFE Commander's Intent remains governed by: **The developmental structure of experience itself is the engineering medium.** Identifying CFE remains a scientific specialization; Developmental CFE remains the broader program.
+- v1.1 predicate/policy campaign is COMPLETE: 18/18 train+eval jobs sealed; campaign receipt SHA `29a904d28a9eda8fef72bc814c6c97c4d8f9563ffd7095d8be7a4be378d55e2a`; aggregate SHA `3e631f81a5c063fda3fdcf06f26fed8fe9e6de7217ce8e085f8ef161800ccf4d`.
+- Mechanical prereg disposition is historical truth: `H_WRONG_BASIS = SUPPORTED`; `POLICY_SEPARABILITY = LEARNABLE`; frozen next branch says `JOINT_IDENTIFYING_PREREG_REQUIRED`.
+- Predicate paired deltas identifying-minus-narrow: `+0.4107,+0.1964,+0.2500,+0.1964,-0.0536,+0.0536`; 5/6 positive; mean +17.56 pts; mean out-of-original-support +24.17 pts.
+- Policy factorization: all six seeds 48/48; all action classes 100% at tested scope.
+- Hostile interpretation: the identifying basis changed phenotype and improved mean balanced accuracy (0.6076 vs narrow 0.5174) but did **not** produce stable two-sided strict-boundary acquisition. Narrow mostly collapses toward `true`; identifying mostly shifts toward `false/safe`, with weak positive-side competence in most seeds.
+- Therefore `PREREGISTERED DISPOSITION PASS != FULL MECHANISM ACQUISITION`. Joint scientific weight mutation remains blocked until a new predicate-competence gate rejects constant/near-constant class basins and requires two-sided competence.
+- Portability defect confirmed: current execution/publication checkout is 27/27 exact against the scientific lock, while an LF-normalized reproduction yields 19 exact + 8 normalization-equivalent. Original lock remains unchanged.
+- Companion portability seal SHA `a099c58fe010996147ae01a897cb54f7604caad2899be5cb012e3f74b993226c`; verifier distinguishes `EXACT_BYTES`, `NORMALIZATION_EQUIVALENT`, `FAIL`, `MISSING`. Normalization equivalence is reproduction provenance only, not original execution authorization.
+- All 18 completed v1.1 adapters are published as six verified seed-scoped GitHub Release bundles under tag `cfe-v11-predicate-policy-research-2026-08-30`; release digests read back and match local bundles.
+- Research-lineage publication policy remains active: every non-heavy material research artifact is Git-tracked; heavy artifacts are published with hashed release bindings; failed/superseded work remains in the chain.
 
 ## Active Constraints
 - Do not restart or overwrite the completed CONTROL training output or the active corrected CONTROL evaluation output.
@@ -45,16 +43,18 @@
 - Current scientific work outranks unfinished exploratory campaign work until the live screen reaches a clean gate.
 
 ## Open Loops
-- Publish the complete v1.1 six-seed research chain, hostile closeout, all 18 adapter release bindings, evidence-scope doctrine, and frozen v1.2 preregistration.
-- Build the v1.2 candidate only after the preregistration is remotely preserved.
-- v1.2 must train predicate and policy primitives separately, never show the composed numeric+mode->action task, and evaluate predicate, policy, and composed action separately.
-- Static candidate/token/burden/overlap qualification and NF4 admission must pass before any v1.2 scientific weight mutation.
-- No K-dose or optimizer-window scientific run in parallel.
+- Do not launch JOINT_IDENTIFYING scientific training yet despite the mechanical prereg next-branch label.
+- Freeze a new predicate-competence screen or admission gate that is class-symmetric and cannot be passed by constant/near-constant decision basins.
+- Require pre-outcome per-side minima across negative slack, equality, near-positive, and far-positive support; prefer balanced evaluation burden.
+- Keep optimizer horizon unchanged in that discriminator so basis competence and update-field effects are not blended.
+- After two-sided predicate competence is demonstrated prospectively, return to the preregistered joint-composition branch.
+- Future scientific locks must declare raw execution identity plus canonical repository/transport identity before execution.
+- Continue research-lineage publication on every material turn.
 
 ## Immediate Next Step
-- Commit/push/read back the complete v1.1 closeout and frozen v1.2 preregistration.
-- Publish/read back the statically qualified v1.2 candidate before any NF4 admission output.
-- After remote verification, run NF4 baseline admission only; do not train scientific arms until admission, lock, runtime replay, and repeatability qualification pass.
+- Publish/read back the completed v1.1 campaign, portability repair, hostile final interpretation, and all six heavy seed bundles.
+- Next scientific design task: preregister a two-sided predicate-competence discriminator with balanced/class-symmetric evaluation and explicit rejection of constant-class solutions.
+- No new weights until that new screen is locked and runtime-qualified.
 
 ## Last 10 Turn Reinforcement Window
 1. User asked to continue from the prior CFE work.
@@ -69,10 +69,10 @@
 10. Resume-tool audit correctly blocked on the current partial CONTROL output; stale current/next state was repaired.
 
 ## Delta Since Previous Shadow
-- v1.1 campaign finished 18/18 and aggregate dispositions were applied.
-- Hostile closeout found a real identifying-basis benefit with residual one-sided boundary behavior.
-- All 18 heavy adapters are now release-published and digest-verified.
-- Transferable verifier/evidence/reproducibility rules were folded into active CFE process doctrine without importing unrelated HOSTILE_OS specifics.
-- v1.2 zero-joint-example composition preregistration was frozen before any v1.2 model outcome.
-- Full closeout is being published before v1.2 candidate generation.
+- v1.1 campaign completed 18/18 jobs.
+- Mechanical prereg result supports wrong-basis sensitivity and policy separability, but hostile analysis found the identifying basis still does not robustly learn the strict predicate.
+- This exposed a success-criterion scope defect: aggregate improvement can be produced partly by moving between class basins under an imbalanced held-out class count.
+- Opus portability report was independently reproduced locally: current checkout 27/27 exact; LF-normalized checkout 19 exact + 8 normalization-equivalent.
+- Added portability policy, companion seal, and verifier without changing the historical scientific lock.
+- All remaining heavy adapters were uploaded; direct release readback verifies all six seed bundles.
 

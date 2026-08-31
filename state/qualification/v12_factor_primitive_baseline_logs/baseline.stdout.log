@@ -1,0 +1,106 @@
+PREDICATE {'n': 48, 'correct': 0, 'accuracy': 0.0, 'json_parse_rate': 0.0}
+POLICY {'n': 48, 'correct': 0, 'accuracy': 0.0, 'json_parse_rate': 0.0, 'by_action': {'action_r': {'n': 24, 'correct': 0, 'accuracy': 0.0, 'json_parse_rate': 0.0}, 'action_s': {'n': 12, 'correct': 0, 'accuracy': 0.0, 'json_parse_rate': 0.0}, 'action_t': {'n': 12, 'correct': 0, 'accuracy': 0.0, 'json_parse_rate': 0.0}}}
+COMPOSE {'n': 96, 'correct': 0, 'accuracy': 0.0, 'json_parse_rate': 0.0, 'by_truth': {'false': {'n': 48, 'correct': 0, 'accuracy': 0.0, 'json_parse_rate': 0.0}, 'true': {'n': 48, 'correct': 0, 'accuracy': 0.0, 'json_parse_rate': 0.0}}, 'by_action': {'action_r': {'n': 48, 'correct': 0, 'accuracy': 0.0, 'json_parse_rate': 0.0}, 'action_s': {'n': 24, 'correct': 0, 'accuracy': 0.0, 'json_parse_rate': 0.0}, 'action_t': {'n': 24, 'correct': 0, 'accuracy': 0.0, 'json_parse_rate': 0.0}}}
+{
+  "candidate_manifest_sha256": "b03b0eca0ecf39554491e787e64a5fae0102bcff7700c81630f66c3005bc1ca1",
+  "compose_benchmark_admitted": true,
+  "disposition": "ADMIT_V12_PREEXECUTION_QUALIFICATION",
+  "gates": {
+    "note": "Opaque action labels are intended to preserve learning headroom.",
+    "reject_composed_benchmark_if_nf4_accuracy_gte": 0.8,
+    "reject_policy_direct_if_nf4_accuracy_gte": 0.9,
+    "timing": "before any v12 trained-arm outcome"
+  },
+  "host_lock_sha256": "13379f2d678bdfd8b266f6985808d193c57519924a6c40cd85892ce30900418e",
+  "laws": [
+    "BASELINE_ADMISSION != COMPOSITION_EFFECT",
+    "OPAQUE_LABEL_HEADROOM != LEARNED_COMPOSITION",
+    "REJECTED_BENCHMARK != NEGATIVE_CFE_RESULT"
+  ],
+  "metrics": {
+    "COMPOSE": {
+      "accuracy": 0.0,
+      "by_action": {
+        "action_r": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 48
+        },
+        "action_s": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 24
+        },
+        "action_t": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 24
+        }
+      },
+      "by_truth": {
+        "false": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 48
+        },
+        "true": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 48
+        }
+      },
+      "correct": 0,
+      "json_parse_rate": 0.0,
+      "n": 96
+    },
+    "POLICY": {
+      "accuracy": 0.0,
+      "by_action": {
+        "action_r": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 24
+        },
+        "action_s": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 12
+        },
+        "action_t": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 0.0,
+          "n": 12
+        }
+      },
+      "correct": 0,
+      "json_parse_rate": 0.0,
+      "n": 48
+    },
+    "PREDICATE": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "json_parse_rate": 0.0,
+      "n": 48
+    }
+  },
+  "policy_direct_admitted": true,
+  "prereg_sha256": "e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9",
+  "results_sha256": {
+    "COMPOSE": "9fb51eb499c8749066dd0691b02b0329c753bd7575d6fc4b529626de45929738",
+    "POLICY": "03eea1d027ac7c7e43ae1a23a41ab439ec953c515470fb949d648bff89f79183",
+    "PREDICATE": "9aba7bf9d6f81bd8ad4a19e16929f2dc4e8c352dc206e728b9a1d56c57284782"
+  },
+  "runtime_seconds": 349.43862676620483,
+  "schema": "cfe.v12.factor-primitive-baseline-admission.v1",
+  "screen_admitted": true,
+  "static_qualification_sha256": "3f72abbcf839085972186cf6c129111a2dd1de6633672653bb8e6619750a2ee6",
+  "status": "BASELINE_ADMISSION_COMPLETE__NO_V12_TRAINED_ARM_OUTCOME"
+}

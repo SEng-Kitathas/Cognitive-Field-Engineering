@@ -4,13 +4,12 @@ Date: 2026-08-29
 Current frontier: live v1.0 first causal screen, Stage 1.
 
 ## Immediate
-1. Publish/read back the complete v1.1 six-seed closeout, all non-heavy evidence, and all 18 heavy adapter bindings.
-2. Preserve v1.2 prereg SHA `e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9` remotely before building its candidate.
-3. Build v1.2 candidate with two matched arms: narrow predicate basis vs identifying predicate basis; both receive byte-identical opaque POLICY_Z experience; no joint examples.
-4. Enforce optimizer-window geometry: every accumulation window exactly 4 predicate + 4 policy sequences, same indices/order across arms.
-5. Build fresh direct-predicate, direct-policy, and hidden-interface composed-action evaluations.
-6. Token/burden/overlap/static-hostile audit before NF4 admission; no v1.2 training until new lock/runtime/repeatability pass.
-7. Keep K1/K2/K4 and optimizer-window screens parked.
+1. Do not launch the mechanically named JOINT_IDENTIFYING branch yet; preserve that prereg disposition but treat it as blocked by incomplete predicate competence.
+2. Draft/freeze a new predicate-competence discriminator with class-symmetric evaluation, per-side minimum thresholds, and explicit constant-class rejection.
+3. Keep optimizer/profile/horizon unchanged so the next test isolates basis constitution rather than combining mechanisms.
+4. If and only if two-sided predicate competence is prospectively established, return to a separately locked joint predicate+policy composition screen.
+5. Future scientific locks must declare both raw execution identity and canonical checkout/transport identity pre-outcome.
+6. Continue full research-lineage publication: all non-heavy evidence to Git, heavy artifacts to hashed release assets, failures preserved.
 
 ## Stage-1 close
 Completed:

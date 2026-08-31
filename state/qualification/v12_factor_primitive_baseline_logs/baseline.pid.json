@@ -1,0 +1,21 @@
+{
+  "pid": 23072,
+  "started": 1788141183.7388155,
+  "cmd": [
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\tools\\run_v12_factor_primitive_baseline_admission.py",
+    "--host-lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V11_PREDICATE_POLICY_RUNTIME_20260830\\HOST_LOCK.json",
+    "--candidate",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\candidates\\v12_factor_primitive_composition_20260830",
+    "--prereg",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps\\V12_FACTOR_PRIMITIVE_COMPOSITION_PREREG_DRAFT_2026-08-30.json",
+    "--qualification",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V12_FACTOR_PRIMITIVE_STATIC_HOSTILE_2026-08-30.json",
+    "--out",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V12_FACTOR_PRIMITIVE_BASELINE_ADMISSION_20260830"
+  ],
+  "stdout": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\v12_factor_primitive_baseline_logs\\baseline.stdout.log",
+  "stderr": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\v12_factor_primitive_baseline_logs\\baseline.stderr.log",
+  "out": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V12_FACTOR_PRIMITIVE_BASELINE_ADMISSION_20260830"
+}

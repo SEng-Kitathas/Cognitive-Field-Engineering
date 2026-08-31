@@ -1,0 +1,63 @@
+{
+  "host_lock_sha256": "672f4884946d61a5175bcf6cd2f7d8d7f78d553427bcf73a0cc16f86ecd8155e",
+  "input_lock_sha256": "f4cbcb189a23e41d169795f0e6e64f8eec79ea6eeef22a6d509ae01b5d6f5b6d",
+  "mismatches": {},
+  "reference_id": "v12policy-000",
+  "reference_tokens": 219,
+  "required_equal_witnesses": [
+    "selected_profile",
+    "initial_trainable_sha256",
+    "post_step_trainable_sha256",
+    "loss_hex",
+    "trainable_parameters"
+  ],
+  "runs": [
+    {
+      "determinism": {
+        "cublas_workspace_config": ":4096:8",
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "deterministic_algorithms": true,
+        "deterministic_debug_mode": 2,
+        "matmul_allow_tf32": false,
+        "numpy_seed": 1025947614,
+        "seed": 91220260830
+      },
+      "initial_trainable_sha256": "3972e29e9c15f30e32bc21bb3a6a9fb9a4ba8e0ae64b1d1283077d241706bc1c",
+      "loss": 1.4314098358154297,
+      "loss_hex": "0x1.6e70e00000000p+0",
+      "peak_allocated_bytes": 7687299584,
+      "peak_reserved_bytes": 8101298176,
+      "post_step_trainable_parameters": 20971520,
+      "post_step_trainable_sha256": "d1ee32fb0ee5f58505639a5b8b0e69b867005273f726b3e07b5b0f768485336f",
+      "selected_profile": "all_linear_r8",
+      "tokens": 219,
+      "trainable_parameters": 20971520
+    },
+    {
+      "determinism": {
+        "cublas_workspace_config": ":4096:8",
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "deterministic_algorithms": true,
+        "deterministic_debug_mode": 2,
+        "matmul_allow_tf32": false,
+        "numpy_seed": 1025947614,
+        "seed": 91220260830
+      },
+      "initial_trainable_sha256": "3972e29e9c15f30e32bc21bb3a6a9fb9a4ba8e0ae64b1d1283077d241706bc1c",
+      "loss": 1.4314098358154297,
+      "loss_hex": "0x1.6e70e00000000p+0",
+      "peak_allocated_bytes": 7689428480,
+      "peak_reserved_bytes": 8130658304,
+      "post_step_trainable_parameters": 20971520,
+      "post_step_trainable_sha256": "d1ee32fb0ee5f58505639a5b8b0e69b867005273f726b3e07b5b0f768485336f",
+      "selected_profile": "all_linear_r8",
+      "tokens": 219,
+      "trainable_parameters": 20971520
+    }
+  ],
+  "schema": "cfe.v12.factor-primitive-repeatability.v1",
+  "seed": 91220260830,
+  "status": "REPEATABILITY_PASS"
+}

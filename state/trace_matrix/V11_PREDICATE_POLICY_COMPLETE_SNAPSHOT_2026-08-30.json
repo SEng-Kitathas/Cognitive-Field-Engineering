@@ -1,0 +1,13 @@
+{
+  "aggregate_sha256": "3e631f81a5c063fda3fdcf06f26fed8fe9e6de7217ce8e085f8ef161800ccf4d",
+  "campaign_pid": 5916,
+  "completed_jobs": 18,
+  "heavy_release_state_sha256": "0d31051f01ed573945c30014b2dd3e33761642668018a3642717cadc2ececbf0",
+  "heavy_release_tag": "cfe-v11-predicate-policy-research-2026-08-30",
+  "hostile_final_sha256": "b8b3a0cee99ae8bab37834d2badcf821b1f70e199bbc96b858d3ae2af3dd4512",
+  "portability_seal_sha256": "a099c58fe010996147ae01a897cb54f7604caad2899be5cb012e3f74b993226c",
+  "receipt_sha256": "29a904d28a9eda8fef72bc814c6c97c4d8f9563ffd7095d8be7a4be378d55e2a",
+  "run_root": "state/analysis/V11_PREDICATE_POLICY_CAMPAIGN_20260830T184627Z",
+  "schema": "cfe.completed-campaign-publication-snapshot.v1",
+  "status": "COMPLETE"
+}

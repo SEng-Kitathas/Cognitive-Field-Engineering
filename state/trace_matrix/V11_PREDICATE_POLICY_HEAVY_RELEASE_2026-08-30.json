@@ -1,5 +1,5 @@
 {
-  "adapter_count": 18,
+  "asset_count": 6,
   "bundles": [
     {
       "asset_name": "V11_PREDICATE_POLICY_2026082801_ADAPTERS.zip",
@@ -68,7 +68,7 @@
         }
       ],
       "seed": "2026082803",
-      "sha256": "3b07eca8ee004da5695d35fa1b05506536bcc346788f4d78b60609345838b615"
+      "sha256": "b2b456d47a8789ce25a94b45c985f781cd80ccf810f7c43a0cd99bd31e6c875e"
     },
     {
       "asset_name": "V11_PREDICATE_POLICY_2026082804_ADAPTERS.zip",
@@ -91,7 +91,7 @@
         }
       ],
       "seed": "2026082804",
-      "sha256": "77bf21c69899dfdf1c7c96a03a09f4f71f2646a4974a777a7c04545edad473c7"
+      "sha256": "61613bbf62c1c870404728c6c20bc6dc7f97aa8d5948015fcf93377cd5a0d388"
     },
     {
       "asset_name": "V11_PREDICATE_POLICY_2026082805_ADAPTERS.zip",
@@ -114,7 +114,7 @@
         }
       ],
       "seed": "2026082805",
-      "sha256": "f0c25c6f730f66ced92f78baa6ccf5f9208ed626a8d87ee963aa90453d9073eb"
+      "sha256": "da21a76434a2a26ed0ef43d2d166fd9eca312846e8a080f848aaeebbf7a9fc9a"
     },
     {
       "asset_name": "V11_PREDICATE_POLICY_2026082806_ADAPTERS.zip",
@@ -137,46 +137,16 @@
         }
       ],
       "seed": "2026082806",
-      "sha256": "56448de46bb241fc5d932c11e1b5e8a1551ef4ef0ab21d7bd245856d5938984f"
+      "sha256": "9e80d62385cd60afd033b2174bf2c0bc7adff952b3112d52c3431127fbb43ba6"
     }
   ],
-  "release_readback": {
-    "assets": [
-      {
-        "digest": "sha256:2fa82f49613c7f675cd8efe5c889ce739c503325a4e9b9bb47b9c44ba5dc3d9d",
-        "name": "V11_PREDICATE_POLICY_2026082801_ADAPTERS.zip",
-        "size": 251838051
-      },
-      {
-        "digest": "sha256:7d138a9c29856bb72efaf8223006250177f85a5f4603ac0d9aecfb886f306971",
-        "name": "V11_PREDICATE_POLICY_2026082802_ADAPTERS.zip",
-        "size": 251838051
-      },
-      {
-        "digest": "sha256:3b07eca8ee004da5695d35fa1b05506536bcc346788f4d78b60609345838b615",
-        "name": "V11_PREDICATE_POLICY_2026082803_ADAPTERS.zip",
-        "size": 251838051
-      },
-      {
-        "digest": "sha256:77bf21c69899dfdf1c7c96a03a09f4f71f2646a4974a777a7c04545edad473c7",
-        "name": "V11_PREDICATE_POLICY_2026082804_ADAPTERS.zip",
-        "size": 251838051
-      },
-      {
-        "digest": "sha256:f0c25c6f730f66ced92f78baa6ccf5f9208ed626a8d87ee963aa90453d9073eb",
-        "name": "V11_PREDICATE_POLICY_2026082805_ADAPTERS.zip",
-        "size": 251838051
-      },
-      {
-        "digest": "sha256:56448de46bb241fc5d932c11e1b5e8a1551ef4ef0ab21d7bd245856d5938984f",
-        "name": "V11_PREDICATE_POLICY_2026082806_ADAPTERS.zip",
-        "size": 251838051
-      }
-    ],
-    "tag": "cfe-v11-predicate-policy-research-2026-08-30",
-    "url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v11-predicate-policy-research-2026-08-30"
-  },
+  "laws": [
+    "NOT_IN_NORMAL_GIT != NOT_PUBLISHED",
+    "HEAVY_RELEASE_DIGEST_READBACK_REQUIRED"
+  ],
+  "member_count": 18,
+  "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v11-predicate-policy-research-2026-08-30",
   "schema": "cfe.v11.heavy-release-publication.v2",
-  "status": "ALL_18_ADAPTERS_PUBLISHED_AND_DIGEST_VERIFIED",
+  "status": "ALL_18_ADAPTERS_PUBLISHED_AND_READBACK_VERIFIED",
   "tag": "cfe-v11-predicate-policy-research-2026-08-30"
 }

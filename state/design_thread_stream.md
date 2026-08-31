@@ -480,3 +480,25 @@ Timestamp: 2026-08-30
 Tags: V12 CANDIDATE GENERATED, STATIC QUALIFICATION, PRE-BASELINE FREEZE
 
 After remote publication of v1.1 closeout and v1.2 preregistration, assistant generated `state/candidates/v12_factor_primitive_composition_20260830`. The candidate contains separate predicate and POLICY_Z streams, zero joint numeric+mode->action training examples, and fresh direct-predicate/direct-policy/composed-action evaluations. Exact pinned-tokenizer audit passed: both composition arms total 31,200 tokens and 4,608 supervised tokens; all 72 paired predicate sequence lengths exact. Every preregistered optimizer window is structurally 4 predicate + 4 policy sequences with identical logical schedule across paired arms. Static hostile audit passed 1,157 checks with zero failures. No NF4 baseline or v1.2 trained-arm output had been observed at this snapshot.
+
+---
+
+## Exchange — USER
+Timestamp: 2026-08-30
+Tags: CROSS-PROJECT PORTABILITY LESSON, CFE LOCK REVIEW
+
+Operator supplied an external review identifying a fresh-clone portability defect: eight v1.1 lock mismatches caused solely by CRLF-to-LF checkout normalization under `.gitattributes`, while all 27 files verify after accounting for line endings. Operator asked PCMMAD to proceed as makes most sense and learn from the shared environment-sealing blind spot.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: V11 COMPLETE, PORTABILITY REPAIR, HOSTILE DISPOSITION, FULL PUBLICATION
+
+Assistant verified current execution/publication checkout remained 27/27 exact against the original lock, so original scientific integrity was unaffected. A synthetic LF-normalized checkout reproduced the external report exactly in class: 19 exact + 8 normalization-equivalent, zero failures. Original lock was not rewritten. Added `policy/SEALED_ARTIFACT_PORTABILITY_POLICY.md`, companion portability seal SHA `a099c58fe010996147ae01a897cb54f7604caad2899be5cb012e3f74b993226c`, and verifier distinguishing exact bytes from normalization-equivalent reproduction provenance.
+
+Live campaign had completed 18/18 jobs. Aggregate SHA `3e631f81a5c063fda3fdcf06f26fed8fe9e6de7217ce8e085f8ef161800ccf4d`; frozen mechanical disposition `H_WRONG_BASIS=SUPPORTED`, `POLICY_SEPARABILITY=LEARNABLE`. Identifying-minus-narrow predicate deltas were +0.4107,+0.1964,+0.2500,+0.1964,-0.0536,+0.0536 (5/6 positive, mean +17.56 pts; out-of-original-support mean +24.17 pts). Policy was 48/48 for all six seeds.
+
+Hostile support-level analysis found the identifying arm did not robustly learn the strict boundary: narrow mean balanced accuracy 0.5174 and mostly true-basin behavior; identifying mean balanced accuracy 0.6076, strong false/equality competence but weak positive-side competence in most seeds. Therefore the prereg mechanical pass is preserved but does not authorize a claim of full predicate acquisition. Joint composition training is blocked pending a new two-sided predicate-competence gate.
+
+All 18 adapters were published as six seed-scoped heavy release bundles. Direct GitHub release readback verified size/digest for all six assets under `cfe-v11-predicate-policy-research-2026-08-30`.

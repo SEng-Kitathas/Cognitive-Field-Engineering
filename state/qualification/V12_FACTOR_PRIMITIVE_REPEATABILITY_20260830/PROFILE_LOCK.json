@@ -1,0 +1,25 @@
+{
+  "host_lock_sha256": "672f4884946d61a5175bcf6cd2f7d8d7f78d553427bcf73a0cc16f86ecd8155e",
+  "inheritance_from_v11_profile_lock_sha256": "8de85251eafb8cd05887c11935c0cdef44a5297618b7736d841db4f3ea1d30f4",
+  "inheritance_reason": "Same exact base/runtime; v12 max 219 <= v11 qualified max 253; fresh two-run one-step repeatability PASS.",
+  "input_lock_sha256": "f4cbcb189a23e41d169795f0e6e64f8eec79ea6eeef22a6d509ae01b5d6f5b6d",
+  "repeatability_qualification_sha256": "e81ffe9933ca2a645a902fd781d97b72a8b18ea3ad8160060648774dab578ceb",
+  "schema": "cfe.v12.factor-primitive-profile-lock.v1",
+  "selected_profile": {
+    "alpha": 16,
+    "dropout": 0.0,
+    "name": "all_linear_r8",
+    "priority": 0,
+    "r": 8,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "status": "PROFILE_INHERITED_AND_REPEATABILITY_QUALIFIED"
+}

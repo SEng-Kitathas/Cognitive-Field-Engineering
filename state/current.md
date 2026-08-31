@@ -254,3 +254,20 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Joint training examples: 0. Composed primary evaluation hides `condition_z`. Policy/composition prompts use opaque actions and contain no overflow/backpressure/drop-oldest/accept-all semantics.
 - Independent static hostile audit: PASS, 1,157 checks, zero failures.
 - Status: candidate only; baseline admission not yet run; no v1.2 weights trained.
+
+
+## v1.1 predicate/policy final result
+- COMPLETE 18/18 jobs. Receipt SHA `29a904d28a9eda8fef72bc814c6c97c4d8f9563ffd7095d8be7a4be378d55e2a`; aggregate SHA `3e631f81a5c063fda3fdcf06f26fed8fe9e6de7217ce8e085f8ef161800ccf4d`.
+- Frozen disposition: `H_WRONG_BASIS=SUPPORTED`, `POLICY_SEPARABILITY=LEARNABLE`.
+- Predicate identifying-minus-narrow mean +0.1756; 5/6 positive seeds; out-of-original-support mean +0.2417.
+- Policy = 48/48 on every seed.
+- Hostile correction: narrow mean balanced accuracy 0.5174; identifying 0.6076. Identifying basis strongly improves safe/equality classification but remains poor on near-positive/far-positive support in most seeds. This is basis sensitivity, not stable strict-boundary acquisition.
+- Joint-composition scientific run is blocked pending a two-sided predicate-competence gate.
+- Final hostile summary: `state/analysis/V11_PREDICATE_POLICY_HOSTILE_FINAL_2026-08-30.md`.
+
+## Scientific lock portability repair
+- Original v1.1 input lock remains unchanged and valid for original execution.
+- Current checkout verifies 27/27 `EXACT_BYTES`.
+- Synthetic LF checkout verifies 19 `EXACT_BYTES` + 8 `NORMALIZATION_EQUIVALENT`, zero failures.
+- Companion seal: `state/trace_matrix/V11_PREDICATE_POLICY_LOCK_PORTABILITY_SEAL_2026-08-30.json`, SHA `a099c58fe010996147ae01a897cb54f7604caad2899be5cb012e3f74b993226c`.
+- `NORMALIZATION_EQUIVALENT` is reproduction provenance only; it does not retroactively authorize original execution.
