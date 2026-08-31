@@ -25,3 +25,9 @@ Role: R5 Reality Pressure Engine
 
 ## Resume point
 Commit this recovery identity, then launch DD1R1 as sole GPU campaign.
+
+## DD1R1 launch — 2026-08-31 18:34 Eastern Daylight Time
+- Job `job-edd2c803aaed`, PID `25648`: RUNNING.
+- Recovery receipt `RUNNING`, 0/6 paired seeds sealed.
+- Runner crossed salvage gate and entered `RECOVER_PAIR 2026083121`.
+- Sole active GPU campaign.

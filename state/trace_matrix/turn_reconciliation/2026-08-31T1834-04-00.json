@@ -1,0 +1,17 @@
+{
+  "active_blockers": [],
+  "frontier": {
+    "dd1r1": {
+      "job_id": "job-edd2c803aaed",
+      "pid": 25648,
+      "receipt_status": "RUNNING",
+      "sealed_pairs": 0,
+      "stage": "RECOVER_PAIR_2026083121",
+      "status": "RUNNING"
+    }
+  },
+  "mode": "BUILD-COMMIT",
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v4",
+  "timestamp": "2026-08-31T18:34:05-04:00"
+}

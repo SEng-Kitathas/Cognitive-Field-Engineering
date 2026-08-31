@@ -914,3 +914,7 @@ User instructed proceeding after DD-1 execution failure.
 
 ## Turn — ASSISTANT / RECOVERY PREP
 Verified failure at base-model shard load before dispersed RUN_MANIFEST. Verified seed3121 identifying run/eval and remote adapter digest. Created DD1R1 recovery identity under unchanged frozen DD-1 science; static qualification PASS.
+
+## DD1R1 launch — ASSISTANT
+Timestamp: 2026-08-31 18:34 Eastern Daylight Time
+Recovery launched as `job-edd2c803aaed`, PID 25648. Early stdout `RECOVER_PAIR 2026083121` confirms local+remote salvage gates passed before missing paired arm execution.
