@@ -78,7 +78,7 @@
         }
       ],
       "seed": "2026082904",
-      "sha256": "a2100a1755cf92f96c249a79be3c28ac74958f640cf1faf4bcbea2b73e4751a8"
+      "sha256": "1c3e78789ae7afd58b57097338c4972d300ba14e382db232d150b601b51cc9ed"
     }
   ],
   "release_readback": {
@@ -99,7 +99,7 @@
         "size": 167892142
       },
       {
-        "digest": "sha256:a2100a1755cf92f96c249a79be3c28ac74958f640cf1faf4bcbea2b73e4751a8",
+        "digest": "sha256:1c3e78789ae7afd58b57097338c4972d300ba14e382db232d150b601b51cc9ed",
         "name": "V12_FACTOR_PRIMITIVE_2026082904_ADAPTERS.zip",
         "size": 167892142
       }

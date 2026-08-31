@@ -560,3 +560,11 @@ Timestamp: 2026-08-31
 Tags: V12 SEED2904 SEALED, MICROSEED DEPENDENCY OPENED
 
 Seed 2026082904 is fully sealed and published. NARROW composed 51/96=0.5312; IDENTIFYING 50/96=0.5208; paired delta -0.0104. Both direct predicates remain one-sided; policy direct is 1.0 in both. Opened a Microseed language-gate dependency seam while explicitly forbidding direct CFE-result transfer without Microseed-side re-derivation.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-31
+Tags: V12 SEED2904 SEALED, RESEARCH PUBLICATION
+
+Seed 2026082904 fully paired. NARROW composed 0.5312; IDENTIFYING 0.5208; paired delta -0.0104. Both predicate-direct overall 0.50 but opposite one-sided basins; policy-direct both 1.0. Exact adapters release-published and digest verified. Campaign unchanged.
