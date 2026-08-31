@@ -2,7 +2,7 @@
 
 ## Thread Identity
 - Thread: CFE mechanism science and maturation
-- Last Updated: 2026-08-31 07:36 ET
+- Last Updated: 2026-08-31 07:50 Eastern Daylight Time
 - Mode: BUILD-COMMIT
 - Dominant Objective: finish v1.3 without adaptive rescue, preserve total per-turn lineage, then attack the strongest surviving CFE seam.
 
@@ -13,14 +13,13 @@
 
 ## Current Authoritative State
 - Commander source immutable SHA `29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765`.
-- Active binding `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0736-0400.md` SHA `24247495900c1583c2799089b8c2180585441398646aca9c5f621c24d4397f5c`.
+- Active binding `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0750-04-00.md` SHA `bae66a00919f29721c68e47b04a70b413b4b683beee69e3b5e8ddd397011789d`.
 - v1.2 COMPLETE; `COMPOSITION_BASIS_NOT_SUPPORTED`; aggregate SHA `af26fd4b626afddd2bb22445cf276cf3690b5e4352bb96f3b8acddcb0ec0ff20`.
-- v1.3 active under PID `23156` (`ALIVE`), 4/12 jobs sealed at reconciliation.
-- Seed3101: mixed vs separated predicate 0.50/0.50, composition 0.50/0.50, policy 1.00/0.9375. Null separation benefit.
-- Seed3102: mixed vs separated predicate 0.6667/0.5417, composition 0.5417/0.50, policy 1.0/1.0. Separation is worse on predicate and composition.
-- First two pairs: separation has 0 positive predicate advantages and 0 positive composition advantages. This weakens simple local interference; no aggregate disposition yet.
-- Seed3103 LOCAL_MIXED is the active frozen job.
-- Seed3101 and seed3102 full-pair heavy adapters are release-published; seed3102 bundle SHA `0d24396726b498bc79a19e567f9ed54f9290c8d933d982326d7d1f54a434d6a3`. Earlier seed3102 partial asset remains historical.
+- v1.3 active under PID `23156` (`ALIVE`), 5/12 jobs sealed = 2/6 complete pairs.
+- Seed3101 separation: predicate 0.0, composition 0.0.
+- Seed3102 separation: predicate -0.1250, composition -0.0417; policy tie.
+- Seed3103 LOCAL_MIXED trained and is evaluating; not yet sealed, so no seed3103 inference.
+- Publication head before this turn was remote-matched at `b8a70c634db188df60980e5bfa0098542e9d1363`.
 
 ## Active Constraints
 - No MVP closure; no downstream urgency graduation.
@@ -33,9 +32,10 @@
 ## Decisions Locked In
 - v1.2 composition basis not supported locally.
 - v1.3 is the active interference discriminator and must complete 6 pairs.
-- Simple local interference is weakened after 2 pairs, not yet disposed.
+- Simple local interference is weakened after 2 pairs, not disposed.
 - CFE continues independently beyond handoffs.
 - Freshness uses successor bindings/receipts, not rewriting published history.
+- Rehydration after ngrok restoration must continue exact PID `23156`; no duplicate runner.
 
 ## Open Loops
 - Do remaining 4 pairs reverse the current anti-separation pattern?
@@ -45,7 +45,7 @@
 - Microseed handoff remains versioned and requires Microseed evidence.
 
 ## Immediate Next Step
-- Keep PID `23156` only; let seed3103 LOCAL_MIXED run.
+- Keep PID `23156` only; let seed3103 LOCAL_MIXED evaluation seal.
 - Publish each sealed research artifact/heavy adapter; pair-level interpretation only after both mates.
 - Finish 12/12, mechanical disposition, hostile closeout, then next discriminator.
 
@@ -57,13 +57,13 @@
 5. USER mandated per-turn freshness for all decisions/research/intent/continuity.
 6. ASSISTANT verified v1.2 complete; ngrok outage blocked mutation.
 7. USER restored ngrok.
-8. ASSISTANT rehydrated exact state; found qualified v1.3 already active; no duplicate runner.
-9. ASSISTANT sealed/published seed3101 pair and full 07:17 reconciliation.
-10. ASSISTANT completed seed3102 pair; separation was worse; published full pair and advanced active binding.
+8. ASSISTANT rehydrated exact local state and found v1.3 already active; no duplicate runner.
+9. Persisted state shows seed3101 and seed3102 pairs published; simple separation hypothesis weakened.
+10. USER asked “So?”; current turn re-verified PID `23156` and seed3103 mixed evaluation in progress.
 
 ## Delta Since Previous Shadow
-- v1.3 advanced 3 -> 4 sealed jobs.
-- Seed3102 moved from unpaired partial evidence to complete paired evidence.
-- Simple interference hypothesis is now weakened by 2/6 pairs.
-- Full seed3102 heavy pair published; partial asset preserved historically.
-- New 07:36 Commander binding supersedes 07:17 active binding without rewriting it.
+- Control plane restoration verified.
+- Current turn successor Commander binding created.
+- Seed3103 LOCAL_MIXED advanced from active training to evaluation-in-progress, still unsealed.
+- No new paired scientific inference.
+- Exact v1.3 PID continuity preserved.

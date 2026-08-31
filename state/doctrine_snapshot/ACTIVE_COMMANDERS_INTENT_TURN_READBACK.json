@@ -1,20 +1,21 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0736-0400.md",
-  "active_binding_sha256": "24247495900c1583c2799089b8c2180585441398646aca9c5f621c24d4397f5c",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0750-04-00.md",
+  "active_binding_sha256": "bae66a00919f29721c68e47b04a70b413b4b683beee69e3b5e8ddd397011789d",
   "alignment": "ALIGNED",
   "branch": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE__CAMPAIGN_ACTIVE",
   "frontier": {
-    "active_job": "2026083103 LOCAL_MIXED",
+    "active_job": "campaign frontier per receipt/log",
     "complete_pairs": 2,
     "pid": 23156,
     "pid_status": "ALIVE",
-    "sealed_jobs": 4,
+    "sealed_jobs": 5,
     "seed3101": "separation tie on predicate/composition",
-    "seed3102": "separation worse on predicate/composition"
+    "seed3102": "separation worse on predicate/composition",
+    "seed3103": "mixed evaluation in progress; unsealed"
   },
-  "reason": "Continuing the frozen discriminator despite two anti-separation pairs is aligned with evidence-before-inference. No early stop or rescue is authorized.",
+  "reason": "Continuing the exact frozen six-pair discriminator without rescue remains aligned with evidence-before-inference and maximum-attainable maturation.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T07:36:35-04:00"
+  "timestamp": "2026-08-31T07:50:36-04:00"
 }

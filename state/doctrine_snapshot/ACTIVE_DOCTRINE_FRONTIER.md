@@ -1,19 +1,19 @@
 # CFE ACTIVE DOCTRINE FRONTIER
 
-As of: 2026-08-31 07:36 ET
+As of: 2026-08-31 07:50 Eastern Daylight Time
 Mode: BUILD-COMMIT
 Role: R5 Reality Pressure Engine
 
 ## Program-level load bearing
 - Immutable Commander source SHA `29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765`.
-- Active binding `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0736-0400.md` SHA `24247495900c1583c2799089b8c2180585441398646aca9c5f621c24d4397f5c`.
+- Active binding `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0750-04-00.md` SHA `bae66a00919f29721c68e47b04a70b413b4b683beee69e3b5e8ddd397011789d`.
 - **The developmental structure of experience itself is the engineering medium.**
 - `USEFUL HANDOFF != PROGRAM COMPLETION`; CFE remains independent of Microseed urgency.
 
 ## Earned scientific state
 - v1.1: identifying support matters locally; two-sided predicate acquisition unstable.
 - v1.2: composition-basis hypothesis not supported; policy strong; primitive/composition mismatch remains.
-- v1.3: optimizer-visible interference screen active. First two paired seeds provide no evidence that homogeneous window separation improves predicate or composition; seed3102 favors mixed.
+- v1.3: first two paired seeds show no benefit from homogeneous optimizer-window separation; seed3102 favors mixed. Seed3103 mixed evaluation is running but unsealed.
 
 ## Active hypotheses under pressure
 1. simple local mixed-window primitive interference — **weakened after 2/6 pairs**, not disposed until prereg closes.

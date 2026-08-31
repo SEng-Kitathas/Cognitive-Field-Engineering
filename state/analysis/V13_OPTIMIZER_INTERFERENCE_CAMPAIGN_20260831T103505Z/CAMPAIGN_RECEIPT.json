@@ -44,6 +44,17 @@
       "run_manifest_sha256": "309e685b3a6e5648e4d04a8861bd07b356c55fd9294ab01ed38f95fc8dce901a",
       "seed": 2026083102,
       "status": "COMPLETE"
+    },
+    {
+      "arm": "LOCAL_MIXED",
+      "composed_accuracy": 0.4791666666666667,
+      "eval_manifest_sha256": "dab11e0a11fd647ccd0b070c7d36a9cd72e143cebd597c241d64f407b5b49e3c",
+      "policy_accuracy": 1.0,
+      "predicate_accuracy": 0.5,
+      "predicate_balanced_accuracy": 0.5,
+      "run_manifest_sha256": "f49c01e140f31a0dfced05daa63a034b20c2508288188ba27dbe04ffb20267c9",
+      "seed": 2026083103,
+      "status": "COMPLETE"
     }
   ],
   "preexec_sha256": "4c08e6633c64af2bfd4f5adb9e67a7a099f6f76f52c3d1ce553b039561ad9ed4",

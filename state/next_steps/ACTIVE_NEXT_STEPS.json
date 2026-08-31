@@ -1,10 +1,11 @@
 {
-  "as_of": "2026-08-31T07:36:35-04:00",
+  "as_of": "2026-08-31T07:50:36-04:00",
   "blocked": [],
   "p0": [
     "keep PID 23156 only",
-    "finish seed3103 pair",
+    "seal seed3103 LOCAL_MIXED evaluation",
     "publish every sealed artifact/heavy adapter",
+    "finish seed3103 pair",
     "continue through 12/12 unchanged",
     "mechanical dispositions",
     "hostile closeout"

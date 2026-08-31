@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-08-31T07:36:35-04:00",
+  "as_of": "2026-08-31T07:50:36-04:00",
   "blockers": [],
-  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0736-0400.md",
-  "commander_active_binding_sha256": "24247495900c1583c2799089b8c2180585441398646aca9c5f621c24d4397f5c",
+  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0750-04-00.md",
+  "commander_active_binding_sha256": "bae66a00919f29721c68e47b04a70b413b4b683beee69e3b5e8ddd397011789d",
   "commander_source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
   "frontier": "V13_SCIENTIFIC_CAMPAIGN_ACTIVE",
   "mode": "BUILD-COMMIT",
@@ -14,12 +14,12 @@
     "status": "COMPLETE"
   },
   "v13": {
-    "active_job": "2026083103 LOCAL_MIXED",
+    "active_job": "campaign frontier per receipt/log",
     "campaign_status": "RUNNING",
     "complete_pairs": 2,
     "pid": 23156,
     "pid_status": "ALIVE",
-    "sealed_jobs": 4,
+    "sealed_jobs": 5,
     "seed3101": {
       "separation_composition_delta": 0.0,
       "separation_predicate_delta": 0.0
@@ -27,6 +27,7 @@
     "seed3102": {
       "separation_composition_delta": -0.04166666666666663,
       "separation_predicate_delta": -0.125
-    }
+    },
+    "seed3103": "LOCAL_MIXED evaluation in progress; unsealed"
   }
 }

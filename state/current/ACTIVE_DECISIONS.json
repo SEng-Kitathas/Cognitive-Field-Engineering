@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-31T07:36:35-04:00",
+  "as_of": "2026-08-31T07:50:36-04:00",
   "decisions": [
     {
       "consequence": "no CFE graduation at first useful Microseed handoff",
@@ -49,6 +49,13 @@
       "evidence_basis": "paired v1.3 seed3102 eval manifests",
       "replay_trigger": "six-pair aggregate",
       "status": "VERIFIED_SEED_LEVEL_ONLY"
+    },
+    {
+      "consequence": "all subsequent v1.3 work stays on the frozen campaign lineage",
+      "decision": "Do not duplicate the restored v1.3 runner; continue exact PID 23156",
+      "evidence_basis": "active campaign metadata + live process readback after ngrok restoration",
+      "replay_trigger": "PID terminates unexpectedly or campaign receipt fails closed",
+      "status": "VERIFIED_EXECUTION_CONTINUITY_DECISION"
     }
   ],
   "schema": "cfe.active-decisions.v1"
