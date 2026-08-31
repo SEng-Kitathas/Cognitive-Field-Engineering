@@ -19,3 +19,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | P0 | V14R2 recovery completion | six-seed horizon science unresolved | aggregate + frozen disposition | active |
 | P1 | DD-0 token-level qualification | byte/event equality is insufficient for LLM exposure identity | exact tokenizer/full-sequence audit | open |
+
+| P1 | DD-0 topology semantics | current freeze lacks explicit revisit/coverage/long-range source constructs | v2 compiler qualification | open |

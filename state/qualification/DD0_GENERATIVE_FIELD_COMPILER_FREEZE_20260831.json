@@ -1,0 +1,48 @@
+{
+  "bindings": {
+    "compiler_sha256": "6e188646275b41a31fddeaaa104d41e84fddbe65517410a4e395edb4ef8abf1e",
+    "host_lock_sha256": "0096682727fd0f9f54328033b70189b952f88c085ec00db1ccc49b832433cfc4",
+    "spec_sha256": "f025b724c6af13c5d2df4b38690bdb37638f35ca53a019e9c75a4d3e62ccf5ab",
+    "structural_audit_sha256": "b572a325005079ec7e66ee02d01bfc7528e3b7f9bd0bf6c60470788973da1eb6",
+    "structural_qualification_sha256": "5d9b32b4230c8bb367be89635b08781f7bef27f5df4a8cb9055b757c6599cd50",
+    "token_audit_tool_sha256": "cd51749c330ce04d18672fa7d58c03af68f62e8526e22406c80a60c515991156",
+    "token_qualification_sha256": "748ee0487b46b8d33fd90c6442ecaf256bfe5bb28ea9985dd3cb1a4937d70ff7"
+  },
+  "claim_ceiling": "CFE can deterministically compile and verify controlled differences in learner-visible relational arrangement while preserving matched source events, payload bytes, per-event tokenized content, total compiled token count, and explicit absence of curator relation-label leakage. No learner effect or learned geometry is claimed.",
+  "laws": [
+    "CDF != LFP != COMPILED EXPOSURE != LEARNED GEOMETRY",
+    "SAME EVENT MULTISET != SAME FIELD GEOMETRY",
+    "BYTE-MATCHED EVENT MULTISET != TOKEN-MATCHED TRAINING INTERVENTION",
+    "EQUAL TOTAL TOKENS != IDENTICAL TOKEN STREAM",
+    "COMPILER QUALIFICATION != LEARNER EFFECT"
+  ],
+  "schema": "cfe.dd0.compiler-qualification-freeze.v1",
+  "status": "QUALIFIED_ENGINEERING_ONLY",
+  "structural_metrics": {
+    "target_covisibility_dispersed": 0,
+    "target_covisibility_identifying": 3
+  },
+  "timestamp": "2026-08-31T16:20:14-04:00",
+  "token_metrics": {
+    "compiled_full_sequence_token_delta": 0,
+    "compiled_full_sequence_tokens_dispersed": 230,
+    "compiled_full_sequence_tokens_identifying": 230,
+    "compiled_stream_sha256_dispersed": "06959339f1f9f0ab2c879848bfb12dec49ae9751d2fa0d31a608e23ca55bfe51",
+    "compiled_stream_sha256_identifying": "b79a951a0738cff541c3cc50114c06c65a853cc591149a010eec1f2f40dab133",
+    "compiled_streams_identical": false,
+    "per_event_total_tokens_dispersed": 134,
+    "per_event_total_tokens_identifying": 134,
+    "window_token_counts_dispersed": [
+      58,
+      58,
+      57,
+      57
+    ],
+    "window_token_counts_identifying": [
+      57,
+      57,
+      59,
+      57
+    ]
+  }
+}

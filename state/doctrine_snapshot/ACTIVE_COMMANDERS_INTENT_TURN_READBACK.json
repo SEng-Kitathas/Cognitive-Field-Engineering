@@ -1,25 +1,23 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1525-04-00.md",
-  "active_binding_sha256": "e605cc799772614eaeeb4b23b56116e255c7d30e6b40974158209817d3fd7632",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1620-04-00.md",
+  "active_binding_sha256": "e2070c92808a2e789476c3dd932fc4cb2a0144f89125fd45046d3092a49138ee",
   "alignment": "ALIGNED",
-  "branch": "V14R2_RECOVERY_ACTIVE__DD0_COMPILER_QUALIFIED",
+  "branch": "V14R2_ACTIVE__DD0_COMPILER_FROZEN",
   "frontier": {
     "dd0": {
-      "claim_ceiling": "engineering compiler qualification only",
-      "qualification_sha256": "5d9b32b4230c8bb367be89635b08781f7bef27f5df4a8cb9055b757c6599cd50",
-      "status": "PASS"
+      "freeze_sha256": "b8bd8055b4aa29691ef1fd973d47ce056b71296d2c5f9bc15b58f904d720c26f",
+      "status": "QUALIFIED_ENGINEERING_ONLY"
     },
     "v14r2": {
-      "amendment_sha256": "68da3d9d6f177205351e46e654ed94b309ab42d33abe53c602b07881b1ceafbd",
       "job_id": "job-fc69b38e2e96",
       "pid": 32848,
-      "static_qualification_sha256": "ef3f13eb0d4465432c0761d506e89abf3ec3b483ef94ab8052c767b7031dd97c",
+      "qualified_trajectories": 4,
       "status": "RUNNING"
     }
   },
-  "reason": "Recover horizon science without frozen-input drift and advance non-contaminating CFE compiler infrastructure.",
+  "reason": "Freeze first tokenizer-aware field compiler qualification while active science continues unchanged.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T15:25:28-04:00"
+  "timestamp": "2026-08-31T16:20:14-04:00"
 }

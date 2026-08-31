@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "check": "per_event_token_multiset_equal",
+      "detail": {
+        "events_A": 12,
+        "events_B": 12,
+        "total_event_tokens_A": 134,
+        "total_event_tokens_B": 134
+      },
+      "pass": true
+    },
+    {
+      "check": "event_payload_sha_multiset_equal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "window_count_equal",
+      "detail": {
+        "A": 4,
+        "B": 4
+      },
+      "pass": true
+    },
+    {
+      "check": "compiled_total_tokens_reported",
+      "detail": {
+        "delta": 0,
+        "dispersed": 230,
+        "identifying": 230
+      },
+      "pass": true
+    }
+  ],
+  "dispersed_sha256": "3862f4e9b0286af74f167d6e37adcdf108d41d08eaeaaee28a4ab349dba0a8aa",
+  "host_lock_sha256": "0096682727fd0f9f54328033b70189b952f88c085ec00db1ccc49b832433cfc4",
+  "identifying_sha256": "132ab576ad98a0d6b8c8871e7fde0b6b19fc605f172add5ce23b2286ccc51926",
+  "interpretation_ceiling": "Token audit only. Equal per-event tokenized content does not imply equal compiled sequence, and unequal compiled sequence does not by itself establish learner-visible causal geometry.",
+  "metrics": {
+    "compiled_full_sequence_token_delta": 0,
+    "compiled_full_sequence_tokens_dispersed": 230,
+    "compiled_full_sequence_tokens_identifying": 230,
+    "compiled_stream_sha256_dispersed": "06959339f1f9f0ab2c879848bfb12dec49ae9751d2fa0d31a608e23ca55bfe51",
+    "compiled_stream_sha256_identifying": "b79a951a0738cff541c3cc50114c06c65a853cc591149a010eec1f2f40dab133",
+    "compiled_streams_identical": false,
+    "per_event_total_tokens_dispersed": 134,
+    "per_event_total_tokens_identifying": 134,
+    "window_token_counts_dispersed": [
+      58,
+      58,
+      57,
+      57
+    ],
+    "window_token_counts_identifying": [
+      57,
+      57,
+      59,
+      57
+    ]
+  },
+  "schema": "cfe.dd0.token-exposure-audit.v1",
+  "separator": "\n<DD0_EVENT_BOUNDARY>\n",
+  "status": "PASS",
+  "tokenizer_repo": "argilla/CapybaraHermes-2.5-Mistral-7B",
+  "tokenizer_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+  "tokenizer_snapshot": "D:\\CFE_HF_CACHE\\models--argilla--CapybaraHermes-2.5-Mistral-7B\\snapshots\\d06c86726aadd8dadb92c5b9b9e3ce8ef246c471"
+}

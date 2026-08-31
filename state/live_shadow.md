@@ -1,26 +1,24 @@
 # CFE LIVE SHADOW
 
 ## Thread Identity
-- Last Updated: 2026-08-31 15:25 Eastern Daylight Time
+- Last Updated: 2026-08-31 16:20 Eastern Daylight Time
 - Mode: BUILD-COMMIT
-- Dominant Objective: recover V14 horizon evidence and harden the field compiler needed for next-generation CFE geometry experiments.
+- Dominant Objective: finish V14R2 and harden CFE's learner-visible field compiler.
 
 ## Current Authoritative State
-- V14R attempt2 BLOCKED; no aggregate.
-- V14R2 recovery job `job-fc69b38e2e96` / PID 32848 RUNNING under unchanged frozen science.
-- DD-0 compiler qualification PASS, engineering-only.
-- StarMap and standalone Grand-problem donor inform future CFE hypotheses but do not enter active V14R2.
+- V14R2 RUNNING, 4/6 qualified.
+- DD-0 compiler freeze `QUALIFIED_ENGINEERING_ONLY`, SHA `b8bd8055b4aa29691ef1fd973d47ce056b71296d2c5f9bc15b58f904d720c26f`.
+- Matched events, payloads, per-event token content, total compiled tokens; geometry differs in token stream/co-visibility.
 
 ## Decisions Locked In
-- Partial evaluator output is never promoted to a qualified horizon.
-- Hash-verified completed training/results may survive a failed orchestrator under explicit recovery provenance.
-- Source field geometry must be compiled and verified at learner-visible surface before learner claims.
-- DD-0 precedes DD-1.
+- Equal total tokens does not mean identical intervention.
+- Full token-stream difference is an intended geometry consequence, not a matching failure, provided content/multiplicity/token budget controls remain satisfied.
+- DD-0 does not claim learned geometry.
 
 ## Open Loops
-- V14R2 six-seed completion.
-- DD-0 tokenizer/full-sequence equivalence gate.
-- DD-1 typed-relation design after compiler qualification.
+- V14R2 6/6 completion.
+- DD-0 revisit/coverage/long-range semantics.
+- DD-1 typed-relation experiment.
 
 ## Immediate Next Step
-Monitor V14R2; independently add token/exposure verification to DD-0.
+Scientific closeout if V14R2 completes; otherwise DD-0 v2 topology semantics.

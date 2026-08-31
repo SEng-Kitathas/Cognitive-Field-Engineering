@@ -35,3 +35,7 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | V14R2 recovery identity | V14R attempt2 BLOCKED + immutable parent lock | amendment `state/next_steps/V14R2_PREDICATE_HORIZON_EXECUTION_RECOVERY_AMENDMENT_2026-08-31.json` SHA `68da3d9d6f177205351e46e654ed94b309ab42d33abe53c602b07881b1ceafbd`; static qual SHA `ef3f13eb0d4465432c0761d506e89abf3ec3b483ef94ab8052c767b7031dd97c` | RUNNING `job-fc69b38e2e96` |
 | DD-0 generative field compiler | CFE source-vs-compiled geometry scar | spec SHA `f025b724c6af13c5d2df4b38690bdb37638f35ca53a019e9c75a4d3e62ccf5ab` + qualification SHA `5d9b32b4230c8bb367be89635b08781f7bef27f5df4a8cb9055b757c6599cd50` | engineering PASS; cognition untested |
+
+| DD-0 tokenizer exposure qualification | pinned V14 tokenizer snapshot | `state/qualification/DD0_TOKEN_EXPOSURE_QUALIFICATION_20260831.json` SHA `748ee0487b46b8d33fd90c6442ecaf256bfe5bb28ea9985dd3cb1a4937d70ff7` | PASS; 134/134 per-event tokens, 230/230 compiled total, streams differ |
+| DD-0 compiler freeze | structural + token qualifications | `state/qualification/DD0_GENERATIVE_FIELD_COMPILER_FREEZE_20260831.json` SHA `b8bd8055b4aa29691ef1fd973d47ce056b71296d2c5f9bc15b58f904d720c26f` | QUALIFIED_ENGINEERING_ONLY |
+| V14R2 progress | recovery receipt | 4/6 qualified | RUNNING |
