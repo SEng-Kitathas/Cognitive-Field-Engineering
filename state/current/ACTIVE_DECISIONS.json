@@ -1,0 +1,48 @@
+{
+  "as_of": "2026-08-31T07:17:00-04:00",
+  "decisions": [
+    {
+      "consequence": "no CFE graduation at first useful Microseed handoff",
+      "decision": "CFE continues beyond minimum viable downstream handoff",
+      "evidence_basis": "operator directive + maximum-attainable doctrine",
+      "replay_trigger": "operator explicitly changes program objective or evidence shows program incoherent",
+      "status": "PROMOTED_OPERATOR_CONSTRAINT"
+    },
+    {
+      "consequence": "do not claim identifying predicate basis yields composition",
+      "decision": "v1.2 composition basis not supported under tested mixed-window regime",
+      "evidence_basis": "v1.2 12/12 aggregate af26fd4...",
+      "replay_trigger": "execution/evaluator defect or independent contradictory replication",
+      "status": "PROMOTED_LOCAL_NEGATIVE_RESULT"
+    },
+    {
+      "consequence": "no K-dose/interface parallel screen",
+      "decision": "v1.3 optimizer-visible primitive interference is active discriminator",
+      "evidence_basis": "v1.2 instability + prereg da66a220...",
+      "replay_trigger": "v1.3 12/12 disposition",
+      "status": "FROZEN_ACTIVE_SCREEN"
+    },
+    {
+      "consequence": "weakens simplest interference story but does not stop campaign",
+      "decision": "seed3101 is null on first-pair separation benefit",
+      "evidence_basis": "paired eval manifests 01947f... and 9b7811...",
+      "replay_trigger": "aggregate six-pair evidence",
+      "status": "VERIFIED_SEED_LEVEL_ONLY"
+    },
+    {
+      "consequence": "re-derive against Microseed artifacts",
+      "decision": "Microseed receives versioned handoffs, not direct CFE graduation/transfer",
+      "evidence_basis": "Commander intent + operator urgency/no-MVP directives",
+      "replay_trigger": "verified Microseed evidence changes applicability",
+      "status": "PROMOTED_BOUNDARY"
+    },
+    {
+      "consequence": "turn not complete until fresh or explicitly blocked",
+      "decision": "all active continuity/research/intent surfaces reconciled every substantive turn",
+      "evidence_basis": "operator directive; policy SHA acc90cb...",
+      "replay_trigger": "operator changes continuity policy",
+      "status": "ACTIVE_CONTROL_POLICY"
+    }
+  ],
+  "schema": "cfe.active-decisions.v1"
+}

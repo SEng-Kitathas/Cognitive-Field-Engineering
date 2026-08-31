@@ -1,31 +1,28 @@
 # CFE NEXT STEPS
 
-Date: 2026-08-31
-Frontier: v1.2 closed; v1.3 optimizer-visible primitive-interference prereg frozen.
+As of: 2026-08-31 07:17 ET
+Frontier: v1.3 optimizer-visible primitive-interference campaign active.
 
 ## Immediate P0
-1. Keep existing v1.3 PID `23156` as the only scientific runner.
-2. Run six fresh paired seeds: `LOCAL_MIXED` vs `WINDOW_SEPARATED`.
-3. Publish each sealed pair and exact adapters under the research-lineage policy.
-4. On 12/12 completion, apply preregistered interference, two-sided competence, and composition dispositions mechanically.
-5. Hostile-close the mechanism before choosing dose/horizon or primitive-interface next branch.
+1. Keep PID `23156` as the only scientific runner.
+2. Finish the seed 3102 paired result; do not interpret its separated half alone.
+3. Publish every sealed paired seed plus exact heavy adapters.
+4. Continue six fresh paired seeds through 12/12 without adaptive changes.
+5. Apply preregistered interference, two-sided-competence, and composition dispositions mechanically.
+6. Run hostile closeout before choosing the next CFE branch.
 
-## If v1.3 weakens local interference
-- Run dose/horizon discriminator next; do not keep rearranging windows.
+## Branch after v1.3
+- If local interference is weakened: run dose/horizon next; do not keep rearranging windows.
+- If interference is supported but composition does not improve: prioritize primitive-interface / learner-decomposition mismatch.
+- If interference and composition both improve: fresh-domain replication before broader promotion.
 
-## If v1.3 supports interference but composition does not improve
-- Promote primitive-interface / learner-decomposition mismatch to the next discriminator.
-
-## If v1.3 supports both interference and composition
-- Replicate the optimizer-transport effect on fresh domains before broader promotion.
-
-## Program-level near term
+## Program-level queue
 - Continue CFE beyond any useful Microseed handoff.
-- Prepare versioned CFE -> Microseed language-gate handoff after v1.2 closeout is published; clearly separate earned program-level principles, candidate mechanisms, LLM-specific scars, forbidden transfers, and Microseed-side tests.
-- Move toward Developmental-CFE ecology only after current transport/primitive seams are sufficiently characterized or explicitly bounded.
+- Maintain a versioned CFE -> Microseed language-gate handoff, never a graduation artifact.
+- Move toward Developmental-CFE ecology after current transport/primitive seams are substantially characterized or explicitly bounded.
 
 ## Standing controls
-- Per-turn continuity reconciliation policy SHA `acc90cb1b81a111960f65126170bf88ff2310ae58b4bdbf0ce21b84111d105ba`.
+- Per-turn reconciliation policy SHA `acc90cb1b81a111960f65126170bf88ff2310ae58b4bdbf0ce21b84111d105ba`.
 - No sealed-history rewriting.
-- No direct CFE->Microseed claim transfer without Microseed-side re-derivation.
-- No K-dose in parallel with v1.3.
+- No direct CFE->Microseed claim transfer.
+- No K-dose/interface screen in parallel with v1.3.

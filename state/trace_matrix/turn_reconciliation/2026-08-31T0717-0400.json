@@ -1,0 +1,105 @@
+{
+  "active_blockers": [],
+  "active_commander_binding": {
+    "alignment": "ALIGNED",
+    "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0717-0400.md",
+    "sha256": "6f930174a616c388138212fed2cbff574020f59c1adfdafaee592345eac65d59"
+  },
+  "commander_source": {
+    "path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+  },
+  "continuity_surfaces": {
+    "state/current.md": {
+      "bytes": 2556,
+      "sha256": "95658e70507162fb801f48334ba9d5d2526bebeb577ec0512a0b1ea7d734a689"
+    },
+    "state/current/ACTIVE_CURRENT_STATE.json": {
+      "bytes": 1424,
+      "sha256": "24c925e49232cd23b2a87706e88e4c4477131ffdf3e55c5068661a6a17c021a6"
+    },
+    "state/current/ACTIVE_DECISIONS.json": {
+      "bytes": 2278,
+      "sha256": "948c48e58bdacd362de03619dda0541019883daa04470c9f60d7a8eeacea7464"
+    },
+    "state/design_thread_stream.md": {
+      "bytes": 46917,
+      "sha256": "631ab531e9309af5cb5863b9a44184fff54a1b55236131c6d7c399e8cb646ecb"
+    },
+    "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0717-0400.md": {
+      "bytes": 9522,
+      "sha256": "6f930174a616c388138212fed2cbff574020f59c1adfdafaee592345eac65d59"
+    },
+    "state/doctrine_snapshot/ACTIVE_COMMANDERS_INTENT_TURN_READBACK.json": {
+      "bytes": 1275,
+      "sha256": "28e6a93e188321d8283250fb968b790a2ce3d75455e4cd20fa1c35b98e5378c4"
+    },
+    "state/doctrine_snapshot/ACTIVE_DOCTRINE_FRONTIER.md": {
+      "bytes": 1939,
+      "sha256": "326db1125be2cf0a7065f1a9b513baf78e52cf1545c2832c9eec6f843f431e5c"
+    },
+    "state/live_shadow.md": {
+      "bytes": 5334,
+      "sha256": "1d074d1bd203d8b9508f5adb511adc69783792e06ca2d9ea56b8117f8f5c9857"
+    },
+    "state/next_steps.md": {
+      "bytes": 1469,
+      "sha256": "d66eff1f74009c58cf43e64ff600392c90e5b136cfdb2717fe1420b8efceb953"
+    },
+    "state/next_steps/ACTIVE_NEXT_STEPS.json": {
+      "bytes": 500,
+      "sha256": "17b911bb788b996d00462f2470fe9d09c61038decbe9ca2f8fe0520528f86690"
+    },
+    "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md": {
+      "bytes": 1489,
+      "sha256": "cb51b75df6e4042c66554a7ada01ea977355bda4686d62f6caf72ed63bdf53b9"
+    },
+    "state/trace_matrix/ACTIVE_TRACE_MATRIX.md": {
+      "bytes": 2856,
+      "sha256": "ef9d882bac154050ba076c878f969ca4e17c7bf33351d6ed3960e21cd80466aa"
+    },
+    "transcript/THIS_CONVERSATION.md": {
+      "bytes": 945,
+      "sha256": "022828b62eb5dc68fb13c9df31e5363070139549ebf81d3dd7179f38c48090c6"
+    }
+  },
+  "decisions": [
+    "CFE continues beyond MVP/downstream handoff",
+    "v1.2 composition basis not supported locally",
+    "v1.3 remains frozen active discriminator",
+    "seed3101 is null seed-level evidence only",
+    "Microseed receives versioned handoff, not direct transfer",
+    "all active surfaces reconciled each substantive turn"
+  ],
+  "frontier": {
+    "seed3101_pair": "null on separation benefit; full screen pending",
+    "seed3102": "WINDOW_SEPARATED sealed; LOCAL_MIXED active",
+    "v12_aggregate_sha256": "af26fd4b626afddd2bb22445cf276cf3690b5e4352bb96f3b8acddcb0ec0ff20",
+    "v12_status": "COMPLETE__COMPOSITION_BASIS_NOT_SUPPORTED",
+    "v13_pid": 23156,
+    "v13_pid_status": "ALIVE",
+    "v13_prereg_sha256": "da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5",
+    "v13_sealed_jobs": 3,
+    "v13_status": "RUNNING"
+  },
+  "mode": "BUILD-COMMIT",
+  "new_material_artifacts": [
+    "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0717-0400.md",
+    "state/doctrine_snapshot/ACTIVE_DOCTRINE_FRONTIER.md",
+    "state/current/ACTIVE_DECISIONS.json",
+    "transcript/THIS_CONVERSATION.md",
+    "state/trace_matrix/V13_OPTIMIZER_INTERFERENCE_HEAVY_RELEASE_2026-08-31.json",
+    "v1.3 seed3101 paired run/eval/log evidence",
+    "v1.3 seed3102 WINDOW_SEPARATED unpaired run/eval/log evidence"
+  ],
+  "next_exact_action": "keep PID 23156 only; finish seed3102 pair; publish pair; continue v1.3 to 12/12; mechanical disposition and hostile closeout",
+  "operator_directive": "every decision, every piece of research, every Commanders Intent, and all continuity documents kept fresh per substantive turn",
+  "publication_checkpoint_before_turn": {
+    "local_head": "e001d6335f92a45e5b21bfa2c62face918774c28",
+    "remote_head": "e001d6335f92a45e5b21bfa2c62face918774c28",
+    "verified_equal": true
+  },
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v2",
+  "timestamp": "2026-08-31T07:17:00-04:00"
+}

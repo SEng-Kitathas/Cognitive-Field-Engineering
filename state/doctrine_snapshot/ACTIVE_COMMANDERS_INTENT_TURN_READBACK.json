@@ -1,16 +1,23 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31.md",
-  "active_binding_sha256": "30090fe63437ea3b0d4306d6782192fa61868a9308475a46992c950324eb3b5f",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0717-0400.md",
+  "active_binding_sha256": "6f930174a616c388138212fed2cbff574020f59c1adfdafaee592345eac65d59",
   "alignment": "ALIGNED",
-  "branch": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE__SCIENTIFIC_CAMPAIGN_ACTIVE",
+  "branch": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE__CAMPAIGN_ACTIVE",
+  "frontier": {
+    "pid": 23156,
+    "pid_status": "ALIVE",
+    "sealed_jobs": 3,
+    "seed3101": "paired null on separation benefit",
+    "seed3102": "WINDOW_SEPARATED sealed; LOCAL_MIXED active"
+  },
   "operator_constraints": [
     "CFE must continue beyond minimum viable form",
-    "all active decisions/research/intent/continuity surfaces refreshed per substantive turn",
+    "all active decisions/research/intent/continuity surfaces fresh per substantive turn",
     "Microseed urgency does not graduate CFE"
   ],
-  "reason": "The qualified branch tests transport from an identical experience multiset into different optimizer-visible update fields. It remains a bounded mechanism specialization and does not redefine CFE as scheduling.",
-  "schema": "cfe.commander-intent-turn-readback.v1",
+  "reason": "The active screen tests how identical experience multisets differ under optimizer-visible organization. The first pair is null but does not justify early stop; continuing the frozen screen is aligned with reality pressure and program intent.",
+  "schema": "cfe.commander-intent-turn-readback.v2",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T06:35:05-04:00"
+  "timestamp": "2026-08-31T07:17:00-04:00"
 }

@@ -608,3 +608,19 @@ Timestamp: 2026-08-31 06:35 ET
 Tags: V13 SCIENTIFIC START
 
 The exact v1.3 prelaunch package was remote-verified, followed by a separately published launch snapshot. Exactly one durable v1.3 campaign was launched under PID 23156 at `state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z`. First frozen job is seed 2026083101 LOCAL_MIXED. PID readback ALIVE; stderr empty. No duplicate or parallel CFE scientific campaign was launched.
+
+---
+
+## Exchange — USER
+Timestamp: 2026-08-31 07:17 ET
+Tags: CONTROL PLANE RESTORED, CONTINUITY ENFORCEMENT
+
+Operator reported ngrok restored and authorized resumption from the outage boundary. Standing directive remains that every decision, every piece of research, every Commander's Intent binding, and all continuity documents stay fresh per substantive turn.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-31 07:17 ET
+Tags: REHYDRATION, V13 ACTIVE, SEED3101 PAIRED, PER-TURN RECONCILIATION
+
+Endpoint health passed. Exact local state outranked stale chat summary: v1.2 was already closed/published and v1.3 had already been fully qualified and launched under PID 23156. Seed 3101 is fully paired: LOCAL_MIXED and WINDOW_SEPARATED both predicate 0.50 and composition 0.50; policy 1.00 vs 0.9375. This is a null first pair, not a campaign disposition. Seed 3102 WINDOW_SEPARATED is sealed but unpaired. Seed3101 exact adapters were release-published with bundle SHA a225491a815ca456fbce50164830fb75eba222ed97568ee60e1868c7dab05e26. Full active-state reconciliation initiated, including a new timestamped Commander binding rather than mutating the prior binding.

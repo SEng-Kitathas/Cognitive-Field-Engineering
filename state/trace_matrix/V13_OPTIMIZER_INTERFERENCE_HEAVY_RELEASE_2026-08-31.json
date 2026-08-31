@@ -1,0 +1,59 @@
+{
+  "bundles": [
+    {
+      "asset_name": "V13_OPTIMIZER_INTERFERENCE_2026083101_ADAPTERS.zip",
+      "bytes": 167892106,
+      "members": [
+        {
+          "arm": "LOCAL_MIXED",
+          "bytes": 83945296,
+          "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083101/LOCAL_MIXED/train/adapter/adapter_model.safetensors",
+          "sha256": "99c1f603d5a1c9694e648afd3cef27c50a8aa30d9c1628e2212a58395c834e7b"
+        },
+        {
+          "arm": "WINDOW_SEPARATED",
+          "bytes": 83945296,
+          "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083101/WINDOW_SEPARATED/train/adapter/adapter_model.safetensors",
+          "sha256": "648f43f1d0326cf97079735bf8f661950ceceaef6291c12f917efda4a2d8a76a"
+        }
+      ],
+      "seed": "2026083101",
+      "sha256": "a225491a815ca456fbce50164830fb75eba222ed97568ee60e1868c7dab05e26"
+    }
+  ],
+  "partial_bundles": [
+    {
+      "arm": "WINDOW_SEPARATED",
+      "asset_name": "V13_OPTIMIZER_INTERFERENCE_2026083102_WINDOW_SEPARATED_PARTIAL.zip",
+      "bytes": 83946216,
+      "member": {
+        "arm": "WINDOW_SEPARATED",
+        "bytes": 83945296,
+        "pair_status": "MATE_NOT_SEALED_AT_PUBLICATION",
+        "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083102/WINDOW_SEPARATED/train/adapter/adapter_model.safetensors",
+        "sha256": "9053a481c47673b5b332f0836796e155459bd533bff2aed32cce4e172056fe10"
+      },
+      "seed": "2026083102",
+      "sha256": "f7039a3dee050a6be152b233b0f3a4446a4a7f1b064f92985e0575705814a85e"
+    }
+  ],
+  "release_readback": {
+    "assets": [
+      {
+        "digest": "sha256:a225491a815ca456fbce50164830fb75eba222ed97568ee60e1868c7dab05e26",
+        "name": "V13_OPTIMIZER_INTERFERENCE_2026083101_ADAPTERS.zip",
+        "size": 167892106
+      },
+      {
+        "digest": "sha256:f7039a3dee050a6be152b233b0f3a4446a4a7f1b064f92985e0575705814a85e",
+        "name": "V13_OPTIMIZER_INTERFERENCE_2026083102_WINDOW_SEPARATED_PARTIAL.zip",
+        "size": 83946216
+      }
+    ],
+    "tag": "cfe-v13-optimizer-interference-research-2026-08-31",
+    "url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v13-optimizer-interference-research-2026-08-31"
+  },
+  "schema": "cfe.v13.heavy-release-publication.v1",
+  "status": "PARTIAL_ACTIVE_CAMPAIGN",
+  "tag": "cfe-v13-optimizer-interference-research-2026-08-31"
+}
