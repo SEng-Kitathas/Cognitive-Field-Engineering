@@ -1,0 +1,79 @@
+{
+  "schema": "cfe.dd1.aggregate.v1",
+  "status": "COMPLETE_6_OF_6",
+  "identity": "fixture",
+  "per_seed": [
+    {
+      "seed": 0,
+      "identifying_ba": 0.65,
+      "dispersed_ba": 0.7,
+      "delta_ba": -0.04999999999999993,
+      "identifying_false": 0.8,
+      "dispersed_false": 0.8,
+      "identifying_true": 0.8,
+      "dispersed_true": 0.8,
+      "identifying_overall": 0.65,
+      "dispersed_overall": 0.7
+    },
+    {
+      "seed": 1,
+      "identifying_ba": 0.65,
+      "dispersed_ba": 0.7,
+      "delta_ba": -0.04999999999999993,
+      "identifying_false": 0.8,
+      "dispersed_false": 0.8,
+      "identifying_true": 0.8,
+      "dispersed_true": 0.8,
+      "identifying_overall": 0.65,
+      "dispersed_overall": 0.7
+    },
+    {
+      "seed": 2,
+      "identifying_ba": 0.65,
+      "dispersed_ba": 0.7,
+      "delta_ba": -0.04999999999999993,
+      "identifying_false": 0.8,
+      "dispersed_false": 0.8,
+      "identifying_true": 0.8,
+      "dispersed_true": 0.8,
+      "identifying_overall": 0.65,
+      "dispersed_overall": 0.7
+    },
+    {
+      "seed": 3,
+      "identifying_ba": 0.65,
+      "dispersed_ba": 0.7,
+      "delta_ba": -0.04999999999999993,
+      "identifying_false": 0.8,
+      "dispersed_false": 0.8,
+      "identifying_true": 0.8,
+      "dispersed_true": 0.8,
+      "identifying_overall": 0.65,
+      "dispersed_overall": 0.7
+    },
+    {
+      "seed": 4,
+      "identifying_ba": 0.65,
+      "dispersed_ba": 0.7,
+      "delta_ba": -0.04999999999999993,
+      "identifying_false": 0.8,
+      "dispersed_false": 0.8,
+      "identifying_true": 0.8,
+      "dispersed_true": 0.8,
+      "identifying_overall": 0.65,
+      "dispersed_overall": 0.7
+    },
+    {
+      "seed": 5,
+      "identifying_ba": 0.65,
+      "dispersed_ba": 0.7,
+      "delta_ba": -0.04999999999999993,
+      "identifying_false": 0.8,
+      "dispersed_false": 0.8,
+      "identifying_true": 0.8,
+      "dispersed_true": 0.8,
+      "identifying_overall": 0.65,
+      "dispersed_overall": 0.7
+    }
+  ]
+}

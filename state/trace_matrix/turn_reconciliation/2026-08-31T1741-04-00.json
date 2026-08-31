@@ -1,0 +1,14 @@
+{
+  "active_blockers": [],
+  "frontier": {
+    "dd1": "RUNNING",
+    "decision_evaluator": {
+      "sha256": "8406a37b13e554cfcb22d220317bcded69a0ccdaf719816433393c6c6f96c231",
+      "status": "PASS"
+    }
+  },
+  "mode": "BUILD-COMMIT",
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v4",
+  "timestamp": "2026-08-31T17:41:45-04:00"
+}

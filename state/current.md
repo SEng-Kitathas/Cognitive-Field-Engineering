@@ -35,3 +35,8 @@ Commit/publish preexecution identity, create DD-1 heavy release, launch the sole
 - Job `job-9b1b7eaed5bc`, PID `13756`: RUNNING.
 - Campaign receipt: `RUNNING`, 0/6 paired seeds sealed.
 - Sole active GPU campaign.
+
+## DD-1 decision-surface hardening — 2026-08-31 17:41 Eastern Daylight Time
+- Added post-lock disposition evaluator implementing already-frozen prereg rules; it is not a learner input.
+- Adversarial fixtures 4/4 PASS: strong/support/not-supported/mixed each map to the intended disposition.
+- Qualification SHA `8406a37b13e554cfcb22d220317bcded69a0ccdaf719816433393c6c6f96c231`.

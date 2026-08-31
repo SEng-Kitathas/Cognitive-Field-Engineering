@@ -52,3 +52,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | DD-1 R1 candidate | same atoms but domain-mixed homogeneous control | candidate audit | REJECTED pre-lock: sequence-length distribution mismatch |
 | DD-1 R2 candidate | domain-matched homogeneous control | `state/qualification/DD1_PREDICATE_FIELD_RESOLUTION_R2_CANDIDATE_AUDIT_20260831.json` SHA `4a7673e81a68bf06fb8260c4ad783ef560e4fc9269ad332af749bb4dbec529e3` | PASS |
 | DD-1 frozen identity | prereg + contract + lock + preexec | lock `5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040` / preexec `7d92839633af8704be2fb32536aaea144911a97890542beacd54ad9c1a4db954` | AUTHORIZED_NOT_EXECUTED |
+
+| DD-1 disposition evaluator | frozen prereg rules | `state/qualification/DD1_DISPOSITION_EVALUATOR_QUALIFICATION_20260831.json` SHA `8406a37b13e554cfcb22d220317bcded69a0ccdaf719816433393c6c6f96c231` | 4/4 adversarial classes PASS; post-lock non-learner tool |

@@ -897,3 +897,7 @@ Extended DD-0 topology semantics; first implementation crashed before qualificat
 ## DD-1 launch — ASSISTANT
 Timestamp: 2026-08-31 17:19 Eastern Daylight Time
 Frozen DD-1 field-resolution experiment launched as sole GPU job `job-9b1b7eaed5bc`, PID 13756. Early receipt `RUNNING` with 0/6 paired seeds sealed.
+
+## DD-1 decision-gate hardening — ASSISTANT
+Timestamp: 2026-08-31 17:41 Eastern Daylight Time
+While DD-1 first pair trained, added an executable evaluator for the already-frozen decision rules. Four adversarial synthetic aggregates verified exact mapping to all four preregistered disposition classes. This tool is outside the learner input lock and cannot alter the intervention.

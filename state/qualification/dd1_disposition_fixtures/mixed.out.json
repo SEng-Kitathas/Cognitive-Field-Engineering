@@ -1,0 +1,51 @@
+{
+  "criteria": {
+    "false_noninferiority_within_005": true,
+    "identifying_mean_ba_ge_075": false,
+    "identifying_two_sided_ge_065_ge_4": true,
+    "identifying_wins_ge_4": false,
+    "mean_delta_gt_0": true,
+    "not_supported_trigger": false,
+    "true_noninferiority_within_005": true
+  },
+  "disposition": "MIXED_OR_RELATION_FAMILY_DEPENDENT",
+  "identity": "fixture",
+  "interpretation_guards": [
+    "Same atomic experience multiset does not imply same learner-visible field.",
+    "Sequence grouping is the intervention; do not reinterpret token-stream difference as an uncontrolled flaw after qualification.",
+    "This tests sequence-local contrast geometry in one opaque predicate/learner regime, not universal typed cognitive geometry.",
+    "No StarMap or Parent/Child labels appear in learner payloads.",
+    "No adaptive rescue or additional horizons inside DD1."
+  ],
+  "metrics": {
+    "dispersed_wins": 2,
+    "identifying_two_sided_ge_065": 6,
+    "identifying_wins": 3,
+    "mean_delta_ba": 0.013333333333333383,
+    "mean_dispersed_ba": 0.6999999999999998,
+    "mean_dispersed_false": 0.8000000000000002,
+    "mean_dispersed_true": 0.8000000000000002,
+    "mean_identifying_ba": 0.7133333333333334,
+    "mean_identifying_false": 0.8000000000000002,
+    "mean_identifying_true": 0.8000000000000002,
+    "ties": 1
+  },
+  "prereg_rules": {
+    "FIELD_RESOLUTION_NOT_SUPPORTED": [
+      "mean paired balanced_accuracy delta <= 0 OR identifying wins <=2/6 seeds"
+    ],
+    "FIELD_RESOLUTION_STRONGLY_SUPPORTED": [
+      "FIELD_RESOLUTION_SUPPORTED plus identifying mean balanced_accuracy >=0.75",
+      "identifying two-sided >=0.65 on >=4/6 seeds"
+    ],
+    "FIELD_RESOLUTION_SUPPORTED": [
+      "mean paired balanced_accuracy delta > 0",
+      "identifying arm wins balanced_accuracy on >=4/6 seeds",
+      "identifying arm does not reduce pooled false accuracy by >0.05",
+      "identifying arm does not reduce pooled true accuracy by >0.05"
+    ],
+    "MIXED_OR_RELATION_FAMILY_DEPENDENT": "otherwise"
+  },
+  "schema": "cfe.dd1.disposition.v1",
+  "status": "MECHANICALLY_EVALUATED"
+}

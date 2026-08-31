@@ -1,0 +1,79 @@
+{
+  "schema": "cfe.dd1.aggregate.v1",
+  "status": "COMPLETE_6_OF_6",
+  "identity": "fixture",
+  "per_seed": [
+    {
+      "seed": 0,
+      "identifying_ba": 0.75,
+      "dispersed_ba": 0.7,
+      "delta_ba": 0.050000000000000044,
+      "identifying_false": 0.8,
+      "dispersed_false": 0.8,
+      "identifying_true": 0.8,
+      "dispersed_true": 0.8,
+      "identifying_overall": 0.75,
+      "dispersed_overall": 0.7
+    },
+    {
+      "seed": 1,
+      "identifying_ba": 0.74,
+      "dispersed_ba": 0.7,
+      "delta_ba": 0.040000000000000036,
+      "identifying_false": 0.8,
+      "dispersed_false": 0.8,
+      "identifying_true": 0.8,
+      "dispersed_true": 0.8,
+      "identifying_overall": 0.74,
+      "dispersed_overall": 0.7
+    },
+    {
+      "seed": 2,
+      "identifying_ba": 0.73,
+      "dispersed_ba": 0.7,
+      "delta_ba": 0.030000000000000027,
+      "identifying_false": 0.8,
+      "dispersed_false": 0.8,
+      "identifying_true": 0.8,
+      "dispersed_true": 0.8,
+      "identifying_overall": 0.73,
+      "dispersed_overall": 0.7
+    },
+    {
+      "seed": 3,
+      "identifying_ba": 0.68,
+      "dispersed_ba": 0.7,
+      "delta_ba": -0.019999999999999907,
+      "identifying_false": 0.8,
+      "dispersed_false": 0.8,
+      "identifying_true": 0.8,
+      "dispersed_true": 0.8,
+      "identifying_overall": 0.68,
+      "dispersed_overall": 0.7
+    },
+    {
+      "seed": 4,
+      "identifying_ba": 0.68,
+      "dispersed_ba": 0.7,
+      "delta_ba": -0.019999999999999907,
+      "identifying_false": 0.8,
+      "dispersed_false": 0.8,
+      "identifying_true": 0.8,
+      "dispersed_true": 0.8,
+      "identifying_overall": 0.68,
+      "dispersed_overall": 0.7
+    },
+    {
+      "seed": 5,
+      "identifying_ba": 0.7,
+      "dispersed_ba": 0.7,
+      "delta_ba": 0.0,
+      "identifying_false": 0.8,
+      "dispersed_false": 0.8,
+      "identifying_true": 0.8,
+      "dispersed_true": 0.8,
+      "identifying_overall": 0.7,
+      "dispersed_overall": 0.7
+    }
+  ]
+}

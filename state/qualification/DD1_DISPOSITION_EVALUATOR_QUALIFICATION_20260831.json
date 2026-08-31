@@ -1,0 +1,37 @@
+{
+  "fixtures": {
+    "mixed": {
+      "actual": "MIXED_OR_RELATION_FAMILY_DEPENDENT",
+      "expected": "MIXED_OR_RELATION_FAMILY_DEPENDENT",
+      "input_sha256": "b295dbb157b7099bd5f21beb5ed36e6dcfb611b00111252c209e419b58a8408d",
+      "output_sha256": "111c97abb36c17c6dd43b8360ddd0cb0a5993393e9394faf2432050a471a0d52",
+      "pass": true
+    },
+    "not_supported": {
+      "actual": "FIELD_RESOLUTION_NOT_SUPPORTED",
+      "expected": "FIELD_RESOLUTION_NOT_SUPPORTED",
+      "input_sha256": "0b2facd7cd3ac73b18bb5760fcd02cd27ac89245f0a3a52824b182d8bcf6ed07",
+      "output_sha256": "0b61e052b22561d457a4ba11dc9d8617a1c55f3939dbbbebe10ab4c6c9dbd367",
+      "pass": true
+    },
+    "strong": {
+      "actual": "FIELD_RESOLUTION_STRONGLY_SUPPORTED",
+      "expected": "FIELD_RESOLUTION_STRONGLY_SUPPORTED",
+      "input_sha256": "1b60e0f85be863003483ca3f803c28289a251dfc3ef7b31abf3f2d17285affd7",
+      "output_sha256": "9b69ab801b52acd970744a40e70bf3fd0304e231142cbe85951f23d8238d157d",
+      "pass": true
+    },
+    "supported_only": {
+      "actual": "FIELD_RESOLUTION_SUPPORTED",
+      "expected": "FIELD_RESOLUTION_SUPPORTED",
+      "input_sha256": "52121206aa71de5584793049241a7784c6547e96621e2d07b84e2b2ed1b9f457",
+      "output_sha256": "ec4f4796ff2600a8c7a40ab58f962906fd912d153b46b57c7ebc172d560eca75",
+      "pass": true
+    }
+  },
+  "prereg_sha256": "76491e82f208b0c65edfe2c6096e88beca9b4f41f12c6819a902b03850e59958",
+  "schema": "cfe.dd1.disposition-evaluator-qualification.v1",
+  "status": "PASS",
+  "timestamp": "2026-08-31T17:41:45-04:00",
+  "tool_sha256": "23534993b0318516e51d386cdd22692532601ef525c662fbb97f51631292975d"
+}
