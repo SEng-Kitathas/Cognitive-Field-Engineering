@@ -1,0 +1,18 @@
+{
+  "active_blockers": [],
+  "frontier": {
+    "dd1": {
+      "input_lock_sha256": "5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040",
+      "job_id": "job-9b1b7eaed5bc",
+      "pid": 13756,
+      "preexec_sha256": "7d92839633af8704be2fb32536aaea144911a97890542beacd54ad9c1a4db954",
+      "receipt_status": "RUNNING",
+      "sealed_pairs": 0,
+      "status": "RUNNING"
+    }
+  },
+  "mode": "BUILD-COMMIT",
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v4",
+  "timestamp": "2026-08-31T17:19:30-04:00"
+}

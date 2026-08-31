@@ -30,3 +30,8 @@ Input lock `5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040`; p
 
 ## Resume point
 Commit/publish preexecution identity, create DD-1 heavy release, launch the sole paired campaign.
+
+## DD-1 launch — 2026-08-31 17:19 Eastern Daylight Time
+- Job `job-9b1b7eaed5bc`, PID `13756`: RUNNING.
+- Campaign receipt: `RUNNING`, 0/6 paired seeds sealed.
+- Sole active GPU campaign.

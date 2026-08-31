@@ -893,3 +893,7 @@ User authorized proceeding as judged fit.
 
 ## Turn — ASSISTANT / BUILD
 Extended DD-0 topology semantics; first implementation crashed before qualification and was repaired; v2 qualification PASS. Built DD-1 same-atom field-resolution candidate. R1 failed token sequence-length-distribution control; R2 domain-matched control passed. Replayed historical loss masks 72/72, froze prereg/contract/input lock, and qualified preexecution. No DD-1 model outcome existed at this checkpoint.
+
+## DD-1 launch — ASSISTANT
+Timestamp: 2026-08-31 17:19 Eastern Daylight Time
+Frozen DD-1 field-resolution experiment launched as sole GPU job `job-9b1b7eaed5bc`, PID 13756. Early receipt `RUNNING` with 0/6 paired seeds sealed.

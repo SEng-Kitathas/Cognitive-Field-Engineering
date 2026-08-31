@@ -23,3 +23,6 @@
 
 ## Immediate Next Step
 Create release at frozen preexec Git commit and submit DD-1 campaign.
+
+## Turn delta — 2026-08-31 17:19 Eastern Daylight Time
+- DD-1 launched as sole GPU job `job-9b1b7eaed5bc` / PID 13756. Early runner state `RUNNING`, 0/6 paired seeds sealed.
