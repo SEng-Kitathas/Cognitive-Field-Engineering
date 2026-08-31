@@ -43,3 +43,7 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | V14R2 final aggregate | six qualified trajectories | `state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/AGGREGATE.json` SHA `9fa540f729fe09ce6f0e1fc7ee9d01ce46233327e0125a3e42e837b4aba9601d` | COMPLETE_6_OF_6 |
 | V14R2 mechanical disposition | frozen prereg + aggregate | `state/analysis/V14R2_PREDICATE_HORIZON_FINAL_DISPOSITION_2026-08-31.json` SHA `e800ed80965ced521339ef85a038655a965d5984b0cd161675cc77a92ad61789` | DOSE_HORIZON_WEAKENED |
 | V14R2 hostile closeout | prereg criteria + adversarial interpretation | `state/analysis/V14R2_PREDICATE_HORIZON_HOSTILE_CLOSEOUT_2026-08-31.md` SHA `3b932cf12e57681ad4495dfcd28411225e0080e882684e8c1a9609cb9cb36b15` | SEALED_FINAL |
+
+| V14R2 heavy release | 18 checkpoint safetensors | `state/analysis/V14R2_HEAVY_RELEASE_REMOTE_VERIFICATION_2026-08-31.json` SHA `8c799a480a03e736315d993a91aa9cb81451b76b3a9f54be1e7c7d7228f59f2c` | 18/18 remote digest+size PASS |
+| V14R2 release manifest | local manifest + GitHub asset metadata | release `cfe-v14r2-predicate-horizon-research-2026-08-31` | remote digest verified |
+| Research publication manifest v14 | Git + heavy release lineage | `state/trace_matrix/RESEARCH_PUBLICATION_MANIFEST_2026-08-30.json` SHA `4d51f4532062e10185d27ad5de9ddddfea3b3372acb8267db5f7b20fd954bb70` | unpublished heavy 0 |

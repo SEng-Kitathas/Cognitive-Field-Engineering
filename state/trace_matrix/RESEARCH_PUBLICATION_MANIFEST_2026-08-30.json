@@ -6458,12 +6458,351 @@
       },
       "sha256": "abb00826d13c4220d773860fc3fc80bc09426def3ed44e64b2400f2e8ac84a49",
       "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 7266,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/CAMPAIGN_RECEIPT.json",
+      "sha256": "bfea2ab7e2b37bd57ba47487bc0c35368912b7a9b906ec79bdf1d62dbc676489",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 8631,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/AGGREGATE.json",
+      "sha256": "9fa540f729fe09ce6f0e1fc7ee9d01ce46233327e0125a3e42e837b4aba9601d",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 5499,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_FINAL_DISPOSITION_2026-08-31.json",
+      "sha256": "e800ed80965ced521339ef85a038655a965d5984b0cd161675cc77a92ad61789",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2924,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_HOSTILE_CLOSEOUT_2026-08-31.md",
+      "sha256": "3b932cf12e57681ad4495dfcd28411225e0080e882684e8c1a9609cb9cb36b15",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6438,
+      "path": "state/analysis/V14R2_HEAVY_RELEASE_MANIFEST_2026-08-31.json",
+      "sha256": "6307a5ae8ce1407f1b155c3d710abcb97abaad69107c627d5f791a4d31a9759b",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 10479,
+      "path": "state/analysis/V14R2_HEAVY_RELEASE_REMOTE_VERIFICATION_2026-08-31.json",
+      "sha256": "8c799a480a03e736315d993a91aa9cb81451b76b3a9f54be1e7c7d7228f59f2c",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 3303,
+      "path": "tools/upload_v14r2_heavy_release.py",
+      "sha256": "d6b23b32125f955a25e039e168b17020da20d126259fae5f414e57bbe0d024e4",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2267,
+      "path": "state/next_steps/V14R2_PREDICATE_HORIZON_EXECUTION_RECOVERY_AMENDMENT_2026-08-31.json",
+      "sha256": "68da3d9d6f177205351e46e654ed94b309ab42d33abe53c602b07881b1ceafbd",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 3091,
+      "path": "state/qualification/V14R2_PREDICATE_HORIZON_RECOVERY_STATIC_20260831.json",
+      "sha256": "ef3f13eb0d4465432c0761d506e89abf3ec3b483ef94ab8052c767b7031dd97c",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R_PREDICATE_HORIZON_CAMPAIGN_ATTEMPT2_20260831T1730Z/2026083111/train/checkpoints/H1/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083111_H1_adapter_model.safetensors",
+        "asset_sha256": "d5a589f1894f5dd3c8298325c256aef582ef93270a6676e5809ce73c0a1b08e6",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:d5a589f1894f5dd3c8298325c256aef582ef93270a6676e5809ce73c0a1b08e6"
+      },
+      "sha256": "d5a589f1894f5dd3c8298325c256aef582ef93270a6676e5809ce73c0a1b08e6",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R_PREDICATE_HORIZON_CAMPAIGN_ATTEMPT2_20260831T1730Z/2026083111/train/checkpoints/H2/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083111_H2_adapter_model.safetensors",
+        "asset_sha256": "f2412b93b7718b1c6a524df62f23b6948f2b90c51d302ff31f220c7b87e2fb39",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:f2412b93b7718b1c6a524df62f23b6948f2b90c51d302ff31f220c7b87e2fb39"
+      },
+      "sha256": "f2412b93b7718b1c6a524df62f23b6948f2b90c51d302ff31f220c7b87e2fb39",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R_PREDICATE_HORIZON_CAMPAIGN_ATTEMPT2_20260831T1730Z/2026083111/train/checkpoints/H4/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083111_H4_adapter_model.safetensors",
+        "asset_sha256": "2a9ceb0a4d43881c7e0b215e2e9797fec641961e54f68c523c98fc8ed7326968",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:2a9ceb0a4d43881c7e0b215e2e9797fec641961e54f68c523c98fc8ed7326968"
+      },
+      "sha256": "2a9ceb0a4d43881c7e0b215e2e9797fec641961e54f68c523c98fc8ed7326968",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R_PREDICATE_HORIZON_CAMPAIGN_ATTEMPT2_20260831T1730Z/2026083112/train/checkpoints/H1/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083112_H1_adapter_model.safetensors",
+        "asset_sha256": "d4fa3713c7b7f274773dc3e8ad82f73849c8ab1b8deadb0887cd812464ea572e",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:d4fa3713c7b7f274773dc3e8ad82f73849c8ab1b8deadb0887cd812464ea572e"
+      },
+      "sha256": "d4fa3713c7b7f274773dc3e8ad82f73849c8ab1b8deadb0887cd812464ea572e",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R_PREDICATE_HORIZON_CAMPAIGN_ATTEMPT2_20260831T1730Z/2026083112/train/checkpoints/H2/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083112_H2_adapter_model.safetensors",
+        "asset_sha256": "0ea4fa86c6fe2a764a39c65268f795758d186430451422bad58e5560993b10d0",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:0ea4fa86c6fe2a764a39c65268f795758d186430451422bad58e5560993b10d0"
+      },
+      "sha256": "0ea4fa86c6fe2a764a39c65268f795758d186430451422bad58e5560993b10d0",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R_PREDICATE_HORIZON_CAMPAIGN_ATTEMPT2_20260831T1730Z/2026083112/train/checkpoints/H4/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083112_H4_adapter_model.safetensors",
+        "asset_sha256": "359b1fe980e647988326516403baba3a7cce32cfa30ace81bf5027fbc3ad025d",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:359b1fe980e647988326516403baba3a7cce32cfa30ace81bf5027fbc3ad025d"
+      },
+      "sha256": "359b1fe980e647988326516403baba3a7cce32cfa30ace81bf5027fbc3ad025d",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R_PREDICATE_HORIZON_CAMPAIGN_ATTEMPT2_20260831T1730Z/2026083113/train/checkpoints/H1/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083113_H1_adapter_model.safetensors",
+        "asset_sha256": "afb41e9ce12da364ee0ca39e2309b952cbee61ac995dab3c6cf63dde3137eca5",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:afb41e9ce12da364ee0ca39e2309b952cbee61ac995dab3c6cf63dde3137eca5"
+      },
+      "sha256": "afb41e9ce12da364ee0ca39e2309b952cbee61ac995dab3c6cf63dde3137eca5",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R_PREDICATE_HORIZON_CAMPAIGN_ATTEMPT2_20260831T1730Z/2026083113/train/checkpoints/H2/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083113_H2_adapter_model.safetensors",
+        "asset_sha256": "582609be81eeec8a7036d942354351b243b379288bd9680492d64960c4c7d590",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:582609be81eeec8a7036d942354351b243b379288bd9680492d64960c4c7d590"
+      },
+      "sha256": "582609be81eeec8a7036d942354351b243b379288bd9680492d64960c4c7d590",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R_PREDICATE_HORIZON_CAMPAIGN_ATTEMPT2_20260831T1730Z/2026083113/train/checkpoints/H4/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083113_H4_adapter_model.safetensors",
+        "asset_sha256": "ef87ad6f571606e5a0d2514e7b31cf7999077f08ff0b31a0e1515a70a1f14793",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:ef87ad6f571606e5a0d2514e7b31cf7999077f08ff0b31a0e1515a70a1f14793"
+      },
+      "sha256": "ef87ad6f571606e5a0d2514e7b31cf7999077f08ff0b31a0e1515a70a1f14793",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/2026083114/train/checkpoints/H1/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083114_H1_adapter_model.safetensors",
+        "asset_sha256": "f6e46c5d91f5e632c0597f2013c495c707393cb9a0265de76df49a437482ab46",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:f6e46c5d91f5e632c0597f2013c495c707393cb9a0265de76df49a437482ab46"
+      },
+      "sha256": "f6e46c5d91f5e632c0597f2013c495c707393cb9a0265de76df49a437482ab46",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/2026083114/train/checkpoints/H2/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083114_H2_adapter_model.safetensors",
+        "asset_sha256": "ebf870b3388c20348773fe2c8d4c0ff68688b566a1ac40382975880e4bcd6ebc",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:ebf870b3388c20348773fe2c8d4c0ff68688b566a1ac40382975880e4bcd6ebc"
+      },
+      "sha256": "ebf870b3388c20348773fe2c8d4c0ff68688b566a1ac40382975880e4bcd6ebc",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/2026083114/train/checkpoints/H4/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083114_H4_adapter_model.safetensors",
+        "asset_sha256": "8229a316524da7c27186f841d8b0fa040bf6255a89dea211bbefdbfda84202ed",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:8229a316524da7c27186f841d8b0fa040bf6255a89dea211bbefdbfda84202ed"
+      },
+      "sha256": "8229a316524da7c27186f841d8b0fa040bf6255a89dea211bbefdbfda84202ed",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/2026083115/train/checkpoints/H1/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083115_H1_adapter_model.safetensors",
+        "asset_sha256": "0e6f60f44e2a557025a41c4da7d9076055cdf675b501fe9205b05c348af123a6",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:0e6f60f44e2a557025a41c4da7d9076055cdf675b501fe9205b05c348af123a6"
+      },
+      "sha256": "0e6f60f44e2a557025a41c4da7d9076055cdf675b501fe9205b05c348af123a6",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/2026083115/train/checkpoints/H2/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083115_H2_adapter_model.safetensors",
+        "asset_sha256": "a6c93155c333450d87fe9182a96d064aed393340fe54470e51546c7db4ba7467",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:a6c93155c333450d87fe9182a96d064aed393340fe54470e51546c7db4ba7467"
+      },
+      "sha256": "a6c93155c333450d87fe9182a96d064aed393340fe54470e51546c7db4ba7467",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/2026083115/train/checkpoints/H4/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083115_H4_adapter_model.safetensors",
+        "asset_sha256": "a72d2e6c61e77c8fb749e8ccaeaf0583c81e6b4a76c4d0bcd47c0f534f294d4c",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:a72d2e6c61e77c8fb749e8ccaeaf0583c81e6b4a76c4d0bcd47c0f534f294d4c"
+      },
+      "sha256": "a72d2e6c61e77c8fb749e8ccaeaf0583c81e6b4a76c4d0bcd47c0f534f294d4c",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/2026083116/train/checkpoints/H1/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083116_H1_adapter_model.safetensors",
+        "asset_sha256": "304ae74466e3b7d26aaa9a29cbbd551fd2428d35a99e88b2865ca7ab7f321249",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:304ae74466e3b7d26aaa9a29cbbd551fd2428d35a99e88b2865ca7ab7f321249"
+      },
+      "sha256": "304ae74466e3b7d26aaa9a29cbbd551fd2428d35a99e88b2865ca7ab7f321249",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/2026083116/train/checkpoints/H2/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083116_H2_adapter_model.safetensors",
+        "asset_sha256": "f34978b5db414afada3e7322b04c9c82f3ab3a7439b5ad02ac4ef6752491e533",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:f34978b5db414afada3e7322b04c9c82f3ab3a7439b5ad02ac4ef6752491e533"
+      },
+      "sha256": "f34978b5db414afada3e7322b04c9c82f3ab3a7439b5ad02ac4ef6752491e533",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/2026083116/train/checkpoints/H4/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "v14r2_seed2026083116_H4_adapter_model.safetensors",
+        "asset_sha256": "b2ab55ab3e8aeab95dcabe4901a4b6b959c400d82d973b04991f6b11d2e359f5",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 83945296,
+        "remote_digest": "sha256:b2ab55ab3e8aeab95dcabe4901a4b6b959c400d82d973b04991f6b11d2e359f5"
+      },
+      "sha256": "b2ab55ab3e8aeab95dcabe4901a4b6b959c400d82d973b04991f6b11d2e359f5",
+      "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 6438,
+      "path": "state/analysis/V14R2_HEAVY_RELEASE_MANIFEST_2026-08-31.json",
+      "publication": {
+        "asset_name": "V14R2_HEAVY_RELEASE_MANIFEST_2026-08-31.json",
+        "asset_sha256": "6307a5ae8ce1407f1b155c3d710abcb97abaad69107c627d5f791a4d31a9759b",
+        "publication_status": "PUBLISHED_REMOTE_DIGEST_VERIFIED",
+        "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-v14r2-predicate-horizon-research-2026-08-31",
+        "remote_bytes": 6438,
+        "remote_digest": "sha256:6307a5ae8ce1407f1b155c3d710abcb97abaad69107c627d5f791a4d31a9759b"
+      },
+      "sha256": "6307a5ae8ce1407f1b155c3d710abcb97abaad69107c627d5f791a4d31a9759b",
+      "surface": "HEAVY_RELEASE"
     }
   ],
-  "entry_count": 1031,
-  "git_entry_count": 992,
-  "heavy_entry_count": 39,
-  "heavy_published_count": 39,
+  "entry_count": 1059,
+  "git_entry_count": 1001,
+  "heavy_entry_count": 58,
+  "heavy_published_count": 58,
   "laws": [
     "FRESH ACTIVE STATE != REWRITTEN HISTORY",
     "FAILED ATTEMPT != DISPOSABLE HISTORY",
@@ -6471,11 +6810,11 @@
     "PARTIAL SEALED RESEARCH != DISPOSABLE INTERMEDIATE"
   ],
   "live_execution_exclusion": {
-    "path_prefix": "state/analysis/V14R1_PREDICATE_HORIZON_CAMPAIGN_20260831T150710Z/",
-    "reason": "active mutable campaign"
+    "note": "V14R2 complete; sealed small artifacts may be in Git and 18 checkpoint safetensors are on hashed heavy release surface.",
+    "status": "NO_ACTIVE_V14_GPU_CAMPAIGN"
   },
-  "schema": "cfe.research-publication-manifest.v13",
+  "schema": "cfe.research-publication-manifest.v14",
   "self_reference_rule": "manifest excluded from own entries",
-  "status": "V14R1_ACTIVE__0_OF_6__STARMAP_ORIGIN_ATTRIBUTION_V2",
+  "status": "V14R2_COMPLETE__DOSE_HORIZON_WEAKENED__HEAVY_PUBLISHED__DD0_QUALIFIED",
   "unpublished_heavy_count": 0
 }

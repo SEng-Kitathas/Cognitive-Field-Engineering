@@ -1,0 +1,17 @@
+{
+  "active_blockers": [],
+  "frontier": {
+    "next": "FIELD_RESOLUTION_INTERFACE_DISCRIMINATION",
+    "publication_manifest_sha256": "4d51f4532062e10185d27ad5de9ddddfea3b3372acb8267db5f7b20fd954bb70",
+    "v14r2": {
+      "disposition": "DOSE_HORIZON_WEAKENED",
+      "release_tag": "cfe-v14r2-predicate-horizon-research-2026-08-31",
+      "remote_verified_assets": 18,
+      "status": "CLOSED_PUBLISHED"
+    }
+  },
+  "mode": "BUILD-COMMIT",
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v4",
+  "timestamp": "2026-08-31T17:08:42-04:00"
+}

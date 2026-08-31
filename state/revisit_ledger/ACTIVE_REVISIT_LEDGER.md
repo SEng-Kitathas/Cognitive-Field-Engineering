@@ -24,3 +24,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | P0 | V14R2 heavy evidence publication | scientific closeout complete; heavy assets not yet remote-verified | GitHub release upload + digest check | active |
 | P1 | Predicate field resolution / learner interface | horizon alone weakened as sufficient explanation | next prospective discriminator | open |
+
+| P0 | Predicate field-resolution / learner-interface discriminator | V14R weakened horizon as sufficient explanation | preregister next causal contrast | open |

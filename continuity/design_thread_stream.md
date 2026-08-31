@@ -880,3 +880,7 @@ User requested current status.
 
 ## Turn — ASSISTANT / VERIFIED CLOSEOUT
 V14R2 job verified COMPLETED. Six-seed aggregate verified 46/46. Mechanical prereg disposition DOSE_HORIZON_WEAKENED; horizon moves phenotype but fails stable competence threshold. Heavy publication initiated after zero-copy strategy replaced disk-expensive tar bundling.
+
+## Status completion — ASSISTANT
+Timestamp: 2026-08-31 17:08 Eastern Daylight Time
+V14R2 heavy publication completed: 18/18 checkpoint assets and release manifest remotely digest-verified. Publication manifest updated to v14 with unpublished-heavy count 0. V14R2 fully closed; next science moves to richer field resolution / learner-interface discrimination.
