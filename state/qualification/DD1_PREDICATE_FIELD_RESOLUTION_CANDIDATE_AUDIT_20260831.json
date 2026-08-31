@@ -1,0 +1,1119 @@
+{
+  "candidate_manifest_sha256": "e1cdef92a1f4d11b3f88560940c6376d4207065b41a240ef0b23bc6e5f506700",
+  "checks": [
+    {
+      "check": "rows_equal_72",
+      "detail": {
+        "A": 72,
+        "B": 72
+      },
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-000",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-001",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-002",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-003",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-004",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-005",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-006",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-007",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-008",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-009",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-010",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-011",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-012",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-013",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-014",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-015",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-016",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-017",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-018",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-019",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-020",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-021",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-022",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-023",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-024",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-025",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-026",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-027",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-028",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-029",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-030",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-031",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-032",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-033",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-034",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-035",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-036",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-037",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-038",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-039",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-040",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-041",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-042",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-043",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-044",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-045",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-046",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-047",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-048",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-049",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-050",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-051",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-052",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-053",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-054",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-055",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-056",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-057",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-058",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-059",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-060",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-061",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-062",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-063",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-064",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-065",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-066",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-067",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-068",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-069",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-070",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1A-071",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-000",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-001",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-002",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-003",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-004",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-005",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-006",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-007",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-008",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-009",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-010",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-011",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-012",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-013",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-014",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-015",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-016",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-017",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-018",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-019",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-020",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-021",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-022",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-023",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-024",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-025",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-026",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-027",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-028",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-029",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-030",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-031",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-032",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-033",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-034",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-035",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-036",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-037",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-038",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-039",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-040",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-041",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-042",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-043",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-044",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-045",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-046",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-047",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-048",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-049",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-050",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-051",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-052",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-053",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-054",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-055",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-056",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-057",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-058",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-059",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-060",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-061",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-062",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-063",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-064",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-065",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-066",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-067",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-068",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-069",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-070",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "row_8_messages_dd1B-071",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "atomic_message_multiset_equal",
+      "detail": {
+        "atoms_A": 288,
+        "atoms_B": 288,
+        "unique": 288
+      },
+      "pass": true
+    },
+    {
+      "check": "sidecar_atom_ids_equal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "A_each_row_four_margins",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_each_row_one_margin",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "global_margin_multiset_equal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "total_tokens_equal",
+      "detail": {
+        "A": 15360,
+        "B": 15360
+      },
+      "pass": true
+    },
+    {
+      "check": "supervised_tokens_equal",
+      "detail": {
+        "A": 2016,
+        "B": 2016
+      },
+      "pass": true
+    },
+    {
+      "check": "sequence_length_multiset_equal",
+      "detail": {
+        "A": {
+          "212": 48,
+          "216": 24
+        },
+        "B": {
+          "212": 12,
+          "213": 30,
+          "214": 24,
+          "215": 6
+        }
+      },
+      "pass": false
+    },
+    {
+      "check": "streams_differ",
+      "detail": {
+        "A": "1e567aa398eb59fb291a94b591e8b207c54afdf97d93e122b13a5998010270d3",
+        "B": "3d5b608b60c9d032d69ae36fb4aa9cfc070a2f8d274b010593846039b911f175"
+      },
+      "pass": true
+    },
+    {
+      "check": "no_curator_label_leak",
+      "detail": [],
+      "pass": true
+    }
+  ],
+  "host_lock_sha256": "0096682727fd0f9f54328033b70189b952f88c085ec00db1ccc49b832433cfc4",
+  "metrics": {
+    "A": {
+      "sequence_lengths": [
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212,
+        216,
+        212,
+        212
+      ],
+      "stream_sha256": "1e567aa398eb59fb291a94b591e8b207c54afdf97d93e122b13a5998010270d3",
+      "supervised_per_row": [
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28
+      ],
+      "supervised_tokens": 2016,
+      "total_tokens": 15360
+    },
+    "B": {
+      "sequence_lengths": [
+        214,
+        214,
+        215,
+        213,
+        212,
+        214,
+        213,
+        213,
+        213,
+        214,
+        214,
+        214,
+        212,
+        212,
+        213,
+        215,
+        212,
+        213,
+        212,
+        214,
+        213,
+        214,
+        213,
+        214,
+        215,
+        212,
+        212,
+        214,
+        214,
+        213,
+        214,
+        213,
+        213,
+        214,
+        212,
+        214,
+        213,
+        213,
+        213,
+        213,
+        213,
+        214,
+        213,
+        213,
+        212,
+        213,
+        213,
+        213,
+        213,
+        215,
+        214,
+        214,
+        213,
+        215,
+        212,
+        215,
+        213,
+        213,
+        213,
+        214,
+        213,
+        213,
+        212,
+        214,
+        214,
+        213,
+        214,
+        214,
+        214,
+        212,
+        214,
+        213
+      ],
+      "stream_sha256": "3d5b608b60c9d032d69ae36fb4aa9cfc070a2f8d274b010593846039b911f175",
+      "supervised_per_row": [
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28,
+        28
+      ],
+      "supervised_tokens": 2016,
+      "total_tokens": 15360
+    }
+  },
+  "schema": "cfe.dd1.predicate-field-resolution-audit.v1",
+  "scientific_difference": "same 288 atomic predicate experiences, same global margin/truth support, same total/supervised tokens and sequence-length multiset; only four-margin identifying co-visibility vs margin-homogeneous sequence grouping",
+  "status": "FAIL"
+}

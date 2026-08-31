@@ -1,0 +1,224 @@
+{
+  "checks": [
+    {
+      "check": "multiplicity_equal_AB",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "multiplicity_equal_AC",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "coverage_A",
+      "detail": [
+        {
+          "name": "all_causal_endpoints",
+          "required": [
+            "E00",
+            "E01",
+            "E02",
+            "E03",
+            "E08",
+            "E09",
+            "E10",
+            "E11"
+          ],
+          "satisfied": true,
+          "seen": [
+            "E00",
+            "E01",
+            "E02",
+            "E03",
+            "E08",
+            "E09",
+            "E10",
+            "E11"
+          ]
+        },
+        {
+          "name": "revision_pair",
+          "required": [
+            "E06",
+            "E07"
+          ],
+          "satisfied": true,
+          "seen": [
+            "E06",
+            "E07"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "coverage_B",
+      "detail": [
+        {
+          "name": "all_causal_endpoints",
+          "required": [
+            "E00",
+            "E01",
+            "E02",
+            "E03",
+            "E08",
+            "E09",
+            "E10",
+            "E11"
+          ],
+          "satisfied": true,
+          "seen": [
+            "E00",
+            "E01",
+            "E02",
+            "E03",
+            "E08",
+            "E09",
+            "E10",
+            "E11"
+          ]
+        },
+        {
+          "name": "revision_pair",
+          "required": [
+            "E06",
+            "E07"
+          ],
+          "satisfied": true,
+          "seen": [
+            "E06",
+            "E07"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "coverage_C",
+      "detail": [
+        {
+          "name": "all_causal_endpoints",
+          "required": [
+            "E00",
+            "E01",
+            "E02",
+            "E03",
+            "E08",
+            "E09",
+            "E10",
+            "E11"
+          ],
+          "satisfied": true,
+          "seen": [
+            "E00",
+            "E01",
+            "E02",
+            "E03",
+            "E08",
+            "E09",
+            "E10",
+            "E11"
+          ]
+        },
+        {
+          "name": "revision_pair",
+          "required": [
+            "E06",
+            "E07"
+          ],
+          "satisfied": true,
+          "seen": [
+            "E06",
+            "E07"
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "identifying_more_target_covisibility",
+      "detail": {
+        "A": 4,
+        "B": 0
+      },
+      "pass": true
+    },
+    {
+      "check": "bridged_has_required_long_range_span",
+      "detail": {
+        "required": 3,
+        "spans": [
+          4
+        ]
+      },
+      "pass": true
+    },
+    {
+      "check": "revisit_multiplicity_preserved",
+      "detail": {
+        "E00": 2,
+        "E01": 2,
+        "E02": 1,
+        "E03": 1,
+        "E04": 1,
+        "E05": 1,
+        "E06": 1,
+        "E07": 1,
+        "E08": 2,
+        "E09": 2,
+        "E10": 1,
+        "E11": 1
+      },
+      "pass": true
+    },
+    {
+      "check": "replay_exit_IDENTIFYING_LOCAL",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "replay_sha_IDENTIFYING_LOCAL",
+      "detail": {
+        "actual": "e607a30efd215d2da77152b4961533774323ab044ae09f0dffc0e18714be5fcc",
+        "expected": "e607a30efd215d2da77152b4961533774323ab044ae09f0dffc0e18714be5fcc"
+      },
+      "pass": true
+    },
+    {
+      "check": "replay_exit_RELATIONALLY_DISPERSED",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "replay_sha_RELATIONALLY_DISPERSED",
+      "detail": {
+        "actual": "ac0c02c39e24f0e07ffd2f9d0b247a6952f1f013035789ac883310d46557bdc1",
+        "expected": "ac0c02c39e24f0e07ffd2f9d0b247a6952f1f013035789ac883310d46557bdc1"
+      },
+      "pass": true
+    },
+    {
+      "check": "replay_exit_LONG_RANGE_BRIDGED",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "replay_sha_LONG_RANGE_BRIDGED",
+      "detail": {
+        "actual": "35108bfa1d3cba61a95f4e2a93fbed928479e8e606f58455374d4bc92f87ca29",
+        "expected": "35108bfa1d3cba61a95f4e2a93fbed928479e8e606f58455374d4bc92f87ca29"
+      },
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "bridge_spans": [
+      4
+    ],
+    "target_covisibility_dispersed": 0,
+    "target_covisibility_identifying": 4
+  },
+  "schema": "cfe.dd0.topology-v2-audit.v1",
+  "status": "PASS"
+}

@@ -1,0 +1,37 @@
+{
+  "arms": {
+    "IDENTIFYING_COVISIBLE": "four margins co-visible per learner sequence",
+    "MARGIN_HOMOGENEOUS_DISPERSED": "same atomic experiences globally, but each learner sequence contains only one margin class"
+  },
+  "atomic_experiences": 288,
+  "eval_sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744",
+  "files": {
+    "IDENTIFYING_COVISIBLE.jsonl": {
+      "bytes": 57960,
+      "sha256": "58bb16017ceaa80a9dcb7a4dc93213fa17fc1f4408c3caa27f929236e100fb48"
+    },
+    "IDENTIFYING_COVISIBLE.sidecar.private.jsonl": {
+      "bytes": 10832,
+      "sha256": "5dc3426245de380456280c1c1eada397095e980f8966ca172ffdd3f6a2878ab8"
+    },
+    "MARGIN_HOMOGENEOUS_DISPERSED.jsonl": {
+      "bytes": 57960,
+      "sha256": "b8046fcc284f7398d68782141f9b79e9e623c3488efb739b501b30e647213232"
+    },
+    "MARGIN_HOMOGENEOUS_DISPERSED.sidecar.private.jsonl": {
+      "bytes": 11336,
+      "sha256": "735bd56277a242437b90ebfa9869b22511e18f912d6865ff5ffe4327aa3cb4a9"
+    },
+    "PREDICATE_EVAL.private.jsonl": {
+      "bytes": 15640,
+      "sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744"
+    }
+  },
+  "generation_seed": 20260831,
+  "messages_per_row": 8,
+  "rows_per_arm": 72,
+  "schema": "cfe.dd1.predicate-field-resolution-candidate.v1",
+  "scientific_question": "Does sequence-local co-visibility of an identifying {-3,0,+1,+3} contrast improve acquisition versus dispersing the exact same atomic experiences into margin-homogeneous sequences?",
+  "source_dataset_sha256": "d44e507ad80f88ce4d2f25e970062614a1f1a0ba22089c7e5f0402a540f4ef80",
+  "status": "CANDIDATE_GENERATED_NOT_LOCKED"
+}

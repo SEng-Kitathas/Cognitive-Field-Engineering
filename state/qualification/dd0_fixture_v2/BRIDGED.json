@@ -1,0 +1,181 @@
+{
+  "bridge_metrics": [
+    {
+      "max_window_span": 4,
+      "pair": [
+        "E08",
+        "E09"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "name": "all_causal_endpoints",
+      "required": [
+        "E00",
+        "E01",
+        "E02",
+        "E03",
+        "E08",
+        "E09",
+        "E10",
+        "E11"
+      ],
+      "satisfied": true,
+      "seen": [
+        "E00",
+        "E01",
+        "E02",
+        "E03",
+        "E08",
+        "E09",
+        "E10",
+        "E11"
+      ]
+    },
+    {
+      "name": "revision_pair",
+      "required": [
+        "E06",
+        "E07"
+      ],
+      "satisfied": true,
+      "seen": [
+        "E06",
+        "E07"
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "events": [
+        {
+          "id": "E08",
+          "payload": "Observation 8: opaque developmental sample I.",
+          "payload_sha256": "0c2803ce2b5ff7d7d21916bd0930ced45ad703c73afb15df33e6228900295f39"
+        },
+        {
+          "id": "E03",
+          "payload": "Observation 3: opaque developmental sample D.",
+          "payload_sha256": "170b035284b237fed2b12ae12d3501f63c67dd8ff3e8ecffe8b2a793dc6c6b10"
+        },
+        {
+          "id": "E01",
+          "payload": "Observation 1: opaque developmental sample B.",
+          "payload_sha256": "bcc3f1a5f7f66d3c7225175ca704b1fb7c30c0558ad0838b5c84c36bb00c5986"
+        }
+      ],
+      "window_index": 0
+    },
+    {
+      "events": [
+        {
+          "id": "E05",
+          "payload": "Observation 5: opaque developmental sample F.",
+          "payload_sha256": "eface3adcbe9c7e7a96247be71ea2b6ce6d10e13f9ad0f15a80ba143c5304cf6"
+        },
+        {
+          "id": "E09",
+          "payload": "Observation 9: opaque developmental sample J.",
+          "payload_sha256": "1588f1531ed016e0ca4531a4a2c27852ac0bc30e4b921f628fbc6886d072c1d3"
+        },
+        {
+          "id": "E01",
+          "payload": "Observation 1: opaque developmental sample B.",
+          "payload_sha256": "bcc3f1a5f7f66d3c7225175ca704b1fb7c30c0558ad0838b5c84c36bb00c5986"
+        }
+      ],
+      "window_index": 1
+    },
+    {
+      "events": [
+        {
+          "id": "E08",
+          "payload": "Observation 8: opaque developmental sample I.",
+          "payload_sha256": "0c2803ce2b5ff7d7d21916bd0930ced45ad703c73afb15df33e6228900295f39"
+        },
+        {
+          "id": "E06",
+          "payload": "Observation 6: opaque developmental sample G.",
+          "payload_sha256": "14000eab3331876f519e567a9de6437e4a41f91f2b5c56db9c6e9d7ce1254aa8"
+        },
+        {
+          "id": "E04",
+          "payload": "Observation 4: opaque developmental sample E.",
+          "payload_sha256": "474b9878b3bc619e1948c361875b2d837fb2abe7884c54669c3065912ebe2f0c"
+        }
+      ],
+      "window_index": 2
+    },
+    {
+      "events": [
+        {
+          "id": "E02",
+          "payload": "Observation 2: opaque developmental sample C.",
+          "payload_sha256": "6afc6829f98d5c9d9108d695919d93d59eca098fb8d4120800f4068dd93fea21"
+        },
+        {
+          "id": "E11",
+          "payload": "Observation 11: opaque developmental sample L.",
+          "payload_sha256": "68cca850f7012b3350651ac13540c99ae2017f23ddba6109675a4799752c6d6e"
+        },
+        {
+          "id": "E00",
+          "payload": "Observation 0: opaque developmental sample A.",
+          "payload_sha256": "e453ee0eddb7d9bf3c3c17025709240d6111df2940a1fb5638e2eb3dddcaa43d"
+        }
+      ],
+      "window_index": 3
+    },
+    {
+      "events": [
+        {
+          "id": "E00",
+          "payload": "Observation 0: opaque developmental sample A.",
+          "payload_sha256": "e453ee0eddb7d9bf3c3c17025709240d6111df2940a1fb5638e2eb3dddcaa43d"
+        },
+        {
+          "id": "E09",
+          "payload": "Observation 9: opaque developmental sample J.",
+          "payload_sha256": "1588f1531ed016e0ca4531a4a2c27852ac0bc30e4b921f628fbc6886d072c1d3"
+        },
+        {
+          "id": "E10",
+          "payload": "Observation 10: opaque developmental sample K.",
+          "payload_sha256": "19b4d453273f56d2e452ecb4b316351a9c96179959784a91c786482a1637caf9"
+        }
+      ],
+      "window_index": 4
+    },
+    {
+      "events": [
+        {
+          "id": "E07",
+          "payload": "Observation 7: opaque developmental sample H.",
+          "payload_sha256": "45fbdc95da01b38e373fbf3d9eb39bf0d83d7722d480b2742b03d5de03f063a2"
+        }
+      ],
+      "window_index": 5
+    }
+  ],
+  "event_multiplicity": {
+    "E00": 2,
+    "E01": 2,
+    "E02": 1,
+    "E03": 1,
+    "E04": 1,
+    "E05": 1,
+    "E06": 1,
+    "E07": 1,
+    "E08": 2,
+    "E09": 2,
+    "E10": 1,
+    "E11": 1
+  },
+  "mode": "LONG_RANGE_BRIDGED",
+  "schema": "cfe.dd0.compiled-field.v2",
+  "seed": 23,
+  "source_field_sha256": "7beaa49a44507ff55279136d1a059ae2b3b2e9d54e5bd5ef86f2b81c6fff1bfc",
+  "target_covisibility_count": 0,
+  "window_size": 3
+}

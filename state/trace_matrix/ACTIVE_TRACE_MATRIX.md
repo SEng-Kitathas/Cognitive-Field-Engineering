@@ -47,3 +47,8 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | V14R2 heavy release | 18 checkpoint safetensors | `state/analysis/V14R2_HEAVY_RELEASE_REMOTE_VERIFICATION_2026-08-31.json` SHA `8c799a480a03e736315d993a91aa9cb81451b76b3a9f54be1e7c7d7228f59f2c` | 18/18 remote digest+size PASS |
 | V14R2 release manifest | local manifest + GitHub asset metadata | release `cfe-v14r2-predicate-horizon-research-2026-08-31` | remote digest verified |
 | Research publication manifest v14 | Git + heavy release lineage | `state/trace_matrix/RESEARCH_PUBLICATION_MANIFEST_2026-08-30.json` SHA `4d51f4532062e10185d27ad5de9ddddfea3b3372acb8267db5f7b20fd954bb70` | unpublished heavy 0 |
+
+| DD-0 topology v2 | coverage/revisit/bridge compiler extension | `state/qualification/DD0_TOPOLOGY_V2_QUALIFICATION_20260831.json` SHA `3c33c03fd9df86de30dc089d1395db8b64d72b61b77c8c848561f7f4d02d4961` | PASS engineering-only |
+| DD-1 R1 candidate | same atoms but domain-mixed homogeneous control | candidate audit | REJECTED pre-lock: sequence-length distribution mismatch |
+| DD-1 R2 candidate | domain-matched homogeneous control | `state/qualification/DD1_PREDICATE_FIELD_RESOLUTION_R2_CANDIDATE_AUDIT_20260831.json` SHA `4a7673e81a68bf06fb8260c4ad783ef560e4fc9269ad332af749bb4dbec529e3` | PASS |
+| DD-1 frozen identity | prereg + contract + lock + preexec | lock `5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040` / preexec `7d92839633af8704be2fb32536aaea144911a97890542beacd54ad9c1a4db954` | AUTHORIZED_NOT_EXECUTED |

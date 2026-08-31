@@ -1,0 +1,58 @@
+{
+  "arms": [
+    "IDENTIFYING_COVISIBLE",
+    "MARGIN_HOMOGENEOUS_DISPERSED"
+  ],
+  "decision_rules": {
+    "FIELD_RESOLUTION_NOT_SUPPORTED": [
+      "mean paired balanced_accuracy delta <= 0 OR identifying wins <=2/6 seeds"
+    ],
+    "FIELD_RESOLUTION_STRONGLY_SUPPORTED": [
+      "FIELD_RESOLUTION_SUPPORTED plus identifying mean balanced_accuracy >=0.75",
+      "identifying two-sided >=0.65 on >=4/6 seeds"
+    ],
+    "FIELD_RESOLUTION_SUPPORTED": [
+      "mean paired balanced_accuracy delta > 0",
+      "identifying arm wins balanced_accuracy on >=4/6 seeds",
+      "identifying arm does not reduce pooled false accuracy by >0.05",
+      "identifying arm does not reduce pooled true accuracy by >0.05"
+    ],
+    "MIXED_OR_RELATION_FAMILY_DEPENDENT": "otherwise"
+  },
+  "fixed_controls": [
+    "same 288 atomic user/assistant experiences",
+    "same 72 sequences",
+    "same 15432 historical-token-reference tokens per arm",
+    "same 2304 supervised tokens per arm",
+    "same token-reference max length 217 and matched sequence-length multiset",
+    "same global margins: 72 each at -3,0,+1,+3",
+    "same truth labels: 144 false/144 true",
+    "same domain composition",
+    "same six seeds",
+    "same seed-specific 72-row permutation across arms",
+    "same base snapshot/runtime/profile/optimizer",
+    "single fixed 144-step H4-equivalent dose",
+    "same predicate evaluation set"
+  ],
+  "identity": "DD1_PREDICATE_FIELD_RESOLUTION_20260831",
+  "interpretation_guards": [
+    "Same atomic experience multiset does not imply same learner-visible field.",
+    "Sequence grouping is the intervention; do not reinterpret token-stream difference as an uncontrolled flaw after qualification.",
+    "This tests sequence-local contrast geometry in one opaque predicate/learner regime, not universal typed cognitive geometry.",
+    "No StarMap or Parent/Child labels appear in learner payloads.",
+    "No adaptive rescue or additional horizons inside DD1."
+  ],
+  "paired_direction": "IDENTIFYING_COVISIBLE_MINUS_MARGIN_HOMOGENEOUS_DISPERSED",
+  "primary_metric": "PREDICATE_DIRECT balanced_accuracy",
+  "question": "Does learner-sequence co-visibility of the four identifying predicate margins {-3,0,+1,+3} improve stable predicate acquisition relative to domain-matched margin-homogeneous grouping of the exact same atomic experiences?",
+  "schema": "cfe.dd1.predicate-field-resolution-prereg.v1",
+  "scientific_difference": "within-sequence identifying contrast geometry only",
+  "secondary_metrics": [
+    "overall accuracy",
+    "false-side accuracy",
+    "true-side accuracy",
+    "support-bucket accuracy"
+  ],
+  "status": "FROZEN_BEFORE_ANY_DD1_MODEL_OUTCOME",
+  "timestamp": "2026-08-31T17:16:31-04:00"
+}

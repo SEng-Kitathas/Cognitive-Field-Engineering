@@ -1,24 +1,25 @@
 # CFE LIVE SHADOW
 
 ## Thread Identity
-- Last Updated: 2026-08-31 17:08 Eastern Daylight Time
+- Last Updated: 2026-08-31 17:18 Eastern Daylight Time
 - Mode: BUILD-COMMIT
-- Dominant Objective: transition from closed V14R2 into higher-resolution field/interface discrimination.
+- Dominant Objective: launch the first post-V14 field-resolution discriminator.
 
 ## Current Authoritative State
-- V14R2 CLOSED/PUBLISHED; DOSE_HORIZON_WEAKENED.
-- 18/18 heavy checkpoints remote digest verified; publication manifest has no unpublished heavy assets.
-- DD-0 engineering compiler qualified.
+- V14R2 closed/published; horizon alone weakened as sufficient explanation.
+- DD-0 topology v2 PASS.
+- DD-1 R2 preexecution authorized, no model outcome yet.
+- DD-1 input lock SHA `5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040`.
 
 ## Decisions Locked In
-- Longer exposure matters but is insufficient by preregistered competence criteria.
-- No adaptive H4 extension.
-- Next science changes field resolution/interface, not horizon.
-- Donor-informed geometry enters only prospectively through verified DD-0 controls.
+- DD-1 changes sequence-local identifying contrast geometry, not atoms, support, token budget, dose, learner, or optimizer.
+- R1 candidate is failed engineering history, not science.
+- No StarMap/Grand donor labels enter learner payloads.
+- Adapters will be remote digest-verified then locally reclaimed to avoid disk exhaustion.
 
 ## Open Loops
-- Freeze the next field-resolution/interface discriminator.
-- Extend DD-0 with coverage/revisit/long-range semantics where needed by that design.
+- Launch DD-1.
+- Six paired seed results and preregistered disposition.
 
 ## Immediate Next Step
-Design and preregister the next identifying CFE experiment.
+Create release at frozen preexec Git commit and submit DD-1 campaign.

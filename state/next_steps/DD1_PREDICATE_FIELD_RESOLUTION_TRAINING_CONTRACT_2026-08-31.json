@@ -1,0 +1,61 @@
+{
+  "arms": [
+    "IDENTIFYING_COVISIBLE",
+    "MARGIN_HOMOGENEOUS_DISPERSED"
+  ],
+  "bindings": {
+    "candidate_audit_sha256": "4a7673e81a68bf06fb8260c4ad783ef560e4fc9269ad332af749bb4dbec529e3",
+    "candidate_manifest_sha256": "580a9d7d79b912737e6bb833eb6497ab3edb7e192c4d80ea52c01836415eef76",
+    "dd0_compiler_freeze_sha256": "b8bd8055b4aa29691ef1fd973d47ce056b71296d2c5f9bc15b58f904d720c26f",
+    "dd0_topology_v2_qualification_sha256": "3c33c03fd9df86de30dc089d1395db8b64d72b61b77c8c848561f7f4d02d4961",
+    "host_lock_sha256": "0096682727fd0f9f54328033b70189b952f88c085ec00db1ccc49b832433cfc4",
+    "preregistration_sha256": "76491e82f208b0c65edfe2c6096e88beca9b4f41f12c6819a902b03850e59958",
+    "profile_lock_sha256": "49ebaf136ac61367ab6ade9de60b88726d88fb7bc81085ac2d0efc9f852627c5",
+    "v14r2_final_disposition_sha256": "e800ed80965ced521339ef85a038655a965d5984b0cd161675cc77a92ad61789"
+  },
+  "identity": "DD1_PREDICATE_FIELD_RESOLUTION_20260831",
+  "laws": [
+    "SAME ATOMS + SAME TOKENS != SAME FIELD RESOLUTION",
+    "FIELD RESOLUTION != DOSE",
+    "SAME SEED != IDENTICAL INITIALIZATION UNLESS VERIFIED",
+    "DD1 RESULT != UNIVERSAL CFE LAW"
+  ],
+  "optimization": {
+    "attention_backend": "eager",
+    "bnb_double_quant": true,
+    "bnb_quant_type": "nf4",
+    "checkpoint_selection": "fixed H1/H2/H4 only",
+    "compute_dtype": "float16",
+    "determinism_contract": "FAIL_CLOSED_TORCH_DETERMINISTIC_ALGORITHMS_AND_DEBUG_ERROR",
+    "evaluation_during_training": false,
+    "gradient_checkpointing": true,
+    "learning_rate": 0.0001,
+    "load_in_4bit": true,
+    "lr_scheduler_type": "constant",
+    "max_grad_norm": 1.0,
+    "optimizer": "paged_adamw_8bit",
+    "packing": false,
+    "weight_decay": 0.0
+  },
+  "schema": "cfe.dd1.predicate-field-resolution-training-contract.v1",
+  "seeds": [
+    2026083121,
+    2026083122,
+    2026083123,
+    2026083124,
+    2026083125,
+    2026083126
+  ],
+  "sequence": {
+    "epochs": 16,
+    "expected_optimizer_steps": 144,
+    "gradient_accumulation_steps": 8,
+    "max_sequence_length": 217,
+    "microbatch": 1,
+    "packing": false,
+    "rows": 72,
+    "steps_per_epoch": 9
+  },
+  "status": "FROZEN_PRE_RUNTIME",
+  "timestamp": "2026-08-31T17:16:31-04:00"
+}

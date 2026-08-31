@@ -1,12 +1,11 @@
 # CFE NEXT STEPS
 
-As of: 2026-08-31 17:08 Eastern Daylight Time
+As of: 2026-08-31 17:18 Eastern Daylight Time
 
-## P0 — next science
-Design the richer predicate-field resolution / learner-interface-decomposition discriminator required by V14R preregistration.
-
-Candidate ordering:
-1. Extend DD-0 only enough to express/verify the required field-resolution manipulation.
-2. Freeze DD-1-style typed-relation / field-resolution contrast with exact matched exposure controls.
-3. Keep the learner, optimizer, support budget, tokenizer accounting, and evaluator fixed wherever causally possible.
-4. Do not import Parent/Child or StarMap labels into learner payloads; use them only to design curator-side relational contrasts.
+## P0
+1. Seal DD-1 preexecution state to Git.
+2. Create dedicated DD-1 heavy release at that commit.
+3. Launch one paired six-seed campaign.
+4. Each arm: train -> evaluate -> remote SHA256 verify adapter -> reclaim local heavy model.
+5. Aggregate only after 6/6 paired seeds.
+6. Apply frozen decision rules before interpretation.

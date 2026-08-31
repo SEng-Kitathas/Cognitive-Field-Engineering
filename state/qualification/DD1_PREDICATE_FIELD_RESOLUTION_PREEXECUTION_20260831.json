@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "candidate_audit_pass": true,
+    "candidate_manifest_matches_contract": true,
+    "contract_frozen": true,
+    "host_lock_matches_contract": true,
+    "lock_file_count": 23,
+    "prereg_frozen": true,
+    "tool_compile_failures": []
+  },
+  "claim_ceiling": "RUNTIME AUTHORIZED; NO DD1 LEARNER EFFECT YET",
+  "input_lock_sha256": "5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040",
+  "schema": "cfe.dd1.preexecution.v1",
+  "scientific_training_authorized": true,
+  "status": "DD1_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED"
+}

@@ -1,0 +1,99 @@
+{
+  "files": {
+    "state/analysis/V14R2_PREDICATE_HORIZON_FINAL_DISPOSITION_2026-08-31.json": {
+      "bytes": 5499,
+      "sha256": "e800ed80965ced521339ef85a038655a965d5984b0cd161675cc77a92ad61789"
+    },
+    "state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.jsonl": {
+      "bytes": 58104,
+      "sha256": "24e517860fc5b1363bd4b2bfc19522e6a457e6b9d5b986d0eb96462cc8d51631"
+    },
+    "state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.sidecar.private.jsonl": {
+      "bytes": 13896,
+      "sha256": "e0134df53bba656d62aac927fd2c4af08e17c5f19b6aff8fda5e13251a530f44"
+    },
+    "state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.token_reference.private.jsonl": {
+      "bytes": 119424,
+      "sha256": "72e249686431c6ab66f367bf33a2427924662712dac7d9dc2eb7c69c9e95b47e"
+    },
+    "state/candidates/dd1_predicate_field_resolution_r2_20260831/MANIFEST.json": {
+      "bytes": 8685,
+      "sha256": "580a9d7d79b912737e6bb833eb6497ab3edb7e192c4d80ea52c01836415eef76"
+    },
+    "state/candidates/dd1_predicate_field_resolution_r2_20260831/MARGIN_HOMOGENEOUS_DISPERSED.jsonl": {
+      "bytes": 58104,
+      "sha256": "71e7814ccdf3882165c02c18afe6d935cdc57a82e6af1c7bf449ef87a3ecf3cd"
+    },
+    "state/candidates/dd1_predicate_field_resolution_r2_20260831/MARGIN_HOMOGENEOUS_DISPERSED.sidecar.private.jsonl": {
+      "bytes": 14760,
+      "sha256": "11673b07d79af48df747bb815702c46fbdc47a941de2527afe5236570cd9c039"
+    },
+    "state/candidates/dd1_predicate_field_resolution_r2_20260831/MARGIN_HOMOGENEOUS_DISPERSED.token_reference.private.jsonl": {
+      "bytes": 119424,
+      "sha256": "67772ae4c9e3c859a076730ce42eaa704ceb81aac13e4dc44f4f7840fe2b4560"
+    },
+    "state/candidates/dd1_predicate_field_resolution_r2_20260831/PREDICATE_EVAL.private.jsonl": {
+      "bytes": 15640,
+      "sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744"
+    },
+    "state/next_steps/DD1_PREDICATE_FIELD_RESOLUTION_PREREG_2026-08-31.json": {
+      "bytes": 2721,
+      "sha256": "76491e82f208b0c65edfe2c6096e88beca9b4f41f12c6819a902b03850e59958"
+    },
+    "state/next_steps/DD1_PREDICATE_FIELD_RESOLUTION_TRAINING_CONTRACT_2026-08-31.json": {
+      "bytes": 2231,
+      "sha256": "0923c3c84c5070f354ec799fb4e64abc5a0ac1b717e1814b30648b984aa1194a"
+    },
+    "state/next_steps/V14R_PREDICATE_DOSE_HORIZON_TRAINING_CONTRACT_2026-08-31.json": {
+      "bytes": 3415,
+      "sha256": "28548c863d657fb393112e205a4da95c96efbfe680b4c5a0721648716823a55a"
+    },
+    "state/qualification/DD0_GENERATIVE_FIELD_COMPILER_FREEZE_20260831.json": {
+      "bytes": 2302,
+      "sha256": "b8bd8055b4aa29691ef1fd973d47ce056b71296d2c5f9bc15b58f904d720c26f"
+    },
+    "state/qualification/DD0_TOPOLOGY_V2_QUALIFICATION_20260831.json": {
+      "bytes": 4540,
+      "sha256": "3c33c03fd9df86de30dc089d1395db8b64d72b61b77c8c848561f7f4d02d4961"
+    },
+    "state/qualification/DD1_PREDICATE_FIELD_RESOLUTION_R2_CANDIDATE_AUDIT_20260831.json": {
+      "bytes": 20299,
+      "sha256": "4a7673e81a68bf06fb8260c4ad783ef560e4fc9269ad332af749bb4dbec529e3"
+    },
+    "state/qualification/V14R_PREDICATE_HORIZON_REPEATABILITY_20260831/PROFILE_LOCK.json": {
+      "bytes": 944,
+      "sha256": "49ebaf136ac61367ab6ade9de60b88726d88fb7bc81085ac2d0efc9f852627c5"
+    },
+    "state/qualification/V14R_PREDICATE_HORIZON_RUNTIME_20260831/HOST_LOCK.json": {
+      "bytes": 2191,
+      "sha256": "0096682727fd0f9f54328033b70189b952f88c085ec00db1ccc49b832433cfc4"
+    },
+    "tools/audit_dd1_predicate_field_resolution.py": {
+      "bytes": 4408,
+      "sha256": "c784d1a6120612d3f3a36e79e5ae856b38ea4b5e25b31dd1cae665a67172dd7f"
+    },
+    "tools/build_dd1_token_references.py": {
+      "bytes": 2506,
+      "sha256": "bcf20f9aa3cc7ac597cc52fd9d7e2fd9944ee58e51dc7a0ed012d5877537f558"
+    },
+    "tools/dd1_predicate_field_resolution_common.py": {
+      "bytes": 2879,
+      "sha256": "04faaf63cbfbc4c99f22675f484f4131c084b3adde4c26b6b45865054f17937b"
+    },
+    "tools/evaluate_dd1_predicate_field_resolution.py": {
+      "bytes": 3674,
+      "sha256": "8b2b5aa83eb65b66f0a2f7670dd77d231fbf9db172d19340749859116869547d"
+    },
+    "tools/run_dd1_predicate_field_resolution_campaign.py": {
+      "bytes": 7026,
+      "sha256": "13e45cc5c7bf7ce108c77a0c95efd86d862d4d9c6af2ed599063b0a6d5e5a69a"
+    },
+    "tools/train_dd1_predicate_field_resolution.py": {
+      "bytes": 5277,
+      "sha256": "cd16ae7b52207a7e8d48d6faf037ba83dc074c2a9c98fa241a2033856f344348"
+    }
+  },
+  "identity": "DD1_PREDICATE_FIELD_RESOLUTION_20260831",
+  "schema": "cfe.dd1.input-lock.v1",
+  "status": "LOCKED_PRE_RUNTIME__NO_DD1_TRAINING"
+}
