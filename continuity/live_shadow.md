@@ -35,3 +35,9 @@ Continue V14R1 unchanged; preserve origin provenance by append-only successor no
 - Origin attribution corrected again: operator said "my mind works almost geometrically" and described mechanism; Claude absorbed/refined that into "cognitive geometry" and "traversable" after clarification.
 - Date remains unknown, circa 2024 by operator memory; wording not transcript-verified.
 - V14R1 unchanged: job `job-d4aac6ed6175`, PID `35196` ALIVE, 0/6 sealed.
+
+## Turn delta — 2026-08-31 13:34 Eastern Daylight Time
+- Corrected stale runner state after user observed process death.
+- Found unauthorized duplicate V14R + V14R1; both died same instant with SUPERVISION_LOST and zero scientific artifacts.
+- V14R retained; V14R1 demoted.
+- Single V14R Attempt 2 launched as `job-1b72da92b63f` PID `4616` ALIVE.

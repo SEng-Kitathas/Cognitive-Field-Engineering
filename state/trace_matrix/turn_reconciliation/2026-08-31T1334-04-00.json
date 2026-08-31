@@ -1,0 +1,17 @@
+{
+  "active_binding_sha256": "354adf0e7edfab0ef2bb28f640e9071ef3770e164049173d0e4e39e1cccc2589",
+  "active_blockers": [],
+  "active_job": "job-1b72da92b63f",
+  "active_pid": 4616,
+  "active_pid_status": "ALIVE",
+  "commander_source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
+  "failed_jobs": [
+    "job-1c115593cb12",
+    "job-d4aac6ed6175"
+  ],
+  "mode": "RECOVERY/BUILD-COMMIT",
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v4",
+  "sealed_trajectories": 0,
+  "timestamp": "2026-08-31T13:34:04-04:00"
+}

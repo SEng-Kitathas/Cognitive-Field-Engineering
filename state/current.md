@@ -24,3 +24,9 @@ None.
 - Claude-originated contribution, per memory: clarification and formalization/reflection as "cognitive geometry" and "traversable".
 - Exact date unknown; circa 2024 remembered.
 - V14R1: `job-d4aac6ed6175` / PID `35196` ALIVE; 0/6 sealed.
+
+## Execution recovery — 2026-08-31 13:34 Eastern Daylight Time
+- User correctly reported prior job died. Verified V14R and V14R1 both failed `SUPERVISION_LOST` at exactly 13:25:04 ET.
+- No checkpoint/eval/train manifest from either; no science admitted.
+- V14R is authoritative; V14R1 demoted duplicate.
+- V14R Attempt 2 active: job `job-1b72da92b63f`, PID `4616` ALIVE, 0/6 sealed.

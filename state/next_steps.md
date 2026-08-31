@@ -13,3 +13,7 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 ## Archaeology follow-up
 - If original Claude transcript is recovered, compare exact wording/date against operator recollection; append successor evidence, do not silently overwrite recollection.
+
+## Immediate execution
+- Keep only V14R Attempt 2 `job-1b72da92b63f` / PID `4616` active. Monitor for first sealed seed before any other GPU campaign.
+- Add duplicate-runner prelaunch gate before next scientific campaign.

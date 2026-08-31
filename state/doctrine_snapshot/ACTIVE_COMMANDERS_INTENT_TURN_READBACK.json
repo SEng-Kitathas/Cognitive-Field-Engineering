@@ -1,29 +1,27 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1245-04-00.md",
-  "active_binding_sha256": "7d5fac67ab9ac798ad8a27e3613afb9571912c26199e7fa15a55a0961a5211fc",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1334-04-00.md",
+  "active_binding_sha256": "354adf0e7edfab0ef2bb28f640e9071ef3770e164049173d0e4e39e1cccc2589",
   "alignment": "ALIGNED",
-  "branch": "V14R1_ACTIVE__STARMAP_ORIGIN_ATTRIBUTION_R2",
+  "branch": "V14R_ATTEMPT2_ACTIVE__DUPLICATE_RUNNER_DEFECT_CLOSED",
   "frontier": {
-    "starmap_origin": {
-      "approximate_period": "circa 2024",
-      "cognitive_geometry_label": "Claude formalization/reflection, operator-recalled",
-      "exact_date": "UNKNOWN",
-      "geometry_framing": "operator",
-      "mechanism_description": "operator",
-      "note_sha256": "fef0812480f2d98a2b6ab54d3ce3c757e391ce10cc6640a69b6f128fe61b6406",
-      "traversable_property": "Claude formalization/reflection, operator-recalled"
-    },
-    "v14r1": {
-      "job_id": "job-d4aac6ed6175",
-      "pid": 35196,
+    "active_attempt": {
+      "job_id": "job-1b72da92b63f",
+      "pid": 4616,
       "pid_status": "ALIVE",
-      "sealed_trajectories": 0,
-      "status": "RUNNING"
-    }
+      "sealed_trajectories": 0
+    },
+    "authoritative_identity": "V14R_PREDICATE_DOSE_HORIZON_20260831",
+    "demoted_identity": "V14R1",
+    "failed_jobs": [
+      "job-1c115593cb12",
+      "job-d4aac6ed6175"
+    ],
+    "failure_kind": "SUPERVISION_LOST",
+    "scientific_outcomes_admitted": 0
   },
-  "reason": "Correct lineage attribution while preserving scientific isolation.",
+  "reason": "Recover execution without changing scientific identity; eliminate duplicate-runner condition.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T12:45:35-04:00"
+  "timestamp": "2026-08-31T13:34:04-04:00"
 }

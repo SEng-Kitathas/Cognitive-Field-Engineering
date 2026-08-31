@@ -17,3 +17,6 @@ V14R1 remains frozen and isolated from StarMap-derived interventions.
 
 ## StarMap origin attribution correction
 - Geometry framing and mechanism are operator-originated; Claude formalized/reflected the framing after clarification. This is provenance, not scientific doctrine.
+
+## Execution-control scar
+- `QUALIFIED IDENTITY != UNIQUE ACTIVE RUNNER`. Scientific launch must enumerate active jobs and fail closed on same-family duplication.

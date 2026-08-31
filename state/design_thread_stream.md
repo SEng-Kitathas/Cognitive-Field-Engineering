@@ -798,3 +798,12 @@ User clarified they themselves said "My mind works almost geometrically"; Claude
 ## Turn — ASSISTANT / EXECUTION RECORD
 Timestamp: 2026-08-31 12:45 Eastern Daylight Time
 Recorded successor provenance note. Correct attribution: operator supplied geometry framing and mechanism; Claude clarified and formalized/reflected "cognitive geometry" and "traversable". Exact date unknown, circa 2024 remembered. V14R1 remained isolated and active.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 13:34 Eastern Daylight Time
+Tags: EXECUTION FAILURE OBSERVED
+User reported the job failed and they saw it die in Resource Monitor.
+
+## Turn — ASSISTANT / RECOVERY RECORD
+Verified job-d4aac6ed6175 FAILED/SUPERVISION_LOST. Audit found V14R job-1c115593cb12 was also running concurrently and both failed at the identical 13:25:04 ET boundary. Neither produced scientific artifacts. Identified duplicate-runner control defect, retained V14R as authoritative identity, demoted V14R1, verified zero running jobs, and launched one V14R Attempt 2 as `job-1b72da92b63f` PID `4616`.

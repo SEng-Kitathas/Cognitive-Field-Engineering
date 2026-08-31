@@ -14,3 +14,8 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | StarMap geometry framing attribution | current operator clarification | operator-originated; Claude formalized/reflected |
 | StarMap origin date | operator memory only | unknown; circa 2024 provisional |
 | Origin provenance R2 | `research/STARMAP_ORIGIN_PROVENANCE_CORRECTION_2026-08-31_R2.md` SHA `fef0812480f2d98a2b6ab54d3ce3c757e391ce10cc6640a69b6f128fe61b6406` | active successor provenance |
+
+| V14R/V14R1 supervision failure | two job journals, identical failure timestamp, zero scientific files | execution-control failure, no science |
+| V14R authoritative recovery identity | current-parent-bound prereg/lock + qualified runtime | retained |
+| V14R1 | duplicate recovery launched while V14R already active | demoted execution lineage |
+| V14R Attempt 2 | `job-1b72da92b63f` PID `4616` | active execution |
