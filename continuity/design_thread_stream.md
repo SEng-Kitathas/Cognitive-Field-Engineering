@@ -536,3 +536,11 @@ Timestamp: 2026-08-31
 Tags: V12 SEED2902 SEALED, RESEARCH PUBLICATION
 
 Seed 2026082902 fully paired. NARROW composed 40/96=0.4167; IDENTIFYING 50/96=0.5208; paired delta +0.1042. Predicate-direct overall remains 0.50 in both arms but with opposite one-sided basins: narrow false-only, identifying true-only. Policy-direct 1.0 in both. Identifying composed truth sides are 0.5417/0.5000. No campaign change. Exact adapters release-published and digest verified.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-31
+Tags: V12 SEED2903 SEALED, RESEARCH PUBLICATION
+
+Seed 2026082903 fully paired. NARROW composed 0.3021; IDENTIFYING 0.5208; paired delta +0.2188. Predicate-direct N/I 0.5208/0.5000; policy-direct N/I 1.0000/1.0000. Exact adapters release-published and digest verified. Campaign unchanged.
