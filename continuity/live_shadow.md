@@ -46,6 +46,8 @@
 - Current scientific work outranks unfinished exploratory campaign work until the live screen reaches a clean gate.
 
 ## Open Loops
+- Microseed language-gate dependency: operator reports pre-lingual substrate milestone reached and language gate is pre-research. Treat as operator-reported until Microseed artifacts are inspected. Prepare CFE→Microseed research handoff only after v1.2 closeout; no direct claim transfer.
+
 - v1.2 factorized primitive-composition branch is valid and now preexecution-authorized; it was preregistered after the v1.1 one-sided predicate seam was already known and contains explicit truth-side/predicate-readout safeguards.
 - Direct training of the composed numeric-state+mode -> action answer remains prohibited.
 - v1.2 may test zero-shot composition of separately trained predicate and policy primitives; any composed gain with one-sided predicate behavior must fall into `COMPOSITION_PRESENT_BUT_PREDICATE_UNRESOLVED` and cannot promote a clean boundary law.

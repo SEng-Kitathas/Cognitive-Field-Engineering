@@ -59,6 +59,26 @@
       ],
       "seed": "2026082903",
       "sha256": "ce02554c6b0604696caa9939085c07593cd8c59ff61185ed903100f6f7ea566b"
+    },
+    {
+      "asset_name": "V12_FACTOR_PRIMITIVE_2026082904_ADAPTERS.zip",
+      "bytes": 167892142,
+      "members": [
+        {
+          "arm": "COMPOSE_NARROW_BASIS",
+          "bytes": 83945296,
+          "path": "state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z/2026082904/COMPOSE_NARROW_BASIS/train/adapter/adapter_model.safetensors",
+          "sha256": "fff812bdd6124f3b929f06bc883ae589bae9ec817a552f8e19c0c3c909ba4bba"
+        },
+        {
+          "arm": "COMPOSE_IDENTIFYING_BASIS",
+          "bytes": 83945296,
+          "path": "state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z/2026082904/COMPOSE_IDENTIFYING_BASIS/train/adapter/adapter_model.safetensors",
+          "sha256": "dc039ace643f95cb780b2589e16636f081654165d5f9ead484c57c9b3f275002"
+        }
+      ],
+      "seed": "2026082904",
+      "sha256": "a2100a1755cf92f96c249a79be3c28ac74958f640cf1faf4bcbea2b73e4751a8"
     }
   ],
   "release_readback": {
@@ -76,6 +96,11 @@
       {
         "digest": "sha256:ce02554c6b0604696caa9939085c07593cd8c59ff61185ed903100f6f7ea566b",
         "name": "V12_FACTOR_PRIMITIVE_2026082903_ADAPTERS.zip",
+        "size": 167892142
+      },
+      {
+        "digest": "sha256:a2100a1755cf92f96c249a79be3c28ac74958f640cf1faf4bcbea2b73e4751a8",
+        "name": "V12_FACTOR_PRIMITIVE_2026082904_ADAPTERS.zip",
         "size": 167892142
       }
     ],

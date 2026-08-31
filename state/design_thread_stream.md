@@ -544,3 +544,19 @@ Timestamp: 2026-08-31
 Tags: V12 SEED2903 SEALED, RESEARCH PUBLICATION
 
 Seed 2026082903 fully paired. NARROW composed 0.3021; IDENTIFYING 0.5208; paired delta +0.2188. Predicate-direct N/I 0.5208/0.5000; policy-direct N/I 1.0000/1.0000. Exact adapters release-published and digest verified. Campaign unchanged.
+
+---
+
+## Exchange — USER
+Timestamp: 2026-08-31
+Tags: MICROSEED MILESTONE, LANGUAGE GATE, PROCEED
+
+Operator reported Microseed reached the pre-lingual substrate milestone and is at the language gate pre-research; asked CFE to proceed because the research may be needed soon. Report admitted as operator-reported state, not locally verified Microseed evidence.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-31
+Tags: V12 SEED2904 SEALED, MICROSEED DEPENDENCY OPENED
+
+Seed 2026082904 is fully sealed and published. NARROW composed 51/96=0.5312; IDENTIFYING 50/96=0.5208; paired delta -0.0104. Both direct predicates remain one-sided; policy direct is 1.0 in both. Opened a Microseed language-gate dependency seam while explicitly forbidding direct CFE-result transfer without Microseed-side re-derivation.

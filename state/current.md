@@ -313,3 +313,21 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Paired identifying-minus-narrow composed delta: +0.218750; predicate delta -0.020833.
 - NARROW predicate false/true = 0.8750/0.1667; IDENTIFYING = 0.0000/1.0000.
 - Exact seed adapters published under release tag `cfe-v12-factor-primitive-research-2026-08-31`.
+
+
+## v1.2 seed 2904 paired result
+- NARROW: predicate-direct 24/48 = 0.5000; policy-direct 48/48 = 1.0000; composed 51/96 = 0.5312.
+- IDENTIFYING: predicate-direct 24/48 = 0.5000; policy-direct 48/48 = 1.0000; composed 50/96 = 0.5208.
+- Paired identifying-minus-narrow composed delta: -0.010417. Predicate-direct delta +0.000000.
+- NARROW predicate false/true = 0.0000/1.0000; IDENTIFYING = 1.0000/0.0000.
+- IDENTIFYING composed false/true = 0.5417/0.5000. No aggregate disposition yet.
+- Exact seed adapters published under release tag `cfe-v12-factor-primitive-research-2026-08-31`.
+
+
+## Microseed language-gate dependency seam
+- Operator reports Microseed has reached the pre-lingual substrate milestone and is at the language gate before research.
+- Evidence class: OPERATOR-REPORTED STATE ONLY; Microseed artifacts have not yet been inspected or hash-admitted into this CFE workstream.
+- CFE relevance: potentially high because language-gate design is a developmental-experience problem, but `CFE_RESULT != MICROSEED_TRANSFER`.
+- Hard rule: do not port Capybara/Mistral-specific compiler limits, prompt semantics, or optimizer assumptions into Microseed. Any transfer must be re-derived against the Microseed substrate and language-gate contract.
+- Candidate reusable outputs from CFE, pending Microseed-side verification: experience-geometry vocabulary, identifying-vs-coherent distinction, uncertainty preservation, consequence/history doctrine, evaluator-scope discipline, and learner-visible-vs-curator-visible transport distinctions.
+- Immediate stance: finish v1.2 closeout first; then prepare a bounded CFE→Microseed language-gate research handoff that separates program-level developmental principles from LLM-specific experimental mechanisms.
