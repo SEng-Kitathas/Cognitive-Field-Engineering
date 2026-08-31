@@ -1,57 +1,24 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0859-04-00.md",
-  "active_binding_sha256": "9651c9fff558191683e2e01f99227e8ea4bb9fd4995aae1d4ed54391735d5c41",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0928-04-00.md",
+  "active_binding_sha256": "e93ee3ffcd19fdc6bf475132992306113dbabe863992a12421567242921933ae",
   "alignment": "ALIGNED",
-  "branch": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE__CAMPAIGN_ACTIVE",
+  "branch": "STARMAP_E_DRIVE_AUDIT__V13_RUNNER_UNCHANGED",
   "frontier": {
-    "active_job": "2026083105 WINDOW_SEPARATED training",
-    "complete_pairs": 4,
-    "pid": 23156,
-    "pid_status": "ALIVE",
-    "sealed_jobs": 9,
-    "seed3104_deltas": {
-      "composition": -0.041666666666666685,
-      "policy": -0.5,
-      "predicate": 0.0
+    "starmap_audit": {
+      "approx_occurrences": 4402,
+      "confirmed_content_hit_files": 239,
+      "saved_analysis": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\.pcmmad_sync_runs\\starmap_substantive_unique.json",
+      "status": "PARTIAL_NOT_EXHAUSTIVE",
+      "substantive_hit_files": 215,
+      "unique_substantive_contents": 175
     },
-    "seed3105_local_mixed": {
-      "composition": 0.5416666666666666,
-      "composition_truth": {
-        "false": {
-          "accuracy": 0.5416666666666666,
-          "correct": 26,
-          "json_parse_rate": 1.0,
-          "n": 48
-        },
-        "true": {
-          "accuracy": 0.5416666666666666,
-          "correct": 26,
-          "json_parse_rate": 1.0,
-          "n": 48
-        }
-      },
-      "eval_sha256": "75abd93b2c573b90500a0d8a14c6a5088d329b7d613e3f1b44469ed5febc54e8",
-      "policy": 1.0,
-      "predicate": 0.7083333333333334,
-      "predicate_truth": {
-        "false": {
-          "accuracy": 0.4166666666666667,
-          "correct": 10,
-          "json_parse_rate": 1.0,
-          "n": 24
-        },
-        "true": {
-          "accuracy": 1.0,
-          "correct": 24,
-          "json_parse_rate": 1.0,
-          "n": 24
-        }
-      }
-    }
+    "v13_complete_pairs": 5,
+    "v13_pid": 23156,
+    "v13_pid_status": "ALIVE",
+    "v13_sealed_jobs": 11
   },
-  "reason": "Conceptual discussion remains grounded in fresh experimental evidence and does not alter the scientific runner.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T08:59:12-04:00"
+  "timestamp": "2026-08-31T09:28:55-04:00"
 }

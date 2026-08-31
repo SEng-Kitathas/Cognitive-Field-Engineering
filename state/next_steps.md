@@ -15,3 +15,6 @@ Frontier: v1.3 active, 3/6 complete pairs / 7/12 sealed; seed3104 LOCAL_MIXED ac
 - If aggregate confirms weakness: prioritize dose/horizon or richer predicate-field resolution.
 - If primitive competence and composition keep dissociating: prioritize learner-interface/decomposition discriminator.
 - Developmental-CFE ecology remains the broader program frontier after bounded mechanism characterization.
+
+## StarMap audit follow-up
+- If exact exhaustive E-drive coverage is later required, run a scoped/indexed filesystem scan per top-level volume segment and archive inventory; current audit is explicitly partial.

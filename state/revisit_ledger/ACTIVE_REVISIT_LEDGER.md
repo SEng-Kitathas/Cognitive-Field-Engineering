@@ -13,3 +13,5 @@ As of: 2026-08-31 08:28 Eastern Daylight Time
 | P1 | Microseed transfer | unverified | Microseed-side evidence |
 
 - P0: determine which geometry dimensions are causal vs merely correlated: attribution edges, temporal order, causal/consequence links, optimizer-visible grouping, dose/horizon.
+
+| P1 | Exhaustive E-drive StarMap inventory | current 2 TB traversal was partial | segmented/indexed complete scan | open |

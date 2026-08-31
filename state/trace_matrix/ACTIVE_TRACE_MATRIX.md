@@ -16,3 +16,5 @@ As of: 2026-08-31 08:28 Eastern Daylight Time
 | Geometry matters at program level | v1.0 matched-content arrangement effects + v1.1 support geometry + v1.3 seed3104 phenotype divergence | bounded load-bearing interpretation |
 | Any chosen geometry is beneficial | repeated sign reversals across v1.0-v1.3 | rejected |
 | AI core analogy | architecture-level analogy to persistent structured developmental field | explanatory only, not scientific claim |
+
+| StarMap historical lineage exists broadly | partial E-drive audit: 215 substantive files / 175 unique contents / ~4402 occurrences | verified bounded finding; exhaustive coverage not earned |

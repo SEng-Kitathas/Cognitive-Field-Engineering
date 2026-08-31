@@ -1,0 +1,201 @@
+{
+  "arm": "WINDOW_SEPARATED",
+  "candidate_manifest_sha256": "afb37e44a427f8352dac9b50e03503cd96c282c81d44f74759cc69cb9d93ef31",
+  "contract_sha256": "0bb1130de69c0d896a457c78ac1ccc7f895bb527e2d71d8cefb68b2692f6b390",
+  "host_lock_sha256": "45b76a3c3cb30ac1fdebac669eef121b34f8fbf2764bcd5df84f28cf3aeaeb67",
+  "input_lock_sha256": "31cc908c415fe3f64d7b396bbd75e8cd3846672bc3e37a82905dcd0ddc1e5489",
+  "interpretation_ceiling": [
+    "Paired-seed aggregate required before interference claim.",
+    "Predicate balanced accuracy is primary mechanism metric.",
+    "Composition must remain separate from primitive acquisition.",
+    "Identifying CFE specialization only."
+  ],
+  "metrics": {
+    "COMPOSED_ACTION_PRIMARY": {
+      "by_action": {
+        "action_r": {
+          "accuracy": 0.3541666666666667,
+          "correct": 17,
+          "json_parse_rate": 1.0,
+          "n": 48
+        },
+        "action_s": {
+          "accuracy": 0.20833333333333334,
+          "correct": 5,
+          "json_parse_rate": 1.0,
+          "n": 24
+        },
+        "action_t": {
+          "accuracy": 0.9166666666666666,
+          "correct": 22,
+          "json_parse_rate": 1.0,
+          "n": 24
+        }
+      },
+      "by_mode": {
+        "latest_state": {
+          "accuracy": 0.4583333333333333,
+          "correct": 22,
+          "json_parse_rate": 1.0,
+          "n": 48
+        },
+        "transactional": {
+          "accuracy": 0.4583333333333333,
+          "correct": 22,
+          "json_parse_rate": 1.0,
+          "n": 48
+        }
+      },
+      "by_support": {
+        "equality": {
+          "accuracy": 0.125,
+          "correct": 2,
+          "json_parse_rate": 1.0,
+          "n": 16
+        },
+        "far_negative": {
+          "accuracy": 0.46875,
+          "correct": 15,
+          "json_parse_rate": 1.0,
+          "n": 32
+        },
+        "far_positive": {
+          "accuracy": 0.46875,
+          "correct": 15,
+          "json_parse_rate": 1.0,
+          "n": 32
+        },
+        "near_positive": {
+          "accuracy": 0.75,
+          "correct": 12,
+          "json_parse_rate": 1.0,
+          "n": 16
+        }
+      },
+      "by_truth": {
+        "false": {
+          "accuracy": 0.3541666666666667,
+          "correct": 17,
+          "json_parse_rate": 1.0,
+          "n": 48
+        },
+        "true": {
+          "accuracy": 0.5625,
+          "correct": 27,
+          "json_parse_rate": 1.0,
+          "n": 48
+        }
+      },
+      "overall": {
+        "accuracy": 0.4583333333333333,
+        "correct": 44,
+        "json_parse_rate": 1.0,
+        "n": 96
+      }
+    },
+    "POLICY_DIRECT": {
+      "by_action": {
+        "action_r": {
+          "accuracy": 1.0,
+          "correct": 24,
+          "json_parse_rate": 1.0,
+          "n": 24
+        },
+        "action_s": {
+          "accuracy": 1.0,
+          "correct": 12,
+          "json_parse_rate": 1.0,
+          "n": 12
+        },
+        "action_t": {
+          "accuracy": 1.0,
+          "correct": 12,
+          "json_parse_rate": 1.0,
+          "n": 12
+        }
+      },
+      "by_condition": {
+        "false": {
+          "accuracy": 1.0,
+          "correct": 24,
+          "json_parse_rate": 1.0,
+          "n": 24
+        },
+        "true": {
+          "accuracy": 1.0,
+          "correct": 24,
+          "json_parse_rate": 1.0,
+          "n": 24
+        }
+      },
+      "overall": {
+        "accuracy": 1.0,
+        "correct": 48,
+        "json_parse_rate": 1.0,
+        "n": 48
+      }
+    },
+    "PREDICATE_DIRECT": {
+      "balanced_accuracy": 0.5,
+      "by_support": {
+        "equality": {
+          "accuracy": 1.0,
+          "correct": 8,
+          "json_parse_rate": 1.0,
+          "n": 8
+        },
+        "far_negative": {
+          "accuracy": 1.0,
+          "correct": 16,
+          "json_parse_rate": 1.0,
+          "n": 16
+        },
+        "far_positive": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 1.0,
+          "n": 16
+        },
+        "near_positive": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 1.0,
+          "n": 8
+        }
+      },
+      "by_truth": {
+        "false": {
+          "accuracy": 1.0,
+          "correct": 24,
+          "json_parse_rate": 1.0,
+          "n": 24
+        },
+        "true": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 1.0,
+          "n": 24
+        }
+      },
+      "overall": {
+        "accuracy": 0.5,
+        "correct": 24,
+        "json_parse_rate": 1.0,
+        "n": 48
+      }
+    }
+  },
+  "peak_allocated_bytes": 4238162944,
+  "peak_reserved_bytes": 4561305600,
+  "producer_run_manifest_sha256": "0695a360a0860d64871800542397456e398b583e67ac1a60f3fe17a3f2f69375",
+  "results_sha256": {
+    "COMPOSED_ACTION_PRIMARY": "bd4e8feff396e011b0ca4ff86dee091e2aff1da425280a780ff77200d20818ab",
+    "POLICY_DIRECT": "7d17f14825907c094b73f8e34d7d2cc44c75454b1295d235e8c7eae1c34be2d2",
+    "PREDICATE_DIRECT": "78c662e48b3d7304496a7854223efca5422913c496a23e7f66b7ef2e53647969"
+  },
+  "runtime_seconds": 186.79457569122314,
+  "schema": "cfe.v13.optimizer-interference-eval.v1",
+  "seed": 2026083106,
+  "status": "EVALUATION_EXECUTED__SCIENTIFIC_EFFECT_UNQUALIFIED",
+  "window_geometry": "alternating homogeneous accumulation windows: 8 predicate or 8 policy rows"
+}

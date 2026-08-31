@@ -43,3 +43,10 @@ Finish v1.3 unchanged; then hostile closeout and choose next discriminator.
 - Verified scientific frontier advanced to 9/12 sealed = 4/6 complete pairs.
 - Seed3104 shows identical one-sided predicate phenotype across arms but different policy/composition phenotypes under different optimizer-visible arrangements.
 - Interpretation locked: program-level geometry intuition strengthened; literal/general AI-core claim remains analogy, not earned fact.
+
+## Turn delta — 2026-08-31 09:28 Eastern Daylight Time
+- User requested E-drive `starmap` audit.
+- Confirmed partial scan: 239 content-hit files; 215 substantive; 175 unique substantive contents; ~4402 occurrences.
+- Strong lineage: NEAL-CORE StarMap v1.0, Starmap Geometry, Hilbert-Starmap memory, Pattern Starmap/Forge, actual `starmap.py` references.
+- Full 2 TB traversal did not complete; scanners were explicitly stopped. Status: PARTIAL_NOT_EXHAUSTIVE.
+- v1.3 runner untouched: PID `23156` ALIVE, 11/12 sealed = 5/6 pairs.

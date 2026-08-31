@@ -99,6 +99,28 @@
       "run_manifest_sha256": "8f604344b294f287abc08e87e8f74dc43ca0a18de1c7450545cdff73c2f6685e",
       "seed": 2026083105,
       "status": "COMPLETE"
+    },
+    {
+      "arm": "WINDOW_SEPARATED",
+      "composed_accuracy": 0.5208333333333334,
+      "eval_manifest_sha256": "49c09b0ce9b612eb31cbb7b8e2532837d3f750c208cfff21bae7b02ca291883b",
+      "policy_accuracy": 1.0,
+      "predicate_accuracy": 0.6041666666666666,
+      "predicate_balanced_accuracy": 0.6041666666666666,
+      "run_manifest_sha256": "a308df363660b1b962cfde3062f032d12764988fcfbe1208b50c24e0e5fe4307",
+      "seed": 2026083105,
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "WINDOW_SEPARATED",
+      "composed_accuracy": 0.4583333333333333,
+      "eval_manifest_sha256": "f440b04a731f53265a24c20b3569e622cd873de0acfe5557c44ff6b0d00cd62e",
+      "policy_accuracy": 1.0,
+      "predicate_accuracy": 0.5,
+      "predicate_balanced_accuracy": 0.5,
+      "run_manifest_sha256": "0695a360a0860d64871800542397456e398b583e67ac1a60f3fe17a3f2f69375",
+      "seed": 2026083106,
+      "status": "COMPLETE"
     }
   ],
   "preexec_sha256": "4c08e6633c64af2bfd4f5adb9e67a7a099f6f76f52c3d1ce553b039561ad9ed4",

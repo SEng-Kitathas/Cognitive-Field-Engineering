@@ -711,3 +711,14 @@ User summarized the original CFE intuition as a lattice/field whose geometry enc
 ## Turn — ASSISTANT / EXECUTION RECORD
 Timestamp: 2026-08-31 08:59 Eastern Daylight Time
 Fresh readback found v1.3 at 9/12 sealed. Seed3104 complete pair shows identical one-sided predicate but different policy/composition phenotypes across optimizer-visible arrangements. Interpretation: original program-level geometry intuition is increasingly supported, but "AI core" remains an architectural analogy and geometry is typed relational/temporal/causal rather than necessarily spatial. Heavy evidence for seed3104 full pair and seed3105 mixed partial published.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 09:28 Eastern Daylight Time
+Tags: E DRIVE AUDIT, STARMAP
+User requested all mentions of `starmap` on E:.
+
+## Turn — ASSISTANT / EXECUTION RECORD
+Timestamp: 2026-08-31 09:28 Eastern Daylight Time
+Tags: NON-MUTATING SEARCH, PARTIAL COVERAGE, LINEAGE FOUND
+Attempted full-drive path/content traversal. Direct control-channel scans timed out, then detached local scanners were used. Before completion, 239 content-hit files were confirmed; filtering obvious dependency/game noise left 215 substantive files, 175 unique substantive contents, and ~4402 occurrences. Strong StarMap lineage was found across NEAL, CogOS/AI design, TQ2/Forge, Hilbert-memory, and old conversation/context surfaces. Since E: is ~2 TB and traversal remained incomplete, scanners were explicitly terminated and the result labeled PARTIAL_NOT_EXHAUSTIVE.

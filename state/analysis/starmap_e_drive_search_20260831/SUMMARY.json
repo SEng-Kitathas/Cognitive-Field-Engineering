@@ -1,0 +1,15 @@
+{
+  "query": "starmap",
+  "scope": "E:/",
+  "path_name_hit_count": 144,
+  "content_match_event_count": 13,
+  "content_file_count": 1,
+  "content_files": [
+    "E:/Android\\Sdk\\system-images\\android-36.1\\google_apis_playstore\\x86_64\\system.img"
+  ],
+  "walk_errors": [
+    "[WinError 5] Access is denied: 'E:/System Volume Information'"
+  ],
+  "rg_return_code": 4294967295,
+  "rg_stderr": "rg: E:/System Volume Information: Access is denied. (os error 5)\nrg: E:/Gamezz\\Split Fiction [FitGirl Repack]\\setup.exe: Operation did not complete successfully because the file contains a virus or potentially unwanted software. (os error 225)\n"
+}

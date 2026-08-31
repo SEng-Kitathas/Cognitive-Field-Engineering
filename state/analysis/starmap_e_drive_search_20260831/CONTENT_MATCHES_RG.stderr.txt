@@ -1,0 +1,2 @@
+rg: E:/System Volume Information: Access is denied. (os error 5)
+rg: E:/Gamezz\Split Fiction [FitGirl Repack]\setup.exe: Operation did not complete successfully because the file contains a virus or potentially unwanted software. (os error 225)

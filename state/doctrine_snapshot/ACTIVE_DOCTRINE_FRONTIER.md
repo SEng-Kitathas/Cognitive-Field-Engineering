@@ -27,3 +27,6 @@ Learner-visible experience arrangement has produced reproducible, relation-depen
 ## Turn delta
 - Arrangement/lattice geometry is now explicitly interpreted as typed relational-temporal-causal geometry, not Euclidean shape.
 - Seed3104: identical predicate readout but policy/composition divergence under arrangement change strengthens this framing.
+
+## StarMap historical seam
+- Historical StarMap terminology is strongly present across prior NEAL/CogOS/Forge/TQ2 artifacts. This is lineage evidence only; no automatic equivalence to current CFE field geometry is promoted without explicit comparison.
