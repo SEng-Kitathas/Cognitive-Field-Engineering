@@ -1,0 +1,86 @@
+{
+  "active_blockers": [],
+  "active_commander_binding": {
+    "alignment": "ALIGNED",
+    "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31.md",
+    "sha256": "30090fe63437ea3b0d4306d6782192fa61868a9308475a46992c950324eb3b5f"
+  },
+  "commander_source": {
+    "path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+  },
+  "continuity_surfaces": {
+    "state/current.md": {
+      "bytes": 2894,
+      "sha256": "bd36df9e2b4bd0a97777696ddc0d211c7c79279c2f8164ffab4512a4d70bd0df"
+    },
+    "state/current/ACTIVE_CURRENT_STATE.json": {
+      "bytes": 823,
+      "sha256": "fd361e87c95de58027db39e46285ae0bac95471cf1fe93a9b1aeec45c729946d"
+    },
+    "state/design_thread_stream.md": {
+      "bytes": 44444,
+      "sha256": "db8981b34f04a2fe62d226d8764c77e1de8e48530093d078a2ac3ae405a35f85"
+    },
+    "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31.md": {
+      "bytes": 8569,
+      "sha256": "30090fe63437ea3b0d4306d6782192fa61868a9308475a46992c950324eb3b5f"
+    },
+    "state/doctrine_snapshot/ACTIVE_COMMANDERS_INTENT_TURN_READBACK.json": {
+      "bytes": 1023,
+      "sha256": "4ff3f5fe00f750faefac88e1225d0eafda73ec8a6e8f6ab4dc1619ac9aca60bb"
+    },
+    "state/live_shadow.md": {
+      "bytes": 6050,
+      "sha256": "5c9b51af88f1df090c867d5390acb1b891a55ee8790d6fc2fcb905449925c4ce"
+    },
+    "state/next_steps.md": {
+      "bytes": 2071,
+      "sha256": "2df37140214e1ef2e6a3d4c37fa48f1c52628febe8934a87526fcd0c0ce990ec"
+    },
+    "state/next_steps/ACTIVE_NEXT_STEPS.json": {
+      "bytes": 472,
+      "sha256": "61b66f5e967f494e74f97b8c06a22ace4143963daf23bf5e65a5792f2c5b7244"
+    },
+    "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md": {
+      "bytes": 1341,
+      "sha256": "41e68256859b297b4fc939bfa262b5e9746816624661ca85d7259c38baeb045f"
+    },
+    "state/trace_matrix/ACTIVE_TRACE_MATRIX.md": {
+      "bytes": 2136,
+      "sha256": "03451c63c1ae33e8403d66ee1b6498087c21fc162caa76fa210b3cc76ad5e485"
+    },
+    "state/trace_matrix/RESEARCH_PUBLICATION_MANIFEST_2026-08-30.json": {
+      "bytes": 192366,
+      "sha256": "b14c4f914837ffe3cd7d26408eb204eb98ec7de2f72dd47adffbae67e8ce68b0"
+    }
+  },
+  "decisions": [
+    "v1.2 composition basis not supported under mixed-window regime",
+    "next discriminator is optimizer-visible primitive interference",
+    "v1.3 reruns both arms on fresh seeds rather than reusing v1.2 controls",
+    "CFE continues beyond any downstream MVP handoff",
+    "sealed history remains immutable while active state refreshes per turn"
+  ],
+  "frontier": {
+    "v12_aggregate_sha256": "af26fd4b626afddd2bb22445cf276cf3690b5e4352bb96f3b8acddcb0ec0ff20",
+    "v12_status": "COMPLETE__COMPOSITION_BASIS_NOT_SUPPORTED",
+    "v13_prereg_sha256": "da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5",
+    "v13_status": "PREREG_FROZEN__NO_MODEL_OUTCOME"
+  },
+  "mode": "BUILD-COMMIT",
+  "new_material_artifacts": [
+    "policy/PER_TURN_CONTINUITY_RECONCILIATION_POLICY.md",
+    "state/analysis/V12_FACTOR_PRIMITIVE_HOSTILE_CLOSEOUT_2026-08-31.md",
+    "state/analysis/V12_FACTOR_PRIMITIVE_FINAL_DISPOSITION_2026-08-31.json",
+    "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31.md",
+    "state/next_steps/V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE_PREREG_2026-08-31.json"
+  ],
+  "next_exact_action": "implement and static-qualify v1.3 schedule-only intervention",
+  "operator_directive": "every decision, research frontier, Commanders Intent binding, and continuity document kept fresh per substantive turn",
+  "publication_checkpoint_head": "d2b64e317e8166752a9274a6069f16566bee65b1",
+  "publication_checkpoint_verified_remote_equal": true,
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v1",
+  "timestamp": "2026-08-31T06:20:00-04:00"
+}
