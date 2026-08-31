@@ -1,0 +1,25 @@
+{
+  "campaign_status": "BLOCKED",
+  "failure": {
+    "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+    "phase": "TRAIN",
+    "return_code": 3221225477,
+    "seed": 2026083121
+  },
+  "job_id": "job-9b1b7eaed5bc",
+  "job_status": "FAILED",
+  "paired_arm_status": "MARGIN_HOMOGENEOUS_DISPERSED training crashed before RUN_MANIFEST",
+  "pid": 13756,
+  "recovery_requirement": "new execution-recovery identity may salvage the completed identifying arm only if paired-init/replay contract remains exactly verifiable; paired science remains unresolved",
+  "schema": "cfe.dd1.execution-failure-status.v1",
+  "scientific_disposition": "NONE__NO_PAIRED_SEED_ADMITTED",
+  "sealed_pairs": 0,
+  "seed2026083121_identifying": {
+    "adapter_sha256": "477764b22d02c5535ce40668755196c9713d10e18ca32d9d29a74331892cb6df",
+    "balanced_accuracy": 0.6458333333333334,
+    "eval_manifest_sha256": "698ed03f28dcc348fb03a7d0758514da5ad3ed15266ebfd766fa9f3d8db9c170",
+    "heavy_asset_remote_verified": true,
+    "train_manifest_sha256": "6d26b30f3e83c962bb4967c7bd9badcaf72ca344614290d88750d08803907031"
+  },
+  "timestamp": "2026-08-31T18:29:51-04:00"
+}

@@ -1,0 +1,49 @@
+{
+  "contract_sha256": "0923c3c84c5070f354ec799fb4e64abc5a0ac1b717e1814b30648b984aa1194a",
+  "failed_parent_campaign": "state/analysis/DD1_PREDICATE_FIELD_RESOLUTION_CAMPAIGN_20260831T2117Z",
+  "failure": {
+    "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+    "job_id": "job-9b1b7eaed5bc",
+    "observed_surface": "access violation while Loading checkpoint shards 0/3; no RUN_MANIFEST",
+    "phase": "TRAIN",
+    "return_code": 3221225477,
+    "seed": 2026083121
+  },
+  "identity": "DD1R1_PREDICATE_FIELD_RESOLUTION_20260831",
+  "laws": [
+    "EXECUTION RETRY != SCIENTIFIC ADAPTATION",
+    "ONE COMPLETE ARM != PAIRED EVIDENCE",
+    "PAIRED INIT HASH MISMATCH = SCIENTIFIC BLOCK",
+    "RECOVERY PROVENANCE != NEW INTERVENTION"
+  ],
+  "parent_input_lock_sha256": "5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040",
+  "parent_scientific_identity": "DD1_PREDICATE_FIELD_RESOLUTION_20260831",
+  "preexec_sha256": "7d92839633af8704be2fb32536aaea144911a97890542beacd54ad9c1a4db954",
+  "prereg_sha256": "76491e82f208b0c65edfe2c6096e88beca9b4f41f12c6819a902b03850e59958",
+  "recovery_rules": [
+    "Completed identifying arm may be carried forward only after local train/eval hash checks and remote adapter digest/size verification.",
+    "Missing dispersed arm must train fresh under unchanged locked DD1 trainer/contract/seed.",
+    "Seed2026083121 pair may seal only if dispersed initial_trainable_sha256 equals salvaged identifying initial_trainable_sha256.",
+    "Seeds2026083122-2026083126 run both arms fresh under unchanged locked DD1 science.",
+    "Training subprocess may retry at most 2 additional times only when it exits nonzero before RUN_MANIFEST exists; any manifested training is never silently rerun.",
+    "Evaluation subprocess may retry at most 2 additional times against the same completed adapter only when EVAL_MANIFEST does not exist.",
+    "Remote upload may retry without changing artifact bytes; local adapter reclamation occurs only after remote digest+size verification.",
+    "Aggregate only after 6/6 complete paired seeds.",
+    "No scientific inputs, token references, schedules, dose, learner, optimizer, evaluator, or decision rules change."
+  ],
+  "salvage": {
+    "adapter_sha256": "477764b22d02c5535ce40668755196c9713d10e18ca32d9d29a74331892cb6df",
+    "arm": "IDENTIFYING_COVISIBLE",
+    "balanced_accuracy": 0.6458333333333334,
+    "eval_manifest_sha256": "698ed03f28dcc348fb03a7d0758514da5ad3ed15266ebfd766fa9f3d8db9c170",
+    "initial_trainable_sha256": "42ae4fd695df63c498df499ac602d5f094b19720cea7f3f4ad3c1aa722f28db3",
+    "remote_asset": "dd1_seed2026083121_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+    "remote_digest": "sha256:477764b22d02c5535ce40668755196c9713d10e18ca32d9d29a74331892cb6df",
+    "seed": 2026083121,
+    "train_manifest_sha256": "6d26b30f3e83c962bb4967c7bd9badcaf72ca344614290d88750d08803907031"
+  },
+  "schema": "cfe.dd1r1.execution-recovery-amendment.v1",
+  "scientific_design_changed": false,
+  "status": "FROZEN_EXECUTION_RECOVERY_PRE_RUNTIME",
+  "timestamp": "2026-08-31T18:32:28-04:00"
+}

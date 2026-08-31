@@ -1,11 +1,12 @@
 # CFE NEXT STEPS
 
-As of: 2026-08-31 17:18 Eastern Daylight Time
+As of: 2026-08-31 18:32 Eastern Daylight Time
 
-## P0
-1. Seal DD-1 preexecution state to Git.
-2. Create dedicated DD-1 heavy release at that commit.
-3. Launch one paired six-seed campaign.
-4. Each arm: train -> evaluate -> remote SHA256 verify adapter -> reclaim local heavy model.
-5. Aggregate only after 6/6 paired seeds.
-6. Apply frozen decision rules before interpretation.
+## P0 — DD1R1 recovery
+1. Launch sole recovery runner.
+2. Verify salvaged identifying arm local+remote identity.
+3. Train missing seed3121 dispersed arm fresh; require identical initial LoRA SHA before pair seal.
+4. Run seeds3122-3126 fresh paired.
+5. Remote-verify every heavy adapter before local reclamation.
+6. Aggregate only 6/6 pairs.
+7. Apply frozen DD-1 disposition evaluator mechanically before prose.

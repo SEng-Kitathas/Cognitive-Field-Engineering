@@ -1,0 +1,15 @@
+{
+  "failure": {
+    "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+    "phase": "TRAIN",
+    "return_code": 3221225477,
+    "seed": 2026083121
+  },
+  "identity": "DD1_PREDICATE_FIELD_RESOLUTION_20260831",
+  "input_lock_sha256": "5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040",
+  "jobs": [],
+  "preexec_sha256": "7d92839633af8704be2fb32536aaea144911a97890542beacd54ad9c1a4db954",
+  "release_tag": "cfe-dd1-predicate-field-resolution-2026-08-31",
+  "schema": "cfe.dd1.campaign-receipt.v1",
+  "status": "BLOCKED"
+}

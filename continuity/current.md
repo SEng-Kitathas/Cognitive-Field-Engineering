@@ -1,42 +1,27 @@
 # CFE CURRENT STATE
 
-As of: 2026-08-31 17:18 Eastern Daylight Time
+As of: 2026-08-31 18:32 Eastern Daylight Time
 Mode: BUILD-COMMIT
 Role: R5 Reality Pressure Engine
 
 ## Closed baseline
-V14R2: CLOSED/PUBLISHED, `DOSE_HORIZON_WEAKENED`. Longer exposure matters but does not reliably yield stable two-sided competence.
+- V14R2 CLOSED/PUBLISHED: `DOSE_HORIZON_WEAKENED`.
+- DD-0 topology compiler: PASS engineering-only.
 
-## DD-0
-Topology v2 PASS: matched multiplicity, explicit coverage, revisit preservation, operational long-range bridge span, deterministic replay. Engineering-only.
+## DD-1 parent attempt
+- Job `job-9b1b7eaed5bc`: FAILED execution-layer.
+- Failure: seed2026083121 dispersed arm base-model load access violation before RUN_MANIFEST.
+- Identifying arm completed/evaluated/remote-verified; BA 0.645833.
+- Scientific paired seeds: 0/6. No DD-1 disposition.
 
-## DD-1 — PREEXEC AUTHORIZED
-Question: does sequence-local co-visibility of (-3, 0, 1, 3) improve predicate acquisition relative to domain-matched margin-homogeneous grouping of the exact same atomic experiences?
-
-Controls:
-- 288 identical atomic experiences per arm
-- 72 sequences per arm
-- 15,432 training tokens per arm
-- 2,304 supervised tokens per arm
-- matched sequence-length distribution; max 217
-- same global margin/truth/domain support
-- same six seeds and same seed-specific row permutation
-- same base/runtime/profile/optimizer
-- fixed 144-step dose
-
-R1 control failed qualification due sequence-length-distribution drift and was superseded before lock. R2 repaired that by domain matching and passed.
-
-Input lock `5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040`; preexec `7d92839633af8704be2fb32536aaea144911a97890542beacd54ad9c1a4db954`. No DD-1 model outcome yet.
+## DD1R1 recovery
+- Scientific design unchanged; parent DD-1 input lock SHA `5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040` remains controlling.
+- Amendment SHA `5de42bb08bbb874ff725d0ec87140ad5a26744b0235d4951bd7b3171f850a474`.
+- Static recovery qualification SHA `10a0359b5b69a2cb2e1c08cea6699fab02c1748be97153fe814d3fde1cfca747`: PASS.
+- Salvage only completed identifying arm; missing paired arm fresh.
+- Pair seals only on exact initial-LoRA hash equality.
+- Remaining five seeds both arms fresh.
+- Bounded retries only for process failure before scientific manifest creation.
 
 ## Resume point
-Commit/publish preexecution identity, create DD-1 heavy release, launch the sole paired campaign.
-
-## DD-1 launch — 2026-08-31 17:19 Eastern Daylight Time
-- Job `job-9b1b7eaed5bc`, PID `13756`: RUNNING.
-- Campaign receipt: `RUNNING`, 0/6 paired seeds sealed.
-- Sole active GPU campaign.
-
-## DD-1 decision-surface hardening — 2026-08-31 17:41 Eastern Daylight Time
-- Added post-lock disposition evaluator implementing already-frozen prereg rules; it is not a learner input.
-- Adversarial fixtures 4/4 PASS: strong/support/not-supported/mixed each map to the intended disposition.
-- Qualification SHA `8406a37b13e554cfcb22d220317bcded69a0ccdaf719816433393c6c6f96c231`.
+Commit this recovery identity, then launch DD1R1 as sole GPU campaign.

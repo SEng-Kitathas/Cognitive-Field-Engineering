@@ -1,31 +1,20 @@
 # CFE LIVE SHADOW
 
 ## Thread Identity
-- Last Updated: 2026-08-31 17:18 Eastern Daylight Time
+- Last Updated: 2026-08-31 18:32 Eastern Daylight Time
 - Mode: BUILD-COMMIT
-- Dominant Objective: launch the first post-V14 field-resolution discriminator.
+- Dominant Objective: recover DD-1 paired field-resolution science without scientific drift.
 
 ## Current Authoritative State
-- V14R2 closed/published; horizon alone weakened as sufficient explanation.
-- DD-0 topology v2 PASS.
-- DD-1 R2 preexecution authorized, no model outcome yet.
-- DD-1 input lock SHA `5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040`.
+- DD-1 parent attempt execution-failed; 0/6 paired seeds admitted.
+- Seed3121 identifying arm is complete but unpaired/unadmitted.
+- DD1R1 recovery static qualification PASS under unchanged lock `5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040`.
 
 ## Decisions Locked In
-- DD-1 changes sequence-local identifying contrast geometry, not atoms, support, token budget, dose, learner, or optimizer.
-- R1 candidate is failed engineering history, not science.
-- No StarMap/Grand donor labels enter learner payloads.
-- Adapters will be remote digest-verified then locally reclaimed to avoid disk exhaustion.
-
-## Open Loops
-- Launch DD-1.
-- Six paired seed results and preregistered disposition.
+- One arm never counts as paired science.
+- Salvage requires local manifest hashes + remote heavy digest.
+- Seed3121 requires exact paired initialization hash before admission.
+- Retry only pre-manifest execution failures; no adaptive science.
 
 ## Immediate Next Step
-Create release at frozen preexec Git commit and submit DD-1 campaign.
-
-## Turn delta — 2026-08-31 17:19 Eastern Daylight Time
-- DD-1 launched as sole GPU job `job-9b1b7eaed5bc` / PID 13756. Early runner state `RUNNING`, 0/6 paired seeds sealed.
-
-## Turn delta — 2026-08-31 17:41 Eastern Daylight Time
-- DD-1 post-outcome narrative freedom further reduced: prereg disposition evaluator qualified 4/4 adversarial fixtures before any paired seed sealed.
+Launch DD1R1 as sole GPU campaign.

@@ -1,0 +1,126 @@
+{
+  "amendment_sha256": "5de42bb08bbb874ff725d0ec87140ad5a26744b0235d4951bd7b3171f850a474",
+  "checks": [
+    {
+      "check": "lock:state/analysis/V14R2_PREDICATE_HORIZON_FINAL_DISPOSITION_2026-08-31.json",
+      "pass": true
+    },
+    {
+      "check": "lock:state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.jsonl",
+      "pass": true
+    },
+    {
+      "check": "lock:state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.sidecar.private.jsonl",
+      "pass": true
+    },
+    {
+      "check": "lock:state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.token_reference.private.jsonl",
+      "pass": true
+    },
+    {
+      "check": "lock:state/candidates/dd1_predicate_field_resolution_r2_20260831/MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "lock:state/candidates/dd1_predicate_field_resolution_r2_20260831/MARGIN_HOMOGENEOUS_DISPERSED.jsonl",
+      "pass": true
+    },
+    {
+      "check": "lock:state/candidates/dd1_predicate_field_resolution_r2_20260831/MARGIN_HOMOGENEOUS_DISPERSED.sidecar.private.jsonl",
+      "pass": true
+    },
+    {
+      "check": "lock:state/candidates/dd1_predicate_field_resolution_r2_20260831/MARGIN_HOMOGENEOUS_DISPERSED.token_reference.private.jsonl",
+      "pass": true
+    },
+    {
+      "check": "lock:state/candidates/dd1_predicate_field_resolution_r2_20260831/PREDICATE_EVAL.private.jsonl",
+      "pass": true
+    },
+    {
+      "check": "lock:state/next_steps/DD1_PREDICATE_FIELD_RESOLUTION_PREREG_2026-08-31.json",
+      "pass": true
+    },
+    {
+      "check": "lock:state/next_steps/DD1_PREDICATE_FIELD_RESOLUTION_TRAINING_CONTRACT_2026-08-31.json",
+      "pass": true
+    },
+    {
+      "check": "lock:state/next_steps/V14R_PREDICATE_DOSE_HORIZON_TRAINING_CONTRACT_2026-08-31.json",
+      "pass": true
+    },
+    {
+      "check": "lock:state/qualification/DD0_GENERATIVE_FIELD_COMPILER_FREEZE_20260831.json",
+      "pass": true
+    },
+    {
+      "check": "lock:state/qualification/DD0_TOPOLOGY_V2_QUALIFICATION_20260831.json",
+      "pass": true
+    },
+    {
+      "check": "lock:state/qualification/DD1_PREDICATE_FIELD_RESOLUTION_R2_CANDIDATE_AUDIT_20260831.json",
+      "pass": true
+    },
+    {
+      "check": "lock:state/qualification/V14R_PREDICATE_HORIZON_REPEATABILITY_20260831/PROFILE_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "lock:state/qualification/V14R_PREDICATE_HORIZON_RUNTIME_20260831/HOST_LOCK.json",
+      "pass": true
+    },
+    {
+      "check": "lock:tools/audit_dd1_predicate_field_resolution.py",
+      "pass": true
+    },
+    {
+      "check": "lock:tools/build_dd1_token_references.py",
+      "pass": true
+    },
+    {
+      "check": "lock:tools/dd1_predicate_field_resolution_common.py",
+      "pass": true
+    },
+    {
+      "check": "lock:tools/evaluate_dd1_predicate_field_resolution.py",
+      "pass": true
+    },
+    {
+      "check": "lock:tools/run_dd1_predicate_field_resolution_campaign.py",
+      "pass": true
+    },
+    {
+      "check": "lock:tools/train_dd1_predicate_field_resolution.py",
+      "pass": true
+    },
+    {
+      "check": "parent_campaign_blocked",
+      "pass": true
+    },
+    {
+      "check": "no_parent_aggregate",
+      "pass": true
+    },
+    {
+      "check": "salvage_train_sha",
+      "pass": true
+    },
+    {
+      "check": "salvage_eval_sha",
+      "pass": true
+    },
+    {
+      "check": "missing_arm_no_run_manifest",
+      "pass": true
+    },
+    {
+      "check": "runner_compiles",
+      "pass": true
+    }
+  ],
+  "parent_lock_sha256": "5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040",
+  "runner_sha256": "7751291ec7bbc2a32dd7a619af651dcb846c0fc6d48df4b00bbda00615a347bb",
+  "schema": "cfe.dd1r1.recovery-static.v1",
+  "status": "PASS",
+  "timestamp": "2026-08-31T18:32:28-04:00"
+}

@@ -28,3 +28,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | P0 | Predicate field-resolution / learner-interface discriminator | V14R weakened horizon as sufficient explanation | preregister next causal contrast | open |
 
 | P0 | DD-1 field-resolution result | learner-interface geometry hypothesis untested | six paired seeds + frozen disposition | ready to launch |
+
+| P0 | DD1R1 paired recovery | DD-1 scientific question unresolved after execution crash | recover 6/6 exact paired seeds | ready |

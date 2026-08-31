@@ -901,3 +901,16 @@ Frozen DD-1 field-resolution experiment launched as sole GPU job `job-9b1b7eaed5
 ## DD-1 decision-gate hardening — ASSISTANT
 Timestamp: 2026-08-31 17:41 Eastern Daylight Time
 While DD-1 first pair trained, added an executable evaluator for the already-frozen decision rules. Four adversarial synthetic aggregates verified exact mapping to all four preregistered disposition classes. This tool is outside the learner input lock and cannot alter the intervention.
+
+## DD-1 status failure — ASSISTANT
+Timestamp: 2026-08-31 18:29 Eastern Daylight Time
+Verified DD-1 job failed during first seed dispersed-arm training after the identifying arm completed/evaluated/uploaded. 0 paired seeds sealed; no scientific result admitted.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 18:32 Eastern Daylight Time
+Tags: PROCEED RECOVERY
+User instructed proceeding after DD-1 execution failure.
+
+## Turn — ASSISTANT / RECOVERY PREP
+Verified failure at base-model shard load before dispersed RUN_MANIFEST. Verified seed3121 identifying run/eval and remote adapter digest. Created DD1R1 recovery identity under unchanged frozen DD-1 science; static qualification PASS.

@@ -54,3 +54,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | DD-1 frozen identity | prereg + contract + lock + preexec | lock `5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040` / preexec `7d92839633af8704be2fb32536aaea144911a97890542beacd54ad9c1a4db954` | AUTHORIZED_NOT_EXECUTED |
 
 | DD-1 disposition evaluator | frozen prereg rules | `state/qualification/DD1_DISPOSITION_EVALUATOR_QUALIFICATION_20260831.json` SHA `8406a37b13e554cfcb22d220317bcded69a0ccdaf719816433393c6c6f96c231` | 4/4 adversarial classes PASS; post-lock non-learner tool |
+
+| DD-1 parent execution failure | first seed identifying complete, dispersed process access violation | `state/analysis/DD1_EXECUTION_FAILURE_STATUS_2026-08-31.json` SHA `f6c5f61713422019dc679c02cff4b026de31d6d5a97a6b3becaa380da52919a8` | 0/6 paired science |
+| DD1R1 execution recovery | unchanged DD-1 lock + salvage rules | amendment `5de42bb08bbb874ff725d0ec87140ad5a26744b0235d4951bd7b3171f850a474`, static qual `10a0359b5b69a2cb2e1c08cea6699fab02c1748be97153fe814d3fde1cfca747` | PASS prelaunch |

@@ -1,25 +1,24 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1718-04-00.md",
-  "active_binding_sha256": "96d4aa64a8560601d499b1a4c0c69867366b096cbfca1d36d9ab6a97e9feb067",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1832-04-00.md",
+  "active_binding_sha256": "8504850ed4e4859b9dc95a92c90ba354166047144d16a688bb61f3e421103aa6",
   "alignment": "ALIGNED",
-  "branch": "DD1_FIELD_RESOLUTION_PREEXEC_AUTHORIZED",
+  "branch": "DD1R1_RECOVERY_AUTHORIZED_NOT_YET_LAUNCHED",
   "frontier": {
-    "dd0_topology_v2": {
-      "sha256": "3c33c03fd9df86de30dc089d1395db8b64d72b61b77c8c848561f7f4d02d4961",
-      "status": "PASS"
+    "dd1_parent": {
+      "failure_sha256": "f6c5f61713422019dc679c02cff4b026de31d6d5a97a6b3becaa380da52919a8",
+      "scientific_pairs": 0,
+      "status": "FAILED_EXECUTION"
     },
-    "dd1": {
-      "candidate_audit_sha256": "4a7673e81a68bf06fb8260c4ad783ef560e4fc9269ad332af749bb4dbec529e3",
-      "contract_sha256": "0923c3c84c5070f354ec799fb4e64abc5a0ac1b717e1814b30648b984aa1194a",
-      "input_lock_sha256": "5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040",
-      "preexec_sha256": "7d92839633af8704be2fb32536aaea144911a97890542beacd54ad9c1a4db954",
-      "prereg_sha256": "76491e82f208b0c65edfe2c6096e88beca9b4f41f12c6819a902b03850e59958",
-      "status": "PREEXEC_AUTHORIZED_NOT_YET_LAUNCHED"
+    "dd1r1": {
+      "amendment_sha256": "5de42bb08bbb874ff725d0ec87140ad5a26744b0235d4951bd7b3171f850a474",
+      "parent_lock_sha256": "5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040",
+      "qualification_sha256": "10a0359b5b69a2cb2e1c08cea6699fab02c1748be97153fe814d3fde1cfca747",
+      "status": "RECOVERY_STATIC_PASS"
     }
   },
-  "reason": "Advance from weakened horizon explanation to prospectively isolated learner-interface field-resolution contrast.",
+  "reason": "Recover paired DD1 science without changing frozen intervention.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T17:18:22-04:00"
+  "timestamp": "2026-08-31T18:32:53-04:00"
 }
