@@ -3775,6 +3775,12 @@
       "surface": "GIT"
     },
     {
+      "bytes": 1103,
+      "path": "state/analysis/v14r1_predicate_horizon_campaign_logs/ACTIVE_CAMPAIGN.json",
+      "sha256": "66712495d9e51af6f9b481d1d4d8678836836f7e2ac4884de350e698b1b79127",
+      "surface": "GIT"
+    },
+    {
       "bytes": 775,
       "path": "state/analysis/v14r_predicate_horizon_campaign_logs/ACTIVE_CAMPAIGN.json",
       "sha256": "aabf33bc8af67f78123ef4f92dabde06d0d3e1e4954b424bfee23a6a2712a4ba",
@@ -4219,27 +4225,27 @@
       "surface": "GIT"
     },
     {
-      "bytes": 2299,
+      "bytes": 1914,
       "path": "state/current.md",
-      "sha256": "dd981ea484c3a2760a6ae31b61838109865d487f141d3b824b37c4b5c039d52c",
+      "sha256": "afaee16d47bb079713f0f0d5fbba5e206c838f519ea35c0bc895d61082333e13",
       "surface": "GIT"
     },
     {
-      "bytes": 1456,
+      "bytes": 1620,
       "path": "state/current/ACTIVE_CURRENT_STATE.json",
-      "sha256": "58cc8428be5f82be5b09187d7061b9dcf13ff83a87d430e8c67f3088b7972656",
+      "sha256": "936aed281d20525b26594b580993e19e3aed77a05848a619f40f12e334869c61",
       "surface": "GIT"
     },
     {
-      "bytes": 7044,
+      "bytes": 8646,
       "path": "state/current/ACTIVE_DECISIONS.json",
-      "sha256": "574afea72ef86648bf78e99b3ced0cc29bbacb4ba40c452d02694b6de76fe4c3",
+      "sha256": "3178e42ca4a6e1d3e2541a39fdd209e5f847baff192dfd85bb35274c65c63af8",
       "surface": "GIT"
     },
     {
-      "bytes": 57286,
+      "bytes": 58485,
       "path": "state/design_thread_stream.md",
-      "sha256": "288a623210bdf00ceba6c9a5a7f864c55ca470bac58b6d599ac390d5334f605d",
+      "sha256": "db8eeabfdae2ed479f02f3cea88557ed3c4a1c456cd4882ab2cbf19ed50eda6b",
       "surface": "GIT"
     },
     {
@@ -4327,9 +4333,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 973,
+      "bytes": 22213,
+      "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1109-04-00.md",
+      "sha256": "384b31c72e7db0f24e7e7fd42f8c3eb598f80c35516aa2fc5fe3e5cc41fe80cc",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1322,
       "path": "state/doctrine_snapshot/ACTIVE_COMMANDERS_INTENT_TURN_READBACK.json",
-      "sha256": "62ffdbcbf2fa60a0f351c28cd990df78260c2fa6f4e6f41707a79d59831a3a4e",
+      "sha256": "ea69172bf129390677541dcaf499f3ac6ef3aa5259e1beb76db6ad4a7bcc3622",
       "surface": "GIT"
     },
     {
@@ -4339,9 +4351,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1782,
+      "bytes": 1063,
       "path": "state/doctrine_snapshot/ACTIVE_DOCTRINE_FRONTIER.md",
-      "sha256": "fb319e32349e376057d6d5b3decf5014bea644a417b862e90dafd0f8f04b3356",
+      "sha256": "cae87da2ebd376459c693365c12aaf0fac58c05874b27c035fa9f715f33ed62e",
       "surface": "GIT"
     },
     {
@@ -4375,9 +4387,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1756,
+      "bytes": 1930,
       "path": "state/live_shadow.md",
-      "sha256": "1a3796308232b1d6a012ca804987df7f03f7e590e58dc208a8a0514c5c20da86",
+      "sha256": "58d50220c5458d497df723735114f64a62b103095ffc870ad72b2356387cd793",
       "surface": "GIT"
     },
     {
@@ -4429,15 +4441,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 722,
+      "bytes": 881,
       "path": "state/next_steps.md",
-      "sha256": "26f6a853c1d6867fd5834c212e60104c406408d73512fb64371bbc39913a1a68",
+      "sha256": "45deb3298d9d06fe6eb95ed5d3e452f453b010792029c4fdb0acc603b1d41997",
       "surface": "GIT"
     },
     {
-      "bytes": 390,
+      "bytes": 431,
       "path": "state/next_steps/ACTIVE_NEXT_STEPS.json",
-      "sha256": "5de1f40c651ce262bf4e2c7556006d8d1d0cfef647a5341d3edb55093728804b",
+      "sha256": "45d35d461a6809c975652288dcba15447357805a5f908f80ababfccb6f3a6508",
       "surface": "GIT"
     },
     {
@@ -4705,6 +4717,24 @@
       "surface": "GIT"
     },
     {
+      "bytes": 3121,
+      "path": "state/qualification/V14R1_PREDICATE_HORIZON_PREEXECUTION_20260831.json",
+      "sha256": "730cba8fc90326e48088a77bcc034281fa111d01d90ba9356517785489b5d03c",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 944,
+      "path": "state/qualification/V14R1_PREDICATE_HORIZON_REPEATABILITY_20260831/PROFILE_LOCK.json",
+      "sha256": "435408f1742b87feb442171ec514ba4cc0b1e57bc44dfc7ffe241380d8a0e51f",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 3295,
+      "path": "state/qualification/V14R1_PREDICATE_HORIZON_REPEATABILITY_20260831/REPEATABILITY_QUALIFICATION.json",
+      "sha256": "30e73ae82c1e9f789727992e47c89476ebafb870fa559098336b61b32093edb0",
+      "surface": "GIT"
+    },
+    {
       "bytes": 2191,
       "path": "state/qualification/V14R1_PREDICATE_HORIZON_RUNTIME_20260831/HOST_LOCK.json",
       "sha256": "9e55b0d57dfd3b8acc54b63b155b66814c2735f75ca03f9696d90d602e3518ee",
@@ -4885,15 +4915,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1371,
+      "bytes": 902,
       "path": "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md",
-      "sha256": "a0ab06f55013c8da44fd3711527925ccc903b999d2cd055afc4fba735224e878",
+      "sha256": "871f1a5a66491fec935a361807977f667011b8b9541dcd077f4bb9c639085328",
       "surface": "GIT"
     },
     {
-      "bytes": 2134,
+      "bytes": 1386,
       "path": "state/trace_matrix/ACTIVE_TRACE_MATRIX.md",
-      "sha256": "cef2a22a83a7b1f0a7f56edcd9d924b939d15a1903c7610610ef456c9a37fc09",
+      "sha256": "5b772c94fdffae9c257a1f10b2faec9827d2d31723212ea6561e9324ea36d3fd",
       "surface": "GIT"
     },
     {
@@ -4975,6 +5005,12 @@
       "surface": "GIT"
     },
     {
+      "bytes": 1058,
+      "path": "state/trace_matrix/V14R1_LAUNCH_SNAPSHOT_2026-08-31T1109-04-00.json",
+      "sha256": "ff162ca63ee69954af6cf7fafac307ea6a67812de344781c88462ac2f998fbda",
+      "surface": "GIT"
+    },
+    {
       "bytes": 3908,
       "path": "state/trace_matrix/turn_reconciliation/2026-08-31T0620-0400.json",
       "sha256": "0771bd025812a4f2ca7ec417ad87ec62d475b4f76445b76b308dc63470afe611",
@@ -5044,6 +5080,12 @@
       "bytes": 1504,
       "path": "state/trace_matrix/turn_reconciliation/2026-08-31T1100-04-00.json",
       "sha256": "81a00cb192358bbd9ad89477cf4c17a7cdf30ecb8245735fa9e22c5fe2402a79",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1766,
+      "path": "state/trace_matrix/turn_reconciliation/2026-08-31T1109-04-00.json",
+      "sha256": "4de921da16f3ee895b9271eb5fde49e99d696dd734065cba0277e4887aee0cca",
       "surface": "GIT"
     },
     {
@@ -5827,9 +5869,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 5979,
+      "bytes": 6427,
       "path": "transcript/THIS_CONVERSATION.md",
-      "sha256": "55028043cc9c060764d87bd84c502adf220ebca7984e8e3066b69882a9c11866",
+      "sha256": "f88439ee9320a71893ae45652dd158a1ca45a20cde960592cfbea9dcf01614cc",
       "surface": "GIT"
     },
     {
@@ -6340,8 +6382,8 @@
       "surface": "HEAVY_RELEASE"
     }
   ],
-  "entry_count": 1011,
-  "git_entry_count": 972,
+  "entry_count": 1018,
+  "git_entry_count": 979,
   "heavy_entry_count": 39,
   "heavy_published_count": 39,
   "laws": [
@@ -6350,8 +6392,12 @@
     "COMPLETE RESEARCH LINEAGE = GIT EVIDENCE + HASHED HEAVY RELEASE SURFACE",
     "PARTIAL SEALED RESEARCH != DISPOSABLE INTERMEDIATE"
   ],
+  "live_execution_exclusion": {
+    "path_prefix": "state/analysis/V14R1_PREDICATE_HORIZON_CAMPAIGN_20260831T150710Z/",
+    "reason": "active mutable campaign; stable launch snapshot published instead"
+  },
   "schema": "cfe.research-publication-manifest.v11",
   "self_reference_rule": "manifest excluded from own entries",
-  "status": "V14R_CANONICAL_ACTIVE__0_OF_6_SEALED__V14R1_DEMOTED",
+  "status": "V14R1_ACTIVE__0_OF_6_SEALED__STARMAP_DUAL_ORIGIN_LINEAGE_RECORDED",
   "unpublished_heavy_count": 0
 }

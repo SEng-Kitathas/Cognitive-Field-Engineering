@@ -756,3 +756,14 @@ Corrected genealogy to self-observed cognition plus explicit co-originating mech
 Timestamp: 2026-08-31 11:02 Eastern Daylight Time
 Tags: RECOVERY IDENTITY CONVERGENCE
 Discovered a pre-existing V14R1 preparatory recovery chain but no V14R1 campaign or scientific outcome. Chose already fully-qualified/running V14R as sole canonical recovery identity and demoted V14R1 to preserved, unlaunched lineage.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 11:09 Eastern Daylight Time
+Tags: STARMAP LINEAGE CLARIFICATION
+User clarified that StarMap “cognitive geometry” was both a description of what their own brain does automatically and was described with the explicit intent to convert that observed process into an artificial mechanism. User instructed proceed.
+
+## Turn — ASSISTANT / EXECUTION RECORD
+Timestamp: 2026-08-31 11:09 Eastern Daylight Time
+Tags: LINEAGE REPAIR, V14 IDENTITY FAILURE, V14R1 RECOVERY
+Recorded StarMap dual-origin lineage as operator-reported provenance, with explicit prohibition against universalizing introspection. During per-turn re-grounding, discovered original V14 blocked after training seed3111 because the locked V13 final-disposition file had been mutated mid-run. Timeline proved valid launch -> mid-run parent mutation -> fail-closed H1 evaluator. Exact predecessor bytes were unrecoverable, so original V14 was invalidated with no scientific eval admitted. Created frozen V14R1 recovery amendment, new lock, exact host/tokenizer revalidation, fresh two-run repeatability PASS, preexec authorization PASS, and launched V14R1 as job job-d4aac6ed6175, PID 35196.

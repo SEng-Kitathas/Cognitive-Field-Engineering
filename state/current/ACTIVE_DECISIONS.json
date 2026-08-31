@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-31T11:02:14-04:00",
+  "as_of": "2026-08-31T11:09:06-04:00",
   "decisions": [
     {
       "consequence": "no CFE graduation at first useful Microseed handoff",
@@ -126,6 +126,34 @@
       "evidence_basis": "V14R fully qualified/running; V14R1 preparatory only with no campaign/repeatability outcome",
       "replay_trigger": "V14R fail-closed identity invalidation",
       "status": "VERIFIED_CONVERGENCE_DECISION"
+    },
+    {
+      "consequence": "update lineage without treating introspection as universal CFE law",
+      "decision": "Interpret StarMap cognitive geometry as dual-origin phenomenology plus deliberate mechanization intent",
+      "evidence_basis": "operator clarification in current turn",
+      "replay_trigger": "contradictory primary historical evidence or operator correction",
+      "status": "OPERATOR_REPORTED_LINEAGE_DECISION"
+    },
+    {
+      "consequence": "quarantine original V14 outputs",
+      "decision": "Invalidate original V14 scientific identity and admit no evaluation result",
+      "evidence_basis": "mid-run locked parent mutation + fail-closed H1 evaluator",
+      "replay_trigger": "exact original locked bytes recovered and identity fully restored before use",
+      "status": "VERIFIED_EXECUTION_IDENTITY_DECISION"
+    },
+    {
+      "consequence": "fresh host/repeatability/preexec qualification then full rerun",
+      "decision": "Recover dose/horizon experiment as V14R1 with unchanged science and new provenance identity",
+      "evidence_basis": "original lock law requires new identity; recovery amendment frozen pre-outcome",
+      "replay_trigger": "V14R1 lock/runtime drift",
+      "status": "VERIFIED_RECOVERY_DECISION"
+    },
+    {
+      "consequence": "job job-d4aac6ed6175 PID 35196 owns scientific frontier",
+      "decision": "Launch V14R1 as sole active horizon campaign",
+      "evidence_basis": "V14R1 preexec authorized with all checks pass",
+      "replay_trigger": "job failure or campaign closeout",
+      "status": "VERIFIED_EXECUTION_DECISION"
     }
   ],
   "schema": "cfe.active-decisions.v1"

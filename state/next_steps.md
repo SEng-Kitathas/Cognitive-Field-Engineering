@@ -1,17 +1,17 @@
 # CFE NEXT STEPS
 
-As of: 2026-08-31 11:00 Eastern Daylight Time
-Frontier: V14R dose/horizon active under job `job-1c115593cb12`, PID `30856`; 0/6 sealed.
+As of: 2026-08-31 11:09 Eastern Daylight Time
+Frontier: V14R1 dose/horizon recovery campaign ACTIVE; 0/6 trajectories sealed.
 
 ## Immediate P0
-1. Keep this job/PID as the sole V14R runner.
-2. Complete all six fresh trajectories from scratch.
-3. Evaluate H1/H2/H4 longitudinally under V14R lock only.
-4. Apply the original preregistered dose/horizon disposition mechanically.
-5. Hostile closeout before StarMap-derived learner intervention.
+1. Keep job `job-d4aac6ed6175` / PID `35196` as sole V14R1 runner.
+2. Do not mutate any V14R1 locked byte.
+3. Let the six frozen trajectories run H1/H2/H4 unchanged.
+4. Publish sealed trajectories and heavy checkpoints under V14R1 lineage; original V14 remains quarantined.
+5. Apply frozen horizon dispositions mechanically at 6/6.
+6. Hostile-close before any StarMap-derived learner intervention.
 
-## Integrity controls
-- Attempt A checkpoints/results are inadmissible.
-- No change to V14R locked bytes.
-- No StarMap learner-facing geometry during V14R.
-- Historical cognitive-geometry self-description supplies hypotheses, not scientific validation.
+## P1 StarMap lineage/research
+- Preserve dual-origin history: personal cognitive phenomenology deliberately translated toward mechanism.
+- Use phenomenology as hypothesis source, never universal law.
+- After V14R1, rank generative field compiler, typed edges, local/long-range topology, and history-relative activation.

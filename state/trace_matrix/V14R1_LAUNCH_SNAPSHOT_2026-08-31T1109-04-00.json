@@ -1,0 +1,19 @@
+{
+  "campaign_receipt_status": "RUNNING",
+  "host_lock_sha256": "9e55b0d57dfd3b8acc54b63b155b66814c2735f75ca03f9696d90d602e3518ee",
+  "identity": "V14R1",
+  "input_lock_sha256": "ada4dfef6a6ab2a5f65207fa6bca469e9083298c2b5c0161a129f50161eb2871",
+  "job_id": "job-d4aac6ed6175",
+  "original_v14_science_admitted": false,
+  "pid": 35196,
+  "pid_status": "ALIVE",
+  "preexec_sha256": "730cba8fc90326e48088a77bcc034281fa111d01d90ba9356517785489b5d03c",
+  "preexec_status": "V14_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED",
+  "profile_lock_sha256": "435408f1742b87feb442171ec514ba4cc0b1e57bc44dfc7ffe241380d8a0e51f",
+  "recovery_amendment_sha256": "37664d09171917667ba42050735e2b5848b687d1e7c1404af5b90cda87543d1e",
+  "repeatability_sha256": "30e73ae82c1e9f789727992e47c89476ebafb870fa559098336b61b32093edb0",
+  "runroot": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V14R1_PREDICATE_HORIZON_CAMPAIGN_20260831T150710Z",
+  "schema": "cfe.v14r1.launch-snapshot.v1",
+  "sealed_trajectories": 0,
+  "timestamp": "2026-08-31T11:09:06-04:00"
+}

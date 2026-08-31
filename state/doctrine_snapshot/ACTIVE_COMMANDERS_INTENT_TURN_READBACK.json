@@ -1,21 +1,24 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1102-04-00.md",
-  "active_binding_sha256": "71d0c5f2be5b1c11b06ba2b5ec302de58a5e2ef0959de26462e1d383f0c4c962",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1109-04-00.md",
+  "active_binding_sha256": "384b31c72e7db0f24e7e7fd42f8c3eb598f80c35516aa2fc5fe3e5cc41fe80cc",
   "alignment": "ALIGNED",
-  "branch": "V14R_CANONICAL_ACTIVE__V14R1_DEMOTED",
+  "branch": "V14R1_PREDICATE_DOSE_HORIZON__RECOVERY_CAMPAIGN_ACTIVE",
   "frontier": {
-    "starmap_lineage": "SELF_OBSERVATION_PLUS_DELIBERATE_MECHANIZATION",
-    "v14r": {
-      "job_id": "job-1c115593cb12",
-      "pid": 30856,
+    "original_v14": "IDENTITY_INVALIDATED__NO_SCIENTIFIC_EVAL_ADMITTED",
+    "starMap_lineage": "DUAL_ORIGIN__PHENOMENOLOGY_PLUS_MECHANIZATION_INTENT__OPERATOR_REPORTED",
+    "v14r1": {
+      "campaign_status": "RUNNING",
+      "input_lock_sha256": "ada4dfef6a6ab2a5f65207fa6bca469e9083298c2b5c0161a129f50161eb2871",
+      "job_id": "job-d4aac6ed6175",
+      "pid": 35196,
       "pid_status": "ALIVE",
+      "preexec_sha256": "730cba8fc90326e48088a77bcc034281fa111d01d90ba9356517785489b5d03c",
       "sealed_trajectories": 0
-    },
-    "v14r1": "UNLAUNCHED_PREPARATORY_BRANCH_DEMOTED"
+    }
   },
-  "reason": "Converged duplicate recovery planning onto one active scientific identity without restarting valid V14R.",
+  "reason": "Preserve operator historical intent without universalizing it; preserve scientific identity by replacing unrecoverable mid-run lock drift with freshly qualified V14R1.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T11:02:14-04:00"
+  "timestamp": "2026-08-31T11:09:06-04:00"
 }

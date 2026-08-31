@@ -1,38 +1,37 @@
 # CFE LIVE SHADOW
 
 ## Thread Identity
-- Last Updated: 2026-08-31 11:00 Eastern Daylight Time
+- Last Updated: 2026-08-31 11:09 Eastern Daylight Time
 - Mode: BUILD-COMMIT
-- Dominant Objective: run clean V14R dose/horizon while preserving corrected StarMap genealogy and scientific lineage.
+- Dominant Objective: execute V14R1 dose/horizon cleanly while preserving StarMap's corrected dual-origin lineage.
 
 ## Active User Intent
-- Maximize CFE maturity.
-- Keep all continuity/research/Commander surfaces fresh every turn.
-- StarMap cognitive geometry = self-observed cognition deliberately described for conversion into mechanism.
+- Push CFE toward maximum maturity.
+- Keep all decisions/research/Commander bindings/continuity fresh per turn.
+- Strip StarMap for parts, while correctly recognizing cognitive geometry as personal phenomenology intentionally translated toward mechanism.
 
 ## Current Authoritative State
-- Correct StarMap path: self-observation + explicit mechanization intent -> formal cognitive geometry -> StarMap/NEAL -> CFE experimentalization.
-- V14 Attempt A invalidated due post-lock provenance mutation; no scientific outcome admitted.
-- V14R freshly locked/requalified; job `job-1c115593cb12`, PID `30856` ALIVE; 0/6 sealed.
+- StarMap dual-origin lineage recorded: phenomenological self-description + deliberate mechanization intent. Not universal evidence.
+- Original V14 invalidated by mid-run locked parent mutation; no eval science admitted.
+- V14R1 lock `ada4dfef6a6ab2a5f65207fa6bca469e9083298c2b5c0161a129f50161eb2871`; host/repeatability/preexec PASS.
+- V14R1 ACTIVE job `job-d4aac6ed6175`, PID `35196` ALIVE, 0/6 sealed.
+- Original V14 outputs excluded; no StarMap learner intervention allowed during V14R1.
 
 ## Decisions Locked In
-- `MECHANIZATION INTENT != MECHANISM VALIDATION`.
-- Attempt A is failed lineage only.
-- V14R same science/new identity; no checkpoint reuse.
-- No StarMap intervention during V14R.
+- Preserve introspected cognitive geometry as high-value hypothesis source.
+- Do not promote introspection directly to universal cognitive law.
+- V14R1 is sole active horizon identity.
+- No locked-byte mutation.
 
 ## Open Loops
-- V14R dose/horizon result.
-- Which operator-derived cognitive-geometry dimensions survive prospective CFE tests.
+- Does horizon stabilize two-sided competence or only rotate attractor basin?
+- Which aspects of the operator-described cognitive geometry were faithfully captured by old StarMap versus distorted by implementation convenience?
+- Which phenomenological dimensions survive prospective causal CFE tests?
 
 ## Immediate Next Step
-Continue V14R unchanged to six trajectories or fail closed.
+Let V14R1 run the six frozen trajectories unchanged and seal evidence.
 
 ## Delta Since Previous Shadow
-- StarMap genealogy strengthened from “self-description later formalized” to “self-description explicitly intended for mechanization from origin.”
-- V14 Attempt A integrity defect identified and isolated.
-- V14R passed all gates and launched cleanly.
-
-## Recovery convergence delta — 2026-08-31 11:02 Eastern Daylight Time
-- V14R chosen as sole canonical recovery identity; V14R1 preserved but demoted unlaunched.
-- V14R job `job-1c115593cb12`, PID `30856` ALIVE, 0/6 sealed.
+- StarMap lineage corrected to dual-origin phenomenology + mechanization intent.
+- Original V14 changed from active/blocked ambiguity to formally invalidated/no science admitted.
+- V14R1 created, qualified and launched.

@@ -1,0 +1,38 @@
+{
+  "active_blockers": [],
+  "active_commander_binding": {
+    "alignment": "ALIGNED",
+    "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1109-04-00.md",
+    "sha256": "384b31c72e7db0f24e7e7fd42f8c3eb598f80c35516aa2fc5fe3e5cc41fe80cc"
+  },
+  "commander_source": {
+    "path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+  },
+  "frontier": {
+    "original_v14": "IDENTITY_INVALIDATED_NO_SCIENCE",
+    "starmap_lineage": "DUAL_ORIGIN_OPERATOR_REPORTED",
+    "v14r1": {
+      "job_id": "job-d4aac6ed6175",
+      "lock_sha256": "ada4dfef6a6ab2a5f65207fa6bca469e9083298c2b5c0161a129f50161eb2871",
+      "pid": 35196,
+      "pid_status": "ALIVE",
+      "preexec_sha256": "730cba8fc90326e48088a77bcc034281fa111d01d90ba9356517785489b5d03c",
+      "repeatability_sha256": "30e73ae82c1e9f789727992e47c89476ebafb870fa559098336b61b32093edb0",
+      "sealed_trajectories": 0,
+      "status": "RUNNING"
+    }
+  },
+  "mode": "BUILD-COMMIT",
+  "new_material_artifacts": [
+    "research/STARMAP_COGNITIVE_GEOMETRY_DUAL_ORIGIN_LINEAGE_NOTE_2026-08-31.md",
+    "research/STARMAP_COGNITIVE_GEOMETRY_DUAL_ORIGIN_LINEAGE_NOTE_2026-08-31.json",
+    "state/analysis/V14_PREDICATE_HORIZON_IDENTITY_INVALIDATION_2026-08-31.json",
+    "state/next_steps/V14R1_PREDICATE_HORIZON_IDENTITY_RECOVERY_AMENDMENT_2026-08-31.json",
+    "state/trace_matrix/V14R1_LAUNCH_SNAPSHOT_2026-08-31T1109-04-00.json",
+    "state/analysis/v14r1_predicate_horizon_campaign_logs/ACTIVE_CAMPAIGN.json"
+  ],
+  "role": "R5 scientific execution / R4 lineage convergence",
+  "schema": "cfe.per-turn-reconciliation-receipt.v4",
+  "timestamp": "2026-08-31T11:09:06-04:00"
+}

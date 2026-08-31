@@ -57,3 +57,6 @@ Verified v1.4 already active under PID 27236; seed2026083111 training, 0/6 seale
 
 ## 2026-08-31 11:00 Eastern Daylight Time — LINEAGE + V14R RECOVERY
 User clarified StarMap self-description was intentionally given to become mechanism. Genealogy corrected. V14 Attempt A provenance-lock defect discovered and isolated; V14R new identity requalified and launched under job job-1c115593cb12 / PID 30856.
+
+## 2026-08-31 11:09 Eastern Daylight Time — USER LINEAGE CLARIFICATION / RECOVERY
+User clarified StarMap cognitive geometry = personal cognitive phenomenology intentionally supplied for mechanization. Recorded without universalizing. Original V14 identity invalidated after mid-run locked-parent mutation; no scientific eval admitted. V14R1 freshly locked, runtime/repeatability/preexec qualified and launched as `job-d4aac6ed6175` PID `35196`.

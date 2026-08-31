@@ -1,42 +1,31 @@
 # CFE CURRENT STATE
 
-As of: 2026-08-31 11:00 Eastern Daylight Time
+As of: 2026-08-31 11:09 Eastern Daylight Time
 Mode: BUILD-COMMIT
-Role: R5 scientific execution / R4 lineage convergence
+Role: R5 scientific execution; R4 lineage convergence
 
 ## Mission
-Engineer developmental experience as the medium and mature CFE into a predictive discipline.
+Engineer developmental experience as the medium and mature CFE into a predictive discipline, not a minimum viable handoff.
 
-## Commander’s Intent
-- source SHA `29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765`
-- active binding `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1100-04-00.md` SHA `d89da11fbbaecbc34ebab8d539e3574c5ce4f0e97c00faf2255c8b1d57740e8a`
-- alignment: ALIGNED
+## Verified
+- v1.3 COMPLETE; `LOCAL_INTERFERENCE_WEAKENED=true`.
+- StarMap cognitive geometry historical intent is now operator-clarified as **phenomenology -> deliberate mechanization attempt**. This is provenance, not CFE evidence.
+- Original V14 identity invalidated by mid-run upstream locked-byte mutation; no scientific evaluation admitted.
+- Original V14 seed3111 training checkpoints are quarantined and excluded from science.
+- V14R1 recovery amendment frozen before V14R1 outcome; frozen prereg/contract/candidate/seeds/horizons unchanged.
+- V14R1 lock `ada4dfef6a6ab2a5f65207fa6bca469e9083298c2b5c0161a129f50161eb2871`; exact host/tokenizer revalidation PASS; fresh repeatability PASS with zero required-witness mismatches; preexecution authorization PASS.
+- V14R1 ACTIVE: job `job-d4aac6ed6175`, PID `35196` ALIVE, receipt `RUNNING`, 0/6 trajectories sealed.
 
-## Verified scientific state
-- v1.3 complete: `LOCAL_INTERFERENCE_WEAKENED=true`.
-- V14 Attempt A invalidated procedurally before any admissible evaluation: post-lock v1.3 provenance mutation caused fail-closed H1 evaluator rejection.
-- Attempt A outputs remain lineage only; scientific admissibility = false.
-- V14R recovery identity preserves unchanged causal variable and frozen design.
-- V14R input lock SHA `6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38`.
-- V14R host/runtime revalidation PASS, fresh repeatability PASS, preexecution PASS SHA `8d255cc44169330d48a962f88617744aa75add7adb861d8a23b2246ef1a6a7ee`.
-- V14R job `job-1c115593cb12`, PID `30856` ALIVE; 0/6 trajectories sealed.
+## StarMap lineage interpretation
+`INTROSPECTED COGNITIVE PHENOMENOLOGY -> STARMAP ABSTRACTION -> MACHINE EMBODIMENT ATTEMPTS -> CFE PROSPECTIVE CAUSAL TESTS`
 
-## Corrected StarMap genealogy
-- StarMap cognitive geometry was both a self-description of automatic cognition and an explicit mechanization target from the beginning.
-- Historical source supports the intended observe -> formalize -> mechanize transformation.
-- Exact human cognitive mechanism remains operator-reported, not independently established.
+Do not collapse this into either pure autobiography or pure architecture. Do not infer universality from introspection.
 
-## Active controls
-- `SELF-DESCRIPTION != COGNITIVE LAW`
-- `MECHANIZATION INTENT != MECHANISM VALIDATION`
-- `LOCK MUTATION REQUIRES NEW IDENTITY`
-- No StarMap learner intervention during V14R.
-- No Attempt A checkpoint reuse.
+## Current scientific question
+Holding field, learner, row order, optimizer and initialization regime fixed, does longer exposure on the same predicate-only trajectory move the learner from one-sided basins to stable two-sided competence? H1/H2/H4 = 36/72/144 optimizer steps.
+
+## Blockers
+None.
 
 ## Resume point
-Do not duplicate job `job-1c115593cb12` / PID `30856`. Continue V14R unchanged to six sealed trajectories unless it fails closed.
-
-## Recovery identity convergence — 2026-08-31 11:02 Eastern Daylight Time
-- V14R remains canonical and running under job `job-1c115593cb12` / PID `30856` (ALIVE); 0/6 sealed.
-- V14R1 is demoted to an unlaunched preparatory recovery branch; no campaign, no scientific outcome.
-- Law: `ONE RECOVERY IDENTITY AT A TIME`.
+Keep V14R1 job `job-d4aac6ed6175` / PID `35196` as the sole horizon runner. Publish/read back each sealed trajectory; do not touch locked files or inject StarMap geometry.

@@ -1,0 +1,107 @@
+{
+  "authorization_scope": "full rerun of six preselected predicate-only trajectories with fixed H1/H2/H4 checkpoints; original V14 outputs excluded",
+  "bindings": {
+    "baseline_inheritance_sha256": "2c5e0e907de8abb565b4ba610a8059cbc97df2a475a79140fd4e63ca5328c4ba",
+    "host_lock_sha256": "9e55b0d57dfd3b8acc54b63b155b66814c2735f75ca03f9696d90d602e3518ee",
+    "input_lock_sha256": "ada4dfef6a6ab2a5f65207fa6bca469e9083298c2b5c0161a129f50161eb2871",
+    "preregistration_sha256": "06d7cdf596240cc1b147c59ad7ce73612dd3fd1e9a303507bbce90e36b1eca7f",
+    "profile_lock_sha256": "435408f1742b87feb442171ec514ba4cc0b1e57bc44dfc7ffe241380d8a0e51f",
+    "recovery_amendment_sha256": "37664d09171917667ba42050735e2b5848b687d1e7c1404af5b90cda87543d1e",
+    "repeatability_qualification_sha256": "30e73ae82c1e9f789727992e47c89476ebafb870fa559098336b61b32093edb0",
+    "static_qualification_sha256": "eee4995ca76045af1f9c2f757da61b06cfa63083b00fe946d5c50cbfe45748b9",
+    "training_contract_sha256": "2545051a74260f88e108983556b57ff3644334be6a4d1caf29b0d18195c60260"
+  },
+  "checks": [
+    {
+      "check": "lock_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "host_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "tokenizer_exact",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "repeatability_pass",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "profile_lock_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "static_status",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "baseline_headroom_admitted",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "contract_prereg_binding",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "contract_candidate_binding",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "recovery_amendment_frozen",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "amendment_prereg_identity",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "amendment_contract_identity",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no_v14r1_campaign_exists",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_v14_predicate_horizon_common.py",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_train_v14_predicate_horizon.py",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_evaluate_v14_predicate_horizon.py",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "compile_run_v14_predicate_horizon_campaign.py",
+      "detail": null,
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "hard_stop": "Any V14R1 locked-byte/runtime drift requires another identity before scientific training.",
+  "identity": "V14R1",
+  "schema": "cfe.v14r1.predicate-horizon-preexecution.v2",
+  "scientific_difference": "developmental horizon only; provenance recovery identity only",
+  "status": "V14_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED"
+}

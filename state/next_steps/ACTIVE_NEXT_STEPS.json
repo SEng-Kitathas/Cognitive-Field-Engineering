@@ -1,16 +1,17 @@
 {
-  "as_of": "2026-08-31T11:00:41-04:00",
+  "as_of": "2026-08-31T11:09:06-04:00",
   "blocked": [],
-  "controls": [
-    "Attempt A inadmissible",
-    "no V14R locked-byte mutation",
-    "no StarMap learner intervention"
-  ],
   "p0": [
-    "keep job job-1c115593cb12 / PID 30856 only",
-    "complete six V14R trajectories",
-    "mechanical H1/H2/H4 disposition",
+    "keep job-d4aac6ed6175 / PID 35196 only",
+    "do not mutate V14R1 lock",
+    "complete six frozen trajectories",
+    "publish sealed evidence",
+    "mechanical disposition",
     "hostile closeout"
+  ],
+  "p1": [
+    "StarMap dual-origin lineage preservation",
+    "post-V14R1 prospective StarMap-derived tests"
   ],
   "schema": "cfe.active-next-steps.v5"
 }

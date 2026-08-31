@@ -1,24 +1,15 @@
 # CFE ACTIVE TRACE MATRIX
 
-As of: 2026-08-31 10:10 Eastern Daylight Time
+As of: 2026-08-31 11:09 Eastern Daylight Time
 
 | Claim / artifact | Evidence | Status |
 |---|---|---|
-| Experience arrangement matters | v1.0 matched-content family effects | bounded load-bearing phenomenon |
-| Identifying support matters | v1.1 six paired seeds | bounded construction lesson |
-| Factorized primitives guarantee composition | v1.2 aggregate | rejected |
-| Simple mixed accumulation windows cause instability | v1.3 aggregate `5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f` | weakened/rejected as dominant explanation |
-| Two-sided predicate competence solved | v1.3 | not earned |
-| StarMap field/map separation useful to CFE | historical NEAL source + current compiler scars | prospective research hypothesis |
-| Generative field specification useful to CFE | Forge Pattern StarMap + CFE sidecar/compiler scars | prospective engineering hypothesis |
-| Literal radial/Hilbert geometry is CFE law | no CFE evidence | quarantined/rejected |
-| StarMap salvage ledger | `research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.md` SHA `806189768d577337293ccca62581b803a8cbe49ab6f7fad410b8535479b70917` | published research crosswalk, not doctrine |
-| v1.3 hostile closeout | `state/analysis/V13_OPTIMIZER_INTERFERENCE_HOSTILE_CLOSEOUT_2026-08-31.md` SHA `b9177c306435bdf2f9ad0426efe1b4849b74e2cee77b44ba099cf9ba97ec52b7` | final closeout |
-
-| v1.4 dose/horizon active | preexec PASS + active PID `27236` | 0/6 sealed at turn readback | active execution |
-
-| StarMap origin correction | operator clarification + recovered source | self-observation WITH explicit mechanization intent verified historically; mechanism itself operator-reported |
-| V14 Attempt A invalidation | H1 evaluator lock failure + lock/current byte identities | non-scientific procedural failure |
-| V14R recovery identity | lock `6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38` + host/repeatability/preexec PASS | scientific execution authorized and running |
-
-| V14 recovery identity convergence | V14R fully qualified/running; V14R1 unlaunched | V14R canonical, V14R1 demoted preparatory |
+| StarMap cognitive geometry was phenomenology + mechanization intent | operator clarification + historical architecture lineage | operator-reported provenance; not empirical CFE evidence |
+| Original V14 science valid | mid-run lock drift detected before H1 eval | rejected; identity invalidated |
+| Original V14 produced scientific H1/H2/H4 result | no evaluator passed | false / no science admitted |
+| V14R1 preserves frozen scientific question | unchanged prereg/contract/candidate/seeds/horizons + recovery amendment | verified recovery design |
+| V14R1 runtime qualified | host/tokenizer replay + fresh repeatability + preexec | verified |
+| V14R1 campaign active | job `job-d4aac6ed6175` PID `35196` + RUNNING receipt | verified execution |
+| StarMap introspection is universal cognitive law | no evidence | forbidden inference |
+| Dual-origin lineage note | `research/STARMAP_COGNITIVE_GEOMETRY_DUAL_ORIGIN_LINEAGE_NOTE_2026-08-31.md` SHA `d234eb37d9092170c8780d6548593bda2b3a21792b122badf75b9bf48e1c83ff` | active research provenance |
+| V14 invalidation report | `state/analysis/V14_PREDICATE_HORIZON_IDENTITY_INVALIDATION_2026-08-31.json` SHA `0006fd4a93dcfffe176b57a92b91139d57705fb9c8b0b619786c36438b957b34` | load-bearing execution lineage |

@@ -1,0 +1,106 @@
+{
+  "host_lock_sha256": "9e55b0d57dfd3b8acc54b63b155b66814c2735f75ca03f9696d90d602e3518ee",
+  "input_lock_sha256": "ada4dfef6a6ab2a5f65207fa6bca469e9083298c2b5c0161a129f50161eb2871",
+  "mismatches": {},
+  "reference_ids": [
+    "v12p-037-PREDICATE_IDENTIFYING_V12",
+    "v12p-015-PREDICATE_IDENTIFYING_V12",
+    "v12p-006-PREDICATE_IDENTIFYING_V12",
+    "v12p-013-PREDICATE_IDENTIFYING_V12",
+    "v12p-070-PREDICATE_IDENTIFYING_V12",
+    "v12p-029-PREDICATE_IDENTIFYING_V12",
+    "v12p-069-PREDICATE_IDENTIFYING_V12",
+    "v12p-055-PREDICATE_IDENTIFYING_V12"
+  ],
+  "reference_seed_order": 2026083111,
+  "required_equal_witnesses": [
+    "selected_profile",
+    "initial_trainable_sha256",
+    "post_step_trainable_sha256",
+    "microbatch_losses_hex",
+    "trainable_parameters"
+  ],
+  "runs": [
+    {
+      "determinism": {
+        "cublas_workspace_config": ":4096:8",
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "deterministic_algorithms": true,
+        "deterministic_debug_mode": 2,
+        "matmul_allow_tf32": false,
+        "numpy_seed": 1225947615,
+        "seed": 91420260831
+      },
+      "initial_trainable_sha256": "332a7e77ac33ff60432c2b666ecac7b06992d7cf62b7670d6a4a69c27cd307a6",
+      "microbatch_losses_hex": [
+        "0x1.22a2f20000000p+0",
+        "0x1.3ec5480000000p+0",
+        "0x1.2d926e0000000p+0",
+        "0x1.1cd03c0000000p+0",
+        "0x1.1e650c0000000p+0",
+        "0x1.20934c0000000p+0",
+        "0x1.3f94840000000p+0",
+        "0x1.1fdffc0000000p+0"
+      ],
+      "peak_allocated_bytes": 7761912832,
+      "peak_reserved_bytes": 8107589632,
+      "post_step_trainable_parameters": 20971520,
+      "post_step_trainable_sha256": "2d0c647c107f48f8bd0a071644fb4e430aef9cdd9ac561ec3d7e11cce6adfcab",
+      "selected_profile": "all_linear_r8",
+      "tokens": [
+        213,
+        217,
+        217,
+        213,
+        213,
+        213,
+        217,
+        213
+      ],
+      "trainable_parameters": 20971520
+    },
+    {
+      "determinism": {
+        "cublas_workspace_config": ":4096:8",
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "deterministic_algorithms": true,
+        "deterministic_debug_mode": 2,
+        "matmul_allow_tf32": false,
+        "numpy_seed": 1225947615,
+        "seed": 91420260831
+      },
+      "initial_trainable_sha256": "332a7e77ac33ff60432c2b666ecac7b06992d7cf62b7670d6a4a69c27cd307a6",
+      "microbatch_losses_hex": [
+        "0x1.22a2f20000000p+0",
+        "0x1.3ec5480000000p+0",
+        "0x1.2d926e0000000p+0",
+        "0x1.1cd03c0000000p+0",
+        "0x1.1e650c0000000p+0",
+        "0x1.20934c0000000p+0",
+        "0x1.3f94840000000p+0",
+        "0x1.1fdffc0000000p+0"
+      ],
+      "peak_allocated_bytes": 7760043520,
+      "peak_reserved_bytes": 8107589632,
+      "post_step_trainable_parameters": 20971520,
+      "post_step_trainable_sha256": "2d0c647c107f48f8bd0a071644fb4e430aef9cdd9ac561ec3d7e11cce6adfcab",
+      "selected_profile": "all_linear_r8",
+      "tokens": [
+        213,
+        217,
+        217,
+        213,
+        213,
+        213,
+        217,
+        213
+      ],
+      "trainable_parameters": 20971520
+    }
+  ],
+  "schema": "cfe.v14.predicate-horizon-repeatability.v1",
+  "seed": 91420260831,
+  "status": "REPEATABILITY_PASS"
+}
