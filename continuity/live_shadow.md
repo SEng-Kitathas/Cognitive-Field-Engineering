@@ -18,7 +18,7 @@
 - v1.3 active under PID `23156` (`ALIVE`), 5/12 jobs sealed = 2/6 complete pairs.
 - Seed3101 separation: predicate 0.0, composition 0.0.
 - Seed3102 separation: predicate -0.1250, composition -0.0417; policy tie.
-- Seed3103 LOCAL_MIXED trained and is evaluating; not yet sealed, so no seed3103 inference.
+- Seed3103 LOCAL_MIXED is sealed: predicate 0.5000, policy 1.0000, composition 0.4792; no paired inference until WINDOW_SEPARATED seals.
 - Publication head before this turn was remote-matched at `b8a70c634db188df60980e5bfa0098542e9d1363`.
 
 ## Active Constraints
@@ -45,7 +45,7 @@
 - Microseed handoff remains versioned and requires Microseed evidence.
 
 ## Immediate Next Step
-- Keep PID `23156` only; let seed3103 LOCAL_MIXED evaluation seal.
+- Keep PID `23156` only; let seed3103 WINDOW_SEPARATED finish and seal.
 - Publish each sealed research artifact/heavy adapter; pair-level interpretation only after both mates.
 - Finish 12/12, mechanical disposition, hostile closeout, then next discriminator.
 

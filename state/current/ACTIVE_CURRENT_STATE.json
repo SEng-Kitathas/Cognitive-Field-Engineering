@@ -1,33 +1,30 @@
 {
-  "as_of": "2026-08-31T07:50:36-04:00",
+  "as_of": "2026-08-31T07:52:03-04:00",
   "blockers": [],
-  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0750-04-00.md",
-  "commander_active_binding_sha256": "bae66a00919f29721c68e47b04a70b413b4b683beee69e3b5e8ddd397011789d",
+  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0752-04-00.md",
+  "commander_active_binding_sha256": "6c2770c3462e04c785393b7b529cc6d2563683c82eb64fc215e4648c9744b1fd",
   "commander_source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
   "frontier": "V13_SCIENTIFIC_CAMPAIGN_ACTIVE",
   "mode": "BUILD-COMMIT",
   "role": "R5 Reality Pressure Engine",
   "schema": "cfe.active-current-state.v3",
   "v12": {
-    "aggregate_sha256": "af26fd4b626afddd2bb22445cf276cf3690b5e4352bb96f3b8acddcb0ec0ff20",
     "disposition": "COMPOSITION_BASIS_NOT_SUPPORTED",
     "status": "COMPLETE"
   },
   "v13": {
-    "active_job": "campaign frontier per receipt/log",
+    "active_job": "2026083103 WINDOW_SEPARATED training",
     "campaign_status": "RUNNING",
     "complete_pairs": 2,
     "pid": 23156,
     "pid_status": "ALIVE",
     "sealed_jobs": 5,
-    "seed3101": {
-      "separation_composition_delta": 0.0,
-      "separation_predicate_delta": 0.0
-    },
-    "seed3102": {
-      "separation_composition_delta": -0.04166666666666663,
-      "separation_predicate_delta": -0.125
-    },
-    "seed3103": "LOCAL_MIXED evaluation in progress; unsealed"
+    "seed3103_local_mixed": {
+      "composed_false": 0.9583333333333334,
+      "composed_true": 0.0,
+      "composition": 0.4791666666666667,
+      "policy": 1.0,
+      "predicate": 0.5
+    }
   }
 }

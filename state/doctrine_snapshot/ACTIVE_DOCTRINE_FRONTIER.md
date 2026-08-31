@@ -1,6 +1,6 @@
 # CFE ACTIVE DOCTRINE FRONTIER
 
-As of: 2026-08-31 07:50 Eastern Daylight Time
+As of: 2026-08-31 07:52 Eastern Daylight Time
 Mode: BUILD-COMMIT
 Role: R5 Reality Pressure Engine
 
@@ -27,3 +27,6 @@ Role: R5 Reality Pressure Engine
 - No K-dose or interface screen in parallel.
 - No direct CFE->Microseed transfer without Microseed-side re-derivation.
 - Sealed/published history remains immutable; active state advances by successor bindings and receipts.
+
+## Latest execution delta
+- Seed3103 LOCAL_MIXED sealed: predicate 0.5000, policy 1.0000, composition 0.4792; mate still active. No paired inference.

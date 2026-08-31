@@ -1,21 +1,26 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0750-04-00.md",
-  "active_binding_sha256": "bae66a00919f29721c68e47b04a70b413b4b683beee69e3b5e8ddd397011789d",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0752-04-00.md",
+  "active_binding_sha256": "6c2770c3462e04c785393b7b529cc6d2563683c82eb64fc215e4648c9744b1fd",
   "alignment": "ALIGNED",
   "branch": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE__CAMPAIGN_ACTIVE",
   "frontier": {
-    "active_job": "campaign frontier per receipt/log",
+    "active_job": "2026083103 WINDOW_SEPARATED training",
     "complete_pairs": 2,
     "pid": 23156,
     "pid_status": "ALIVE",
     "sealed_jobs": 5,
-    "seed3101": "separation tie on predicate/composition",
-    "seed3102": "separation worse on predicate/composition",
-    "seed3103": "mixed evaluation in progress; unsealed"
+    "seed3103_local_mixed": {
+      "composed_false": 0.9583333333333334,
+      "composed_true": 0.0,
+      "composition": 0.4791666666666667,
+      "policy": 1.0,
+      "predicate": 0.5,
+      "status": "SEALED_PARTIAL_PAIR"
+    }
   },
-  "reason": "Continuing the exact frozen six-pair discriminator without rescue remains aligned with evidence-before-inference and maximum-attainable maturation.",
+  "reason": "Continue exact frozen mate before any pair-level inference; partial publication preserves lineage without changing science.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T07:50:36-04:00"
+  "timestamp": "2026-08-31T07:52:03-04:00"
 }

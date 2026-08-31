@@ -3487,27 +3487,27 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1953,
+      "bytes": 1523,
       "path": "state/current.md",
-      "sha256": "598c481c5ff60893b41facc67184d1da9847aae983523a459f7fea857a431434",
+      "sha256": "af8adcdaa142f55ecd0af162191e4a893676c6b5cfab2bbf30478e09d1907082",
       "surface": "GIT"
     },
     {
-      "bytes": 1219,
+      "bytes": 1024,
       "path": "state/current/ACTIVE_CURRENT_STATE.json",
-      "sha256": "6ef081a1d6958d0a3adafecb81c0ef0012ffb8749858b28d9877b1b741a313ce",
+      "sha256": "3b6b3fbc42f305ca151e43e5125ca8db21d0683331dbfafda5ff61f5d07e7b63",
       "surface": "GIT"
     },
     {
-      "bytes": 3145,
+      "bytes": 3539,
       "path": "state/current/ACTIVE_DECISIONS.json",
-      "sha256": "fbb0c33c392fd04dd4974f6accac3f27ccd232c93f9fdbb7747b9001682abf69",
+      "sha256": "218d37a6ddb0b884a602b5e1dd24fce6951880468654e63d224a6161bdd99cf5",
       "surface": "GIT"
     },
     {
-      "bytes": 48656,
+      "bytes": 49237,
       "path": "state/design_thread_stream.md",
-      "sha256": "10b1bd7587cd881df86d543c64e92ad1188e4c24a563a694454a07a75e748b2e",
+      "sha256": "044f5d19af569bf9de58f12cdefa48bcc3da7c2badb641cc8c90c45c33852889",
       "surface": "GIT"
     },
     {
@@ -3541,9 +3541,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1102,
+      "bytes": 13023,
+      "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0752-04-00.md",
+      "sha256": "6c2770c3462e04c785393b7b529cc6d2563683c82eb64fc215e4648c9744b1fd",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1136,
       "path": "state/doctrine_snapshot/ACTIVE_COMMANDERS_INTENT_TURN_READBACK.json",
-      "sha256": "abd40671fd961e79eac802c359d6e527c74909ea71d6fe4bf4e402a3aec032d2",
+      "sha256": "c50439388fc7d3f3837c89faf385452e812a8c471612795b05cda9b33b593830",
       "surface": "GIT"
     },
     {
@@ -3553,9 +3559,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1754,
+      "bytes": 1905,
       "path": "state/doctrine_snapshot/ACTIVE_DOCTRINE_FRONTIER.md",
-      "sha256": "df352294b13bdaa69b62c9b79b3f4e9ca9847dc7fd4798aa76f9438c50efcbad",
+      "sha256": "48775c163efc4119c6612880a5f51c56990b3dc11e88743a00e137d75c213359",
       "surface": "GIT"
     },
     {
@@ -3589,9 +3595,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 3961,
+      "bytes": 4011,
       "path": "state/live_shadow.md",
-      "sha256": "d60f6f63e7869169cc8797822fc7092cc93f1606ab0e4209633939645fba689e",
+      "sha256": "2a8e0d8cefb82a2cc17c7255f895f0c428eda188642f0d10fcf8b13ecbb7e235",
       "surface": "GIT"
     },
     {
@@ -3613,15 +3619,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 990,
+      "bytes": 860,
       "path": "state/next_steps.md",
-      "sha256": "27e2772c2614d58a409a1cb4e4737abcb725ec0bc39f2252c77b89f0a3de415f",
+      "sha256": "a44da34aae95f976b30e2ca242c96e40b8db3ddaa1e0d7baec1b74db16a1174a",
       "surface": "GIT"
     },
     {
-      "bytes": 461,
+      "bytes": 397,
       "path": "state/next_steps/ACTIVE_NEXT_STEPS.json",
-      "sha256": "f4d0cdf025b33a611ec8f4668a1ea58af12f479b78f9e787b439b95ed564a7bf",
+      "sha256": "ed9f6440f47e1a05ab1f897cb48a6f9a0436ee92d3c893569e8943036d6ebf6e",
       "surface": "GIT"
     },
     {
@@ -3933,13 +3939,13 @@
     {
       "bytes": 1334,
       "path": "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md",
-      "sha256": "c43a78661a384b4e9b316d1d749baf430328090055442eb217d9b27a6653e94d",
+      "sha256": "3c81e188498d99f64007d0b33d19fc5c03eb1724fe9b2f6a2c67dee214707dfc",
       "surface": "GIT"
     },
     {
-      "bytes": 1900,
+      "bytes": 2307,
       "path": "state/trace_matrix/ACTIVE_TRACE_MATRIX.md",
-      "sha256": "103aa9646d2e6fea9b9e7d63ea19ab7847716124ace262f03b2e2cdcf39bc93a",
+      "sha256": "006568ce406a280de65eec68cbdf56616e94bb0af4d7923e383753c1ccddd60c",
       "surface": "GIT"
     },
     {
@@ -4003,9 +4009,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 3706,
+      "bytes": 4611,
       "path": "state/trace_matrix/V13_OPTIMIZER_INTERFERENCE_HEAVY_RELEASE_2026-08-31.json",
-      "sha256": "bd6670cd88cb5ae0e6dc5511cd8db6fd15d825492098917b9a10deb9120cdade",
+      "sha256": "b99af92fb8d4912611ec2673944416a7f3590c3ec33429c1e06981276e36f51b",
       "surface": "GIT"
     },
     {
@@ -4042,6 +4048,12 @@
       "bytes": 4615,
       "path": "state/trace_matrix/turn_reconciliation/2026-08-31T0750-04-00.json",
       "sha256": "41ec356886e7cb0a454b05f2ab297cb7c39a8cbb88800046d8bf298aac2e4418",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 4041,
+      "path": "state/trace_matrix/turn_reconciliation/2026-08-31T0752-04-00.json",
+      "sha256": "054fea6ae66ec9986e9ff96b483d0fc59e6464cde986ba50c97d93d9b874ae6c",
       "surface": "GIT"
     },
     {
@@ -4741,9 +4753,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1839,
+      "bytes": 2139,
       "path": "transcript/THIS_CONVERSATION.md",
-      "sha256": "079c78b68b0f80ea33aa8104f0099ba04d2b299ae39dbfce1205f57afeca46b3",
+      "sha256": "6e32560b14b1400e7d0663b0c817d1cda09ebca10f2fed8d7a12db1c22185542",
       "surface": "GIT"
     },
     {
@@ -5187,12 +5199,25 @@
       },
       "sha256": "9053a481c47673b5b332f0836796e155459bd533bff2aed32cce4e172056fe10",
       "surface": "HEAVY_RELEASE"
+    },
+    {
+      "bytes": 83945296,
+      "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z/2026083103/LOCAL_MIXED/train/adapter/adapter_model.safetensors",
+      "publication": {
+        "asset_name": "V13_OPTIMIZER_INTERFERENCE_2026083103_LOCAL_MIXED_PARTIAL.zip",
+        "asset_sha256": "81d0b0daf3784eb615007e7a0af8451a0d9727745faa3d122b6aad3c3f568370",
+        "member_sha256": "04c7777e7bc2feaf6814505bd2dc2ee5be3fb2d27fec0d49a3e9f74c3c5f6af7",
+        "publication_status": "PUBLISHED_PARTIAL_PAIR_MATE_PENDING",
+        "release_tag": "cfe-v13-optimizer-interference-research-2026-08-31"
+      },
+      "sha256": "04c7777e7bc2feaf6814505bd2dc2ee5be3fb2d27fec0d49a3e9f74c3c5f6af7",
+      "surface": "HEAVY_RELEASE"
     }
   ],
-  "entry_count": 825,
-  "git_entry_count": 791,
-  "heavy_entry_count": 34,
-  "heavy_published_count": 34,
+  "entry_count": 828,
+  "git_entry_count": 793,
+  "heavy_entry_count": 35,
+  "heavy_published_count": 35,
   "laws": [
     "FRESH ACTIVE STATE != REWRITTEN HISTORY",
     "FAILED ATTEMPT != DISPOSABLE HISTORY",

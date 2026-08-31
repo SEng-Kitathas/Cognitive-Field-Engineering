@@ -1,0 +1,103 @@
+{
+  "active_blockers": [],
+  "active_commander_binding": {
+    "alignment": "ALIGNED",
+    "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0752-04-00.md",
+    "sha256": "6c2770c3462e04c785393b7b529cc6d2563683c82eb64fc215e4648c9744b1fd"
+  },
+  "commander_source": {
+    "path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+  },
+  "continuity_surfaces": {
+    "state/current.md": {
+      "bytes": 1523,
+      "sha256": "af8adcdaa142f55ecd0af162191e4a893676c6b5cfab2bbf30478e09d1907082"
+    },
+    "state/current/ACTIVE_CURRENT_STATE.json": {
+      "bytes": 1024,
+      "sha256": "3b6b3fbc42f305ca151e43e5125ca8db21d0683331dbfafda5ff61f5d07e7b63"
+    },
+    "state/current/ACTIVE_DECISIONS.json": {
+      "bytes": 3539,
+      "sha256": "218d37a6ddb0b884a602b5e1dd24fce6951880468654e63d224a6161bdd99cf5"
+    },
+    "state/design_thread_stream.md": {
+      "bytes": 49237,
+      "sha256": "044f5d19af569bf9de58f12cdefa48bcc3da7c2badb641cc8c90c45c33852889"
+    },
+    "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0752-04-00.md": {
+      "bytes": 13023,
+      "sha256": "6c2770c3462e04c785393b7b529cc6d2563683c82eb64fc215e4648c9744b1fd"
+    },
+    "state/doctrine_snapshot/ACTIVE_COMMANDERS_INTENT_TURN_READBACK.json": {
+      "bytes": 1136,
+      "sha256": "c50439388fc7d3f3837c89faf385452e812a8c471612795b05cda9b33b593830"
+    },
+    "state/doctrine_snapshot/ACTIVE_DOCTRINE_FRONTIER.md": {
+      "bytes": 1905,
+      "sha256": "48775c163efc4119c6612880a5f51c56990b3dc11e88743a00e137d75c213359"
+    },
+    "state/live_shadow.md": {
+      "bytes": 4011,
+      "sha256": "2a8e0d8cefb82a2cc17c7255f895f0c428eda188642f0d10fcf8b13ecbb7e235"
+    },
+    "state/next_steps.md": {
+      "bytes": 860,
+      "sha256": "a44da34aae95f976b30e2ca242c96e40b8db3ddaa1e0d7baec1b74db16a1174a"
+    },
+    "state/next_steps/ACTIVE_NEXT_STEPS.json": {
+      "bytes": 397,
+      "sha256": "ed9f6440f47e1a05ab1f897cb48a6f9a0436ee92d3c893569e8943036d6ebf6e"
+    },
+    "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md": {
+      "bytes": 1334,
+      "sha256": "3c81e188498d99f64007d0b33d19fc5c03eb1724fe9b2f6a2c67dee214707dfc"
+    },
+    "state/trace_matrix/ACTIVE_TRACE_MATRIX.md": {
+      "bytes": 2307,
+      "sha256": "006568ce406a280de65eec68cbdf56616e94bb0af4d7923e383753c1ccddd60c"
+    },
+    "state/trace_matrix/RESEARCH_PUBLICATION_MANIFEST_2026-08-30.json": {
+      "bytes": 223634,
+      "sha256": "d03210a7e501121f3010e2e11a04de2976524be8ca4312154857c1de1c5c274f"
+    },
+    "state/trace_matrix/V13_OPTIMIZER_INTERFERENCE_HEAVY_RELEASE_2026-08-31.json": {
+      "bytes": 4611,
+      "sha256": "b99af92fb8d4912611ec2673944416a7f3590c3ec33429c1e06981276e36f51b"
+    },
+    "transcript/THIS_CONVERSATION.md": {
+      "bytes": 2139,
+      "sha256": "6e32560b14b1400e7d0663b0c817d1cda09ebca10f2fed8d7a12db1c22185542"
+    }
+  },
+  "decisions": [
+    "seed3103 mixed is evidence, not paired interference result",
+    "continue exact mate before inference",
+    "preserve partial heavy asset historically"
+  ],
+  "frontier": {
+    "active_job": "2026083103 WINDOW_SEPARATED training",
+    "seed3103_local_mixed": {
+      "composition": 0.4791666666666667,
+      "policy": 1.0,
+      "predicate": 0.5,
+      "status": "SEALED_HALF_PAIR"
+    },
+    "v13_complete_pairs": 2,
+    "v13_pid": 23156,
+    "v13_pid_status": "ALIVE",
+    "v13_sealed_jobs": 5,
+    "v13_status": "RUNNING"
+  },
+  "mode": "BUILD-COMMIT",
+  "new_material_artifacts": [
+    "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0752-04-00.md",
+    "V13_OPTIMIZER_INTERFERENCE_2026083103_LOCAL_MIXED_PARTIAL.zip",
+    "seed3103 LOCAL_MIXED eval/run/log evidence"
+  ],
+  "next_exact_action": "keep PID 23156; finish seed3103 WINDOW_SEPARATED; publish full pair; continue v1.3 12/12",
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v3",
+  "timestamp": "2026-08-31T07:52:03-04:00"
+}

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-31T07:50:36-04:00",
+  "as_of": "2026-08-31T07:52:03-04:00",
   "decisions": [
     {
       "consequence": "no CFE graduation at first useful Microseed handoff",
@@ -56,6 +56,13 @@
       "evidence_basis": "active campaign metadata + live process readback after ngrok restoration",
       "replay_trigger": "PID terminates unexpectedly or campaign receipt fails closed",
       "status": "VERIFIED_EXECUTION_CONTINUITY_DECISION"
+    },
+    {
+      "consequence": "publish partial artifact; forbid pair-level inference",
+      "decision": "Seed3103 LOCAL_MIXED is sealed evidence but not an interference result until its mate seals",
+      "evidence_basis": "v1.3 campaign receipt job5 + prereg paired-unit rule",
+      "replay_trigger": "seed3103 WINDOW_SEPARATED seals",
+      "status": "VERIFIED_EVIDENCE_SCOPE_DECISION"
     }
   ],
   "schema": "cfe.active-decisions.v1"
