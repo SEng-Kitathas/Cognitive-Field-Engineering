@@ -568,3 +568,11 @@ Timestamp: 2026-08-31
 Tags: V12 SEED2904 SEALED, RESEARCH PUBLICATION
 
 Seed 2026082904 fully paired. NARROW composed 0.5312; IDENTIFYING 0.5208; paired delta -0.0104. Both predicate-direct overall 0.50 but opposite one-sided basins; policy-direct both 1.0. Exact adapters release-published and digest verified. Campaign unchanged.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-31
+Tags: V12 SEED2905 SEALED, DISCRIMINATING RESULT, RESEARCH PUBLICATION
+
+Seed 2026082905 fully paired. NARROW predicate 0.5000, composed 0.4896; IDENTIFYING predicate 0.8542, composed 0.2917. Identifying-minus-narrow predicate delta +0.3542, composed delta -0.1979. This is the first seed where identifying shows substantial predicate competence but composition degrades, directly separating primitive acquisition from composed behavior. Exact adapters release-published and digest verified.

@@ -331,3 +331,12 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Hard rule: do not port Capybara/Mistral-specific compiler limits, prompt semantics, or optimizer assumptions into Microseed. Any transfer must be re-derived against the Microseed substrate and language-gate contract.
 - Candidate reusable outputs from CFE, pending Microseed-side verification: experience-geometry vocabulary, identifying-vs-coherent distinction, uncertainty preservation, consequence/history doctrine, evaluator-scope discipline, and learner-visible-vs-curator-visible transport distinctions.
 - Immediate stance: finish v1.2 closeout first; then prepare a bounded CFE→Microseed language-gate research handoff that separates program-level developmental principles from LLM-specific experimental mechanisms.
+
+
+## v1.2 seed 2905 paired result
+- NARROW: predicate-direct 24/48 = 0.5000; policy-direct 48/48 = 1.0000; composed 47/96 = 0.4896.
+- IDENTIFYING: predicate-direct 41/48 = 0.8542; policy-direct 48/48 = 1.0000; composed 28/96 = 0.2917.
+- Paired identifying-minus-narrow composed delta: -0.197917; predicate delta +0.354167.
+- IDENTIFYING predicate direct is the first v1.2 seed with substantial two-sided overall competence, yet composed action is worse than narrow. Better predicate acquisition therefore does not imply better composition at this seed.
+- NARROW composed false/true = 0.0000/0.9792; IDENTIFYING = 0.0000/0.5833.
+- Exact seed adapters published under release tag `cfe-v12-factor-primitive-research-2026-08-31`.
