@@ -1,0 +1,29 @@
+{
+  "active_blockers": [],
+  "active_commander_binding": {
+    "alignment": "ALIGNED",
+    "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1011-04-00.md",
+    "sha256": "f3bfc2c5a6dac33f42d8ad4f844c4420045c88cfae543e18c5cdf7459a76dc82"
+  },
+  "commander_source": {
+    "path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+  },
+  "frontier": {
+    "active_job": "2026083111 training",
+    "horizons": {
+      "H1": 36,
+      "H2": 72,
+      "H4": 144
+    },
+    "starmap": "SALVAGE_COMPLETE_RESEARCH_ONLY",
+    "v14_pid": 27236,
+    "v14_pid_status": "ALIVE",
+    "v14_sealed_trajectories": 0,
+    "v14_status": "RUNNING"
+  },
+  "mode": "BUILD-COMMIT",
+  "role": "R5 scientific execution / R4 salvage",
+  "schema": "cfe.per-turn-reconciliation-receipt.v3",
+  "timestamp": "2026-08-31T10:11:55-04:00"
+}

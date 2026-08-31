@@ -1,22 +1,17 @@
 {
-  "as_of": "2026-08-31T10:10:12-04:00",
+  "as_of": "2026-08-31T10:11:55-04:00",
   "blocked": [],
-  "controls": [
-    "no StarMap doctrine promotion",
-    "no post-hoc v1.3 rescue",
-    "no parallel unqualified campaigns"
-  ],
   "p0": [
-    "publish v1.3 hostile closeout",
-    "design/freeze v1.4 dose-horizon discriminator",
-    "pre-outcome qualification",
-    "run only after lock"
+    "keep PID 27236 only",
+    "complete six v1.4 trajectories",
+    "mechanical H1/H2/H4 disposition",
+    "hostile closeout"
   ],
   "p1_starmap": [
-    "ST-4 generative field compiler",
-    "ST-1 typed-edge identifiability",
-    "ST-2 local/long-range topology",
-    "ST-3 history-relative activation"
+    "ST-4",
+    "ST-1",
+    "ST-2",
+    "ST-3"
   ],
   "schema": "cfe.active-next-steps.v4"
 }

@@ -1,39 +1,28 @@
 {
-  "as_of": "2026-08-31T10:10:12-04:00",
+  "as_of": "2026-08-31T10:11:55-04:00",
   "blockers": [],
-  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1010-04-00.md",
-  "commander_active_binding_sha256": "431753c44609f5831bc38da2ccb1ffc02628c9280d71179c84153dd72401ad12",
+  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1011-04-00.md",
+  "commander_active_binding_sha256": "f3bfc2c5a6dac33f42d8ad4f844c4420045c88cfae543e18c5cdf7459a76dc82",
   "commander_source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "frontier": "V13_CLOSED__V14_DOSE_HORIZON_NEXT",
+  "frontier": "V14_PREDICATE_DOSE_HORIZON_ACTIVE",
   "mode": "BUILD-COMMIT",
-  "next_scientific_branch": "DOSE_OPTIMIZER_HORIZON",
-  "role": "R4 Convergence Refiner",
+  "role": "R5 scientific execution / R4 salvage",
   "schema": "cfe.active-current-state.v4",
-  "starmap_salvage": {
-    "json_path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.json",
-    "json_sha256": "343530003b0393da006ada2dfeffb5ef4f6c3296c3ba1b6c392d7dcff6962489",
-    "markdown_path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.md",
-    "markdown_sha256": "806189768d577337293ccca62581b803a8cbe49ab6f7fad410b8535479b70917",
-    "status": "RESEARCH_CROSSWALK_NOT_DOCTRINE"
-  },
+  "starmap_salvage": "COMPLETE_RESEARCH_CROSSWALK_NOT_DOCTRINE",
   "v13": {
-    "aggregate_sha256": "5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f",
-    "disposition": {
-      "INTERFERENCE_AND_COMPOSITION_SUPPORTED": false,
-      "INTERFERENCE_HELPED_BUT_COMPOSITION_DID_NOT": false,
-      "LOCAL_INTERFERENCE_SUPPORTED": false,
-      "LOCAL_INTERFERENCE_WEAKENED": true,
-      "TWO_SIDED_PREDICATE_COMPETENCE_EARNED": false,
-      "next_branch": "HOSTILE_INTERPRETATION_REQUIRED"
-    },
-    "paired_summary": {
-      "mean_composition_delta_separated_minus_mixed": -0.005208333333333324,
-      "mean_policy_direct_mixed": 1.0,
-      "mean_policy_direct_separated": 0.90625,
-      "mean_predicate_delta_separated_minus_mixed": -0.038194444444444454,
-      "separated_composition_wins": 2,
-      "separated_predicate_wins": 0
-    },
+    "disposition": "LOCAL_INTERFERENCE_WEAKENED",
     "status": "COMPLETE"
+  },
+  "v14": {
+    "active_job": "2026083111 training",
+    "checkpoint_steps": {
+      "H1": 36,
+      "H2": 72,
+      "H4": 144
+    },
+    "pid": 27236,
+    "pid_status": "ALIVE",
+    "sealed_trajectories": 0,
+    "status": "RUNNING"
   }
 }

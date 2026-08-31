@@ -14,3 +14,5 @@ As of: 2026-08-31 10:10 Eastern Daylight Time
 | Literal radial/Hilbert geometry is CFE law | no CFE evidence | quarantined/rejected |
 | StarMap salvage ledger | `research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.md` SHA `806189768d577337293ccca62581b803a8cbe49ab6f7fad410b8535479b70917` | published research crosswalk, not doctrine |
 | v1.3 hostile closeout | `state/analysis/V13_OPTIMIZER_INTERFERENCE_HOSTILE_CLOSEOUT_2026-08-31.md` SHA `b9177c306435bdf2f9ad0426efe1b4849b74e2cee77b44ba099cf9ba97ec52b7` | final closeout |
+
+| v1.4 dose/horizon active | preexec PASS + active PID `27236` | 0/6 sealed at turn readback | active execution |

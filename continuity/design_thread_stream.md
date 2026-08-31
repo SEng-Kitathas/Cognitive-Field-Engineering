@@ -733,3 +733,9 @@ User authorized StarMap lineage reconstruction and explicitly instructed not to 
 Timestamp: 2026-08-31 10:10 Eastern Daylight Time
 Tags: STARMAP SALVAGE, V13 CLOSEOUT, RESEARCH CROSSWALK
 Resumed from saved de-duplicated StarMap corpus rather than rescanning E:. Reconstructed four historical StarMap mechanism families and extracted code/spec mechanics. Created promote/adapt/quarantine/discard salvage ledger. Separately verified v1.3 COMPLETE 12/12 and closed it as LOCAL_INTERFERENCE_WEAKENED; StarMap was forbidden from post-hoc rescue. Previously declared branch trigger selects dose/optimizer horizon next. All active continuity and Commander surfaces refreshed.
+
+---
+## Execution Update — ASSISTANT
+Timestamp: 2026-08-31 10:11 Eastern Daylight Time
+Tags: V14 ACTIVE, STARMAP SALVAGE SEALED, FRONTIER CORRECTION
+After v1.3 closeout and StarMap salvage commit, local readback showed v1.4 had already been prequalified and launched. Verified PID 27236 alive, 0/6 trajectories sealed, seed2026083111 training. V1.4 is predicate-only with longitudinal H1/H2/H4 checkpoints at 36/72/144 steps and explicitly forbids parallel StarMap learner intervention. Updated all active continuity surfaces to this exact frontier.

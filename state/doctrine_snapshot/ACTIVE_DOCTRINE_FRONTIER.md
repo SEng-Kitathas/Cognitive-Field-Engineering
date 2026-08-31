@@ -27,3 +27,6 @@ StarMap salvage adds six prospective hypotheses:
 
 ## Next experiment family
 Dose / optimizer horizon, per predeclared v1.3 branch trigger.
+
+## Execution frontier 2026-08-31 10:11 Eastern Daylight Time
+- v1.4 dose/horizon is active, not merely queued. PID `27236`; 0/6 sealed. StarMap crosswalk remains prospective research only.

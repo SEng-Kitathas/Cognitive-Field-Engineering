@@ -1,23 +1,35 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1010-04-00.md",
-  "active_binding_sha256": "431753c44609f5831bc38da2ccb1ffc02628c9280d71179c84153dd72401ad12",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1011-04-00.md",
+  "active_binding_sha256": "f3bfc2c5a6dac33f42d8ad4f844c4420045c88cfae543e18c5cdf7459a76dc82",
   "alignment": "ALIGNED",
-  "branch": "V13_CLOSED__V14_DOSE_HORIZON_NEXT__STARMAP_CROSSWALK_ACTIVE",
+  "branch": "V14_PREDICATE_DOSE_HORIZON__CAMPAIGN_ACTIVE",
   "frontier": {
-    "aggregate_sha256": "5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f",
-    "starmap_salvage": {
-      "json_path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.json",
-      "json_sha256": "343530003b0393da006ada2dfeffb5ef4f6c3296c3ba1b6c392d7dcff6962489",
-      "markdown_path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.md",
-      "markdown_sha256": "806189768d577337293ccca62581b803a8cbe49ab6f7fad410b8535479b70917",
-      "status": "RESEARCH_CROSSWALK_NOT_DOCTRINE"
-    },
+    "starmap": "SALVAGE_COMPLETE__RESEARCH_ONLY",
     "v13": "COMPLETE__LOCAL_INTERFERENCE_WEAKENED",
-    "v14_next_family": "DOSE_OPTIMIZER_HORIZON"
+    "v14": {
+      "active_job": "2026083111 training",
+      "campaign_status": "RUNNING",
+      "horizons": {
+        "H1": 36,
+        "H2": 72,
+        "H4": 144
+      },
+      "pid": 27236,
+      "pid_status": "ALIVE",
+      "sealed_trajectories": 0,
+      "seeds": [
+        2026083111,
+        2026083112,
+        2026083113,
+        2026083114,
+        2026083115,
+        2026083116
+      ]
+    }
   },
-  "reason": "v1.3 closed mechanically; next branch follows predeclared trigger. StarMap parts are queued prospectively without post-hoc rescue.",
+  "reason": "v1.4 executes the predeclared dose/horizon branch while StarMap remains quarantined from learner intervention.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T10:10:12-04:00"
+  "timestamp": "2026-08-31T10:11:55-04:00"
 }

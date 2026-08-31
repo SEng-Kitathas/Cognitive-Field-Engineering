@@ -13,3 +13,5 @@ As of: 2026-08-31 10:10 Eastern Daylight Time
 | P1 | History-relative activation/revision | candidate | ST-3 Developmental CFE |
 | P1 | Exhaustive E-drive StarMap inventory | partial audit only | segmented scan if needed |
 | P1 | Microseed transfer | unverified | Microseed-side evidence |
+
+| P0 | v1.4 dose/horizon trajectory | active | H1/H2/H4 six-seed longitudinal campaign |
