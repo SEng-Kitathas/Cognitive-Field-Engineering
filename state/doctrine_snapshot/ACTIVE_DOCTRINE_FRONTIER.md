@@ -30,3 +30,8 @@ Dose / optimizer horizon, per predeclared v1.3 branch trigger.
 
 ## Execution frontier 2026-08-31 10:11 Eastern Daylight Time
 - v1.4 dose/horizon is active, not merely queued. PID `27236`; 0/6 sealed. StarMap crosswalk remains prospective research only.
+
+## Turn doctrine delta — 2026-08-31 11:00 Eastern Daylight Time
+- Correct StarMap genealogy: self-observation and mechanization intent were co-originating.
+- `MECHANIZATION INTENT != MECHANISM VALIDATION`.
+- `LOCK MUTATION REQUIRES NEW IDENTITY` was exercised concretely: V14 Attempt A invalidated, V14R freshly qualified.

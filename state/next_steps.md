@@ -1,17 +1,17 @@
 # CFE NEXT STEPS
 
-As of: 2026-08-31 10:11 Eastern Daylight Time
-Frontier: v1.4 predicate dose/horizon active under PID `27236`; 0/6 trajectories sealed.
+As of: 2026-08-31 11:00 Eastern Daylight Time
+Frontier: V14R dose/horizon active under job `job-1c115593cb12`, PID `30856`; 0/6 sealed.
 
 ## Immediate P0
-1. Keep PID `27236` as sole v1.4 runner.
-2. Complete seed2026083111 then remaining five frozen trajectories.
-3. Evaluate H1/H2/H4 longitudinally per seed; do not treat checkpoints as independent initializations.
-4. Apply preregistered dose/horizon disposition mechanically.
-5. Hostile closeout before any StarMap-derived learner intervention.
+1. Keep this job/PID as the sole V14R runner.
+2. Complete all six fresh trajectories from scratch.
+3. Evaluate H1/H2/H4 longitudinally under V14R lock only.
+4. Apply the original preregistered dose/horizon disposition mechanically.
+5. Hostile closeout before StarMap-derived learner intervention.
 
-## P1 StarMap-derived queue after v1.4
-- ST-4 generative field compiler validation.
-- ST-1 typed-edge identifiability.
-- ST-2 local + long-range topology.
-- ST-3 history-relative activation/revision.
+## Integrity controls
+- Attempt A checkpoints/results are inadmissible.
+- No change to V14R locked bytes.
+- No StarMap learner-facing geometry during V14R.
+- Historical cognitive-geometry self-description supplies hypotheses, not scientific validation.

@@ -16,3 +16,7 @@ As of: 2026-08-31 10:10 Eastern Daylight Time
 | v1.3 hostile closeout | `state/analysis/V13_OPTIMIZER_INTERFERENCE_HOSTILE_CLOSEOUT_2026-08-31.md` SHA `b9177c306435bdf2f9ad0426efe1b4849b74e2cee77b44ba099cf9ba97ec52b7` | final closeout |
 
 | v1.4 dose/horizon active | preexec PASS + active PID `27236` | 0/6 sealed at turn readback | active execution |
+
+| StarMap origin correction | operator clarification + recovered source | self-observation WITH explicit mechanization intent verified historically; mechanism itself operator-reported |
+| V14 Attempt A invalidation | H1 evaluator lock failure + lock/current byte identities | non-scientific procedural failure |
+| V14R recovery identity | lock `6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38` + host/repeatability/preexec PASS | scientific execution authorized and running |

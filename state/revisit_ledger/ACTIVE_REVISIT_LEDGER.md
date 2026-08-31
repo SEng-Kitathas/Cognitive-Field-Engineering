@@ -15,3 +15,6 @@ As of: 2026-08-31 10:10 Eastern Daylight Time
 | P1 | Microseed transfer | unverified | Microseed-side evidence |
 
 | P0 | v1.4 dose/horizon trajectory | active | H1/H2/H4 six-seed longitudinal campaign |
+
+| P0 | V14R dose/horizon | active clean recovery identity | six fresh longitudinal trajectories | running |
+| P1 | Operator-derived cognitive geometry -> CFE | deliberate mechanization intent verified historically; causal relevance untested | prospective typed-edge/history/topology screens | open |

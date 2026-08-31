@@ -1,0 +1,19 @@
+{
+  "attempt_root": "state/analysis/V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z",
+  "checkpoint_reuse_for_science": false,
+  "current_v13_final_disposition": {
+    "bytes": 1488,
+    "sha256": "48f29fa9c5176c9e7e08c5ecf4ec55758f75902adc26059d592ff7cc93817773"
+  },
+  "expected_v13_final_disposition": {
+    "bytes": 2347,
+    "sha256": "526ae885dc21c53e28a4d5f7773d2756dd27815dd3ed3d8c6646675612f9825f"
+  },
+  "failed_at": "seed2026083111/H1 evaluation",
+  "original_input_lock_sha256": "4dc91f2d5cdf7f75007861d0a990315fdb0d6512016dc2c3b59f9d4596aff9e2",
+  "recovery_identity": "V14R_PREDICATE_DOSE_HORIZON_20260831",
+  "schema": "cfe.v14.attempt-invalidation.v1",
+  "scientific_outcomes_admissible": false,
+  "status": "INVALIDATED__NON_SCIENTIFIC_PROVENANCE_LOCK_MUTATION",
+  "timestamp": "2026-08-31T10:54:25-04:00"
+}

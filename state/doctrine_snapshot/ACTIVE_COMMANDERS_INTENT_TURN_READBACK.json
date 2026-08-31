@@ -1,35 +1,23 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1011-04-00.md",
-  "active_binding_sha256": "f3bfc2c5a6dac33f42d8ad4f844c4420045c88cfae543e18c5cdf7459a76dc82",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1100-04-00.md",
+  "active_binding_sha256": "d89da11fbbaecbc34ebab8d539e3574c5ce4f0e97c00faf2255c8b1d57740e8a",
   "alignment": "ALIGNED",
-  "branch": "V14_PREDICATE_DOSE_HORIZON__CAMPAIGN_ACTIVE",
+  "branch": "V14R_PREDICATE_DOSE_HORIZON_ACTIVE__STARMAP_LINEAGE_CORRECTED",
   "frontier": {
-    "starmap": "SALVAGE_COMPLETE__RESEARCH_ONLY",
-    "v13": "COMPLETE__LOCAL_INTERFERENCE_WEAKENED",
-    "v14": {
-      "active_job": "2026083111 training",
-      "campaign_status": "RUNNING",
-      "horizons": {
-        "H1": 36,
-        "H2": 72,
-        "H4": 144
-      },
-      "pid": 27236,
+    "starmap_lineage": "SELF_OBSERVATION_PLUS_EXPLICIT_MECHANIZATION_INTENT",
+    "v14_attempt_a": "INVALIDATED_NON_SCIENTIFIC",
+    "v14r": {
+      "input_lock_sha256": "6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38",
+      "job_id": "job-1c115593cb12",
+      "pid": 30856,
       "pid_status": "ALIVE",
-      "sealed_trajectories": 0,
-      "seeds": [
-        2026083111,
-        2026083112,
-        2026083113,
-        2026083114,
-        2026083115,
-        2026083116
-      ]
+      "preexec_sha256": "8d255cc44169330d48a962f88617744aa75add7adb861d8a23b2246ef1a6a7ee",
+      "sealed_trajectories": 0
     }
   },
-  "reason": "v1.4 executes the predeclared dose/horizon branch while StarMap remains quarantined from learner intervention.",
+  "reason": "Historical genealogy corrected and scientific integrity restored through new lock identity rather than weakening verification.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T10:11:55-04:00"
+  "timestamp": "2026-08-31T11:00:41-04:00"
 }

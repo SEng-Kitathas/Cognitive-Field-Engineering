@@ -1,0 +1,103 @@
+{
+  "bindings": {
+    "candidate_manifest_sha256": "dd0577ca49c93e75f111c1506cf7f8bc0abcac2341ac46433fd48927584f76a3",
+    "preregistration_sha256": "d9db320e973c6f397b0e3422746c2448b0e43530ae270c2e79db1f57791ea162",
+    "source_v13_host_lock_sha256": "45b76a3c3cb30ac1fdebac669eef121b34f8fbf2764bcd5df84f28cf3aeaeb67",
+    "source_v13_profile_lock_sha256": "bdc751bf1391aa45bdfdc57a663b83e6457e28335a9605dd4c1873d379bc4066",
+    "v13_final_disposition_sha256": "48f29fa9c5176c9e7e08c5ecf4ec55758f75902adc26059d592ff7cc93817773"
+  },
+  "dataset": {
+    "eval_sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744",
+    "name": "PREDICATE_IDENTIFYING_V12",
+    "rows": 72,
+    "token_reference_sha256": "48e57594b7e90031d7c46838270bc247e5ea9bf6b8c88afc9b6a73b491b383d7"
+  },
+  "evaluation": {
+    "cases": 48,
+    "horizons": [
+      "H1",
+      "H2",
+      "H4"
+    ],
+    "paired_longitudinal_unit": "seed trajectory",
+    "primary_metric": "balanced accuracy",
+    "readout": "PREDICATE_DIRECT"
+  },
+  "hard_stops": [
+    "No scientific training before new input lock, host revalidation, baseline inheritance, fresh repeatability PASS and preexecution qualification.",
+    "No policy/composed training.",
+    "No adaptive horizon > H4.",
+    "No StarMap learner intervention in parallel.",
+    "Attempt A outputs are invalidated lineage and SHALL NOT be reused as V14R scientific outcomes."
+  ],
+  "model": {
+    "base_snapshot_manifest_sha256": "0d429d3f6e0fa276fa7bb24c3566ed7ce3856c22230bb58936527f1f15f2bc6d",
+    "hf_repo": "argilla/CapybaraHermes-2.5-Mistral-7B",
+    "hf_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471"
+  },
+  "optimization": {
+    "attention_backend": "eager",
+    "bnb_double_quant": true,
+    "bnb_quant_type": "nf4",
+    "checkpoint_selection": "fixed H1/H2/H4 only",
+    "compute_dtype": "float16",
+    "determinism_contract": "FAIL_CLOSED_TORCH_DETERMINISTIC_ALGORITHMS_AND_DEBUG_ERROR",
+    "evaluation_during_training": false,
+    "gradient_checkpointing": true,
+    "learning_rate": 0.0001,
+    "load_in_4bit": true,
+    "lr_scheduler_type": "constant",
+    "max_grad_norm": 1.0,
+    "optimizer": "paged_adamw_8bit",
+    "packing": false,
+    "weight_decay": 0.0
+  },
+  "profile": {
+    "alpha": 16,
+    "dropout": 0.0,
+    "inherit_from_v13_selected_profile": "all_linear_r8",
+    "inheritance_requires": [
+      "same exact base snapshot",
+      "same critical CUDA/runtime identity",
+      "v14 max sequence <= v13 qualified max sequence",
+      "fresh v14 two-run one-step repeatability PASS"
+    ],
+    "r": 8,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "recovery_identity": "V14R_PREDICATE_DOSE_HORIZON_20260831",
+  "schema": "cfe.v14r.predicate-dose-horizon-training-contract.v1",
+  "seeds": [
+    2026083111,
+    2026083112,
+    2026083113,
+    2026083114,
+    2026083115,
+    2026083116
+  ],
+  "sequence": {
+    "checkpoint_steps": {
+      "H1": 36,
+      "H2": 72,
+      "H4": 144
+    },
+    "epochs": 16,
+    "gradient_accumulation_steps": 8,
+    "loss_scope": "assistant content plus <|im_end|>; user/role text excluded",
+    "max_seq_len": 512,
+    "microbatch": 1,
+    "rows": 72,
+    "schedule_seed_xor": "0xCFE14A",
+    "shuffle": false,
+    "steps_per_epoch": 9
+  },
+  "status": "FROZEN_RECOVERY_IDENTITY_PRE_SCIENTIFIC_TRAINING"
+}

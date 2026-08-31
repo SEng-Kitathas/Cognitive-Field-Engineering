@@ -151,6 +151,24 @@
       "surface": "GIT"
     },
     {
+      "bytes": 958,
+      "path": "research/STARMAP_COGNITIVE_GEOMETRY_DUAL_ORIGIN_LINEAGE_NOTE_2026-08-31.json",
+      "sha256": "8f713d72a2aa26c64d4adcdb98de66648729d112e1a4547c58b1628449350f32",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2428,
+      "path": "research/STARMAP_COGNITIVE_GEOMETRY_DUAL_ORIGIN_LINEAGE_NOTE_2026-08-31.md",
+      "sha256": "d234eb37d9092170c8780d6548593bda2b3a21792b122badf75b9bf48e1c83ff",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2662,
+      "path": "research/STARMAP_COGNITIVE_GEOMETRY_LINEAGE_CORRECTION_2026-08-31.md",
+      "sha256": "472c82678fc5e258228c286691361f435020b8318abf4baeae48838638dc6e97",
+      "surface": "GIT"
+    },
+    {
       "bytes": 4257,
       "path": "research/STARMAP_HISTORICAL_SOURCE_MANIFEST_2026-08-31.json",
       "sha256": "3d1144c9af7d973c1ff9f61d12372d9cde78ec02360763a929b659a5d620e123",
@@ -163,15 +181,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 4487,
+      "bytes": 5272,
       "path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.json",
-      "sha256": "343530003b0393da006ada2dfeffb5ef4f6c3296c3ba1b6c392d7dcff6962489",
+      "sha256": "e9598a60296676094b1d83c828e920e63ea054e950eb1e323825237405bfd676",
       "surface": "GIT"
     },
     {
-      "bytes": 16802,
+      "bytes": 17428,
       "path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.md",
-      "sha256": "806189768d577337293ccca62581b803a8cbe49ab6f7fad410b8535479b70917",
+      "sha256": "046e08913cf1b913dc8812d4e85a0818e5e3cadd3a1a914d4662a7e6a854e387",
       "surface": "GIT"
     },
     {
@@ -3463,6 +3481,48 @@
       "surface": "GIT"
     },
     {
+      "bytes": 305,
+      "path": "state/analysis/V14R_PREDICATE_HORIZON_CAMPAIGN_20260831T145850Z/CAMPAIGN_RECEIPT.json",
+      "sha256": "e7fb0ea258dc32e0c197037892a383c9ddf3ed1b768c0e46079bed5d56cc4b7a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 825,
+      "path": "state/analysis/V14_ATTEMPT_A_INVALIDATION_2026-08-31.json",
+      "sha256": "c14f2c65f602eb4f06e2c78d18647a4309311f08fdcb1a843b9fd2bd4a60a344",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 115,
+      "path": "state/analysis/V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z/2026083111/H1/eval.stderr.log",
+      "sha256": "ff445b1b3f673fe47cc1abaef3dc7029cbb4eb9eafcdc3a5e6d40bad7462f78a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 0,
+      "path": "state/analysis/V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z/2026083111/H1/eval.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 25924,
+      "path": "state/analysis/V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z/2026083111/train.stderr.log",
+      "sha256": "8046e1c466c9dfe8f5609c53cf0e2074822617d3deb498b7c636bde065b26332",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 41859,
+      "path": "state/analysis/V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z/2026083111/train.stdout.log",
+      "sha256": "c652cd6b90c495ad2af930fce1f14cd5f85743ceedd1ad612ee77b53c1fc9260",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 27379,
+      "path": "state/analysis/V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z/2026083111/train/RUN_MANIFEST.json",
+      "sha256": "2e74d729d34f4aed61c53b165426daaa082e8b05dbe1820d43e29287684b2615",
+      "surface": "GIT"
+    },
+    {
       "bytes": 5380,
       "path": "state/analysis/V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z/2026083111/train/checkpoints/H1/adapter/README.md",
       "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
@@ -3475,9 +3535,45 @@
       "surface": "GIT"
     },
     {
-      "bytes": 304,
+      "bytes": 5380,
+      "path": "state/analysis/V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z/2026083111/train/checkpoints/H2/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z/2026083111/train/checkpoints/H2/adapter/adapter_config.json",
+      "sha256": "3d8858c6942d4be688de7d90f9f5b5bd288d2e0b8c11cd9efa16453bea069405",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 5380,
+      "path": "state/analysis/V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z/2026083111/train/checkpoints/H4/adapter/README.md",
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1297,
+      "path": "state/analysis/V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z/2026083111/train/checkpoints/H4/adapter/adapter_config.json",
+      "sha256": "3d8858c6942d4be688de7d90f9f5b5bd288d2e0b8c11cd9efa16453bea069405",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 553,
       "path": "state/analysis/V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z/CAMPAIGN_RECEIPT.json",
-      "sha256": "df11b54c51db11a0ff7bb56c261734a3242777d0cfa00f38d43b84515eb7f2fe",
+      "sha256": "ac00916256921eb699793396419dd1a0d93d868c0cfca259b599e4cb3e506ab9",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1563,
+      "path": "state/analysis/V14_PREDICATE_HORIZON_IDENTITY_INVALIDATION_2026-08-31.json",
+      "sha256": "0006fd4a93dcfffe176b57a92b91139d57705fb9c8b0b619786c36438b957b34",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1362,
+      "path": "state/analysis/V14_PREDICATE_HORIZON_IDENTITY_INVALIDATION_2026-08-31.md",
+      "sha256": "168a97ea3b6ee1d639d0c3015fb5375cde0da214dc49c73eb2879af4e82e99c8",
       "surface": "GIT"
     },
     {
@@ -3667,9 +3763,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 18,
+      "bytes": 38,
       "path": "state/analysis/v14_predicate_horizon_campaign_logs/CAMPAIGN_20260831T140251Z.stdout.log",
-      "sha256": "00123d77c6386fd0be0604dae694c8c70b87e29c0cf0ddccce9166454783370a",
+      "sha256": "0ae2dc16667f4248aaed2b47c0ec92f3a33670d9f821922b5f94ac0052b5cbfe",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 775,
+      "path": "state/analysis/v14r_predicate_horizon_campaign_logs/ACTIVE_CAMPAIGN.json",
+      "sha256": "aabf33bc8af67f78123ef4f92dabde06d0d3e1e4954b424bfee23a6a2712a4ba",
       "surface": "GIT"
     },
     {
@@ -4111,27 +4213,27 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1872,
+      "bytes": 1978,
       "path": "state/current.md",
-      "sha256": "2093cfb8f19c85c0241231d003570461b03c2d6b9b228cc98a8cd376dcc128b5",
+      "sha256": "a8c434e884a538cef5f229b37f88dc952c37ba555a36a4a013d4130914c0a3b9",
       "surface": "GIT"
     },
     {
-      "bytes": 942,
+      "bytes": 1456,
       "path": "state/current/ACTIVE_CURRENT_STATE.json",
-      "sha256": "830e1347ce3cbec05d8a456ac69020d25a1751351de611dbebd03834faf24262",
+      "sha256": "58cc8428be5f82be5b09187d7061b9dcf13ff83a87d430e8c67f3088b7972656",
       "surface": "GIT"
     },
     {
-      "bytes": 5441,
+      "bytes": 6632,
       "path": "state/current/ACTIVE_DECISIONS.json",
-      "sha256": "bffd20e39a459e3882c278bc3315d412a1a26d26a7e368095df8d2ff34be7114",
+      "sha256": "9c99ca3ea3b0aa6cb5bba3da934c14b61f99d847595845f4d0de3452865e92f6",
       "surface": "GIT"
     },
     {
-      "bytes": 55997,
+      "bytes": 56926,
       "path": "state/design_thread_stream.md",
-      "sha256": "9fa61eff789c5db8e5d3db1e36e7cdf5f785582586b251abd38a2daea1ffe7b2",
+      "sha256": "f9868378543498083e5e1d928746992009597fb0f17b6b8c36750084888dbcc0",
       "surface": "GIT"
     },
     {
@@ -4207,9 +4309,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1231,
+      "bytes": 20345,
+      "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1100-04-00.md",
+      "sha256": "d89da11fbbaecbc34ebab8d539e3574c5ce4f0e97c00faf2255c8b1d57740e8a",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1209,
       "path": "state/doctrine_snapshot/ACTIVE_COMMANDERS_INTENT_TURN_READBACK.json",
-      "sha256": "303cfabcd3d97f237c0c713fb274033ef944d794907cc0c8d834539900d22c7c",
+      "sha256": "2567b45edcdb960e0b6cba37c7596ced21cb714e059e70273a98cecbbae605a2",
       "surface": "GIT"
     },
     {
@@ -4219,9 +4327,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1456,
+      "bytes": 1782,
       "path": "state/doctrine_snapshot/ACTIVE_DOCTRINE_FRONTIER.md",
-      "sha256": "c7a6103299cb301308ca86504b3764f041f0f50bcc096e950842549faaf533a1",
+      "sha256": "fb319e32349e376057d6d5b3decf5014bea644a417b862e90dafd0f8f04b3356",
       "surface": "GIT"
     },
     {
@@ -4255,9 +4363,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 1585,
+      "bytes": 1529,
       "path": "state/live_shadow.md",
-      "sha256": "5d21ae775d7d22bc8bf2b6439230ce3106eb3e654353a29ac18f1d6f1f5d3b61",
+      "sha256": "2bb97baf82e99a58037153c5aa3239fe0a1f71a68497c5d2aa9b6410970d60fa",
       "surface": "GIT"
     },
     {
@@ -4279,21 +4387,45 @@
       "surface": "GIT"
     },
     {
+      "bytes": 4962,
+      "path": "state/locks/V14R1_PREDICATE_HORIZON_INPUT_LOCK_2026-08-31.json",
+      "sha256": "83c058fc621a7a887d7a19e57ee7511c77c24d0c0c5418800326d6854cb94a29",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 5107,
+      "path": "state/locks/V14R1_PREDICATE_HORIZON_INPUT_LOCK_V2_2026-08-31.json",
+      "sha256": "ada4dfef6a6ab2a5f65207fa6bca469e9083298c2b5c0161a129f50161eb2871",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 4793,
+      "path": "state/locks/V14R_PREDICATE_HORIZON_INPUT_LOCK_2026-08-31.json",
+      "sha256": "6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38",
+      "surface": "GIT"
+    },
+    {
       "bytes": 4150,
       "path": "state/locks/V14_PREDICATE_HORIZON_INPUT_LOCK_2026-08-31.json",
       "sha256": "4dc91f2d5cdf7f75007861d0a990315fdb0d6512016dc2c3b59f9d4596aff9e2",
       "surface": "GIT"
     },
     {
-      "bytes": 714,
-      "path": "state/next_steps.md",
-      "sha256": "414e52a03502e5b9348bcb0c0441b65ea4cbad4b4a4150755e67c82a43e51733",
+      "bytes": 1699,
+      "path": "state/maintenance/V14_INPUT_LOCK_MUTATION_INCIDENT_2026-08-31.md",
+      "sha256": "2ab600c2104dbcf6210888cb5170f08a10f84e3aed23397a7f008a0beb76231a",
       "surface": "GIT"
     },
     {
-      "bytes": 312,
+      "bytes": 722,
+      "path": "state/next_steps.md",
+      "sha256": "26f6a853c1d6867fd5834c212e60104c406408d73512fb64371bbc39913a1a68",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 390,
       "path": "state/next_steps/ACTIVE_NEXT_STEPS.json",
-      "sha256": "cfe859a538e6df32daa969668cdf436cc4548aec2a26f02a136c54e28441392c",
+      "sha256": "5de1f40c651ce262bf4e2c7556006d8d1d0cfef647a5341d3edb55093728804b",
       "surface": "GIT"
     },
     {
@@ -4366,6 +4498,24 @@
       "bytes": 8107,
       "path": "state/next_steps/V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE_PREREG_2026-08-31.json",
       "sha256": "da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2007,
+      "path": "state/next_steps/V14R1_PREDICATE_HORIZON_IDENTITY_RECOVERY_AMENDMENT_2026-08-31.json",
+      "sha256": "37664d09171917667ba42050735e2b5848b687d1e7c1404af5b90cda87543d1e",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 6482,
+      "path": "state/next_steps/V14R_PREDICATE_DOSE_HORIZON_PREREG_2026-08-31.json",
+      "sha256": "d9db320e973c6f397b0e3422746c2448b0e43530ae270c2e79db1f57791ea162",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 3415,
+      "path": "state/next_steps/V14R_PREDICATE_DOSE_HORIZON_TRAINING_CONTRACT_2026-08-31.json",
+      "sha256": "28548c863d657fb393112e205a4da95c96efbfe680b4c5a0721648716823a55a",
       "surface": "GIT"
     },
     {
@@ -4543,6 +4693,54 @@
       "surface": "GIT"
     },
     {
+      "bytes": 2191,
+      "path": "state/qualification/V14R1_PREDICATE_HORIZON_RUNTIME_20260831/HOST_LOCK.json",
+      "sha256": "9e55b0d57dfd3b8acc54b63b155b66814c2735f75ca03f9696d90d602e3518ee",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 537,
+      "path": "state/qualification/V14R1_PREDICATE_HORIZON_RUNTIME_20260831/RUNTIME_ENVIRONMENT_CRITICAL.json",
+      "sha256": "9363ea005d27fcb04baa073675f3c73cce47ad0a8aafa68372f98c3e8a943675",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 283,
+      "path": "state/qualification/V14R1_PREDICATE_HORIZON_RUNTIME_ATTEMPT_01_WRONG_PYTHON_20260831/FAILURE.json",
+      "sha256": "e857899e5b5f52def4168c14573e06d296b393d43a6e4dac6c896a867b8960ef",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2606,
+      "path": "state/qualification/V14R_PREDICATE_HORIZON_PREEXECUTION_20260831.json",
+      "sha256": "8d255cc44169330d48a962f88617744aa75add7adb861d8a23b2246ef1a6a7ee",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 944,
+      "path": "state/qualification/V14R_PREDICATE_HORIZON_REPEATABILITY_20260831/PROFILE_LOCK.json",
+      "sha256": "49ebaf136ac61367ab6ade9de60b88726d88fb7bc81085ac2d0efc9f852627c5",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 3295,
+      "path": "state/qualification/V14R_PREDICATE_HORIZON_REPEATABILITY_20260831/REPEATABILITY_QUALIFICATION.json",
+      "sha256": "14fe3b0a15e37d5c57f2ce94febe27708e983f8e901ab06a050156aa2a0e1925",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2191,
+      "path": "state/qualification/V14R_PREDICATE_HORIZON_RUNTIME_20260831/HOST_LOCK.json",
+      "sha256": "0096682727fd0f9f54328033b70189b952f88c085ec00db1ccc49b832433cfc4",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 537,
+      "path": "state/qualification/V14R_PREDICATE_HORIZON_RUNTIME_20260831/RUNTIME_ENVIRONMENT_CRITICAL.json",
+      "sha256": "9363ea005d27fcb04baa073675f3c73cce47ad0a8aafa68372f98c3e8a943675",
+      "surface": "GIT"
+    },
+    {
       "bytes": 1227,
       "path": "state/qualification/V14_PREDICATE_HORIZON_BASELINE_INHERITANCE_20260831.json",
       "sha256": "2c5e0e907de8abb565b4ba610a8059cbc97df2a475a79140fd4e63ca5328c4ba",
@@ -4675,15 +4873,15 @@
       "surface": "GIT"
     },
     {
-      "bytes": 963,
+      "bytes": 1264,
       "path": "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md",
-      "sha256": "40523bd105258177bdc40e9d4e6b965a59481d4e071f5138c3add03f8de069fb",
+      "sha256": "a50affbc3c42e43193c693b6f26922abd831387ce880872525792c32d69dd64d",
       "surface": "GIT"
     },
     {
-      "bytes": 1508,
+      "bytes": 2002,
       "path": "state/trace_matrix/ACTIVE_TRACE_MATRIX.md",
-      "sha256": "6dadaeaba322862efcb9d429603b1bc4204e3b8a5a83f28927806ecd9663a762",
+      "sha256": "9ff05e1e43494ae6af4fa001caf3cc3628fbe804306a3c36911640c28e213dea",
       "surface": "GIT"
     },
     {
@@ -4828,6 +5026,12 @@
       "bytes": 948,
       "path": "state/trace_matrix/turn_reconciliation/2026-08-31T1011-04-00.json",
       "sha256": "346c8f396bfea6cb79f91ce597df24a4a183a37e4cfdcc067e227e4946fc6841",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 1504,
+      "path": "state/trace_matrix/turn_reconciliation/2026-08-31T1100-04-00.json",
+      "sha256": "81a00cb192358bbd9ad89477cf4c17a7cdf30ecb8245735fa9e22c5fe2402a79",
       "surface": "GIT"
     },
     {
@@ -5371,6 +5575,24 @@
       "surface": "GIT"
     },
     {
+      "bytes": 3850,
+      "path": "tools/finalize_v14r1_predicate_horizon_preexecution.py",
+      "sha256": "44c013471a98de27224d8bc078063fb9862268af3077d5e9c9f6c4b68b7288fa",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 3848,
+      "path": "tools/finalize_v14r1_predicate_horizon_preexecution_v2.py",
+      "sha256": "71edba51b49d56e7259a5ccd0996d1904b2143590e622a3ef4de34552a9f92c8",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 3323,
+      "path": "tools/finalize_v14r_predicate_horizon_preexecution.py",
+      "sha256": "2967f0e85ba9e9ddf30be9c038fb81c5da8f0219771aadcff983c41b738af189",
+      "surface": "GIT"
+    },
+    {
       "bytes": 4301,
       "path": "tools/lock_v11_predicate_policy.py",
       "sha256": "cd84f83f3be0bf35f4ede51e7ac1dc0d4b117e7e7c57d98aaf47c64eece07f79",
@@ -5392,6 +5614,18 @@
       "bytes": 3024,
       "path": "tools/lock_v14_predicate_horizon.py",
       "sha256": "9a96601c1100e43343606823c2a57d6024eb89d4f35fad8662d2f761ca314a49",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 3198,
+      "path": "tools/lock_v14r1_predicate_horizon.py",
+      "sha256": "db94d70fb58f0c9e675647d78eaf7d7aff2139ced9ccf1aa43cc5cb998a42cd6",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 3353,
+      "path": "tools/lock_v14r1_predicate_horizon_v2.py",
+      "sha256": "a6748cdecee5c58d63413839469ac0921d4e2202f06cabe892710594a797c17d",
       "surface": "GIT"
     },
     {
@@ -5581,9 +5815,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 5657,
+      "bytes": 5979,
       "path": "transcript/THIS_CONVERSATION.md",
-      "sha256": "9a17f76dfe29040679df6f859cd13eed74324546c1336edca38d9f161d5cf47e",
+      "sha256": "55028043cc9c060764d87bd84c502adf220ebca7984e8e3066b69882a9c11866",
       "surface": "GIT"
     },
     {
@@ -6094,8 +6328,8 @@
       "surface": "HEAVY_RELEASE"
     }
   ],
-  "entry_count": 970,
-  "git_entry_count": 931,
+  "entry_count": 1009,
+  "git_entry_count": 970,
   "heavy_entry_count": 39,
   "heavy_published_count": 39,
   "laws": [
@@ -6104,8 +6338,8 @@
     "COMPLETE RESEARCH LINEAGE = GIT EVIDENCE + HASHED HEAVY RELEASE SURFACE",
     "PARTIAL SEALED RESEARCH != DISPOSABLE INTERMEDIATE"
   ],
-  "schema": "cfe.research-publication-manifest.v10",
+  "schema": "cfe.research-publication-manifest.v11",
   "self_reference_rule": "manifest excluded from own entries",
-  "status": "V14_ACTIVE__0_OF_6_TRAJECTORIES_SEALED__STARMAP_SALVAGE_PUBLISHED",
+  "status": "V14R_ACTIVE__0_OF_6_SEALED__STARMAP_LINEAGE_CORRECTED",
   "unpublished_heavy_count": 0
 }

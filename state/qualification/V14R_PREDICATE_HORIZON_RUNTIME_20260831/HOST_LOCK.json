@@ -1,0 +1,63 @@
+{
+  "base_snapshot_manifest_sha256": "0d429d3f6e0fa276fa7bb24c3566ed7ce3856c22230bb58936527f1f15f2bc6d",
+  "base_snapshot_path": "D:\\CFE_HF_CACHE\\models--argilla--CapybaraHermes-2.5-Mistral-7B\\snapshots\\d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+  "hf_repo": "argilla/CapybaraHermes-2.5-Mistral-7B",
+  "hf_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+  "inherited_selected_profile": {
+    "alpha": 16,
+    "dropout": 0.0,
+    "name": "all_linear_r8",
+    "priority": 0,
+    "r": 8,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "input_lock_sha256": "6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38",
+  "laws": [
+    "SAME SOURCE != SAME EXECUTABLE ENVIRONMENT",
+    "OLD PROFILE FIT != NEW LOCK REPEATABILITY",
+    "TOKEN REFERENCE PRESENT != LIVE TOKENIZER MATCH"
+  ],
+  "profile_inheritance_length_gate": true,
+  "runtime_critical": {
+    "bitsandbytes": "0.50.2",
+    "compute_capability": [
+      8,
+      9
+    ],
+    "cuda_available": true,
+    "executable": "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "gpu_total_memory_bytes": 6438780928,
+    "numpy": "2.5.2",
+    "peft": "0.20.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "torch": "2.12.1+cu126",
+    "torch_cuda": "12.6",
+    "transformers": "4.57.6"
+  },
+  "runtime_tokenizer_exact_match": true,
+  "schema": "cfe.v14.predicate-horizon-host-lock.v1",
+  "snapshot_all_files_reverified": true,
+  "snapshot_file_count": 11,
+  "source_v13_host_lock_sha256": "45b76a3c3cb30ac1fdebac669eef121b34f8fbf2764bcd5df84f28cf3aeaeb67",
+  "source_v13_profile_lock_sha256": "bdc751bf1391aa45bdfdc57a663b83e6457e28335a9605dd4c1873d379bc4066",
+  "status": "HOST_REVERIFIED__TOKENIZER_REPLAY_PASS__PROFILE_REPEATABILITY_PENDING",
+  "tokenizer_replay": {
+    "PREDICATE_IDENTIFYING_V12": {
+      "max_tokens": 217,
+      "mismatches": 0,
+      "rows": 72
+    }
+  },
+  "v13_qualified_max_tokens": 219,
+  "v14_max_tokens": 217
+}

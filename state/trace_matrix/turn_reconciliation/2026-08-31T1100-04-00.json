@@ -1,0 +1,33 @@
+{
+  "active_blockers": [],
+  "active_commander_binding": {
+    "alignment": "ALIGNED",
+    "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1100-04-00.md",
+    "sha256": "d89da11fbbaecbc34ebab8d539e3574c5ce4f0e97c00faf2255c8b1d57740e8a"
+  },
+  "commander_source": {
+    "path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+  },
+  "frontier": {
+    "starmap_lineage": "CORRECTED__SELF_OBSERVATION_WITH_EXPLICIT_MECHANIZATION_INTENT",
+    "v14_attempt_a": "INVALIDATED_NON_SCIENTIFIC",
+    "v14r_job_id": "job-1c115593cb12",
+    "v14r_pid": 30856,
+    "v14r_pid_status": "ALIVE",
+    "v14r_sealed_trajectories": 0
+  },
+  "mode": "BUILD-COMMIT",
+  "new_material_artifacts": [
+    "research/STARMAP_COGNITIVE_GEOMETRY_LINEAGE_CORRECTION_2026-08-31.md",
+    "state/maintenance/V14_INPUT_LOCK_MUTATION_INCIDENT_2026-08-31.md",
+    "state/analysis/V14_ATTEMPT_A_INVALIDATION_2026-08-31.json",
+    "state/next_steps/V14R_PREDICATE_DOSE_HORIZON_PREREG_2026-08-31.json",
+    "state/next_steps/V14R_PREDICATE_DOSE_HORIZON_TRAINING_CONTRACT_2026-08-31.json",
+    "state/locks/V14R_PREDICATE_HORIZON_INPUT_LOCK_2026-08-31.json",
+    "state/qualification/V14R_PREDICATE_HORIZON_PREEXECUTION_20260831.json"
+  ],
+  "role": "R5 scientific execution / R4 lineage convergence",
+  "schema": "cfe.per-turn-reconciliation-receipt.v3",
+  "timestamp": "2026-08-31T11:00:41-04:00"
+}

@@ -14,6 +14,24 @@
     "literal radial/star layout requirement",
     "retroactive claim StarMap was already proven cognitive substrate"
   ],
+  "lineage_correction": {
+    "controls": [
+      "SELF-DESCRIPTION != COGNITIVE LAW",
+      "MECHANIZATION INTENT != MECHANISM VALIDATION",
+      "HISTORICAL FORMALIZATION != EMPIRICAL VALIDATION"
+    ],
+    "genealogy": [
+      "self-observed cognitive process",
+      "deliberate mechanization target",
+      "mathematical cognitive-geometry formalization",
+      "StarMap/NEAL implementation",
+      "later topology/memory/generative variants",
+      "CFE prospective experimental science"
+    ],
+    "path": "research/STARMAP_COGNITIVE_GEOMETRY_LINEAGE_CORRECTION_2026-08-31.md",
+    "sha256": "472c82678fc5e258228c286691361f435020b8318abf4baeae48838638dc6e97",
+    "status": "VERIFIED_HISTORICAL_INTENT__MECHANIZATION_INTENT_EXPLICIT__COGNITIVE_MECHANISM_OPERATOR_REPORTED"
+  },
   "markdown_path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.md",
   "markdown_sha256": "806189768d577337293ccca62581b803a8cbe49ab6f7fad410b8535479b70917",
   "promote_to_research": [

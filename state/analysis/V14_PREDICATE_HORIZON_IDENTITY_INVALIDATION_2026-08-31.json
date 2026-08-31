@@ -1,0 +1,31 @@
+{
+  "current_parent_v13": {
+    "aggregate_sha256": "5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f",
+    "bytes": 1488,
+    "local_interference_weakened": true,
+    "path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_FINAL_DISPOSITION_2026-08-31.json",
+    "sha256": "48f29fa9c5176c9e7e08c5ecf4ec55758f75902adc26059d592ff7cc93817773"
+  },
+  "failure": "INPUT_LOCK_VERIFY_FAIL on V13 final disposition byte length before H1 evaluation",
+  "laws": [
+    "LOCK MUTATION REQUIRES NEW IDENTITY",
+    "TRAINING COMPLETED != SCIENTIFIC EVIDENCE ADMITTED",
+    "FAIL-CLOSED VERIFIER SUCCESS != CAMPAIGN FAILURE"
+  ],
+  "original_lock_path": "state/locks/V14_PREDICATE_HORIZON_INPUT_LOCK_2026-08-31.json",
+  "original_lock_sha256": "4dc91f2d5cdf7f75007861d0a990315fdb0d6512016dc2c3b59f9d4596aff9e2",
+  "original_parent_v13_expected": {
+    "bytes": 2347,
+    "sha256": "526ae885dc21c53e28a4d5f7773d2756dd27815dd3ed3d8c6646675612f9825f"
+  },
+  "recovery_identity": "V14R1",
+  "schema": "cfe.v14.identity-invalidation.v1",
+  "scientific_treatment": "quarantine all original V14 trajectory artifacts; admit no H1/H2/H4 scientific outcome; require new identity/runtime qualification",
+  "status": "V14_ORIGINAL_IDENTITY_INVALIDATED__NO_SCIENTIFIC_EVAL_ADMITTED",
+  "timeline": {
+    "H1_eval_failed_closed": "2026-08-31T10:26:01.201495-04:00",
+    "campaign_started": "2026-08-31T10:02:51.979581-04:00",
+    "parent_file_mutated_mtime": "2026-08-31T10:08:38.840297-04:00",
+    "seed3111_training_manifest_completed": "2026-08-31T10:26:00.020676-04:00"
+  }
+}

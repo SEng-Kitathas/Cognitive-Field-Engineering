@@ -1,0 +1,99 @@
+{
+  "anchors": {
+    "baseline_inheritance_sha256": "2c5e0e907de8abb565b4ba610a8059cbc97df2a475a79140fd4e63ca5328c4ba",
+    "candidate_manifest_sha256": "dd0577ca49c93e75f111c1506cf7f8bc0abcac2341ac46433fd48927584f76a3",
+    "preregistration_sha256": "d9db320e973c6f397b0e3422746c2448b0e43530ae270c2e79db1f57791ea162",
+    "static_qualification_sha256": "eee4995ca76045af1f9c2f757da61b06cfa63083b00fe946d5c50cbfe45748b9",
+    "training_contract_sha256": "28548c863d657fb393112e205a4da95c96efbfe680b4c5a0721648716823a55a",
+    "v13_final_disposition_sha256": "48f29fa9c5176c9e7e08c5ecf4ec55758f75902adc26059d592ff7cc93817773"
+  },
+  "file_count": 18,
+  "files": {
+    "state/analysis/V13_OPTIMIZER_INTERFERENCE_FINAL_DISPOSITION_2026-08-31.json": {
+      "bytes": 1488,
+      "sha256": "48f29fa9c5176c9e7e08c5ecf4ec55758f75902adc26059d592ff7cc93817773"
+    },
+    "state/candidates/v14_predicate_horizon_20260831/MANIFEST.json": {
+      "bytes": 8699,
+      "sha256": "dd0577ca49c93e75f111c1506cf7f8bc0abcac2341ac46433fd48927584f76a3"
+    },
+    "state/candidates/v14_predicate_horizon_20260831/PREDICATE_EVAL.private.jsonl": {
+      "bytes": 15640,
+      "sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744"
+    },
+    "state/candidates/v14_predicate_horizon_20260831/PREDICATE_IDENTIFYING_V12.jsonl": {
+      "bytes": 59832,
+      "sha256": "d44e507ad80f88ce4d2f25e970062614a1f1a0ba22089c7e5f0402a540f4ef80"
+    },
+    "state/candidates/v14_predicate_horizon_20260831/PREDICATE_IDENTIFYING_V12.sidecar.private.jsonl": {
+      "bytes": 50112,
+      "sha256": "eb3e8b547a9595fe1d9fd88cfda9ccd0905a06a45ba026bf2789018422eaa066"
+    },
+    "state/candidates/v14_predicate_horizon_20260831/PREDICATE_IDENTIFYING_V12.token_reference.private.jsonl": {
+      "bytes": 121152,
+      "sha256": "48e57594b7e90031d7c46838270bc247e5ea9bf6b8c88afc9b6a73b491b383d7"
+    },
+    "state/next_steps/V14R_PREDICATE_DOSE_HORIZON_PREREG_2026-08-31.json": {
+      "bytes": 6482,
+      "sha256": "d9db320e973c6f397b0e3422746c2448b0e43530ae270c2e79db1f57791ea162"
+    },
+    "state/next_steps/V14R_PREDICATE_DOSE_HORIZON_TRAINING_CONTRACT_2026-08-31.json": {
+      "bytes": 3415,
+      "sha256": "28548c863d657fb393112e205a4da95c96efbfe680b4c5a0721648716823a55a"
+    },
+    "state/qualification/V14_PREDICATE_HORIZON_BASELINE_INHERITANCE_20260831.json": {
+      "bytes": 1227,
+      "sha256": "2c5e0e907de8abb565b4ba610a8059cbc97df2a475a79140fd4e63ca5328c4ba"
+    },
+    "state/qualification/V14_PREDICATE_HORIZON_STATIC_HOSTILE_2026-08-31.json": {
+      "bytes": 1438,
+      "sha256": "eee4995ca76045af1f9c2f757da61b06cfa63083b00fe946d5c50cbfe45748b9"
+    },
+    "tools/audit_v14_predicate_horizon_candidate.py": {
+      "bytes": 2383,
+      "sha256": "331af380bf7e3569fbfc0f211ee0e1365c8e9e5bfdac15737eae942589271972"
+    },
+    "tools/evaluate_v14_predicate_horizon.py": {
+      "bytes": 4516,
+      "sha256": "86c26186ef9a453c799fce0069324287382c0c5111cb4ed6b990a651a962029b"
+    },
+    "tools/finalize_v14r_predicate_horizon_preexecution.py": {
+      "bytes": 3323,
+      "sha256": "2967f0e85ba9e9ddf30be9c038fb81c5da8f0219771aadcff983c41b738af189"
+    },
+    "tools/prepare_v14_predicate_horizon_runtime.py": {
+      "bytes": 4021,
+      "sha256": "9035ad6f02d212549af6e5b43f4f4b2cfacd3e4e4dc90e03a461c47423ac2378"
+    },
+    "tools/qualify_v14_predicate_horizon_repeatability.py": {
+      "bytes": 4778,
+      "sha256": "249645ee7ffff657c5fd3ecacc87713afc3f7f240f57f87100b6bf2c8d1e02cb"
+    },
+    "tools/run_v14_predicate_horizon_campaign.py": {
+      "bytes": 6577,
+      "sha256": "fb0a59ffe3e9c4c3fe8bea6c274ca9a4e55fe649337f560f3eb1ccb2153c9bf8"
+    },
+    "tools/train_v14_predicate_horizon.py": {
+      "bytes": 6225,
+      "sha256": "86d646a7c8b4b4da8ffb1a14799331ed5cf8ef302ba7d792fb3a296ae98cf4f5"
+    },
+    "tools/v14_predicate_horizon_common.py": {
+      "bytes": 3337,
+      "sha256": "1f858405b2c8be04831d6f0ea5a157e2afc11572303c61d180c12e809f526688"
+    }
+  },
+  "laws": [
+    "LOCKED_INPUTS != QUALIFIED_RUNTIME",
+    "SAME TRAJECTORY != SEPARATE INITIALIZATIONS",
+    "LOCK MUTATION REQUIRES NEW IDENTITY",
+    "FAILED ATTEMPT != SCIENTIFIC OUTCOME"
+  ],
+  "mutation_rule": "Any locked-byte change invalidates this recovery lock and requires another new identity/runtime qualification.",
+  "recovery_identity": "V14R_PREDICATE_DOSE_HORIZON_20260831",
+  "schema": "cfe.v14r.predicate-horizon-input-lock.v1",
+  "scientific_design_changed": false,
+  "scientific_difference": "developmental exposure horizon along one predicate-only trajectory; unchanged from v1.4 Attempt A",
+  "scientific_training_authorized": false,
+  "status": "LOCKED_PRE_RUNTIME__NO_V14_SCIENTIFIC_TRAINING",
+  "supersedes_attempt_identity_only": "V14_PREDICATE_HORIZON_CAMPAIGN_20260831T140251Z"
+}

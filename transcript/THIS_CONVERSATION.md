@@ -54,3 +54,6 @@ User authorized stripping StarMap lineage for parts. Reconstructed four mechanis
 
 ## 2026-08-31 10:11 Eastern Daylight Time — FRONTIER CORRECTION
 Verified v1.4 already active under PID 27236; seed2026083111 training, 0/6 sealed. Updated continuity; StarMap remains outside current learner intervention.
+
+## 2026-08-31 11:00 Eastern Daylight Time — LINEAGE + V14R RECOVERY
+User clarified StarMap self-description was intentionally given to become mechanism. Genealogy corrected. V14 Attempt A provenance-lock defect discovered and isolated; V14R new identity requalified and launched under job job-1c115593cb12 / PID 30856.

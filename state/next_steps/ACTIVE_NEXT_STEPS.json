@@ -1,17 +1,16 @@
 {
-  "as_of": "2026-08-31T10:11:55-04:00",
+  "as_of": "2026-08-31T11:00:41-04:00",
   "blocked": [],
+  "controls": [
+    "Attempt A inadmissible",
+    "no V14R locked-byte mutation",
+    "no StarMap learner intervention"
+  ],
   "p0": [
-    "keep PID 27236 only",
-    "complete six v1.4 trajectories",
+    "keep job job-1c115593cb12 / PID 30856 only",
+    "complete six V14R trajectories",
     "mechanical H1/H2/H4 disposition",
     "hostile closeout"
   ],
-  "p1_starmap": [
-    "ST-4",
-    "ST-1",
-    "ST-2",
-    "ST-3"
-  ],
-  "schema": "cfe.active-next-steps.v4"
+  "schema": "cfe.active-next-steps.v5"
 }

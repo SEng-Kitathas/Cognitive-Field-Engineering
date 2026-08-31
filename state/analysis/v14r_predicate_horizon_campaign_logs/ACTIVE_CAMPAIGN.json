@@ -1,0 +1,14 @@
+{
+  "attempt_a_invalidated_path": "state/analysis/V14_ATTEMPT_A_INVALIDATION_2026-08-31.json",
+  "identity": "V14R_PREDICATE_DOSE_HORIZON_20260831",
+  "input_lock_sha256": "6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38",
+  "job_id": "job-1c115593cb12",
+  "outroot": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V14R_PREDICATE_HORIZON_CAMPAIGN_20260831T145850Z",
+  "pid": 30856,
+  "pid_status": "ALIVE",
+  "preexec_sha256": "8d255cc44169330d48a962f88617744aa75add7adb861d8a23b2246ef1a6a7ee",
+  "receipt": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V14R_PREDICATE_HORIZON_CAMPAIGN_20260831T145850Z\\CAMPAIGN_RECEIPT.json",
+  "schema": "cfe.v14r.active-campaign.v1",
+  "sealed_trajectories": 0,
+  "status": "RUNNING"
+}

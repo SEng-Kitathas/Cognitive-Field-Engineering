@@ -1,35 +1,34 @@
 # CFE LIVE SHADOW
 
 ## Thread Identity
-- Last Updated: 2026-08-31 10:11 Eastern Daylight Time
+- Last Updated: 2026-08-31 11:00 Eastern Daylight Time
 - Mode: BUILD-COMMIT
-- Dominant Objective: run v1.4 dose/horizon cleanly while preserving StarMap salvage as a separate prospective research frontier.
+- Dominant Objective: run clean V14R dose/horizon while preserving corrected StarMap genealogy and scientific lineage.
 
 ## Active User Intent
-- Maximize CFE maturity; no MVP closure.
-- Keep all decisions/research/Commander bindings/continuity fresh per turn.
-- Strip StarMap for useful parts without preserving historical baggage.
+- Maximize CFE maturity.
+- Keep all continuity/research/Commander surfaces fresh every turn.
+- StarMap cognitive geometry = self-observed cognition deliberately described for conversion into mechanism.
 
 ## Current Authoritative State
-- v1.3 closed LOCAL_INTERFERENCE_WEAKENED.
-- v1.4 qualified and ACTIVE under PID `27236` (ALIVE); 0/6 trajectories sealed; seed2026083111 training.
-- H1/H2/H4 = 36/72/144 optimizer-step longitudinal readouts from the same trajectory.
-- StarMap salvage complete as RESEARCH CROSSWALK NOT DOCTRINE.
+- Correct StarMap path: self-observation + explicit mechanization intent -> formal cognitive geometry -> StarMap/NEAL -> CFE experimentalization.
+- V14 Attempt A invalidated due post-lock provenance mutation; no scientific outcome admitted.
+- V14R freshly locked/requalified; job `job-1c115593cb12`, PID `30856` ALIVE; 0/6 sealed.
 
 ## Decisions Locked In
-- Do not duplicate v1.4 runner.
-- No StarMap learner intervention during v1.4.
-- StarMap useful abstractions enter prospective queue; brittle historical implementations are rejected/quarantined.
+- `MECHANIZATION INTENT != MECHANISM VALIDATION`.
+- Attempt A is failed lineage only.
+- V14R same science/new identity; no checkpoint reuse.
+- No StarMap intervention during V14R.
 
 ## Open Loops
-- Does more developmental horizon stabilize two-sided predicate competence?
-- Does competence improve monotonically or pass through unstable basins?
-- Which StarMap-derived field/compiler hypothesis deserves first prospective test after v1.4?
+- V14R dose/horizon result.
+- Which operator-derived cognitive-geometry dimensions survive prospective CFE tests.
 
 ## Immediate Next Step
-Let v1.4 seed2026083111 train/evaluate to H4 and seal, then continue frozen trajectories unchanged.
+Continue V14R unchanged to six trajectories or fail closed.
 
 ## Delta Since Previous Shadow
-- Corrected frontier from v1.4 “next” to v1.4 ACTIVE.
-- Exact PID and checkpoint design recorded.
-- StarMap remains quarantined from current learner intervention.
+- StarMap genealogy strengthened from “self-description later formalized” to “self-description explicitly intended for mechanization from origin.”
+- V14 Attempt A integrity defect identified and isolated.
+- V14R passed all gates and launched cleanly.

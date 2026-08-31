@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-31T10:10:12-04:00",
+  "as_of": "2026-08-31T11:00:41-04:00",
   "decisions": [
     {
       "consequence": "no CFE graduation at first useful Microseed handoff",
@@ -98,6 +98,27 @@
       "evidence_basis": "old implementations collapse relation into embeddings/radial similarity and brittle heuristics",
       "replay_trigger": "new primary evidence supports literal mechanism",
       "status": "VERIFIED_SALVAGE_DECISION"
+    },
+    {
+      "consequence": "genealogy becomes observe -> formalize/mechanize -> StarMap/NEAL -> CFE",
+      "decision": "StarMap cognitive geometry was self-observation with explicit mechanization intent",
+      "evidence_basis": "operator clarification + recovered historical source",
+      "replay_trigger": "contradictory primary-source evidence",
+      "status": "VERIFIED_LINEAGE_DECISION"
+    },
+    {
+      "consequence": "preserve Attempt A as failed lineage; no outcome/checkpoint reuse",
+      "decision": "Invalidate V14 Attempt A scientifically",
+      "evidence_basis": "fail-closed lock verification after post-lock v1.3 disposition mutation",
+      "replay_trigger": "recovery of exact original lock bytes before any reuse, which was not found",
+      "status": "VERIFIED_SCIENTIFIC_INTEGRITY_DECISION"
+    },
+    {
+      "consequence": "fresh lock/runtime/repeatability/preexec and fresh retraining",
+      "decision": "Recover as V14R new identity with unchanged science",
+      "evidence_basis": "LOCK MUTATION REQUIRES NEW IDENTITY + exact old bytes unrecoverable",
+      "replay_trigger": "any V14R locked-byte drift",
+      "status": "VERIFIED_RECOVERY_DECISION"
     }
   ],
   "schema": "cfe.active-decisions.v1"

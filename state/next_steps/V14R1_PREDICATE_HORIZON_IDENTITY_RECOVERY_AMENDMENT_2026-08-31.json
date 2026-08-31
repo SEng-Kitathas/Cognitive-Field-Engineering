@@ -1,0 +1,47 @@
+{
+  "original_v14": {
+    "campaign_status": "BLOCKED",
+    "lock_sha256": "4dc91f2d5cdf7f75007861d0a990315fdb0d6512016dc2c3b59f9d4596aff9e2",
+    "parent_v13_final_disposition_sha256": "526ae885dc21c53e28a4d5f7773d2756dd27815dd3ed3d8c6646675612f9825f",
+    "scientific_evals_admitted": 0
+  },
+  "reason": "Original V14 input identity invalidated mid-run by non-scientific replacement of locked upstream V13 final-disposition artifact; exact predecessor bytes unrecoverable.",
+  "recovery_rules": [
+    "new input lock identity",
+    "fresh host revalidation",
+    "fresh repeatability qualification",
+    "fresh preexecution authorization",
+    "full six-seed rerun; original V14 outputs excluded"
+  ],
+  "schema": "cfe.v14r1.identity-recovery-amendment.v1",
+  "scientific_invariants_unchanged": {
+    "candidate_manifest_sha256": "dd0577ca49c93e75f111c1506cf7f8bc0abcac2341ac46433fd48927584f76a3",
+    "composed_examples": 0,
+    "dataset": "PREDICATE_IDENTIFYING_V12",
+    "horizons": {
+      "H1": 36,
+      "H2": 72,
+      "H4": 144
+    },
+    "policy_examples": 0,
+    "preregistration_sha256": "06d7cdf596240cc1b147c59ad7ce73612dd3fd1e9a303507bbce90e36b1eca7f",
+    "seeds": [
+      2026083111,
+      2026083112,
+      2026083113,
+      2026083114,
+      2026083115,
+      2026083116
+    ],
+    "starMap_learner_intervention": false,
+    "training_contract_sha256": "2545051a74260f88e108983556b57ff3644334be6a4d1caf29b0d18195c60260"
+  },
+  "semantic_bridge": {
+    "new_parent_path": "state/analysis/V13_OPTIMIZER_INTERFERENCE_FINAL_DISPOSITION_2026-08-31.json",
+    "new_parent_sha256": "48f29fa9c5176c9e7e08c5ecf4ec55758f75902adc26059d592ff7cc93817773",
+    "old_parent_sha256": "526ae885dc21c53e28a4d5f7773d2756dd27815dd3ed3d8c6646675612f9825f",
+    "unchanged_parent_fact_disposition_LOCAL_INTERFERENCE_WEAKENED": true,
+    "unchanged_parent_fact_v13_aggregate_sha256": "5b9e7a895de84471a5c7b2216262bbb935cae0a2f7adb23be42759f48271f43f"
+  },
+  "status": "FROZEN_BEFORE_ANY_V14R1_MODEL_OUTCOME"
+}

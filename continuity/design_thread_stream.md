@@ -739,3 +739,14 @@ Resumed from saved de-duplicated StarMap corpus rather than rescanning E:. Recon
 Timestamp: 2026-08-31 10:11 Eastern Daylight Time
 Tags: V14 ACTIVE, STARMAP SALVAGE SEALED, FRONTIER CORRECTION
 After v1.3 closeout and StarMap salvage commit, local readback showed v1.4 had already been prequalified and launched. Verified PID 27236 alive, 0/6 trajectories sealed, seed2026083111 training. V1.4 is predicate-only with longitudinal H1/H2/H4 checkpoints at 36/72/144 steps and explicitly forbids parallel StarMap learner intervention. Updated all active continuity surfaces to this exact frontier.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 11:00 Eastern Daylight Time
+Tags: STARMAP ORIGIN CORRECTION
+User clarified: “Both, I described with the intent to convert to mechanism.”
+
+## Turn — ASSISTANT / EXECUTION RECORD
+Timestamp: 2026-08-31 11:00 Eastern Daylight Time
+Tags: LINEAGE CORRECTION, V14 INTEGRITY RECOVERY, V14R LAUNCH
+Corrected genealogy to self-observed cognition plus explicit co-originating mechanization intent. Historical source supports this intended observe/formalize/mechanize path. During reconciliation, V14 Attempt A was found blocked because a post-lock continuity mutation changed the lock-bound v1.3 final disposition. Original bytes were unrecoverable; Attempt A was invalidated scientifically. Created V14R with unchanged scientific design/new provenance identity; host revalidation, tokenizer replay, fresh repeatability and preexecution all passed; launched job job-1c115593cb12 PID 30856.

@@ -1,0 +1,7 @@
+{
+  "schema": "cfe.v14r1.runtime-attempt-failure.v1",
+  "status": "FAILED_PRE_RUNTIME",
+  "reason": "wrong control-plane Python environment; torch unavailable",
+  "scientific_effect": "none",
+  "next": "rerun identical qualification under exact prior qualified CUDA Python"
+}

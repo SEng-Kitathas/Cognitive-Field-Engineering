@@ -285,3 +285,9 @@ The historical StarMap corpus contained several good intuitions mixed with britt
 > **Do not confuse the world with the map, do not confuse the map with the learner's exposure, and do not let the field specification sit passively beside the machinery that is supposed to embody it.**
 
 That is directly useful to CFE.
+
+# Amendment — Corrected StarMap Origin: Self-Observation With Deliberate Mechanization Intent
+
+The original cognitive-geometry lineage is corrected: the operator was simultaneously describing an automatic self-observed cognitive process **and deliberately specifying it for conversion into mechanism**. The machine formalization was an intended translation target from the beginning, not a later architectural reinterpretation. See `research/STARMAP_COGNITIVE_GEOMETRY_LINEAGE_CORRECTION_2026-08-31.md` SHA `472c82678fc5e258228c286691361f435020b8318abf4baeae48838638dc6e97`.
+
+This changes genealogy, not evidence strength.
