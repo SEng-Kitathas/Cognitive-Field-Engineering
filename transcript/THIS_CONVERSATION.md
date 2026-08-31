@@ -60,3 +60,6 @@ User clarified StarMap self-description was intentionally given to become mechan
 
 ## 2026-08-31 11:09 Eastern Daylight Time — USER LINEAGE CLARIFICATION / RECOVERY
 User clarified StarMap cognitive geometry = personal cognitive phenomenology intentionally supplied for mechanization. Recorded without universalizing. Original V14 identity invalidated after mid-run locked-parent mutation; no scientific eval admitted. V14R1 freshly locked, runtime/repeatability/preexec qualified and launched as `job-d4aac6ed6175` PID `35196`.
+
+## 2026-08-31 12:12 Eastern Daylight Time — STARMAP ARCHAEOLOGY INGESTION
+Uploaded archaeology source SHA `a5fd4fe3ca8809d0bfe3e6fb3289a70086c17c2d3f1febd04c93a9b4ba9f8b41` ingested through provenance manifest and CFE evidence delta. Corrected genealogy and shape-of-reachability research invariant recorded. V14R1 remained active 0/6.

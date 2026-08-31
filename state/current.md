@@ -1,31 +1,27 @@
 # CFE CURRENT STATE
 
-As of: 2026-08-31 11:09 Eastern Daylight Time
+As of: 2026-08-31 12:12 Eastern Daylight Time
 Mode: BUILD-COMMIT
-Role: R5 scientific execution; R4 lineage convergence
+Role: R3 evidence synthesis / R4 convergence; R5 owns active V14R1 execution
 
-## Mission
-Engineer developmental experience as the medium and mature CFE into a predictive discipline, not a minimum viable handoff.
+## Verified / controlled evidence
+- User-uploaded StarMap archaeology source identity: SHA `a5fd4fe3ca8809d0bfe3e6fb3289a70086c17c2d3f1febd04c93a9b4ba9f8b41`, 42,804 bytes, 971 lines.
+- Source itself limits much of its corpus to transcript/model-summary evidence and marks `RECOVERED_FROM_TRANSCRIPT != VERIFIED_AGAINST_ARTIFACT`; Revision 3 contains stronger file-side corrections.
+- Corrected genealogy: Cognitive StarMap core lineage; SoAoA donor branch; Pattern Starmap structural descendant; Evidence Starmap later application; IW-CO profile narrative quarantined.
+- Earliest StarMap conception date remains UNKNOWN; 2025-12-17 is not the birth date.
+- Historical typed edges include semantic/causal/compositional/analogical/cross-domain/temporal/contradictory in the reported v1.0 source lineage.
+- V14R1 ACTIVE job `job-d4aac6ed6175`, PID `35196` ALIVE; 0/6 trajectories sealed.
 
-## Verified
-- v1.3 COMPLETE; `LOCAL_INTERFERENCE_WEAKENED=true`.
-- StarMap cognitive geometry historical intent is now operator-clarified as **phenomenology -> deliberate mechanization attempt**. This is provenance, not CFE evidence.
-- Original V14 identity invalidated by mid-run upstream locked-byte mutation; no scientific evaluation admitted.
-- Original V14 seed3111 training checkpoints are quarantined and excluded from science.
-- V14R1 recovery amendment frozen before V14R1 outcome; frozen prereg/contract/candidate/seeds/horizons unchanged.
-- V14R1 lock `ada4dfef6a6ab2a5f65207fa6bca469e9083298c2b5c0161a129f50161eb2871`; exact host/tokenizer revalidation PASS; fresh repeatability PASS with zero required-witness mismatches; preexecution authorization PASS.
-- V14R1 ACTIVE: job `job-d4aac6ed6175`, PID `35196` ALIVE, receipt `RUNNING`, 0/6 trajectories sealed.
+## Research frontier — not doctrine
+- **Shape-of-reachability**: `ELEMENTS + TYPED RELATIONS + ARRANGEMENT + TRAVERSAL/EXPOSURE -> DIFFERENT REACHABLE COGNITIVE FUTURES`.
+- StarMap = inference geometry; CFE = developmental geometry. Shared-root relationship is strongly supported historically but derivation remains inferred.
+- New candidates: coverage tension, traversal-history activation, concept-handle fidelity, typed-edge identifiability, inference/developmental geometry coupling.
 
-## StarMap lineage interpretation
-`INTROSPECTED COGNITIVE PHENOMENOLOGY -> STARMAP ABSTRACTION -> MACHINE EMBODIMENT ATTEMPTS -> CFE PROSPECTIVE CAUSAL TESTS`
-
-Do not collapse this into either pure autobiography or pure architecture. Do not infer universality from introspection.
-
-## Current scientific question
-Holding field, learner, row order, optimizer and initialization regime fixed, does longer exposure on the same predicate-only trajectory move the learner from one-sided basins to stable two-sided competence? H1/H2/H4 = 36/72/144 optimizer steps.
-
-## Blockers
-None.
+## Forbidden inference
+- Do not call StarMap “CFE v0.”
+- Do not infer universal cognition from operator phenomenology.
+- Do not import Central Star, literal gravity, entropy-temperature, arbitrary angles, Ricci cognition, fixed depth, or graph traversal as learner truth.
+- Do not modify V14R1 with StarMap-derived intervention.
 
 ## Resume point
-Keep V14R1 job `job-d4aac6ed6175` / PID `35196` as the sole horizon runner. Publish/read back each sealed trajectory; do not touch locked files or inject StarMap geometry.
+Keep V14R1 untouched to 6/6. After hostile closeout, rank the archaeology-derived prospective tests against the surviving dose/horizon result.

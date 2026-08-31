@@ -767,3 +767,14 @@ User clarified that StarMap “cognitive geometry” was both a description of w
 Timestamp: 2026-08-31 11:09 Eastern Daylight Time
 Tags: LINEAGE REPAIR, V14 IDENTITY FAILURE, V14R1 RECOVERY
 Recorded StarMap dual-origin lineage as operator-reported provenance, with explicit prohibition against universalizing introspection. During per-turn re-grounding, discovered original V14 blocked after training seed3111 because the locked V13 final-disposition file had been mutated mid-run. Timeline proved valid launch -> mid-run parent mutation -> fail-closed H1 evaluator. Exact predecessor bytes were unrecoverable, so original V14 was invalidated with no scientific eval admitted. Created frozen V14R1 recovery amendment, new lock, exact host/tokenizer revalidation, fresh two-run repeatability PASS, preexec authorization PASS, and launched V14R1 as job job-d4aac6ed6175, PID 35196.
+
+---
+## Turn — USER / SOURCE DROP
+Timestamp: 2026-08-31 12:12 Eastern Daylight Time
+Tags: STARMAP ARCHAEOLOGY, NEW EVIDENCE
+User uploaded `STARMAP ARCHAEOLOGY 2026-08-31.md`.
+
+## Turn — ASSISTANT / INGESTION RECORD
+Timestamp: 2026-08-31 12:12 Eastern Daylight Time
+Tags: SOURCE INGESTION, LINEAGE CORRECTION, V14R1 ISOLATION
+Read the 971-line archaeology source and preserved upload identity SHA `a5fd4fe3ca8809d0bfe3e6fb3289a70086c17c2d3f1febd04c93a9b4ba9f8b41` / 42,804 bytes. Source corrects genealogy: SME+v1.0 core lineage, SoAoA donor, Pattern descendant, Evidence application; IW-CO profile quarantined. Adopted `shape-of-reachability` as a research-organizing historical invariant and the StarMap inference-geometry/CFE developmental-geometry distinction while keeping direct derivation inferred. Recovered coverage tension, traversal history and concept-handle fidelity as prospective seams. V14R1 remained active and uncontaminated at 0/6 sealed.

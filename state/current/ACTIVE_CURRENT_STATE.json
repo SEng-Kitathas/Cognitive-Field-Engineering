@@ -1,35 +1,27 @@
 {
-  "as_of": "2026-08-31T11:09:06-04:00",
+  "as_of": "2026-08-31T12:12:54-04:00",
   "blockers": [],
-  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1109-04-00.md",
-  "commander_active_binding_sha256": "384b31c72e7db0f24e7e7fd42f8c3eb598f80c35516aa2fc5fe3e5cc41fe80cc",
+  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1212-04-00.md",
+  "commander_active_binding_sha256": "54635ba7eb03d01bd7fc07b84cf67e4271721617ac94d79c940f1fa140a3b7e0",
   "commander_source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "frontier": "V14R1_PREDICATE_DOSE_HORIZON_ACTIVE",
+  "frontier": "V14R1_ACTIVE__STARMAP_ARCHAEOLOGY_INGESTED",
   "mode": "BUILD-COMMIT",
-  "original_v14": {
-    "invalidation_sha256": "0006fd4a93dcfffe176b57a92b91139d57705fb9c8b0b619786c36438b957b34",
-    "science_admitted": false,
-    "status": "IDENTITY_INVALIDATED"
-  },
-  "role": "R5 scientific execution / R4 lineage convergence",
-  "schema": "cfe.active-current-state.v5",
-  "starmap_lineage": {
-    "empirical_cfe_evidence": false,
-    "mechanization_intent": true,
-    "note_sha256": "d234eb37d9092170c8780d6548593bda2b3a21792b122badf75b9bf48e1c83ff",
-    "phenomenology": true,
-    "status": "OPERATOR_REPORTED_DUAL_ORIGIN"
+  "role": "R3/R4 research synthesis with R5 active execution",
+  "schema": "cfe.active-current-state.v6",
+  "starmap_archaeology": {
+    "canonical_invariant": "SHAPE_OF_REACHABILITY",
+    "delta_sha256": "46fda32867a813e44614f1b25bd0a3e4d44fa2173f1509155dbe3f779dcef993",
+    "project_copy": "NOT_AVAILABLE_CROSS_PLANE",
+    "provenance_sha256": "a21c8debf3baaac55dad859a94fd935241b2c826bdbe7516fbf8260acf65501a",
+    "source_bytes": 42804,
+    "source_lines": 971,
+    "source_sha256": "a5fd4fe3ca8809d0bfe3e6fb3289a70086c17c2d3f1febd04c93a9b4ba9f8b41"
   },
   "v14r1": {
-    "campaign_status": "RUNNING",
-    "host_sha256": "9e55b0d57dfd3b8acc54b63b155b66814c2735f75ca03f9696d90d602e3518ee",
     "job_id": "job-d4aac6ed6175",
-    "lock_sha256": "ada4dfef6a6ab2a5f65207fa6bca469e9083298c2b5c0161a129f50161eb2871",
     "pid": 35196,
     "pid_status": "ALIVE",
-    "preexec_sha256": "730cba8fc90326e48088a77bcc034281fa111d01d90ba9356517785489b5d03c",
-    "profile_sha256": "435408f1742b87feb442171ec514ba4cc0b1e57bc44dfc7ffe241380d8a0e51f",
-    "repeatability_sha256": "30e73ae82c1e9f789727992e47c89476ebafb870fa559098336b61b32093edb0",
-    "sealed_trajectories": 0
+    "sealed_trajectories": 0,
+    "status": "RUNNING"
   }
 }

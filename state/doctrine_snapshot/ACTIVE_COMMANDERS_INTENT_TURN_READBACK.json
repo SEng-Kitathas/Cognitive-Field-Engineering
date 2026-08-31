@@ -1,24 +1,27 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1109-04-00.md",
-  "active_binding_sha256": "384b31c72e7db0f24e7e7fd42f8c3eb598f80c35516aa2fc5fe3e5cc41fe80cc",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1212-04-00.md",
+  "active_binding_sha256": "54635ba7eb03d01bd7fc07b84cf67e4271721617ac94d79c940f1fa140a3b7e0",
   "alignment": "ALIGNED",
-  "branch": "V14R1_PREDICATE_DOSE_HORIZON__RECOVERY_CAMPAIGN_ACTIVE",
+  "branch": "V14R1_ACTIVE__STARMAP_ARCHAEOLOGY_INGESTED",
   "frontier": {
-    "original_v14": "IDENTITY_INVALIDATED__NO_SCIENTIFIC_EVAL_ADMITTED",
-    "starMap_lineage": "DUAL_ORIGIN__PHENOMENOLOGY_PLUS_MECHANIZATION_INTENT__OPERATOR_REPORTED",
+    "starmap_archaeology": {
+      "canonical_invariant": "SHAPE_OF_REACHABILITY",
+      "cfe_relationship": "INFERENCE_GEOMETRY_VS_DEVELOPMENTAL_GEOMETRY__STRONG_LINEAGE_CANDIDATE_NOT_ESTABLISHED_DERIVATION",
+      "delta_sha256": "46fda32867a813e44614f1b25bd0a3e4d44fa2173f1509155dbe3f779dcef993",
+      "source_sha256": "a5fd4fe3ca8809d0bfe3e6fb3289a70086c17c2d3f1febd04c93a9b4ba9f8b41",
+      "status": "INGESTED_AS_CONTROLLED_EVIDENCE"
+    },
     "v14r1": {
       "campaign_status": "RUNNING",
-      "input_lock_sha256": "ada4dfef6a6ab2a5f65207fa6bca469e9083298c2b5c0161a129f50161eb2871",
       "job_id": "job-d4aac6ed6175",
       "pid": 35196,
       "pid_status": "ALIVE",
-      "preexec_sha256": "730cba8fc90326e48088a77bcc034281fa111d01d90ba9356517785489b5d03c",
       "sealed_trajectories": 0
     }
   },
-  "reason": "Preserve operator historical intent without universalizing it; preserve scientific identity by replacing unrecoverable mid-run lock drift with freshly qualified V14R1.",
+  "reason": "Admit archaeology corrections and hypotheses without contaminating active prospective dose/horizon science.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T11:09:06-04:00"
+  "timestamp": "2026-08-31T12:12:54-04:00"
 }

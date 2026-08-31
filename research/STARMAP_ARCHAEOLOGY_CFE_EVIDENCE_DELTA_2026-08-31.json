@@ -1,0 +1,55 @@
+{
+  "canonical_stripped_invariant": "SHAPE_OF_REACHABILITY",
+  "corrected_lineages": [
+    "Cognitive StarMap core lineage",
+    "StarMap SoAoA donor branch",
+    "Pattern Starmap/RadicalMap structural descendant",
+    "Evidence Starmap later application"
+  ],
+  "crosswalk": {
+    "CFE": "DEVELOPMENTAL_GEOMETRY",
+    "StarMap": "INFERENCE_GEOMETRY",
+    "relationship_status": "STRONG_LINEAGE_CANDIDATE_NOT_ESTABLISHED_DERIVATION"
+  },
+  "date": "2026-08-31T12:11:29-04:00",
+  "forbidden_inheritance": [
+    "mandatory Central Star",
+    "literal gravitational cognition",
+    "entropy temperature controllers",
+    "arbitrary phase angles",
+    "Ricci scalar cognition",
+    "fixed map depth",
+    "SME governance stages",
+    "old cross-domain forcing algorithm",
+    "graph traversal as learner true representation"
+  ],
+  "formula": "ELEMENTS + TYPED RELATIONS + ARRANGEMENT + TRAVERSAL/EXPOSURE -> DIFFERENT REACHABLE COGNITIVE FUTURES",
+  "markdown_path": "research/STARMAP_ARCHAEOLOGY_CFE_EVIDENCE_DELTA_2026-08-31.md",
+  "markdown_sha256": "46fda32867a813e44614f1b25bd0a3e4d44fa2173f1509155dbe3f779dcef993",
+  "new_research_hypotheses": [
+    "typed-edge identifiability",
+    "coverage tension / missing support geometry",
+    "traversal-history activation",
+    "concept-handle fidelity",
+    "inference-developmental geometry coupling"
+  ],
+  "overturns": [
+    "2025-12-17 as first conception",
+    "SME and v1.0 as separate lineages",
+    "single merged StarMap genealogy",
+    "IW-CO profile narrative as lineage evidence"
+  ],
+  "schema": "cfe.starmap-archaeology-cfe-evidence-delta.v1",
+  "source": {
+    "bytes": 42804,
+    "chat_upload_path": "/mnt/data/STARMAP ARCHAEOLOGY 2026-08-31.md",
+    "filename": "STARMAP ARCHAEOLOGY 2026-08-31.md",
+    "lines": 971,
+    "project_copy_status": "NOT_COPIED__SERVER_CANNOT_SEE_CHAT_MOUNT",
+    "sha256": "a5fd4fe3ca8809d0bfe3e6fb3289a70086c17c2d3f1febd04c93a9b4ba9f8b41"
+  },
+  "source_provenance_path": "research/sources/STARMAP_ARCHAEOLOGY_2026-08-31__UPLOAD_PROVENANCE.json",
+  "source_provenance_sha256": "a21c8debf3baaac55dad859a94fd935241b2c826bdbe7516fbf8260acf65501a",
+  "status": "SOURCE_INGESTION_LINEAGE_CORRECTION_NOT_DOCTRINE",
+  "v14r1_contamination_rule": "NO_STARMAP_DERIVED_LEARNER_INTERVENTION_DURING_ACTIVE_V14R1"
+}

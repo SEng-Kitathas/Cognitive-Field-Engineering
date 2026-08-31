@@ -1,0 +1,14 @@
+{
+  "evidence_ceiling": "Source self-describes transcript/model-summary basis and explicitly states RECOVERED_FROM_TRANSCRIPT != VERIFIED_AGAINST_ARTIFACT. Treat operator statements as operator-reported provenance and transcript-derived claims by their stated status.",
+  "ingested_at": "2026-08-31T12:11:29-04:00",
+  "plane_note": "Chat upload plane and Windows-local CFE project plane are distinct. Exact project byte-copy was not possible in this turn; hash/size/name are preserved here.",
+  "schema": "cfe.external-source-provenance.v1",
+  "source": {
+    "bytes": 42804,
+    "chat_upload_path": "/mnt/data/STARMAP ARCHAEOLOGY 2026-08-31.md",
+    "filename": "STARMAP ARCHAEOLOGY 2026-08-31.md",
+    "lines": 971,
+    "project_copy_status": "NOT_COPIED__SERVER_CANNOT_SEE_CHAT_MOUNT",
+    "sha256": "a5fd4fe3ca8809d0bfe3e6fb3289a70086c17c2d3f1febd04c93a9b4ba9f8b41"
+  }
+}

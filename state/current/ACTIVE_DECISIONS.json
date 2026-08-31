@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-31T11:09:06-04:00",
+  "as_of": "2026-08-31T12:12:54-04:00",
   "decisions": [
     {
       "consequence": "no CFE graduation at first useful Microseed handoff",
@@ -154,6 +154,34 @@
       "evidence_basis": "V14R1 preexec authorized with all checks pass",
       "replay_trigger": "job failure or campaign closeout",
       "status": "VERIFIED_EXECUTION_DECISION"
+    },
+    {
+      "consequence": "SME+v1.0 core lineage; SoAoA donor; Pattern descendant; Evidence application; IW-CO contaminant",
+      "decision": "Correct StarMap genealogy per Archaeology Revision 3",
+      "evidence_basis": "user-uploaded archaeology + file-side corrections recorded within source",
+      "replay_trigger": "stronger primary artifact evidence contradicts source",
+      "status": "CONTROLLED_EVIDENCE_LINEAGE_DECISION"
+    },
+    {
+      "consequence": "use as hypothesis-organizing language, not theorem",
+      "decision": "Admit shape-of-reachability as umbrella StarMap research invariant",
+      "evidence_basis": "archaeology stripped invariant + prior StarMap salvage + CFE arrangement evidence",
+      "replay_trigger": "prospective tests falsify utility or lineage correction",
+      "status": "RESEARCH_FRONTIER_NOT_DOCTRINE"
+    },
+    {
+      "consequence": "prevent false StarMap=CFE equivalence while preserving shared-root hypothesis",
+      "decision": "Separate StarMap inference geometry from CFE developmental geometry",
+      "evidence_basis": "archaeology crosswalk",
+      "replay_trigger": "documentary evidence establishes or refutes direct derivation",
+      "status": "RESEARCH_CROSSWALK_DECISION"
+    },
+    {
+      "consequence": "evaluate after V14R1; no parallel learner intervention",
+      "decision": "Queue coverage tension, traversal history and concept-handle fidelity as prospective seams",
+      "evidence_basis": "archaeology under-exploited mechanisms",
+      "replay_trigger": "dependency ranking changes after V14R1",
+      "status": "RESEARCH_ROUTING_DECISION"
     }
   ],
   "schema": "cfe.active-decisions.v1"
