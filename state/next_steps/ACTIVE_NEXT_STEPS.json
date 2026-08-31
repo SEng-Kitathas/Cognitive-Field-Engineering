@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-08-31T07:17:00-04:00",
+  "as_of": "2026-08-31T07:36:35-04:00",
   "blocked": [],
   "p0": [
-    "keep existing v1.3 PID 23156 only",
-    "finish seed3102 LOCAL_MIXED and publish complete pair",
-    "continue six paired seeds to 12/12",
-    "publish each sealed pair and heavy adapters",
-    "apply prereg dispositions mechanically",
-    "hostile closeout before next branch"
+    "keep PID 23156 only",
+    "finish seed3103 pair",
+    "publish every sealed artifact/heavy adapter",
+    "continue through 12/12 unchanged",
+    "mechanical dispositions",
+    "hostile closeout"
   ],
   "parked": [
     "K-dose until v1.3 closes",
     "primitive-interface screen until v1.3 closes"
   ],
-  "schema": "cfe.active-next-steps.v2"
+  "schema": "cfe.active-next-steps.v3"
 }

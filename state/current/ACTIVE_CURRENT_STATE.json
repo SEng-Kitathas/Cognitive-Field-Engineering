@@ -1,42 +1,32 @@
 {
-  "as_of": "2026-08-31T07:17:00-04:00",
+  "as_of": "2026-08-31T07:36:35-04:00",
   "blockers": [],
-  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0717-0400.md",
-  "commander_active_binding_sha256": "6f930174a616c388138212fed2cbff574020f59c1adfdafaee592345eac65d59",
+  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0736-0400.md",
+  "commander_active_binding_sha256": "24247495900c1583c2799089b8c2180585441398646aca9c5f621c24d4397f5c",
   "commander_source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
   "frontier": "V13_SCIENTIFIC_CAMPAIGN_ACTIVE",
   "mode": "BUILD-COMMIT",
   "role": "R5 Reality Pressure Engine",
-  "schema": "cfe.active-current-state.v2",
+  "schema": "cfe.active-current-state.v3",
   "v12": {
     "aggregate_sha256": "af26fd4b626afddd2bb22445cf276cf3690b5e4352bb96f3b8acddcb0ec0ff20",
     "disposition": "COMPOSITION_BASIS_NOT_SUPPORTED",
-    "jobs": "12/12",
     "status": "COMPLETE"
   },
   "v13": {
+    "active_job": "2026083103 LOCAL_MIXED",
     "campaign_status": "RUNNING",
+    "complete_pairs": 2,
     "pid": 23156,
     "pid_status": "ALIVE",
-    "run_root": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z",
-    "sealed_jobs": 3,
-    "seed3101_pair": {
-      "local_mixed": {
-        "composition": 0.5,
-        "policy": 1.0,
-        "predicate": 0.5
-      },
-      "paired_disposition": "NO_FIRST_SEED_SEPARATION_BENEFIT__NO_CAMPAIGN_DISPOSITION",
-      "window_separated": {
-        "composition": 0.5,
-        "policy": 0.9375,
-        "predicate": 0.5
-      }
+    "sealed_jobs": 4,
+    "seed3101": {
+      "separation_composition_delta": 0.0,
+      "separation_predicate_delta": 0.0
     },
-    "seed3102_window_separated_unpaired": {
-      "composition": 0.5,
-      "policy": 1.0,
-      "predicate": 0.5416666666666666
+    "seed3102": {
+      "separation_composition_delta": -0.04166666666666663,
+      "separation_predicate_delta": -0.125
     }
   }
 }

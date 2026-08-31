@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-31T07:17:00-04:00",
+  "as_of": "2026-08-31T07:36:35-04:00",
   "decisions": [
     {
       "consequence": "no CFE graduation at first useful Microseed handoff",
@@ -16,14 +16,14 @@
       "status": "PROMOTED_LOCAL_NEGATIVE_RESULT"
     },
     {
-      "consequence": "no K-dose/interface parallel screen",
+      "consequence": "complete all six pairs; if aggregate weakens interference, move to dose/horizon",
       "decision": "v1.3 optimizer-visible primitive interference is active discriminator",
-      "evidence_basis": "v1.2 instability + prereg da66a220...",
+      "evidence_basis": "v1.2 instability + frozen prereg; first 2/6 pairs show no separation benefit",
       "replay_trigger": "v1.3 12/12 disposition",
       "status": "FROZEN_ACTIVE_SCREEN"
     },
     {
-      "consequence": "weakens simplest interference story but does not stop campaign",
+      "consequence": "now reinforced by seed3102 where separation is worse; still no early-stop authority",
       "decision": "seed3101 is null on first-pair separation benefit",
       "evidence_basis": "paired eval manifests 01947f... and 9b7811...",
       "replay_trigger": "aggregate six-pair evidence",
@@ -42,6 +42,13 @@
       "evidence_basis": "operator directive; policy SHA acc90cb...",
       "replay_trigger": "operator changes continuity policy",
       "status": "ACTIVE_CONTROL_POLICY"
+    },
+    {
+      "consequence": "simple local interference weakened after 2/6 pairs",
+      "decision": "seed3102 separation is worse than mixed on predicate and composition",
+      "evidence_basis": "paired v1.3 seed3102 eval manifests",
+      "replay_trigger": "six-pair aggregate",
+      "status": "VERIFIED_SEED_LEVEL_ONLY"
     }
   ],
   "schema": "cfe.active-decisions.v1"

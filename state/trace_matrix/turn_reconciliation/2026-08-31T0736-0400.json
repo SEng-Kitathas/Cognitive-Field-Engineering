@@ -1,0 +1,108 @@
+{
+  "active_blockers": [],
+  "active_commander_binding": {
+    "alignment": "ALIGNED",
+    "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0736-0400.md",
+    "sha256": "24247495900c1583c2799089b8c2180585441398646aca9c5f621c24d4397f5c"
+  },
+  "commander_source": {
+    "path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+  },
+  "continuity_surfaces": {
+    "state/current.md": {
+      "bytes": 1721,
+      "sha256": "bc38b21c44128110242823735c293d1c33808886db152f86db9faf39ccf26577"
+    },
+    "state/current/ACTIVE_CURRENT_STATE.json": {
+      "bytes": 1143,
+      "sha256": "308764a10335d083ce3ddf96a5d477954b3001d1dd8a795269cdec2f41dfa43a"
+    },
+    "state/current/ACTIVE_DECISIONS.json": {
+      "bytes": 2712,
+      "sha256": "5e4797330c5b4abd431dbdf76ad94c13ce0966e44ac1b6950aa09da341030716"
+    },
+    "state/design_thread_stream.md": {
+      "bytes": 47621,
+      "sha256": "724c2c631f7a7b24f4d990519d4f781066afd91a442167359d493969e0a95f5e"
+    },
+    "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0736-0400.md": {
+      "bytes": 10542,
+      "sha256": "24247495900c1583c2799089b8c2180585441398646aca9c5f621c24d4397f5c"
+    },
+    "state/doctrine_snapshot/ACTIVE_COMMANDERS_INTENT_TURN_READBACK.json": {
+      "bytes": 1036,
+      "sha256": "0a18c9768c56fd39476617b1e11ec73e85c49dfefa7775380f65e219b08d2ae5"
+    },
+    "state/doctrine_snapshot/ACTIVE_DOCTRINE_FRONTIER.md": {
+      "bytes": 1757,
+      "sha256": "4492369a4994dbaa7df2f22342e703ae1ec285b71d43366fa52ad0cb12018d8e"
+    },
+    "state/live_shadow.md": {
+      "bytes": 4266,
+      "sha256": "c2cb1fcf3a0ce9a683f1c1ead25bd7b4159d96a9568223e05ed6d4f8836f6553"
+    },
+    "state/next_steps.md": {
+      "bytes": 848,
+      "sha256": "ec0ed295dbd5c01b2f1f25c3517276a203381c6db269f3c1e1ad46545bd97d38"
+    },
+    "state/next_steps/ACTIVE_NEXT_STEPS.json": {
+      "bytes": 417,
+      "sha256": "04e2cafe7e08b0e96c64f9746aff279e80ce9ceb75c277349914e00a9cad53ec"
+    },
+    "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md": {
+      "bytes": 1350,
+      "sha256": "d7c8705ea4d14cd66186294786e0c2a390d79650caae395e87b4bb77076646ad"
+    },
+    "state/trace_matrix/ACTIVE_TRACE_MATRIX.md": {
+      "bytes": 1779,
+      "sha256": "f885ed13ac3483ebd905fdb8eba2597bc52122c90e7fa9c5b46f59aad6aac4bd"
+    },
+    "transcript/THIS_CONVERSATION.md": {
+      "bytes": 1300,
+      "sha256": "200ae7ac1e31b11e69f1f4fc6a0fd90c0b630c7a1a76c50ee402a106cc9b7ead"
+    }
+  },
+  "decisions": [
+    "CFE continues beyond MVP/downstream handoff",
+    "v1.2 composition basis not supported",
+    "v1.3 must complete six frozen pairs",
+    "simple local interference weakened after first 2 pairs",
+    "Microseed receives versioned handoff only",
+    "per-turn total active-surface reconciliation remains mandatory"
+  ],
+  "frontier": {
+    "active_job": "2026083103 LOCAL_MIXED",
+    "seed3101": {
+      "separation_composition_delta": 0.0,
+      "separation_predicate_delta": 0.0
+    },
+    "seed3102": {
+      "separation_composition_delta": -0.04166666666666663,
+      "separation_predicate_delta": -0.125
+    },
+    "v12_status": "COMPLETE__COMPOSITION_BASIS_NOT_SUPPORTED",
+    "v13_complete_pairs": 2,
+    "v13_pid": 23156,
+    "v13_pid_status": "ALIVE",
+    "v13_sealed_jobs": 4,
+    "v13_status": "RUNNING"
+  },
+  "mode": "BUILD-COMMIT",
+  "new_material_artifacts": [
+    "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0736-0400.md",
+    "v1.3 seed3102 LOCAL_MIXED run/eval/log evidence",
+    "v1.3 seed3102 full heavy-pair bundle",
+    "state/trace_matrix/V13_OPTIMIZER_INTERFERENCE_HEAVY_RELEASE_2026-08-31.json"
+  ],
+  "next_exact_action": "keep PID 23156; finish seed3103 pair; continue v1.3 12/12; mechanical disposition; hostile closeout",
+  "operator_directive": "every decision, every piece of research, every Commanders Intent, and all continuity documents kept fresh per substantive turn",
+  "publication_checkpoint_before_turn": {
+    "local_head": "9c19113884469bb9c3c55fd79b330ccb1efffdc3",
+    "remote_head": "9c19113884469bb9c3c55fd79b330ccb1efffdc3",
+    "verified_equal": true
+  },
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v3",
+  "timestamp": "2026-08-31T07:36:35-04:00"
+}
