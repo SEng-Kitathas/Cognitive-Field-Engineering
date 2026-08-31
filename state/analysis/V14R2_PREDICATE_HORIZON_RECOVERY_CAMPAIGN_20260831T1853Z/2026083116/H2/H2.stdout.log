@@ -1,0 +1,72 @@
+{
+  "candidate_manifest_sha256": "dd0577ca49c93e75f111c1506cf7f8bc0abcac2341ac46433fd48927584f76a3",
+  "contract_sha256": "28548c863d657fb393112e205a4da95c96efbfe680b4c5a0721648716823a55a",
+  "global_step": 72,
+  "horizon": "H2",
+  "host_lock_sha256": "0096682727fd0f9f54328033b70189b952f88c085ec00db1ccc49b832433cfc4",
+  "input_lock_sha256": "6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38",
+  "interpretation_ceiling": [
+    "Six-seed longitudinal aggregate required before dose/horizon claim.",
+    "Truth-side rotation is not competence.",
+    "Identifying CFE specialization only."
+  ],
+  "metrics": {
+    "PREDICATE_DIRECT": {
+      "balanced_accuracy": 0.7291666666666667,
+      "by_support": {
+        "equality": {
+          "accuracy": 0.25,
+          "correct": 2,
+          "json_parse_rate": 1.0,
+          "n": 8
+        },
+        "far_negative": {
+          "accuracy": 0.75,
+          "correct": 12,
+          "json_parse_rate": 1.0,
+          "n": 16
+        },
+        "far_positive": {
+          "accuracy": 0.9375,
+          "correct": 15,
+          "json_parse_rate": 1.0,
+          "n": 16
+        },
+        "near_positive": {
+          "accuracy": 0.75,
+          "correct": 6,
+          "json_parse_rate": 1.0,
+          "n": 8
+        }
+      },
+      "by_truth": {
+        "false": {
+          "accuracy": 0.5833333333333334,
+          "correct": 14,
+          "json_parse_rate": 1.0,
+          "n": 24
+        },
+        "true": {
+          "accuracy": 0.875,
+          "correct": 21,
+          "json_parse_rate": 1.0,
+          "n": 24
+        }
+      },
+      "overall": {
+        "accuracy": 0.7291666666666666,
+        "correct": 35,
+        "json_parse_rate": 1.0,
+        "n": 48
+      }
+    }
+  },
+  "peak_allocated_bytes": 4235445760,
+  "peak_reserved_bytes": 4561305600,
+  "producer_run_manifest_sha256": "84063266c291c6eb37fde90572d4300717e10e93629a0cab0f5bc45bde573412",
+  "results_sha256": "fb7423b62350d7d463fc895186491b936687f7d4cb6ec443b8eb5b94c85ff7eb",
+  "runtime_seconds": 59.32918095588684,
+  "schema": "cfe.v14.predicate-horizon-eval.v1",
+  "seed": 2026083116,
+  "status": "EVALUATION_EXECUTED__SCIENTIFIC_EFFECT_UNQUALIFIED"
+}

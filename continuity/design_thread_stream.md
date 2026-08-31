@@ -871,3 +871,12 @@ User instructed continuation.
 
 ## Turn — ASSISTANT / EXECUTION
 V14R2 advanced to 4/6 qualified. Added pinned-tokenizer DD-0 audit: per-event tokens 134/134, compiled totals 230/230, non-identical streams, PASS. Froze DD-0 first compiler qualification as engineering-only.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 17:01 Eastern Daylight Time
+Tags: STATUS CHECK
+User requested current status.
+
+## Turn — ASSISTANT / VERIFIED CLOSEOUT
+V14R2 job verified COMPLETED. Six-seed aggregate verified 46/46. Mechanical prereg disposition DOSE_HORIZON_WEAKENED; horizon moves phenotype but fails stable competence threshold. Heavy publication initiated after zero-copy strategy replaced disk-expensive tar bundling.

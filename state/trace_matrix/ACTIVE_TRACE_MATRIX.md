@@ -39,3 +39,7 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | DD-0 tokenizer exposure qualification | pinned V14 tokenizer snapshot | `state/qualification/DD0_TOKEN_EXPOSURE_QUALIFICATION_20260831.json` SHA `748ee0487b46b8d33fd90c6442ecaf256bfe5bb28ea9985dd3cb1a4937d70ff7` | PASS; 134/134 per-event tokens, 230/230 compiled total, streams differ |
 | DD-0 compiler freeze | structural + token qualifications | `state/qualification/DD0_GENERATIVE_FIELD_COMPILER_FREEZE_20260831.json` SHA `b8bd8055b4aa29691ef1fd973d47ce056b71296d2c5f9bc15b58f904d720c26f` | QUALIFIED_ENGINEERING_ONLY |
 | V14R2 progress | recovery receipt | 4/6 qualified | RUNNING |
+
+| V14R2 final aggregate | six qualified trajectories | `state/analysis/V14R2_PREDICATE_HORIZON_RECOVERY_CAMPAIGN_20260831T1853Z/AGGREGATE.json` SHA `9fa540f729fe09ce6f0e1fc7ee9d01ce46233327e0125a3e42e837b4aba9601d` | COMPLETE_6_OF_6 |
+| V14R2 mechanical disposition | frozen prereg + aggregate | `state/analysis/V14R2_PREDICATE_HORIZON_FINAL_DISPOSITION_2026-08-31.json` SHA `e800ed80965ced521339ef85a038655a965d5984b0cd161675cc77a92ad61789` | DOSE_HORIZON_WEAKENED |
+| V14R2 hostile closeout | prereg criteria + adversarial interpretation | `state/analysis/V14R2_PREDICATE_HORIZON_HOSTILE_CLOSEOUT_2026-08-31.md` SHA `3b932cf12e57681ad4495dfcd28411225e0080e882684e8c1a9609cb9cb36b15` | SEALED_FINAL |

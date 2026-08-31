@@ -1,0 +1,134 @@
+{
+  "aggregate_sha256": "9fa540f729fe09ce6f0e1fc7ee9d01ce46233327e0125a3e42e837b4aba9601d",
+  "earned_statement": "Continued exposure to the fixed identifying predicate field produced a reproducible positive longitudinal shift in balanced predicate accuracy, but did not reliably yield preregistered stable two-sided competence across seeds; developmental horizon alone is therefore weakened as the sufficient explanation in this fixed learner/regime.",
+  "horizon_stats": {
+    "H1": {
+      "balanced_accuracy_mean": 0.5798611111111112,
+      "false_accuracy_mean": 0.7222222222222222,
+      "false_ge_065": 4,
+      "overall_accuracy_mean": 0.579861111111111,
+      "overall_ge_075": 1,
+      "true_accuracy_mean": 0.4375,
+      "true_ge_065": 2,
+      "two_sided_ge_065": 0
+    },
+    "H2": {
+      "balanced_accuracy_mean": 0.7083333333333334,
+      "false_accuracy_mean": 0.638888888888889,
+      "false_ge_065": 4,
+      "overall_accuracy_mean": 0.7083333333333334,
+      "overall_ge_075": 1,
+      "true_accuracy_mean": 0.7777777777777778,
+      "true_ge_065": 5,
+      "two_sided_ge_065": 3
+    },
+    "H4": {
+      "balanced_accuracy_mean": 0.763888888888889,
+      "false_accuracy_mean": 0.7291666666666666,
+      "false_ge_065": 4,
+      "overall_accuracy_mean": 0.7638888888888888,
+      "overall_ge_075": 3,
+      "true_accuracy_mean": 0.7986111111111112,
+      "true_ge_065": 5,
+      "two_sided_ge_065": 3
+    }
+  },
+  "hostile_reading": [
+    "H4 beat H1 in balanced accuracy on all 6 seeds and mean H4 reached 0.7639, so exposure duration clearly changes phenotype; DOSE_HORIZON_WEAKENED must not be paraphrased as no dose effect.",
+    "Only 3 of 6 H4 seeds reached overall accuracy >=0.75 and only 3 of 6 H4 seeds achieved both truth sides >=0.65, failing the preregistered competence gate.",
+    "H4 beat H2 on only 4 of 6 seeds; continued exposure is not uniformly monotonic at the seed level.",
+    "H2 substantially improved the true side while reducing pooled false-side accuracy relative to H1, consistent with basin movement; because the preregistered rotation trigger used an undefined materiality threshold, no separate rotation disposition is mechanically promoted.",
+    "The screen is one opaque predicate, one fixed base learner, one adapter/optimizer regime; it cannot establish a universal CFE dose law.",
+    "Recovery provenance does not create extra evidence: salvaged artifacts were admitted only by hash verification, and the six-seed aggregate is the scientific unit."
+  ],
+  "identity": "V14R2_PREDICATE_DOSE_HORIZON_20260831",
+  "mechanical_next": "prioritize richer predicate-field resolution and learner-interface/decomposition discrimination; do not extend beyond H4 adaptively",
+  "next_branch_constraints": [
+    "No adaptive extension beyond H4.",
+    "Do not rescue horizon by adding donor-derived geometry post hoc.",
+    "Next identifying work should increase field resolution and discriminate learner interface/decomposition mechanisms.",
+    "DD-0 compiler qualification may support future field interventions but is not evidence about this V14R2 result."
+  ],
+  "paired_deltas": {
+    "H2_MINUS_H1": {
+      "mean": 0.12847222222222218,
+      "negative": 0,
+      "positive": 6,
+      "values": [
+        0.02083333333333326,
+        0.10416666666666663,
+        0.20833333333333326,
+        0.16666666666666663,
+        0.04166666666666663,
+        0.22916666666666674
+      ],
+      "zero": 0
+    },
+    "H4_MINUS_H1": {
+      "mean": 0.1840277777777778,
+      "negative": 0,
+      "positive": 6,
+      "values": [
+        0.16666666666666663,
+        0.3125,
+        0.22916666666666674,
+        0.14583333333333337,
+        0.08333333333333326,
+        0.16666666666666674
+      ],
+      "zero": 0
+    },
+    "H4_MINUS_H2": {
+      "mean": 0.0555555555555556,
+      "negative": 2,
+      "positive": 4,
+      "values": [
+        0.14583333333333337,
+        0.20833333333333337,
+        0.02083333333333348,
+        -0.02083333333333326,
+        0.04166666666666663,
+        -0.0625
+      ],
+      "zero": 0
+    }
+  },
+  "parent_scientific_identity": "V14R_PREDICATE_DOSE_HORIZON_20260831",
+  "preregistered_criteria": {
+    "HORIZON_IMPROVES_COMPETENCE": {
+      "H4_beats_H1_at_least_4_of_6": true,
+      "H4_false_ge_065_at_least_4": true,
+      "H4_mean_BA_ge_075": true,
+      "H4_overall_ge_075_at_least_4": false,
+      "H4_true_ge_065_at_least_4": true,
+      "all": false,
+      "mean_H4_minus_H1_gt_0": true,
+      "pooled_H4_false_ge_H1_false": true,
+      "pooled_H4_true_ge_H1_true": true
+    },
+    "INTERMEDIATE_HORIZON_OPTIMUM": {
+      "H2_beats_H1_at_least_4_of_6": true,
+      "H2_false_ge_065_at_least_4": true,
+      "H2_mean_BA_ge_075": false,
+      "H2_overall_ge_075_at_least_4": false,
+      "H2_true_ge_065_at_least_4": true,
+      "all": false,
+      "mean_H2_minus_H1_gt_0": true,
+      "mean_H2_minus_H4_gt_0": false
+    }
+  },
+  "preregistered_disposition": {
+    "DOSE_HORIZON_WEAKENED": true,
+    "DOSE_ROTATES_BASIN_WITHOUT_COMPETENCE": "NOT_MECHANICALLY_DECIDED__MATERIAL_THRESHOLD_UNSPECIFIED",
+    "HORIZON_IMPROVES_COMPETENCE": false,
+    "INTERMEDIATE_HORIZON_OPTIMUM": false
+  },
+  "receipt_sha256": "bfea2ab7e2b37bd57ba47487bc0c35368912b7a9b906ec79bdf1d62dbc676489",
+  "schema": "cfe.v14r2.predicate-horizon-final-disposition.v1",
+  "status": "SEALED_FINAL",
+  "timestamp": "2026-08-31T16:58:10-04:00",
+  "verification": {
+    "independent_checks_passed": 46,
+    "independent_checks_total": 46
+  }
+}

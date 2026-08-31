@@ -1,0 +1,181 @@
+{
+  "aggregate_sha256": "9fa540f729fe09ce6f0e1fc7ee9d01ce46233327e0125a3e42e837b4aba9601d",
+  "amendment_sha256": "68da3d9d6f177205351e46e654ed94b309ab42d33abe53c602b07881b1ceafbd",
+  "completed": 1788209620.4664562,
+  "identity": "V14R2_PREDICATE_DOSE_HORIZON_20260831",
+  "jobs": [
+    {
+      "horizons": {
+        "H1": {
+          "balanced_accuracy": 0.6458333333333334,
+          "eval_manifest_sha256": "f78c240f44547c99c4590c1ccd86960c4e2649c20dd98065fb845622e7a63159",
+          "false_accuracy": 0.2916666666666667,
+          "overall_accuracy": 0.6458333333333334,
+          "true_accuracy": 1.0
+        },
+        "H2": {
+          "balanced_accuracy": 0.6666666666666666,
+          "eval_manifest_sha256": "84128c3deafa77734a1af0fbdbd038ddb34f915dbbade27b57fec6d04bbbd08a",
+          "false_accuracy": 0.3333333333333333,
+          "overall_accuracy": 0.6666666666666666,
+          "true_accuracy": 1.0
+        },
+        "H4": {
+          "balanced_accuracy": 0.8125,
+          "eval_manifest_sha256": "778679b7cb6a830b83a77454a6be3b2657d98d5ca8a0067466fa395c56db7482",
+          "false_accuracy": 0.7083333333333334,
+          "overall_accuracy": 0.8125,
+          "true_accuracy": 0.9166666666666666
+        }
+      },
+      "seed": 2026083111,
+      "source_run_manifest_sha256": "20b9d9038f1e3b37f73fa301e2d24234b11b0961161a592fa89b490e090f152a",
+      "status": "COMPLETE_SALVAGED"
+    },
+    {
+      "horizons": {
+        "H1": {
+          "balanced_accuracy": 0.5,
+          "eval_manifest_sha256": "d721e7fcacb9acdb0297734f1f6f80e31fcae6b82239ffde941ce610c2ac30db",
+          "false_accuracy": 1.0,
+          "overall_accuracy": 0.5,
+          "true_accuracy": 0.0
+        },
+        "H2": {
+          "balanced_accuracy": 0.6041666666666666,
+          "eval_manifest_sha256": "399dc71502c034c97f8973d9ab7bcf326c9884aa3d5d0564917c94cb23115b4d",
+          "false_accuracy": 0.7916666666666666,
+          "overall_accuracy": 0.6041666666666666,
+          "true_accuracy": 0.4166666666666667
+        },
+        "H4": {
+          "balanced_accuracy": 0.8125,
+          "eval_manifest_sha256": "0bb0979373324242da461fad743728b6683342ba650f97db5e3b007492c3df95",
+          "false_accuracy": 0.8333333333333334,
+          "overall_accuracy": 0.8125,
+          "true_accuracy": 0.7916666666666666
+        }
+      },
+      "seed": 2026083112,
+      "source_run_manifest_sha256": "9faa7d114a5370b16b280cb9a8d072d234f018864e1bc2fbc09c6b6e36ff6fed",
+      "status": "COMPLETE_SALVAGED"
+    },
+    {
+      "horizons": {
+        "H1": {
+          "balanced_accuracy": 0.5,
+          "eval_manifest_sha256": "33d0455ef83ce679d8f8b3ccb0032351f7b5fdc9bdd94505df437531a5adeff5",
+          "false_accuracy": 1.0,
+          "overall_accuracy": 0.5,
+          "true_accuracy": 0.0
+        },
+        "H2": {
+          "balanced_accuracy": 0.7083333333333333,
+          "eval_manifest_sha256": "941077e0c8c72cd83f02581409e58212942ced895047956802e698d9a7a43976",
+          "false_accuracy": 0.75,
+          "overall_accuracy": 0.7083333333333334,
+          "true_accuracy": 0.6666666666666666
+        },
+        "H4": {
+          "balanced_accuracy": 0.7291666666666667,
+          "eval_manifest_sha256": "39f1d134d9477c7466dc25b5978b39a8ad22897fcf74f1ea7774e2671c9eb3bb",
+          "false_accuracy": 0.5833333333333334,
+          "overall_accuracy": 0.7291666666666666,
+          "true_accuracy": 0.875
+        }
+      },
+      "seed": 2026083113,
+      "source_run_manifest_sha256": "c50fb25e6ed0351ead560f6e8a0feea6e1109ca432f27b0802fc6f6aa8f7ec3d",
+      "status": "COMPLETE_TRAIN_SALVAGED_REEVALUATED"
+    },
+    {
+      "horizons": {
+        "H1": {
+          "balanced_accuracy": 0.5416666666666666,
+          "eval_manifest_sha256": "0d743949de6362d372e3d84b3f773e98ab8157e0dab02c11249d67c6c73dbfca",
+          "false_accuracy": 0.08333333333333333,
+          "overall_accuracy": 0.5416666666666666,
+          "true_accuracy": 1.0
+        },
+        "H2": {
+          "balanced_accuracy": 0.7083333333333333,
+          "eval_manifest_sha256": "34a1a287836b3cda4761a7690d1b28bed7559efe34b69f863bfbbe2b4e6ea9ba",
+          "false_accuracy": 0.6666666666666666,
+          "overall_accuracy": 0.7083333333333334,
+          "true_accuracy": 0.75
+        },
+        "H4": {
+          "balanced_accuracy": 0.6875,
+          "eval_manifest_sha256": "fc20e4343f850bf4b57859746913ec6ce8564deb612ccdbf00b0ef4916420fa0",
+          "false_accuracy": 0.625,
+          "overall_accuracy": 0.6875,
+          "true_accuracy": 0.75
+        }
+      },
+      "run_manifest_sha256": "2cb65d242d41f008044f92e5adf7b1db34c6aba074dc3b973c86cd4735afc518",
+      "seed": 2026083114,
+      "status": "COMPLETE_FRESH"
+    },
+    {
+      "horizons": {
+        "H1": {
+          "balanced_accuracy": 0.7916666666666667,
+          "eval_manifest_sha256": "8fe032756c4c7c5116ac4efa5359faaf89532be5e0dc8a12209ed8b84375357f",
+          "false_accuracy": 0.9583333333333334,
+          "overall_accuracy": 0.7916666666666666,
+          "true_accuracy": 0.625
+        },
+        "H2": {
+          "balanced_accuracy": 0.8333333333333334,
+          "eval_manifest_sha256": "fa1e236ba5e12b19f0a3d7de83c09b3fd010ad08ab2b8372249afcdc71db972c",
+          "false_accuracy": 0.7083333333333334,
+          "overall_accuracy": 0.8333333333333334,
+          "true_accuracy": 0.9583333333333334
+        },
+        "H4": {
+          "balanced_accuracy": 0.875,
+          "eval_manifest_sha256": "6e3d611b04222c1edc0c56de58f5e5268ab39860daea1356252fa27b794eca0b",
+          "false_accuracy": 0.9166666666666666,
+          "overall_accuracy": 0.875,
+          "true_accuracy": 0.8333333333333334
+        }
+      },
+      "run_manifest_sha256": "677a5c8ab66901d15bf86741e712f55a27fe1918bf8ad28d61ec2f8c4fe0401c",
+      "seed": 2026083115,
+      "status": "COMPLETE_FRESH"
+    },
+    {
+      "horizons": {
+        "H1": {
+          "balanced_accuracy": 0.5,
+          "eval_manifest_sha256": "7befc38addc91c664c1350f46c30b1aa8b0c2ee8f25c878bb4316c0d1d2c7f68",
+          "false_accuracy": 1.0,
+          "overall_accuracy": 0.5,
+          "true_accuracy": 0.0
+        },
+        "H2": {
+          "balanced_accuracy": 0.7291666666666667,
+          "eval_manifest_sha256": "c1a45c6002acf93f7f4eabbe5d9f4353a792914c0f35c395db9cbe771a354587",
+          "false_accuracy": 0.5833333333333334,
+          "overall_accuracy": 0.7291666666666666,
+          "true_accuracy": 0.875
+        },
+        "H4": {
+          "balanced_accuracy": 0.6666666666666667,
+          "eval_manifest_sha256": "8ecc70d4487684cc99ff8232d002524797d61f491aff14c2a91957e413a26bfc",
+          "false_accuracy": 0.7083333333333334,
+          "overall_accuracy": 0.6666666666666666,
+          "true_accuracy": 0.625
+        }
+      },
+      "run_manifest_sha256": "84063266c291c6eb37fde90572d4300717e10e93629a0cab0f5bc45bde573412",
+      "seed": 2026083116,
+      "status": "COMPLETE_FRESH"
+    }
+  ],
+  "parent_attempt": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V14R_PREDICATE_HORIZON_CAMPAIGN_ATTEMPT2_20260831T1730Z",
+  "parent_lock_sha256": "6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38",
+  "schema": "cfe.v14r2.recovery-campaign.v1",
+  "started": 1788204162.6107852,
+  "status": "COMPLETE_6_OF_6"
+}

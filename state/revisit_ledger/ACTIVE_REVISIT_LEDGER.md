@@ -21,3 +21,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | P1 | DD-0 token-level qualification | byte/event equality is insufficient for LLM exposure identity | exact tokenizer/full-sequence audit | open |
 
 | P1 | DD-0 topology semantics | current freeze lacks explicit revisit/coverage/long-range source constructs | v2 compiler qualification | open |
+
+| P0 | V14R2 heavy evidence publication | scientific closeout complete; heavy assets not yet remote-verified | GitHub release upload + digest check | active |
+| P1 | Predicate field resolution / learner interface | horizon alone weakened as sufficient explanation | next prospective discriminator | open |

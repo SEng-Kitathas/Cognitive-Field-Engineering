@@ -1,27 +1,36 @@
 # CFE CURRENT STATE
 
-As of: 2026-08-31 16:20 Eastern Daylight Time
+As of: 2026-08-31 17:01 Eastern Daylight Time
 Mode: BUILD-COMMIT
 Role: R5 Reality Pressure Engine
 
-## Active science
-- V14R2 recovery `job-fc69b38e2e96`, PID 32848: RUNNING; 4/6 qualified trajectories in receipt.
-- Current qualified seeds: [(2026083111, 'COMPLETE_SALVAGED'), (2026083112, 'COMPLETE_SALVAGED'), (2026083113, 'COMPLETE_TRAIN_SALVAGED_REEVALUATED'), (2026083114, 'COMPLETE_FRESH')].
+## V14R2 — COMPLETE
+- Job `job-fc69b38e2e96`: COMPLETED, return code 0.
+- Six trajectories qualified. Independent closeout verification 46/46 PASS.
+- Receipt SHA `bfea2ab7e2b37bd57ba47487bc0c35368912b7a9b906ec79bdf1d62dbc676489`.
+- Aggregate SHA `9fa540f729fe09ce6f0e1fc7ee9d01ce46233327e0125a3e42e837b4aba9601d`.
+- Final disposition SHA `e800ed80965ced521339ef85a038655a965d5984b0cd161675cc77a92ad61789`.
+- Hostile closeout SHA `3b932cf12e57681ad4495dfcd28411225e0080e882684e8c1a9609cb9cb36b15`.
 
-## DD-0 qualification
-First generative field compiler qualification is frozen `QUALIFIED_ENGINEERING_ONLY`.
-- structural qualification SHA `5d9b32b4230c8bb367be89635b08781f7bef27f5df4a8cb9055b757c6599cd50`
-- token qualification SHA `748ee0487b46b8d33fd90c6442ecaf256bfe5bb28ea9985dd3cb1a4937d70ff7`
-- freeze SHA `b8bd8055b4aa29691ef1fd973d47ce056b71296d2c5f9bc15b58f904d720c26f`
-- per-event token content: 134 vs 134
-- compiled total tokens: 230 vs 230
-- compiled streams differ by arrangement, as intended
-- target relation co-visibility: 3 vs 0
-- curator label leakage: 0
-- deterministic replay: PASS
+### Results
+- H1 mean balanced accuracy: 0.579861
+- H2: 0.708333
+- H4: 0.763889
+- H2-H1: +0.128472, positive 6/6
+- H4-H1: +0.184028, positive 6/6
+- H4-H2: +0.055556, positive 4/6
+- H4 two-sided >=0.65: 3/6
+- H4 overall >=0.75: 3/6
 
-## Claim ceiling
-The compiler can create and verify controlled learner-visible arrangement differences under matched event/payload/token accounting. This is not learner evidence.
+### Mechanical disposition
+`DOSE_HORIZON_WEAKENED = true`
+`HORIZON_IMPROVES_COMPETENCE = false`
+`INTERMEDIATE_HORIZON_OPTIMUM = false`
+
+Exposure matters strongly, but horizon alone does not reliably produce stable two-sided competence.
+
+## DD-0
+Tokenizer-aware compiler remains `QUALIFIED_ENGINEERING_ONLY`.
 
 ## Resume point
-If V14R2 closes, prioritize scientific closeout. Otherwise extend DD-0 with explicit revisit, coverage, and long-range bridge semantics before DD-1.
+Finish heavy release publication, then open richer predicate-field resolution / learner-interface discrimination. Do not extend V14 beyond H4.

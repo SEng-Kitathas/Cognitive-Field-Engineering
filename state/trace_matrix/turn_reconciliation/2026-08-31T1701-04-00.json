@@ -1,0 +1,15 @@
+{
+  "active_blockers": [],
+  "frontier": {
+    "publication": "HEAVY_RELEASE_PENDING_REMOTE_VERIFY",
+    "v14r2": {
+      "aggregate_sha256": "9fa540f729fe09ce6f0e1fc7ee9d01ce46233327e0125a3e42e837b4aba9601d",
+      "disposition": "DOSE_HORIZON_WEAKENED",
+      "status": "COMPLETE_6_OF_6"
+    }
+  },
+  "mode": "BUILD-COMMIT",
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v4",
+  "timestamp": "2026-08-31T17:01:49-04:00"
+}

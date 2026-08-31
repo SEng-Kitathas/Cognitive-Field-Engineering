@@ -1,15 +1,14 @@
 # CFE NEXT STEPS
 
-As of: 2026-08-31 16:20 Eastern Daylight Time
+As of: 2026-08-31 17:01 Eastern Daylight Time
 
-## P0
-- V14R2: finish 6/6, verify aggregate, apply frozen horizon disposition mechanically, hostile closeout, publish.
+## P0 — V14R2 closeout
+- Publish 18 sealed checkpoint assets plus release manifest.
+- Verify remote asset sizes/digests.
+- Refresh research publication manifest.
 
-## P1 — DD-0 v2 engineering
-- Add explicit exposure multiplicity/revisit schedule.
-- Add coverage requirements verified from compiled windows.
-- Add operational long-range bridge metrics independent of embeddings.
-- Re-run structural + tokenizer deterministic qualification.
-
-## P2
-- Freeze DD-1 typed-relation identifiability only after DD-0 v2 passes.
+## P1 — next science
+Per frozen V14R preregistration: prioritize richer predicate-field resolution and learner-interface/decomposition discrimination.
+- No H4 extension.
+- Use DD-0 compiler only prospectively.
+- First candidate discriminator: typed relation / richer field support while maintaining matched learner-visible exposure controls.

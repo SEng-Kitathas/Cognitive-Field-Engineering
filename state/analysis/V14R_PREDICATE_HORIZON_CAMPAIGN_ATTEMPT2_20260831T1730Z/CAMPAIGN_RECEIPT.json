@@ -1,0 +1,72 @@
+{
+  "input_lock_sha256": "6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38",
+  "jobs": [
+    {
+      "horizons": {
+        "H1": {
+          "balanced_accuracy": 0.6458333333333334,
+          "eval_manifest_sha256": "f78c240f44547c99c4590c1ccd86960c4e2649c20dd98065fb845622e7a63159",
+          "false_accuracy": 0.2916666666666667,
+          "overall_accuracy": 0.6458333333333334,
+          "true_accuracy": 1.0
+        },
+        "H2": {
+          "balanced_accuracy": 0.6666666666666666,
+          "eval_manifest_sha256": "84128c3deafa77734a1af0fbdbd038ddb34f915dbbade27b57fec6d04bbbd08a",
+          "false_accuracy": 0.3333333333333333,
+          "overall_accuracy": 0.6666666666666666,
+          "true_accuracy": 1.0
+        },
+        "H4": {
+          "balanced_accuracy": 0.8125,
+          "eval_manifest_sha256": "778679b7cb6a830b83a77454a6be3b2657d98d5ca8a0067466fa395c56db7482",
+          "false_accuracy": 0.7083333333333334,
+          "overall_accuracy": 0.8125,
+          "true_accuracy": 0.9166666666666666
+        }
+      },
+      "run_manifest_sha256": "20b9d9038f1e3b37f73fa301e2d24234b11b0961161a592fa89b490e090f152a",
+      "seed": 2026083111,
+      "status": "COMPLETE"
+    },
+    {
+      "horizons": {
+        "H1": {
+          "balanced_accuracy": 0.5,
+          "eval_manifest_sha256": "d721e7fcacb9acdb0297734f1f6f80e31fcae6b82239ffde941ce610c2ac30db",
+          "false_accuracy": 1.0,
+          "overall_accuracy": 0.5,
+          "true_accuracy": 0.0
+        },
+        "H2": {
+          "balanced_accuracy": 0.6041666666666666,
+          "eval_manifest_sha256": "399dc71502c034c97f8973d9ab7bcf326c9884aa3d5d0564917c94cb23115b4d",
+          "false_accuracy": 0.7916666666666666,
+          "overall_accuracy": 0.6041666666666666,
+          "true_accuracy": 0.4166666666666667
+        },
+        "H4": {
+          "balanced_accuracy": 0.8125,
+          "eval_manifest_sha256": "0bb0979373324242da461fad743728b6683342ba650f97db5e3b007492c3df95",
+          "false_accuracy": 0.8333333333333334,
+          "overall_accuracy": 0.8125,
+          "true_accuracy": 0.7916666666666666
+        }
+      },
+      "run_manifest_sha256": "9faa7d114a5370b16b280cb9a8d072d234f018864e1bc2fbc09c6b6e36ff6fed",
+      "seed": 2026083112,
+      "status": "COMPLETE"
+    },
+    {
+      "horizon": "H2",
+      "rc": 3221225477,
+      "seed": 2026083113,
+      "status": "EVAL_FAILED",
+      "stderr_tail": "W0831 15:20:28.847000 32316 Lib\\site-packages\\torch\\utils\\flop_counter.py:29] triton not found; flop counting will not work for triton kernels\n\nLoading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]"
+    }
+  ],
+  "preexec_sha256": "8d255cc44169330d48a962f88617744aa75add7adb861d8a23b2246ef1a6a7ee",
+  "schema": "cfe.v14.predicate-horizon-campaign.v1",
+  "started": 1788197603.3529522,
+  "status": "BLOCKED"
+}
