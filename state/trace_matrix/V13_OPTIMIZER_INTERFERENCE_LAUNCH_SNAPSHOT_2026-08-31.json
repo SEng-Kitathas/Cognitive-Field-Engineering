@@ -1,0 +1,76 @@
+{
+  "arms": [
+    "LOCAL_MIXED",
+    "WINDOW_SEPARATED"
+  ],
+  "bindings": {
+    "candidate": {
+      "path": "state/candidates/v13_optimizer_interference_20260831/MANIFEST.json",
+      "sha256": "afb37e44a427f8352dac9b50e03503cd96c282c81d44f74759cc69cb9d93ef31"
+    },
+    "contract": {
+      "path": "state/next_steps/V13_OPTIMIZER_INTERFERENCE_TRAINING_CONTRACT_2026-08-31.json",
+      "sha256": "0bb1130de69c0d896a457c78ac1ccc7f895bb527e2d71d8cefb68b2692f6b390"
+    },
+    "host": {
+      "path": "state/qualification/V13_OPTIMIZER_INTERFERENCE_RUNTIME_20260831/HOST_LOCK.json",
+      "sha256": "45b76a3c3cb30ac1fdebac669eef121b34f8fbf2764bcd5df84f28cf3aeaeb67"
+    },
+    "lock": {
+      "path": "state/locks/V13_OPTIMIZER_INTERFERENCE_INPUT_LOCK_2026-08-31.json",
+      "sha256": "31cc908c415fe3f64d7b396bbd75e8cd3846672bc3e37a82905dcd0ddc1e5489"
+    },
+    "preexec": {
+      "path": "state/qualification/V13_OPTIMIZER_INTERFERENCE_PREEXECUTION_20260831.json",
+      "sha256": "4c08e6633c64af2bfd4f5adb9e67a7a099f6f76f52c3d1ce553b039561ad9ed4"
+    },
+    "prereg": {
+      "path": "state/next_steps/V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE_PREREG_2026-08-31.json",
+      "sha256": "da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5"
+    },
+    "profile": {
+      "path": "state/qualification/V13_OPTIMIZER_INTERFERENCE_REPEATABILITY_20260831/PROFILE_LOCK.json",
+      "sha256": "bdc751bf1391aa45bdfdc57a663b83e6457e28335a9605dd4c1873d379bc4066"
+    }
+  },
+  "execution_order": {
+    "2026083101": [
+      "LOCAL_MIXED",
+      "WINDOW_SEPARATED"
+    ],
+    "2026083102": [
+      "WINDOW_SEPARATED",
+      "LOCAL_MIXED"
+    ],
+    "2026083103": [
+      "LOCAL_MIXED",
+      "WINDOW_SEPARATED"
+    ],
+    "2026083104": [
+      "WINDOW_SEPARATED",
+      "LOCAL_MIXED"
+    ],
+    "2026083105": [
+      "LOCAL_MIXED",
+      "WINDOW_SEPARATED"
+    ],
+    "2026083106": [
+      "WINDOW_SEPARATED",
+      "LOCAL_MIXED"
+    ]
+  },
+  "launcher_rule": "exactly one campaign process; no duplicate or parallel CFE scientific screen",
+  "prelaunch_git_head": "8ec23c31d68a6ea3bd00e8c78e8bb4f0ec0e528f",
+  "prelaunch_remote_head_equal": true,
+  "schema": "cfe.v13.optimizer-interference-launch-snapshot.v1",
+  "scientific_difference": "accumulation-window primitive mixing only",
+  "seeds": [
+    2026083101,
+    2026083102,
+    2026083103,
+    2026083104,
+    2026083105,
+    2026083106
+  ],
+  "status": "READY_TO_LAUNCH__NO_V13_TRAINED_OUTCOME_AT_SNAPSHOT"
+}
