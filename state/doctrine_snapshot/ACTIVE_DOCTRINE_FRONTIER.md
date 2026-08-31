@@ -1,32 +1,25 @@
 # CFE ACTIVE DOCTRINE FRONTIER
 
-As of: 2026-08-31 08:02 Eastern Daylight Time
-Mode: BUILD-COMMIT
-Role: R5 Reality Pressure Engine
+As of: 2026-08-31 08:28 Eastern Daylight Time
+Scientific mode: BUILD-COMMIT | Chat mode: DISCUSSION
 
 ## Program-level load bearing
-- Immutable Commander source SHA `29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765`.
-- Active binding `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0750-04-00.md` SHA `bae66a00919f29721c68e47b04a70b413b4b683beee69e3b5e8ddd397011789d`.
 - **The developmental structure of experience itself is the engineering medium.**
-- `USEFUL HANDOFF != PROGRAM COMPLETION`; CFE remains independent of Microseed urgency.
+- Engineer terrain, not internal representation.
+- `CURATOR ONTOLOGY != LEARNER ONTOLOGY`.
+- `USEFUL HANDOFF != PROGRAM COMPLETION`.
 
-## Earned scientific state
-- v1.1: identifying support matters locally; two-sided predicate acquisition unstable.
-- v1.2: composition-basis hypothesis not supported; policy strong; primitive/composition mismatch remains.
-- v1.3: first two paired seeds show no benefit from homogeneous optimizer-window separation; seed3102 favors mixed. Seed3103 mixed evaluation is running but unsealed.
+## Earned trajectory
+- v1.0 killed generic neighborhood superiority but established reproducible relation-dependent arrangement effects.
+- v1.1 established that identifying support geometry matters, without solving the intended strict boundary.
+- v1.2 killed the simple factorized-composition story and exposed primitive/composition dissociation.
+- v1.3 after 3 complete pairs further weakens simple local mixed-window interference; one-sided competence persists.
 
-## Active hypotheses under pressure
-1. simple local mixed-window primitive interference — **weakened after 2/6 pairs**, not disposed until prereg closes.
-2. curator decomposition != learner decomposition — live candidate, not doctrine.
-3. dose / optimizer horizon — parked behind v1.3.
-4. richer predicate-field resolution — live if transport does not solve instability.
-5. Developmental-CFE ecology — broader target after bounded mechanism characterization.
+## Active hypotheses
+1. dose / optimizer horizon
+2. richer predicate-field resolution
+3. learner interface / curator-vs-learner decomposition mismatch
+4. Developmental-CFE ecology beyond known-rule teaching
 
-## Hard controls
-- Complete all six v1.3 pairs; no early stop/rescue.
-- No K-dose or interface screen in parallel.
-- No direct CFE->Microseed transfer without Microseed-side re-derivation.
-- Sealed/published history remains immutable; active state advances by successor bindings and receipts.
-
-## Latest execution delta
-- Seed3103 LOCAL_MIXED sealed: predicate 0.5000, policy 1.0000, composition 0.4792; mate still active. No paired inference.
+## Evidence ceiling
+Learner-visible experience arrangement has produced reproducible, relation-dependent behavioral effects in the current fixed-learner regime; whether those effects generalize into a broader CFE law remains unresolved.

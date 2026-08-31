@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-31T08:02:52-04:00",
+  "as_of": "2026-08-31T08:28:35-04:00",
   "decisions": [
     {
       "consequence": "no CFE graduation at first useful Microseed handoff",
@@ -63,6 +63,13 @@
       "evidence_basis": "v1.3 campaign receipt job5 + prereg paired-unit rule",
       "replay_trigger": "seed3103 WINDOW_SEPARATED seals",
       "status": "VERIFIED_EVIDENCE_SCOPE_DECISION"
+    },
+    {
+      "consequence": "finish preregistered six pairs; do not select transport as solved mechanism",
+      "decision": "Seed3103 further weakens simple mixed-window interference without resolving one-sided competence",
+      "evidence_basis": "v1.3 seed3103 complete pair",
+      "replay_trigger": "v1.3 aggregate closeout",
+      "status": "VERIFIED_INTERIM_SCIENTIFIC_INTERPRETATION"
     }
   ],
   "schema": "cfe.active-decisions.v1"

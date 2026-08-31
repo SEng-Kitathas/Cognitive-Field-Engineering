@@ -1,17 +1,18 @@
 {
-  "as_of": "2026-08-31T08:02:52-04:00",
+  "as_of": "2026-08-31T08:28:35-04:00",
   "blocked": [],
   "p0": [
     "keep PID 23156 only",
-    "finish seed3103 WINDOW_SEPARATED",
-    "publish full seed3103 pair",
-    "continue seeds3104..3106",
-    "mechanical dispositions",
-    "hostile closeout"
+    "finish seed3104 pair",
+    "continue seed3105-3106",
+    "mechanical v1.3 closeout",
+    "hostile analysis"
   ],
   "parked": [
-    "K-dose until v1.3 closes",
-    "primitive-interface until v1.3 closes"
+    "dose/horizon",
+    "richer predicate-field resolution",
+    "learner-decomposition/interface",
+    "Developmental-CFE ecology"
   ],
   "schema": "cfe.active-next-steps.v3"
 }

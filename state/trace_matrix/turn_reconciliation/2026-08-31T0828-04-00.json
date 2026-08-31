@@ -1,0 +1,102 @@
+{
+  "active_blockers": [],
+  "active_commander_binding": {
+    "alignment": "ALIGNED",
+    "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0828-04-00.md",
+    "sha256": "f7d8498e47101afb2f1b06c1efe349a9e75ed747d07d6a6dd86dafb4b8433e19"
+  },
+  "commander_source": {
+    "path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+  },
+  "continuity_surfaces": {
+    "state/current.md": {
+      "bytes": 1888,
+      "sha256": "1a2f5e9f95ad9ccd9b807fcc1323fc0fde8b65fe142d93fadba80d2d42cc81db"
+    },
+    "state/current/ACTIVE_CURRENT_STATE.json": {
+      "bytes": 1742,
+      "sha256": "88cb032b1bfda2c8971616799ff89ea34d29e79d32b107e81205499e77a47e08"
+    },
+    "state/current/ACTIVE_DECISIONS.json": {
+      "bytes": 3937,
+      "sha256": "915ba7f1ebef4cc546eb961b3a97b7c4af4413d14065444aeedd3c16c12e86a7"
+    },
+    "state/design_thread_stream.md": {
+      "bytes": 52743,
+      "sha256": "620963d8a6e680bdf0921b60279f29597a5590a26f10a4a9c393e82d5e19ed62"
+    },
+    "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0828-04-00.md": {
+      "bytes": 14690,
+      "sha256": "f7d8498e47101afb2f1b06c1efe349a9e75ed747d07d6a6dd86dafb4b8433e19"
+    },
+    "state/doctrine_snapshot/ACTIVE_COMMANDERS_INTENT_TURN_READBACK.json": {
+      "bytes": 1063,
+      "sha256": "02310da390ccdf33cff7bf6cecc99ac320db5753470b7d00f01a9a620d6d9762"
+    },
+    "state/doctrine_snapshot/ACTIVE_DOCTRINE_FRONTIER.md": {
+      "bytes": 1289,
+      "sha256": "56eba73354149e722b4f9000164022eadf47d0c879b6883244f5476792b721d3"
+    },
+    "state/live_shadow.md": {
+      "bytes": 2015,
+      "sha256": "64151d04bb0a12d568cc329677e0ec821d10d9f7c06ee7070b643f516dec4f12"
+    },
+    "state/next_steps.md": {
+      "bytes": 808,
+      "sha256": "ef2edd229bdff2610afd2d723a7da31c3b3a4f3dac06fc623807f3dc66b8050d"
+    },
+    "state/next_steps/ACTIVE_NEXT_STEPS.json": {
+      "bytes": 406,
+      "sha256": "f25bfdc2a65ec99c775f0810618eff86afdde7612b3e07cdc89804e30ec29353"
+    },
+    "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md": {
+      "bytes": 756,
+      "sha256": "7dd493d9e5b6f0d607235dbf5ccb5dba0d636fe4d5620eb3f28e017b4ff36037"
+    },
+    "state/trace_matrix/ACTIVE_TRACE_MATRIX.md": {
+      "bytes": 970,
+      "sha256": "1172484852d4639666f0c2746ed42dce2adf02bb789866f70d2329eb1720763f"
+    },
+    "state/trace_matrix/RESEARCH_PUBLICATION_MANIFEST_2026-08-30.json": {
+      "bytes": 233528,
+      "sha256": "064fe0390c0a9cabfc6a5b14f16d372fe2f3ed3eefdca306cc34581795d9a14e"
+    },
+    "state/trace_matrix/V13_OPTIMIZER_INTERFERENCE_HEAVY_RELEASE_2026-08-31.json": {
+      "bytes": 6751,
+      "sha256": "b6fb2cd90cf532b9ad2c94a1e5b59cd79cb42602263cf72c2bb9d80757b2b5e7"
+    },
+    "transcript/THIS_CONVERSATION.md": {
+      "bytes": 4824,
+      "sha256": "a8afb2333d28badc9fbec0a56f06e3c948be80d10774cc13a6742e6d03fbad12"
+    }
+  },
+  "decisions": [
+    "explain trajectory from source intent and earned evidence",
+    "simple local interference weakened after 3 complete pairs",
+    "do not alter scientific runner"
+  ],
+  "frontier": {
+    "active_job": "2026083104 LOCAL_MIXED training",
+    "seed3103": {
+      "composition_delta": 0.020833333333333315,
+      "policy_delta": 0.0,
+      "predicate_delta": 0.0
+    },
+    "seed3104_window_separated": "sealed half-pair",
+    "v13_complete_pairs": 3,
+    "v13_pid": 23156,
+    "v13_pid_status": "ALIVE",
+    "v13_sealed_jobs": 7
+  },
+  "mode": "DISCUSSION_CHAT__BUILD_COMMIT_RUNNER_UNCHANGED",
+  "new_material_artifacts": [
+    "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0828-04-00.md",
+    "V13_OPTIMIZER_INTERFERENCE_2026083103_ADAPTERS.zip",
+    "V13_OPTIMIZER_INTERFERENCE_2026083104_WINDOW_SEPARATED_PARTIAL.zip"
+  ],
+  "next_exact_action": "keep PID 23156; finish seed3104 LOCAL_MIXED; continue seeds3105-3106; v1.3 closeout",
+  "role": "R4 Convergence Refiner",
+  "schema": "cfe.per-turn-reconciliation-receipt.v3",
+  "timestamp": "2026-08-31T08:28:35-04:00"
+}

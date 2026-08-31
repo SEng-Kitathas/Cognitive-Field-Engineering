@@ -1,26 +1,24 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0802-04-00.md",
-  "active_binding_sha256": "641e1d86e7caf9d090a2df05e173b97bd9981b855ba36da2619ac78603d258eb",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0828-04-00.md",
+  "active_binding_sha256": "f7d8498e47101afb2f1b06c1efe349a9e75ed747d07d6a6dd86dafb4b8433e19",
   "alignment": "ALIGNED",
   "branch": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE__CAMPAIGN_ACTIVE",
   "frontier": {
-    "active_job": "2026083103 WINDOW_SEPARATED evaluation in progress; unsealed",
-    "complete_pairs": 2,
+    "active_job": "2026083104 LOCAL_MIXED training",
+    "complete_pairs": 3,
     "pid": 23156,
     "pid_status": "ALIVE",
-    "sealed_jobs": 5,
-    "seed3103_local_mixed": {
-      "composed_false": 0.9583333333333334,
-      "composed_true": 0.0,
-      "composition": 0.4791666666666667,
-      "policy": 1.0,
-      "predicate": 0.5,
-      "status": "SEALED_PARTIAL_PAIR"
-    }
+    "sealed_jobs": 7,
+    "seed3103": {
+      "composition_delta": 0.020833333333333315,
+      "policy_delta": 0.0,
+      "predicate_delta": 0.0
+    },
+    "seed3104_window_separated": "sealed half-pair"
   },
-  "reason": "Explanatory turn only; preserve exact frozen science and restate arc from source intent plus earned evidence.",
+  "reason": "Explanatory turn grounded in original intent plus earned v1.0-v1.3 evidence; scientific runner unchanged.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T08:02:52-04:00"
+  "timestamp": "2026-08-31T08:28:35-04:00"
 }

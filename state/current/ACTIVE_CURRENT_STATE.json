@@ -1,30 +1,57 @@
 {
-  "as_of": "2026-08-31T08:02:52-04:00",
+  "as_of": "2026-08-31T08:28:35-04:00",
   "blockers": [],
-  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0802-04-00.md",
-  "commander_active_binding_sha256": "641e1d86e7caf9d090a2df05e173b97bd9981b855ba36da2619ac78603d258eb",
+  "commander_active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T0828-04-00.md",
+  "commander_active_binding_sha256": "f7d8498e47101afb2f1b06c1efe349a9e75ed747d07d6a6dd86dafb4b8433e19",
   "commander_source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
   "frontier": "V13_SCIENTIFIC_CAMPAIGN_ACTIVE",
-  "mode": "BUILD-COMMIT",
-  "role": "R5 Reality Pressure Engine",
+  "mode": "DISCUSSION_CHAT__BUILD_COMMIT_RUNNER_UNCHANGED",
+  "role": "R4 explanation / R5 scientific execution",
   "schema": "cfe.active-current-state.v3",
-  "v12": {
-    "disposition": "COMPOSITION_BASIS_NOT_SUPPORTED",
-    "status": "COMPLETE"
-  },
   "v13": {
-    "active_job": "2026083103 WINDOW_SEPARATED evaluation in progress; unsealed",
-    "campaign_status": "RUNNING",
-    "complete_pairs": 2,
+    "active_job": "2026083104 LOCAL_MIXED training",
+    "complete_pairs": 3,
     "pid": 23156,
     "pid_status": "ALIVE",
-    "sealed_jobs": 5,
-    "seed3103_local_mixed": {
-      "composed_false": 0.9583333333333334,
-      "composed_true": 0.0,
-      "composition": 0.4791666666666667,
-      "policy": 1.0,
-      "predicate": 0.5
+    "sealed_jobs": 7,
+    "seed3103": {
+      "separation_composition_delta": 0.020833333333333315,
+      "separation_policy_delta": 0.0,
+      "separation_predicate_delta": 0.0
+    },
+    "seed3104_window_separated": {
+      "composition": 0.3958333333333333,
+      "composition_truth": {
+        "false": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 1.0,
+          "n": 48
+        },
+        "true": {
+          "accuracy": 0.7916666666666666,
+          "correct": 38,
+          "json_parse_rate": 1.0,
+          "n": 48
+        }
+      },
+      "eval_sha256": "488457a146a6025c9cfbebb5d2d8c2fbc2a57734bfdf4b5c1cb924518d0fe36a",
+      "policy": 0.5,
+      "predicate": 0.5,
+      "predicate_truth": {
+        "false": {
+          "accuracy": 1.0,
+          "correct": 24,
+          "json_parse_rate": 1.0,
+          "n": 24
+        },
+        "true": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "json_parse_rate": 1.0,
+          "n": 24
+        }
+      }
     }
   }
 }
