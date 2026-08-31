@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-08-31T06:20:00-04:00",
+  "blocked": [],
+  "p0": [
+    "publish reconciled v1.2/v1.3 checkpoint",
+    "build v1.3 schedule implementation",
+    "static hostile audit",
+    "input lock",
+    "runtime/tokenizer/repeatability qualification",
+    "remote prelaunch checkpoint",
+    "run six paired v1.3 seeds"
+  ],
+  "parked": [
+    "K-dose until v1.3 closes",
+    "primitive-interface screen until v1.3 closes"
+  ],
+  "schema": "cfe.active-next-steps.v1"
+}

@@ -576,3 +576,19 @@ Timestamp: 2026-08-31
 Tags: V12 SEED2905 SEALED, DISCRIMINATING RESULT, RESEARCH PUBLICATION
 
 Seed 2026082905 fully paired. NARROW predicate 0.5000, composed 0.4896; IDENTIFYING predicate 0.8542, composed 0.2917. Identifying-minus-narrow predicate delta +0.3542, composed delta -0.1979. This is the first seed where identifying shows substantial predicate competence but composition degrades, directly separating primitive acquisition from composed behavior. Exact adapters release-published and digest verified.
+
+---
+
+## Exchange — USER
+Timestamp: 2026-08-31 06:20 ET
+Tags: CONTINUITY CONTROL, COMMANDERS INTENT, PROCEED
+
+Operator reported the local endpoint was fixed, then directed CFE to proceed autonomously and required that every decision, every piece of research, every Commander's Intent, and all continuity documents be kept fresh per turn.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-31 06:20 ET
+Tags: V12 CLOSEOUT, V13 PREREG, PER-TURN RECONCILIATION
+
+Control endpoint verified healthy. v1.2 read back COMPLETE 12/12 with aggregate SHA af26fd4b626afddd2bb22445cf276cf3690b5e4352bb96f3b8acddcb0ec0ff20. Preregistered composition basis NOT SUPPORTED: mean identifying-minus-narrow composed delta -0.006944, 2/6 positive seeds, false-side delta -0.104167, true-side +0.090278. Direct policy mean 0.972222 both arms. Predicate remained unstable; seed 2905 identifying reached 0.854167 direct predicate while composing worse than narrow. All 12 v1.2 adapters were release-published and digest-verified. v1.2 hostile closeout and final disposition were created. New active Commander binding 2026-08-31 preserves source intent and adds no-MVP maturation constraint. Per-turn continuity reconciliation policy was created. v1.3 optimizer-visible primitive-interference prereg was frozen before any v1.3 model outcome, using fresh paired seeds and rerunning both arms. Live Shadow, Current, Next Steps, Revisit Ledger, Trace Matrix, and active Commander readback were reconciled to the actual frontier.

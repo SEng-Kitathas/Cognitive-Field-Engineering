@@ -1,0 +1,54 @@
+{
+  "schema": "cfe.v12.factor-primitive-final-disposition.v1",
+  "status": "FINAL_SIX_SEED_DISPOSITION__HOSTILE_CLOSEOUT_COMPLETE",
+  "campaign_receipt_sha256": "501dc31c844e17b8ad0c155a69584af0f38756ebc129f030f3de51fc5264586f",
+  "aggregate_sha256": "af26fd4b626afddd2bb22445cf276cf3690b5e4352bb96f3b8acddcb0ec0ff20",
+  "hostile_closeout_sha256": "8c34140248f0ee5325c3abbbbb507cc7f6a8452e90d6176f132b71b043a69937",
+  "preregistration_sha256": "e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9",
+  "composition": {
+    "paired_identifying_minus_narrow_deltas": [
+      -0.10416666666666669,
+      0.10416666666666669,
+      0.21875000000000006,
+      -0.01041666666666663,
+      -0.19791666666666663,
+      -0.052083333333333315
+    ],
+    "mean_delta": -0.00694444444444442,
+    "identifying_positive_seeds": 2,
+    "pooled_false_truth_delta": -0.10416666666666669,
+    "pooled_true_truth_delta": 0.09027777777777779,
+    "preregistered_disposition": "COMPOSITION_BASIS_NOT_SUPPORTED"
+  },
+  "policy": {
+    "narrow_mean_direct_accuracy": 0.9722222222222222,
+    "identifying_mean_direct_accuracy": 0.9722222222222222,
+    "interpretation": "policy acquisition is not the leading bottleneck in this screen"
+  },
+  "predicate": {
+    "paired_identifying_minus_narrow_deltas": [
+      0.0,
+      0.0,
+      -0.02083333333333337,
+      0.0,
+      0.35416666666666663,
+      0.0
+    ],
+    "mean_delta": 0.055555555555555546,
+    "seed_2026082905_identifying_accuracy": 0.8541666666666666,
+    "seed_2026082905_identifying_false_accuracy": 1.0,
+    "seed_2026082905_identifying_true_accuracy": 0.7083333333333334,
+    "seed_2026082905_identifying_composed_accuracy": 0.2916666666666667,
+    "seed_2026082905_narrow_composed_accuracy": 0.4895833333333333,
+    "descriptive_identifying_predicate_vs_composition_correlation": -0.5295255017794327,
+    "interpretation": "predicate behavior remains unstable and better direct predicate acquisition does not guarantee better composition"
+  },
+  "next_mechanism_rank": [
+    "optimizer_visible_primitive_interference",
+    "primitive_interface_or_learner_decomposition_mismatch",
+    "dose_or_optimizer_horizon"
+  ],
+  "next_branch": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE",
+  "k_dose_status": "PARKED_UNTIL_LOCAL_INTERFERENCE_DISCRIMINATOR",
+  "evidence_ceiling": "Negative result for the current factorized composition construction under this fixed learner/transport/optimizer contract. Not a general CFE failure and not proof of any one surviving mechanism."
+}

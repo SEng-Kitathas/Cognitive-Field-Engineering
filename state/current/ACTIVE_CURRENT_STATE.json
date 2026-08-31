@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-08-31T06:20:00-04:00",
+  "blockers": [],
+  "commander_active_binding_sha256": "30090fe63437ea3b0d4306d6782192fa61868a9308475a46992c950324eb3b5f",
+  "commander_source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
+  "frontier": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE",
+  "mode": "BUILD-COMMIT",
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.active-current-state.v1",
+  "v12": {
+    "aggregate_sha256": "af26fd4b626afddd2bb22445cf276cf3690b5e4352bb96f3b8acddcb0ec0ff20",
+    "disposition": "COMPOSITION_BASIS_NOT_SUPPORTED",
+    "jobs": "12/12",
+    "receipt_sha256": "501dc31c844e17b8ad0c155a69584af0f38756ebc129f030f3de51fc5264586f",
+    "status": "COMPLETE"
+  },
+  "v13_prereg_sha256": "da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5"
+}

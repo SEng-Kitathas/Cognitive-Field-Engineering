@@ -1,82 +1,76 @@
 # CFE LIVE SHADOW
 
 ## Thread Identity
-- Thread: CFE takeover / v1.0 first causal screen
-- Last Updated: 2026-08-29 22:07 ET
-- Mode: RECOVERY -> AUDIT -> BUILD-COMMIT
-- Dominant Objective: finish the frozen v1.0 first-screen execution without corrupting lineage, preregistration, or scientific interpretation.
+- Thread: CFE mechanism science and maturation
+- Last Updated: 2026-08-31 06:20 ET reconciliation pass
+- Mode: BUILD-COMMIT
+- Dominant Objective: close v1.2 without narrative inflation, preserve complete lineage, and launch the strongest next CFE mechanism discriminator while keeping CFE independent from downstream urgency.
 
 ## Active User Intent
-- Preserve and operationalize the original CFE Commander's Intent from the invention thread without smuggling later discoveries backward as if they were original.
-- Program invariant: **The developmental structure of experience itself is the engineering medium.**
-- Keep Identifying CFE (known target relation, hard mechanism science) distinct from Developmental CFE (lawful ecology, learner-discovered representations/strategies/compositions).
-- Do not let local success redefine CFE as better SFT ordering, machine teaching, benchmark training, curriculum tuning, or optimizer scheduling.
-- Continue the active v1.1 predicate/policy screen unchanged under its frozen scientific lock.
-- Maintain per-material-turn Git continuity; normal clone stays thin and heavy R&D remains opt-in.
+- Push CFE toward the strongest mature form reachable; do not freeze it at an MVP merely because Microseed can use partial lessons.
+- Keep every material decision, research frontier, Commander's Intent binding, and continuity surface fresh per substantive turn.
+- Preserve historical evidence rather than rewriting it to look current.
+- Maintain versioned CFE -> Microseed handoffs without treating a handoff as CFE graduation.
 
 ## Current Authoritative State
-- Program-level CFE Commander's Intent remains governed by: **The developmental structure of experience itself is the engineering medium.** Identifying CFE remains a scientific specialization; Developmental CFE remains the broader program.
-- v1.1 predicate/policy campaign is COMPLETE: 18/18 train+eval jobs sealed; campaign receipt SHA `29a904d28a9eda8fef72bc814c6c97c4d8f9563ffd7095d8be7a4be378d55e2a`; aggregate SHA `3e631f81a5c063fda3fdcf06f26fed8fe9e6de7217ce8e085f8ef161800ccf4d`.
-- Mechanical prereg disposition is historical truth: `H_WRONG_BASIS = SUPPORTED`; `POLICY_SEPARABILITY = LEARNABLE`; frozen next branch says `JOINT_IDENTIFYING_PREREG_REQUIRED`.
-- Predicate paired deltas identifying-minus-narrow: `+0.4107,+0.1964,+0.2500,+0.1964,-0.0536,+0.0536`; 5/6 positive; mean +17.56 pts; mean out-of-original-support +24.17 pts.
-- Policy factorization: all six seeds 48/48; all action classes 100% at tested scope.
-- Hostile interpretation: the identifying basis changed phenotype and improved mean balanced accuracy (0.6076 vs narrow 0.5174) but did **not** produce stable two-sided strict-boundary acquisition. Narrow mostly collapses toward `true`; identifying mostly shifts toward `false/safe`, with weak positive-side competence in most seeds.
-- Therefore `PREREGISTERED DISPOSITION PASS != FULL MECHANISM ACQUISITION`. Joint scientific weight mutation remains blocked until a new predicate-competence gate rejects constant/near-constant class basins and requires two-sided competence.
-- Portability defect confirmed: current execution/publication checkout is 27/27 exact against the scientific lock, while an LF-normalized reproduction yields 19 exact + 8 normalization-equivalent. Original lock remains unchanged.
-- Companion portability seal SHA `a099c58fe010996147ae01a897cb54f7604caad2899be5cb012e3f74b993226c`; verifier distinguishes `EXACT_BYTES`, `NORMALIZATION_EQUIVALENT`, `FAIL`, `MISSING`. Normalization equivalence is reproduction provenance only, not original execution authorization.
-- All 18 completed v1.1 adapters are published as six verified seed-scoped GitHub Release bundles under tag `cfe-v11-predicate-policy-research-2026-08-30`; release digests read back and match local bundles.
-- Research-lineage publication policy remains active: every non-heavy material research artifact is Git-tracked; heavy artifacts are published with hashed release bindings; failed/superseded work remains in the chain.
-- v1.2 scientific campaign PID `13780` remains active at run root `state/analysis/V12_FACTOR_PRIMITIVE_CAMPAIGN_20260831T021411Z`. Seed 2901 is fully paired and sealed; runner has advanced beyond it.
-- Seed 2901: NARROW composed 34/96=0.3542, IDENTIFYING 24/96=0.25; both predicate-direct 24/48=0.50 and one-sided true; both policy-direct 40/48=0.8333. One paired seed only; no disposition.
-- Seed-2901 exact adapters are release-published and digest-verified.
+- Verbatim Commander's Intent source remains immutable at SHA `29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765`.
+- Current active Commander binding: `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31.md`, SHA `30090fe63437ea3b0d4306d6782192fa61868a9308475a46992c950324eb3b5f`.
+- Program invariant: **The developmental structure of experience itself is the engineering medium.**
+- v1.1: broader identifying support materially improved predicate transfer but did not yield stable two-sided strict-boundary acquisition.
+- v1.2 factorized composition campaign is COMPLETE: 12/12 jobs; receipt SHA `501dc31c844e17b8ad0c155a69584af0f38756ebc129f030f3de51fc5264586f`; aggregate SHA `af26fd4b626afddd2bb22445cf276cf3690b5e4352bb96f3b8acddcb0ec0ff20`.
+- v1.2 preregistered disposition: `COMPOSITION_BASIS_NOT_SUPPORTED`. Mean identifying-minus-narrow composed delta -0.69 pts; identifying wins 2/6; false-side delta -10.42 pts; true-side delta +9.03 pts.
+- Policy direct mean = 97.22% in both arms; policy is not the leading bottleneck.
+- Predicate remains unstable. Seed 2905 identifying reached 85.42% direct predicate but composed worse than narrow, so `BETTER DECLARED PRIMITIVE ACQUISITION != BETTER COMPOSITION` at that seed.
+- v1.2 hostile closeout SHA `8c34140248f0ee5325c3abbbbb507cc7f6a8452e90d6176f132b71b043a69937`; final disposition SHA `3eb15758fa14cd5586d69519736934b0727471f3329603203d09304cfb9fef54`.
+- All 12 v1.2 adapters are published and digest-verified; heavy release state SHA `11835f7471459eb78d705cbaea083ec7470b5ff814f2e1c351fd139d2e65327f`.
+- v1.3 optimizer-visible primitive-interference prereg is frozen before any v1.3 outcome, SHA `da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5`.
+- v1.3 will rerun both arms on fresh paired seeds; no reuse of v1.2 outcomes as a convenient control.
 
 ## Active Constraints
-- Do not restart or overwrite the completed CONTROL training output or the active corrected CONTROL evaluation output.
-- Frozen Stage-1 arm order must be preserved.
-- Evaluation happens only after train manifest + adapter verification.
-- Paired seed/run is the inferential unit; evaluation rows are nested.
-- Seed extension rule is mechanical and preregistered.
-- No scientific promotion from process success, base evaluation, or one arm.
-- No future model download before local-drive identity search.
+- No MVP closure: useful downstream handoff != CFE completion.
+- No direct transfer of Mistral/LoRA/ChatML-specific scars into Microseed.
+- No adaptive post-outcome changes to frozen scientific screens.
+- No K-dose or primitive-interface screen in parallel with v1.3.
+- Per-turn continuity reconciliation policy is active, SHA `acc90cb1b81a111960f65126170bf88ff2310ae58b4bdbf0ce21b84111d105ba`.
+- Sealed history is append-only; freshness is achieved through active bindings, state refresh, and new receipts.
 - Plain language around the mechanism; proper language for the mechanism.
 
 ## Decisions Locked In
-- `tools/resume_v10_first_screen.py` is the fail-closed recovery path for the orphaned launcher.
-- Resume tool must refuse partial/corrupt outputs and run only the first missing frozen step.
-- Current scientific work outranks unfinished exploratory campaign work until the live screen reaches a clean gate.
+- v1.2 composition basis is NOT SUPPORTED under the tested mixed-window regime.
+- Next discriminator is optimizer-visible primitive interference, not generic more-dose rescue.
+- v1.3 arms: `LOCAL_MIXED` vs `WINDOW_SEPARATED`, exact same identifying-predicate and policy multiset; only accumulation-window primitive mixing changes.
+- Fresh v1.3 paired seeds: 2026083101..2026083106.
+- Original Commander's Intent source is immutable; dated active bindings carry current frontier.
+- Per-turn reconciliation receipts are required for substantive turns.
 
 ## Open Loops
-- Microseed language-gate dependency: operator reports pre-lingual substrate milestone reached and language gate is pre-research. Treat as operator-reported until Microseed artifacts are inspected. Prepare CFE→Microseed research handoff only after v1.2 closeout; no direct claim transfer.
-
-- v1.2 factorized primitive-composition branch is valid and now preexecution-authorized; it was preregistered after the v1.1 one-sided predicate seam was already known and contains explicit truth-side/predicate-readout safeguards.
-- Direct training of the composed numeric-state+mode -> action answer remains prohibited.
-- v1.2 may test zero-shot composition of separately trained predicate and policy primitives; any composed gain with one-sided predicate behavior must fall into `COMPOSITION_PRESENT_BUT_PREDICATE_UNRESOLVED` and cannot promote a clean boundary law.
-- No K1/K2/K4 or optimizer-window screen may run in parallel.
-- Future locks must declare raw execution identity plus canonical transport identity before scientific execution.
-- Continue full research-lineage publication every material turn.
+- Does homogeneous primitive separation improve direct-predicate balanced accuracy?
+- If predicate improves, does composition improve too, or does primitive-interface / learner-decomposition mismatch remain?
+- If local interference is weakened, move to dose/horizon rather than endlessly rearranging windows.
+- Developmental-CFE ecology remains the broader target beyond current Identifying-CFE mechanism science.
+- Microseed language-gate handoff remains pending actual Microseed-side artifact inspection and CFE v1.2/v1.3 frontier packaging.
 
 ## Immediate Next Step
-- Inspect only the existing v1.2 campaign PID 13780 / receipt before any future action; never duplicate the runner.
-- Let the frozen factorized primitive-composition campaign advance fail-closed.
-- Publish each sealed non-heavy job artifact and corresponding heavy adapter under the research-lineage policy.
-- On completion, apply preregistered composition truth-side/predicate/policy dispositions before interpretation.
+- Publish/read back this reconciled v1.2 closeout + active Commander binding + v1.3 prereg checkpoint.
+- Build v1.3 schedule implementation and static hostile audit.
+- Qualify exact lock/runtime/repeatability before scientific weight mutation.
+- Launch only after remote prelaunch verification.
 
 ## Last 10 Turn Reinforcement Window
-1. User asked to continue from the prior CFE work.
-2. Recovery found v1.0 far ahead of stale `state/current.md`.
-3. Live first-screen CONTROL training process was found active.
-4. Pre-execution receipts showed 56/56 tests and parent unchanged.
-5. Local-first receipt proved C:, D:, E: were searched before exact Argilla download.
-6. Host, profile, repeatability, and NF4 base artifacts were read and verified.
-7. Original PowerShell launcher parent was found gone while the CONTROL child remained alive.
-8. Runbook and analyzer were audited; paired-seed inference and mechanical seed-extension logic were confirmed.
-9. Fail-closed `tools/resume_v10_first_screen.py` was built and compiled.
-10. Resume-tool audit correctly blocked on the current partial CONTROL output; stale current/next state was repaired.
+1. Operator reported Microseed pre-lingual substrate milestone and language-gate pre-research boundary.
+2. CFE kept Microseed as an operator-reported dependency seam, not verified Microseed evidence.
+3. Operator explicitly rejected MVP-style CFE closure and required continued maturation.
+4. v1.2 campaign advanced to the final pair without adaptive changes.
+5. Operator required every decision, research frontier, Commander's Intent, and continuity document to stay fresh per turn.
+6. Local endpoint outage temporarily blocked continuity mutation after v1.2 aggregate readback.
+7. Endpoint restored.
+8. v1.2 verified COMPLETE 12/12; composition basis NOT SUPPORTED.
+9. All 12 v1.2 adapters were release-published and digest-verified.
+10. v1.3 optimizer-visible primitive-interference prereg was frozen before any v1.3 model outcome.
 
 ## Delta Since Previous Shadow
-- Located the earlier v1.1 hostile closeout that v1.2 was actually bound to; it already documented the one-sided predicate seam.
-- Reconciled the later stricter overlay with v1.2: direct composed-answer training is blocked, but factorized zero-shot composition remains admissible because the seam is preregistered and explicitly tested.
-- Added v1.2 companion portability seal SHA `39f2ce2d8ea339a07f92fef59024b4385f9219afa097a9550cab17ab956437f7` before any v1.2 scientific trained-arm outcome.
-- Final v1.2 preexecution gate passed: `V12_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`.
-- No v1.2 scientific weights have moved yet at this snapshot.
-
+- Removed stale active-campaign state; v1.2 is now complete.
+- Added final v1.2 hostile interpretation and disposition.
+- Added no-MVP maturation constraint and per-turn continuity reconciliation rule.
+- Promoted optimizer-visible primitive interference to the next frozen discriminator.
+- Refreshed active Commander binding to the current frontier without modifying the original source.

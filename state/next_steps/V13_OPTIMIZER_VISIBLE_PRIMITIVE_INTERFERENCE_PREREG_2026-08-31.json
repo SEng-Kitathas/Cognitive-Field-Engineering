@@ -1,0 +1,138 @@
+{
+  "schema": "cfe.v13.optimizer-visible-primitive-interference-prereg.v1",
+  "status": "FROZEN_BEFORE_ANY_V13_MODEL_OUTCOME",
+  "program_mode": "IDENTIFYING_CFE__OPTIMIZER_TRANSPORT_SPECIALIZATION",
+  "parent_evidence": {
+    "v12_campaign_receipt_sha256": "501dc31c844e17b8ad0c155a69584af0f38756ebc129f030f3de51fc5264586f",
+    "v12_aggregate_sha256": "af26fd4b626afddd2bb22445cf276cf3690b5e4352bb96f3b8acddcb0ec0ff20",
+    "v12_hostile_closeout_sha256": "8c34140248f0ee5325c3abbbbb507cc7f6a8452e90d6176f132b71b043a69937",
+    "v12_final_disposition_sha256": "3eb15758fa14cd5586d69519736934b0727471f3329603203d09304cfb9fef54",
+    "v12_disposition": "COMPOSITION_BASIS_NOT_SUPPORTED"
+  },
+  "question": "With the exact same identifying-predicate and policy experience multiset, does separating the two primitives into homogeneous gradient-accumulation windows improve two-sided predicate acquisition and/or zero-shot composition relative to mixing both primitives inside every optimizer window?",
+  "causal_variable": "optimizer-visible primitive co-mixing inside a gradient-accumulation window",
+  "arms": {
+    "LOCAL_MIXED": {
+      "window_contract": "18 accumulation windows per epoch; each window contains exactly 4 identifying-predicate rows and 4 policy rows",
+      "interpretation": "replicates the v1.2 local mixed primitive geometry on fresh seeds"
+    },
+    "WINDOW_SEPARATED": {
+      "window_contract": "18 accumulation windows per epoch; 9 windows contain 8 identifying-predicate rows and 9 contain 8 policy rows; predicate/policy window types alternate under a frozen seed-dependent start order",
+      "interpretation": "removes within-update primitive co-mixing while preserving the complete experience multiset"
+    }
+  },
+  "shared_experience": {
+    "predicate_dataset": "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_IDENTIFYING_V12.jsonl",
+    "predicate_token_reference": "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_IDENTIFYING_V12.token_reference.private.jsonl",
+    "policy_dataset": "state/candidates/v12_factor_primitive_composition_20260830/POLICY_Z_SHARED.jsonl",
+    "policy_token_reference": "state/candidates/v12_factor_primitive_composition_20260830/POLICY_Z_SHARED.token_reference.private.jsonl",
+    "predicate_rows": 72,
+    "policy_rows": 72,
+    "rows_per_arm": 144,
+    "global_tokens_per_arm": 31200,
+    "supervised_tokens_per_arm": 4608,
+    "joint_numeric_mode_to_action_training_examples": 0
+  },
+  "evaluation": {
+    "predicate_direct": "reuse exact frozen v1.2 PREDICATE_EVAL.private.jsonl",
+    "policy_direct": "reuse exact frozen v1.2 POLICY_EVAL.private.jsonl",
+    "composed_action": "reuse exact frozen v1.2 COMPOSE_EVAL.private.jsonl",
+    "primary_mechanism_metric": "paired-seed direct-predicate balanced accuracy",
+    "predicate_balanced_accuracy_definition": "mean(false-truth accuracy, true-truth accuracy)",
+    "secondary_metrics": [
+      "direct predicate overall accuracy",
+      "direct predicate false-truth accuracy",
+      "direct predicate true-truth accuracy",
+      "direct policy accuracy",
+      "composed-action overall accuracy",
+      "composed-action false-truth accuracy",
+      "composed-action true-truth accuracy"
+    ]
+  },
+  "optimization": {
+    "inherit_exactly_from_v12_except_schedule": true,
+    "model_revision": "d06c86726aadd8dadb92c5b9b9e3ce8ef246c471",
+    "profile": "all_linear_r8",
+    "learning_rate": 0.0001,
+    "optimizer": "paged_adamw_8bit",
+    "gradient_accumulation_steps": 8,
+    "microbatch": 1,
+    "epochs": 4,
+    "expected_optimizer_steps": 72,
+    "packing": false,
+    "shuffle": false,
+    "attention_backend": "eager",
+    "determinism": "fail-closed"
+  },
+  "fresh_seeds": [2026083101, 2026083102, 2026083103, 2026083104, 2026083105, 2026083106],
+  "execution_order": {
+    "2026083101": ["LOCAL_MIXED", "WINDOW_SEPARATED"],
+    "2026083102": ["WINDOW_SEPARATED", "LOCAL_MIXED"],
+    "2026083103": ["LOCAL_MIXED", "WINDOW_SEPARATED"],
+    "2026083104": ["WINDOW_SEPARATED", "LOCAL_MIXED"],
+    "2026083105": ["LOCAL_MIXED", "WINDOW_SEPARATED"],
+    "2026083106": ["WINDOW_SEPARATED", "LOCAL_MIXED"]
+  },
+  "window_start_order": {
+    "2026083101": "predicate_first_for_WINDOW_SEPARATED",
+    "2026083102": "policy_first_for_WINDOW_SEPARATED",
+    "2026083103": "predicate_first_for_WINDOW_SEPARATED",
+    "2026083104": "policy_first_for_WINDOW_SEPARATED",
+    "2026083105": "predicate_first_for_WINDOW_SEPARATED",
+    "2026083106": "policy_first_for_WINDOW_SEPARATED"
+  },
+  "preregistered_dispositions": {
+    "LOCAL_INTERFERENCE_SUPPORTED": {
+      "requires_all": [
+        "mean paired WINDOW_SEPARATED minus LOCAL_MIXED predicate balanced-accuracy delta > 0",
+        "WINDOW_SEPARATED wins predicate balanced accuracy on at least 4 of 6 paired seeds",
+        "pooled predicate false-truth accuracy is not lower in WINDOW_SEPARATED",
+        "pooled predicate true-truth accuracy is not lower in WINDOW_SEPARATED",
+        "mean POLICY_DIRECT accuracy >= 0.95 in both arms"
+      ]
+    },
+    "LOCAL_INTERFERENCE_WEAKENED": {
+      "trigger_any": [
+        "mean paired predicate balanced-accuracy delta <= 0",
+        "WINDOW_SEPARATED wins fewer than 4 of 6 paired seeds",
+        "the apparent predicate gain is produced by improving one truth side while materially harming the other"
+      ]
+    },
+    "TWO_SIDED_PREDICATE_COMPETENCE_EARNED": {
+      "requires_all": [
+        "WINDOW_SEPARATED mean direct-predicate balanced accuracy >= 0.75",
+        "at least 4 of 6 WINDOW_SEPARATED seeds have false-truth accuracy >= 0.65",
+        "at least 4 of 6 WINDOW_SEPARATED seeds have true-truth accuracy >= 0.65",
+        "at least 4 of 6 WINDOW_SEPARATED seeds have direct-predicate overall accuracy >= 0.75"
+      ]
+    },
+    "INTERFERENCE_HELPED_BUT_COMPOSITION_DID_NOT": {
+      "trigger": "LOCAL_INTERFERENCE_SUPPORTED is true but mean paired composed-action delta <= 0 or WINDOW_SEPARATED wins composed action on fewer than 4 of 6 seeds",
+      "disposition": "raise primitive-interface / learner-decomposition mismatch; do not claim composition law"
+    },
+    "INTERFERENCE_AND_COMPOSITION_SUPPORTED": {
+      "requires_all": [
+        "LOCAL_INTERFERENCE_SUPPORTED is true",
+        "mean paired composed-action delta > 0",
+        "WINDOW_SEPARATED wins composed action on at least 4 of 6 seeds",
+        "pooled composed false-truth accuracy is not lower",
+        "pooled composed true-truth accuracy is not lower"
+      ],
+      "disposition": "replicate transport effect before any broader promotion"
+    },
+    "NEXT_IF_INTERFERENCE_WEAKENED": "run the preregistered dose/horizon discriminator on the predicate primitive; do not keep rearranging windows",
+    "NEXT_IF_INTERFERENCE_SUPPORTED_WITHOUT_COMPOSITION": "test the declared primitive interface / recruitment mechanism directly",
+    "NEXT_IF_INTERFERENCE_AND_COMPOSITION_SUPPORTED": "fresh-domain replication of the optimizer-transport construction law before broader CFE claims"
+  },
+  "hard_prohibitions": [
+    "No change to predicate or policy experience content between arms.",
+    "No change to evaluation prompts or expected outputs.",
+    "No joint composed-answer training examples.",
+    "No adaptive seed extension beyond six frozen seeds.",
+    "No post-outcome schedule, threshold, optimizer, profile, or support edits.",
+    "No K-dose or primitive-interface scientific screen in parallel.",
+    "No use of v1.2 mixed-arm outcomes as the v1.3 control; both v1.3 arms must run on fresh paired seeds.",
+    "No promotion from an optimizer-transport result to Developmental CFE without a separate developmental ecology experiment."
+  ],
+  "evidence_ceiling": "This screen can establish or weaken a local optimizer-visible primitive-interference mechanism under the fixed CapybaraHermes/Mistral learner and current factorized interface. It cannot prove a universal CFE law or Microseed applicability."
+}
