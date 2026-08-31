@@ -296,3 +296,12 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Paired identifying-minus-narrow composed delta: -0.104167. Predicate delta: 0.0.
 - Both arms retain the one-sided predicate basin on this seed. This is one paired seed only; no composition disposition is authorized.
 - Exact seed adapters published under release tag `cfe-v12-factor-primitive-research-2026-08-31`.
+
+
+## v1.2 seed 2902 paired result
+- NARROW: predicate-direct 24/48 = 0.5000; policy-direct 48/48 = 1.0000; composed 40/96 = 0.4167.
+- IDENTIFYING: predicate-direct 24/48 = 0.5000; policy-direct 48/48 = 1.0000; composed 50/96 = 0.5208.
+- Paired identifying-minus-narrow composed delta: +0.104167. Predicate-direct overall delta +0.000000.
+- NARROW predicate false/true = 1.0000/0.0000; IDENTIFYING = 0.0000/1.0000. Both remain one-sided but in opposite directions.
+- IDENTIFYING composed false/true = 0.5417/0.5000. One paired seed only; no aggregate disposition.
+- Exact seed adapters published under release tag `cfe-v12-factor-primitive-research-2026-08-31`.

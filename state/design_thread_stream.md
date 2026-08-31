@@ -528,3 +528,11 @@ Timestamp: 2026-08-30/31
 Tags: V12 SEED2901 SEALED, RESEARCH PUBLICATION
 
 Active v1.2 campaign sealed seed 2026082901. NARROW: predicate 24/48, policy 40/48, composed 34/96; composed false-truth 0/48 and true-truth 34/48. IDENTIFYING: predicate 24/48, policy 40/48, composed 24/96; composed false-truth 0/48 and true-truth 24/48. Identifying-minus-narrow composed delta -0.104167; predicate delta 0. Both arms remain one-sided on predicate. This is one paired seed only and did not alter the frozen campaign. Both exact adapters were bundled and digest-verified on release tag `cfe-v12-factor-primitive-research-2026-08-31`.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-31
+Tags: V12 SEED2902 SEALED, RESEARCH PUBLICATION
+
+Seed 2026082902 fully paired. NARROW composed 40/96=0.4167; IDENTIFYING 50/96=0.5208; paired delta +0.1042. Predicate-direct overall remains 0.50 in both arms but with opposite one-sided basins: narrow false-only, identifying true-only. Policy-direct 1.0 in both. Identifying composed truth sides are 0.5417/0.5000. No campaign change. Exact adapters release-published and digest verified.
