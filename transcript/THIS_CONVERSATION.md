@@ -69,3 +69,6 @@ User clarified they originated the geometric framing: approximately "My mind wor
 
 ## 2026-08-31 12:45 Eastern Daylight Time — STARMAP ORIGIN ATTRIBUTION R2
 User clarified operator supplied the geometry framing ("my mind works almost geometrically"); Claude absorbed/refined it into cognitive geometry/traversable after clarification.
+
+## 2026-08-31 13:58 Eastern Daylight Time — V14R1 FAILURE VERIFIED
+Job `job-d4aac6ed6175` confirmed FAILED / SUPERVISION_LOST; 0/6 sealed, no scientific result. Recovery required.

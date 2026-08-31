@@ -41,3 +41,8 @@ Continue V14R1 unchanged; preserve origin provenance by append-only successor no
 - Found unauthorized duplicate V14R + V14R1; both died same instant with SUPERVISION_LOST and zero scientific artifacts.
 - V14R retained; V14R1 demoted.
 - Single V14R Attempt 2 launched as `job-1b72da92b63f` PID `4616` ALIVE.
+
+## Turn delta — 2026-08-31 13:58 Eastern Daylight Time
+- User observed V14R1 die in Resource Monitor; verified job FAILED / SUPERVISION_LOST.
+- 0/6 sealed, no seed3111 artifacts, no scientific result.
+- Previous "active" state is superseded; recovery required before rerun.

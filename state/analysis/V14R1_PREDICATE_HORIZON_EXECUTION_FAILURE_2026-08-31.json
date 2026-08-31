@@ -1,0 +1,20 @@
+{
+  "campaign_receipt_status_on_disk": "RUNNING",
+  "failure_kind": "SUPERVISION_LOST",
+  "identity": "V14R1",
+  "job_id": "job-d4aac6ed6175",
+  "pid": 35196,
+  "recovery_rule": "Rerun under a new execution attempt while preserving V14R1 scientific identity only if all locked scientific bytes and runtime qualification remain valid; do not treat this failed attempt as a seed result.",
+  "retryable": true,
+  "schema": "cfe.v14r1.execution-failure.v1",
+  "scientific_interpretation": "NONE__NO_TRAJECTORY_SEALED__NO_EVAL_ADMITTED",
+  "scientific_question_status": "UNRESOLVED",
+  "sealed_trajectories": 0,
+  "seed3111_artifacts_present": false,
+  "status": "EXECUTION_FAILED__SUPERVISION_LOST",
+  "stderr": "",
+  "stdout": "TRAIN 2026083111",
+  "time_ended": "2026-08-31T17:25:04.144313+00:00",
+  "time_started": "2026-08-31T15:07:19.541549+00:00",
+  "timestamp": "2026-08-31T13:58:05-04:00"
+}

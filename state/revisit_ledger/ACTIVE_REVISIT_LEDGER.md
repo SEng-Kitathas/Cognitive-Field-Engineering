@@ -12,3 +12,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | P1 | Recover original Claude clarification transcript | would verify exact wording/date of cognitive geometry/traversable formalization | original transcript/archive search | open |
 
 | P0 | Duplicate-runner launch guard | two qualified horizon jobs ran concurrently | add prelaunch active-job/GPU ownership gate | open |
+
+| P0 | V14R1 execution recovery after supervision loss | 0/6 sealed, no science | verify lock/runtime identity then relaunch safely | open |

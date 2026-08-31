@@ -807,3 +807,12 @@ User reported the job failed and they saw it die in Resource Monitor.
 
 ## Turn — ASSISTANT / RECOVERY RECORD
 Verified job-d4aac6ed6175 FAILED/SUPERVISION_LOST. Audit found V14R job-1c115593cb12 was also running concurrently and both failed at the identical 13:25:04 ET boundary. Neither produced scientific artifacts. Identified duplicate-runner control defect, retained V14R as authoritative identity, demoted V14R1, verified zero running jobs, and launched one V14R Attempt 2 as `job-1b72da92b63f` PID `4616`.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 13:58 Eastern Daylight Time
+Tags: STATUS CHECK, FAILURE OBSERVATION
+User reported the V14R1 job failed and was seen dying in Resource Monitor, then requested status check.
+
+## Turn — ASSISTANT / VERIFIED RECOVERY RECORD
+Server status confirmed `job-d4aac6ed6175` FAILED with `SUPERVISION_LOST` (retryable). On-disk receipt stale RUNNING, 0 sealed jobs, stdout only `TRAIN 2026083111`, stderr empty, no seed3111 result artifacts. No scientific result admitted. Recovery mode activated.

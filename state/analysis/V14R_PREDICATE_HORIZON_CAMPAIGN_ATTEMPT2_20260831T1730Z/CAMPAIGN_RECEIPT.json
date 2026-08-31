@@ -1,0 +1,8 @@
+{
+  "input_lock_sha256": "6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38",
+  "jobs": [],
+  "preexec_sha256": "8d255cc44169330d48a962f88617744aa75add7adb861d8a23b2246ef1a6a7ee",
+  "schema": "cfe.v14.predicate-horizon-campaign.v1",
+  "started": 1788197603.3529522,
+  "status": "RUNNING"
+}

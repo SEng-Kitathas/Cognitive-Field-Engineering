@@ -1,0 +1,22 @@
+{
+  "active_blockers": [
+    "execution supervision reliability before rerun"
+  ],
+  "failure_artifact": {
+    "path": "state/analysis/V14R1_PREDICATE_HORIZON_EXECUTION_FAILURE_2026-08-31.json",
+    "sha256": "ab79e4a9264574b2c3357da36d9fcae04331e36a578b7df922aeefb5d88f2d13"
+  },
+  "frontier": {
+    "v14r1": {
+      "failure_kind": "SUPERVISION_LOST",
+      "job_id": "job-d4aac6ed6175",
+      "scientific_result": "NONE",
+      "sealed_trajectories": 0,
+      "status": "FAILED"
+    }
+  },
+  "mode": "RECOVERY",
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v4",
+  "timestamp": "2026-08-31T13:58:05-04:00"
+}

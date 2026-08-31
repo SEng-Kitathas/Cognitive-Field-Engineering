@@ -17,3 +17,7 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 ## Immediate execution
 - Keep only V14R Attempt 2 `job-1b72da92b63f` / PID `4616` active. Monitor for first sealed seed before any other GPU campaign.
 - Add duplicate-runner prelaunch gate before next scientific campaign.
+
+## Recovery P0
+- Verify V14R1 lock, host/profile/preexec hashes still match exactly. If yes, relaunch as a new execution attempt under the same scientific identity; if not, mint a new identity.
+- Do not reuse any artifact from failed attempt unless independently verified complete and identity-matching.

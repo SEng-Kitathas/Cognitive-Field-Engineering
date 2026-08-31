@@ -30,3 +30,9 @@ None.
 - No checkpoint/eval/train manifest from either; no science admitted.
 - V14R is authoritative; V14R1 demoted duplicate.
 - V14R Attempt 2 active: job `job-1b72da92b63f`, PID `4616` ALIVE, 0/6 sealed.
+
+## V14R1 failure correction — 2026-08-31 13:58 Eastern Daylight Time
+- Job `job-d4aac6ed6175` / PID `35196` is FAILED (`SUPERVISION_LOST`), not active.
+- 0/6 trajectories sealed; seed3111 produced no result artifacts; no eval admitted.
+- Scientific question remains unresolved.
+- Recovery mode active.

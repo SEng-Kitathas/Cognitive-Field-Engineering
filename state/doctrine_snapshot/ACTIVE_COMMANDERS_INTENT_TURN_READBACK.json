@@ -1,27 +1,22 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1334-04-00.md",
-  "active_binding_sha256": "354adf0e7edfab0ef2bb28f640e9071ef3770e164049173d0e4e39e1cccc2589",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1358-04-00.md",
+  "active_binding_sha256": "b8d06d53d7bcd8b2c8e03a0b8c8f3f42d71f077be57a4e07fa88c13e4e48c865",
   "alignment": "ALIGNED",
-  "branch": "V14R_ATTEMPT2_ACTIVE__DUPLICATE_RUNNER_DEFECT_CLOSED",
+  "branch": "V14R1_EXECUTION_FAILED__RECOVERY_REQUIRED",
   "frontier": {
-    "active_attempt": {
-      "job_id": "job-1b72da92b63f",
-      "pid": 4616,
-      "pid_status": "ALIVE",
-      "sealed_trajectories": 0
-    },
-    "authoritative_identity": "V14R_PREDICATE_DOSE_HORIZON_20260831",
-    "demoted_identity": "V14R1",
-    "failed_jobs": [
-      "job-1c115593cb12",
-      "job-d4aac6ed6175"
-    ],
-    "failure_kind": "SUPERVISION_LOST",
-    "scientific_outcomes_admitted": 0
+    "v14r1": {
+      "failure_kind": "SUPERVISION_LOST",
+      "job_id": "job-d4aac6ed6175",
+      "pid": 35196,
+      "retryable": true,
+      "scientific_result": "NONE",
+      "sealed_trajectories": 0,
+      "status": "FAILED"
+    }
   },
-  "reason": "Recover execution without changing scientific identity; eliminate duplicate-runner condition.",
+  "reason": "Operator observation confirmed by server job state and empty campaign artifacts.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T13:34:04-04:00"
+  "timestamp": "2026-08-31T13:58:05-04:00"
 }
