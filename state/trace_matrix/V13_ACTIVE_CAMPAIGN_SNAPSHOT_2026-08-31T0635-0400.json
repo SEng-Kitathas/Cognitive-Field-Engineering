@@ -1,0 +1,20 @@
+{
+  "active_campaign_metadata_sha256": "77481f5d47227ed2e0c434ff37f5718713ac3443723f768cb9577ac4dfe7b333",
+  "claims_not_authorized": [
+    "v13 effect",
+    "optimizer interference",
+    "predicate competence",
+    "composition effect"
+  ],
+  "first_job": {
+    "arm": "LOCAL_MIXED",
+    "seed": 2026083101
+  },
+  "pid": 23156,
+  "prelaunch_head": "dfd61d3b0faef7c09c176ca87002c9416a7522db",
+  "run_root": "state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z",
+  "schema": "cfe.v13.active-campaign-snapshot.v1",
+  "sealed_jobs": 0,
+  "status": "RUNNING",
+  "timestamp": "2026-08-31T06:35:05-04:00"
+}

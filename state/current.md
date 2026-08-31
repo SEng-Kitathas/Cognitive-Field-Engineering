@@ -58,7 +58,7 @@ None. Local endpoint is restored.
 - Host/runtime reverified; 144/144 training rows tokenizer-exact; host lock SHA `45b76a3c3cb30ac1fdebac669eef121b34f8fbf2764bcd5df84f28cf3aeaeb67`.
 - Fresh two-run repeatability PASS; profile lock SHA `bdc751bf1391aa45bdfdc57a663b83e6457e28335a9605dd4c1873d379bc4066`.
 - Preexecution status `V13_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`; preexec SHA `4c08e6633c64af2bfd4f5adb9e67a7a099f6f76f52c3d1ce553b039561ad9ed4`.
-- No v1.3 scientific trained-arm outcome exists at this snapshot.
+- v1.3 scientific campaign is ACTIVE under PID `23156`, run root `state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z`. No sealed v1.3 trained-arm outcome exists yet.
 
 ## Resume point
-Publish/read back the exact v1.3 prelaunch package, then launch the frozen six-pair campaign.
+Inspect only the existing v1.3 runner; publish sealed paired seeds and exact adapters as they complete; do not launch any parallel CFE scientific screen.

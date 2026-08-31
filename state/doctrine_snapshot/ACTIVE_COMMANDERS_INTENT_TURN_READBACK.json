@@ -2,7 +2,7 @@
   "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31.md",
   "active_binding_sha256": "30090fe63437ea3b0d4306d6782192fa61868a9308475a46992c950324eb3b5f",
   "alignment": "ALIGNED",
-  "branch": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE__PREEXECUTION_QUALIFIED",
+  "branch": "V13_OPTIMIZER_VISIBLE_PRIMITIVE_INTERFERENCE__SCIENTIFIC_CAMPAIGN_ACTIVE",
   "operator_constraints": [
     "CFE must continue beyond minimum viable form",
     "all active decisions/research/intent/continuity surfaces refreshed per substantive turn",
@@ -12,5 +12,5 @@
   "schema": "cfe.commander-intent-turn-readback.v1",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T06:34:00-04:00"
+  "timestamp": "2026-08-31T06:35:05-04:00"
 }

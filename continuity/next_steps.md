@@ -4,12 +4,11 @@ Date: 2026-08-31
 Frontier: v1.2 closed; v1.3 optimizer-visible primitive-interference prereg frozen.
 
 ## Immediate P0
-1. Publish/read back the fully qualified v1.3 prelaunch package.
-2. Launch exactly one frozen six-pair v1.3 campaign.
-3. Run six fresh paired seeds: `LOCAL_MIXED` vs `WINDOW_SEPARATED`.
-4. Publish each sealed pair and exact adapters under the research-lineage policy.
-5. On 12/12 completion, apply preregistered interference, two-sided competence, and composition dispositions mechanically.
-6. Hostile-close the mechanism before choosing dose/horizon or primitive-interface next branch.
+1. Keep existing v1.3 PID `23156` as the only scientific runner.
+2. Run six fresh paired seeds: `LOCAL_MIXED` vs `WINDOW_SEPARATED`.
+3. Publish each sealed pair and exact adapters under the research-lineage policy.
+4. On 12/12 completion, apply preregistered interference, two-sided competence, and composition dispositions mechanically.
+5. Hostile-close the mechanism before choosing dose/horizon or primitive-interface next branch.
 
 ## If v1.3 weakens local interference
 - Run dose/horizon discriminator next; do not keep rearranging windows.

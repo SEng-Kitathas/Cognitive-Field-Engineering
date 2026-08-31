@@ -600,3 +600,11 @@ Timestamp: 2026-08-31 06:34 ET
 Tags: V13 QUALIFIED, PRELAUNCH
 
 v1.3 optimizer-visible primitive-interference candidate was built by byte-copying the exact frozen v1.2 identifying-predicate/policy/evaluator artifacts. Static hostile audit passed 283 checks with zero failures. Exact shared burden is 31,200 total tokens and 4,608 supervised tokens. Baseline headroom was inherited by exact evaluator identity from the admitted v1.2 NF4 baseline. A 21-file v1.3 input lock was sealed. Base snapshot and critical runtime identity were reverified; 144/144 training rows replayed exactly through the live tokenizer. Fresh two-run one-step repeatability passed. Final preexecution status is V13_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED. No v1.3 trained-arm output existed at this update.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-31 06:35 ET
+Tags: V13 SCIENTIFIC START
+
+The exact v1.3 prelaunch package was remote-verified, followed by a separately published launch snapshot. Exactly one durable v1.3 campaign was launched under PID 23156 at `state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z`. First frozen job is seed 2026083101 LOCAL_MIXED. PID readback ALIVE; stderr empty. No duplicate or parallel CFE scientific campaign was launched.

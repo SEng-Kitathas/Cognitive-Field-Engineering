@@ -1,0 +1,31 @@
+{
+  "cmd": [
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\tools\\run_v13_optimizer_interference_campaign.py",
+    "--project-root",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE",
+    "--candidate",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\candidates\\v13_optimizer_interference_20260831",
+    "--contract",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps\\V13_OPTIMIZER_INTERFERENCE_TRAINING_CONTRACT_2026-08-31.json",
+    "--lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\locks\\V13_OPTIMIZER_INTERFERENCE_INPUT_LOCK_2026-08-31.json",
+    "--host-lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V13_OPTIMIZER_INTERFERENCE_RUNTIME_20260831\\HOST_LOCK.json",
+    "--profile-lock",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V13_OPTIMIZER_INTERFERENCE_REPEATABILITY_20260831\\PROFILE_LOCK.json",
+    "--preexec",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\qualification\\V13_OPTIMIZER_INTERFERENCE_PREEXECUTION_20260831.json",
+    "--out",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z"
+  ],
+  "launch_snapshot_sha256": "5e93af2e4b2a331d1a453ef31e2384f773b6bc30d5ed4b724f7573974b1ebbc2",
+  "outroot": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z",
+  "pid": 23156,
+  "prelaunch_remote_head": "dfd61d3b0faef7c09c176ca87002c9416a7522db",
+  "schema": "cfe.v13.active-campaign.v1",
+  "stamp": "20260831T103505Z",
+  "started_epoch": 1788172505.857859,
+  "stderr": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\v13_optimizer_interference_campaign_logs\\campaign_20260831T103505Z.stderr.log",
+  "stdout": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\v13_optimizer_interference_campaign_logs\\campaign_20260831T103505Z.stdout.log"
+}

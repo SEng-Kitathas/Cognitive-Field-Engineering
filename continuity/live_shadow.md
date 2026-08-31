@@ -26,7 +26,8 @@
 - v1.3 optimizer-visible primitive-interference prereg is frozen before any v1.3 outcome, SHA `da66a2202fc89aa726c8381681c1ffbcac4c98cf8dc65ea86cb2db998ae296b5`.
 - v1.3 candidate passed 283 static hostile checks; exact burden 31,200/4,608; schedule-only arm difference.
 - v1.3 input lock SHA `31cc908c415fe3f64d7b396bbd75e8cd3846672bc3e37a82905dcd0ddc1e5489`; host lock SHA `45b76a3c3cb30ac1fdebac669eef121b34f8fbf2764bcd5df84f28cf3aeaeb67`; profile lock SHA `bdc751bf1391aa45bdfdc57a663b83e6457e28335a9605dd4c1873d379bc4066`; preexec SHA `4c08e6633c64af2bfd4f5adb9e67a7a099f6f76f52c3d1ce553b039561ad9ed4`.
-- v1.3 runtime/tokenizer replay and fresh repeatability PASS. No v1.3 scientific trained-arm outcome exists yet.
+- v1.3 runtime/tokenizer replay and fresh repeatability PASS.
+- v1.3 scientific boundary crossed after remote launch snapshot verification. Active PID `23156`; run root `state/analysis/V13_OPTIMIZER_INTERFERENCE_CAMPAIGN_20260831T103505Z`; first frozen job seed 2026083101 `LOCAL_MIXED`. No sealed v1.3 outcome yet.
 - v1.3 will rerun both arms on fresh paired seeds; no reuse of v1.2 outcomes as a convenient control.
 
 ## Active Constraints
@@ -54,9 +55,10 @@
 - Microseed language-gate handoff remains pending actual Microseed-side artifact inspection and CFE v1.2/v1.3 frontier packaging.
 
 ## Immediate Next Step
-- Publish/read back the exact v1.3 qualified prelaunch package.
-- Launch one frozen v1.3 campaign only after remote head equality is verified.
-- Preserve per-pair lineage and heavy adapters as jobs seal.
+- Inspect only existing v1.3 PID 23156 / receipt; never duplicate the runner.
+- Let the frozen campaign advance fail-closed.
+- Publish sealed paired seeds and heavy adapters as they complete.
+- Apply preregistered dispositions only after 12/12.
 
 ## Last 10 Turn Reinforcement Window
 1. Operator reported Microseed pre-lingual substrate milestone and language-gate pre-research boundary.
@@ -75,5 +77,6 @@
 - Added final v1.2 hostile interpretation and disposition.
 - Added no-MVP maturation constraint and per-turn continuity reconciliation rule.
 - Promoted optimizer-visible primitive interference to the next frozen discriminator.
-- Built and fully qualified the v1.3 schedule-only intervention; scientific start still pending remote prelaunch verification.
+- Built and fully qualified the v1.3 schedule-only intervention.
+- Remote launch snapshot verified and v1.3 scientific campaign started under PID 23156.
 - Refreshed active Commander binding to the current frontier without modifying the original source.
