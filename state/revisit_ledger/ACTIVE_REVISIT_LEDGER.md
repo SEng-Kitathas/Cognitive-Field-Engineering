@@ -16,3 +16,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | P0 | V14R1 execution recovery after supervision loss | 0/6 sealed, no science | verify lock/runtime identity then relaunch safely | open |
 
 | P1 | Dual-donor transfer bridge | high-value but untested | DD-0..DD-4 prospective ladder | open |
+
+| P0 | V14R2 recovery completion | six-seed horizon science unresolved | aggregate + frozen disposition | active |
+| P1 | DD-0 token-level qualification | byte/event equality is insufficient for LLM exposure identity | exact tokenizer/full-sequence audit | open |

@@ -32,3 +32,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | V14R attempt2 progress | campaign receipt | 2/6 sealed | active |
 
 | Standalone hierarchical organism donor provenance | operator clarification | independent first-principles origin; Grand midstream context; standalone hostile-engineering verification; later Microseed fit | active provenance |
+
+| V14R2 recovery identity | V14R attempt2 BLOCKED + immutable parent lock | amendment `state/next_steps/V14R2_PREDICATE_HORIZON_EXECUTION_RECOVERY_AMENDMENT_2026-08-31.json` SHA `68da3d9d6f177205351e46e654ed94b309ab42d33abe53c602b07881b1ceafbd`; static qual SHA `ef3f13eb0d4465432c0761d506e89abf3ec3b483ef94ab8052c767b7031dd97c` | RUNNING `job-fc69b38e2e96` |
+| DD-0 generative field compiler | CFE source-vs-compiled geometry scar | spec SHA `f025b724c6af13c5d2df4b38690bdb37638f35ca53a019e9c75a4d3e62ccf5ab` + qualification SHA `5d9b32b4230c8bb367be89635b08781f7bef27f5df4a8cb9055b757c6599cd50` | engineering PASS; cognition untested |

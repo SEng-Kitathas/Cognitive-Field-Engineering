@@ -1,0 +1,98 @@
+{
+  "events": [
+    {
+      "id": "E00",
+      "payload": "Observation 0: opaque state sample A."
+    },
+    {
+      "id": "E01",
+      "payload": "Observation 1: opaque state sample B."
+    },
+    {
+      "id": "E02",
+      "payload": "Observation 2: opaque state sample C."
+    },
+    {
+      "id": "E03",
+      "payload": "Observation 3: opaque state sample D."
+    },
+    {
+      "id": "E04",
+      "payload": "Observation 4: opaque state sample E."
+    },
+    {
+      "id": "E05",
+      "payload": "Observation 5: opaque state sample F."
+    },
+    {
+      "id": "E06",
+      "payload": "Observation 6: opaque state sample G."
+    },
+    {
+      "id": "E07",
+      "payload": "Observation 7: opaque state sample H."
+    },
+    {
+      "id": "E08",
+      "payload": "Observation 8: opaque state sample I."
+    },
+    {
+      "id": "E09",
+      "payload": "Observation 9: opaque state sample J."
+    },
+    {
+      "id": "E10",
+      "payload": "Observation 10: opaque state sample K."
+    },
+    {
+      "id": "E11",
+      "payload": "Observation 11: opaque state sample L."
+    }
+  ],
+  "learner_forbidden_literals": [
+    "causal",
+    "temporal",
+    "contradictory",
+    "source",
+    "target"
+  ],
+  "projection": {
+    "target_relation_types": [
+      "causal"
+    ],
+    "window_size": 3
+  },
+  "relations": [
+    {
+      "source": "E00",
+      "target": "E01",
+      "type": "causal"
+    },
+    {
+      "source": "E02",
+      "target": "E03",
+      "type": "causal"
+    },
+    {
+      "source": "E04",
+      "target": "E05",
+      "type": "temporal"
+    },
+    {
+      "source": "E06",
+      "target": "E07",
+      "type": "contradictory"
+    },
+    {
+      "source": "E08",
+      "target": "E09",
+      "type": "causal"
+    },
+    {
+      "source": "E10",
+      "target": "E11",
+      "type": "causal"
+    }
+  ],
+  "schema": "cfe.dd0.canonical-field.v1"
+}

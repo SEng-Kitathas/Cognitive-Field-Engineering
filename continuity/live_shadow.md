@@ -1,37 +1,26 @@
 # CFE LIVE SHADOW
 
 ## Thread Identity
-- Last Updated: 2026-08-31 15:03 Eastern Daylight Time
+- Last Updated: 2026-08-31 15:25 Eastern Daylight Time
 - Mode: BUILD-COMMIT
-- Dominant Objective: complete V14R while preparing a causally disciplined StarMap × Microseed-informed CFE frontier.
-
-## Active User Intent
-Proceed duly informed by both StarMap and the verified Microseed hierarchy solution because both inform CFE.
+- Dominant Objective: recover V14 horizon evidence and harden the field compiler needed for next-generation CFE geometry experiments.
 
 ## Current Authoritative State
-- StarMap = geometry hypothesis/lineage donor, not empirical CFE proof.
-- Microseed hierarchy = source-system verified external mechanism donor, transfer not yet verified in CFE.
-- Crosswalk SHA `519a5923049f9cbd56f36318154cbd8e15993825df710dd1910e8c328f6bbdf2`.
-- V14R attempt2 `job-1b72da92b63f` / PID `4616` active, 2/6 sealed.
+- V14R attempt2 BLOCKED; no aggregate.
+- V14R2 recovery job `job-fc69b38e2e96` / PID 32848 RUNNING under unchanged frozen science.
+- DD-0 compiler qualification PASS, engineering-only.
+- StarMap and standalone Grand-problem donor inform future CFE hypotheses but do not enter active V14R2.
 
 ## Decisions Locked In
-- Preserve donor evidence asymmetry.
-- Do not import donor ontology as learner ontology.
-- Use StarMap mainly to manipulate field geometry; use Microseed mainly to choose meaningful target mechanisms.
-- DD-4 cross-level effect acquisition is the major bridge experiment, but only after DD-0..3 qualify geometry and V14R closes.
+- Partial evaluator output is never promoted to a qualified horizon.
+- Hash-verified completed training/results may survive a failed orchestrator under explicit recovery provenance.
+- Source field geometry must be compiled and verified at learner-visible surface before learner claims.
+- DD-0 precedes DD-1.
 
 ## Open Loops
-- V14R outcome.
-- Exact first post-V14R branch ordering after result.
-- Independent replay of Microseed verification corpus if/when CFE needs stronger transfer provenance.
+- V14R2 six-seed completion.
+- DD-0 tokenizer/full-sequence equivalence gate.
+- DD-1 typed-relation design after compiler qualification.
 
 ## Immediate Next Step
-Do not touch V14R. On completion, apply preregistered disposition, hostile closeout, then select DD-0/1 as first donor-informed execution branch.
-
-## Delta Since Previous Shadow
-- Dual-donor crosswalk embodied.
-- Post-V14R DD-0..DD-6 ladder defined.
-- V14R advanced to 2/6 sealed.
-
-## Turn delta — 2026-08-31 15:16 Eastern Daylight Time
-- Reclassified hierarchy donor as standalone first-principles hostile-engineering-verified solution; Grand encountered midstream as public problem-context; Microseed is later fit, not origin.
+Monitor V14R2; independently add token/exposure verification to DD-0.

@@ -1,0 +1,18 @@
+{
+  "active_blockers": [],
+  "frontier": {
+    "dd0": {
+      "qualification_sha256": "5d9b32b4230c8bb367be89635b08781f7bef27f5df4a8cb9055b757c6599cd50",
+      "status": "PASS"
+    },
+    "v14r2": {
+      "job_id": "job-fc69b38e2e96",
+      "pid": 32848,
+      "status": "RUNNING"
+    }
+  },
+  "mode": "BUILD-COMMIT",
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v4",
+  "timestamp": "2026-08-31T15:25:28-04:00"
+}

@@ -1,0 +1,103 @@
+{
+  "amendment_sha256": "68da3d9d6f177205351e46e654ed94b309ab42d33abe53c602b07881b1ceafbd",
+  "checks": [
+    {
+      "check": "parent_lock:state/analysis/V13_OPTIMIZER_INTERFERENCE_FINAL_DISPOSITION_2026-08-31.json",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:state/candidates/v14_predicate_horizon_20260831/MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:state/candidates/v14_predicate_horizon_20260831/PREDICATE_EVAL.private.jsonl",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:state/candidates/v14_predicate_horizon_20260831/PREDICATE_IDENTIFYING_V12.jsonl",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:state/candidates/v14_predicate_horizon_20260831/PREDICATE_IDENTIFYING_V12.sidecar.private.jsonl",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:state/candidates/v14_predicate_horizon_20260831/PREDICATE_IDENTIFYING_V12.token_reference.private.jsonl",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:state/next_steps/V14R_PREDICATE_DOSE_HORIZON_PREREG_2026-08-31.json",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:state/next_steps/V14R_PREDICATE_DOSE_HORIZON_TRAINING_CONTRACT_2026-08-31.json",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:state/qualification/V14_PREDICATE_HORIZON_BASELINE_INHERITANCE_20260831.json",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:state/qualification/V14_PREDICATE_HORIZON_STATIC_HOSTILE_2026-08-31.json",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:tools/audit_v14_predicate_horizon_candidate.py",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:tools/evaluate_v14_predicate_horizon.py",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:tools/finalize_v14r_predicate_horizon_preexecution.py",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:tools/prepare_v14_predicate_horizon_runtime.py",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:tools/qualify_v14_predicate_horizon_repeatability.py",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:tools/run_v14_predicate_horizon_campaign.py",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:tools/train_v14_predicate_horizon.py",
+      "pass": true
+    },
+    {
+      "check": "parent_lock:tools/v14_predicate_horizon_common.py",
+      "pass": true
+    },
+    {
+      "check": "attempt2_blocked",
+      "pass": true
+    },
+    {
+      "check": "attempt2_no_aggregate",
+      "pass": true
+    },
+    {
+      "check": "seed3111_complete",
+      "pass": true
+    },
+    {
+      "check": "seed3112_complete",
+      "pass": true
+    },
+    {
+      "check": "seed3113_eval_failed_H2",
+      "pass": true
+    }
+  ],
+  "identity": "V14R2_PREDICATE_DOSE_HORIZON_20260831",
+  "parent_lock_sha256": "6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38",
+  "recovery_tool_sha256": "f61825bc929e9d8028c1236efb1452bbd57d8699499895a7ee4742eb4f0c5536",
+  "schema": "cfe.v14r2.recovery-static-qualification.v1",
+  "status": "PASS",
+  "timestamp": "2026-08-31T15:22:31-04:00"
+}

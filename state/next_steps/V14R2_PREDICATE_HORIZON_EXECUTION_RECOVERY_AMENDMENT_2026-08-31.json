@@ -1,0 +1,48 @@
+{
+  "allowed_execution_changes": [
+    "new orchestration/recovery wrapper outside parent scientific input lock",
+    "fresh evaluator subprocesses",
+    "reuse of independently hash-verified completed artifacts"
+  ],
+  "failure_context": {
+    "attempt2_job": "job-1b72da92b63f",
+    "attempt2_status": "FAILED/BLOCKED",
+    "failure_surface": "seed 2026083113 H2 evaluator process access violation while loading base checkpoint shards",
+    "scientific_aggregate_present": false
+  },
+  "forbidden_changes": [
+    "dataset bytes",
+    "candidate bytes",
+    "seed list",
+    "row-order derivation",
+    "model snapshot",
+    "optimizer",
+    "LoRA profile",
+    "H1/H2/H4 steps",
+    "evaluation cases/metric",
+    "adaptive horizon",
+    "StarMap intervention",
+    "donor-derived learner intervention"
+  ],
+  "identity": "V14R2_PREDICATE_DOSE_HORIZON_20260831",
+  "laws": [
+    "EXECUTION PATH != ARTIFACT IDENTITY",
+    "COMPLETED HASH-VERIFIED ARTIFACT != FAILED ORCHESTRATOR",
+    "PARTIAL EVALUATION != QUALIFIED HORIZON RESULT",
+    "RECOVERY PROVENANCE != SCIENTIFIC INTERVENTION"
+  ],
+  "parent_input_lock_sha256": "6fe44544869537d42d0848c60b4ee69516a762c431aafc4738236a6faccdff38",
+  "salvage_policy": {
+    "aggregate": "Create only after six seed trajectories each have H1/H2/H4 qualified evaluations.",
+    "complete_seed_results": "May carry forward only if RUN_MANIFEST and all H1/H2/H4 EVAL_MANIFEST files exist and their hashes/metrics match the blocked attempt receipt.",
+    "completed_training_trajectory": "May carry forward only if RUN_MANIFEST reports step 144 and every H1/H2/H4 adapter file hash matches the manifest.",
+    "never_started_seeds": "Train fresh under unchanged frozen tools/contract/seed list.",
+    "partial_evaluation": "Do not carry forward an incomplete horizon evaluation. Re-evaluate from the already sealed checkpoint in a fresh evaluator process."
+  },
+  "schema": "cfe.v14r2.execution-recovery-amendment.v1",
+  "scientific_contract_sha256": "28548c863d657fb393112e205a4da95c96efbfe680b4c5a0721648716823a55a",
+  "scientific_design_changed": false,
+  "scientific_identity_parent": "V14R_PREDICATE_DOSE_HORIZON_20260831",
+  "status": "FROZEN_EXECUTION_RECOVERY_PRE_RUNTIME",
+  "timestamp": "2026-08-31T15:22:31-04:00"
+}

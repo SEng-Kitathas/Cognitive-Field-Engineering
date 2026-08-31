@@ -1,33 +1,27 @@
 # CFE CURRENT STATE
 
-As of: 2026-08-31 15:03 Eastern Daylight Time
+As of: 2026-08-31 15:25 Eastern Daylight Time
 Mode: BUILD-COMMIT
-Role: R4 convergence with R5 active science pressure
+Role: R5 Reality Pressure Engine
 
-## Verified / controlled state
-- StarMap lineage: operator-origin cognitive geometry framing/mechanization intent; historical mechanism archaeology; prospective CFE truth unearned.
-- Microseed developmental hierarchy: operator-reported hostile-engineering-verified source-system solution to a Steve Grand public unsolved problem; CFE-local transfer unverified.
-- Dual-donor crosswalk: `research/CFE_DUAL_DONOR_STARMAP_MICROSEED_CROSSWALK_2026-08-31.md` SHA `519a5923049f9cbd56f36318154cbd8e15993825df710dd1910e8c328f6bbdf2`.
-- V14R attempt2: `job-1b72da92b63f`, PID `4616`, receipt `RUNNING`, 2/6 sealed.
+## Active science
+- V14R attempt2: BLOCKED, no aggregate; seed3113 H2 evaluator crashed with access violation after full training completed.
+- V14R2 recovery: `job-fc69b38e2e96`, PID `32848`, RUNNING. Parent scientific inputs unchanged.
+- Salvage: seeds3111/3112 hash-verified complete; seed3113 full training/checkpoints hash-verified; incomplete eval not reusable; seeds3114-3116 will train fresh.
 
-## Research baseline
-StarMap informs **what geometry may matter**. Microseed informs **what useful developmental mechanism may be worth acquiring**. CFE tests the causal bridge.
+## CFE infrastructure advance
+DD-0 generative field compiler qualification PASS.
+- event multiset equal: PASS
+- payload multiset equal: PASS
+- window-size equality: PASS
+- curator relation-label leakage: 0
+- target co-visibility: identifying 3 vs dispersed 0
+- deterministic replay: byte-exact PASS both modes
 
-## Strong bridge question
-Can learner-visible developmental geometry change acquisition/currentness/transfer of a cross-scale effect relation without supplying the internal hierarchy?
+Earned ceiling: CFE can deterministically compile and verify controlled learner-visible relational arrangement differences while preserving a matched source-event multiset. No learner effect is claimed.
 
-## Post-V14R ladder
-DD-0 compiler qualification -> DD-1 typed relations -> DD-2 shape-of-reachability -> DD-3 coverage tension -> DD-4 cross-level effect transfer -> DD-5 subordinate drift/currentness -> DD-6 relation-to-unit emergence.
-
-## Constraints
-- `CURATOR RELATION != LEARNER REPRESENTATION`.
-- `PHENOMENOLOGICAL SIGNAL != UNIVERSAL LAW`.
-- `MECHANISM VERIFIED IN SOURCE SYSTEM != TRANSFER VERIFIED IN TARGET SYSTEM`.
-- No donor-derived intervention inside active V14R attempt2.
+## Donor-informed frontier
+StarMap remains geometry hypothesis donor. Standalone Grand-problem solution remains hostile-engineering-verified external mechanism donor. DD-0 is the tooling gate before DD-1 typed-relation experiments.
 
 ## Resume point
-Complete V14R attempt2 unchanged. Apply frozen disposition mechanically, then hostile-rank DD-0..DD-6 against the result.
-
-## Donor provenance correction — 2026-08-31 15:16 Eastern Daylight Time
-- Hierarchical organism package is NOT a Microseed mechanism and NOT theory.
-- Correct lineage: independent first-principles research -> midstream Grand problem contact -> independent embodiment/red-team/reality survival -> standalone verified donor -> later fit with Microseed.
+Allow V14R2 to finish. In parallel, extend DD-0 from byte/event matching to tokenizer-level and exposure-window qualification before launching DD-1.

@@ -1,0 +1,117 @@
+{
+  "episodes": [
+    {
+      "events": [
+        {
+          "id": "E10",
+          "payload": "Observation 10: opaque state sample K.",
+          "payload_sha256": "c9a53b9f59f3152ae76684efaebe929554cbf15484e940a5505baad59c764bf3"
+        },
+        {
+          "id": "E03",
+          "payload": "Observation 3: opaque state sample D.",
+          "payload_sha256": "46a7279c26d3f6d264a4bbe4a3c1d5c1f680a4db16be8a611ce71b34db29c19c"
+        },
+        {
+          "id": "E00",
+          "payload": "Observation 0: opaque state sample A.",
+          "payload_sha256": "a2cbf7e013c410d5c0cd7c2f90237134db083d4e47cb811142240dbf09cbd4a5"
+        }
+      ],
+      "window_index": 0
+    },
+    {
+      "events": [
+        {
+          "id": "E01",
+          "payload": "Observation 1: opaque state sample B.",
+          "payload_sha256": "24861cda4e93bd9ad437b4c184ed58e97b16f9bf620ef85da209351505eb5e27"
+        },
+        {
+          "id": "E07",
+          "payload": "Observation 7: opaque state sample H.",
+          "payload_sha256": "11e391b33dbfbd098715a59643745dce4789958738e94824954dce25fec5d1b3"
+        },
+        {
+          "id": "E11",
+          "payload": "Observation 11: opaque state sample L.",
+          "payload_sha256": "204f250b358f4ce83ef9ec70685ba7f4583810614e71e55fd35d2b806a2b14a5"
+        }
+      ],
+      "window_index": 1
+    },
+    {
+      "events": [
+        {
+          "id": "E02",
+          "payload": "Observation 2: opaque state sample C.",
+          "payload_sha256": "4fd7fb0bf120b7878c798f1c81c952d12afb34544a353a654d85a3eb16d600f1"
+        },
+        {
+          "id": "E09",
+          "payload": "Observation 9: opaque state sample J.",
+          "payload_sha256": "d31117edb99ed00a6ad3034c91cb6f5853f09d1ecc5c8a7c98ff8b9e9720b41a"
+        },
+        {
+          "id": "E05",
+          "payload": "Observation 5: opaque state sample F.",
+          "payload_sha256": "a7d8cf6c79cdf2e1400bf3753db4361503764a313d6295ef54089d771d56584a"
+        }
+      ],
+      "window_index": 2
+    },
+    {
+      "events": [
+        {
+          "id": "E04",
+          "payload": "Observation 4: opaque state sample E.",
+          "payload_sha256": "18a4afdaf5c0f18bec41dc5aae5dce39168188cc2ea661974d62f1004643f40f"
+        },
+        {
+          "id": "E06",
+          "payload": "Observation 6: opaque state sample G.",
+          "payload_sha256": "828ed613e698b83a36c37dc4d379e65fe1bcef314ae01221acef723598dae83a"
+        },
+        {
+          "id": "E08",
+          "payload": "Observation 8: opaque state sample I.",
+          "payload_sha256": "287cad291c8f866ddf3ae5784363507bd0cda46673a1191210d01f454367f360"
+        }
+      ],
+      "window_index": 3
+    }
+  ],
+  "event_multiset": [
+    "E00",
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08",
+    "E09",
+    "E10",
+    "E11"
+  ],
+  "mode": "RELATIONALLY_DISPERSED",
+  "payload_sha256_multiset": [
+    "11e391b33dbfbd098715a59643745dce4789958738e94824954dce25fec5d1b3",
+    "18a4afdaf5c0f18bec41dc5aae5dce39168188cc2ea661974d62f1004643f40f",
+    "204f250b358f4ce83ef9ec70685ba7f4583810614e71e55fd35d2b806a2b14a5",
+    "24861cda4e93bd9ad437b4c184ed58e97b16f9bf620ef85da209351505eb5e27",
+    "287cad291c8f866ddf3ae5784363507bd0cda46673a1191210d01f454367f360",
+    "46a7279c26d3f6d264a4bbe4a3c1d5c1f680a4db16be8a611ce71b34db29c19c",
+    "4fd7fb0bf120b7878c798f1c81c952d12afb34544a353a654d85a3eb16d600f1",
+    "828ed613e698b83a36c37dc4d379e65fe1bcef314ae01221acef723598dae83a",
+    "a2cbf7e013c410d5c0cd7c2f90237134db083d4e47cb811142240dbf09cbd4a5",
+    "a7d8cf6c79cdf2e1400bf3753db4361503764a313d6295ef54089d771d56584a",
+    "c9a53b9f59f3152ae76684efaebe929554cbf15484e940a5505baad59c764bf3",
+    "d31117edb99ed00a6ad3034c91cb6f5853f09d1ecc5c8a7c98ff8b9e9720b41a"
+  ],
+  "schema": "cfe.dd0.compiled-field.v1",
+  "seed": 17,
+  "source_field_sha256": "f4d82855b2819dbc3550dc1025920d316dd7934f0ef008f785aa2809bfde0b8f",
+  "window_size": 3
+}

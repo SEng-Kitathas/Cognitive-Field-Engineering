@@ -1,0 +1,67 @@
+{
+  "checks": [
+    {
+      "check": "event_multiset_equal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "payload_multiset_equal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "window_size_equal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no_forbidden_literal_leak",
+      "detail": [],
+      "pass": true
+    },
+    {
+      "check": "identifying_has_more_target_covisibility",
+      "detail": {
+        "dispersed": 0,
+        "identifying": 3
+      },
+      "pass": true
+    },
+    {
+      "check": "replay_exit_IDENTIFYING_LOCAL",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "replay_sha_IDENTIFYING_LOCAL",
+      "detail": {
+        "actual": "132ab576ad98a0d6b8c8871e7fde0b6b19fc605f172add5ce23b2286ccc51926",
+        "expected": "132ab576ad98a0d6b8c8871e7fde0b6b19fc605f172add5ce23b2286ccc51926"
+      },
+      "pass": true
+    },
+    {
+      "check": "replay_exit_RELATIONALLY_DISPERSED",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "replay_sha_RELATIONALLY_DISPERSED",
+      "detail": {
+        "actual": "3862f4e9b0286af74f167d6e37adcdf108d41d08eaeaaee28a4ab349dba0a8aa",
+        "expected": "3862f4e9b0286af74f167d6e37adcdf108d41d08eaeaaee28a4ab349dba0a8aa"
+      },
+      "pass": true
+    }
+  ],
+  "dispersed_sha256": "3862f4e9b0286af74f167d6e37adcdf108d41d08eaeaaee28a4ab349dba0a8aa",
+  "field_sha256": "f4d82855b2819dbc3550dc1025920d316dd7934f0ef008f785aa2809bfde0b8f",
+  "identifying_sha256": "132ab576ad98a0d6b8c8871e7fde0b6b19fc605f172add5ce23b2286ccc51926",
+  "metrics": {
+    "target_covisibility_dispersed": 0,
+    "target_covisibility_identifying": 3
+  },
+  "schema": "cfe.dd0.field-compiler-audit.v1",
+  "status": "PASS"
+}
