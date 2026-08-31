@@ -1,0 +1,217 @@
+{
+  "assurance_classes": {
+    "EXACT_SEALED_BYTE_IDENTITY": "Current bytes exactly match the original pre-runtime lock. This is the original scientific lock assurance.",
+    "NORMALIZED_CHECKOUT_EQUIVALENCE": "Current bytes match the Git-declared LF checkout form recorded by this sidecar. This proves checkout-equivalent content, NOT original sealed-byte identity."
+  },
+  "checkout_policy": {
+    "declared_text_eol": "lf",
+    "meaning": "Git checkout bytes may differ from the Windows sealed pre-runtime bytes for text files.",
+    "source": ".gitattributes"
+  },
+  "entries": {
+    "state/candidates/v11_predicate_policy_r2_20260830/MANIFEST.json": {
+      "git_checkout_lf_bytes": 2439,
+      "git_checkout_lf_sha256": "18a846937cce18cef89d48926ebc271817b4ebb3114c45cf13077ab326d4f352",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 2439,
+      "sealed_sha256": "18a846937cce18cef89d48926ebc271817b4ebb3114c45cf13077ab326d4f352"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/POLICY_EVAL.private.jsonl": {
+      "git_checkout_lf_bytes": 15752,
+      "git_checkout_lf_sha256": "e1c898ee5d30bc8a4f791ec8ee9360882a9f4336688d55073351c125569af560",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 15752,
+      "sealed_sha256": "e1c898ee5d30bc8a4f791ec8ee9360882a9f4336688d55073351c125569af560"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/POLICY_FACTORIZED.jsonl": {
+      "git_checkout_lf_bytes": 65688,
+      "git_checkout_lf_sha256": "4e60b749eb8cc98a827ba3aacbc70b6cbe38b020cb9f561dd3570d25bc943a2a",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 65688,
+      "sealed_sha256": "4e60b749eb8cc98a827ba3aacbc70b6cbe38b020cb9f561dd3570d25bc943a2a"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/POLICY_FACTORIZED.sidecar.private.jsonl": {
+      "git_checkout_lf_bytes": 33936,
+      "git_checkout_lf_sha256": "5c4e353d071ac13cc1f57a5cf5577934a0293ac8ad367d68e11dbb96dcceca1a",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 33936,
+      "sealed_sha256": "5c4e353d071ac13cc1f57a5cf5577934a0293ac8ad367d68e11dbb96dcceca1a"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/POLICY_FACTORIZED.token_reference.private.jsonl": {
+      "git_checkout_lf_bytes": 122952,
+      "git_checkout_lf_sha256": "b65313ef8873a8e8d06a308672a00452d2d9eef78c626b451c89479af5c6015f",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 122952,
+      "sealed_sha256": "b65313ef8873a8e8d06a308672a00452d2d9eef78c626b451c89479af5c6015f"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_EVAL.private.jsonl": {
+      "git_checkout_lf_bytes": 19008,
+      "git_checkout_lf_sha256": "c6cdfbd00be11acbfb8351ce1f2d03ab85eefa9b66598bb6a5b57abc9884dd9e",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 19008,
+      "sealed_sha256": "c6cdfbd00be11acbfb8351ce1f2d03ab85eefa9b66598bb6a5b57abc9884dd9e"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_IDENTIFYING_BASIS.jsonl": {
+      "git_checkout_lf_bytes": 68712,
+      "git_checkout_lf_sha256": "e8f67d1d7d7790e4210d75a6868d5a355caee645471d876d8f31dc1ff04eeed2",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 68712,
+      "sealed_sha256": "e8f67d1d7d7790e4210d75a6868d5a355caee645471d876d8f31dc1ff04eeed2"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_IDENTIFYING_BASIS.sidecar.private.jsonl": {
+      "git_checkout_lf_bytes": 50472,
+      "git_checkout_lf_sha256": "d8d3e7f767fa7799df1c9f601b4fab95c5143d38786d7b7f145db49d7ea196d4",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 50472,
+      "sealed_sha256": "d8d3e7f767fa7799df1c9f601b4fab95c5143d38786d7b7f145db49d7ea196d4"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_IDENTIFYING_BASIS.token_reference.private.jsonl": {
+      "git_checkout_lf_bytes": 139920,
+      "git_checkout_lf_sha256": "cf5cd42158c621d50cd7d1733b42063f8202c72616f2637040d58d060ab1df05",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 139920,
+      "sealed_sha256": "cf5cd42158c621d50cd7d1733b42063f8202c72616f2637040d58d060ab1df05"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_NARROW_SLICE.jsonl": {
+      "git_checkout_lf_bytes": 68352,
+      "git_checkout_lf_sha256": "2773440a5e52212959cdd3d1c90a90164e0fbe651e5044248c99b6ce9efb95ac",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 68352,
+      "sealed_sha256": "2773440a5e52212959cdd3d1c90a90164e0fbe651e5044248c99b6ce9efb95ac"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_NARROW_SLICE.sidecar.private.jsonl": {
+      "git_checkout_lf_bytes": 50040,
+      "git_checkout_lf_sha256": "5621414e52ba2dceac911d81b61a0ace94df62c4d7b04b2eaf437cd795dc7aa3",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 50040,
+      "sealed_sha256": "5621414e52ba2dceac911d81b61a0ace94df62c4d7b04b2eaf437cd795dc7aa3"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/PREDICATE_NARROW_SLICE.token_reference.private.jsonl": {
+      "git_checkout_lf_bytes": 139560,
+      "git_checkout_lf_sha256": "3ad319c4c27f5fce57ef91a0295948505e378fdd0c4c7c4fec0cc8d9c2061ed9",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 139560,
+      "sealed_sha256": "3ad319c4c27f5fce57ef91a0295948505e378fdd0c4c7c4fec0cc8d9c2061ed9"
+    },
+    "state/candidates/v11_predicate_policy_r2_20260830/TOKEN_AUDIT.json": {
+      "git_checkout_lf_bytes": 1046,
+      "git_checkout_lf_sha256": "51c7c8cc10ce435d1a26e0618d45fee968925b40a980b77d31f33135a2c92bbe",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 1046,
+      "sealed_sha256": "51c7c8cc10ce435d1a26e0618d45fee968925b40a980b77d31f33135a2c92bbe"
+    },
+    "state/next_steps/V11_PREDICATE_POLICY_MECHANISM_PREREG_DRAFT_2026-08-30.json": {
+      "git_checkout_lf_bytes": 6205,
+      "git_checkout_lf_sha256": "ebb014831500a6f74961a4fb06af75bf33ba99a290af11e3ff954f8850e196a4",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 6205,
+      "sealed_sha256": "ebb014831500a6f74961a4fb06af75bf33ba99a290af11e3ff954f8850e196a4"
+    },
+    "state/next_steps/V11_PREDICATE_POLICY_PREREG_AMENDMENT_PRE_OUTCOME_2026-08-30.md": {
+      "git_checkout_lf_bytes": 2046,
+      "git_checkout_lf_sha256": "32fac2d754fefc23625a8e58c36f7cdbc0c875fe0bab35c86cd35c3d91fa2779",
+      "relation_to_sealed_bytes": "CRLF_TO_LF_ONLY",
+      "sealed_bytes": 2083,
+      "sealed_sha256": "bdd51ca7ff97679dc032529b0386dd1b143c9ab514c51d58e2b100775dc8f1c1"
+    },
+    "state/next_steps/V11_PREDICATE_POLICY_TRAINING_CONTRACT_2026-08-30.json": {
+      "git_checkout_lf_bytes": 3854,
+      "git_checkout_lf_sha256": "db19b34aa54e743b1375f3ada8921c4610da60bc12296abd47e119d0869518b4",
+      "relation_to_sealed_bytes": "CRLF_TO_LF_ONLY",
+      "sealed_bytes": 3937,
+      "sealed_sha256": "9945f8369f195a2a7796d96c687f5830ee7ff8d85ab1af7bc517d2ac6800ea6f"
+    },
+    "state/qualification/V11_PREDICATE_POLICY_BASELINE_ADMISSION_20260830/ADMISSION.json": {
+      "git_checkout_lf_bytes": 2349,
+      "git_checkout_lf_sha256": "695ad60d898072cdf4f7efb58a709969002ee5f52c76ba65adefb8c2f2498917",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 2349,
+      "sealed_sha256": "695ad60d898072cdf4f7efb58a709969002ee5f52c76ba65adefb8c2f2498917"
+    },
+    "state/qualification/V11_PREDICATE_POLICY_BASELINE_ADMISSION_20260830/POLICY_RESULTS.jsonl": {
+      "git_checkout_lf_bytes": 27226,
+      "git_checkout_lf_sha256": "7f82264f832d052f4a612d05a28ae0d8b791e10b909fb065528b2e4093428933",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 27226,
+      "sealed_sha256": "7f82264f832d052f4a612d05a28ae0d8b791e10b909fb065528b2e4093428933"
+    },
+    "state/qualification/V11_PREDICATE_POLICY_BASELINE_ADMISSION_20260830/PREDICATE_RESULTS.jsonl": {
+      "git_checkout_lf_bytes": 26571,
+      "git_checkout_lf_sha256": "e43f9870e31b20ad0c80953b1916bd4ce515ba2cbd20a5ff9f18ec0064ec6e56",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 26571,
+      "sealed_sha256": "e43f9870e31b20ad0c80953b1916bd4ce515ba2cbd20a5ff9f18ec0064ec6e56"
+    },
+    "state/qualification/V11_PREDICATE_POLICY_STATIC_HOSTILE_2026-08-30.json": {
+      "git_checkout_lf_bytes": 87234,
+      "git_checkout_lf_sha256": "3fd22526e2956c48130e11c9f4528d46c3dd6a02994f285b409a4285980a7cb0",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 87234,
+      "sealed_sha256": "3fd22526e2956c48130e11c9f4528d46c3dd6a02994f285b409a4285980a7cb0"
+    },
+    "tools/audit_v11_predicate_policy_candidate.py": {
+      "git_checkout_lf_bytes": 5960,
+      "git_checkout_lf_sha256": "cb6abe273aeb817df7f52789493e5e2ff5d672afd70da3ac33b0a0774ffadcd5",
+      "relation_to_sealed_bytes": "CRLF_TO_LF_ONLY",
+      "sealed_bytes": 6020,
+      "sealed_sha256": "d3e4b091c22e75eaab22a5aa26c35b30238c9e334527097f5ebe9f6c26b3dc2d"
+    },
+    "tools/build_v11_predicate_policy_candidate.py": {
+      "git_checkout_lf_bytes": 9967,
+      "git_checkout_lf_sha256": "1e2736c096fdb27022e62246865fb36db5d5c27ebddf6f222b5d661ec17d7b52",
+      "relation_to_sealed_bytes": "EXACT",
+      "sealed_bytes": 9967,
+      "sealed_sha256": "1e2736c096fdb27022e62246865fb36db5d5c27ebddf6f222b5d661ec17d7b52"
+    },
+    "tools/evaluate_v11_predicate_policy.py": {
+      "git_checkout_lf_bytes": 5181,
+      "git_checkout_lf_sha256": "1baa045c4f8acb1003d5517faabfd05c0b309c04b688a13367b835ad14b52423",
+      "relation_to_sealed_bytes": "CRLF_TO_LF_ONLY",
+      "sealed_bytes": 5230,
+      "sealed_sha256": "91d42fe7c5e277601b6928d220dbd3314ffcfa6fbedd4dd9eb0e02d0c04baeb5"
+    },
+    "tools/run_v11_predicate_policy_baseline_admission.py": {
+      "git_checkout_lf_bytes": 5648,
+      "git_checkout_lf_sha256": "f865cd6d7cad86d842f00bd93848c662f8782a19f989f9e754864cc1ed59f5cb",
+      "relation_to_sealed_bytes": "CRLF_TO_LF_ONLY",
+      "sealed_bytes": 5707,
+      "sealed_sha256": "a8372447c9a081f3da0235b9d8b4cbfc4c59f5b014d04458d7d702dfdc954482"
+    },
+    "tools/run_v11_predicate_policy_campaign.py": {
+      "git_checkout_lf_bytes": 6548,
+      "git_checkout_lf_sha256": "7a6aeece195a1adcc08dc65674a9d217135426e7fb99de8b752c18c097a07adf",
+      "relation_to_sealed_bytes": "CRLF_TO_LF_ONLY",
+      "sealed_bytes": 6597,
+      "sealed_sha256": "2eb5b95d3578998f50a71ff5e85ec8f352b9d00fede6fab36877fe9090974073"
+    },
+    "tools/train_v11_predicate_policy.py": {
+      "git_checkout_lf_bytes": 6782,
+      "git_checkout_lf_sha256": "a212a855650c855c6c8ad273c5191716c71691d65002ce3de8ae9b705060460b",
+      "relation_to_sealed_bytes": "CRLF_TO_LF_ONLY",
+      "sealed_bytes": 6836,
+      "sealed_sha256": "5d626a5fdb3ac5bb0681fc5419f24634160211289e399830bf2f842b989b3f28"
+    },
+    "tools/v11_predicate_policy_common.py": {
+      "git_checkout_lf_bytes": 3336,
+      "git_checkout_lf_sha256": "9892e0f60801698f77cc4f0ed2076b16ba9d96f3e3c0348955c88d5dca99bfe4",
+      "relation_to_sealed_bytes": "CRLF_TO_LF_ONLY",
+      "sealed_bytes": 3401,
+      "sealed_sha256": "615b7368abaa249b408a3f34c863cc40a100d66c19793cc856f2f1b10ea8186b"
+    }
+  },
+  "exact_git_blob_matches": 19,
+  "file_count": 27,
+  "git_commit_at_annotation": "5892bd907c999ea00c59464bd1e328f92de9533d",
+  "gitattributes_sha256": "780e78befb97cbc1a86e4cc818de12241fe38023cdde1206307a188897a2b278",
+  "laws": [
+    "LOCKED_BYTES != CHECKED_OUT_BYTES",
+    "NORMALIZED_EQUIVALENCE != SEALED_BYTE_IDENTITY",
+    "PORTABLE_GATE != WEAKER_GATE",
+    "SEALED_ENVIRONMENT != REPRODUCED_ENVIRONMENT"
+  ],
+  "line_ending_only_git_blob_matches": 8,
+  "original_lock_path": "state/locks/V11_PREDICATE_POLICY_INPUT_LOCK_2026-08-30.json",
+  "original_lock_sha256": "f096dc597a1f1a9b74f8f46e05dbb6feb74129f76b7e2cd74b6be9d54a42af1a",
+  "schema": "cfe.v11.input-lock-portability-sidecar.v1",
+  "status": "APPEND_ONLY_PORTABILITY_ANNOTATION__ORIGINAL_LOCK_UNCHANGED"
+}
