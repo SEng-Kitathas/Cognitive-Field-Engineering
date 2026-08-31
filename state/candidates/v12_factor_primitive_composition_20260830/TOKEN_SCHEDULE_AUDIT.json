@@ -1,0 +1,93 @@
+{
+  "combined_arm_stats": {
+    "PREDICATE_IDENTIFYING_V12": {
+      "global_tokens": 31200,
+      "rows": 144,
+      "supervised_tokens": 4608
+    },
+    "PREDICATE_NARROW_V12": {
+      "global_tokens": 31200,
+      "rows": 144,
+      "supervised_tokens": 4608
+    }
+  },
+  "laws": [
+    "SOURCE_ROWS != OPTIMIZER_WINDOWS",
+    "PAIRED_ARM_BURDEN_MUST_MATCH",
+    "POLICY_STREAM_IDENTICAL_BETWEEN_ARMS"
+  ],
+  "predicate_pair_exact_lengths": 72,
+  "predicate_pair_length_delta_histogram": {
+    "0": 72
+  },
+  "predicate_pair_supervised_delta_histogram": {
+    "0": 72
+  },
+  "schedules": {
+    "2026082901": {
+      "policy_per_window": 4,
+      "predicate_per_window": 4,
+      "sha256": "a33cf0055337a1feb3e2dfe057bad4879dd25d3dfa439c9ef98c566751800039",
+      "windows": 18
+    },
+    "2026082902": {
+      "policy_per_window": 4,
+      "predicate_per_window": 4,
+      "sha256": "582fd5ff4f7189129c82bfb054ed0eaa6184d75966746ebc2dd6e2cc8c95cdb0",
+      "windows": 18
+    },
+    "2026082903": {
+      "policy_per_window": 4,
+      "predicate_per_window": 4,
+      "sha256": "b735196c9bc1028fb338aecda757dc34e869ed5ef095fe756628e51fc3bcfc12",
+      "windows": 18
+    },
+    "2026082904": {
+      "policy_per_window": 4,
+      "predicate_per_window": 4,
+      "sha256": "7f28ec7ad25e67f40ea2f7b8ee68b5a433196fc2435930eb7f0cd63b6f6cf3a3",
+      "windows": 18
+    },
+    "2026082905": {
+      "policy_per_window": 4,
+      "predicate_per_window": 4,
+      "sha256": "10f625a452bc7e74bef462fb44642c8f131097dcb8ad9676eb54f4b988c10c3f",
+      "windows": 18
+    },
+    "2026082906": {
+      "policy_per_window": 4,
+      "predicate_per_window": 4,
+      "sha256": "d4b80afa0550d56f955848d5ea5d9710beb78ec48247c548db5f1e61a8583ab7",
+      "windows": 18
+    }
+  },
+  "schema": "cfe.v12.factor-primitive-token-schedule-audit.v1",
+  "stats": {
+    "POLICY_Z_SHARED": {
+      "global_tokens": 15768,
+      "max_tokens": 219,
+      "min_tokens": 219,
+      "rows": 72,
+      "supervised_tokens": 2304,
+      "token_reference_sha256": "f8c770be1ea66b712a451b0311c11f8f2e02e84e529920362c70ecde2023387f"
+    },
+    "PREDICATE_IDENTIFYING_V12": {
+      "global_tokens": 15432,
+      "max_tokens": 217,
+      "min_tokens": 213,
+      "rows": 72,
+      "supervised_tokens": 2304,
+      "token_reference_sha256": "48e57594b7e90031d7c46838270bc247e5ea9bf6b8c88afc9b6a73b491b383d7"
+    },
+    "PREDICATE_NARROW_V12": {
+      "global_tokens": 15432,
+      "max_tokens": 217,
+      "min_tokens": 213,
+      "rows": 72,
+      "supervised_tokens": 2304,
+      "token_reference_sha256": "6ecd38db3e3ebb030ad4d2b22b980e426910d66157cc95d54bf6d33892ffad46"
+    }
+  },
+  "status": "PASS",
+  "tokenizer_snapshot": "D:\\CFE_HF_CACHE\\models--argilla--CapybaraHermes-2.5-Mistral-7B\\snapshots\\d06c86726aadd8dadb92c5b9b9e3ce8ef246c471"
+}

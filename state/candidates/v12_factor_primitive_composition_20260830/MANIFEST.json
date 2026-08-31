@@ -1,0 +1,81 @@
+{
+  "composed_action_counts": {
+    "action_r": 48,
+    "action_s": 24,
+    "action_t": 24
+  },
+  "composed_eval_cases": 96,
+  "composed_truth_balance": "48 false / 48 true",
+  "eval_domains": [
+    "allocation_gate",
+    "control_desk",
+    "reserve_gate"
+  ],
+  "files": {
+    "COMPOSE_EVAL.private.jsonl": {
+      "bytes": 40592,
+      "sha256": "8661422a56186a639397cc39566e0c20dcb451c0e26b282a5c13f437a1456acb"
+    },
+    "POLICY_EVAL.private.jsonl": {
+      "bytes": 14264,
+      "sha256": "da4d15e38c66130c271c860f7374a00933d943ab9dfb470b291f8a8f1225fc47"
+    },
+    "POLICY_Z_SHARED.jsonl": {
+      "bytes": 60768,
+      "sha256": "e5c9915449a07bda8cea8d293aa836da5395d2e6899f919bc984ba9003d32ed7"
+    },
+    "POLICY_Z_SHARED.sidecar.private.jsonl": {
+      "bytes": 32472,
+      "sha256": "0bd9582a64da4cb62c2c8d15b24a4122be6dfdca9ddc9cf65bd2993cc24d54ae"
+    },
+    "PREDICATE_EVAL.private.jsonl": {
+      "bytes": 15640,
+      "sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744"
+    },
+    "PREDICATE_IDENTIFYING_V12.jsonl": {
+      "bytes": 59832,
+      "sha256": "d44e507ad80f88ce4d2f25e970062614a1f1a0ba22089c7e5f0402a540f4ef80"
+    },
+    "PREDICATE_IDENTIFYING_V12.sidecar.private.jsonl": {
+      "bytes": 50112,
+      "sha256": "eb3e8b547a9595fe1d9fd88cfda9ccd0905a06a45ba026bf2789018422eaa066"
+    },
+    "PREDICATE_NARROW_V12.jsonl": {
+      "bytes": 59472,
+      "sha256": "923dc0abc85674ebc8d21c75827a0b5d446a98f72efe84a470407a2a87960288"
+    },
+    "PREDICATE_NARROW_V12.sidecar.private.jsonl": {
+      "bytes": 49680,
+      "sha256": "71846cf0f5bf11c9af6d50767e86f40d60a0084fb291c4dfc33325cde3c73623"
+    }
+  },
+  "joint_training_examples": 0,
+  "laws": [
+    "PRIMITIVE_ACQUISITION != COMPOSITION",
+    "JOINT_TRAINING_EXAMPLE_COUNT = 0",
+    "SHARED_INTERFACE_SYMBOL != SHARED_JOINT_TARGET",
+    "CANDIDATE_GENERATION != SCIENTIFIC_START"
+  ],
+  "policy_exposures_per_arm": 288,
+  "policy_factorial": "exact 2x2 condition_z x mode per block",
+  "policy_rows_shared": 72,
+  "policy_train_domains": [
+    "mode_desk",
+    "routing_cell",
+    "handoff_node"
+  ],
+  "predicate_context_identity": true,
+  "predicate_exposures_per_arm": 288,
+  "predicate_rows_per_arm": 72,
+  "predicate_target_balance": "2 false / 2 true per block",
+  "predicate_train_domains": [
+    "signal_bay",
+    "cargo_node",
+    "transfer_cell"
+  ],
+  "schema": "cfe.v12.factor-primitive-composition-candidate.v1",
+  "seed": 120260830,
+  "semantic_action_overflow_terms_absent": true,
+  "status": "CANDIDATE_GENERATED__NOT_TOKEN_QUALIFIED__NOT_LOCKED__NOT_TRAINED",
+  "total_training_rows_per_arm": 144
+}

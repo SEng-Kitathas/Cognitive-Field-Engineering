@@ -27,7 +27,7 @@
 - All 18 completed v1.1 adapter weights are published as six seed-scoped GitHub Release bundles with remote digest readback; normal Git remains thin.
 - Cross-project transferable process doctrine is active at `state/doctrine_snapshot/ACTIVE_EVIDENCE_SCOPE_AND_REPRODUCIBILITY_RULES_2026-08-30.md` SHA `fc622b62bac1a833f3e60cead55368c3bd987e640c87441a8d9a876cf1269f9a`.
 - v1.2 composition preregistration is frozen before any v1.2 model outcome: `state/next_steps/V12_FACTOR_PRIMITIVE_COMPOSITION_PREREG_DRAFT_2026-08-30.json` SHA `e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9`.
-- No v1.2 model training has started. K1/K2/K4 and optimizer-window screens remain parked.
+- v1.2 candidate has been generated and statically qualified: 1,157 checks, zero failures; exact paired burden and 4+4 optimizer windows verified. No v1.2 model output has been observed yet and no v1.2 weights have trained. K1/K2/K4 and optimizer-window screens remain parked.
 
 ## Active Constraints
 - Do not restart or overwrite the completed CONTROL training output or the active corrected CONTROL evaluation output.
@@ -53,7 +53,8 @@
 
 ## Immediate Next Step
 - Commit/push/read back the complete v1.1 closeout and frozen v1.2 preregistration.
-- Only after remote verification, generate and hostile-audit the v1.2 factorized-primitive composition candidate; do not train yet.
+- Publish/read back the statically qualified v1.2 candidate before any NF4 admission output.
+- After remote verification, run NF4 baseline admission only; do not train scientific arms until admission, lock, runtime replay, and repeatability qualification pass.
 
 ## Last 10 Turn Reinforcement Window
 1. User asked to continue from the prior CFE work.

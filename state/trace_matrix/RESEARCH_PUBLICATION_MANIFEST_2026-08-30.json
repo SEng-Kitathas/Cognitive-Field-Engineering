@@ -1921,15 +1921,99 @@
       "surface": "GIT"
     },
     {
-      "bytes": 16511,
-      "path": "state/current.md",
-      "sha256": "2e46ea8d685b73a6b4f85f058ddcb35d6cd8d800cad1e327775c7d85e4229c3e",
+      "bytes": 40592,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/COMPOSE_EVAL.private.jsonl",
+      "sha256": "8661422a56186a639397cc39566e0c20dcb451c0e26b282a5c13f437a1456acb",
       "surface": "GIT"
     },
     {
-      "bytes": 34944,
+      "bytes": 2625,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/MANIFEST.json",
+      "sha256": "b03b0eca0ecf39554491e787e64a5fae0102bcff7700c81630f66c3005bc1ca1",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 14264,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/POLICY_EVAL.private.jsonl",
+      "sha256": "da4d15e38c66130c271c860f7374a00933d943ab9dfb470b291f8a8f1225fc47",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 60768,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/POLICY_Z_SHARED.jsonl",
+      "sha256": "e5c9915449a07bda8cea8d293aa836da5395d2e6899f919bc984ba9003d32ed7",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 32472,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/POLICY_Z_SHARED.sidecar.private.jsonl",
+      "sha256": "0bd9582a64da4cb62c2c8d15b24a4122be6dfdca9ddc9cf65bd2993cc24d54ae",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 121608,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/POLICY_Z_SHARED.token_reference.private.jsonl",
+      "sha256": "f8c770be1ea66b712a451b0311c11f8f2e02e84e529920362c70ecde2023387f",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 15640,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_EVAL.private.jsonl",
+      "sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 59832,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_IDENTIFYING_V12.jsonl",
+      "sha256": "d44e507ad80f88ce4d2f25e970062614a1f1a0ba22089c7e5f0402a540f4ef80",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 50112,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_IDENTIFYING_V12.sidecar.private.jsonl",
+      "sha256": "eb3e8b547a9595fe1d9fd88cfda9ccd0905a06a45ba026bf2789018422eaa066",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 121152,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_IDENTIFYING_V12.token_reference.private.jsonl",
+      "sha256": "48e57594b7e90031d7c46838270bc247e5ea9bf6b8c88afc9b6a73b491b383d7",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 59472,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_NARROW_V12.jsonl",
+      "sha256": "923dc0abc85674ebc8d21c75827a0b5d446a98f72efe84a470407a2a87960288",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 49680,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_NARROW_V12.sidecar.private.jsonl",
+      "sha256": "71846cf0f5bf11c9af6d50767e86f40d60a0084fb291c4dfc33325cde3c73623",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 120792,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/PREDICATE_NARROW_V12.token_reference.private.jsonl",
+      "sha256": "6ecd38db3e3ebb030ad4d2b22b980e426910d66157cc95d54bf6d33892ffad46",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 2808,
+      "path": "state/candidates/v12_factor_primitive_composition_20260830/TOKEN_SCHEDULE_AUDIT.json",
+      "sha256": "f3aa40f53d7c75b277213ed3753b51fb806d3eccc07097d508b4c115e6423679",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 17542,
+      "path": "state/current.md",
+      "sha256": "04764af5a8673eddaf631ce896d492df35a3087ce86858f980d35d97010af441",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 35841,
       "path": "state/design_thread_stream.md",
-      "sha256": "a024db1cbfc314c5f5f155da1635549a585e98b57ab3982fe5d46c548522ba6e",
+      "sha256": "820e80c3365e8f32e4d984ea1407dd4b31bb7fb878c58834b3488900514a8691",
       "surface": "GIT"
     },
     {
@@ -1975,9 +2059,9 @@
       "surface": "GIT"
     },
     {
-      "bytes": 6783,
+      "bytes": 7098,
       "path": "state/live_shadow.md",
-      "sha256": "c97c14b151184fb008b4873b6d86ade27a55cc42ab1662607cd25bc178ae8263",
+      "sha256": "f3b7e313627ca0d943ec9fb6f38d3af19381696e2e0615c13e9a344cce6d99af",
       "surface": "GIT"
     },
     {
@@ -2152,6 +2236,12 @@
       "bytes": 77806,
       "path": "state/qualification/V11_STATIC_HOSTILE_CANDIDATE_2026-08-30.json",
       "sha256": "9a52d3fee2de9b79ad0c346af71e4f221c41dd252cbdac3e42caf8fe40b2f801",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 733,
+      "path": "state/qualification/V12_FACTOR_PRIMITIVE_STATIC_HOSTILE_2026-08-30.json",
+      "sha256": "3f72abbcf839085972186cf6c129111a2dd1de6633672653bb8e6619750a2ee6",
       "surface": "GIT"
     },
     {
@@ -2611,6 +2701,12 @@
       "surface": "GIT"
     },
     {
+      "bytes": 6969,
+      "path": "tools/audit_v12_factor_primitive_composition_candidate.py",
+      "sha256": "f756917e7baca203294626dcf46b3affb8accb94204df3fd236b7ca3ef78f5b2",
+      "surface": "GIT"
+    },
+    {
       "bytes": 19716,
       "path": "tools/autonomous_helix_campaign_runner.py",
       "sha256": "4a0815b966ceff5b9094c50cdcb78d71fbf115d3f3aeb0cbc4be54e81e96b65c",
@@ -2638,6 +2734,12 @@
       "bytes": 9967,
       "path": "tools/build_v11_predicate_policy_candidate.py",
       "sha256": "1e2736c096fdb27022e62246865fb36db5d5c27ebddf6f222b5d661ec17d7b52",
+      "surface": "GIT"
+    },
+    {
+      "bytes": 10693,
+      "path": "tools/build_v12_factor_primitive_composition_candidate.py",
+      "sha256": "19adad2c4251263c51c659b74c6cf30c6d74027b0a0a01ded31f0c187b1da660",
       "surface": "GIT"
     },
     {
@@ -3175,17 +3277,11 @@
       "surface": "GIT"
     }
   ],
-  "entry_count": 511,
-  "git_entry_count": 493,
+  "entry_count": 528,
+  "git_entry_count": 510,
   "heavy_entry_count": 18,
   "heavy_published_count": 18,
-  "heavy_release_tag": "cfe-v11-predicate-policy-research-2026-08-30",
-  "laws": [
-    "FAILED_ATTEMPT != DISPOSABLE_HISTORY",
-    "NOT_IN_NORMAL_GIT != NOT_PUBLISHED",
-    "COMPLETE RESEARCH LINEAGE = GIT EVIDENCE + HASHED HEAVY RELEASE SURFACE"
-  ],
-  "schema": "cfe.research-publication-manifest.v4",
-  "self_reference_rule": "This manifest intentionally does not include itself in entries; its identity is provided by the Git commit and external SHA readback.",
-  "status": "V11_COMPLETE_PLUS_V12_PREREG_SNAPSHOT"
+  "schema": "cfe.research-publication-manifest.v5",
+  "self_reference_rule": "manifest excluded from own entries",
+  "status": "V12_STATIC_CANDIDATE_PRE_BASELINE"
 }

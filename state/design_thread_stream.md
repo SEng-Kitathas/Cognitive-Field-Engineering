@@ -472,3 +472,11 @@ v1.1 predicate/policy campaign was found COMPLETE, 18/18. Aggregate SHA `3e631f8
 The preregistered next branch was honored by freezing v1.2 factorized primitive composition before any new model outcome. V1.2 trains numeric-state->condition_z and condition_z+mode->opaque_action separately, never shows the composed task, then evaluates numeric-state+mode->opaque_action with condition_z hidden. Both arms share identical policy experience; only predicate basis differs. Prereg SHA `e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9`. No v1.2 scientific training started.
 
 All 18 v1.1 adapter payloads are now available as six seed-scoped bundles on release tag `cfe-v11-predicate-policy-research-2026-08-30`, with GitHub digest readback matching local bundles.
+
+---
+
+## Exchange — ASSISTANT
+Timestamp: 2026-08-30
+Tags: V12 CANDIDATE GENERATED, STATIC QUALIFICATION, PRE-BASELINE FREEZE
+
+After remote publication of v1.1 closeout and v1.2 preregistration, assistant generated `state/candidates/v12_factor_primitive_composition_20260830`. The candidate contains separate predicate and POLICY_Z streams, zero joint numeric+mode->action training examples, and fresh direct-predicate/direct-policy/composed-action evaluations. Exact pinned-tokenizer audit passed: both composition arms total 31,200 tokens and 4,608 supervised tokens; all 72 paired predicate sequence lengths exact. Every preregistered optimizer window is structurally 4 predicate + 4 policy sequences with identical logical schedule across paired arms. Static hostile audit passed 1,157 checks with zero failures. No NF4 baseline or v1.2 trained-arm output had been observed at this snapshot.

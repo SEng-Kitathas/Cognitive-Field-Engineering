@@ -242,3 +242,15 @@ Raw trained outputs are clean JSON. On overflow both arms overwhelmingly emit `a
 - Final disposition SHA `e9f665d9280917c4383c44eeaec7bc9a38a7eec56e3c529e51ea3444386ed0ae`.
 - All 18 adapters published to release tag `cfe-v11-predicate-policy-research-2026-08-30`, digest verified.
 - Next frozen branch: v1.2 factorized primitive composition with no joint training examples.
+
+
+## v1.2 factorized primitive composition candidate
+- Prereg SHA `e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9` was remote-published before candidate generation.
+- Candidate: `state/candidates/v12_factor_primitive_composition_20260830`.
+- Candidate manifest SHA `b03b0eca0ecf39554491e787e64a5fae0102bcff7700c81630f66c3005bc1ca1`.
+- Token/schedule audit SHA `f3aa40f53d7c75b277213ed3753b51fb806d3eccc07097d508b4c115e6423679`.
+- Both arms: 144 sequences, 31,200 total tokens, 4,608 supervised tokens; paired predicate lengths 72/72 exact.
+- Every planned optimizer window: exactly 4 predicate + 4 policy sequences, identical logical schedule across paired arms.
+- Joint training examples: 0. Composed primary evaluation hides `condition_z`. Policy/composition prompts use opaque actions and contain no overflow/backpressure/drop-oldest/accept-all semantics.
+- Independent static hostile audit: PASS, 1,157 checks, zero failures.
+- Status: candidate only; baseline admission not yet run; no v1.2 weights trained.

@@ -1,0 +1,18 @@
+{
+  "bindings": {
+    "candidate_manifest_sha256": "b03b0eca0ecf39554491e787e64a5fae0102bcff7700c81630f66c3005bc1ca1",
+    "generator_sha256": "19adad2c4251263c51c659b74c6cf30c6d74027b0a0a01ded31f0c187b1da660",
+    "prereg_sha256": "e929a4ab201a86faaf7f910438b53e1349d4ac2a7a0d29a960d1381392657bf9",
+    "token_schedule_audit_sha256": "f3aa40f53d7c75b277213ed3753b51fb806d3eccc07097d508b4c115e6423679"
+  },
+  "check_count": 1157,
+  "claims_not_authorized": [
+    "composition effect",
+    "scientific start",
+    "general CFE law",
+    "Developmental CFE"
+  ],
+  "failures": [],
+  "schema": "cfe.v12.factor-primitive-composition-static-hostile.v1",
+  "status": "PASS_CANDIDATE__BASELINE_ADMISSION_NOT_RUN__NOT_LOCKED__NOT_TRAINED"
+}
