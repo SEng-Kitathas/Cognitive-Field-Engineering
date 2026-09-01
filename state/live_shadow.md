@@ -37,3 +37,10 @@ Launch sole DD2R1 GPU recovery; no new scientific design until DD2 disposition a
 - Training host rule now includes guaranteed post-task cleanup in `finally`, failure included, with 6s stable-clean dwell.
 - Future eval/model-load tasks use generic model-task wrapper.
 - Qualification PASS `ae0b0f21e83f9f20970a7dd40546d8f849679c3ca04187a3f1a8aca5da6771ee`.
+
+## Recovery delta — 2026-09-01 08:39 Eastern Daylight Time
+- Kill-all model cleanup revoked.
+- PCMMAD resident model workers 6744:18191 and 24744:18192 are healthy, protected control-plane children.
+- CFE task ownership now uses PID leases; unknown/resident services are preserve+block, never auto-kill.
+- DD2 paused safely at 2/6 sealed pairs; seed23 unmanifested.
+- Immediate next step: cooperative resident-model release/pause protocol before resuming GPU/model work.

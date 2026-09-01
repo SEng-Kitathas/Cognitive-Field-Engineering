@@ -992,3 +992,12 @@ User clarified the goal: nothing model-heavy should remain running after a train
 
 ## Turn — ASSISTANT / BUILD-COMMIT
 Extended preflight-only rule into guaranteed post-task cleanup in `finally`, including failed tasks, with 6-second stable-clean dwell and respawn logging. Added generic model-task wrapper for future evals. Failure-path test intentionally returned rc=7 yet post-cleanup PASSed with zero survivors.
+
+---
+## Turn — USER
+Timestamp: 2026-09-01 08:39 Eastern Daylight Time
+Tags: RECOVERY, MICROSEED, HOST OWNERSHIP
+User identified that one or two model runtimes targeted by the new kill-all cleanup may actually power Microseed/SOP machinery and proposed PID-level mutual awareness.
+
+## Turn — ASSISTANT / RECOVERY
+Terminated final cleanup guard and DD2R2 at an unmanifested seed23 boundary. Verified two sealed DD2 pairs survive. Replaced process-class killing with identity-first resident-service registry and CFE-owned PID task leases. Live discovery showed Qwen 7B PID6744:18191 and Qwen1.5B PID24744:18192 are children of PCMMAD receiver PID10720; both health endpoints return ok. Broad kill policy superseded. Preflight now blocks while preserving residents. Exact Microseed/SOP role split remains unresolved.

@@ -1,0 +1,22 @@
+{
+  "incident_sha256": "46f300282a9e07fdab08fb75db78f823a695eea730476805a21c2231c2bd4200",
+  "model_task_launcher_sha256": "f55039276502a8914a22387fb2ed3c7343582af0bc6b47658ea0c8f5d6b76906",
+  "policy_sha256": "bdbbf1bca161cc8749e70801fdaf4b10c9f097b0b6e3354cbe393d304972c6e4",
+  "preflight_sha256": "de2091321d3a91f775dbd55da49be4e99c731b270032d35afce39a600d073b9f",
+  "registry_sha256": "ed49a14582113bf62caf21a501429cb6464c130ac726ce6c693551aaa5834efe",
+  "schema": "cfe.model-service-coordination-qualification.v1",
+  "status": "PASS_SAFE_BLOCK",
+  "tests": {
+    "dd2_seed23_unmanifested_at_stop": true,
+    "health_18191_ok": true,
+    "health_18192_ok": true,
+    "live_preflight_blocked_without_kill": true,
+    "qwen15b_classified_authorized_resident": true,
+    "qwen7b_classified_authorized_resident": true,
+    "resident_pid_24744_preserved": true,
+    "resident_pid_6744_preserved": true,
+    "unknown_classified_preserve_and_block": true
+  },
+  "timestamp": "2026-09-01T08:39:23-04:00",
+  "training_launcher_sha256": "db06f453aea3ffcc3926b16d5229dee65bec68d74b7aa965fc57e4369d1f5fcc"
+}

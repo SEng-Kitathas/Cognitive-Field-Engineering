@@ -1,0 +1,52 @@
+{
+  "active_policy_sha256": "bdbbf1bca161cc8749e70801fdaf4b10c9f097b0b6e3354cbe393d304972c6e4",
+  "containment": {
+    "cleanup_guard_job": "job-de033a0b01f0",
+    "cleanup_guard_status": "TERMINATED",
+    "dd2_job": "job-3ff596a276d6",
+    "dd2_status": "TERMINATED_BY_OPERATOR_CONTROL",
+    "sealed_pairs": 2,
+    "seed2026083123_run_manifest_exists": false
+  },
+  "model_task_launcher_sha256": "f55039276502a8914a22387fb2ed3c7343582af0bc6b47658ea0c8f5d6b76906",
+  "next_gate": "Do not resume DD2 or any CFE model-heavy work until an explicit cooperative release/pause mechanism exists for authorized resident control-plane models, or resource coexistence is independently qualified.",
+  "preflight_sha256": "de2091321d3a91f775dbd55da49be4e99c731b270032d35afce39a600d073b9f",
+  "qualification": {
+    "broad_kill_behavior_active": false,
+    "cfe_owned_task_action": "PID_LEASED_TREE_ONLY",
+    "live_preflight_expected_result": "BLOCKED_MODEL_SERVICE_PRESENT",
+    "resident_pids_preserved_before_after": [
+      6744,
+      24744
+    ],
+    "unknown_service_action": "PRESERVE_AND_BLOCK"
+  },
+  "registry_sha256": "ed49a14582113bf62caf21a501429cb6464c130ac726ce6c693551aaa5834efe",
+  "role_boundary": "Operator reports one or both may power Microseed/SOP machinery; exact role split remains unresolved and is not inferred.",
+  "schema": "cfe.model-service-ownership-recovery.v1",
+  "status": "RECOVERED_SAFE_PAUSE",
+  "superseded_policy_tombstone_sha256": "cb9371012f90416b62d0f332b80d7ae973af7f143d19cbca57281cbab22e1233",
+  "timestamp": "2026-09-01T08:39:23-04:00",
+  "training_launcher_sha256": "db06f453aea3ffcc3926b16d5229dee65bec68d74b7aa965fc57e4369d1f5fcc",
+  "trigger": "Operator identified that one or more model servers killed by broad CFE cleanup may power Microseed/SOP machinery.",
+  "verified_resident_services": [
+    {
+      "health": "ok",
+      "model": "Qwen2.5-Coder-7B-Instruct-abliterated-Q4_K_M",
+      "owner_lineage": "PCMMAD receiver process tree",
+      "parent_pid": 10720,
+      "pid": 6744,
+      "port": 18191,
+      "service_id": "pcmmad_resident_qwen7b"
+    },
+    {
+      "health": "ok",
+      "model": "Qwen2.5-Coder-1.5B-Instruct-abliterated-Q4_K_L",
+      "owner_lineage": "PCMMAD receiver process tree",
+      "parent_pid": 10720,
+      "pid": 24744,
+      "port": 18192,
+      "service_id": "pcmmad_resident_qwen15b"
+    }
+  ]
+}

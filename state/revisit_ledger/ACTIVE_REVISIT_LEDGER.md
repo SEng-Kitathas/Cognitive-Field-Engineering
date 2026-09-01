@@ -38,3 +38,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | P1 science | Constructive/destructive evidence geometry | independently recurs in TQ2/Rosetta but not CFE-qualified | may collapse into support/coverage or typed relation | hostile independent-axis compiler gate after DD2 | open historical-prior seam |
 | P1 science | Typed relation on new substrate | historical typed-cell/tuple work strengthens prior but current predicate axis collapsed | needs substrate where relation type is orthogonal to proximity | design only after DD2/map update | suspended on current substrate |
+
+| P0 control plane | Resident model release/lease protocol | CFE cannot safely share host memory with resident PCMMAD model workers and may not kill them | receiver/model manager ownership API or cooperative pause/restart handshake | implement and qualify before DD2 resume | OPEN / BLOCKING MODEL WORK |

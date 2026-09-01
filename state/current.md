@@ -60,3 +60,12 @@ Seal/publish this recovery state, then launch DD2R1 as the sole GPU campaign.
 - Generic model-task launcher added for future eval/model-load work.
 - Deliberate failure-path qualification PASS SHA `ae0b0f21e83f9f20970a7dd40546d8f849679c3ca04187a3f1a8aca5da6771ee`: child rc=7, cleanup still PASS, 0 respawns, 0 survivors.
 - Earlier Singularity llama servers did respawn once under a transient parent; exact launch origin remains unproven. Current stable-dwell qualification saw no respawn.
+
+## RECOVERY — model-service ownership correction — 2026-09-01 08:39 Eastern Daylight Time
+- Broad model-runtime kill policy is SUPERSEDED.
+- Active policy: `policy/CFE_MODEL_SERVICE_COORDINATION_POLICY.md` SHA `bdbbf1bca161cc8749e70801fdaf4b10c9f097b0b6e3354cbe393d304972c6e4`.
+- Verified resident control-plane services: PID 6744 / port 18191 / 7B and PID 24744 / port 18192 / 1.5B, both parented by PCMMAD receiver PID 10720 and health `ok`.
+- Exact Microseed/SOP role split remains unresolved; both are protected.
+- CFE preflight now preserves+blocks on authorized/unknown resident services; only explicit CFE PID-leased task trees may be force-terminated.
+- DD2R2 intentionally terminated at safe boundary: 2/6 paired seeds sealed; seed3123 CYCLIC_SPACED had no RUN_MANIFEST.
+- Coordination qualification PASS_SAFE_BLOCK SHA `42861298ecced10804c614665aa0816686edfd0c3a474113b00480e78ad8affc`.

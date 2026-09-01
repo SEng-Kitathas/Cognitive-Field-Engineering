@@ -1,28 +1,24 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import json, subprocess, time
+import hashlib, json, os, subprocess, time
 from datetime import datetime
 from pathlib import Path
 
-PROCESS_NAME_PATTERNS=(
+MODEL_PROCESS_NAME_PATTERNS=(
     'llama-server','llama-server.exe','ollama','ollama.exe','koboldcpp','koboldcpp.exe',
     'lmstudio','lm studio','localai','local-ai','jan.exe',
 )
-COMMAND_PATTERNS=(
+MODEL_COMMAND_PATTERNS=(
     'llama-server','ollama serve','koboldcpp','text-generation-webui','text_generation_server',
     'text-generation-launcher','vllm.entrypoints','vllm serve','lmstudio','lm studio','localai',
     'local-ai','transformers.commands.serving','transformers serve','openai_api_server','oobabooga',
     'tabbyapi','aphrodite','exllamav2.server',
 )
-PROTECTED_COMMAND_PATTERNS=(
-    'pcmmad_receiver','pcmmad receiver','cfe_training_preflight.py','cfe_training_launch.py',
-    'cfe_model_task_launch.py','train_dd1_predicate_field_resolution.py','train_dd2_revisit_topology.py',
-    'train_v11_predicate_policy.py','train_v12_factor_primitive.py','train_v13_optimizer_interference.py',
-    'train_v14_predicate_horizon.py','evaluate_dd1_disposition.py','evaluate_dd2_revisit_topology.py',
-    'run_dd1','run_dd2','run_v11','run_v12','run_v13','run_v14',
-)
-STABLE_CLEAN_SECONDS=6.0
-STABLE_CLEAN_POLL_SECONDS=1.0
+REGISTRY_REL=Path('state/host_control/AUTHORIZED_MODEL_SERVICE_REGISTRY.json')
+DISCOVERY_REL=Path('state/host_control/LAST_MODEL_SERVICE_DISCOVERY.json')
+LEASE_DIR_REL=Path('state/host_control/task_leases')
+STABLE_OBSERVATION_SECONDS=4.0
+POLL_SECONDS=1.0
 
 
 def _ps_json(script:str):
@@ -37,78 +33,131 @@ def _processes():
     return _ps_json("Get-CimInstance Win32_Process | Select-Object ProcessId,ParentProcessId,Name,ExecutablePath,CommandLine | ConvertTo-Json -Depth 3")
 
 
-def _gpu_compute_apps():
-    try:
-        cp=subprocess.run(['nvidia-smi','--query-compute-apps=pid,process_name,used_memory','--format=csv,noheader,nounits'],capture_output=True,text=True,errors='replace',timeout=15)
-        if cp.returncode!=0:return {'status':'UNAVAILABLE','stderr':cp.stderr[-1000:]}
-        rows=[]
-        for line in cp.stdout.splitlines():
-            parts=[x.strip() for x in line.split(',')]
-            if len(parts)>=3:rows.append({'pid':parts[0],'process_name':parts[1],'used_memory_mib':parts[2]})
-        return {'status':'PASS','compute_apps':rows}
-    except Exception as e:return {'status':'UNAVAILABLE','error':repr(e)}
-
-
-def _is_target(proc:dict)->bool:
+def _is_model_service(proc:dict)->bool:
     name=str(proc.get('Name') or '').lower();cmd=str(proc.get('CommandLine') or '').lower()
-    if any(p in cmd for p in PROTECTED_COMMAND_PATTERNS):return False
-    return any(p in name for p in PROCESS_NAME_PATTERNS) or any(p in cmd for p in COMMAND_PATTERNS)
+    return any(p in name for p in MODEL_PROCESS_NAME_PATTERNS) or any(p in cmd for p in MODEL_COMMAND_PATTERNS)
 
 
-def _kill_one(proc:dict)->bool:
-    pid=int(proc['ProcessId'])
-    current=[x for x in _processes() if int(x.get('ProcessId') or -1)==pid]
-    if not current or not _is_target(current[0]):return False
-    subprocess.run(['powershell','-NoProfile','-Command',f'Stop-Process -Id {pid} -Force -ErrorAction Stop'],capture_output=True,text=True,errors='replace',check=True)
+def _load_registry(root:Path)->dict:
+    p=root/REGISTRY_REL
+    if not p.is_file():raise RuntimeError('MODEL_SERVICE_REGISTRY_MISSING')
+    return json.loads(p.read_text(encoding='utf-8'))
+
+
+def _entry_matches(proc:dict,entry:dict)->bool:
+    match=entry.get('match') or {}
+    exe=str(proc.get('ExecutablePath') or '').lower()
+    cmd=str(proc.get('CommandLine') or '').lower()
+    expected_exe=match.get('executable_path')
+    if expected_exe and exe!=str(expected_exe).lower():return False
+    for token in match.get('command_contains',[]):
+        if str(token).lower() not in cmd:return False
     return True
 
 
-def _stabilize_clean_host()->dict:
-    initial=[p for p in _processes() if _is_target(p)]
-    killed=[];respawn_events=[]
-    for p in initial:
-        if _kill_one(p):killed.append(p)
-    deadline=time.monotonic()+STABLE_CLEAN_SECONDS
+def _classify(root:Path,proc:dict)->dict:
+    registry=_load_registry(root)
+    for entry in registry.get('services',[]):
+        if _entry_matches(proc,entry):
+            return {'kind':'REGISTERED','service_id':entry['service_id'],'classification':entry['classification'],'action':entry['action'],'blocks_cfe_model_task':bool(entry.get('blocks_cfe_model_task',False)),'registry_entry':entry}
+    return {'kind':'UNKNOWN','service_id':None,'classification':'UNKNOWN_MODEL_SERVICE','action':'PRESERVE_AND_BLOCK_MODEL_TASK','blocks_cfe_model_task':True}
+
+
+def _discover(root:Path)->list[dict]:
+    rows=[]
+    for proc in _processes():
+        if not _is_model_service(proc):continue
+        c=_classify(root,proc)
+        rows.append({'process':proc,**{k:v for k,v in c.items() if k!='registry_entry'}})
+    return rows
+
+
+def _write_json(path:Path,obj:dict):
+    path.parent.mkdir(parents=True,exist_ok=True)
+    path.write_text(json.dumps(obj,indent=2,sort_keys=True)+'\n',encoding='utf-8',newline='\n')
+
+
+def _write_discovery(root:Path,phase:str,rows:list[dict])->Path:
+    obj={'schema':'cfe.model-service-discovery.v1','timestamp':datetime.now().astimezone().isoformat(timespec='seconds'),'phase':phase,'services':rows}
+    p=root/DISCOVERY_REL;_write_json(p,obj);return p
+
+
+def _write_receipt(root:Path,prefix:str,obj:dict)->Path:
+    d=root/'state/host_preflight';d.mkdir(parents=True,exist_ok=True)
+    stamp=datetime.now().astimezone().strftime('%Y%m%dT%H%M%S%z');p=d/f'{prefix}_{stamp}.json';_write_json(p,obj);return p
+
+
+def _terminate_registered_cfe_transient(proc:dict,classification:dict)->bool:
+    if classification.get('action')!='TERMINATE_CFE_MANAGED_TRANSIENT':return False
+    pid=int(proc['ProcessId'])
+    subprocess.run(['taskkill','/PID',str(pid),'/T','/F'],capture_output=True,text=True,errors='replace')
+    return True
+
+
+def enforce_model_service_boundary(project_root:Path,*,phase:str='MODEL_TASK')->dict:
+    """Identity-first preflight. Never auto-kill unknown/protected resident model services."""
+    root=Path(project_root).resolve();observations=[];deadline=time.monotonic()+STABLE_OBSERVATION_SECONDS
     while True:
-        now=time.monotonic()
-        if now>=deadline:break
-        time.sleep(min(STABLE_CLEAN_POLL_SECONDS,max(0.05,deadline-now)))
-        hits=[p for p in _processes() if _is_target(p)]
-        if hits:
-            respawn_events.append({'timestamp':datetime.now().astimezone().isoformat(timespec='seconds'),'processes':hits})
-            for p in hits:
-                if _kill_one(p):killed.append(p)
-            # Require a full clean dwell after the latest respawn.
-            deadline=time.monotonic()+STABLE_CLEAN_SECONDS
-    survivors=[p for p in _processes() if _is_target(p)]
-    return {'matched_initial':initial,'force_exited':killed,'respawn_events':respawn_events,'survivors':survivors,'stable_clean_seconds':STABLE_CLEAN_SECONDS}
+        rows=_discover(root);observations.append({'timestamp':datetime.now().astimezone().isoformat(timespec='seconds'),'services':rows})
+        # Only explicitly registered CFE-managed transient services may be terminated.
+        changed=False
+        for row in rows:
+            if row['kind']=='REGISTERED' and row['action']=='TERMINATE_CFE_MANAGED_TRANSIENT':
+                changed=_terminate_registered_cfe_transient(row['process'],row) or changed
+        blockers=[r for r in rows if r['blocks_cfe_model_task']]
+        if blockers:
+            _write_discovery(root,phase,rows)
+            receipt={'schema':'cfe.model-service-boundary-preflight.v1','timestamp':datetime.now().astimezone().isoformat(timespec='seconds'),'phase':phase,'status':'BLOCKED_MODEL_SERVICE_PRESENT','blockers':blockers,'observations':observations,'law':'UNKNOWN_OR_PROTECTED_MODEL_SERVICE => PRESERVE_AND_BLOCK_NOT_KILL'}
+            _write_receipt(root,'MODEL_SERVICE_BOUNDARY_PREFLIGHT',receipt)
+            raise RuntimeError('MODEL_SERVICE_BOUNDARY_BLOCKED:'+','.join(str((r.get('service_id') or 'UNKNOWN')) for r in blockers))
+        if time.monotonic()>=deadline:
+            _write_discovery(root,phase,rows)
+            receipt={'schema':'cfe.model-service-boundary-preflight.v1','timestamp':datetime.now().astimezone().isoformat(timespec='seconds'),'phase':phase,'status':'PASS','services':rows,'stable_observation_seconds':STABLE_OBSERVATION_SECONDS,'law':'NO_PROCESS_CLASS_KILLING'}
+            _write_receipt(root,'MODEL_SERVICE_BOUNDARY_PREFLIGHT',receipt)
+            return receipt
+        time.sleep(POLL_SECONDS)
 
 
-def _write_receipt(project_root:Path,prefix:str,receipt:dict)->Path:
-    log_dir=Path(project_root).resolve()/'state'/'host_preflight';log_dir.mkdir(parents=True,exist_ok=True)
-    stamp=datetime.now().astimezone().strftime('%Y%m%dT%H%M%S%z');path=log_dir/f'{prefix}_{stamp}.json'
-    path.write_text(json.dumps(receipt,indent=2,sort_keys=True)+'\n',encoding='utf-8',newline='\n');return path
-
-
-def force_exit_model_runtimes(project_root:Path,*,phase:str='TRAINING')->dict:
-    project_root=Path(project_root).resolve();st=_stabilize_clean_host()
-    receipt={'schema':'cfe.training-model-runtime-preflight.v3','timestamp':datetime.now().astimezone().isoformat(timespec='seconds'),'phase':phase,'policy':'FORCE_EXIT_AND_STABLE_CLEAN_DWELL_BEFORE_CFE_MODEL_TASK',**st,'gpu_snapshot_after_cleanup':_gpu_compute_apps(),'status':'PASS' if not st['survivors'] else 'FAIL_SURVIVORS','protected_rule':'PCMMAD receiver and active CFE execution/model-task processes are never kill targets merely because they are Python processes.','restoration_required':False}
-    _write_receipt(project_root,'TRAINING_MODEL_RUNTIME_PREFLIGHT',receipt)
-    if st['survivors']:raise RuntimeError('MODEL_RUNTIME_PREFLIGHT_FAIL_SURVIVORS:'+','.join(str(x.get('ProcessId')) for x in st['survivors']))
-    return receipt
+def force_exit_model_runtimes(project_root:Path,*,phase:str='MODEL_TASK')->dict:
+    """Compatibility alias. Semantics changed: identity-first boundary, no broad killing."""
+    return enforce_model_service_boundary(project_root,phase=phase)
 
 
 def cleanup_after_model_task(project_root:Path,*,phase:str,task_return_code:int|None=None)->dict:
-    project_root=Path(project_root).resolve();st=_stabilize_clean_host()
-    receipt={'schema':'cfe.model-task-postcleanup.v2','timestamp':datetime.now().astimezone().isoformat(timespec='seconds'),'phase':phase,'task_return_code':task_return_code,'policy':'ALWAYS_FORCE_EXIT_AND_STABLE_CLEAN_DWELL_AFTER_MODEL_TASK_SUCCESS_OR_FAILURE',**st,'gpu_snapshot_after_cleanup':_gpu_compute_apps(),'status':'PASS' if not st['survivors'] else 'FAIL_SURVIVORS','restoration_required':False}
-    _write_receipt(project_root,'MODEL_TASK_POSTCLEANUP',receipt)
-    if st['survivors']:raise RuntimeError('MODEL_RUNTIME_POSTCLEANUP_FAIL_SURVIVORS:'+','.join(str(x.get('ProcessId')) for x in st['survivors']))
+    """Post-task audit. Terminates only explicitly registered CFE-managed transient services."""
+    root=Path(project_root).resolve();rows=_discover(root);terminated=[]
+    for row in rows:
+        if row['kind']=='REGISTERED' and row['action']=='TERMINATE_CFE_MANAGED_TRANSIENT':
+            if _terminate_registered_cfe_transient(row['process'],row):terminated.append(row)
+    after=_discover(root);unknown=[r for r in after if r['kind']=='UNKNOWN'];protected=[r for r in after if r['kind']=='REGISTERED' and r['action'].startswith('PRESERVE')]
+    _write_discovery(root,phase,after)
+    status='PASS'
+    if unknown:status='ATTENTION_UNKNOWN_SERVICE_PRESERVED'
+    elif protected:status='PASS_RESIDENT_SERVICES_PRESERVED'
+    receipt={'schema':'cfe.model-task-postcleanup.v3','timestamp':datetime.now().astimezone().isoformat(timespec='seconds'),'phase':phase,'task_return_code':task_return_code,'status':status,'terminated_cfe_managed_transients':terminated,'resident_services_preserved':protected,'unknown_services_preserved':unknown,'law':'POST_TASK_CLEANUP_MAY_TERMINATE_ONLY_EXPLICIT_CFE_MANAGED_TRANSIENTS'}
+    _write_receipt(root,'MODEL_TASK_POSTCLEANUP',receipt)
     return receipt
+
+
+def open_task_lease(project_root:Path,*,phase:str,child_pid:int,command:list[str])->Path:
+    root=Path(project_root).resolve();d=root/LEASE_DIR_REL;d.mkdir(parents=True,exist_ok=True)
+    obj={'schema':'cfe.model-task-lease.v1','status':'RUNNING','timestamp_opened':datetime.now().astimezone().isoformat(timespec='seconds'),'owner':'CFE','wrapper_pid':os.getpid(),'child_pid':int(child_pid),'phase':phase,'command':command}
+    p=d/f'{child_pid}.json';_write_json(p,obj);return p
+
+
+def close_task_lease(path:Path,*,return_code:int|None,status:str='CLOSED')->None:
+    obj=json.loads(path.read_text(encoding='utf-8'));obj['status']=status;obj['return_code']=return_code;obj['timestamp_closed']=datetime.now().astimezone().isoformat(timespec='seconds');_write_json(path,obj)
+
+
+def terminate_owned_task_tree(child_pid:int)->dict:
+    """Terminate only a PID explicitly leased to CFE, including its descendants."""
+    cp=subprocess.run(['taskkill','/PID',str(int(child_pid)),'/T','/F'],capture_output=True,text=True,errors='replace')
+    return {'pid':int(child_pid),'return_code':cp.returncode,'stdout':cp.stdout[-2000:],'stderr':cp.stderr[-2000:]}
 
 
 if __name__=='__main__':
     import argparse
-    ap=argparse.ArgumentParser();ap.add_argument('--project-root',type=Path,required=True);ap.add_argument('--phase',default='TRAINING');ap.add_argument('--post-cleanup',action='store_true');ap.add_argument('--task-return-code',type=int);a=ap.parse_args()
-    fn=cleanup_after_model_task if a.post_cleanup else force_exit_model_runtimes;kwargs={'phase':a.phase}
+    ap=argparse.ArgumentParser();ap.add_argument('--project-root',type=Path,required=True);ap.add_argument('--phase',default='MODEL_TASK');ap.add_argument('--post-cleanup',action='store_true');ap.add_argument('--task-return-code',type=int);a=ap.parse_args()
+    fn=cleanup_after_model_task if a.post_cleanup else enforce_model_service_boundary;kwargs={'phase':a.phase}
     if a.post_cleanup:kwargs['task_return_code']=a.task_return_code
     print(json.dumps(fn(a.project_root,**kwargs),indent=2,sort_keys=True))

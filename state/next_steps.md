@@ -29,3 +29,9 @@ As of: 2026-09-01 06:20 Eastern Daylight Time
 ## Host cleanliness invariant
 - Do not begin another model task after a failed/successful training task until post-cleanup receipt is PASS.
 - Respawn during cleanup resets stable-clean dwell; repeated respawn is an execution blocker, not a science failure.
+
+## P0 — control-plane/model-task coordination
+1. Do not resume DD2 while authorized resident model workers block the host boundary.
+2. Locate or implement a cooperative control-plane release/pause lease for resident model workers.
+3. Preserve exact service identity and PID/port readback; never infer orphan status from executable class.
+4. After cooperative release is qualified, resume DD2 from seeds21-22 sealed state; seed23 restarts fresh because no RUN_MANIFEST was admitted.
