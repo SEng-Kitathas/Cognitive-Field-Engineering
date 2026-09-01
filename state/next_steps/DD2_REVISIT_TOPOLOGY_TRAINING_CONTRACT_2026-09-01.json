@@ -1,0 +1,60 @@
+{
+  "arms": [
+    "CYCLIC_SPACED",
+    "WINDOW_MASSED"
+  ],
+  "bindings": {
+    "cartography_map_sha256": "6ff38f8eec99f886115d8bceef2419758f696897541fb8d51f341e533215922a",
+    "dd1_disposition_sha256": "da7352670a765e3dc57614b2703ed9814ea98025d179cf6c8b9ed84431400f0f",
+    "host_lock_sha256": "0096682727fd0f9f54328033b70189b952f88c085ec00db1ccc49b832433cfc4",
+    "preregistration_sha256": "7c707eae4692e34ae8459b7e76408615d8f4b40367369aea81ae071a90025566",
+    "profile_lock_sha256": "49ebaf136ac61367ab6ade9de60b88726d88fb7bc81085ac2d0efc9f852627c5",
+    "schedule_qualification_sha256": "103c50c016730a5719dcd1d4548042839005173101ea7bd2165e437c98a0e86f",
+    "source_candidate_manifest_sha256": "580a9d7d79b912737e6bb833eb6497ab3edb7e192c4d80ea52c01836415eef76"
+  },
+  "identity": "DD2_REVISIT_TOPOLOGY_20260901",
+  "laws": [
+    "SAME WINDOW MULTISET + SAME DOSE != SAME TEMPORAL TOPOLOGY",
+    "REVISIT SPACING != RAW HORIZON",
+    "OPTIMIZER-MEDIATED TEMPORAL EFFECT != UNIVERSAL COGNITIVE TIME LAW"
+  ],
+  "optimization": {
+    "attention_backend": "eager",
+    "bnb_double_quant": true,
+    "bnb_quant_type": "nf4",
+    "checkpoint_selection": "fixed H1/H2/H4 only",
+    "compute_dtype": "float16",
+    "determinism_contract": "FAIL_CLOSED_TORCH_DETERMINISTIC_ALGORITHMS_AND_DEBUG_ERROR",
+    "evaluation_during_training": false,
+    "gradient_checkpointing": true,
+    "learning_rate": 0.0001,
+    "load_in_4bit": true,
+    "lr_scheduler_type": "constant",
+    "max_grad_norm": 1.0,
+    "optimizer": "paged_adamw_8bit",
+    "packing": false,
+    "weight_decay": 0.0
+  },
+  "schema": "cfe.dd2.revisit-topology-training-contract.v1",
+  "seeds": [
+    2026083121,
+    2026083122,
+    2026083123,
+    2026083124,
+    2026083125,
+    2026083126
+  ],
+  "sequence": {
+    "expected_optimizer_steps": 144,
+    "max_sequence_length": 217,
+    "optimizer_windows": 9,
+    "packing": false,
+    "source_rows": 72,
+    "total_microbatches": 1152,
+    "training_epochs_runtime": 1,
+    "window_repeats": 16,
+    "window_size_microbatches": 8
+  },
+  "status": "FROZEN_PRE_RUNTIME",
+  "timestamp": "2026-09-01T00:25:19-04:00"
+}

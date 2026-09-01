@@ -1,0 +1,58 @@
+{
+  "arm_geometry": {
+    "CYCLIC_SPACED": "window identity recurrence interval exactly 9 optimizer updates",
+    "WINDOW_MASSED": "window identity recurrence interval exactly 1 optimizer update within each 16-repeat block"
+  },
+  "arms": [
+    "CYCLIC_SPACED",
+    "WINDOW_MASSED"
+  ],
+  "decision_rules": {
+    "MASSED_REVISIT_SUPPORTED": [
+      "mean paired balanced_accuracy delta < 0",
+      "WINDOW_MASSED wins >=4/6 seeds",
+      "massed false-side mean not worse than spaced by >0.05",
+      "massed true-side mean not worse than spaced by >0.05"
+    ],
+    "MIXED_OR_PATH_DEPENDENT": "otherwise",
+    "REVISIT_TOPOLOGY_NOT_SUPPORTED": [
+      "absolute mean paired balanced_accuracy delta <=0.01 AND neither arm wins >=4/6"
+    ],
+    "STRUCTURED_REVISIT_SUPPORTED": [
+      "mean paired balanced_accuracy delta > 0",
+      "CYCLIC_SPACED wins >=4/6 seeds",
+      "spaced false-side mean not worse than massed by >0.05",
+      "spaced true-side mean not worse than massed by >0.05"
+    ]
+  },
+  "fixed_controls": [
+    "same DD1 IDENTIFYING_COVISIBLE 72 rows",
+    "same exact token references",
+    "same six seeds 2026083121..2026083126",
+    "same seed-specific base row permutation",
+    "same 9 optimizer windows of 8 rows",
+    "each window repeated exactly 16 times",
+    "same 1152 microbatches",
+    "same 144 optimizer updates",
+    "same within-window row order",
+    "same row exposure multiplicity 16",
+    "same base model/LoRA/optimizer/evaluator",
+    "same predicate eval set"
+  ],
+  "identity": "DD2_REVISIT_TOPOLOGY_20260901",
+  "interpretation_guards": [
+    "This tests revisit spacing/order over identical optimizer windows, not raw dose.",
+    "Do not call it currentness drift; the environment is stationary.",
+    "Do not interpret optimizer momentum/path effects as nuisance: they are part of developmental temporal topology, but remain optimizer-mediated in this learner.",
+    "A positive result does not establish a universal spacing law.",
+    "No adaptive schedule changes after launch."
+  ],
+  "paired_direction": "CYCLIC_SPACED_MINUS_WINDOW_MASSED",
+  "parent_evidence": "DD1 FIELD_RESOLUTION_SUPPORTED",
+  "primary_metric": "PREDICATE_DIRECT balanced_accuracy",
+  "question": "Holding the exact identifying-co-visible field, total exposure, optimizer-window multiset, learner, optimizer, and evaluation fixed, does optimizer-window revisit spacing change predicate acquisition?",
+  "schema": "cfe.dd2.revisit-topology-prereg.v1",
+  "scientific_difference": "temporal recurrence topology of identical optimizer windows only",
+  "status": "FROZEN_BEFORE_ANY_DD2_MODEL_OUTCOME",
+  "timestamp": "2026-09-01T00:25:19-04:00"
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "massed_false_noninferiority": true,
+    "massed_true_noninferiority": true,
+    "massed_wins": 6,
+    "mean_delta": -0.10000000000000009,
+    "null_trigger": false,
+    "spaced_false_noninferiority": true,
+    "spaced_true_noninferiority": true,
+    "spaced_wins": 0
+  },
+  "disposition": "MASSED_REVISIT_SUPPORTED",
+  "interpretation_guards": [
+    "This tests revisit spacing/order over identical optimizer windows, not raw dose.",
+    "Do not call it currentness drift; the environment is stationary.",
+    "Do not interpret optimizer momentum/path effects as nuisance: they are part of developmental temporal topology, but remain optimizer-mediated in this learner.",
+    "A positive result does not establish a universal spacing law.",
+    "No adaptive schedule changes after launch."
+  ],
+  "metrics": {},
+  "prereg_rules": {
+    "MASSED_REVISIT_SUPPORTED": [
+      "mean paired balanced_accuracy delta < 0",
+      "WINDOW_MASSED wins >=4/6 seeds",
+      "massed false-side mean not worse than spaced by >0.05",
+      "massed true-side mean not worse than spaced by >0.05"
+    ],
+    "MIXED_OR_PATH_DEPENDENT": "otherwise",
+    "REVISIT_TOPOLOGY_NOT_SUPPORTED": [
+      "absolute mean paired balanced_accuracy delta <=0.01 AND neither arm wins >=4/6"
+    ],
+    "STRUCTURED_REVISIT_SUPPORTED": [
+      "mean paired balanced_accuracy delta > 0",
+      "CYCLIC_SPACED wins >=4/6 seeds",
+      "spaced false-side mean not worse than massed by >0.05",
+      "spaced true-side mean not worse than massed by >0.05"
+    ]
+  },
+  "schema": "cfe.dd2.revisit-disposition.v1",
+  "status": "MECHANICALLY_EVALUATED"
+}

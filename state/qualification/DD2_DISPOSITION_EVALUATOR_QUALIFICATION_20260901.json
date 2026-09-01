@@ -1,0 +1,31 @@
+{
+  "note": "Initial mixed fixture was corrected because it actually satisfied the frozen null rule; evaluator logic was not changed.",
+  "results": [
+    {
+      "actual": "STRUCTURED_REVISIT_SUPPORTED",
+      "expected": "STRUCTURED_REVISIT_SUPPORTED",
+      "fixture": "spaced",
+      "pass": true
+    },
+    {
+      "actual": "MASSED_REVISIT_SUPPORTED",
+      "expected": "MASSED_REVISIT_SUPPORTED",
+      "fixture": "massed",
+      "pass": true
+    },
+    {
+      "actual": "REVISIT_TOPOLOGY_NOT_SUPPORTED",
+      "expected": "REVISIT_TOPOLOGY_NOT_SUPPORTED",
+      "fixture": "null",
+      "pass": true
+    },
+    {
+      "actual": "MIXED_OR_PATH_DEPENDENT",
+      "expected": "MIXED_OR_PATH_DEPENDENT",
+      "fixture": "mixed",
+      "pass": true
+    }
+  ],
+  "schema": "cfe.dd2.disposition-evaluator-qualification.v1",
+  "status": "PASS"
+}

@@ -1,0 +1,23 @@
+{
+  "all_permutations": 24,
+  "boundary_crossing_in_control_feature_span": true,
+  "candidate_axis": "TYPED_RELATION_COVISIBLE",
+  "cartography_threats_triggered": [
+    "T1_AXIS_COLLAPSE",
+    "T2_AXIS_DUPLICATION",
+    "T7_INTERACTION_ALIASING"
+  ],
+  "controlled_feature_family": [
+    "position-wise margin indicators",
+    "position-wise absolute transition-distance indicators"
+  ],
+  "feature_matrix_rank": 14,
+  "feature_plus_boundary_crossing_rank": 14,
+  "future_revisit": "Typed relation may be re-proposed on a richer substrate where relation semantics can vary independently of proximity/order without curator-label leakage.",
+  "meaning": "Under this substrate, changing truth-boundary crossing count while exactly preserving these support/distance controls is mathematically non-independent. Typed relation cannot be claimed as an orthogonal axis here.",
+  "schema": "cfe.typed-relation-axis-hostile-gate.v1",
+  "scientific_consequence": "DD2_TYPED_RELATION_IDENTIFIABILITY does not launch on this substrate. Move to next independently qualified cartographic hole.",
+  "status": "NOT_QUALIFIED_ON_PREDICATE_QUARTET_SUBSTRATE",
+  "substrate": "predicate margins {-3,0,+1,+3}",
+  "timestamp": "2026-09-01T00:24:54-04:00"
+}

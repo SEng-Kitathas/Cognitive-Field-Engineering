@@ -26,7 +26,8 @@
     "temporal_topology": [
       "SINGLE_PASS_FIXED_DOSE",
       "EXTENDED_HORIZON",
-      "STRUCTURED_REVISIT_CURRENTNESS"
+      "STRUCTURED_REVISIT",
+      "CURRENTNESS_DRIFT"
     ]
   },
   "candidate_shape_hypothesis": {
@@ -35,6 +36,23 @@
     "negative_space_prediction": "The most informative holes are cells where only one of typed relation, coverage, long-range connectivity, or structured revisit is added to an already characterized identifying-basis/direct-primitive baseline.",
     "post_dd1_refinement": "Support resolution and local joint reachability are now separately evidenced contributors; neither dose nor local co-visibility alone closes stable competence. Highest-value remaining holes test typed relation, coverage, structured revisit/currentness, and long-range connectivity as orthogonal/interactive constraints."
   },
+  "coordinate_system_revision": {
+    "new_temporal_values": [
+      "SINGLE_PASS_FIXED_DOSE",
+      "EXTENDED_HORIZON",
+      "STRUCTURED_REVISIT",
+      "CURRENTNESS_DRIFT"
+    ],
+    "old_temporal_values": [
+      "SINGLE_PASS_FIXED_DOSE",
+      "EXTENDED_HORIZON",
+      "STRUCTURED_REVISIT_CURRENTNESS"
+    ],
+    "reason": "Hostile-engineering separated structured revisit from currentness drift; prior combined coordinate was over-broad.",
+    "timestamp": "2026-09-01T00:25:19-04:00",
+    "typed_relation_gate_sha256": "cfdf33bdbfb3cd04fe0e06c420fd0b2ee1e74fbe723ea2bcf3e1853f3b56d03b",
+    "typed_relation_status": "NOT_QUALIFIED_ON_CURRENT_PREDICATE_SUBSTRATE"
+  },
   "interpretation_guards": [
     "A cell is a high-level experimental geometry class, not a claim that all implementations within it are equivalent.",
     "Unoccupied does not mean causally important; frontier ranking prioritizes discriminating adjacency to already observed cells.",
@@ -42,6 +60,20 @@
     "DD1 remains unresolved until six paired seeds and frozen disposition.",
     "Curator coordinates do not imply learner internal ontology."
   ],
+  "latest_cartography_update": {
+    "next_experiment": "DD2_REVISIT_TOPOLOGY",
+    "next_experiment_target_coords": {
+      "connectivity": "LOCAL_ONLY",
+      "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+      "optimizer_window_topology": "MIXED",
+      "support_resolution": "IDENTIFYING_BASIS",
+      "task_closure": "DIRECT_PRIMITIVE",
+      "temporal_topology": "STRUCTURED_REVISIT"
+    },
+    "qualification_sha256": "103c50c016730a5719dcd1d4548042839005173101ea7bd2165e437c98a0e86f",
+    "structured_revisit_axis": "QUALIFIED_ENGINEERING_AXIS",
+    "typed_relation_axis": "SUSPENDED_NOT_INDEPENDENT_ON_PREDICATE_SUBSTRATE"
+  },
   "latest_scientific_update": {
     "aggregate_sha256": "b7443ebc82e03d746b2a895b1e8615d9a001a15a6a04fffd6e0a6fe6cd3c69a9",
     "disposition": "FIELD_RESOLUTION_SUPPORTED",
@@ -148,124 +180,26 @@
   "premise": "CFE intervention space is treated as a finite high-level combinatorial lattice over experimentally manipulable developmental-field dimensions, not over raw examples.",
   "priority_frontier": [
     {
+      "axis_status": "QUALIFIED_ENGINEERING_AXIS",
       "coords": {
         "connectivity": "LOCAL_ONLY",
-        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
+        "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
         "optimizer_window_topology": "MIXED",
         "support_resolution": "IDENTIFYING_BASIS",
         "task_closure": "DIRECT_PRIMITIVE",
-        "temporal_topology": "EXTENDED_HORIZON"
-      },
-      "occupied_neighbors": 2,
-      "post_dd1_rationale": [
-        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE",
-        "DD1 establishes local co-visibility main effect; next discriminator asks whether relation TYPE adds structure beyond generic identifying proximity"
-      ],
-      "post_dd1_score": 12,
-      "rationale": [
-        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
-      ],
-      "score": 7
-    },
-    {
-      "coords": {
-        "connectivity": "LOCAL_ONLY",
-        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
-        "optimizer_window_topology": "MIXED",
-        "support_resolution": "IDENTIFYING_BASIS",
-        "task_closure": "DIRECT_PRIMITIVE",
-        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+        "temporal_topology": "STRUCTURED_REVISIT"
       },
       "occupied_neighbors": 1,
       "post_dd1_rationale": [
-        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE",
-        "DD1 establishes local co-visibility main effect; next discriminator asks whether relation TYPE adds structure beyond generic identifying proximity"
+        "DD1 established identifying co-visibility effect.",
+        "V14R2 established raw horizon effect but insufficiency.",
+        "Schedule qualification proves recurrence interval 9 vs 1 while preserving exact optimizer-window multiset and dose."
       ],
-      "post_dd1_score": 11,
+      "post_dd1_score": 20,
       "rationale": [
-        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
+        "one-axis move from DD1 positive-conditional cell"
       ],
-      "score": 6
-    },
-    {
-      "coords": {
-        "connectivity": "LOCAL_ONLY",
-        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
-        "optimizer_window_topology": "MIXED",
-        "support_resolution": "NARROW_SLICE",
-        "task_closure": "DIRECT_PRIMITIVE",
-        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
-      },
-      "occupied_neighbors": 1,
-      "post_dd1_rationale": [
-        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE",
-        "DD1 establishes local co-visibility main effect; next discriminator asks whether relation TYPE adds structure beyond generic identifying proximity"
-      ],
-      "post_dd1_score": 11,
-      "rationale": [
-        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
-      ],
-      "score": 6
-    },
-    {
-      "coords": {
-        "connectivity": "LOCAL_ONLY",
-        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
-        "optimizer_window_topology": "MIXED",
-        "support_resolution": "IDENTIFYING_BASIS",
-        "task_closure": "COMPOSITION_TRANSFER",
-        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
-      },
-      "occupied_neighbors": 1,
-      "post_dd1_rationale": [
-        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE",
-        "DD1 establishes local co-visibility main effect; next discriminator asks whether relation TYPE adds structure beyond generic identifying proximity"
-      ],
-      "post_dd1_score": 10,
-      "rationale": [
-        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
-      ],
-      "score": 5
-    },
-    {
-      "coords": {
-        "connectivity": "LOCAL_ONLY",
-        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
-        "optimizer_window_topology": "SEPARATED_OR_CONTROLLED",
-        "support_resolution": "IDENTIFYING_BASIS",
-        "task_closure": "COMPOSITION_TRANSFER",
-        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
-      },
-      "occupied_neighbors": 1,
-      "post_dd1_rationale": [
-        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE",
-        "DD1 establishes local co-visibility main effect; next discriminator asks whether relation TYPE adds structure beyond generic identifying proximity"
-      ],
-      "post_dd1_score": 10,
-      "rationale": [
-        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
-      ],
-      "score": 5
-    },
-    {
-      "coords": {
-        "connectivity": "LOCAL_ONLY",
-        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
-        "optimizer_window_topology": "MIXED",
-        "support_resolution": "IDENTIFYING_BASIS",
-        "task_closure": "DIRECT_PRIMITIVE",
-        "temporal_topology": "STRUCTURED_REVISIT_CURRENTNESS"
-      },
-      "occupied_neighbors": 2,
-      "post_dd1_rationale": [
-        "tests developmental currentness/revisit rather than raw dose",
-        "V14R2 shows dose matters but is insufficient; DD1 shows local geometry helps but is insufficient, elevating structured temporal topology"
-      ],
-      "post_dd1_score": 9,
-      "rationale": [
-        "tests developmental currentness/revisit rather than raw dose"
-      ],
-      "score": 6
+      "score": 15
     },
     {
       "coords": {
@@ -350,46 +284,6 @@
     {
       "coords": {
         "connectivity": "LOCAL_ONLY",
-        "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
-        "optimizer_window_topology": "MIXED",
-        "support_resolution": "IDENTIFYING_BASIS",
-        "task_closure": "DIRECT_PRIMITIVE",
-        "temporal_topology": "STRUCTURED_REVISIT_CURRENTNESS"
-      },
-      "occupied_neighbors": 1,
-      "post_dd1_rationale": [
-        "tests developmental currentness/revisit rather than raw dose",
-        "V14R2 shows dose matters but is insufficient; DD1 shows local geometry helps but is insufficient, elevating structured temporal topology"
-      ],
-      "post_dd1_score": 8,
-      "rationale": [
-        "tests developmental currentness/revisit rather than raw dose"
-      ],
-      "score": 5
-    },
-    {
-      "coords": {
-        "connectivity": "LOCAL_ONLY",
-        "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
-        "optimizer_window_topology": "MIXED",
-        "support_resolution": "NARROW_SLICE",
-        "task_closure": "DIRECT_PRIMITIVE",
-        "temporal_topology": "STRUCTURED_REVISIT_CURRENTNESS"
-      },
-      "occupied_neighbors": 1,
-      "post_dd1_rationale": [
-        "tests developmental currentness/revisit rather than raw dose",
-        "V14R2 shows dose matters but is insufficient; DD1 shows local geometry helps but is insufficient, elevating structured temporal topology"
-      ],
-      "post_dd1_score": 8,
-      "rationale": [
-        "tests developmental currentness/revisit rather than raw dose"
-      ],
-      "score": 5
-    },
-    {
-      "coords": {
-        "connectivity": "LOCAL_ONLY",
         "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
         "optimizer_window_topology": "MIXED",
         "support_resolution": "COVERAGE_EXPLICIT",
@@ -411,26 +305,6 @@
       "coords": {
         "connectivity": "LOCAL_ONLY",
         "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
-        "optimizer_window_topology": "MIXED",
-        "support_resolution": "IDENTIFYING_BASIS",
-        "task_closure": "COMPOSITION_TRANSFER",
-        "temporal_topology": "STRUCTURED_REVISIT_CURRENTNESS"
-      },
-      "occupied_neighbors": 1,
-      "post_dd1_rationale": [
-        "tests developmental currentness/revisit rather than raw dose",
-        "V14R2 shows dose matters but is insufficient; DD1 shows local geometry helps but is insufficient, elevating structured temporal topology"
-      ],
-      "post_dd1_score": 7,
-      "rationale": [
-        "tests developmental currentness/revisit rather than raw dose"
-      ],
-      "score": 4
-    },
-    {
-      "coords": {
-        "connectivity": "LOCAL_ONLY",
-        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
         "optimizer_window_topology": "SEPARATED_OR_CONTROLLED",
         "support_resolution": "COVERAGE_EXPLICIT",
         "task_closure": "COMPOSITION_TRANSFER",
@@ -444,26 +318,6 @@
       "post_dd1_score": 7,
       "rationale": [
         "tests OBSERVED_RELATIONS != FIELD_COVERAGE"
-      ],
-      "score": 4
-    },
-    {
-      "coords": {
-        "connectivity": "LOCAL_ONLY",
-        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
-        "optimizer_window_topology": "SEPARATED_OR_CONTROLLED",
-        "support_resolution": "IDENTIFYING_BASIS",
-        "task_closure": "COMPOSITION_TRANSFER",
-        "temporal_topology": "STRUCTURED_REVISIT_CURRENTNESS"
-      },
-      "occupied_neighbors": 1,
-      "post_dd1_rationale": [
-        "tests developmental currentness/revisit rather than raw dose",
-        "V14R2 shows dose matters but is insufficient; DD1 shows local geometry helps but is insufficient, elevating structured temporal topology"
-      ],
-      "post_dd1_score": 7,
-      "rationale": [
-        "tests developmental currentness/revisit rather than raw dose"
       ],
       "score": 4
     },
@@ -620,10 +474,115 @@
         "external verified mechanism transfer target"
       ],
       "score": 4
+    },
+    {
+      "axis_status": "SUSPENDED_NOT_INDEPENDENT_ON_CURRENT_SUBSTRATE",
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "EXTENDED_HORIZON"
+      },
+      "occupied_neighbors": 2,
+      "post_dd1_rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE",
+        "DD1 establishes local co-visibility main effect; next discriminator asks whether relation TYPE adds structure beyond generic identifying proximity"
+      ],
+      "post_dd1_score": -999,
+      "rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
+      ],
+      "score": 7
+    },
+    {
+      "axis_status": "SUSPENDED_NOT_INDEPENDENT_ON_CURRENT_SUBSTRATE",
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "COMPOSITION_TRANSFER",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "post_dd1_rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE",
+        "DD1 establishes local co-visibility main effect; next discriminator asks whether relation TYPE adds structure beyond generic identifying proximity"
+      ],
+      "post_dd1_score": -999,
+      "rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
+      ],
+      "score": 5
+    },
+    {
+      "axis_status": "SUSPENDED_NOT_INDEPENDENT_ON_CURRENT_SUBSTRATE",
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "post_dd1_rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE",
+        "DD1 establishes local co-visibility main effect; next discriminator asks whether relation TYPE adds structure beyond generic identifying proximity"
+      ],
+      "post_dd1_score": -999,
+      "rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
+      ],
+      "score": 6
+    },
+    {
+      "axis_status": "SUSPENDED_NOT_INDEPENDENT_ON_CURRENT_SUBSTRATE",
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "NARROW_SLICE",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "post_dd1_rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE",
+        "DD1 establishes local co-visibility main effect; next discriminator asks whether relation TYPE adds structure beyond generic identifying proximity"
+      ],
+      "post_dd1_score": -999,
+      "rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
+      ],
+      "score": 6
+    },
+    {
+      "axis_status": "SUSPENDED_NOT_INDEPENDENT_ON_CURRENT_SUBSTRATE",
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
+        "optimizer_window_topology": "SEPARATED_OR_CONTROLLED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "COMPOSITION_TRANSFER",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "post_dd1_rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE",
+        "DD1 establishes local co-visibility main effect; next discriminator asks whether relation TYPE adds structure beyond generic identifying proximity"
+      ],
+      "post_dd1_score": -999,
+      "rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
+      ],
+      "score": 5
     }
   ],
   "schema": "cfe.negative-space-map.v1",
-  "status": "ACTIVE_RESEARCH_MAP_NOT_DOCTRINE__DD1_CLOSED",
-  "timestamp": "2026-08-31T23:57:57-04:00",
-  "total_high_level_cells": 324
+  "status": "ACTIVE_RESEARCH_MAP_NOT_DOCTRINE__COORDINATE_REVISED__DD2_REVISIT_SELECTED",
+  "timestamp": "2026-09-01T00:25:38-04:00",
+  "total_high_level_cells": 432
 }

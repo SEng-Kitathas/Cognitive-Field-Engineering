@@ -1,32 +1,26 @@
 # CFE CURRENT STATE
 
-As of: 2026-08-31 23:58 Eastern Daylight Time
+As of: 2026-09-01 00:27 Eastern Daylight Time
 Mode: BUILD-COMMIT
 Role: R5 Reality Pressure Engine
 
-## Core intent
-- The developmental structure of experience itself is the engineering medium.
-- Reconstruct the topology of constraints governing developmental geometry while hostile-engineering the coordinate system used to describe that topology.
+## Closed science
+- DD1: CLOSED/PUBLISHED `FIELD_RESOLUTION_SUPPORTED`; local identifying co-visibility has a positive main effect but is insufficient for stable two-sided competence.
 
-## DD1R1 — CLOSED
-- 6/6 paired seeds verified.
-- Mechanical disposition: `FIELD_RESOLUTION_SUPPORTED`.
-- Mean BA: identifying 0.673611 vs dispersed 0.642361; paired delta +0.03125.
-- Identifying wins 4/6.
-- Stable two-sided >=0.65: 1/6.
-- Earned: local identifying co-visibility has a positive main effect in this fixed regime, but is insufficient for stable competence.
-- Aggregate SHA `b7443ebc82e03d746b2a895b1e8615d9a001a15a6a04fffd6e0a6fe6cd3c69a9`.
-- Disposition SHA `da7352670a765e3dc57614b2703ed9814ea98025d179cf6c8b9ed84431400f0f`.
-- Heavy remote verification: 12/12 PASS, SHA `dce8b273dcd5d5238307dfdba936550d0b916e6a9922fa3473867871ce532531`.
+## Cartography hostile update
+- Typed relation on the current predicate quartet: **NOT QUALIFIED AS INDEPENDENT AXIS**. Exact linear-algebra hostile gate shows boundary-crossing count lies in the span of position-support + transition-distance controls.
+- This triggers axis-collapse/duplication protection rather than forcing a learner run.
+- Temporal topology was refined: `STRUCTURED_REVISIT` and `CURRENTNESS_DRIFT` are now separate coordinates.
+- Active map SHA `6ff38f8eec99f886115d8bceef2419758f696897541fb8d51f341e533215922a`.
 
-## Cartography
-- DD1 cell: `OCCUPIED_POSITIVE_CONDITIONAL`.
-- Updated map SHA `f9300891de4675bc48601553905ded3fff6de0b4ff255f2efdc3ec6dc806e448`.
-- Highest-value next hole: typed-relation co-visibility at identifying support / extended horizon / local-only / direct primitive / mixed optimizer topology.
-
-## Next
-Freeze no new experiment until experiment-to-cell binding is derived from the updated first-class map.
-
-## Next-move selection — 2026-09-01 00:16 Eastern Daylight Time
-- Cartography-selected move: hostile-qualify `TYPED_RELATION_COVISIBLE` as an independent axis; if PASS, launch DD2 Typed Relation Identifiability.
-- Binding SHA `a3249f215d8ab36f0c0ee530547788316d70c7e64ce0f3b14e4bbd0930577d39`.
+## DD2 — STRUCTURED REVISIT TOPOLOGY
+- Scientific move: DD1 parent cell -> same cell except temporal topology `EXTENDED_HORIZON -> STRUCTURED_REVISIT`.
+- Arms: `CYCLIC_SPACED` vs `WINDOW_MASSED`.
+- Same 72 identifying-co-visible rows; each row 16 exposures.
+- Same nine 8-row optimizer windows; each window repeated 16 times.
+- Same 1152 microbatches / 144 optimizer updates.
+- Revisit interval: spaced exactly 9 updates; massed exactly 1 update.
+- Schedule qualification PASS `103c50c016730a5719dcd1d4548042839005173101ea7bd2165e437c98a0e86f`.
+- Input lock `04ee03408154095e2b1b9b78ae3fd9c2f6aac578c894f100a2e989856926ebc4`; preexec `3dbee0d61c41712a32bb07177fc79d3377533c0c2519cc112f765c5af7c1ecb0` -> `DD2_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`.
+- Disposition evaluator 4/4 adversarial PASS `46d3ecae63dea9800cc1cc652b1f63a68ab49c80e36fca0eff92415f79c20746`.
+- No learner outcome yet.

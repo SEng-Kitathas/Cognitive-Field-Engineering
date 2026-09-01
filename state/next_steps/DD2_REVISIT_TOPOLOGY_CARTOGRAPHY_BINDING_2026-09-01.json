@@ -1,0 +1,46 @@
+{
+  "ambiguity_reduced": "Does temporal recurrence geometry matter beyond total horizon/dose once identifying local co-visibility is held fixed?",
+  "classification": "ONE_AXIS_LOCAL_DERIVATIVE",
+  "controlled_axes": [
+    "support_resolution",
+    "local_contrast_geometry",
+    "connectivity",
+    "task_closure",
+    "optimizer_window_topology"
+  ],
+  "experiment": "DD2_REVISIT_TOPOLOGY_20260901",
+  "map_sha256": "6ff38f8eec99f886115d8bceef2419758f696897541fb8d51f341e533215922a",
+  "moved_axes": {
+    "temporal_topology": [
+      "EXTENDED_HORIZON",
+      "STRUCTURED_REVISIT"
+    ]
+  },
+  "outcome_branches": {
+    "MASSED_REVISIT_SUPPORTED": "temporal recurrence still causal but sign favors concentrated recurrence; revise simple spacing intuition",
+    "MIXED_OR_PATH_DEPENDENT": "inspect seed/state dependence and missing-axis residuals before further topology claims",
+    "REVISIT_TOPOLOGY_NOT_SUPPORTED": "collapse/weakens revisit spacing axis in stationary predicate regime; elevate coverage",
+    "STRUCTURED_REVISIT_SUPPORTED": "temporal recurrence becomes positive causal axis; next ask whether coverage/connectivity interacts with it"
+  },
+  "parent_cell": "DD1_FIELD_RESOLUTION",
+  "parent_coords": {
+    "connectivity": "LOCAL_ONLY",
+    "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+    "optimizer_window_topology": "MIXED",
+    "support_resolution": "IDENTIFYING_BASIS",
+    "task_closure": "DIRECT_PRIMITIVE",
+    "temporal_topology": "EXTENDED_HORIZON"
+  },
+  "schedule_qualification_sha256": "103c50c016730a5719dcd1d4548042839005173101ea7bd2165e437c98a0e86f",
+  "schema": "cfe.experiment-to-cell-binding.v1",
+  "status": "FROZEN_PRE_RUNTIME",
+  "target_coords": {
+    "connectivity": "LOCAL_ONLY",
+    "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+    "optimizer_window_topology": "MIXED",
+    "support_resolution": "IDENTIFYING_BASIS",
+    "task_closure": "DIRECT_PRIMITIVE",
+    "temporal_topology": "STRUCTURED_REVISIT"
+  },
+  "timestamp": "2026-09-01T00:25:38-04:00"
+}

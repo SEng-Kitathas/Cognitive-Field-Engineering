@@ -1,0 +1,80 @@
+{
+  "schema": "cfe.dd2.aggregate.v1",
+  "status": "COMPLETE_6_OF_6",
+  "identity": "fixture",
+  "per_seed": [
+    {
+      "seed": 0,
+      "spaced_ba": 0.7,
+      "massed_ba": 0.8,
+      "delta_ba": -0.10000000000000009,
+      "spaced_false": 0.8,
+      "massed_false": 0.8,
+      "spaced_true": 0.8,
+      "massed_true": 0.8,
+      "spaced_overall": 0.7,
+      "massed_overall": 0.8
+    },
+    {
+      "seed": 1,
+      "spaced_ba": 0.7,
+      "massed_ba": 0.8,
+      "delta_ba": -0.10000000000000009,
+      "spaced_false": 0.8,
+      "massed_false": 0.8,
+      "spaced_true": 0.8,
+      "massed_true": 0.8,
+      "spaced_overall": 0.7,
+      "massed_overall": 0.8
+    },
+    {
+      "seed": 2,
+      "spaced_ba": 0.7,
+      "massed_ba": 0.8,
+      "delta_ba": -0.10000000000000009,
+      "spaced_false": 0.8,
+      "massed_false": 0.8,
+      "spaced_true": 0.8,
+      "massed_true": 0.8,
+      "spaced_overall": 0.7,
+      "massed_overall": 0.8
+    },
+    {
+      "seed": 3,
+      "spaced_ba": 0.7,
+      "massed_ba": 0.8,
+      "delta_ba": -0.10000000000000009,
+      "spaced_false": 0.8,
+      "massed_false": 0.8,
+      "spaced_true": 0.8,
+      "massed_true": 0.8,
+      "spaced_overall": 0.7,
+      "massed_overall": 0.8
+    },
+    {
+      "seed": 4,
+      "spaced_ba": 0.7,
+      "massed_ba": 0.8,
+      "delta_ba": -0.10000000000000009,
+      "spaced_false": 0.8,
+      "massed_false": 0.8,
+      "spaced_true": 0.8,
+      "massed_true": 0.8,
+      "spaced_overall": 0.7,
+      "massed_overall": 0.8
+    },
+    {
+      "seed": 5,
+      "spaced_ba": 0.7,
+      "massed_ba": 0.8,
+      "delta_ba": -0.10000000000000009,
+      "spaced_false": 0.8,
+      "massed_false": 0.8,
+      "spaced_true": 0.8,
+      "massed_true": 0.8,
+      "spaced_overall": 0.7,
+      "massed_overall": 0.8
+    }
+  ],
+  "summary": {}
+}

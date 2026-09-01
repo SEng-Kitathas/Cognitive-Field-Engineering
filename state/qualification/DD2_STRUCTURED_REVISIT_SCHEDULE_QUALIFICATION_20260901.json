@@ -1,0 +1,238 @@
+{
+  "arms": {
+    "CYCLIC_SPACED": "nine fixed optimizer windows repeated cyclically for 16 cycles",
+    "WINDOW_MASSED": "each fixed optimizer window repeated 16 consecutive updates before advancing"
+  },
+  "invariants": [
+    "same 72 source rows",
+    "same 16 exposures per row",
+    "same 1152 microbatches",
+    "same 144 optimizer updates",
+    "same multiset of nine 8-row optimizer windows, each repeated 16 times",
+    "same within-window row order",
+    "same total token/supervised-token exposure by construction from identical row references",
+    "only optimizer-window recurrence order differs"
+  ],
+  "schema": "cfe.dd2.structured-revisit-schedule-qualification.v1",
+  "seeds": {
+    "2026083121": {
+      "base_order_sha256": "1c75f776484bbd0b4ab4b5af1efb45187b6da8ab9bc5b4ff30c5c017170c2177",
+      "checks": {
+        "microbatch_multiset_equal": true,
+        "optimizer_steps_equal": true,
+        "optimizer_window_multiset_equal": true,
+        "row_exposure_16_each": true,
+        "total_microbatches_equal": true,
+        "within_window_identity_preserved": true
+      },
+      "cycles": 16,
+      "cyclic_expanded_row_order_sha256": "3e8148a18de83d499e6e2873644c7d3ee9c7022ef7e26d6bb9be34de41f87a61",
+      "cyclic_revisit_intervals": {
+        "histogram": {
+          "9": 135
+        },
+        "max": 9,
+        "mean": 9.0,
+        "min": 9,
+        "n": 135
+      },
+      "cyclic_schedule_sha256": "ba0a8f80a3b5d1ae87950d32b4d9e49a93611ac1ec7d8fe9301a5c940ec9f7fb",
+      "massed_expanded_row_order_sha256": "60cb3e14fe0f812ae0f5607dc55100d982812f90fe052cbcefee3364e6f86ee6",
+      "massed_revisit_intervals": {
+        "histogram": {
+          "1": 135
+        },
+        "max": 1,
+        "mean": 1.0,
+        "min": 1,
+        "n": 135
+      },
+      "massed_schedule_sha256": "f39d5d8efe4b23692fdc9c1d580e27ea8ec1fba8bbd0b00c6be632091fd5d92b",
+      "window_count": 9,
+      "window_size": 8
+    },
+    "2026083122": {
+      "base_order_sha256": "0fa7eb9e488e9a828deca4bee08a1f15ab29f7ecc6c711b223fa1c5b3b8e2bf1",
+      "checks": {
+        "microbatch_multiset_equal": true,
+        "optimizer_steps_equal": true,
+        "optimizer_window_multiset_equal": true,
+        "row_exposure_16_each": true,
+        "total_microbatches_equal": true,
+        "within_window_identity_preserved": true
+      },
+      "cycles": 16,
+      "cyclic_expanded_row_order_sha256": "06b056e82fccbde9b2ff41adc70f1de4412a067c130663bc6d741b83acb88c72",
+      "cyclic_revisit_intervals": {
+        "histogram": {
+          "9": 135
+        },
+        "max": 9,
+        "mean": 9.0,
+        "min": 9,
+        "n": 135
+      },
+      "cyclic_schedule_sha256": "ba0a8f80a3b5d1ae87950d32b4d9e49a93611ac1ec7d8fe9301a5c940ec9f7fb",
+      "massed_expanded_row_order_sha256": "da2071c9dec1871320f7c92246352f5edf37d613517262cd841446f18625eb06",
+      "massed_revisit_intervals": {
+        "histogram": {
+          "1": 135
+        },
+        "max": 1,
+        "mean": 1.0,
+        "min": 1,
+        "n": 135
+      },
+      "massed_schedule_sha256": "f39d5d8efe4b23692fdc9c1d580e27ea8ec1fba8bbd0b00c6be632091fd5d92b",
+      "window_count": 9,
+      "window_size": 8
+    },
+    "2026083123": {
+      "base_order_sha256": "71be2cfa6fb45a0ddd98e075c47d6d5d27d6bcc2af414c8ac5bae643b09d0f48",
+      "checks": {
+        "microbatch_multiset_equal": true,
+        "optimizer_steps_equal": true,
+        "optimizer_window_multiset_equal": true,
+        "row_exposure_16_each": true,
+        "total_microbatches_equal": true,
+        "within_window_identity_preserved": true
+      },
+      "cycles": 16,
+      "cyclic_expanded_row_order_sha256": "a2cdac2db67b9ee51aa5097ee8ef1184b5b35e887f76418a19792f78e2af1992",
+      "cyclic_revisit_intervals": {
+        "histogram": {
+          "9": 135
+        },
+        "max": 9,
+        "mean": 9.0,
+        "min": 9,
+        "n": 135
+      },
+      "cyclic_schedule_sha256": "ba0a8f80a3b5d1ae87950d32b4d9e49a93611ac1ec7d8fe9301a5c940ec9f7fb",
+      "massed_expanded_row_order_sha256": "aa670059ed503c53ba862781b0c5e3cec2d1a8a30cde3a2d46fead750752d7b1",
+      "massed_revisit_intervals": {
+        "histogram": {
+          "1": 135
+        },
+        "max": 1,
+        "mean": 1.0,
+        "min": 1,
+        "n": 135
+      },
+      "massed_schedule_sha256": "f39d5d8efe4b23692fdc9c1d580e27ea8ec1fba8bbd0b00c6be632091fd5d92b",
+      "window_count": 9,
+      "window_size": 8
+    },
+    "2026083124": {
+      "base_order_sha256": "a997f38b08023dbd721cc74b67bdbc23d0038c81569eabca911a13f13820ac8f",
+      "checks": {
+        "microbatch_multiset_equal": true,
+        "optimizer_steps_equal": true,
+        "optimizer_window_multiset_equal": true,
+        "row_exposure_16_each": true,
+        "total_microbatches_equal": true,
+        "within_window_identity_preserved": true
+      },
+      "cycles": 16,
+      "cyclic_expanded_row_order_sha256": "eef795fb46fd7034f67d8644e2d6777fc1efb9ebe771624d82ce1c3eec8df237",
+      "cyclic_revisit_intervals": {
+        "histogram": {
+          "9": 135
+        },
+        "max": 9,
+        "mean": 9.0,
+        "min": 9,
+        "n": 135
+      },
+      "cyclic_schedule_sha256": "ba0a8f80a3b5d1ae87950d32b4d9e49a93611ac1ec7d8fe9301a5c940ec9f7fb",
+      "massed_expanded_row_order_sha256": "2b12ca73e5d9fbab767ce262ca4d0b01af75a810cc54662b9504a86399c43eb9",
+      "massed_revisit_intervals": {
+        "histogram": {
+          "1": 135
+        },
+        "max": 1,
+        "mean": 1.0,
+        "min": 1,
+        "n": 135
+      },
+      "massed_schedule_sha256": "f39d5d8efe4b23692fdc9c1d580e27ea8ec1fba8bbd0b00c6be632091fd5d92b",
+      "window_count": 9,
+      "window_size": 8
+    },
+    "2026083125": {
+      "base_order_sha256": "72cef9593a85b532989e232399b0ef502443f7abe1b4df2556ab2462f7bf8bb2",
+      "checks": {
+        "microbatch_multiset_equal": true,
+        "optimizer_steps_equal": true,
+        "optimizer_window_multiset_equal": true,
+        "row_exposure_16_each": true,
+        "total_microbatches_equal": true,
+        "within_window_identity_preserved": true
+      },
+      "cycles": 16,
+      "cyclic_expanded_row_order_sha256": "b0bbe4370c5d8842047755c4eb3e23dae889960ace9b7768f2ee8f1dfb309e65",
+      "cyclic_revisit_intervals": {
+        "histogram": {
+          "9": 135
+        },
+        "max": 9,
+        "mean": 9.0,
+        "min": 9,
+        "n": 135
+      },
+      "cyclic_schedule_sha256": "ba0a8f80a3b5d1ae87950d32b4d9e49a93611ac1ec7d8fe9301a5c940ec9f7fb",
+      "massed_expanded_row_order_sha256": "8998dc038125134dd1f77d3e77f42cb73dbf25ce6813bc630d650e6018709dbc",
+      "massed_revisit_intervals": {
+        "histogram": {
+          "1": 135
+        },
+        "max": 1,
+        "mean": 1.0,
+        "min": 1,
+        "n": 135
+      },
+      "massed_schedule_sha256": "f39d5d8efe4b23692fdc9c1d580e27ea8ec1fba8bbd0b00c6be632091fd5d92b",
+      "window_count": 9,
+      "window_size": 8
+    },
+    "2026083126": {
+      "base_order_sha256": "2dfc41ec20bf4879e614d9bf90c97517ce5ca75534efa1cac105d9af26ed31eb",
+      "checks": {
+        "microbatch_multiset_equal": true,
+        "optimizer_steps_equal": true,
+        "optimizer_window_multiset_equal": true,
+        "row_exposure_16_each": true,
+        "total_microbatches_equal": true,
+        "within_window_identity_preserved": true
+      },
+      "cycles": 16,
+      "cyclic_expanded_row_order_sha256": "a2091074831b76fd6a9d4594a7c6005d87b07a815eac7b70c07118825167b010",
+      "cyclic_revisit_intervals": {
+        "histogram": {
+          "9": 135
+        },
+        "max": 9,
+        "mean": 9.0,
+        "min": 9,
+        "n": 135
+      },
+      "cyclic_schedule_sha256": "ba0a8f80a3b5d1ae87950d32b4d9e49a93611ac1ec7d8fe9301a5c940ec9f7fb",
+      "massed_expanded_row_order_sha256": "d23de25bf836ac92bd00680053a55be0202f1b1bdc0dabc413d88ac65091cd7e",
+      "massed_revisit_intervals": {
+        "histogram": {
+          "1": 135
+        },
+        "max": 1,
+        "mean": 1.0,
+        "min": 1,
+        "n": 135
+      },
+      "massed_schedule_sha256": "f39d5d8efe4b23692fdc9c1d580e27ea8ec1fba8bbd0b00c6be632091fd5d92b",
+      "window_count": 9,
+      "window_size": 8
+    }
+  },
+  "source_candidate_manifest_sha256": "580a9d7d79b912737e6bb833eb6497ab3edb7e192c4d80ea52c01836415eef76",
+  "status": "PASS",
+  "timestamp": "2026-09-01T00:24:54-04:00"
+}

@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "cartography_binding_frozen": true,
+    "contract_frozen": true,
+    "lock_file_count": 19,
+    "map_matches": true,
+    "prereg_frozen": true,
+    "schedule_qualification_pass": true,
+    "source_candidate_matches": true,
+    "tools_compile": true
+  },
+  "claim_ceiling": "RUNTIME AUTHORIZED; NO DD2 LEARNER EFFECT YET",
+  "input_lock_sha256": "04ee03408154095e2b1b9b78ae3fd9c2f6aac578c894f100a2e989856926ebc4",
+  "schema": "cfe.dd2.preexecution.v1",
+  "scientific_training_authorized": true,
+  "status": "DD2_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED",
+  "timestamp": "2026-09-01T00:26:37-04:00"
+}

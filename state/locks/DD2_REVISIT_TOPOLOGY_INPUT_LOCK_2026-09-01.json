@@ -1,0 +1,83 @@
+{
+  "files": {
+    "state/analysis/CFE_CARTOGRAPHY_HOSTILE_CONSTRAINT_MAP_2026-08-31.json": {
+      "bytes": 5200,
+      "sha256": "bda56ec00cf8d192a6cdb66c0937d18f4c102f36a8bdd4cae3e4cb19b392d5a6"
+    },
+    "state/analysis/CFE_NEGATIVE_SPACE_INTERVENTION_LATTICE_2026-08-31.json": {
+      "bytes": 23509,
+      "sha256": "6ff38f8eec99f886115d8bceef2419758f696897541fb8d51f341e533215922a"
+    },
+    "state/analysis/DD1R1_PREDICATE_FIELD_RESOLUTION_FINAL_DISPOSITION_2026-08-31.json": {
+      "bytes": 2121,
+      "sha256": "da7352670a765e3dc57614b2703ed9814ea98025d179cf6c8b9ed84431400f0f"
+    },
+    "state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.jsonl": {
+      "bytes": 58104,
+      "sha256": "24e517860fc5b1363bd4b2bfc19522e6a457e6b9d5b986d0eb96462cc8d51631"
+    },
+    "state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.token_reference.private.jsonl": {
+      "bytes": 119424,
+      "sha256": "72e249686431c6ab66f367bf33a2427924662712dac7d9dc2eb7c69c9e95b47e"
+    },
+    "state/candidates/dd1_predicate_field_resolution_r2_20260831/MANIFEST.json": {
+      "bytes": 8685,
+      "sha256": "580a9d7d79b912737e6bb833eb6497ab3edb7e192c4d80ea52c01836415eef76"
+    },
+    "state/candidates/dd1_predicate_field_resolution_r2_20260831/PREDICATE_EVAL.private.jsonl": {
+      "bytes": 15640,
+      "sha256": "cb7840e197d5ce6a2aef0372c52c5d8ea2cbb53c6e6c034bf79e2034bf05e744"
+    },
+    "state/next_steps/DD2_REVISIT_TOPOLOGY_CARTOGRAPHY_BINDING_2026-09-01.json": {
+      "bytes": 2012,
+      "sha256": "3e4c4dfab77f0ec35b471229f3c2fe32626055d45a5669954b65316c81e4cb4c"
+    },
+    "state/next_steps/DD2_REVISIT_TOPOLOGY_PREREG_2026-09-01.json": {
+      "bytes": 2665,
+      "sha256": "7c707eae4692e34ae8459b7e76408615d8f4b40367369aea81ae071a90025566"
+    },
+    "state/next_steps/DD2_REVISIT_TOPOLOGY_TRAINING_CONTRACT_2026-09-01.json": {
+      "bytes": 2126,
+      "sha256": "2a878cf5c6e7acd68e2037c722b05b140be7c659feccec234946ef8ce98e088e"
+    },
+    "state/qualification/DD2_STRUCTURED_REVISIT_SCHEDULE_QUALIFICATION_20260901.json": {
+      "bytes": 8317,
+      "sha256": "103c50c016730a5719dcd1d4548042839005173101ea7bd2165e437c98a0e86f"
+    },
+    "state/qualification/TYPED_RELATION_AXIS_HOSTILE_GATE_20260901.json": {
+      "bytes": 1236,
+      "sha256": "cfdf33bdbfb3cd04fe0e06c420fd0b2ee1e74fbe723ea2bcf3e1853f3b56d03b"
+    },
+    "state/qualification/V14R_PREDICATE_HORIZON_REPEATABILITY_20260831/PROFILE_LOCK.json": {
+      "bytes": 944,
+      "sha256": "49ebaf136ac61367ab6ade9de60b88726d88fb7bc81085ac2d0efc9f852627c5"
+    },
+    "state/qualification/V14R_PREDICATE_HORIZON_RUNTIME_20260831/HOST_LOCK.json": {
+      "bytes": 2191,
+      "sha256": "0096682727fd0f9f54328033b70189b952f88c085ec00db1ccc49b832433cfc4"
+    },
+    "tools/dd2_revisit_topology_common.py": {
+      "bytes": 2638,
+      "sha256": "86bfc8b5ed719960603a843a16dccbc3ad35ec556296d2eda911b5243b55977f"
+    },
+    "tools/evaluate_dd2_revisit_disposition.py": {
+      "bytes": 1763,
+      "sha256": "971d0cea223740ddad2c91cba53e8d3ca3778b326c0f82cf125fad3eb9578c2b"
+    },
+    "tools/evaluate_dd2_revisit_topology.py": {
+      "bytes": 3698,
+      "sha256": "851ba82bcb258d34c62cd18cbfd087cec79a522e57f49c5b80437577c1383be5"
+    },
+    "tools/run_dd2_revisit_topology_campaign.py": {
+      "bytes": 6810,
+      "sha256": "ebab986072d3dd2832c56cafcf0099960725dc5219b15bb54faef565a5572c99"
+    },
+    "tools/train_dd2_revisit_topology.py": {
+      "bytes": 4976,
+      "sha256": "b5b0103e9c5b2ce1f69920787c4e8b87f4dfd2bb2e0469d1687ee3e6af01817a"
+    }
+  },
+  "identity": "DD2_REVISIT_TOPOLOGY_20260901",
+  "schema": "cfe.dd2.input-lock.v1",
+  "status": "LOCKED_PRE_RUNTIME__NO_DD2_TRAINING"
+}

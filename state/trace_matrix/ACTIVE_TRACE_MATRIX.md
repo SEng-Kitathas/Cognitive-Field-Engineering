@@ -71,3 +71,9 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | Active Commander binding | original + cartographic core intent reconciliation | `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T2354-04-00.md` SHA `2ecc67779d05c4d721227ba72390e98177c26c653e8d101082f15b8a6e41bd06` | ALIGNED |
 
 | Next experiment cartography binding | DD1 occupied-positive-conditional -> typed-relation one-axis hole | `state/next_steps/CFE_NEXT_MOVE_CARTOGRAPHY_BINDING_2026-09-01.json` SHA `a3249f215d8ab36f0c0ee530547788316d70c7e64ce0f3b14e4bbd0930577d39` | SELECTED_PRE_PREREG_HOSTILE_GATE |
+
+| Typed relation hostile gate | current predicate quartet coordinate test | `state/qualification/TYPED_RELATION_AXIS_HOSTILE_GATE_20260901.json` SHA `cfdf33bdbfb3cd04fe0e06c420fd0b2ee1e74fbe723ea2bcf3e1853f3b56d03b` | NOT_QUALIFIED_INDEPENDENT; axis suspended |
+| DD2 structured revisit schedule | identical window multiset / different recurrence | `state/qualification/DD2_STRUCTURED_REVISIT_SCHEDULE_QUALIFICATION_20260901.json` SHA `103c50c016730a5719dcd1d4548042839005173101ea7bd2165e437c98a0e86f` | PASS |
+| DD2 cartography binding | DD1 -> structured revisit one-axis move | `state/next_steps/DD2_REVISIT_TOPOLOGY_CARTOGRAPHY_BINDING_2026-09-01.json` SHA `3e4c4dfab77f0ec35b471229f3c2fe32626055d45a5669954b65316c81e4cb4c` | FROZEN |
+| DD2 preexecution | prereg + contract + 19-file lock + runtime gate | lock `04ee03408154095e2b1b9b78ae3fd9c2f6aac578c894f100a2e989856926ebc4` / preexec `3dbee0d61c41712a32bb07177fc79d3377533c0c2519cc112f765c5af7c1ecb0` | AUTHORIZED_NOT_EXECUTED |
+| DD2 disposition evaluator | frozen decision surface | `state/qualification/DD2_DISPOSITION_EVALUATOR_QUALIFICATION_20260901.json` SHA `46d3ecae63dea9800cc1cc652b1f63a68ab49c80e36fca0eff92415f79c20746` | 4/4 adversarial PASS |

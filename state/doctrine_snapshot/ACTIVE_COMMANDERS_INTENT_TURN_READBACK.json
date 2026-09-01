@@ -1,25 +1,26 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T2354-04-00.md",
-  "active_binding_sha256": "2ecc67779d05c4d721227ba72390e98177c26c653e8d101082f15b8a6e41bd06",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-09-01T0027-04-00.md",
+  "active_binding_sha256": "531abff5025be76f3e3cad9070a9878c6e48eb71264965bf84525cd2d9ee42d1",
   "alignment": "ALIGNED",
-  "branch": "CORE_CARTOGRAPHIC_INTENT_PROMOTED__DD1R1_EXECUTION_COMPLETE_PENDING_SCIENTIFIC_CLOSEOUT",
+  "branch": "DD2_REVISIT_TOPOLOGY_PREEXEC_AUTHORIZED",
   "core_intents": [
     "The developmental structure of experience itself is the engineering medium.",
     "We are not merely trying to discover the right developmental geometry. We are trying to reconstruct the topology of constraints governing developmental geometry, while simultaneously hostile-engineering the coordinate system used to describe that topology."
   ],
   "frontier": {
-    "cartography": {
-      "governance_sha256": "ee8d8d21f63c9ed88ba57aeeb85681762b238d4de14250a22b73ca0d9a12fc0e",
-      "hostile_constraint_map_sha256": "bda56ec00cf8d192a6cdb66c0937d18f4c102f36a8bdd4cae3e4cb19b392d5a6",
-      "map_sha256": "4ff8872e6c51087cf1eb6fef8450d210a4098febc8e3328fdc6bd02362a2bbc2",
-      "status": "FIRST_CLASS_AND_CORE_INTENT_GROUNDED"
+    "dd2": {
+      "cartography_binding_sha256": "3e4c4dfab77f0ec35b471229f3c2fe32626055d45a5669954b65316c81e4cb4c",
+      "input_lock_sha256": "04ee03408154095e2b1b9b78ae3fd9c2f6aac578c894f100a2e989856926ebc4",
+      "preexec_sha256": "3dbee0d61c41712a32bb07177fc79d3377533c0c2519cc112f765c5af7c1ecb0",
+      "schedule_qualification_sha256": "103c50c016730a5719dcd1d4548042839005173101ea7bd2165e437c98a0e86f",
+      "status": "PREEXEC_AUTHORIZED_NOT_YET_LAUNCHED"
     },
-    "dd1r1": {
-      "execution_status": "COMPLETED_RC0",
-      "scientific_closeout": "PENDING_EXPLICIT_MECHANICAL_DISPOSITION"
+    "typed_relation_axis": {
+      "gate_sha256": "cfdf33bdbfb3cd04fe0e06c420fd0b2ee1e74fbe723ea2bcf3e1853f3b56d03b",
+      "status": "SUSPENDED_NOT_INDEPENDENT_ON_CURRENT_SUBSTRATE"
     }
   },
-  "reason": "Operator explicitly elevated the cartographic formulation to core Commander's Intent.",
+  "reason": "Map hostile engineering rejected a fake coordinate and selected the next independently manipulable one-axis derivative.",
   "schema": "cfe.commander-intent-turn-readback.v4",
   "source_paths": [
     "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
@@ -29,5 +30,5 @@
     "state/doctrine_snapshot/CFE_CORE_CARTOGRAPHIC_COMMANDERS_INTENT_SOURCE_2026-08-31.md": "7dc7f49be48afc4de61b3b9f33e1d78a1b234d31771da6d5ad02fe7ad6953fa3",
     "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
   },
-  "timestamp": "2026-08-31T23:54:57-04:00"
+  "timestamp": "2026-09-01T00:27:32-04:00"
 }
