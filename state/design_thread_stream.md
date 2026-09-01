@@ -957,3 +957,7 @@ User authorized proceeding as judged fit.
 
 ## Turn — ASSISTANT / CARTOGRAPHY + PREEXEC
 Hostile-gated typed relation as the previously selected axis. Exhaustive/permutation linear analysis showed boundary-crossing is not independently variable under required support/distance controls on the predicate quartet, so DD2 typed-relation did not launch. Revised map coordinate system by separating structured revisit from currentness drift. Qualified structured revisit as a clean one-axis derivative: same nine optimizer windows repeated 16 times, recurrence interval 9 vs 1. Frozen DD2 prereg/contract/cartography binding/19-file lock; preexec authorized; disposition gate 4/4 adversarial PASS.
+
+## DD2 launch — ASSISTANT
+Timestamp: 2026-09-01 00:28 Eastern Daylight Time
+Launched DD2 structured revisit topology after hostile rejection of typed-relation independence and successful schedule/preexec qualification. Job `job-a9af74aa760d`, PID 5052, entered first CYCLIC_SPACED training arm.

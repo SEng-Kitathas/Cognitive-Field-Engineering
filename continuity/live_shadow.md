@@ -16,3 +16,6 @@ Same rows, tokens, support, local co-visibility, optimizer-window multiset, dose
 
 ## Immediate Next Step
 Commit/publish frozen DD2 preexecution identity, create heavy release, launch one sole GPU campaign.
+
+## Turn delta — 2026-09-01 00:28 Eastern Daylight Time
+- DD2 launched as sole GPU job `job-a9af74aa760d` / PID 5052. Early stage first seed CYCLIC_SPACED training; no failure.

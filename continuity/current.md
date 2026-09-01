@@ -24,3 +24,8 @@ Role: R5 Reality Pressure Engine
 - Input lock `04ee03408154095e2b1b9b78ae3fd9c2f6aac578c894f100a2e989856926ebc4`; preexec `3dbee0d61c41712a32bb07177fc79d3377533c0c2519cc112f765c5af7c1ecb0` -> `DD2_RUNTIME_QUALIFIED__SCIENTIFIC_TRAINING_AUTHORIZED`.
 - Disposition evaluator 4/4 adversarial PASS `46d3ecae63dea9800cc1cc652b1f63a68ab49c80e36fca0eff92415f79c20746`.
 - No learner outcome yet.
+
+## DD2 launch — 2026-09-01 00:28 Eastern Daylight Time
+- Sole GPU job `job-a9af74aa760d`, PID 5052: RUNNING.
+- Early receipt RUNNING, 0/6 paired seeds sealed.
+- Current stage `TRAIN 2026083121 CYCLIC_SPACED`; stderr empty.
