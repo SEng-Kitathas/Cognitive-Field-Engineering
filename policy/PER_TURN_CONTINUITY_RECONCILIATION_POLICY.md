@@ -138,3 +138,21 @@ On recovery, continuity reconciliation is the first mutation before widening sci
 - `NEW INTERPRETATION != MUTATED OLD EVIDENCE`
 - `COMMANDERS INTENT FRESHNESS = SOURCE IDENTITY + CURRENT BINDING + CURRENT ALIGNMENT`
 - `TURN COMPLETE => CONTINUITY RECONCILED OR EXPLICITLY BLOCKED`
+## First-class cartography reconciliation
+
+By explicit operator directive, CFE negative-space cartography is now a first-class governance surface with SOP-peer operational priority.
+
+Every substantive turn that changes scientific state SHALL additionally reconcile:
+
+13. active negative-space intervention lattice;
+14. occupied-cell evidence bindings;
+15. boundary/exclusion state;
+16. ranked one-move/next-hole frontier;
+17. experiment-to-cell binding for any active or proposed experiment.
+
+Before freezing a new experiment, the turn reconciliation receipt SHALL identify the map cell/edge being probed and why that move is information-maximizing relative to the current shape.
+
+A turn that advances scientific state while leaving cartography stale is continuity-incomplete.
+
+`SCIENTIFIC FRONTIER CHANGE => CARTOGRAPHY RECONCILIATION REQUIRED`
+

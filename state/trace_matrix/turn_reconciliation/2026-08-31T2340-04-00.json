@@ -1,0 +1,23 @@
+{
+  "active_blockers": [],
+  "frontier": {
+    "cartography": {
+      "governance_sha256": "ce8a9c8f58edb2fdbb3a2fb546b5cd15e14de3e9bda1e15135ad6dc97c928059",
+      "map_sha256": "4ff8872e6c51087cf1eb6fef8450d210a4098febc8e3328fdc6bd02362a2bbc2",
+      "policy_sha256": "e39851ff5b746db44079f279233d1930eda812b729f4eb2543338068117eab95",
+      "promotion_receipt_sha256": "7db54904c8b25fccf0a60520f67eab357445151367ec5246c58bdb4824f3710b",
+      "read_order_sha256": "9d444aa932045dd1f8b3267ebc4f8d123f15284fc864f5d8e76e04575acb4e0c",
+      "registry_status": "BLOCKED_FILE_LOCK",
+      "status": "FIRST_CLASS_SOP_PEER_PRIORITY"
+    },
+    "dd1r1": {
+      "sealed_pairs": 5,
+      "status": "RUNNING"
+    }
+  },
+  "mode": "BUILD-COMMIT",
+  "next_exact_action": "DD1R1 closeout then mandatory cartography update before next experiment selection",
+  "role": "R4 Convergence Refiner",
+  "schema": "cfe.per-turn-reconciliation-receipt.v4",
+  "timestamp": "2026-08-31T23:40:16-04:00"
+}

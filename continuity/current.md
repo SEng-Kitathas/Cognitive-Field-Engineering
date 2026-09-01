@@ -1,39 +1,28 @@
 # CFE CURRENT STATE
 
-As of: 2026-08-31 18:32 Eastern Daylight Time
+As of: 2026-08-31 23:40 Eastern Daylight Time
 Mode: BUILD-COMMIT
-Role: R5 Reality Pressure Engine
+Role: R4 Convergence Refiner
 
-## Closed baseline
-- V14R2 CLOSED/PUBLISHED: `DOSE_HORIZON_WEAKENED`.
-- DD-0 topology compiler: PASS engineering-only.
+## First-class governance
+CFE Negative-Space Cartography is now **FIRST-CLASS / SOP-PEER OPERATIONAL PRIORITY** by explicit operator directive.
 
-## DD-1 parent attempt
-- Job `job-9b1b7eaed5bc`: FAILED execution-layer.
-- Failure: seed2026083121 dispersed arm base-model load access violation before RUN_MANIFEST.
-- Identifying arm completed/evaluated/remote-verified; BA 0.645833.
-- Scientific paired seeds: 0/6. No DD-1 disposition.
+This promotion governs experiment-space accounting and selection. It does not promote map hypotheses into scientific truth.
 
-## DD1R1 recovery
-- Scientific design unchanged; parent DD-1 input lock SHA `5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040` remains controlling.
-- Amendment SHA `5de42bb08bbb874ff725d0ec87140ad5a26744b0235d4951bd7b3171f850a474`.
-- Static recovery qualification SHA `10a0359b5b69a2cb2e1c08cea6699fab02c1748be97153fe814d3fde1cfca747`: PASS.
-- Salvage only completed identifying arm; missing paired arm fresh.
-- Pair seals only on exact initial-LoRA hash equality.
-- Remaining five seeds both arms fresh.
-- Bounded retries only for process failure before scientific manifest creation.
+Authoritative surfaces:
+- `state/doctrine_snapshot/ACTIVE_CFE_NEGATIVE_SPACE_CARTOGRAPHY_GOVERNANCE_2026-08-31.md` SHA `ce8a9c8f58edb2fdbb3a2fb546b5cd15e14de3e9bda1e15135ad6dc97c928059`
+- `policy/CFE_NEGATIVE_SPACE_CARTOGRAPHY_POLICY.md` SHA `e39851ff5b746db44079f279233d1930eda812b729f4eb2543338068117eab95`
+- `state/doctrine_snapshot/CFE_GOVERNANCE_READ_ORDER.md` SHA `9d444aa932045dd1f8b3267ebc4f8d123f15284fc864f5d8e76e04575acb4e0c`
+- `state/doctrine_snapshot/CFE_GOVERNANCE_READ_ORDER.json` SHA `696696add99a063441027e7218f139e54b338bef057d5ccca02c49d7c84ae40c`
+- active lattice `state/analysis/CFE_NEGATIVE_SPACE_INTERVENTION_LATTICE_2026-08-31.json` SHA `4ff8872e6c51087cf1eb6fef8450d210a4098febc8e3328fdc6bd02362a2bbc2`
 
-## Resume point
-Commit this recovery identity, then launch DD1R1 as sole GPU campaign.
+Mandatory consequences:
+- cartography read/reconcile before experiment selection/preregistration;
+- every experiment binds to parent cell, moved axes, controlled axes, ambiguity reduced, and outcome branches;
+- admitted results update occupied cells/boundaries/rankings in the same reconciliation cycle;
+- experiment ranking defaults to uncertainty reduction over the whole CFE shape, not positive-result probability.
 
-## DD1R1 launch — 2026-08-31 18:34 Eastern Daylight Time
-- Job `job-edd2c803aaed`, PID `25648`: RUNNING.
-- Recovery receipt `RUNNING`, 0/6 paired seeds sealed.
-- Runner crossed salvage gate and entered `RECOVER_PAIR 2026083121`.
-- Sole active GPU campaign.
+Artifact-class registrar status: attempted, but update registration blocked by Windows file lock. Do not claim registry success. Filesystem doctrine/policy + Git are authoritative.
 
-## Negative-space intervention map — 2026-08-31 23:32 Eastern Daylight Time
-- Coarse high-level CFE lattice formalized: 6 axes / 324 cells.
-- 6 occupied characterized cells; 43 unoccupied one-axis neighbors.
-- Highest-value hole: typed-relation co-visibility at identifying support / extended horizon / local-only / direct primitive / mixed optimizer topology.
-- Map status ACTIVE_RESEARCH_MAP_NOT_DOCTRINE. JSON SHA `4ff8872e6c51087cf1eb6fef8450d210a4098febc8e3328fdc6bd02362a2bbc2`.
+## Active science
+DD1R1 receipt: `RUNNING`; 5/6 paired seeds sealed. No final DD-1 disposition until 6/6 aggregate.

@@ -30,3 +30,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | P0 | DD-1 field-resolution result | learner-interface geometry hypothesis untested | six paired seeds + frozen disposition | ready to launch |
 
 | P0 | DD1R1 paired recovery | DD-1 scientific question unresolved after execution crash | recover 6/6 exact paired seeds | ready |
+
+| P0 governance | Cartography registrar metadata | doctrine/policy promotion persisted but artifact registrar hit Windows lock | retry registry registration when file unlocked; no governance ambiguity | open control-plane seam |

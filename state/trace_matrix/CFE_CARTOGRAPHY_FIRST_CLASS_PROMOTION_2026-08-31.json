@@ -1,0 +1,16 @@
+{
+  "active_map_json": "state/analysis/CFE_NEGATIVE_SPACE_INTERVENTION_LATTICE_2026-08-31.json",
+  "active_map_json_sha256": "4ff8872e6c51087cf1eb6fef8450d210a4098febc8e3328fdc6bd02362a2bbc2",
+  "coequal_with": "state/doctrine_snapshot/ACTIVE_RAHL_R3_1_CURRENT_STABLE_SOP_FOR_CFE_20260829.md",
+  "doctrine_frontier_sha256": "a1f12c2eee6dc2bbd9b7e527adbd56e7f23e35ab935dcc3071bb545e1504b708",
+  "governance_sha256": "ce8a9c8f58edb2fdbb3a2fb546b5cd15e14de3e9bda1e15135ad6dc97c928059",
+  "operator_directive": "make that a first class part of this project, it gets the same level of priority as the SOP documents from now on",
+  "per_turn_policy_sha256": "c4addda2561a2f4de513e527c2c50634fd90065d6a7253b591b3830ff83349c5",
+  "policy_sha256": "e39851ff5b746db44079f279233d1930eda812b729f4eb2543338068117eab95",
+  "promotion_type": "GOVERNANCE_PRIORITY_NOT_SCIENTIFIC_TRUTH",
+  "read_order_json_sha256": "696696add99a063441027e7218f139e54b338bef057d5ccca02c49d7c84ae40c",
+  "read_order_md_sha256": "9d444aa932045dd1f8b3267ebc4f8d123f15284fc864f5d8e76e04575acb4e0c",
+  "schema": "cfe.cartography-first-class-promotion.v1",
+  "status": "PROMOTED_ACTIVE",
+  "timestamp": "2026-08-31T23:39:27-04:00"
+}

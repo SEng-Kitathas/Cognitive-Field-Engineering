@@ -1,24 +1,25 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T1832-04-00.md",
-  "active_binding_sha256": "8504850ed4e4859b9dc95a92c90ba354166047144d16a688bb61f3e421103aa6",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T2340-04-00.md",
+  "active_binding_sha256": "8091d24f1c06f6d09230509761865ece9ae7f411619e6b4669dc48f92f305492",
   "alignment": "ALIGNED",
-  "branch": "DD1R1_RECOVERY_AUTHORIZED_NOT_YET_LAUNCHED",
+  "branch": "CARTOGRAPHY_FIRST_CLASS__DD1R1_ACTIVE",
   "frontier": {
-    "dd1_parent": {
-      "failure_sha256": "f6c5f61713422019dc679c02cff4b026de31d6d5a97a6b3becaa380da52919a8",
-      "scientific_pairs": 0,
-      "status": "FAILED_EXECUTION"
+    "cartography": {
+      "governance_sha256": "ce8a9c8f58edb2fdbb3a2fb546b5cd15e14de3e9bda1e15135ad6dc97c928059",
+      "map_sha256": "4ff8872e6c51087cf1eb6fef8450d210a4098febc8e3328fdc6bd02362a2bbc2",
+      "policy_sha256": "e39851ff5b746db44079f279233d1930eda812b729f4eb2543338068117eab95",
+      "read_order_sha256": "9d444aa932045dd1f8b3267ebc4f8d123f15284fc864f5d8e76e04575acb4e0c",
+      "registry_status": "REGISTRATION_BLOCKED_WINDOWS_FILE_LOCK",
+      "status": "FIRST_CLASS_SOP_PEER_PRIORITY"
     },
     "dd1r1": {
-      "amendment_sha256": "5de42bb08bbb874ff725d0ec87140ad5a26744b0235d4951bd7b3171f850a474",
-      "parent_lock_sha256": "5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040",
-      "qualification_sha256": "10a0359b5b69a2cb2e1c08cea6699fab02c1748be97153fe814d3fde1cfca747",
-      "status": "RECOVERY_STATIC_PASS"
+      "sealed_pairs": 5,
+      "status": "RUNNING"
     }
   },
-  "reason": "Recover paired DD1 science without changing frozen intervention.",
+  "reason": "Operator explicitly promoted cartography to first-class project priority equal to SOP documents.",
   "schema": "cfe.commander-intent-turn-readback.v3",
   "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
   "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T18:32:53-04:00"
+  "timestamp": "2026-08-31T23:40:16-04:00"
 }

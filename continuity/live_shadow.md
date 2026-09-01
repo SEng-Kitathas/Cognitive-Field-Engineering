@@ -1,26 +1,25 @@
 # CFE LIVE SHADOW
 
 ## Thread Identity
-- Last Updated: 2026-08-31 18:32 Eastern Daylight Time
+- Last Updated: 2026-08-31 23:40 Eastern Daylight Time
 - Mode: BUILD-COMMIT
-- Dominant Objective: recover DD-1 paired field-resolution science without scientific drift.
+- Dominant Objective: run CFE as an evidence-driven cartography program while DD1R1 closes.
 
-## Current Authoritative State
-- DD-1 parent attempt execution-failed; 0/6 paired seeds admitted.
-- Seed3121 identifying arm is complete but unpaired/unadmitted.
-- DD1R1 recovery static qualification PASS under unchanged lock `5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040`.
+## First-Class Governance
+- Negative-space cartography: ACTIVE, SOP-peer operational priority.
+- Rahl SOP governs process integrity; cartography governs experiment-space accounting/selection.
+- Scientific evidence controls truth; frozen contracts control experiment scope.
+- Map cells remain evidence-typed; governance priority does not equal scientific promotion.
 
-## Decisions Locked In
-- One arm never counts as paired science.
-- Salvage requires local manifest hashes + remote heavy digest.
-- Seed3121 requires exact paired initialization hash before admission.
-- Retry only pre-manifest execution failures; no adaptive science.
+## Current Map
+- coarse axes: 6
+- coarse cells: 324
+- initial occupied/active lineage cells: 6
+- initial one-axis frontier holes: 43
+- active canonical map SHA `4ff8872e6c51087cf1eb6fef8450d210a4098febc8e3328fdc6bd02362a2bbc2`
+
+## Active Science
+- DD1R1 `RUNNING`, 5/6 paired seeds sealed.
 
 ## Immediate Next Step
-Launch DD1R1 as sole GPU campaign.
-
-## Turn delta — 2026-08-31 18:34 Eastern Daylight Time
-- DD1R1 launched as sole GPU job `job-edd2c803aaed` / PID 25648. Salvage gate passed; missing seed3121 dispersed arm is executing. 0/6 pairs sealed at early readback.
-
-## Turn delta — 2026-08-31 23:32 Eastern Daylight Time
-- Formalized CFE as finite high-level intervention lattice: 324 coarse cells, 6 occupied, 43 adjacent negative-space holes. Shape-finding strategy is now local derivatives over axes rather than raw arrangement search.
+On DD1R1 completion, mechanically dispose result, update the first-class map before selecting the next experiment, then rank the next hole by uncertainty reduction.

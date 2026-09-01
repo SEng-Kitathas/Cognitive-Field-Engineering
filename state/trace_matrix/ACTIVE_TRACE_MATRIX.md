@@ -59,3 +59,8 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | DD1R1 execution recovery | unchanged DD-1 lock + salvage rules | amendment `5de42bb08bbb874ff725d0ec87140ad5a26744b0235d4951bd7b3171f850a474`, static qual `10a0359b5b69a2cb2e1c08cea6699fab02c1748be97153fe814d3fde1cfca747` | PASS prelaunch |
 
 | CFE negative-space intervention lattice | v1.0-v1.3 + V14R2 + DD1 experimental geometry | `state/analysis/CFE_NEGATIVE_SPACE_INTERVENTION_LATTICE_2026-08-31.json` SHA `4ff8872e6c51087cf1eb6fef8450d210a4098febc8e3328fdc6bd02362a2bbc2` | 324 coarse cells / 6 occupied / 43 one-axis frontier holes |
+
+| Cartography first-class governance | explicit operator promotion | `state/doctrine_snapshot/ACTIVE_CFE_NEGATIVE_SPACE_CARTOGRAPHY_GOVERNANCE_2026-08-31.md` SHA `ce8a9c8f58edb2fdbb3a2fb546b5cd15e14de3e9bda1e15135ad6dc97c928059` | ACTIVE SOP-peer priority; truth status unchanged |
+| Cartography policy | governance implementation | `policy/CFE_NEGATIVE_SPACE_CARTOGRAPHY_POLICY.md` SHA `e39851ff5b746db44079f279233d1930eda812b729f4eb2543338068117eab95` | mandatory selection/reconciliation gate |
+| Governance read order | Rahl SOP + Cartography coequal operational priority | `state/doctrine_snapshot/CFE_GOVERNANCE_READ_ORDER.md` SHA `9d444aa932045dd1f8b3267ebc4f8d123f15284fc864f5d8e76e04575acb4e0c` | ACTIVE |
+| Artifact registrar | attempted create then update | create target-exists; update Windows file-lock failure | registry promotion UNVERIFIED; filesystem/Git authority intact |
