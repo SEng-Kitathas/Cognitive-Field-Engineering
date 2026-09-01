@@ -27,4 +27,8 @@ Launch sole DD2R1 GPU recovery; no new scientific design until DD2 disposition a
 ## Runtime delta — 2026-09-01 06:27 Eastern Daylight Time
 - DD2R1 attempt3 `job-d021065c00bb` running after host-memory remediation and recovery-runner path repair.
 - seed3121 CYCLIC_SPACED eval complete, still pair-unqualified.
-- Singularity Works llama servers 8091/8092 intentionally paused; restore only after DD2 GPU/eval work no longer needs headroom.
+- Singularity Works llama servers 8091/8092 were orphan model runtimes; do NOT restore automatically.
+
+## Host exclusivity delta — 2026-09-01 06:52 Eastern Daylight Time
+- Every future training start must pass force-exit + survivor scan via `cfe_training_launch.py`.
+- DD2R2 recovery is qualified 19/19 and is the next active execution identity.

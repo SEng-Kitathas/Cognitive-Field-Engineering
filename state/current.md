@@ -44,3 +44,12 @@ Seal/publish this recovery state, then launch DD2R1 as the sole GPU campaign.
 - Recovery attempt2 exposed execution-runner adapter-path bug; no EVAL_MANIFEST. Runner patched and static R3 PASS 19/19 SHA `a7101056ec2e6ac0176dd265c248a150096b573c74d200f105e7e89ab0722cdc`.
 - Recovery attempt3 job `job-d021065c00bb` RUNNING.
 - Salvaged seed3121 CYCLIC_SPACED evaluation is now complete but pair-unqualified: BA 0.645833, false 0.708333, true 0.583333. No paired DD2 result yet.
+
+## Training host exclusivity — 2026-09-01 06:52 Eastern Daylight Time
+- ACTIVE FIRST-CLASS execution control by operator directive.
+- Before every new CFE training launch, recognized local model-serving runtimes are force-terminated and survivor-scan must PASS.
+- Mandatory launcher `tools/cfe_training_launch.py` SHA `09d73a47c4e92f31aa8c018868cd28ee749814c5fbe07283247c6333b26a5e6a`; preflight SHA `3b1a31a0feaa7e7965ec615e2598f633fea783dc48cdf456a244848d3f3d468b`; policy SHA `ee979cf7086429a0c7d348188ad6337c939046e9d3ec3ad63b298e6cd9123c0c`.
+- PCMMAD receiver and active CFE execution tree are protected from broad Python killing.
+- Orphan Singularity Works llama servers are NOT to be restored automatically.
+- DD2R1 attempt3 was deliberately terminated before WINDOW_MASSED RUN_MANIFEST so the new rule applies to every subsequent training start.
+- DD2R2 static qualification PASS 19/19 SHA `e8ee40b656c03a5f892e94ca45eaa83dfb663bd9e7cba552546471e7bf7cc3f2`; science unchanged.

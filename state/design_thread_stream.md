@@ -974,3 +974,12 @@ Bound archaeology as historical mechanism/coordinate priors only. Discovered act
 ## DD2R1 runtime remediation — ASSISTANT
 Timestamp: 2026-09-01 06:27 Eastern Daylight Time
 Parent/recovery failures were isolated to host commit pressure then a recovery-only adapter-path bug. Captured/paused unrelated orphan llama servers, verified frozen base load, patched runner, requalified PASS 19/19, and launched attempt3. The salvaged spaced arm now has an EVAL_MANIFEST but remains explicitly pair-unqualified.
+
+---
+## Turn — USER
+Timestamp: 2026-09-01 06:52 Eastern Daylight Time
+Tags: HOST EXCLUSIVITY, TRAINING CONTROL
+User required every training run to force-exit all open model runtimes and stated the orphan llama servers were not user-started and should not be restored.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Created first-class host-exclusivity policy, model-runtime preflight, and mandatory training launcher. Protected PCMMAD receiver/CFE process tree from broad Python kills. Terminated DD2R1 attempt3 before WINDOW_MASSED RUN_MANIFEST so all subsequent training starts can be covered. Created DD2R2 recovery using already recovered spaced evidence and mandatory launcher for every new training subprocess; static qualification PASS 19/19.

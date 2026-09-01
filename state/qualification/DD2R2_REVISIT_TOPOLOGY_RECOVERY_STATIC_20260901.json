@@ -1,0 +1,95 @@
+{
+  "amendment_sha256": "46a3eb880ddeec34cf425651dd2cd244084f1c9f8bd0ed997295888ddfe70d0e",
+  "checks": [
+    {
+      "pass": true,
+      "path": "state/analysis/CFE_CARTOGRAPHY_HOSTILE_CONSTRAINT_MAP_2026-08-31.json"
+    },
+    {
+      "pass": true,
+      "path": "state/analysis/CFE_NEGATIVE_SPACE_INTERVENTION_LATTICE_2026-08-31.json"
+    },
+    {
+      "pass": true,
+      "path": "state/analysis/DD1R1_PREDICATE_FIELD_RESOLUTION_FINAL_DISPOSITION_2026-08-31.json"
+    },
+    {
+      "pass": true,
+      "path": "state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.jsonl"
+    },
+    {
+      "pass": true,
+      "path": "state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.token_reference.private.jsonl"
+    },
+    {
+      "pass": true,
+      "path": "state/candidates/dd1_predicate_field_resolution_r2_20260831/MANIFEST.json"
+    },
+    {
+      "pass": true,
+      "path": "state/candidates/dd1_predicate_field_resolution_r2_20260831/PREDICATE_EVAL.private.jsonl"
+    },
+    {
+      "pass": true,
+      "path": "state/next_steps/DD2_REVISIT_TOPOLOGY_CARTOGRAPHY_BINDING_2026-09-01.json"
+    },
+    {
+      "pass": true,
+      "path": "state/next_steps/DD2_REVISIT_TOPOLOGY_PREREG_2026-09-01.json"
+    },
+    {
+      "pass": true,
+      "path": "state/next_steps/DD2_REVISIT_TOPOLOGY_TRAINING_CONTRACT_2026-09-01.json"
+    },
+    {
+      "pass": true,
+      "path": "state/qualification/DD2_STRUCTURED_REVISIT_SCHEDULE_QUALIFICATION_20260901.json"
+    },
+    {
+      "pass": true,
+      "path": "state/qualification/TYPED_RELATION_AXIS_HOSTILE_GATE_20260901.json"
+    },
+    {
+      "pass": true,
+      "path": "state/qualification/V14R_PREDICATE_HORIZON_REPEATABILITY_20260831/PROFILE_LOCK.json"
+    },
+    {
+      "pass": true,
+      "path": "state/qualification/V14R_PREDICATE_HORIZON_RUNTIME_20260831/HOST_LOCK.json"
+    },
+    {
+      "pass": true,
+      "path": "tools/dd2_revisit_topology_common.py"
+    },
+    {
+      "pass": true,
+      "path": "tools/evaluate_dd2_revisit_disposition.py"
+    },
+    {
+      "pass": true,
+      "path": "tools/evaluate_dd2_revisit_topology.py"
+    },
+    {
+      "pass": true,
+      "path": "tools/run_dd2_revisit_topology_campaign.py"
+    },
+    {
+      "pass": true,
+      "path": "tools/train_dd2_revisit_topology.py"
+    }
+  ],
+  "host_exclusivity_policy_sha256": "ee979cf7086429a0c7d348188ad6337c939046e9d3ec3ad63b298e6cd9123c0c",
+  "input_lock_sha256": "04ee03408154095e2b1b9b78ae3fd9c2f6aac578c894f100a2e989856926ebc4",
+  "lock_files_passed": 19,
+  "lock_files_total": 19,
+  "recovered_eval_manifest_pass": true,
+  "recovered_run_manifest_pass": true,
+  "runner_preflights_eval": true,
+  "runner_sha256": "23f13daf623737311a9c9e6fda66d8bc70d48fe321a28be7d7d97c001935f7aa",
+  "runner_uses_mandatory_launcher": true,
+  "schema": "cfe.dd2r2.recovery-static-qualification.v1",
+  "scientific_design_changed": false,
+  "status": "PASS",
+  "training_launcher_sha256": "09d73a47c4e92f31aa8c018868cd28ee749814c5fbe07283247c6333b26a5e6a",
+  "training_preflight_sha256": "3b1a31a0feaa7e7965ec615e2598f633fea783dc48cdf456a244848d3f3d468b"
+}

@@ -85,3 +85,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | DD2 host remediation | os error 1455 + 15GB orphan llama-server RAM | `state/analysis/DD2_HOST_RESOURCE_PAUSE_2026-09-01.json`; base-load smoke PASS | execution-only remediation; restoration required |
 | DD2R1 attempt3 | patched recovery runner static R3 PASS | job `job-d021065c00bb` | RUNNING; salvaged spaced eval complete but pair-unqualified |
+
+| CFE training host exclusivity | explicit operator directive + DD2 host collision | `policy/CFE_TRAINING_HOST_EXCLUSIVITY_POLICY.md` SHA `ee979cf7086429a0c7d348188ad6337c939046e9d3ec3ad63b298e6cd9123c0c`; launcher `09d73a47c4e92f31aa8c018868cd28ee749814c5fbe07283247c6333b26a5e6a`; preflight `3b1a31a0feaa7e7965ec615e2598f633fea783dc48cdf456a244848d3f3d468b` | ACTIVE FIRST-CLASS EXECUTION CONTROL |
+| DD2R2 recovery | recovered spaced train/eval/remote + no manifested massed train | `state/next_steps/DD2R2_REVISIT_TOPOLOGY_EXECUTION_RECOVERY_AMENDMENT_2026-09-01.json` SHA `46a3eb880ddeec34cf425651dd2cd244084f1c9f8bd0ed997295888ddfe70d0e`; runner `23f13daf623737311a9c9e6fda66d8bc70d48fe321a28be7d7d97c001935f7aa`; static `e8ee40b656c03a5f892e94ca45eaa83dfb663bd9e7cba552546471e7bf7cc3f2` | PASS 19/19; launch authorized |

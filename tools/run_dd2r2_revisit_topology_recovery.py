@@ -67,8 +67,8 @@ def eval_arm(py,root,candidate,contract,lock,host_lock,seed,arm,adapter,run_mani
 
 
 def train_arm(py,root,candidate,contract,lock,host_lock,profile_lock,seed,arm,out_dir,log_dir):
-    force_exit_model_runtimes(root, phase=f'TRAIN_PRELOAD:{seed}:{arm}')
-    cmd=[py,str(root/'tools/train_dd2_revisit_topology.py'),'--project-root',str(root),'--candidate',str(candidate),'--arm',arm,'--seed',str(seed),'--contract',str(contract),'--lock',str(lock),'--host-lock',str(host_lock),'--profile-lock',str(profile_lock),'--out',str(out_dir)]
+    train_cmd=[py,str(root/'tools/train_dd2_revisit_topology.py'),'--project-root',str(root),'--candidate',str(candidate),'--arm',arm,'--seed',str(seed),'--contract',str(contract),'--lock',str(lock),'--host-lock',str(host_lock),'--profile-lock',str(profile_lock),'--out',str(out_dir)]
+    cmd=[py,str(root/'tools/cfe_training_launch.py'),'--project-root',str(root),'--phase',f'TRAIN_PRELOAD:{seed}:{arm}','--']+train_cmd
     retry(cmd,root,log_dir/'train.stdout.log',log_dir/'train.stderr.log',out_dir/'RUN_MANIFEST.json','TRAIN')
     return loadj(out_dir/'RUN_MANIFEST.json')
 
@@ -94,23 +94,23 @@ def main():
     if amendment.get('status')!='FROZEN_EXECUTION_RECOVERY_PRE_RUNTIME' or amendment.get('scientific_design_changed') is not False: raise SystemExit('RECOVERY_AMENDMENT_INVALID')
     if a.out.exists(): raise SystemExit('REFUSE_OVERWRITE')
     a.out.mkdir(parents=True)
-    receipt={'schema':'cfe.dd2r1.campaign.v1','status':'RUNNING','identity':amendment['identity'],'parent_scientific_identity':contract['identity'],'input_lock_sha256':sha256_file(a.lock),'preexec_sha256':sha256_file(a.preexec),'amendment_sha256':sha256_file(a.amendment),'jobs':[]}
+    receipt={'schema':'cfe.dd2r2.campaign.v1','status':'RUNNING','identity':amendment['identity'],'parent_scientific_identity':contract['identity'],'input_lock_sha256':sha256_file(a.lock),'preexec_sha256':sha256_file(a.preexec),'amendment_sha256':sha256_file(a.amendment),'jobs':[]}
     dumpj(a.out/'CAMPAIGN_RECEIPT.json',receipt); py=sys.executable
 
-    # Recover seed 2026083121 CYCLIC_SPACED without retraining manifested science.
-    seed=contract['seeds'][0]; arm='CYCLIC_SPACED'; parent_arm=a.parent_campaign/str(seed)/arm
-    parent_rm=parent_arm/'train/RUN_MANIFEST.json'; parent_adapter_dir=parent_arm/'train/adapter'; parent_adapter=parent_adapter_dir/'adapter_model.safetensors'
-    if sha256_file(parent_rm)!=amendment['salvage']['train_manifest_sha256'] or sha256_file(parent_adapter)!=amendment['salvage']['adapter_sha256']:
-        raise SystemExit('SALVAGE_HASH_MISMATCH')
-    print('RECOVER_EVAL',seed,arm,flush=True)
-    rec_sd=a.out/str(seed)/arm; rec_eval=rec_sd/'eval'
-    em=eval_arm(py,root,a.candidate,a.contract,a.lock,a.host_lock,seed,arm,parent_adapter_dir,parent_rm,rec_eval,rec_sd)
-    spaced=arm_receipt(root,a.release_tag,a.repo,seed,arm,parent_rm,rec_eval/'EVAL_MANIFEST.json',parent_adapter,'SALVAGED_TRAIN__RECOVERED_EVAL')
+    # Reuse already recovered CYCLIC_SPACED train+eval+remote publication without rerun.
+    seed=contract['seeds'][0]; arm='CYCLIC_SPACED'
+    rr=amendment['recovered_spaced']; parent_rm=root/rr['run_manifest_path']; recovered_eval=root/rr['eval_manifest_path']
+    if sha256_file(parent_rm)!=rr['run_manifest_sha256'] or sha256_file(recovered_eval)!=rr['eval_manifest_sha256']:
+        raise SystemExit('RECOVERED_SPACED_HASH_MISMATCH')
+    rm0=loadj(parent_rm); em0=loadj(recovered_eval)
+    if rm0['initial_trainable_sha256']!=rr['initial_trainable_sha256'] or em0['metrics']!=rr['metrics']:
+        raise SystemExit('RECOVERED_SPACED_CONTENT_MISMATCH')
+    spaced={'arm':arm,'provenance':'RECOVERED_TRAIN_EVAL_REMOTE_VERIFIED__NO_RERUN','run_manifest_sha256':rr['run_manifest_sha256'],'eval_manifest_sha256':rr['eval_manifest_sha256'],'metrics':rr['metrics'],'heavy_publication':rr['heavy_publication'],'initial_trainable_sha256':rr['initial_trainable_sha256'],'final_trainable_sha256':rr['final_trainable_sha256']}
 
     # Train only the missing paired arm fresh.
     arm='WINDOW_MASSED'; sd=a.out/str(seed)/arm; td=sd/'train'; ed=sd/'eval'
     print('TRAIN',seed,arm,flush=True); rm=train_arm(py,root,a.candidate,a.contract,a.lock,a.host_lock,a.profile_lock,seed,arm,td,sd)
-    if rm['initial_trainable_sha256']!=amendment['salvage']['initial_trainable_sha256']: raise SystemExit(f'PAIRED_INIT_MISMATCH_{seed}')
+    if rm['initial_trainable_sha256']!=amendment['recovered_spaced']['initial_trainable_sha256']: raise SystemExit(f'PAIRED_INIT_MISMATCH_{seed}')
     print('EVAL',seed,arm,flush=True); eval_arm(py,root,a.candidate,a.contract,a.lock,a.host_lock,seed,arm,td/'adapter',td/'RUN_MANIFEST.json',ed,sd)
     massed=arm_receipt(root,a.release_tag,a.repo,seed,arm,td/'RUN_MANIFEST.json',ed/'EVAL_MANIFEST.json',td/'adapter/adapter_model.safetensors','FRESH_RECOVERY_TRAIN')
     receipt['jobs'].append({'seed':seed,'status':'COMPLETE_PAIR_RECOVERED','paired_initialization_sha256':rm['initial_trainable_sha256'],'arms':[spaced,massed]}); dumpj(a.out/'CAMPAIGN_RECEIPT.json',receipt)

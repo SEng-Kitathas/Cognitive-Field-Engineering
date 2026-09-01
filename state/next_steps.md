@@ -17,5 +17,11 @@ As of: 2026-09-01 06:20 Eastern Daylight Time
 - Revisit typed relation on a substrate where relation type can be made independent of proximity.
 - Preserve old Gen1/TQ2 findings as priors/engineering quarry, never scientific occupancy.
 
-## Host restoration obligation
-- After DD2R1 reaches terminal state and no immediate DD2 evaluation retry is needed, restore the two captured Singularity Works llama-server commands from `state/analysis/DD2_HOST_RESOURCE_PAUSE_2026-09-01.json` and verify ports 8091/8092.
+## P0 — host exclusivity
+- All new training launches use `tools/cfe_training_launch.py`; fail closed if model-serving runtimes survive preflight.
+- Do not restore orphan model servers after training.
+
+## P0 — DD2R2
+- Launch DD2R2 under unchanged science and host-exclusivity policy.
+- Reuse recovered seed3121 CYCLIC_SPACED train/eval/remote evidence; do not rerun it.
+- Train missing WINDOW_MASSED and all later arms only through mandatory launcher.

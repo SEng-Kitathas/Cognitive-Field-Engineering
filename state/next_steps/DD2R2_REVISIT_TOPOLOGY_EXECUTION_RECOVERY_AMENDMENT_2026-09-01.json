@@ -1,0 +1,101 @@
+{
+  "identity": "DD2R2_REVISIT_TOPOLOGY_20260901",
+  "interrupted_massed": {
+    "arm": "WINDOW_MASSED",
+    "attempt3_eval_manifest_exists": false,
+    "attempt3_run_manifest_exists": false,
+    "disposition": "NO_SCIENTIFIC_TRAINING_ADMITTED",
+    "seed": 2026083121
+  },
+  "new_host_policy": {
+    "launcher": "tools/cfe_training_launch.py",
+    "policy": "policy/CFE_TRAINING_HOST_EXCLUSIVITY_POLICY.md",
+    "preflight": "tools/cfe_training_preflight.py",
+    "rule": "EVERY_NEW_TRAINING_SUBPROCESS_MUST_PASS_MODEL_RUNTIME_FORCE_EXIT_AND_SURVIVOR_SCAN"
+  },
+  "parent_scientific_identity": "DD2_REVISIT_TOPOLOGY_20260901",
+  "prior_execution_identities": [
+    "DD2_REVISIT_TOPOLOGY_20260901",
+    "DD2R1_REVISIT_TOPOLOGY_20260901"
+  ],
+  "reason": "Operator-mandated model-runtime exclusivity gate introduced after host-memory collision; DD2R1 attempt3 terminated before WINDOW_MASSED RUN_MANIFEST so all future training launches can be covered by the new gate.",
+  "recovered_spaced": {
+    "arm": "CYCLIC_SPACED",
+    "eval_manifest_path": "state/analysis/DD2R1_REVISIT_TOPOLOGY_RECOVERY_CAMPAIGN_20260901T1026Z/2026083121/CYCLIC_SPACED/eval/EVAL_MANIFEST.json",
+    "eval_manifest_sha256": "bf9c419c1aadf174ff1c9e6bbfd54f343084a915a0c0f62d1758fe73d1489f8a",
+    "final_trainable_sha256": "487b18ce075f3207d86cf8c52614b8f5c02303d0153cdd709b82dccaee38595f",
+    "heavy_publication": {
+      "asset_name": "dd2_seed2026083121_CYCLIC_SPACED_adapter_model.safetensors",
+      "bytes": 83945296,
+      "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd2-revisit-topology-2026-09-01",
+      "remote_digest": "sha256:477764b22d02c5535ce40668755196c9713d10e18ca32d9d29a74331892cb6df",
+      "sha256": "477764b22d02c5535ce40668755196c9713d10e18ca32d9d29a74331892cb6df"
+    },
+    "initial_trainable_sha256": "42ae4fd695df63c498df499ac602d5f094b19720cea7f3f4ad3c1aa722f28db3",
+    "metrics": {
+      "balanced_accuracy": 0.6458333333333334,
+      "by_support": {
+        "equality": {
+          "accuracy": 0.875,
+          "correct": 7,
+          "json_parse_rate": 1.0,
+          "n": 8
+        },
+        "far_negative": {
+          "accuracy": 0.625,
+          "correct": 10,
+          "json_parse_rate": 1.0,
+          "n": 16
+        },
+        "far_positive": {
+          "accuracy": 0.5,
+          "correct": 8,
+          "json_parse_rate": 1.0,
+          "n": 16
+        },
+        "near_positive": {
+          "accuracy": 0.75,
+          "correct": 6,
+          "json_parse_rate": 1.0,
+          "n": 8
+        }
+      },
+      "by_truth": {
+        "false": {
+          "accuracy": 0.7083333333333334,
+          "correct": 17,
+          "json_parse_rate": 1.0,
+          "n": 24
+        },
+        "true": {
+          "accuracy": 0.5833333333333334,
+          "correct": 14,
+          "json_parse_rate": 1.0,
+          "n": 24
+        }
+      },
+      "overall": {
+        "accuracy": 0.6458333333333334,
+        "correct": 31,
+        "json_parse_rate": 1.0,
+        "n": 48
+      }
+    },
+    "run_manifest_path": "state/analysis/DD2_REVISIT_TOPOLOGY_CAMPAIGN_20260901T0432Z/2026083121/CYCLIC_SPACED/train/RUN_MANIFEST.json",
+    "run_manifest_sha256": "a59fab42527c99de3f14d22d5dd460089606ac532c599ca23c710b89fc5e9117",
+    "seed": 2026083121
+  },
+  "recovery_rules": [
+    "Do not rerun recovered CYCLIC_SPACED training or evaluation.",
+    "Train seed2026083121 WINDOW_MASSED fresh; require initial trainable SHA equal recovered spaced initial SHA.",
+    "All new training launches go through cfe_training_launch.py.",
+    "All model-loading eval launches run force_exit_model_runtimes immediately beforehand.",
+    "Seeds2026083122-2026083126 run both arms fresh under unchanged DD2 lock/science.",
+    "Aggregate only after 6/6 complete paired seeds.",
+    "No frozen scientific input changes."
+  ],
+  "schema": "cfe.dd2r2.execution-recovery-amendment.v1",
+  "scientific_design_changed": false,
+  "status": "FROZEN_EXECUTION_RECOVERY_PRE_RUNTIME",
+  "timestamp": "2026-09-01T06:52:05-04:00"
+}
