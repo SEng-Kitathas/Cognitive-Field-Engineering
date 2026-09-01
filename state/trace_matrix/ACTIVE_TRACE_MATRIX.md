@@ -69,3 +69,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | Core cartographic Commander's Intent | explicit operator promotion | `state/doctrine_snapshot/CFE_CORE_CARTOGRAPHIC_COMMANDERS_INTENT_SOURCE_2026-08-31.md` SHA `7dc7f49be48afc4de61b3b9f33e1d78a1b234d31771da6d5ad02fe7ad6953fa3` | IMMUTABLE SOURCE ADDENDUM / CORE |
 | Active Commander binding | original + cartographic core intent reconciliation | `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T2354-04-00.md` SHA `2ecc67779d05c4d721227ba72390e98177c26c653e8d101082f15b8a6e41bd06` | ALIGNED |
+
+| Next experiment cartography binding | DD1 occupied-positive-conditional -> typed-relation one-axis hole | `state/next_steps/CFE_NEXT_MOVE_CARTOGRAPHY_BINDING_2026-09-01.json` SHA `a3249f215d8ab36f0c0ee530547788316d70c7e64ce0f3b14e4bbd0930577d39` | SELECTED_PRE_PREREG_HOSTILE_GATE |

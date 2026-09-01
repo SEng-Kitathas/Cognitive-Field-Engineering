@@ -944,3 +944,7 @@ User elevated the statement to core Commander's Intent.
 
 ## Turn — ASSISTANT / DOCTRINE COMMIT
 Preserved the exact statement in a new immutable operator-source addendum, created a successor active Commander binding co-governing with the original source, and propagated it into governance read order, doctrine frontier, cartography governance, current/live/next state, and trace matrix. DD1R1 process completion was noted but not scientifically interpreted in this mutation.
+
+## Cartography next-move decision — ASSISTANT
+Timestamp: 2026-09-01 00:16 Eastern Daylight Time
+Selected typed-relation identifiability as the next highest-information one-axis move. Bound a pre-prereg hostile gate to prove the axis is not renamed proximity before any learner execution.

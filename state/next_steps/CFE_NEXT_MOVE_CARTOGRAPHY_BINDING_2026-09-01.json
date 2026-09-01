@@ -1,0 +1,86 @@
+{
+  "alternatives_ranked": [
+    {
+      "move": "STRUCTURED_REVISIT_CURRENTNESS",
+      "rank": "2",
+      "reason": "High value after V14R2 dose insufficiency, but currently confounds temporal structuring with unresolved relation-type question."
+    },
+    {
+      "move": "COVERAGE_EXPLICIT",
+      "rank": "3",
+      "reason": "High value for stable competence, but support/coverage manipulation changes available boundary information more directly than typed-relation geometry and is therefore a larger intervention."
+    },
+    {
+      "move": "SPARSE_LONG_RANGE_BRIDGES",
+      "rank": "4",
+      "reason": "Important reachability test, but should follow local relation-type qualification so long-range effects are not ambiguous between connectivity and relation semantics."
+    }
+  ],
+  "cartographic_value": {
+    "mixed": "triggers missing-axis / phenotype-vector analysis rather than generic noise attribution",
+    "null": "collapses/weakens typed-relation as a separate axis in this regime and elevates currentness/coverage/connectivity",
+    "positive": "adds a distinct local-relation dimension and explains why generic co-visibility is only conditionally sufficient"
+  },
+  "controlled_axes": [
+    "support_resolution",
+    "temporal_topology",
+    "connectivity",
+    "task_closure",
+    "optimizer_window_topology"
+  ],
+  "dd1_disposition_sha256": "da7352670a765e3dc57614b2703ed9814ea98025d179cf6c8b9ed84431400f0f",
+  "dd2_if_gate_passes": {
+    "claim_ceiling": "A positive result would establish typed relation geometry as a distinct causal developmental-field axis in this fixed regime; it would not establish learner-internal edge types or a universal ontology.",
+    "scientific_question": "Given matched support, dose, atomic experiences, and local co-visibility, does changing which relation type is jointly instantiated alter the developed predicate phenotype?",
+    "working_name": "DD2_TYPED_RELATION_IDENTIFIABILITY"
+  },
+  "hostile_constraint_map_sha256": "bda56ec00cf8d192a6cdb66c0937d18f4c102f36a8bdd4cae3e4cb19b392d5a6",
+  "map_sha256": "f9300891de4675bc48601553905ded3fff6de0b4ff255f2efdc3ec6dc806e448",
+  "moved_axes": [
+    "local_contrast_geometry"
+  ],
+  "parent_cell": "DD1_FIELD_RESOLUTION",
+  "parent_coords": {
+    "connectivity": "LOCAL_ONLY",
+    "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+    "optimizer_window_topology": "MIXED",
+    "support_resolution": "IDENTIFYING_BASIS",
+    "task_closure": "DIRECT_PRIMITIVE",
+    "temporal_topology": "EXTENDED_HORIZON"
+  },
+  "pre_prereg_hostile_gate": {
+    "failure_meaning": "If these cannot be jointly satisfied, T1/T2/T8 hostile constraints remain unresolved and typed relation is not yet an independently identified axis.",
+    "must_pass": [
+      "same atomic event multiset",
+      "same payload SHA multiset",
+      "same total and supervised token counts",
+      "same sequence-length multiset",
+      "same target co-visibility count",
+      "same support/margin/truth/domain composition",
+      "no curator relation labels in learner payload",
+      "different curator-side relation-type assignment and compiled relation-type signature",
+      "deterministic replay",
+      "field verifier proves proximity/co-visibility equivalence while relation-type geometry differs"
+    ],
+    "question": "Can typed relation be changed while holding event multiset, payload bytes, token accounting, local co-visibility count, support, sequence lengths, dose, and evaluator fixed?"
+  },
+  "schema": "cfe.cartography-next-move-selection.v1",
+  "selection": "QUALIFY_TYPED_RELATION_AS_INDEPENDENT_AXIS_THEN_DD2",
+  "status": "SELECTED_PRE_PREREG_HOSTILE_GATE",
+  "target_coords": {
+    "connectivity": "LOCAL_ONLY",
+    "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
+    "optimizer_window_topology": "MIXED",
+    "support_resolution": "IDENTIFYING_BASIS",
+    "task_closure": "DIRECT_PRIMITIVE",
+    "temporal_topology": "EXTENDED_HORIZON"
+  },
+  "timestamp": "2026-09-01T00:16:22-04:00",
+  "why_this_move": [
+    "Highest post-DD1 ranked one-axis frontier hole.",
+    "Adjacent to two characterized cells, so it reduces more ambiguity than a distant interaction cell.",
+    "Directly discriminates whether DD1 was a generic co-visibility/proximity effect or whether relation type carries additional causal structure.",
+    "Does not reopen dose, optimizer-window, or composition explanations already weakened/closed.",
+    "If null, collapses typed-relation as an unnecessary axis in this regime; if positive/conditional, earns a distinct geometry dimension."
+  ]
+}

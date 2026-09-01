@@ -26,3 +26,7 @@ Role: R5 Reality Pressure Engine
 
 ## Next
 Freeze no new experiment until experiment-to-cell binding is derived from the updated first-class map.
+
+## Next-move selection — 2026-09-01 00:16 Eastern Daylight Time
+- Cartography-selected move: hostile-qualify `TYPED_RELATION_COVISIBLE` as an independent axis; if PASS, launch DD2 Typed Relation Identifiability.
+- Binding SHA `a3249f215d8ab36f0c0ee530547788316d70c7e64ce0f3b14e4bbd0930577d39`.
