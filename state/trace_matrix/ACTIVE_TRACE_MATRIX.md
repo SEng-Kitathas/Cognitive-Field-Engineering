@@ -66,3 +66,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | Artifact registrar | attempted create then update | create target-exists; update Windows file-lock failure | registry promotion UNVERIFIED; filesystem/Git authority intact |
 
 | Cartography hostile constraint map | first-class map governance | `state/analysis/CFE_CARTOGRAPHY_HOSTILE_CONSTRAINT_MAP_2026-08-31.json` SHA `bda56ec00cf8d192a6cdb66c0937d18f4c102f36a8bdd4cae3e4cb19b392d5a6` | 15 threat classes; ACTIVE |
+
+| Core cartographic Commander's Intent | explicit operator promotion | `state/doctrine_snapshot/CFE_CORE_CARTOGRAPHIC_COMMANDERS_INTENT_SOURCE_2026-08-31.md` SHA `7dc7f49be48afc4de61b3b9f33e1d78a1b234d31771da6d5ad02fe7ad6953fa3` | IMMUTABLE SOURCE ADDENDUM / CORE |
+| Active Commander binding | original + cartographic core intent reconciliation | `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T2354-04-00.md` SHA `2ecc67779d05c4d721227ba72390e98177c26c653e8d101082f15b8a6e41bd06` | ALIGNED |

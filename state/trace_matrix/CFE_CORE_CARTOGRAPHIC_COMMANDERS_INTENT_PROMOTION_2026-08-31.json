@@ -1,0 +1,17 @@
+{
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T2354-04-00.md",
+  "active_binding_sha256": "2ecc67779d05c4d721227ba72390e98177c26c653e8d101082f15b8a6e41bd06",
+  "doctrine_frontier_sha256": "e760974ba0654f427a529d168da03f74bd58e84701392f33d5dc5d3a77601e62",
+  "governance_sha256": "ee8d8d21f63c9ed88ba57aeeb85681762b238d4de14250a22b73ca0d9a12fc0e",
+  "original_source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+  "original_source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
+  "read_order_json_sha256": "52c10747db28e2f0ae8624ed057996c917ed2f8d2b90e07ee93dc7ebeb4e58bd",
+  "read_order_md_sha256": "9d49f328556195d525653c0e45f4fa650a257ec78d5d5d755f9a0a679253c196",
+  "schema": "cfe.core-cartographic-commanders-intent-promotion.v1",
+  "scientific_truth_promotion": false,
+  "source_path": "state/doctrine_snapshot/CFE_CORE_CARTOGRAPHIC_COMMANDERS_INTENT_SOURCE_2026-08-31.md",
+  "source_sha256": "7dc7f49be48afc4de61b3b9f33e1d78a1b234d31771da6d5ad02fe7ad6953fa3",
+  "status": "PROMOTED_CORE_INTENT",
+  "timestamp": "2026-08-31T23:54:57-04:00",
+  "verbatim": "We are not merely trying to discover the right developmental geometry. We are trying to reconstruct the topology of constraints governing developmental geometry, while simultaneously hostile-engineering the coordinate system used to describe that topology."
+}

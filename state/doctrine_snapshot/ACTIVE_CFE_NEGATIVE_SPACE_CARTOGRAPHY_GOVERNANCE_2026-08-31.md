@@ -100,3 +100,12 @@ These counts are **versioned map-state facts**, not permanent doctrine. They SHA
 
 ## Promotion/demotion rule
 The cartography system remains first-class unless explicitly demoted or superseded by the operator. Individual axes, cells, rankings, and whole-shape hypotheses may be revised freely through evidence-linked successor states.
+
+## Core Commander intent grounding
+Cartography governance is now directly grounded in the co-governing core intent source:
+`state/doctrine_snapshot/CFE_CORE_CARTOGRAPHIC_COMMANDERS_INTENT_SOURCE_2026-08-31.md` SHA `7dc7f49be48afc4de61b3b9f33e1d78a1b234d31771da6d5ad02fe7ad6953fa3`
+
+> We are not merely trying to discover the right developmental geometry. We are trying to reconstruct the topology of constraints governing developmental geometry, while simultaneously hostile-engineering the coordinate system used to describe that topology.
+
+Accordingly, hostile engineering of the map coordinate system is not optional methodology; it is part of the program's core intent.
+

@@ -3,9 +3,14 @@
     "state/doctrine_snapshot/ACTIVE_RAHL_R3_1_CURRENT_STABLE_SOP_FOR_CFE_20260829.md",
     "state/doctrine_snapshot/ACTIVE_CFE_NEGATIVE_SPACE_CARTOGRAPHY_GOVERNANCE_2026-08-31.md"
   ],
-  "law": "SOP_PEER_PRIORITY_WITH_DISTINCT_SCOPE",
+  "core_commander_intent_sources": [
+    "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "state/doctrine_snapshot/CFE_CORE_CARTOGRAPHIC_COMMANDERS_INTENT_SOURCE_2026-08-31.md"
+  ],
+  "law": "ORIGINAL_INTENT + CARTOGRAPHIC_CORE_INTENT -> CO-GOVERNING PROGRAM SOURCES; SOP_PEER_PRIORITY_WITH_DISTINCT_SCOPE",
   "ordered_reads": [
     "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "state/doctrine_snapshot/CFE_CORE_CARTOGRAPHIC_COMMANDERS_INTENT_SOURCE_2026-08-31.md",
     "state/doctrine_snapshot/ACTIVE_COMMANDERS_INTENT_TURN_READBACK.json",
     "state/doctrine_snapshot/ACTIVE_RAHL_R3_1_CURRENT_STABLE_SOP_FOR_CFE_20260829.md",
     "state/doctrine_snapshot/ACTIVE_CFE_NEGATIVE_SPACE_CARTOGRAPHY_GOVERNANCE_2026-08-31.md",
@@ -18,5 +23,5 @@
   ],
   "schema": "cfe.governance-read-order.v1",
   "status": "ACTIVE",
-  "timestamp": "2026-08-31T23:39:27-04:00"
+  "timestamp": "2026-08-31T23:54:57-04:00"
 }

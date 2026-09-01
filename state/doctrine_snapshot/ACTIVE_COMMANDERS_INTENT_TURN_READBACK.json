@@ -1,25 +1,33 @@
 {
-  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T2340-04-00.md",
-  "active_binding_sha256": "8091d24f1c06f6d09230509761865ece9ae7f411619e6b4669dc48f92f305492",
+  "active_binding_path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-08-31T2354-04-00.md",
+  "active_binding_sha256": "2ecc67779d05c4d721227ba72390e98177c26c653e8d101082f15b8a6e41bd06",
   "alignment": "ALIGNED",
-  "branch": "CARTOGRAPHY_FIRST_CLASS__DD1R1_ACTIVE",
+  "branch": "CORE_CARTOGRAPHIC_INTENT_PROMOTED__DD1R1_EXECUTION_COMPLETE_PENDING_SCIENTIFIC_CLOSEOUT",
+  "core_intents": [
+    "The developmental structure of experience itself is the engineering medium.",
+    "We are not merely trying to discover the right developmental geometry. We are trying to reconstruct the topology of constraints governing developmental geometry, while simultaneously hostile-engineering the coordinate system used to describe that topology."
+  ],
   "frontier": {
     "cartography": {
-      "governance_sha256": "ce8a9c8f58edb2fdbb3a2fb546b5cd15e14de3e9bda1e15135ad6dc97c928059",
+      "governance_sha256": "ee8d8d21f63c9ed88ba57aeeb85681762b238d4de14250a22b73ca0d9a12fc0e",
+      "hostile_constraint_map_sha256": "bda56ec00cf8d192a6cdb66c0937d18f4c102f36a8bdd4cae3e4cb19b392d5a6",
       "map_sha256": "4ff8872e6c51087cf1eb6fef8450d210a4098febc8e3328fdc6bd02362a2bbc2",
-      "policy_sha256": "e39851ff5b746db44079f279233d1930eda812b729f4eb2543338068117eab95",
-      "read_order_sha256": "9d444aa932045dd1f8b3267ebc4f8d123f15284fc864f5d8e76e04575acb4e0c",
-      "registry_status": "REGISTRATION_BLOCKED_WINDOWS_FILE_LOCK",
-      "status": "FIRST_CLASS_SOP_PEER_PRIORITY"
+      "status": "FIRST_CLASS_AND_CORE_INTENT_GROUNDED"
     },
     "dd1r1": {
-      "sealed_pairs": 5,
-      "status": "RUNNING"
+      "execution_status": "COMPLETED_RC0",
+      "scientific_closeout": "PENDING_EXPLICIT_MECHANICAL_DISPOSITION"
     }
   },
-  "reason": "Operator explicitly promoted cartography to first-class project priority equal to SOP documents.",
-  "schema": "cfe.commander-intent-turn-readback.v3",
-  "source_path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
-  "source_sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765",
-  "timestamp": "2026-08-31T23:40:16-04:00"
+  "reason": "Operator explicitly elevated the cartographic formulation to core Commander's Intent.",
+  "schema": "cfe.commander-intent-turn-readback.v4",
+  "source_paths": [
+    "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+    "state/doctrine_snapshot/CFE_CORE_CARTOGRAPHIC_COMMANDERS_INTENT_SOURCE_2026-08-31.md"
+  ],
+  "source_sha256": {
+    "state/doctrine_snapshot/CFE_CORE_CARTOGRAPHIC_COMMANDERS_INTENT_SOURCE_2026-08-31.md": "7dc7f49be48afc4de61b3b9f33e1d78a1b234d31771da6d5ad02fe7ad6953fa3",
+    "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+  },
+  "timestamp": "2026-08-31T23:54:57-04:00"
 }

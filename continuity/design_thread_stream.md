@@ -935,3 +935,12 @@ Promoted negative-space cartography to SOP-peer operational priority through act
 ## Cartography hostile engineering — ASSISTANT
 Timestamp: 2026-08-31 23:45 Eastern Daylight Time
 User challenged why conceptual topography was not already mapped and proposed hostile-engineering the constraints. Added a first-class map threat model with 15 failure modes and explicit invariants against seductive-but-false geometry.
+
+---
+## Turn — USER
+Timestamp: 2026-08-31 23:54 Eastern Daylight Time
+Tags: COMMANDERS INTENT, CORE CARTOGRAPHY
+User elevated the statement to core Commander's Intent.
+
+## Turn — ASSISTANT / DOCTRINE COMMIT
+Preserved the exact statement in a new immutable operator-source addendum, created a successor active Commander binding co-governing with the original source, and propagated it into governance read order, doctrine frontier, cartography governance, current/live/next state, and trace matrix. DD1R1 process completion was noted but not scientifically interpreted in this mutation.
