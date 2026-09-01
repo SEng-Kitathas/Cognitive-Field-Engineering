@@ -1,0 +1,92 @@
+{
+  "amendment_sha256": "f98a3bee1df8a7f740aa7a0a478cc5cdf2fbb90b220d82dca895ab53328ae3fa",
+  "checks": [
+    {
+      "pass": true,
+      "path": "state/analysis/CFE_CARTOGRAPHY_HOSTILE_CONSTRAINT_MAP_2026-08-31.json"
+    },
+    {
+      "pass": true,
+      "path": "state/analysis/CFE_NEGATIVE_SPACE_INTERVENTION_LATTICE_2026-08-31.json"
+    },
+    {
+      "pass": true,
+      "path": "state/analysis/DD1R1_PREDICATE_FIELD_RESOLUTION_FINAL_DISPOSITION_2026-08-31.json"
+    },
+    {
+      "pass": true,
+      "path": "state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.jsonl"
+    },
+    {
+      "pass": true,
+      "path": "state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.token_reference.private.jsonl"
+    },
+    {
+      "pass": true,
+      "path": "state/candidates/dd1_predicate_field_resolution_r2_20260831/MANIFEST.json"
+    },
+    {
+      "pass": true,
+      "path": "state/candidates/dd1_predicate_field_resolution_r2_20260831/PREDICATE_EVAL.private.jsonl"
+    },
+    {
+      "pass": true,
+      "path": "state/next_steps/DD2_REVISIT_TOPOLOGY_CARTOGRAPHY_BINDING_2026-09-01.json"
+    },
+    {
+      "pass": true,
+      "path": "state/next_steps/DD2_REVISIT_TOPOLOGY_PREREG_2026-09-01.json"
+    },
+    {
+      "pass": true,
+      "path": "state/next_steps/DD2_REVISIT_TOPOLOGY_TRAINING_CONTRACT_2026-09-01.json"
+    },
+    {
+      "pass": true,
+      "path": "state/qualification/DD2_STRUCTURED_REVISIT_SCHEDULE_QUALIFICATION_20260901.json"
+    },
+    {
+      "pass": true,
+      "path": "state/qualification/TYPED_RELATION_AXIS_HOSTILE_GATE_20260901.json"
+    },
+    {
+      "pass": true,
+      "path": "state/qualification/V14R_PREDICATE_HORIZON_REPEATABILITY_20260831/PROFILE_LOCK.json"
+    },
+    {
+      "pass": true,
+      "path": "state/qualification/V14R_PREDICATE_HORIZON_RUNTIME_20260831/HOST_LOCK.json"
+    },
+    {
+      "pass": true,
+      "path": "tools/dd2_revisit_topology_common.py"
+    },
+    {
+      "pass": true,
+      "path": "tools/evaluate_dd2_revisit_disposition.py"
+    },
+    {
+      "pass": true,
+      "path": "tools/evaluate_dd2_revisit_topology.py"
+    },
+    {
+      "pass": true,
+      "path": "tools/run_dd2_revisit_topology_campaign.py"
+    },
+    {
+      "pass": true,
+      "path": "tools/train_dd2_revisit_topology.py"
+    }
+  ],
+  "input_lock_sha256": "04ee03408154095e2b1b9b78ae3fd9c2f6aac578c894f100a2e989856926ebc4",
+  "lock_files_passed": 19,
+  "lock_files_total": 19,
+  "patch_reason": "Recovery runner now passes adapter directory to PEFT evaluator while retaining adapter_model.safetensors path for upload/hash verification. No scientific input changed.",
+  "runner_sha256": "4d43eb74e30cae3ff50f03408c0ee4cd4b69c047c9be3851082a5bb2101a5a68",
+  "salvage_adapter_sha256": "477764b22d02c5535ce40668755196c9713d10e18ca32d9d29a74331892cb6df",
+  "salvage_train_manifest_sha256": "a59fab42527c99de3f14d22d5dd460089606ac532c599ca23c710b89fc5e9117",
+  "schema": "cfe.dd2r1.recovery-static-qualification.v3",
+  "scientific_design_changed": false,
+  "status": "PASS",
+  "supersedes": "state/qualification/DD2R1_REVISIT_TOPOLOGY_RECOVERY_STATIC_R2_20260901.json"
+}

@@ -96,12 +96,12 @@ def main():
 
     # Recover seed 2026083121 CYCLIC_SPACED without retraining manifested science.
     seed=contract['seeds'][0]; arm='CYCLIC_SPACED'; parent_arm=a.parent_campaign/str(seed)/arm
-    parent_rm=parent_arm/'train/RUN_MANIFEST.json'; parent_adapter=parent_arm/'train/adapter/adapter_model.safetensors'
+    parent_rm=parent_arm/'train/RUN_MANIFEST.json'; parent_adapter_dir=parent_arm/'train/adapter'; parent_adapter=parent_adapter_dir/'adapter_model.safetensors'
     if sha256_file(parent_rm)!=amendment['salvage']['train_manifest_sha256'] or sha256_file(parent_adapter)!=amendment['salvage']['adapter_sha256']:
         raise SystemExit('SALVAGE_HASH_MISMATCH')
     print('RECOVER_EVAL',seed,arm,flush=True)
     rec_sd=a.out/str(seed)/arm; rec_eval=rec_sd/'eval'
-    em=eval_arm(py,root,a.candidate,a.contract,a.lock,a.host_lock,seed,arm,parent_adapter,parent_rm,rec_eval,rec_sd)
+    em=eval_arm(py,root,a.candidate,a.contract,a.lock,a.host_lock,seed,arm,parent_adapter_dir,parent_rm,rec_eval,rec_sd)
     spaced=arm_receipt(root,a.release_tag,a.repo,seed,arm,parent_rm,rec_eval/'EVAL_MANIFEST.json',parent_adapter,'SALVAGED_TRAIN__RECOVERED_EVAL')
 
     # Train only the missing paired arm fresh.
