@@ -101,3 +101,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | Microseed CSC reviewer | operator job ownership + live PID/port/model | job `job-489435c7630f`, PID24744, port18192, 1.5B | PRESERVE / NONBLOCKING UNDER ISOLATION |
 | CFE/Microseed coexistence | CFE leased frozen base-model load with Microseed alive | qualification `82872037b9e4fec99083935d1f4b8b5c75a22a0bf460c465f4558eeaddcb7755` | PASS; 3.752B base load coexistence qualified |
 | DD2R3 recovery | 2 sealed prior pairs + seed23 unmanifested + isolated runtime contract | amendment `5e1b78c37f723fbf036e202be26a74791db45a743dbed1173529545d0bea8303`; runner `763e377b0ec561dbd81331de192c3080b2a10eb9b2d7c33f6c5f535e363ad019`; static `c899663360820066427bfa440251f9f9585e81bdc3ddfd95ea5aaf417949456c` | PASS / LAUNCH AUTHORIZED |
+
+| DD2R3 live execution | runSync transport lost handle but local readback found exact command/process tree | `state/analysis/DD2R3_EXECUTION_TRACKING_2026-09-01.json` SHA `b100aecc772e567c6be97148c7f1e4ad3900508c30bc3c922cdb402ffb3b50b7` | RUNNING_PID_TRACKED / seed23 spaced |

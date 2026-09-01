@@ -42,3 +42,10 @@ Role: R4 Convergence Refiner
 
 ## Immediate next action
 Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains ownership of its two resident services.
+
+## DD2R3 launched — 2026-09-01 09:23 Eastern Daylight Time
+- RUNNING via PID-tracked fallback: root PID 12624, output `state/analysis/DD2R3_REVISIT_TOPOLOGY_RECOVERY_CAMPAIGN_20260901T0918ET`.
+- Normal async submission returned no job ID; direct transport lost client connection after launch. Readback proved exactly one DD2R3 process tree was live, so no duplicate was started.
+- Current phase at readback: seed3123 CYCLIC_SPACED training.
+- Microseed remained healthy during active CFE training: PID6744:18191 `ok`, PID24744:18192 `ok`.
+- Tracking receipt SHA `b100aecc772e567c6be97148c7f1e4ad3900508c30bc3c922cdb402ffb3b50b7`.

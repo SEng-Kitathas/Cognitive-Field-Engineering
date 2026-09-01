@@ -1,0 +1,35 @@
+{
+  "campaign_receipt_sha256": "ee3646a82d256d26e1cdfd7b18e2f983d8a04a1e1d72761d7a25f5fd1c775b69",
+  "current_phase": "seed 2026083123 CYCLIC_SPACED training",
+  "dd2r3_static_qualification_sha256": "c899663360820066427bfa440251f9f9585e81bdc3ddfd95ea5aaf417949456c",
+  "execution_identity": "DD2R3_REVISIT_TOPOLOGY_20260901",
+  "launch_transport": {
+    "async_submit_attempts": 2,
+    "async_submit_result": "EXECUTION_SUBMIT_FAILED job not found; no job ids returned",
+    "recovery_readback": "process and output directory verified live; no duplicate launch performed",
+    "runSync_client_result": "ClientResponseError after command launch"
+  },
+  "microseed_preservation_readback": [
+    {
+      "health": "ok",
+      "pid": 6744,
+      "port": 18191,
+      "role": "primary"
+    },
+    {
+      "health": "ok",
+      "pid": 24744,
+      "port": 18192,
+      "role": "CSC reviewer"
+    }
+  ],
+  "note": "Track this run by root PID/output manifests because execution transport lost the normal job handle. PID identity must be rechecked before any terminate action.",
+  "output_path": "state/analysis/DD2R3_REVISIT_TOPOLOGY_RECOVERY_CAMPAIGN_20260901T0918ET",
+  "ownership_contract_sha256": "0f8f56a07f91a6cf7ca1e3d73048cf6b4ced161203f3732cfbfffa276b48c530",
+  "root_parent_pid": 10720,
+  "root_pid": 12624,
+  "schema": "cfe.dd2r3.execution-tracking.v1",
+  "scientific_identity": "DD2_REVISIT_TOPOLOGY_20260901",
+  "status": "RUNNING_PID_TRACKED",
+  "timestamp": "2026-09-01T09:23:56-04:00"
+}

@@ -1010,3 +1010,7 @@ User supplied exact Microseed ownership: primary job job-7f0dcbe757dc on 18191/7
 
 ## Turn — ASSISTANT / BUILD-COMMIT
 Promoted the ownership handoff into CFE's cross-project runtime contract and registry. Changed Microseed residents from blocking to preserved/nonblocking under separate CFE process/port/job/runtime identity. Added reserved-port/job command checks. Live boundary PASS preserved both PIDs. CFE then loaded its frozen 3.752B base model under a CFE task lease with both Microseed servers alive; load PASS, both Microseed health endpoints remained ok, and no CFE worker leaked. Froze DD2R2's two sealed pairs and qualified DD2R3 PASS for fresh continuation at seed23.
+
+## DD2R3 launch readback — ASSISTANT
+Timestamp: 2026-09-01 09:23 Eastern Daylight Time
+Two async submit attempts failed before job-id allocation. A direct execution request lost its client connection but actually launched the campaign. Readback found exactly one DD2R3 root process PID12624 and active seed23 CYCLIC_SPACED training, with Microseed resident PIDs6744/24744 still healthy. Execution is therefore tracked by PID + campaign manifests rather than a scheduler job handle.

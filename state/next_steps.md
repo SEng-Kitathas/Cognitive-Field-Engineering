@@ -21,3 +21,8 @@ As of: 2026-09-01 09:17 Eastern Daylight Time
 - Recompute cartography ranking with DD2 result plus historical priors.
 - Typed relation remains suspended on current predicate substrate until independently manipulable.
 - Constructive/destructive evidence geometry remains a candidate latent axis requiring hostile qualification.
+
+## Active execution monitoring
+- Track DD2R3 by root PID 12624 + campaign receipt/manifests because no normal job handle was returned.
+- Before any termination, re-resolve PID command identity to avoid PID-reuse mistakes.
+- Do not launch another CFE model-heavy task while DD2R3 is live.
