@@ -1,46 +1,28 @@
 # CFE LIVE SHADOW
 
 ## Thread Identity
-- Last Updated: 2026-09-01 06:20 Eastern Daylight Time
+- Last Updated: 2026-09-01 09:17 Eastern Daylight Time
 - Mode: BUILD-COMMIT
-- Dominant Objective: close DD2 structured-revisit science while using E-drive archaeology only as historical priors.
+- Dominant Objective: complete DD2 without interfering with Microseed's resident model services.
 
-## Core State
+## Authoritative State
 - DD1 closed `FIELD_RESOLUTION_SUPPORTED`.
-- Typed relation suspended on current predicate substrate: not independently manipulable there.
-- DD2 structured revisit is the frozen next derivative.
-- Parent DD2 job failed execution-layer during first-arm evaluation; 0 paired seeds admitted.
-- Completed first-arm training is intact and salvageable because RUN_MANIFEST exists and no EVAL_MANIFEST exists.
-- DD2R1 recovery static gate PASS 19/19; science unchanged.
+- DD2 structured revisit remains frozen next derivative.
+- DD2 recovery has 2/6 sealed pairs; seed23 is unmanifested/fresh.
+- DD2R3 static qualification PASS.
 
-## Archaeology
-- Historical prior layer bound, not scientific occupancy.
-- Strong ancestry: topology-first training data, stateful resume/revisit, typed structure, constructive/destructive structure, curriculum ordering, local-vs-global basins, factor/prune/verify search grammar.
+## Cross-project runtime contract
+- Shared Forge files are safe/readable by both projects.
+- Microseed live ownership:
+  - `job-7f0dcbe757dc` / port18191 / PID6744 / 7B primary;
+  - `job-489435c7630f` / port18192 / PID24744 / 1.5B CSC reviewer.
+- CFE never terminates/reuses those processes, ports, jobs, or live runtime instances.
+- CFE model tasks use separate PID leases and CFE-owned runtime/output directories.
+- Unknown model services are preserved and block, never killed.
 
-## Cartography integrity
-- Frozen DD2 map restored SHA `6ff38f8eec99f886115d8bceef2419758f696897541fb8d51f341e533215922a`.
-- Active successor with archaeology SHA `e399044856e4e6f93de4fd18f48910ff55c4a73fb4cace8ac7030416e4cdb51b`; pointer SHA `638bafc27a023a193a6808add13e5c6f834177a5394f098e43f8184161dd9275`.
+## Verified coexistence
+- CFE frozen base load PASS with both Microseed services alive; 3,752,087,552 parameters loaded.
+- Microseed PIDs/health unchanged after CFE task exit.
 
 ## Immediate Next Step
-Launch sole DD2R1 GPU recovery; no new scientific design until DD2 disposition and cartography reconciliation.
-
-## Runtime delta — 2026-09-01 06:27 Eastern Daylight Time
-- DD2R1 attempt3 `job-d021065c00bb` running after host-memory remediation and recovery-runner path repair.
-- seed3121 CYCLIC_SPACED eval complete, still pair-unqualified.
-- Singularity Works llama servers 8091/8092 were orphan model runtimes; do NOT restore automatically.
-
-## Host exclusivity delta — 2026-09-01 06:52 Eastern Daylight Time
-- Every future training start must pass force-exit + survivor scan via `cfe_training_launch.py`.
-- DD2R2 recovery is qualified 19/19 and is the next active execution identity.
-
-## Host-cleanliness delta — 2026-09-01 07:55 Eastern Daylight Time
-- Training host rule now includes guaranteed post-task cleanup in `finally`, failure included, with 6s stable-clean dwell.
-- Future eval/model-load tasks use generic model-task wrapper.
-- Qualification PASS `ae0b0f21e83f9f20970a7dd40546d8f849679c3ca04187a3f1a8aca5da6771ee`.
-
-## Recovery delta — 2026-09-01 08:39 Eastern Daylight Time
-- Kill-all model cleanup revoked.
-- PCMMAD resident model workers 6744:18191 and 24744:18192 are healthy, protected control-plane children.
-- CFE task ownership now uses PID leases; unknown/resident services are preserve+block, never auto-kill.
-- DD2 paused safely at 2/6 sealed pairs; seed23 unmanifested.
-- Immediate next step: cooperative resident-model release/pause protocol before resuming GPU/model work.
+Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrently.

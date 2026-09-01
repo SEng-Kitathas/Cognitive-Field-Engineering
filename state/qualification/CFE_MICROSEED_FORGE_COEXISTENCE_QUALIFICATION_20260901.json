@@ -1,0 +1,40 @@
+{
+  "cfe_frozen_base_parameters_loaded": 3752087552,
+  "cfe_task_lease_path": "state/host_control/task_leases/36184.json",
+  "cfe_task_lease_sha256": "629eb63d00cbf959b3f55026896aef94df1bc098a980b326ebc34a41bd5dbd26",
+  "cfe_task_return_code": 0,
+  "cfe_worker_leak_detected": false,
+  "claim_ceiling": "CFE frozen base-model load can coexist with current Microseed resident model services under distinct process/port/job/runtime ownership. This does not guarantee arbitrary future memory-heavy concurrency without per-task observation.",
+  "coexistence_base_load": "PASS",
+  "identity_boundary_pass": true,
+  "microseed_pids_preserved_after_cfe_load": [
+    6744,
+    24744
+  ],
+  "microseed_services": [
+    {
+      "health_after": "ok",
+      "job_id": "job-7f0dcbe757dc",
+      "model": "Qwen2.5-Coder-7B",
+      "pid": 6744,
+      "port": 18191,
+      "role": "primary"
+    },
+    {
+      "health_after": "ok",
+      "job_id": "job-489435c7630f",
+      "model": "Qwen2.5-Coder-1.5B",
+      "pid": 24744,
+      "port": 18192,
+      "role": "CSC reviewer"
+    }
+  ],
+  "policy_sha256": "a3d03c350569bb07cd258766a71f8a931e0526703e61516c28b67e761ac78d22",
+  "registry_sha256": "bc34680b355ff33d1c86979bb25859238300ae808d00fda767be21299f5df924",
+  "reserved_job_rejection_pass": true,
+  "reserved_port_rejection_pass": true,
+  "runtime_isolation_contract_sha256": "0f8f56a07f91a6cf7ca1e3d73048cf6b4ced161203f3732cfbfffa276b48c530",
+  "schema": "cfe.microseed-forge-coexistence-qualification.v1",
+  "status": "PASS",
+  "timestamp": "2026-09-01T09:15:51-04:00"
+}

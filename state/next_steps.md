@@ -1,37 +1,23 @@
 # CFE NEXT STEPS
 
-As of: 2026-09-01 06:20 Eastern Daylight Time
+As of: 2026-09-01 09:17 Eastern Daylight Time
 
-## P0 — DD2R1 execution recovery
-1. Publish recovery amendment/runner/static PASS state.
-2. Launch sole DD2R1 campaign.
-3. Evaluate salvaged seed3121 CYCLIC_SPACED without retraining it.
-4. Remote-verify salvaged adapter, then train paired WINDOW_MASSED fresh and require identical initialization hash.
-5. Run seeds3122–3126 both arms fresh.
-6. Aggregate only 6/6 complete pairs.
-7. Apply frozen DD2 disposition mechanically before prose.
-8. Update active successor cartography using DD2 result plus historical-prior layer.
+## P0 — DD2R3
+1. Launch sole DD2R3 recovery under unchanged DD2 science.
+2. Reuse sealed seeds 3121-3122 exactly; no rerun.
+3. Restart seed3123 fresh because no RUN_MANIFEST existed at pause.
+4. Run seeds3123-3126 both arms using CFE task leases and Microseed-preserving coordination.
+5. Aggregate only after 6/6 complete pairs.
+6. Apply frozen DD2 disposition mechanically before interpretation.
+7. Update active successor cartography after formal DD2 disposition.
 
-## P1 — archaeology quarry after DD2
-- Hostile-qualify constructive/destructive evidence geometry as a candidate axis.
-- Revisit typed relation on a substrate where relation type can be made independent of proximity.
-- Preserve old Gen1/TQ2 findings as priors/engineering quarry, never scientific occupancy.
+## P0 — runtime isolation invariant
+- Preserve Microseed jobs `job-7f0dcbe757dc`, `job-489435c7630f`.
+- Preserve ports 18191/18192.
+- Shared Forge files may be read; CFE owns separate runtime/process/job/output identity.
+- Unknown model services => preserve + block.
 
-## P0 — host exclusivity
-- All new training launches use `tools/cfe_training_launch.py`; fail closed if model-serving runtimes survive preflight.
-- Do not restore orphan model servers after training.
-
-## P0 — DD2R2
-- Launch DD2R2 under unchanged science and host-exclusivity policy.
-- Reuse recovered seed3121 CYCLIC_SPACED train/eval/remote evidence; do not rerun it.
-- Train missing WINDOW_MASSED and all later arms only through mandatory launcher.
-
-## Host cleanliness invariant
-- Do not begin another model task after a failed/successful training task until post-cleanup receipt is PASS.
-- Respawn during cleanup resets stable-clean dwell; repeated respawn is an execution blocker, not a science failure.
-
-## P0 — control-plane/model-task coordination
-1. Do not resume DD2 while authorized resident model workers block the host boundary.
-2. Locate or implement a cooperative control-plane release/pause lease for resident model workers.
-3. Preserve exact service identity and PID/port readback; never infer orphan status from executable class.
-4. After cooperative release is qualified, resume DD2 from seeds21-22 sealed state; seed23 restarts fresh because no RUN_MANIFEST was admitted.
+## P1 — archaeology-informed frontier after DD2
+- Recompute cartography ranking with DD2 result plus historical priors.
+- Typed relation remains suspended on current predicate substrate until independently manipulable.
+- Constructive/destructive evidence geometry remains a candidate latent axis requiring hostile qualification.

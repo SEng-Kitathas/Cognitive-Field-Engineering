@@ -139,6 +139,20 @@ def cleanup_after_model_task(project_root:Path,*,phase:str,task_return_code:int|
     return receipt
 
 
+
+def validate_cfe_task_isolation(project_root:Path,command:list[str])->dict:
+    """Reject commands that attempt to claim Microseed-reserved ports/jobs; shared immutable Forge files remain allowed."""
+    root=Path(project_root).resolve();reg=_load_registry(root);joined=' '.join(str(x) for x in command).lower()
+    conflicts=[]
+    for port in reg.get('reserved_ports',[]):
+        tokens=[f'--port {port}',f'--port={port}',f':{port}',f' 127.0.0.1:{port}']
+        if any(t.lower() in joined for t in tokens):conflicts.append({'kind':'PORT','value':port})
+    for job in reg.get('reserved_jobs',[]):
+        if str(job).lower() in joined:conflicts.append({'kind':'JOB','value':job})
+    result={'schema':'cfe.task-isolation-validation.v1','status':'PASS' if not conflicts else 'FAIL_RESERVED_MICROSEED_IDENTITY','conflicts':conflicts,'shared_asset_rule':reg.get('shared_asset_rule'),'working_directory':str(root)}
+    if conflicts:raise RuntimeError('CFE_TASK_ISOLATION_CONFLICT:'+json.dumps(conflicts,sort_keys=True))
+    return result
+
 def open_task_lease(project_root:Path,*,phase:str,child_pid:int,command:list[str])->Path:
     root=Path(project_root).resolve();d=root/LEASE_DIR_REL;d.mkdir(parents=True,exist_ok=True)
     obj={'schema':'cfe.model-task-lease.v1','status':'RUNNING','timestamp_opened':datetime.now().astimezone().isoformat(timespec='seconds'),'owner':'CFE','wrapper_pid':os.getpid(),'child_pid':int(child_pid),'phase':phase,'command':command}

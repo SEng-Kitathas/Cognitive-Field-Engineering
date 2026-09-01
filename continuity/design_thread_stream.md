@@ -1001,3 +1001,12 @@ User identified that one or two model runtimes targeted by the new kill-all clea
 
 ## Turn — ASSISTANT / RECOVERY
 Terminated final cleanup guard and DD2R2 at an unmanifested seed23 boundary. Verified two sealed DD2 pairs survive. Replaced process-class killing with identity-first resident-service registry and CFE-owned PID task leases. Live discovery showed Qwen 7B PID6744:18191 and Qwen1.5B PID24744:18192 are children of PCMMAD receiver PID10720; both health endpoints return ok. Broad kill policy superseded. Preflight now blocks while preserving residents. Exact Microseed/SOP role split remains unresolved.
+
+---
+## Turn — USER
+Timestamp: 2026-09-01 09:17 Eastern Daylight Time
+Tags: MICROSEED OWNERSHIP HANDOFF, FORGE ISOLATION
+User supplied exact Microseed ownership: primary job job-7f0dcbe757dc on 18191/7B and CSC reviewer job job-489435c7630f on 18192/1.5B. Shared Forge files are safe; collision was live runtime ownership. User also supplied Microseed frontier-status context, explicitly separate from canonical production code.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Promoted the ownership handoff into CFE's cross-project runtime contract and registry. Changed Microseed residents from blocking to preserved/nonblocking under separate CFE process/port/job/runtime identity. Added reserved-port/job command checks. Live boundary PASS preserved both PIDs. CFE then loaded its frozen 3.752B base model under a CFE task lease with both Microseed servers alive; load PASS, both Microseed health endpoints remained ok, and no CFE worker leaked. Froze DD2R2's two sealed pairs and qualified DD2R3 PASS for fresh continuation at seed23.

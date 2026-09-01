@@ -1,0 +1,137 @@
+{
+  "amendment_sha256": "5e1b78c37f723fbf036e202be26a74791db45a743dbed1173529545d0bea8303",
+  "checks": [
+    {
+      "pass": true,
+      "path": "state/analysis/CFE_CARTOGRAPHY_HOSTILE_CONSTRAINT_MAP_2026-08-31.json"
+    },
+    {
+      "pass": true,
+      "path": "state/analysis/CFE_NEGATIVE_SPACE_INTERVENTION_LATTICE_2026-08-31.json"
+    },
+    {
+      "pass": true,
+      "path": "state/analysis/DD1R1_PREDICATE_FIELD_RESOLUTION_FINAL_DISPOSITION_2026-08-31.json"
+    },
+    {
+      "pass": true,
+      "path": "state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.jsonl"
+    },
+    {
+      "pass": true,
+      "path": "state/candidates/dd1_predicate_field_resolution_r2_20260831/IDENTIFYING_COVISIBLE.token_reference.private.jsonl"
+    },
+    {
+      "pass": true,
+      "path": "state/candidates/dd1_predicate_field_resolution_r2_20260831/MANIFEST.json"
+    },
+    {
+      "pass": true,
+      "path": "state/candidates/dd1_predicate_field_resolution_r2_20260831/PREDICATE_EVAL.private.jsonl"
+    },
+    {
+      "pass": true,
+      "path": "state/next_steps/DD2_REVISIT_TOPOLOGY_CARTOGRAPHY_BINDING_2026-09-01.json"
+    },
+    {
+      "pass": true,
+      "path": "state/next_steps/DD2_REVISIT_TOPOLOGY_PREREG_2026-09-01.json"
+    },
+    {
+      "pass": true,
+      "path": "state/next_steps/DD2_REVISIT_TOPOLOGY_TRAINING_CONTRACT_2026-09-01.json"
+    },
+    {
+      "pass": true,
+      "path": "state/qualification/DD2_STRUCTURED_REVISIT_SCHEDULE_QUALIFICATION_20260901.json"
+    },
+    {
+      "pass": true,
+      "path": "state/qualification/TYPED_RELATION_AXIS_HOSTILE_GATE_20260901.json"
+    },
+    {
+      "pass": true,
+      "path": "state/qualification/V14R_PREDICATE_HORIZON_REPEATABILITY_20260831/PROFILE_LOCK.json"
+    },
+    {
+      "pass": true,
+      "path": "state/qualification/V14R_PREDICATE_HORIZON_RUNTIME_20260831/HOST_LOCK.json"
+    },
+    {
+      "pass": true,
+      "path": "tools/dd2_revisit_topology_common.py"
+    },
+    {
+      "pass": true,
+      "path": "tools/evaluate_dd2_revisit_disposition.py"
+    },
+    {
+      "pass": true,
+      "path": "tools/evaluate_dd2_revisit_topology.py"
+    },
+    {
+      "pass": true,
+      "path": "tools/run_dd2_revisit_topology_campaign.py"
+    },
+    {
+      "pass": true,
+      "path": "tools/train_dd2_revisit_topology.py"
+    }
+  ],
+  "coexistence_qualification_sha256": "82872037b9e4fec99083935d1f4b8b5c75a22a0bf460c465f4558eeaddcb7755",
+  "coexistence_qualification_status": "PASS",
+  "input_lock_sha256": "04ee03408154095e2b1b9b78ae3fd9c2f6aac578c894f100a2e989856926ebc4",
+  "live_service_boundary_status": "PASS",
+  "lock_files_passed": 19,
+  "lock_files_total": 19,
+  "microseed_pids_after": {
+    "microseed_csc_reviewer_qwen15b": 24744,
+    "microseed_primary_qwen7b": 6744
+  },
+  "microseed_pids_before": {
+    "microseed_csc_reviewer_qwen15b": 24744,
+    "microseed_primary_qwen7b": 6744
+  },
+  "microseed_pids_preserved": true,
+  "policy_sha256": "a3d03c350569bb07cd258766a71f8a931e0526703e61516c28b67e761ac78d22",
+  "prior_receipt_hash_pass": true,
+  "prior_receipt_sha256": "40653f81eb325c72efc7cf33f2f51f7c0dd5367ceb8238205990c4ab4bc6f92e",
+  "recovered_jobs_exact_pass": true,
+  "recovered_pair_count": 2,
+  "registry_sha256": "bc34680b355ff33d1c86979bb25859238300ae808d00fda767be21299f5df924",
+  "remote_checks": [
+    {
+      "arm": "CYCLIC_SPACED",
+      "asset": "dd2_seed2026083121_CYCLIC_SPACED_adapter_model.safetensors",
+      "pass": true,
+      "seed": 2026083121
+    },
+    {
+      "arm": "WINDOW_MASSED",
+      "asset": "dd2_seed2026083121_WINDOW_MASSED_adapter_model.safetensors",
+      "pass": true,
+      "seed": 2026083121
+    },
+    {
+      "arm": "CYCLIC_SPACED",
+      "asset": "dd2_seed2026083122_CYCLIC_SPACED_adapter_model.safetensors",
+      "pass": true,
+      "seed": 2026083122
+    },
+    {
+      "arm": "WINDOW_MASSED",
+      "asset": "dd2_seed2026083122_WINDOW_MASSED_adapter_model.safetensors",
+      "pass": true,
+      "seed": 2026083122
+    }
+  ],
+  "remote_recovered_assets_passed": 4,
+  "remote_recovered_assets_total": 4,
+  "resume_starts_after_two_recovered_pairs": true,
+  "runner_sha256": "763e377b0ec561dbd81331de192c3080b2a10eb9b2d7c33f6c5f535e363ad019",
+  "runner_uses_model_task_launcher": true,
+  "runner_uses_training_launcher": true,
+  "schema": "cfe.dd2r3.recovery-static-qualification.v1",
+  "scientific_design_changed": false,
+  "status": "PASS"
+}

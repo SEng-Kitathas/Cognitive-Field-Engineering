@@ -1,87 +1,104 @@
-# CFE Model Service Coordination Policy
+# CFE / Microseed Model Service Coordination Policy
 
-Status: **ACTIVE / FIRST-CLASS EXECUTION CONTROL**
+Status: **ACTIVE / FIRST-CLASS CROSS-PROJECT EXECUTION CONTROL**
 Effective: 2026-09-01
-Supersedes: `policy/CFE_TRAINING_HOST_EXCLUSIVITY_POLICY.md`
-Reason: operator identified that one or more resident model servers may power Microseed/SOP machinery; process-class termination is therefore unsafe.
+Supersedes: broad host-exclusivity / model-class kill policies.
 
-## Core correction
-CFE SHALL NOT infer ownership or expendability from executable class.
+## Core distinction
+Shared immutable Forge assets are safe to reuse. Live runtime ownership is not shared.
+
+`SHARED FORGE FILES != SHARED PROCESS OWNERSHIP`
+
+`SHARED MODEL FILES != SHARED PORTS`
+
+`SHARED MODEL FILES != SHARED JOBS`
+
+`SHARED MODEL FILES != SHARED RUNTIME DIRECTORIES`
 
 `PROCESS CLASS != AUTHORITY`
 
-`MODEL SERVER != ORPHAN`
+## Microseed ownership
+Microseed currently owns these resident model services:
 
-`UNKNOWN MODEL SERVICE => PRESERVE + BLOCK, NEVER AUTO-KILL`
+### Primary
+- job: `job-7f0dcbe757dc`
+- port: `18191`
+- model: Qwen2.5-Coder-7B
 
-`PROTECTED/RESIDENT SERVICE => PRESERVE`
+### CSC reviewer
+- job: `job-489435c7630f`
+- port: `18192`
+- model: Qwen2.5-Coder-1.5B
 
-`CFE MAY TERMINATE ONLY AN EXPLICITLY CFE-OWNED TASK TREE OR REGISTERED CFE-MANAGED TRANSIENT SERVICE`
+These live services SHALL be preserved by CFE.
 
-## Two authority namespaces
-### Resident service registry
-Resident or potentially load-bearing services are described in:
+CFE SHALL NOT:
+- terminate them;
+- reuse their PIDs as authority;
+- bind ports 18191/18192;
+- reuse their job IDs;
+- adopt their live runtime directories;
+- broadly kill Forge/llama processes by executable class.
 
-`state/host_control/AUTHORIZED_MODEL_SERVICE_REGISTRY.json`
+## Shared Forge assets
+The underlying immutable files under the Forge/Singularity Works paths MAY be read by both projects.
 
-A registry entry binds service identity to stable process evidence such as:
-- executable path;
-- model path or command signature;
-- port;
-- owner/purpose when known;
-- classification;
-- whether its presence blocks a CFE model task.
+CFE MAY start its own process using the same immutable model/runtime files when:
+- the process is CFE-owned;
+- it has a distinct job identity;
+- it uses a distinct port if a server port is required;
+- it uses CFE-owned output/runtime state directories;
+- host memory/GPU capacity has been independently qualified.
 
-A PID is runtime evidence, not permanent identity. PID reuse SHALL trigger identity re-check.
+The source model/runtime files SHALL be treated as read-only shared assets unless a separate mutation contract exists.
 
-### CFE model-task leases
-Every CFE-launched train/eval/model-loading child process receives an owned task lease under:
+## CFE task ownership
+Every CFE-launched model task receives a task lease under:
 
 `state/host_control/task_leases/`
 
-The lease records:
-- wrapper PID;
-- child PID;
-- phase;
-- exact command;
-- open/close timestamps;
-- return code.
+The lease records wrapper PID, child PID, exact command, phase, timestamps, and return code.
 
-Only a PID/tree owned by such a CFE lease may be force-terminated by generic CFE task cleanup.
+Generic task cleanup may terminate only the explicitly leased CFE child tree.
 
-## Pre-task behavior
-Before CFE launches a model-heavy task:
-1. discover current model-serving processes;
-2. classify each against the resident-service registry;
-3. preserve every registered resident/protected service;
-4. preserve every unknown service;
-5. if any unknown or `blocks_cfe_model_task=true` service is present, FAIL CLOSED **without killing it**;
-6. proceed only when service/resource ownership is unambiguous.
+## Pre-task discovery
+Before a CFE model task:
+1. discover model-serving processes;
+2. classify them using `state/host_control/AUTHORIZED_MODEL_SERVICE_REGISTRY.json`;
+3. preserve known Microseed resident services;
+4. preserve unknown services;
+5. fail closed only on unknown/conflicting ownership, not merely because authorized Microseed services exist;
+6. reject any CFE command that attempts to claim reserved Microseed ports/jobs;
+7. independently verify adequate resource capacity for the intended CFE model task when the task is material.
 
-This converts hidden resource collisions into explicit coordination blockers rather than destructive cleanup.
+## Unknown services
+`UNKNOWN MODEL SERVICE => PRESERVE + BLOCK, NEVER AUTO-KILL`
+
+Unknown process identity is a coordination seam, not permission to infer orphan status.
 
 ## Post-task behavior
 After a CFE-owned model task:
-- close its task lease;
-- terminate only its still-live explicitly leased child tree if necessary;
-- terminate only services explicitly registered as `TERMINATE_CFE_MANAGED_TRANSIENT`;
-- preserve resident/protected/unknown model services;
-- record discovery state for the next task.
+- close its CFE task lease;
+- reap only its still-live leased CFE process tree if needed;
+- preserve Microseed residents;
+- preserve unknown services;
+- record post-task service discovery.
 
-An unknown resident service after a task is an attention/blocker condition, not permission to kill it.
+## Cross-project research status boundary
+Microseed frontier results supplied in the ownership handoff are cross-project context, not CFE scientific occupancy.
 
-## Historical 8091/8092 services
-The two Singularity Works llama-server signatures discovered during DD2 are registered as `PROTECTED_PENDING_IDENTITY`:
-- Qwen2.5-Coder-7B-Instruct-abliterated on port 8091;
-- Qwen2.5-Coder-1.5B-Instruct-abliterated on port 8092.
+Current operator-reported Microseed status:
+- G_NAKED sealed;
+- B_DRIFT sealed;
+- A_TARGET sealed;
+- K_RED_TEAM sealed;
+- C_SCALE passed its bounded three-level execution discriminator and result-level CSC PASS; research-branch sealing / dedicated continuity reconciliation remained pending at handoff;
+- I_GROWTH is a verified negative and remains open under CSC REVIEW;
+- no canonical Microseed production code was changed by those frontier results.
 
-Operator reports one or both may have powered Microseed/SOP machinery. CFE has not proven which one. Therefore both are protected until identity is resolved.
-
-No current Windows service, scheduled task, or Startup entry was found that proves their launcher/owner.
+CFE SHALL NOT promote these facts into CFE causal doctrine without an explicit transfer argument and CFE evidence.
 
 ## Scientific boundary
-This policy governs host/process coordination only.
-
 `PROCESS COORDINATION != SCIENTIFIC ADAPTATION`
 
-It SHALL NOT alter frozen experimental rows, schedules, seeds, tokenization, learner identity, optimizer, evaluator, or disposition rules.
+This policy SHALL NOT alter frozen CFE rows, schedules, seeds, tokenization, learner identity, optimizer, evaluator, or disposition rules.

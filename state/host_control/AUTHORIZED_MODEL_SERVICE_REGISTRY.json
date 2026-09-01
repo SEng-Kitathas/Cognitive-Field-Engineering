@@ -1,13 +1,30 @@
 {
-  "schema": "cfe.model-service-registry.v2",
-  "status": "ACTIVE",
-  "policy": "IDENTITY_FIRST__CONTROL_PLANE_RESIDENTS_PRESERVED__UNKNOWN_NEVER_AUTO_KILLED",
+  "laws": [
+    "PROCESS_CLASS != AUTHORITY",
+    "SHARED_IMMUTABLE_MODEL_FILES != SHARED_RUNTIME_OWNERSHIP",
+    "MICROSEED_PORTS_18191_18192_ARE_RESERVED",
+    "MICROSEED_JOBS_ARE_RESERVED",
+    "AUTHORIZED_MICROSEED_RESIDENTS => PRESERVE_AND_ALLOW_CFE_SEPARATE_RUNTIME",
+    "UNKNOWN_MODEL_SERVICE => BLOCK_NOT_KILL",
+    "CFE_MAY_TERMINATE_ONLY_EXPLICITLY_CFE_OWNED_TASK_LEASES",
+    "PID_REUSE_REQUIRES_IDENTITY_RECHECK",
+    "CFE_RUNTIME_DIRECTORY_PORT_JOB_IDENTITY_MUST_BE_DISTINCT_FROM_MICROSEED"
+  ],
+  "policy": "IDENTITY_FIRST__MICROSEED_RESIDENTS_PRESERVED_NONBLOCKING__UNKNOWN_BLOCKS",
+  "reserved_jobs": [
+    "job-7f0dcbe757dc",
+    "job-489435c7630f"
+  ],
+  "reserved_ports": [
+    18191,
+    18192
+  ],
+  "schema": "cfe.model-service-registry.v3",
   "services": [
     {
-      "service_id": "pcmmad_receiver_control_plane",
-      "classification": "AUTHORIZED_CONTROL_PLANE",
       "action": "PRESERVE",
       "blocks_cfe_model_task": false,
+      "classification": "AUTHORIZED_CONTROL_PLANE",
       "match": {
         "command_contains": [
           "PCMMAD_RECEIVER_V29_NATIVE_PROTOCOL_RC1",
@@ -15,50 +32,68 @@
           "server.py"
         ]
       },
-      "notes": "PCMMAD receiver/control plane. Never terminate from CFE host cleanup."
+      "notes": "PCMMAD receiver/control plane. Never terminate from CFE host cleanup.",
+      "service_id": "pcmmad_receiver_control_plane"
     },
     {
-      "service_id": "pcmmad_resident_qwen7b",
-      "classification": "AUTHORIZED_RESIDENT_CONTROL_PLANE_MODEL",
-      "action": "PRESERVE_AND_BLOCK_MODEL_TASK",
-      "blocks_cfe_model_task": true,
+      "action": "PRESERVE",
+      "blocks_cfe_model_task": false,
+      "classification": "AUTHORIZED_RESIDENT_MICROSEED_MODEL",
       "match": {
-        "executable_path": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
         "command_contains": [
           "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf"
-        ]
+        ],
+        "executable_path": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe"
       },
+      "notes": "Microseed primary resident model. Shared immutable Forge model/runtime files are reusable by CFE, but this live process/port/job belongs to Microseed.",
       "observed_instances": [
-        {"port": 8091, "historical_pid": 25948, "historical_parent_pid": 35656},
-        {"port": 18191, "observed_pid": 6744, "observed_parent_pid": 10720}
+        {
+          "historical_parent_pid": 35656,
+          "historical_pid": 25948,
+          "port": 8091
+        },
+        {
+          "observed_parent_pid": 10720,
+          "observed_pid": 6744,
+          "port": 18191
+        }
       ],
-      "notes": "Verified current owner lineage: PCMMAD receiver process tree. Operator reports one or both resident models may power Microseed/SOP machinery; exact role split remains unresolved. Preserve."
+      "owner_job_id": "job-7f0dcbe757dc",
+      "owner_project": "Microseed",
+      "reserved_port": 18191,
+      "runtime_rule": "CFE_MUST_NOT_TERMINATE_REUSE_OR_BIND_THIS_PORT_JOB_OR_RUNTIME_INSTANCE",
+      "service_id": "microseed_primary_qwen7b"
     },
     {
-      "service_id": "pcmmad_resident_qwen15b",
-      "classification": "AUTHORIZED_RESIDENT_CONTROL_PLANE_MODEL",
-      "action": "PRESERVE_AND_BLOCK_MODEL_TASK",
-      "blocks_cfe_model_task": true,
+      "action": "PRESERVE",
+      "blocks_cfe_model_task": false,
+      "classification": "AUTHORIZED_RESIDENT_MICROSEED_MODEL",
       "match": {
-        "executable_path": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
         "command_contains": [
           "Qwen2.5-Coder-1.5B-Instruct-abliterated-Q4_K_L.gguf"
-        ]
+        ],
+        "executable_path": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe"
       },
+      "notes": "Microseed CSC reviewer resident model. Shared immutable Forge model/runtime files are reusable by CFE, but this live process/port/job belongs to Microseed.",
       "observed_instances": [
-        {"port": 8092, "historical_pid": 35488, "historical_parent_pid": 35656},
-        {"port": 18192, "observed_pid": 24744, "observed_parent_pid": 10720}
+        {
+          "historical_parent_pid": 35656,
+          "historical_pid": 35488,
+          "port": 8092
+        },
+        {
+          "observed_parent_pid": 10720,
+          "observed_pid": 24744,
+          "port": 18192
+        }
       ],
-      "notes": "Verified current owner lineage: PCMMAD receiver process tree. Exact Microseed/SOP role is not yet proven. Preserve."
+      "owner_job_id": "job-489435c7630f",
+      "owner_project": "Microseed",
+      "reserved_port": 18192,
+      "runtime_rule": "CFE_MUST_NOT_TERMINATE_REUSE_OR_BIND_THIS_PORT_JOB_OR_RUNTIME_INSTANCE",
+      "service_id": "microseed_csc_reviewer_qwen15b"
     }
   ],
-  "laws": [
-    "PROCESS_CLASS != AUTHORITY",
-    "CONTROL_PLANE_CHILD_MODEL => PRESERVE",
-    "UNKNOWN_MODEL_SERVICE => BLOCK_NOT_KILL",
-    "CFE_MAY_TERMINATE_ONLY_EXPLICITLY_CFE_MANAGED_TRANSIENT_SERVICE_PIDS_OR_OWNED_TASK_LEASES",
-    "PID_REUSE_REQUIRES_IDENTITY_RECHECK",
-    "MODEL_SERVICE_OWNERSHIP_MUST_BE_EXPLICIT_BEFORE_AUTOMATED_TERMINATION",
-    "AUTHORIZED_RESIDENT_RESOURCE_CONFLICT => COORDINATE_OR_BLOCK, NEVER KILL"
-  ]
+  "shared_asset_rule": "FORGE_MODEL_AND_RUNTIME_FILES_MAY_BE_SHARED_READ_ONLY; LIVE PORTS_JOBS_PROCESSES_RUNTIME_DIRS_MUST_BE_ISOLATED",
+  "status": "ACTIVE"
 }

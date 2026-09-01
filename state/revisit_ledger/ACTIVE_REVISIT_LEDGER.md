@@ -40,3 +40,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | P1 science | Typed relation on new substrate | historical typed-cell/tuple work strengthens prior but current predicate axis collapsed | needs substrate where relation type is orthogonal to proximity | design only after DD2/map update | suspended on current substrate |
 
 | P0 control plane | Resident model release/lease protocol | CFE cannot safely share host memory with resident PCMMAD model workers and may not kill them | receiver/model manager ownership API or cooperative pause/restart handshake | implement and qualify before DD2 resume | OPEN / BLOCKING MODEL WORK |
+
+| P1 cross-project | Exact resource-pressure envelope for concurrent Microseed + future larger CFE model tasks | current DD2 base-load coexistence passes but arbitrary future concurrency is not proven | larger/different learner could exceed memory/GPU envelope | per-task model-load smoke or resource qualification when regime materially changes | OPEN / NONBLOCKING FOR CURRENT DD2 |

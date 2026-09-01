@@ -1,8 +1,8 @@
 # CFE CURRENT STATE
 
-As of: 2026-09-01 06:20 Eastern Daylight Time
+As of: 2026-09-01 09:17 Eastern Daylight Time
 Mode: BUILD-COMMIT
-Role: R5 Reality Pressure Engine
+Role: R4 Convergence Refiner
 
 ## Core intent
 - Engineer developmental experience, not internal ontology.
@@ -11,61 +11,34 @@ Role: R5 Reality Pressure Engine
 ## Closed science
 - DD1: `FIELD_RESOLUTION_SUPPORTED`; local identifying co-visibility has a positive main effect but is insufficient for stable two-sided competence.
 
-## E-drive archaeology — bound as historical prior
-- Crosswalk `state/analysis/E_DRIVE_PREFORMAL_CFE_ARCHAEOLOGY_CROSSWALK_2026-09-01.json` SHA `24ac9f376c525b6971ac967e91879ddd842df47aa217de6696ecd15b7a7d0053`.
-- Evidence class: `HISTORICAL_MECHANISM_COORDINATE_PRIOR`, never retroactive CFE scientific occupancy.
-- Strong priors: topology-class training objects; structured revisit/currentness; typed relation structure; constructive+destructive/excision geometry; local-basin != global sufficiency; axis factoring/boundary pruning.
-- Typed relation remains suspended on current predicate substrate because current hostile independence gate controls over historical analogy.
+## Archaeology
+- E-drive pre-formal material remains `HISTORICAL_MECHANISM_COORDINATE_PRIOR`, never retroactive CFE occupancy.
 
-## Cartography lineage
-- Frozen DD2-bound predecessor restored byte-exact SHA `6ff38f8eec99f886115d8bceef2419758f696897541fb8d51f341e533215922a`.
-- Active informed successor `state/analysis/CFE_NEGATIVE_SPACE_INTERVENTION_LATTICE_2026-09-01_POST_ARCHAEOLOGY.json` SHA `e399044856e4e6f93de4fd18f48910ff55c4a73fb4cace8ac7030416e4cdb51b`.
-- Active pointer `state/analysis/CFE_CARTOGRAPHY_ACTIVE_POINTER_2026-09-01.json` SHA `638bafc27a023a193a6808add13e5c6f834177a5394f098e43f8184161dd9275`.
-- Law added by incident: a map named in an active scientific input lock is immutable for that experiment; informed cartography advances via successor artifacts.
+## CFE / Microseed runtime ownership
+- Active isolation contract `state/host_control/CFE_MICROSEED_FORGE_RUNTIME_ISOLATION_CONTRACT_2026-09-01.json` SHA `0f8f56a07f91a6cf7ca1e3d73048cf6b4ced161203f3732cfbfffa276b48c530`.
+- Microseed owns:
+  - primary job `job-7f0dcbe757dc`, port 18191, current PID 6744, Qwen2.5-Coder-7B;
+  - CSC reviewer job `job-489435c7630f`, port 18192, current PID 24744, Qwen2.5-Coder-1.5B.
+- Both use shared immutable Forge/Singularity Works model/runtime files. Shared files are safe; live process/port/job/runtime ownership is isolated.
+- CFE SHALL preserve those Microseed processes, never bind ports 18191/18192, never reuse Microseed job IDs, and use CFE-owned runtime/output state.
+- Unknown model service => preserve + block, never auto-kill.
+- CFE cleanup may terminate only explicitly CFE-leased task trees.
+- Registry SHA `bc34680b355ff33d1c86979bb25859238300ae808d00fda767be21299f5df924`; policy SHA `a3d03c350569bb07cd258766a71f8a931e0526703e61516c28b67e761ac78d22`.
 
-## DD2 execution failure
-- Parent job `job-a9af74aa760d` failed during first-arm EVAL with access violation `0xC0000005`; 0/6 pairs admitted.
-- Seed 2026083121 CYCLIC_SPACED training is complete and intact: RUN_MANIFEST `a59fab...`, adapter `477764...`, 144 steps.
-- No EVAL_MANIFEST exists, so no scientific arm outcome is admitted.
+## Coexistence qualification
+- PASS SHA `82872037b9e4fec99083935d1f4b8b5c75a22a0bf460c465f4558eeaddcb7755`.
+- With Microseed PIDs 6744/24744 left alive, CFE loaded the exact frozen 3,752,087,552-parameter base model under a CFE task lease and exited rc=0.
+- Microseed PIDs and both health endpoints remained unchanged/ok afterward; no CFE model worker leaked.
+- Claim ceiling: this qualifies the current frozen DD2 model-load coexistence surface, not arbitrary future concurrency without observation.
 
-## DD2R1 recovery
-- Amendment SHA `f98a3bee1df8a7f740aa7a0a478cc5cdf2fbb90b220d82dca895ab53328ae3fa`.
-- Runner SHA `4d7f226eef6e4b943bea832a708730a2b8b27980ca7a7e64f8785791792828f9`.
-- Static recovery qualification PASS 19/19 SHA `f03ec6841c1adbd3049f73ecf2acf2d766453157ac430f49abe75faf82ed145a`.
-- Recovery does not alter frozen DD2 science.
+## DD2 structured-revisit topology
+- Frozen science unchanged.
+- DD2R2 was intentionally paused during ownership recovery.
+- Recovered source `state/analysis/DD2R2_PAUSED_RECOVERY_SOURCE_2026-09-01.json` SHA `25e51189ce8297b82ae1c0a8237f32452edf49db7098b7e95be930aba07c30d9` contains exactly 2 sealed pairs: seeds 2026083121 and 2026083122.
+- Seed 2026083123 had no RUN_MANIFEST at pause and therefore restarts fresh.
+- DD2R3 amendment SHA `5e1b78c37f723fbf036e202be26a74791db45a743dbed1173529545d0bea8303`.
+- DD2R3 runner SHA `763e377b0ec561dbd81331de192c3080b2a10eb9b2d7c33f6c5f535e363ad019`.
+- Static qualification PASS: lock 19/19, recovered heavy assets 4/4, Microseed PIDs preserved, coexistence PASS. Qualification SHA `c899663360820066427bfa440251f9f9585e81bdc3ddfd95ea5aaf417949456c`.
 
 ## Immediate next action
-Seal/publish this recovery state, then launch DD2R1 as the sole GPU campaign.
-
-## DD2R1 runtime remediation — 2026-09-01 06:27 Eastern Daylight Time
-- Recovery attempt1 exposed host commit failure: Windows os error 1455 while loading base shards.
-- Two unrelated orphan Singularity Works llama-server processes (ports 8091/8092) were captured and paused; restoration commands are preserved in `state/analysis/DD2_HOST_RESOURCE_PAUSE_2026-09-01.json`.
-- Frozen base-model load smoke then PASS: all 3 shards loaded, 3,752,087,552 parameters instantiated.
-- Recovery attempt2 exposed execution-runner adapter-path bug; no EVAL_MANIFEST. Runner patched and static R3 PASS 19/19 SHA `a7101056ec2e6ac0176dd265c248a150096b573c74d200f105e7e89ab0722cdc`.
-- Recovery attempt3 job `job-d021065c00bb` RUNNING.
-- Salvaged seed3121 CYCLIC_SPACED evaluation is now complete but pair-unqualified: BA 0.645833, false 0.708333, true 0.583333. No paired DD2 result yet.
-
-## Training host exclusivity — 2026-09-01 06:52 Eastern Daylight Time
-- ACTIVE FIRST-CLASS execution control by operator directive.
-- Before every new CFE training launch, recognized local model-serving runtimes are force-terminated and survivor-scan must PASS.
-- Mandatory launcher `tools/cfe_training_launch.py` SHA `09d73a47c4e92f31aa8c018868cd28ee749814c5fbe07283247c6333b26a5e6a`; preflight SHA `3b1a31a0feaa7e7965ec615e2598f633fea783dc48cdf456a244848d3f3d468b`; policy SHA `ee979cf7086429a0c7d348188ad6337c939046e9d3ec3ad63b298e6cd9123c0c`.
-- PCMMAD receiver and active CFE execution tree are protected from broad Python killing.
-- Orphan Singularity Works llama servers are NOT to be restored automatically.
-- DD2R1 attempt3 was deliberately terminated before WINDOW_MASSED RUN_MANIFEST so the new rule applies to every subsequent training start.
-- DD2R2 static qualification PASS 19/19 SHA `e8ee40b656c03a5f892e94ca45eaa83dfb663bd9e7cba552546471e7bf7cc3f2`; science unchanged.
-
-## Post-task host cleanliness — 2026-09-01 07:55 Eastern Daylight Time
-- Requirement clarified: avoid wasted retries/context by cleaning leaked model runtimes after every training task, not only before the next one.
-- Managed training launcher now uses `finally` cleanup on success/failure plus 6-second stable-clean dwell; respawn resets dwell.
-- Generic model-task launcher added for future eval/model-load work.
-- Deliberate failure-path qualification PASS SHA `ae0b0f21e83f9f20970a7dd40546d8f849679c3ca04187a3f1a8aca5da6771ee`: child rc=7, cleanup still PASS, 0 respawns, 0 survivors.
-- Earlier Singularity llama servers did respawn once under a transient parent; exact launch origin remains unproven. Current stable-dwell qualification saw no respawn.
-
-## RECOVERY — model-service ownership correction — 2026-09-01 08:39 Eastern Daylight Time
-- Broad model-runtime kill policy is SUPERSEDED.
-- Active policy: `policy/CFE_MODEL_SERVICE_COORDINATION_POLICY.md` SHA `bdbbf1bca161cc8749e70801fdaf4b10c9f097b0b6e3354cbe393d304972c6e4`.
-- Verified resident control-plane services: PID 6744 / port 18191 / 7B and PID 24744 / port 18192 / 1.5B, both parented by PCMMAD receiver PID 10720 and health `ok`.
-- Exact Microseed/SOP role split remains unresolved; both are protected.
-- CFE preflight now preserves+blocks on authorized/unknown resident services; only explicit CFE PID-leased task trees may be force-terminated.
-- DD2R2 intentionally terminated at safe boundary: 2/6 paired seeds sealed; seed3123 CYCLIC_SPACED had no RUN_MANIFEST.
-- Coordination qualification PASS_SAFE_BLOCK SHA `42861298ecced10804c614665aa0816686edfd0c3a474113b00480e78ad8affc`.
+Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains ownership of its two resident services.

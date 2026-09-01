@@ -1,0 +1,55 @@
+{
+  "cfe_rules": [
+    "Never terminate Microseed resident model processes.",
+    "Never reuse/bind ports 18191 or 18192.",
+    "Never reuse Microseed job IDs.",
+    "Use distinct CFE runtime/output directories.",
+    "Shared Forge model/runtime files may be read/started by CFE as separate instances when resource capacity permits.",
+    "Unknown model services remain preserve+block until identified."
+  ],
+  "microseed_frontier_context": {
+    "c_scale": {
+      "housekeeping": "research-branch seal and dedicated continuity reconciliation pending",
+      "science": "bounded three-level execution discriminator passed; result-level CSC PASS"
+    },
+    "canonical_microseed_production_code_changed": false,
+    "evidence_class": "CROSS_PROJECT_OPERATOR_STATUS_NOT_CFE_SCIENTIFIC_OCCUPANCY",
+    "i_growth": {
+      "science": "verified negative result",
+      "status": "OPEN_UNDER_CSC_REVIEW"
+    },
+    "sealed_results": [
+      "G_NAKED",
+      "B_DRIFT",
+      "A_TARGET",
+      "K_RED_TEAM"
+    ]
+  },
+  "microseed_ownership": [
+    {
+      "current_pid": 6744,
+      "job_id": "job-7f0dcbe757dc",
+      "model": "Qwen2.5-Coder-7B",
+      "port": 18191,
+      "role": "primary"
+    },
+    {
+      "current_pid": 24744,
+      "job_id": "job-489435c7630f",
+      "model": "Qwen2.5-Coder-1.5B",
+      "port": 18192,
+      "role": "CSC reviewer"
+    }
+  ],
+  "schema": "cfe.microseed-forge-runtime-isolation.v1",
+  "shared_assets": {
+    "forge_files": "SAFE_TO_READ_AND_REUSE_IMMUTABLY",
+    "jobs": "NOT_SHARED",
+    "live_processes": "NOT_SHARED",
+    "ports": "NOT_SHARED",
+    "runtime_directories": "NOT_SHARED"
+  },
+  "source": "operator-provided Microseed ownership handoff",
+  "status": "ACTIVE_OPERATOR_DIRECTED_CROSS_PROJECT_CONTRACT",
+  "timestamp": "2026-09-01T09:13:08-04:00"
+}

@@ -4,7 +4,7 @@ import argparse, subprocess
 from pathlib import Path
 from cfe_training_preflight import (
     enforce_model_service_boundary, cleanup_after_model_task,
-    open_task_lease, close_task_lease, terminate_owned_task_tree,
+    open_task_lease, close_task_lease, terminate_owned_task_tree, validate_cfe_task_isolation,
 )
 
 
@@ -16,6 +16,7 @@ def main():
     a=ap.parse_args();cmd=list(a.command)
     if cmd and cmd[0]=='--':cmd=cmd[1:]
     if not cmd:raise SystemExit('TRAINING_COMMAND_REQUIRED')
+    validate_cfe_task_isolation(a.project_root,cmd)
     enforce_model_service_boundary(a.project_root,phase=f'{a.phase}:PRE')
     proc=None;lease=None;rc=None
     try:
