@@ -16,3 +16,6 @@ As of: 2026-09-01 06:20 Eastern Daylight Time
 - Hostile-qualify constructive/destructive evidence geometry as a candidate axis.
 - Revisit typed relation on a substrate where relation type can be made independent of proximity.
 - Preserve old Gen1/TQ2 findings as priors/engineering quarry, never scientific occupancy.
+
+## Host restoration obligation
+- After DD2R1 reaches terminal state and no immediate DD2 evaluation retry is needed, restore the two captured Singularity Works llama-server commands from `state/analysis/DD2_HOST_RESOURCE_PAUSE_2026-09-01.json` and verify ports 8091/8092.

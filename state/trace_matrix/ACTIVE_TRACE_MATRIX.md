@@ -82,3 +82,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | DD2 parent execution failure | job-a9af74aa760d | `state/analysis/DD2_EXECUTION_FAILURE_STATUS_2026-09-01.json` SHA `2e6395980debfc4ba860ec7fe472fb45246cd5e6858d8ab98810e79eb5cf6504` | execution failure; 0/6 pairs admitted |
 | DD2R1 recovery | intact manifested spaced training + absent eval manifest | `state/next_steps/DD2R1_REVISIT_TOPOLOGY_EXECUTION_RECOVERY_AMENDMENT_2026-09-01.json` SHA `f98a3bee1df8a7f740aa7a0a478cc5cdf2fbb90b220d82dca895ab53328ae3fa`; runner `4d7f226eef6e4b943bea832a708730a2b8b27980ca7a7e64f8785791792828f9`; static `f03ec6841c1adbd3049f73ecf2acf2d766453157ac430f49abe75faf82ed145a` | PASS 19/19; science unchanged |
 | Cartography locked-map repair | DD2 lock expected `6ff38f...` | frozen predecessor restored; successor `e399044856e4e6f93de4fd18f48910ff55c4a73fb4cace8ac7030416e4cdb51b` + pointer `638bafc27a023a193a6808add13e5c6f834177a5394f098e43f8184161dd9275` | integrity restored before recovery launch |
+
+| DD2 host remediation | os error 1455 + 15GB orphan llama-server RAM | `state/analysis/DD2_HOST_RESOURCE_PAUSE_2026-09-01.json`; base-load smoke PASS | execution-only remediation; restoration required |
+| DD2R1 attempt3 | patched recovery runner static R3 PASS | job `job-d021065c00bb` | RUNNING; salvaged spaced eval complete but pair-unqualified |

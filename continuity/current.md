@@ -36,3 +36,11 @@ Role: R5 Reality Pressure Engine
 
 ## Immediate next action
 Seal/publish this recovery state, then launch DD2R1 as the sole GPU campaign.
+
+## DD2R1 runtime remediation — 2026-09-01 06:27 Eastern Daylight Time
+- Recovery attempt1 exposed host commit failure: Windows os error 1455 while loading base shards.
+- Two unrelated orphan Singularity Works llama-server processes (ports 8091/8092) were captured and paused; restoration commands are preserved in `state/analysis/DD2_HOST_RESOURCE_PAUSE_2026-09-01.json`.
+- Frozen base-model load smoke then PASS: all 3 shards loaded, 3,752,087,552 parameters instantiated.
+- Recovery attempt2 exposed execution-runner adapter-path bug; no EVAL_MANIFEST. Runner patched and static R3 PASS 19/19 SHA `a7101056ec2e6ac0176dd265c248a150096b573c74d200f105e7e89ab0722cdc`.
+- Recovery attempt3 job `job-d021065c00bb` RUNNING.
+- Salvaged seed3121 CYCLIC_SPACED evaluation is now complete but pair-unqualified: BA 0.645833, false 0.708333, true 0.583333. No paired DD2 result yet.

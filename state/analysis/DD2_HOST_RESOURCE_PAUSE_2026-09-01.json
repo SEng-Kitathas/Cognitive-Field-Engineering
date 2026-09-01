@@ -1,0 +1,21 @@
+{
+  "processes": [
+    {
+      "CommandLine": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe -m D:\\Singularity_Works\\repo\\corpus\\models\\salvaged_from_lmstudio\\Melvin56\\Qwen2.5-Coder-7B-Instruct-abliterated-Q4_K_M-GGUF\\qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf -c 8192 --host 127.0.0.1 --port 8091 --offline --parallel 1",
+      "ExecutablePath": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+      "ParentProcessId": 35656,
+      "ProcessId": 25948
+    },
+    {
+      "CommandLine": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe -m D:\\Singularity_Works\\repo\\corpus\\models\\internet_acquired\\bartowski\\Qwen2.5-Coder-1.5B-Instruct-abliterated-GGUF\\Qwen2.5-Coder-1.5B-Instruct-abliterated-Q4_K_L.gguf -c 8192 --host 127.0.0.1 --port 8092 --offline --parallel 1",
+      "ExecutablePath": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+      "ParentProcessId": 35656,
+      "ProcessId": 35488
+    }
+  ],
+  "reason": "Free host commit headroom for frozen DD2 evaluation after Windows os error 1455",
+  "restoration_required": true,
+  "schema": "cfe.host-resource-pause.v1",
+  "status": "STOPPED",
+  "timestamp": "2026-09-01T06:22:50-04:00"
+}

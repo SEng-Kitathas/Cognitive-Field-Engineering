@@ -970,3 +970,7 @@ User instructed: "Proceed with CFE duly informed" after E-drive pre-formal CFE a
 
 ## Turn — ASSISTANT / BUILD-COMMIT
 Bound archaeology as historical mechanism/coordinate priors only. Discovered active DD2 parent job had failed during first-arm evaluation after complete manifested training. Built DD2R1 recovery identity without changing frozen science. Static gate initially caught that archaeology annotation had modified a DD2-locked cartography file; preserved annotation as successor map, restored frozen map byte-exact from Git commit 50499d42..., and reran recovery static qualification PASS 19/19.
+
+## DD2R1 runtime remediation — ASSISTANT
+Timestamp: 2026-09-01 06:27 Eastern Daylight Time
+Parent/recovery failures were isolated to host commit pressure then a recovery-only adapter-path bug. Captured/paused unrelated orphan llama servers, verified frozen base load, patched runner, requalified PASS 19/19, and launched attempt3. The salvaged spaced arm now has an EVAL_MANIFEST but remains explicitly pair-unqualified.
