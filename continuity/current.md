@@ -26,3 +26,8 @@ Artifact-class registrar status: attempted, but update registration blocked by W
 
 ## Active science
 DD1R1 receipt: `RUNNING`; 5/6 paired seeds sealed. No final DD-1 disposition until 6/6 aggregate.
+
+## Cartography hostile-engineering — 2026-08-31 23:45 Eastern Daylight Time
+- Added first-class hostile constraint map for the cartography itself.
+- 15 explicit map failure modes: axis collapse/duplication, curator leakage, sparse-cell overfit, execution-as-boundary, metric projection error, interaction aliasing, implementation non-equivalence, scale/path dependence, missing axes, false continuity, positivity bias, negative-space reification, and staleness.
+- JSON SHA `bda56ec00cf8d192a6cdb66c0937d18f4c102f36a8bdd4cae3e4cb19b392d5a6`.

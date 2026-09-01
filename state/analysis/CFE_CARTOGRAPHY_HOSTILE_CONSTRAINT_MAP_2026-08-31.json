@@ -1,0 +1,110 @@
+{
+  "promotion_rule": "Cartography changes may be first-class governance updates; scientific claims still require evidence.",
+  "purpose": "Hostile-engineer the cartography itself so the map cannot become a persuasive but false geometry.",
+  "required_invariants": [
+    "SCIENTIFIC_OCCUPANCY_REQUIRES_ADMITTED_EVIDENCE",
+    "UNKNOWN_CELL != NEGATIVE_CELL",
+    "ADJACENCY != CONTINUITY",
+    "MAP_AXIS != LEARNER_ONTOLOGY",
+    "CELL_IDENTITY_REQUIRES_COMPILED_GEOMETRY_SIGNATURE",
+    "PHENOTYPE_IS_VECTOR_NOT_SINGLE_SCORE",
+    "MULTI_AXIS_MOVE != MAIN_EFFECT",
+    "REGIME_SCOPE_IS_PART_OF_CELL_IDENTITY",
+    "UNEXPLAINED_SIGN_FLIP_TRIGGERS_MISSING_AXIS_AUDIT"
+  ],
+  "schema": "cfe.cartography-hostile-constraints.v1",
+  "status": "ACTIVE_FIRST_CLASS_COMPANION",
+  "threats": [
+    {
+      "failure": "False smoothness / wrong adjacency.",
+      "hostile_test": "Split-axis sensitivity: re-encode candidate axis into finer values and test whether prior cell distinctions remain invariant.",
+      "id": "T1_AXIS_COLLAPSE",
+      "risk": "Two causally distinct mechanisms are represented as one axis value."
+    },
+    {
+      "failure": "Fake dimensionality / wasted experiments.",
+      "hostile_test": "Dependency audit and intervention equivalence test under matched compiled exposures.",
+      "id": "T2_AXIS_DUPLICATION",
+      "risk": "Two axes encode the same latent intervention."
+    },
+    {
+      "failure": "Explanatory circularity.",
+      "hostile_test": "Require learner-payload leakage audit and label-free transfer condition.",
+      "id": "T3_CURATOR_ONTOLOGY_LEAK",
+      "risk": "Map coordinates are treated as learner-native structure."
+    },
+    {
+      "failure": "Interpolated fiction.",
+      "hostile_test": "Evidence-density tags; prohibit manifold/interpolation claims where local neighbor support is absent.",
+      "id": "T4_SPARSE_CELL_OVERFIT",
+      "risk": "Whole-shape claims inferred from too few occupied cells."
+    },
+    {
+      "failure": "Phantom exclusions.",
+      "hostile_test": "Scientific occupancy requires admitted result identity only.",
+      "id": "T5_EXECUTION_AS_BOUNDARY",
+      "risk": "Runtime failures are mistaken for scientific negative cells."
+    },
+    {
+      "failure": "Wrong cell sign.",
+      "hostile_test": "Store vector phenotype: balanced/false/true/transfer/composition/currentness; no scalar-only occupancy.",
+      "id": "T6_METRIC_PROJECTION_ERROR",
+      "risk": "One summary metric hides opposing phenotype movement."
+    },
+    {
+      "failure": "Wrong local derivative.",
+      "hostile_test": "Experiment-to-cell binding must enumerate all moved axes; >1 move classified interaction.",
+      "id": "T7_INTERACTION_ALIASING",
+      "risk": "A multi-axis change is interpreted as a main effect."
+    },
+    {
+      "failure": "Cell identity too coarse.",
+      "hostile_test": "Field verifier fingerprints required; cell occupancy stores compiled-geometry signature.",
+      "id": "T8_IMPLEMENTATION_NON_EQUIVALENCE",
+      "risk": "Same high-level cell has multiple compiled realizations with different learner-visible geometry."
+    },
+    {
+      "failure": "Universalization from one scale.",
+      "hostile_test": "Every cell keyed by regime scope; cross-regime promotion requires replication.",
+      "id": "T9_SCALE_DEPENDENCE",
+      "risk": "Axis effect changes with learner/model/dose regime."
+    },
+    {
+      "failure": "Static lattice misses hysteresis.",
+      "hostile_test": "Add predecessor/history metadata and later test path-order reversals.",
+      "id": "T10_PATH_DEPENDENCE",
+      "risk": "Same nominal cell reached through different developmental histories yields different phenotype."
+    },
+    {
+      "failure": "Map appears noisy when latent dimension exists.",
+      "hostile_test": "Residual sign-flip audit; recurrent unexplained heterogeneity triggers candidate-axis proposal.",
+      "id": "T11_MISSING_AXIS",
+      "risk": "Observed sign flips arise from an unmodeled variable."
+    },
+    {
+      "failure": "Topological intuition overstates continuity.",
+      "hostile_test": "No interpolation without measured local derivatives; adjacency is experimental convenience, not continuity proof.",
+      "id": "T12_FALSE_CONTINUITY",
+      "risk": "Adjacent cells assumed smoothly related."
+    },
+    {
+      "failure": "Map gets pretty, not informative.",
+      "hostile_test": "Rank by expected ambiguity reduction and boundary value, not expected score gain.",
+      "id": "T13_POSITIVE_RESULT_BIAS",
+      "risk": "Ranking favors cells likely to win rather than cells likely to discriminate."
+    },
+    {
+      "failure": "Speculation becomes pseudo-evidence.",
+      "hostile_test": "Unmeasured cell status remains UNKNOWN, never NEGATIVE.",
+      "id": "T14_NEGATIVE_SPACE_REIFICATION",
+      "risk": "Unmeasured holes are spoken of as real absent mechanisms."
+    },
+    {
+      "failure": "Next experiment chosen from obsolete shape.",
+      "hostile_test": "Scientific frontier change invalidates map freshness until reconciled.",
+      "id": "T15_TIME_STALENESS",
+      "risk": "Map lags current evidence."
+    }
+  ],
+  "timestamp": "2026-08-31T23:45:31-04:00"
+}

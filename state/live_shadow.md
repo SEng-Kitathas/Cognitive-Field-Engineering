@@ -23,3 +23,6 @@
 
 ## Immediate Next Step
 On DD1R1 completion, mechanically dispose result, update the first-class map before selecting the next experiment, then rank the next hole by uncertainty reduction.
+
+## Turn delta — 2026-08-31 23:45 Eastern Daylight Time
+- Cartography itself is now hostile-engineered. Adjacency is not assumed continuous; cells require regime scope + compiled geometry signature; unexplained sign flips trigger missing-axis audit.

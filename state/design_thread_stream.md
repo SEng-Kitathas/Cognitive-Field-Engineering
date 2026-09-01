@@ -931,3 +931,7 @@ User instructed: "make that a first class part of this project, it gets the same
 
 ## Turn — ASSISTANT / GOVERNANCE COMMIT
 Promoted negative-space cartography to SOP-peer operational priority through active doctrine, dedicated policy, governance read order, per-turn reconciliation extension, doctrine frontier, trace and continuity. Scientific truth status was explicitly not promoted. Artifact registrar create/update attempts failed closed due existing target then Windows file lock; registry success not claimed.
+
+## Cartography hostile engineering — ASSISTANT
+Timestamp: 2026-08-31 23:45 Eastern Daylight Time
+User challenged why conceptual topography was not already mapped and proposed hostile-engineering the constraints. Added a first-class map threat model with 15 failure modes and explicit invariants against seductive-but-false geometry.

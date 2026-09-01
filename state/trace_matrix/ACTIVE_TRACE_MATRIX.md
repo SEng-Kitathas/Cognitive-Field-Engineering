@@ -64,3 +64,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | Cartography policy | governance implementation | `policy/CFE_NEGATIVE_SPACE_CARTOGRAPHY_POLICY.md` SHA `e39851ff5b746db44079f279233d1930eda812b729f4eb2543338068117eab95` | mandatory selection/reconciliation gate |
 | Governance read order | Rahl SOP + Cartography coequal operational priority | `state/doctrine_snapshot/CFE_GOVERNANCE_READ_ORDER.md` SHA `9d444aa932045dd1f8b3267ebc4f8d123f15284fc864f5d8e76e04575acb4e0c` | ACTIVE |
 | Artifact registrar | attempted create then update | create target-exists; update Windows file-lock failure | registry promotion UNVERIFIED; filesystem/Git authority intact |
+
+| Cartography hostile constraint map | first-class map governance | `state/analysis/CFE_CARTOGRAPHY_HOSTILE_CONSTRAINT_MAP_2026-08-31.json` SHA `bda56ec00cf8d192a6cdb66c0937d18f4c102f36a8bdd4cae3e4cb19b392d5a6` | 15 threat classes; ACTIVE |
