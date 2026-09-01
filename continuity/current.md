@@ -53,3 +53,10 @@ Seal/publish this recovery state, then launch DD2R1 as the sole GPU campaign.
 - Orphan Singularity Works llama servers are NOT to be restored automatically.
 - DD2R1 attempt3 was deliberately terminated before WINDOW_MASSED RUN_MANIFEST so the new rule applies to every subsequent training start.
 - DD2R2 static qualification PASS 19/19 SHA `e8ee40b656c03a5f892e94ca45eaa83dfb663bd9e7cba552546471e7bf7cc3f2`; science unchanged.
+
+## Post-task host cleanliness — 2026-09-01 07:55 Eastern Daylight Time
+- Requirement clarified: avoid wasted retries/context by cleaning leaked model runtimes after every training task, not only before the next one.
+- Managed training launcher now uses `finally` cleanup on success/failure plus 6-second stable-clean dwell; respawn resets dwell.
+- Generic model-task launcher added for future eval/model-load work.
+- Deliberate failure-path qualification PASS SHA `ae0b0f21e83f9f20970a7dd40546d8f849679c3ca04187a3f1a8aca5da6771ee`: child rc=7, cleanup still PASS, 0 respawns, 0 survivors.
+- Earlier Singularity llama servers did respawn once under a transient parent; exact launch origin remains unproven. Current stable-dwell qualification saw no respawn.

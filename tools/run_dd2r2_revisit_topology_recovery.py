@@ -60,8 +60,8 @@ def verify_lock(root: Path, lock_path: Path):
 
 
 def eval_arm(py,root,candidate,contract,lock,host_lock,seed,arm,adapter,run_manifest,out_dir,log_dir):
-    force_exit_model_runtimes(root, phase=f'EVAL_PRELOAD:{seed}:{arm}')
-    cmd=[py,str(root/'tools/evaluate_dd2_revisit_topology.py'),'--project-root',str(root),'--candidate',str(candidate),'--arm',arm,'--seed',str(seed),'--adapter',str(adapter),'--run-manifest',str(run_manifest),'--contract',str(contract),'--lock',str(lock),'--host-lock',str(host_lock),'--out',str(out_dir)]
+    eval_cmd=[py,str(root/'tools/evaluate_dd2_revisit_topology.py'),'--project-root',str(root),'--candidate',str(candidate),'--arm',arm,'--seed',str(seed),'--adapter',str(adapter),'--run-manifest',str(run_manifest),'--contract',str(contract),'--lock',str(lock),'--host-lock',str(host_lock),'--out',str(out_dir)]
+    cmd=[py,str(root/'tools/cfe_model_task_launch.py'),'--project-root',str(root),'--phase',f'EVAL_PRELOAD:{seed}:{arm}','--']+eval_cmd
     retry(cmd,root,log_dir/'eval.stdout.log',log_dir/'eval.stderr.log',out_dir/'EVAL_MANIFEST.json','EVAL')
     return loadj(out_dir/'EVAL_MANIFEST.json')
 

@@ -32,3 +32,8 @@ Launch sole DD2R1 GPU recovery; no new scientific design until DD2 disposition a
 ## Host exclusivity delta — 2026-09-01 06:52 Eastern Daylight Time
 - Every future training start must pass force-exit + survivor scan via `cfe_training_launch.py`.
 - DD2R2 recovery is qualified 19/19 and is the next active execution identity.
+
+## Host-cleanliness delta — 2026-09-01 07:55 Eastern Daylight Time
+- Training host rule now includes guaranteed post-task cleanup in `finally`, failure included, with 6s stable-clean dwell.
+- Future eval/model-load tasks use generic model-task wrapper.
+- Qualification PASS `ae0b0f21e83f9f20970a7dd40546d8f849679c3ca04187a3f1a8aca5da6771ee`.

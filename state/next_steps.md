@@ -25,3 +25,7 @@ As of: 2026-09-01 06:20 Eastern Daylight Time
 - Launch DD2R2 under unchanged science and host-exclusivity policy.
 - Reuse recovered seed3121 CYCLIC_SPACED train/eval/remote evidence; do not rerun it.
 - Train missing WINDOW_MASSED and all later arms only through mandatory launcher.
+
+## Host cleanliness invariant
+- Do not begin another model task after a failed/successful training task until post-cleanup receipt is PASS.
+- Respawn during cleanup resets stable-clean dwell; repeated respawn is an execution blocker, not a science failure.

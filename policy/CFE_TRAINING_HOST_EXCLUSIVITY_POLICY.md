@@ -1,66 +1,90 @@
-# CFE Training Host Exclusivity Policy
+# CFE Training / Model-Task Host Cleanliness Policy
 
 Status: **ACTIVE / FIRST-CLASS EXECUTION CONTROL**
 Effective: 2026-09-01
-Authority: explicit operator directive after host-memory collision during DD2.
+Authority: explicit operator directive after repeated host-memory collisions and rediscovered model-server leftovers.
 
 ## Core rule
-Before **every CFE training launch**, all recognized local model-serving runtimes SHALL be force-terminated and a second process scan SHALL verify that none survive.
+CFE model work SHALL leave the host cleaner than it found it.
 
-`TRAINING_START => MODEL_SERVERS_FORCE_EXITED + SURVIVOR_SCAN_PASS`
+Before **every CFE training launch**, all recognized local model-serving runtimes SHALL be force-terminated and the host SHALL remain free of them for a stable-clean dwell window before training may begin.
 
-This applies even when the model-serving runtime was not started by the operator and even when it appears idle.
+After **every CFE training task**, whether it succeeds, fails, throws, or is interrupted through the managed launcher, the same cleanup SHALL run in a `finally` path and SHALL require a stable-clean dwell before completion is accepted.
 
-## Mandatory launcher
-All CFE training subprocesses SHALL be launched through:
+`TRAINING_START => FORCE_EXIT + STABLE_CLEAN_DWELL`
+
+`TRAINING_SUCCESS_OR_FAILURE => POST_CLEANUP + STABLE_CLEAN_DWELL`
+
+The current stable-clean dwell is 6 continuous seconds. If a model runtime respawns during that interval, it is terminated, the respawn is logged, and the dwell window restarts.
+
+## Mandatory launchers
+Training subprocesses SHALL run through:
 
 `tools/cfe_training_launch.py`
 
-which invokes:
+General model-loading tasks, including evaluations in newly authored campaign runners, SHOULD run through:
+
+`tools/cfe_model_task_launch.py`
+
+Both use:
 
 `tools/cfe_training_preflight.py`
 
-before starting the frozen trainer command.
+Historical/frozen scientific trainer or evaluator files SHALL NOT be rewritten merely to add host controls. The execution layer SHALL wrap them externally.
 
-Historical/frozen scientific trainer files SHALL NOT be rewritten merely to add this host-control rule. The execution layer wraps them externally.
-
-## Recognized model-serving runtime classes
-The preflight targets local model servers by executable and/or command-line signature, including:
+## Recognized model-serving runtimes
+The cleanup targets model-serving processes by explicit executable or command-line signature, including:
 - llama-server / llama.cpp server
-- Ollama serving runtime
+- Ollama
 - KoboldCPP
-- text-generation-webui / Hugging Face text-generation server
-- vLLM OpenAI/server processes
+- text-generation-webui / text-generation server
+- vLLM serving processes
 - LM Studio serving runtime
 - LocalAI
 - Jan model server
 - TabbyAPI
 - Aphrodite
 - ExLlamaV2 server processes
-- equivalent Python serving commands identified by explicit model-serving signatures
+- equivalent explicit model-serving commands
 
-Python processes are **not** killed merely because they are Python.
+Python processes are **not** terminated merely because they are Python.
 
 ## Protected processes
-The following SHALL NOT be killed solely by this policy:
+The policy SHALL NOT kill solely by broad process class:
 - PCMMAD receiver/control server
-- the active CFE campaign runner
-- the CFE training process being launched
-- ordinary unrelated Python processes without a model-serving signature
+- active CFE campaign runner
+- current CFE train/eval task
+- unrelated Python processes without a model-serving signature
+
+## Post-task audit
+Every managed cleanup receipt SHALL include:
+- model-serving processes found;
+- processes force-exited;
+- any respawn events during the dwell window;
+- final survivors;
+- task return code when available;
+- an `nvidia-smi` compute-process snapshot when available.
+
+A post-task cleanup is PASS only if no recognized model-serving runtime survives the stable-clean dwell.
 
 ## Fail-closed behavior
-If a recognized model-serving runtime survives termination or reappears before the survivor scan completes, the training launch SHALL fail before loading the training model.
+If a recognized model-serving runtime survives or repeatedly reappears such that stable cleanliness cannot be established, a new training launch SHALL fail before loading the training model.
 
-## Evaluation default
-CFE GPU/model evaluations SHOULD use the same preflight because they load the same base model and can collide with host commit/GPU resources. Active recovery runners may enforce it for both TRAIN and EVAL.
+If post-task cleanup cannot establish a clean host, the task result may remain scientifically valid if already manifested, but the execution layer SHALL report host cleanup failure and SHALL NOT silently proceed to another model task.
 
 ## Restoration rule
-CFE SHALL NOT automatically restore model-serving runtimes after training unless the operator explicitly identifies them as required services and supplies/approves the restoration command.
+CFE SHALL NOT automatically restore model-serving runtimes after training or evaluation unless the operator explicitly identifies them as required services and supplies/approves the restoration command.
 
-The orphan Singularity Works llama-server processes discovered during DD2 are specifically **not restoration obligations**.
+The rediscovered Singularity Works llama-server processes on ports 8091/8092 are specifically **not restoration obligations**.
 
 ## Static qualification rule
-New campaign/recovery runners SHALL fail static qualification if a training subprocess bypasses `cfe_training_launch.py` or an equivalent call to `force_exit_model_runtimes()` immediately before training.
+New campaign/recovery runners SHALL fail static qualification if a training subprocess bypasses `cfe_training_launch.py` or an equivalent immediate call to the same preflight/post-cleanup controls.
 
-## Provenance
-This policy was introduced after DD2 evaluation repeatedly failed under host commit pressure while two unrelated orphan `llama-server` processes consumed approximately 15 GB of resident memory. Removing them allowed the frozen base-model load smoke to pass.
+Newly authored model-loading evaluation runners SHOULD use `cfe_model_task_launch.py` so the same cleanup guarantee applies after final evaluation, not only before the next training arm.
+
+## Scientific boundary
+This is an execution/host-control policy only.
+
+`HOST CLEANUP != SCIENTIFIC ADAPTATION`
+
+It SHALL NOT alter frozen rows, schedules, seeds, tokenization, learner identity, optimizer settings, evaluators, or decision rules.

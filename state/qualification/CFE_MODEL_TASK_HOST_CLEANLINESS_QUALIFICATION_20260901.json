@@ -1,0 +1,22 @@
+{
+  "active_dd2r2_execution_runner_sha256_at_launch": "23f13daf623737311a9c9e6fda66d8bc70d48fe321a28be7d7d97c001935f7aa",
+  "active_dd2r2_runner_source_commit": "7553c15d59e1fc3af540415f1c0de357ab4b1434",
+  "child_return_code": 7,
+  "model_task_launcher_sha256": "4878cf4781c97138d97b9f310dc11e86f237797b204a4f07e8fd7c82c7edd475",
+  "note": "Active DD2R2 process loaded the launch-time runner before post-cleanup successor edits. Training child launches read current mandatory launcher from disk; a final campaign cleanup sentinel covers the final eval boundary.",
+  "policy_sha256": "08f3416d167d9b38d72242ad66b3d046a7fe1df4deb57bc2377a2edac3e71b8c",
+  "postcleanup_receipt_sha256": "59b0a2cd18477e422e68428ee80379401d0cb6aea9bccd50406261c54d316de3",
+  "postcleanup_respawns": 0,
+  "postcleanup_stable_clean_seconds": 6.0,
+  "postcleanup_survivors": 0,
+  "preflight_receipt_sha256": "8bc39d8a308e306a8948fb5aec14305c967f824aac83f2f3526eeeb6e340637d",
+  "preflight_respawns": 0,
+  "preflight_stable_clean_seconds": 6.0,
+  "preflight_survivors": 0,
+  "schema": "cfe.model-task-host-cleanliness-qualification.v1",
+  "status": "PASS",
+  "test": "deliberate failing child command through mandatory training launcher",
+  "timestamp": "2026-09-01T07:55:30-04:00",
+  "training_launcher_sha256": "f1a55a47612c5c8c33cf770b840c3419b6e3033739ac9062b92da8126fd017a8",
+  "training_preflight_sha256": "a690a9dd6297526017835cd0f3221a8ec366560f1874fef086ac93d2c8c60b7a"
+}

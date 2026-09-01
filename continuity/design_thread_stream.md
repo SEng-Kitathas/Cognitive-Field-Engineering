@@ -983,3 +983,12 @@ User required every training run to force-exit all open model runtimes and state
 
 ## Turn — ASSISTANT / BUILD-COMMIT
 Created first-class host-exclusivity policy, model-runtime preflight, and mandatory training launcher. Protected PCMMAD receiver/CFE process tree from broad Python kills. Terminated DD2R1 attempt3 before WINDOW_MASSED RUN_MANIFEST so all subsequent training starts can be covered. Created DD2R2 recovery using already recovered spaced evidence and mandatory launcher for every new training subprocess; static qualification PASS 19/19.
+
+---
+## Turn — USER
+Timestamp: 2026-09-01 07:55 Eastern Daylight Time
+Tags: HOST CLEANUP, CONTEXT ECONOMY
+User clarified the goal: nothing model-heavy should remain running after a training task because leaked runtimes cause avoidable failures, wasted time, and wasted context.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Extended preflight-only rule into guaranteed post-task cleanup in `finally`, including failed tasks, with 6-second stable-clean dwell and respawn logging. Added generic model-task wrapper for future evals. Failure-path test intentionally returned rc=7 yet post-cleanup PASSed with zero survivors.

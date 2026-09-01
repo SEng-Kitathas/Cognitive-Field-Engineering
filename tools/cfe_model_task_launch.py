@@ -6,15 +6,15 @@ from cfe_training_preflight import force_exit_model_runtimes, cleanup_after_mode
 
 
 def main():
-    ap=argparse.ArgumentParser(description='Mandatory CFE training launcher with preflight exclusivity and guaranteed post-task cleanup.')
+    ap=argparse.ArgumentParser(description='CFE model-task launcher: stable-clean preflight + guaranteed post-task cleanup.')
     ap.add_argument('--project-root',type=Path,required=True)
     ap.add_argument('--phase',required=True)
     ap.add_argument('command',nargs=argparse.REMAINDER)
     a=ap.parse_args()
     cmd=list(a.command)
-    if cmd and cmd[0]=='--': cmd=cmd[1:]
-    if not cmd: raise SystemExit('TRAINING_COMMAND_REQUIRED')
-    force_exit_model_runtimes(a.project_root,phase=a.phase)
+    if cmd and cmd[0]=='--':cmd=cmd[1:]
+    if not cmd:raise SystemExit('MODEL_TASK_COMMAND_REQUIRED')
+    force_exit_model_runtimes(a.project_root,phase=f'{a.phase}:PRE')
     rc=None
     try:
         cp=subprocess.run(cmd,cwd=a.project_root.resolve())
