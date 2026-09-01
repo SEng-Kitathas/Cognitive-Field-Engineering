@@ -31,3 +31,9 @@ Commit this recovery identity, then launch DD1R1 as sole GPU campaign.
 - Recovery receipt `RUNNING`, 0/6 paired seeds sealed.
 - Runner crossed salvage gate and entered `RECOVER_PAIR 2026083121`.
 - Sole active GPU campaign.
+
+## Negative-space intervention map — 2026-08-31 23:32 Eastern Daylight Time
+- Coarse high-level CFE lattice formalized: 6 axes / 324 cells.
+- 6 occupied characterized cells; 43 unoccupied one-axis neighbors.
+- Highest-value hole: typed-relation co-visibility at identifying support / extended horizon / local-only / direct primitive / mixed optimizer topology.
+- Map status ACTIVE_RESEARCH_MAP_NOT_DOCTRINE. JSON SHA `4ff8872e6c51087cf1eb6fef8450d210a4098febc8e3328fdc6bd02362a2bbc2`.

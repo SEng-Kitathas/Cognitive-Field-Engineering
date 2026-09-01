@@ -21,3 +21,6 @@ Launch DD1R1 as sole GPU campaign.
 
 ## Turn delta — 2026-08-31 18:34 Eastern Daylight Time
 - DD1R1 launched as sole GPU job `job-edd2c803aaed` / PID 25648. Salvage gate passed; missing seed3121 dispersed arm is executing. 0/6 pairs sealed at early readback.
+
+## Turn delta — 2026-08-31 23:32 Eastern Daylight Time
+- Formalized CFE as finite high-level intervention lattice: 324 coarse cells, 6 occupied, 43 adjacent negative-space holes. Shape-finding strategy is now local derivatives over axes rather than raw arrangement search.

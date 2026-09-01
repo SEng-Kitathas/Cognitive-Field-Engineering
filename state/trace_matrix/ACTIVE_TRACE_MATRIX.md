@@ -57,3 +57,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | DD-1 parent execution failure | first seed identifying complete, dispersed process access violation | `state/analysis/DD1_EXECUTION_FAILURE_STATUS_2026-08-31.json` SHA `f6c5f61713422019dc679c02cff4b026de31d6d5a97a6b3becaa380da52919a8` | 0/6 paired science |
 | DD1R1 execution recovery | unchanged DD-1 lock + salvage rules | amendment `5de42bb08bbb874ff725d0ec87140ad5a26744b0235d4951bd7b3171f850a474`, static qual `10a0359b5b69a2cb2e1c08cea6699fab02c1748be97153fe814d3fde1cfca747` | PASS prelaunch |
+
+| CFE negative-space intervention lattice | v1.0-v1.3 + V14R2 + DD1 experimental geometry | `state/analysis/CFE_NEGATIVE_SPACE_INTERVENTION_LATTICE_2026-08-31.json` SHA `4ff8872e6c51087cf1eb6fef8450d210a4098febc8e3328fdc6bd02362a2bbc2` | 324 coarse cells / 6 occupied / 43 one-axis frontier holes |

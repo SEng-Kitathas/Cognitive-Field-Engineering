@@ -918,3 +918,7 @@ Verified failure at base-model shard load before dispersed RUN_MANIFEST. Verifie
 ## DD1R1 launch — ASSISTANT
 Timestamp: 2026-08-31 18:34 Eastern Daylight Time
 Recovery launched as `job-edd2c803aaed`, PID 25648. Early stdout `RECOVER_PAIR 2026083121` confirms local+remote salvage gates passed before missing paired arm execution.
+
+## Negative-space map — ASSISTANT
+Timestamp: 2026-08-31 23:32 Eastern Daylight Time
+User proposed mapping the finite combinatorial negative space from existing experiments. Built a six-axis coarse intervention lattice and ranked unoccupied one-axis neighbors. 324 cells total, 6 occupied, 43 adjacent holes.

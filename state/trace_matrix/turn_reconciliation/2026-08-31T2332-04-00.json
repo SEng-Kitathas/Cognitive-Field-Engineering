@@ -1,0 +1,16 @@
+{
+  "active_blockers": [],
+  "frontier": {
+    "negative_space_map": {
+      "json_sha256": "4ff8872e6c51087cf1eb6fef8450d210a4098febc8e3328fdc6bd02362a2bbc2",
+      "md_sha256": "ced83019e0666908f3ed9e425aeb8d10cfff3a6cf05fddc5995e13371b04f811",
+      "occupied": 6,
+      "one_axis_frontier": 43,
+      "total_cells": 324
+    }
+  },
+  "mode": "BUILD-COMMIT",
+  "role": "R4 Convergence Refiner",
+  "schema": "cfe.per-turn-reconciliation-receipt.v4",
+  "timestamp": "2026-08-31T23:32:40-04:00"
+}

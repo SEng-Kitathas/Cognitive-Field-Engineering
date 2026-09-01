@@ -1,0 +1,497 @@
+{
+  "axes": {
+    "connectivity": [
+      "LOCAL_ONLY",
+      "SPARSE_LONG_RANGE_BRIDGES"
+    ],
+    "local_contrast_geometry": [
+      "HOMOGENEOUS_OR_DISPERSED",
+      "IDENTIFYING_COVISIBLE",
+      "TYPED_RELATION_COVISIBLE"
+    ],
+    "optimizer_window_topology": [
+      "MIXED",
+      "SEPARATED_OR_CONTROLLED"
+    ],
+    "support_resolution": [
+      "NARROW_SLICE",
+      "IDENTIFYING_BASIS",
+      "COVERAGE_EXPLICIT"
+    ],
+    "task_closure": [
+      "DIRECT_PRIMITIVE",
+      "COMPOSITION_TRANSFER",
+      "CROSS_LEVEL_EFFECT_TRANSFER"
+    ],
+    "temporal_topology": [
+      "SINGLE_PASS_FIXED_DOSE",
+      "EXTENDED_HORIZON",
+      "STRUCTURED_REVISIT_CURRENTNESS"
+    ]
+  },
+  "candidate_shape_hypothesis": {
+    "core": "Developmental outcome is controlled by a conjunction of support resolution, local relation geometry, temporal/revisit topology, connectivity, and task closure; no single axis is sufficient.",
+    "engineering_goal": "Estimate local derivatives over the lattice: change one geometry axis at a time around characterized cells, then test selected interactions only after main effects/boundaries are known.",
+    "negative_space_prediction": "The most informative holes are cells where only one of typed relation, coverage, long-range connectivity, or structured revisit is added to an already characterized identifying-basis/direct-primitive baseline."
+  },
+  "interpretation_guards": [
+    "A cell is a high-level experimental geometry class, not a claim that all implementations within it are equivalent.",
+    "Unoccupied does not mean causally important; frontier ranking prioritizes discriminating adjacency to already observed cells.",
+    "Mixed/negative cells are informative boundary constraints, not failed program evidence.",
+    "DD1 remains unresolved until six paired seeds and frozen disposition.",
+    "Curator coordinates do not imply learner internal ontology."
+  ],
+  "occupied_cells": [
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "NARROW_SLICE",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "earned": "Learner-visible arrangement can cause large relation-family-specific phenotype changes; no general neighborhood advantage.",
+      "id": "V10_NEIGHBORHOOD",
+      "killed": [
+        "COHERENT_NEIGHBORHOOD_IS_GENERALLY_GOOD"
+      ],
+      "status": "OCCUPIED_MIXED"
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "earned": "Broader identifying support materially changes and usually improves held-out predicate behavior, especially outside original support; not clean strict-inequality recovery.",
+      "id": "V11_SUPPORT_BASIS",
+      "status": "OCCUPIED_POSITIVE_CONDITIONAL"
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "COMPOSITION_TRANSFER",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "earned": "Better primitive predicate acquisition did not transfer to zero-shot composition.",
+      "id": "V12_COMPOSITION",
+      "killed": [
+        "CLEAN_PRIMITIVES_IMPLY_COMPOSITION"
+      ],
+      "status": "OCCUPIED_NEGATIVE"
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "SEPARATED_OR_CONTROLLED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "COMPOSITION_TRANSFER",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "earned": "Homogeneous gradient-accumulation window separation did not improve predicate competence or composition; simple local optimizer-window interference weakened.",
+      "id": "V13_OPTIMIZER_WINDOW",
+      "status": "OCCUPIED_NEGATIVE"
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "EXTENDED_HORIZON"
+      },
+      "earned": "Longer exposure reproducibly moves predicate phenotype, but horizon alone fails stable two-sided competence criterion.",
+      "id": "V14R2_HORIZON",
+      "status": "OCCUPIED_POSITIVE_BUT_INSUFFICIENT"
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "EXTENDED_HORIZON"
+      },
+      "earned": "No disposition yet; tests same atoms/support/tokens/dose with local identifying contrast co-visibility vs domain-matched homogeneous grouping.",
+      "id": "DD1_FIELD_RESOLUTION",
+      "status": "ACTIVE_UNRESOLVED"
+    }
+  ],
+  "occupied_count": 6,
+  "one_move_frontier_count": 43,
+  "premise": "CFE intervention space is treated as a finite high-level combinatorial lattice over experimentally manipulable developmental-field dimensions, not over raw examples.",
+  "priority_frontier": [
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "EXTENDED_HORIZON"
+      },
+      "occupied_neighbors": 2,
+      "rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
+      ],
+      "score": 7
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "STRUCTURED_REVISIT_CURRENTNESS"
+      },
+      "occupied_neighbors": 2,
+      "rationale": [
+        "tests developmental currentness/revisit rather than raw dose"
+      ],
+      "score": 6
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
+      ],
+      "score": 6
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "NARROW_SLICE",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
+      ],
+      "score": 6
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "COVERAGE_EXPLICIT",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "EXTENDED_HORIZON"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests OBSERVED_RELATIONS != FIELD_COVERAGE"
+      ],
+      "score": 5
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "COVERAGE_EXPLICIT",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests OBSERVED_RELATIONS != FIELD_COVERAGE"
+      ],
+      "score": 5
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "COVERAGE_EXPLICIT",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "EXTENDED_HORIZON"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests OBSERVED_RELATIONS != FIELD_COVERAGE"
+      ],
+      "score": 5
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "COVERAGE_EXPLICIT",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests OBSERVED_RELATIONS != FIELD_COVERAGE"
+      ],
+      "score": 5
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "STRUCTURED_REVISIT_CURRENTNESS"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests developmental currentness/revisit rather than raw dose"
+      ],
+      "score": 5
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "NARROW_SLICE",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "STRUCTURED_REVISIT_CURRENTNESS"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests developmental currentness/revisit rather than raw dose"
+      ],
+      "score": 5
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "COMPOSITION_TRANSFER",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
+      ],
+      "score": 5
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "TYPED_RELATION_COVISIBLE",
+        "optimizer_window_topology": "SEPARATED_OR_CONTROLLED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "COMPOSITION_TRANSFER",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests RELATIONAL_DISTANCE != RELATIONAL_TYPE"
+      ],
+      "score": 5
+    },
+    {
+      "coords": {
+        "connectivity": "SPARSE_LONG_RANGE_BRIDGES",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "EXTENDED_HORIZON"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests LOCAL_COHERENCE != LONG_HORIZON_CONNECTIVITY"
+      ],
+      "score": 5
+    },
+    {
+      "coords": {
+        "connectivity": "SPARSE_LONG_RANGE_BRIDGES",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests LOCAL_COHERENCE != LONG_HORIZON_CONNECTIVITY"
+      ],
+      "score": 5
+    },
+    {
+      "coords": {
+        "connectivity": "SPARSE_LONG_RANGE_BRIDGES",
+        "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "EXTENDED_HORIZON"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests LOCAL_COHERENCE != LONG_HORIZON_CONNECTIVITY"
+      ],
+      "score": 5
+    },
+    {
+      "coords": {
+        "connectivity": "SPARSE_LONG_RANGE_BRIDGES",
+        "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "NARROW_SLICE",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests LOCAL_COHERENCE != LONG_HORIZON_CONNECTIVITY"
+      ],
+      "score": 5
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "IDENTIFYING_COVISIBLE",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "DIRECT_PRIMITIVE",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 3,
+      "rationale": [],
+      "score": 4
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "CROSS_LEVEL_EFFECT_TRANSFER",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 2,
+      "rationale": [
+        "external verified mechanism transfer target"
+      ],
+      "score": 4
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "COVERAGE_EXPLICIT",
+        "task_closure": "COMPOSITION_TRANSFER",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests OBSERVED_RELATIONS != FIELD_COVERAGE"
+      ],
+      "score": 4
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "COMPOSITION_TRANSFER",
+        "temporal_topology": "STRUCTURED_REVISIT_CURRENTNESS"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests developmental currentness/revisit rather than raw dose"
+      ],
+      "score": 4
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "SEPARATED_OR_CONTROLLED",
+        "support_resolution": "COVERAGE_EXPLICIT",
+        "task_closure": "COMPOSITION_TRANSFER",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests OBSERVED_RELATIONS != FIELD_COVERAGE"
+      ],
+      "score": 4
+    },
+    {
+      "coords": {
+        "connectivity": "LOCAL_ONLY",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "SEPARATED_OR_CONTROLLED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "COMPOSITION_TRANSFER",
+        "temporal_topology": "STRUCTURED_REVISIT_CURRENTNESS"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests developmental currentness/revisit rather than raw dose"
+      ],
+      "score": 4
+    },
+    {
+      "coords": {
+        "connectivity": "SPARSE_LONG_RANGE_BRIDGES",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "MIXED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "COMPOSITION_TRANSFER",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests LOCAL_COHERENCE != LONG_HORIZON_CONNECTIVITY"
+      ],
+      "score": 4
+    },
+    {
+      "coords": {
+        "connectivity": "SPARSE_LONG_RANGE_BRIDGES",
+        "local_contrast_geometry": "HOMOGENEOUS_OR_DISPERSED",
+        "optimizer_window_topology": "SEPARATED_OR_CONTROLLED",
+        "support_resolution": "IDENTIFYING_BASIS",
+        "task_closure": "COMPOSITION_TRANSFER",
+        "temporal_topology": "SINGLE_PASS_FIXED_DOSE"
+      },
+      "occupied_neighbors": 1,
+      "rationale": [
+        "tests LOCAL_COHERENCE != LONG_HORIZON_CONNECTIVITY"
+      ],
+      "score": 4
+    }
+  ],
+  "schema": "cfe.negative-space-map.v1",
+  "status": "ACTIVE_RESEARCH_MAP_NOT_DOCTRINE",
+  "timestamp": "2026-08-31T23:32:23-04:00",
+  "total_high_level_cells": 324
+}
