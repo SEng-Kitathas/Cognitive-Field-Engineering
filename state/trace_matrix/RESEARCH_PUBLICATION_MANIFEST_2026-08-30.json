@@ -6803,6 +6803,17 @@
   "git_entry_count": 1001,
   "heavy_entry_count": 58,
   "heavy_published_count": 58,
+  "latest_dd1r1": {
+    "aggregate_sha256": "b7443ebc82e03d746b2a895b1e8615d9a001a15a6a04fffd6e0a6fe6cd3c69a9",
+    "closeout_sha256": "7cd7161c8cbbbc7381d3dc573e2c3b6c050f78e55ca5a95fded57a0ae10da13e",
+    "disposition_sha256": "da7352670a765e3dc57614b2703ed9814ea98025d179cf6c8b9ed84431400f0f",
+    "execution_identity": "DD1R1_PREDICATE_FIELD_RESOLUTION_20260831",
+    "heavy_assets_unpublished": 0,
+    "heavy_assets_verified": 12,
+    "release_tag": "cfe-dd1-predicate-field-resolution-2026-08-31",
+    "remote_verification_sha256": "dce8b273dcd5d5238307dfdba936550d0b916e6a9922fa3473867871ce532531",
+    "scientific_identity": "DD1_PREDICATE_FIELD_RESOLUTION_20260831"
+  },
   "laws": [
     "FRESH ACTIVE STATE != REWRITTEN HISTORY",
     "FAILED ATTEMPT != DISPOSABLE HISTORY",
@@ -6813,8 +6824,8 @@
     "note": "V14R2 complete; sealed small artifacts may be in Git and 18 checkpoint safetensors are on hashed heavy release surface.",
     "status": "NO_ACTIVE_V14_GPU_CAMPAIGN"
   },
-  "schema": "cfe.research-publication-manifest.v14",
+  "schema": "cfe.research-publication-manifest.v15",
   "self_reference_rule": "manifest excluded from own entries",
-  "status": "V14R2_COMPLETE__DOSE_HORIZON_WEAKENED__HEAVY_PUBLISHED__DD0_QUALIFIED",
+  "status": "DD1R1_COMPLETE__FIELD_RESOLUTION_SUPPORTED__HEAVY_PUBLISHED",
   "unpublished_heavy_count": 0
 }

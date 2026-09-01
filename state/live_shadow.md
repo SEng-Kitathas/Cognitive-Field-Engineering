@@ -18,3 +18,9 @@
 
 ## Immediate Next Step
 Close DD1R1 mechanically, then update the first-class map before selecting another experiment.
+
+## DD1R1 closeout — 2026-08-31 23:58 Eastern Daylight Time
+- CLOSED: `FIELD_RESOLUTION_SUPPORTED`.
+- 6/6 pairs; +0.03125 mean BA; 4/6 identifying wins; two-sided competence only 1/6.
+- 12/12 heavy adapters remote digest verified.
+- Cartography cell updated positive-conditional; next ranked hole is typed-relation co-visibility.

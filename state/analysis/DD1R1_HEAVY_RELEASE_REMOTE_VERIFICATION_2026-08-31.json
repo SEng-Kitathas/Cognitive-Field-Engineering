@@ -1,0 +1,107 @@
+{
+  "checks": [
+    {
+      "arm": "IDENTIFYING_COVISIBLE",
+      "asset": "dd1_seed2026083121_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+      "pass": true,
+      "remote_digest": "sha256:477764b22d02c5535ce40668755196c9713d10e18ca32d9d29a74331892cb6df",
+      "remote_size": 83945296,
+      "seed": 2026083121
+    },
+    {
+      "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+      "asset": "dd1_seed2026083121_MARGIN_HOMOGENEOUS_DISPERSED_adapter_model.safetensors",
+      "pass": true,
+      "remote_digest": "sha256:c80a14193a468c8abacd84a6c4d47de4761b0d564a0aadd8dcb39c6284c09991",
+      "remote_size": 83945296,
+      "seed": 2026083121
+    },
+    {
+      "arm": "IDENTIFYING_COVISIBLE",
+      "asset": "dd1_seed2026083122_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+      "pass": true,
+      "remote_digest": "sha256:693fe5be36ef953cf3bfa569862aa964e5fc0793b67295393268c5d3fa4dee58",
+      "remote_size": 83945296,
+      "seed": 2026083122
+    },
+    {
+      "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+      "asset": "dd1_seed2026083122_MARGIN_HOMOGENEOUS_DISPERSED_adapter_model.safetensors",
+      "pass": true,
+      "remote_digest": "sha256:b4c94748bde45a5ef0459374da18a7e856ced6e59f323a586066a65c21afd97d",
+      "remote_size": 83945296,
+      "seed": 2026083122
+    },
+    {
+      "arm": "IDENTIFYING_COVISIBLE",
+      "asset": "dd1_seed2026083123_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+      "pass": true,
+      "remote_digest": "sha256:55b1d85155ea1f44a2a4fcf4c3685c214f6cc62d6eb8e80c4b09d4b8641777bb",
+      "remote_size": 83945296,
+      "seed": 2026083123
+    },
+    {
+      "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+      "asset": "dd1_seed2026083123_MARGIN_HOMOGENEOUS_DISPERSED_adapter_model.safetensors",
+      "pass": true,
+      "remote_digest": "sha256:0b6b1d8f2dc6449d99a150a11d699d33cc97d494e3d4afd2723a591812c08dc6",
+      "remote_size": 83945296,
+      "seed": 2026083123
+    },
+    {
+      "arm": "IDENTIFYING_COVISIBLE",
+      "asset": "dd1_seed2026083124_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+      "pass": true,
+      "remote_digest": "sha256:be22ef41ceee09eff0c7a8e41c69eed3a22987848c0efcec9b45ce3523c69f69",
+      "remote_size": 83945296,
+      "seed": 2026083124
+    },
+    {
+      "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+      "asset": "dd1_seed2026083124_MARGIN_HOMOGENEOUS_DISPERSED_adapter_model.safetensors",
+      "pass": true,
+      "remote_digest": "sha256:6abeaace725335c6cdea1afc80cc8fe576181e042b34ee9561294cf3c471350b",
+      "remote_size": 83945296,
+      "seed": 2026083124
+    },
+    {
+      "arm": "IDENTIFYING_COVISIBLE",
+      "asset": "dd1_seed2026083125_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+      "pass": true,
+      "remote_digest": "sha256:fe62684ce12411f75a2d4b2e9e58c206a0af99869425680af4b5b80288533157",
+      "remote_size": 83945296,
+      "seed": 2026083125
+    },
+    {
+      "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+      "asset": "dd1_seed2026083125_MARGIN_HOMOGENEOUS_DISPERSED_adapter_model.safetensors",
+      "pass": true,
+      "remote_digest": "sha256:0816e0bd5558465e01b9fd9fd929e7d4aacd0a28cac7d74bcddb8c462fbaf093",
+      "remote_size": 83945296,
+      "seed": 2026083125
+    },
+    {
+      "arm": "IDENTIFYING_COVISIBLE",
+      "asset": "dd1_seed2026083126_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+      "pass": true,
+      "remote_digest": "sha256:56eb84a73a218e700682f1e5fb24618e48838db9a672974dd60cdabd1efed858",
+      "remote_size": 83945296,
+      "seed": 2026083126
+    },
+    {
+      "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+      "asset": "dd1_seed2026083126_MARGIN_HOMOGENEOUS_DISPERSED_adapter_model.safetensors",
+      "pass": true,
+      "remote_digest": "sha256:b38fa78b949d75e31275d3c9c071a4ae970a5da12d9e353f21592c4e2549f4eb",
+      "remote_size": 83945296,
+      "seed": 2026083126
+    }
+  ],
+  "release_id": 380058202,
+  "release_tag": "cfe-dd1-predicate-field-resolution-2026-08-31",
+  "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+  "schema": "cfe.dd1r1.remote-publication-verification.v1",
+  "status": "PASS",
+  "timestamp": "2026-08-31T23:58:18-04:00",
+  "verified_assets": 12
+}

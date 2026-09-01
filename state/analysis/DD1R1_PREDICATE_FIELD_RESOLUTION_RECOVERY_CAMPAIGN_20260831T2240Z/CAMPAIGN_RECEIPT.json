@@ -1,0 +1,810 @@
+{
+  "aggregate_sha256": "b7443ebc82e03d746b2a895b1e8615d9a001a15a6a04fffd6e0a6fe6cd3c69a9",
+  "amendment_sha256": "5de42bb08bbb874ff725d0ec87140ad5a26744b0235d4951bd7b3171f850a474",
+  "identity": "DD1R1_PREDICATE_FIELD_RESOLUTION_20260831",
+  "input_lock_sha256": "5da18b7cd09dd98f537d389c6766fec9f65df9377cae1da2a38e7722424c6040",
+  "jobs": [
+    {
+      "arms": [
+        {
+          "arm": "IDENTIFYING_COVISIBLE",
+          "eval_manifest_sha256": "698ed03f28dcc348fb03a7d0758514da5ad3ed15266ebfd766fa9f3d8db9c170",
+          "final_trainable_sha256": "487b18ce075f3207d86cf8c52614b8f5c02303d0153cdd709b82dccaee38595f",
+          "heavy_publication": {
+            "asset_name": "dd1_seed2026083121_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+            "remote_digest": "sha256:477764b22d02c5535ce40668755196c9713d10e18ca32d9d29a74331892cb6df",
+            "sha256": "477764b22d02c5535ce40668755196c9713d10e18ca32d9d29a74331892cb6df"
+          },
+          "initial_trainable_sha256": "42ae4fd695df63c498df499ac602d5f094b19720cea7f3f4ad3c1aa722f28db3",
+          "metrics": {
+            "balanced_accuracy": 0.6458333333333334,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.875,
+                "correct": 7,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.625,
+                "correct": 10,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.5,
+                "correct": 8,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.75,
+                "correct": 6,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.7083333333333334,
+                "correct": 17,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.5833333333333334,
+                "correct": 14,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.6458333333333334,
+              "correct": 31,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "run_manifest_sha256": "6d26b30f3e83c962bb4967c7bd9badcaf72ca344614290d88750d08803907031",
+          "status": "SALVAGED_REMOTE_VERIFIED"
+        },
+        {
+          "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+          "eval_manifest_sha256": "9545b1846396852921da6daed5ae427b1ba87cd30f1622a5859e90802662bfa7",
+          "final_trainable_sha256": "c5085f74ff79152a0ffa33425054fdfe39ff27f97fba3798dce4994382a26878",
+          "heavy_publication": {
+            "asset_name": "dd1_seed2026083121_MARGIN_HOMOGENEOUS_DISPERSED_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+            "remote_digest": "sha256:c80a14193a468c8abacd84a6c4d47de4761b0d564a0aadd8dcb39c6284c09991",
+            "sha256": "c80a14193a468c8abacd84a6c4d47de4761b0d564a0aadd8dcb39c6284c09991"
+          },
+          "initial_trainable_sha256": "42ae4fd695df63c498df499ac602d5f094b19720cea7f3f4ad3c1aa722f28db3",
+          "metrics": {
+            "balanced_accuracy": 0.6666666666666666,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.5,
+                "correct": 4,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.75,
+                "correct": 12,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.625,
+                "correct": 10,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.75,
+                "correct": 6,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.6666666666666666,
+                "correct": 16,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.6666666666666666,
+                "correct": 16,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.6666666666666666,
+              "correct": 32,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "run_manifest_sha256": "6c5c70ef5b32371cf7a8f3bd023275a14446ed78352f4fd95456050cfd23d0d6"
+        }
+      ],
+      "paired_initialization_sha256": "42ae4fd695df63c498df499ac602d5f094b19720cea7f3f4ad3c1aa722f28db3",
+      "seed": 2026083121,
+      "status": "COMPLETE_PAIR_RECOVERED"
+    },
+    {
+      "arms": [
+        {
+          "arm": "IDENTIFYING_COVISIBLE",
+          "eval_manifest_sha256": "9387ab926000aa011e1c197b259dd35e26d4a0a11ae49d19083642167d1648e9",
+          "final_trainable_sha256": "355148b59973ed0787a7058d8fe0bd6c3c08142ae7dd3e1add9f2aad4192d9ab",
+          "heavy_publication": {
+            "asset_name": "dd1_seed2026083122_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+            "remote_digest": "sha256:693fe5be36ef953cf3bfa569862aa964e5fc0793b67295393268c5d3fa4dee58",
+            "sha256": "693fe5be36ef953cf3bfa569862aa964e5fc0793b67295393268c5d3fa4dee58"
+          },
+          "initial_trainable_sha256": "8429c4a8319f6bbba0fa8f2c9f71781c6c7eb1e14f0312b0c80407a1823832dc",
+          "metrics": {
+            "balanced_accuracy": 0.7083333333333334,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.375,
+                "correct": 3,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.6875,
+                "correct": 11,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.9375,
+                "correct": 15,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.625,
+                "correct": 5,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.5833333333333334,
+                "correct": 14,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.8333333333333334,
+                "correct": 20,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.7083333333333334,
+              "correct": 34,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "run_manifest_sha256": "e8233e556d633ad27ed0039401b93bc2b8fc35952c4972867e59be23eaee46ab"
+        },
+        {
+          "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+          "eval_manifest_sha256": "3a1973c43c0fb68022861392e39e60d084177497c48179366d74e19f04f4cc29",
+          "final_trainable_sha256": "1bdcb3045291fba8304012b017195c8e5bc917fb76d64b4e9a3da7b4b76ba9e8",
+          "heavy_publication": {
+            "asset_name": "dd1_seed2026083122_MARGIN_HOMOGENEOUS_DISPERSED_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+            "remote_digest": "sha256:b4c94748bde45a5ef0459374da18a7e856ced6e59f323a586066a65c21afd97d",
+            "sha256": "b4c94748bde45a5ef0459374da18a7e856ced6e59f323a586066a65c21afd97d"
+          },
+          "initial_trainable_sha256": "8429c4a8319f6bbba0fa8f2c9f71781c6c7eb1e14f0312b0c80407a1823832dc",
+          "metrics": {
+            "balanced_accuracy": 0.5625,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.625,
+                "correct": 5,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.5,
+                "correct": 8,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.5625,
+                "correct": 9,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.625,
+                "correct": 5,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.5416666666666666,
+                "correct": 13,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.5833333333333334,
+                "correct": 14,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.5625,
+              "correct": 27,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "run_manifest_sha256": "ce6804a5b5f9f6f88b11a95ede320c011a866fab0c87b740a0c92ad4cca8147e"
+        }
+      ],
+      "paired_initialization_sha256": "8429c4a8319f6bbba0fa8f2c9f71781c6c7eb1e14f0312b0c80407a1823832dc",
+      "seed": 2026083122,
+      "status": "COMPLETE_PAIR_FRESH"
+    },
+    {
+      "arms": [
+        {
+          "arm": "IDENTIFYING_COVISIBLE",
+          "eval_manifest_sha256": "f9b39e030dbe42e3d3cac875dabfe8a05a0c3b8cdb6786d1e0654440e9d7a0da",
+          "final_trainable_sha256": "85bffc34cf8c168825d7bb2547fd51de57bf78206faa452c07d0c718b2c04681",
+          "heavy_publication": {
+            "asset_name": "dd1_seed2026083123_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+            "remote_digest": "sha256:55b1d85155ea1f44a2a4fcf4c3685c214f6cc62d6eb8e80c4b09d4b8641777bb",
+            "sha256": "55b1d85155ea1f44a2a4fcf4c3685c214f6cc62d6eb8e80c4b09d4b8641777bb"
+          },
+          "initial_trainable_sha256": "838592db7159cb180a24059d27a802af78102722b093456cef9b086a3ef44e80",
+          "metrics": {
+            "balanced_accuracy": 0.7291666666666666,
+            "by_support": {
+              "equality": {
+                "accuracy": 1.0,
+                "correct": 8,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.5,
+                "correct": 8,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.8125,
+                "correct": 13,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.75,
+                "correct": 6,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.6666666666666666,
+                "correct": 16,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.7916666666666666,
+                "correct": 19,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.7291666666666666,
+              "correct": 35,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "run_manifest_sha256": "62ade39d55fca8b47390e799b9864ddb057a9f8d1ccb8499caa68398d17f7f80"
+        },
+        {
+          "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+          "eval_manifest_sha256": "c5be99367fbfb7183068afde7dfa2a0476d75b743eb8d933e8faa8e4ed1faaa8",
+          "final_trainable_sha256": "64994de31ead3b0fb12c79c209af6a2eb1b9ed4daea33435705aec5817e21c8c",
+          "heavy_publication": {
+            "asset_name": "dd1_seed2026083123_MARGIN_HOMOGENEOUS_DISPERSED_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+            "remote_digest": "sha256:0b6b1d8f2dc6449d99a150a11d699d33cc97d494e3d4afd2723a591812c08dc6",
+            "sha256": "0b6b1d8f2dc6449d99a150a11d699d33cc97d494e3d4afd2723a591812c08dc6"
+          },
+          "initial_trainable_sha256": "838592db7159cb180a24059d27a802af78102722b093456cef9b086a3ef44e80",
+          "metrics": {
+            "balanced_accuracy": 0.6458333333333333,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.5,
+                "correct": 4,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.75,
+                "correct": 12,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.625,
+                "correct": 10,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.625,
+                "correct": 5,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.6666666666666666,
+                "correct": 16,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.625,
+                "correct": 15,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.6458333333333334,
+              "correct": 31,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "run_manifest_sha256": "e08d403a1e483f1d910f2fa6d57f130df4b4ccea5121f1ee942426eaf9d384ed"
+        }
+      ],
+      "paired_initialization_sha256": "838592db7159cb180a24059d27a802af78102722b093456cef9b086a3ef44e80",
+      "seed": 2026083123,
+      "status": "COMPLETE_PAIR_FRESH"
+    },
+    {
+      "arms": [
+        {
+          "arm": "IDENTIFYING_COVISIBLE",
+          "eval_manifest_sha256": "dc37b89405de1f74727b6576eb2d30bf381c12367b8df3718b741852fe7105fd",
+          "final_trainable_sha256": "d078e845da3956d00fdd832a9578267299a8c58568e51e93f6b8a3801ea3cd0b",
+          "heavy_publication": {
+            "asset_name": "dd1_seed2026083124_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+            "remote_digest": "sha256:be22ef41ceee09eff0c7a8e41c69eed3a22987848c0efcec9b45ce3523c69f69",
+            "sha256": "be22ef41ceee09eff0c7a8e41c69eed3a22987848c0efcec9b45ce3523c69f69"
+          },
+          "initial_trainable_sha256": "0540ef5d575a3479484128ad56f75d7b343b2ea9a17550aac8686faf216a6b5d",
+          "metrics": {
+            "balanced_accuracy": 0.6458333333333333,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.75,
+                "correct": 6,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.8125,
+                "correct": 13,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.625,
+                "correct": 10,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.25,
+                "correct": 2,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.7916666666666666,
+                "correct": 19,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.5,
+                "correct": 12,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.6458333333333334,
+              "correct": 31,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "run_manifest_sha256": "8cc8d657c5bc6c6a7acbfc51cd9d706cc1156b612dafa2734a3296be50dcca04"
+        },
+        {
+          "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+          "eval_manifest_sha256": "6b7326385919d13cca99f67df55ebacb7cc34b58e08a23783a52349b80a71b9d",
+          "final_trainable_sha256": "9bc9e8493eeca076fe3c2126d113309546971feb2c56281744638bb506d2b4ee",
+          "heavy_publication": {
+            "asset_name": "dd1_seed2026083124_MARGIN_HOMOGENEOUS_DISPERSED_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+            "remote_digest": "sha256:6abeaace725335c6cdea1afc80cc8fe576181e042b34ee9561294cf3c471350b",
+            "sha256": "6abeaace725335c6cdea1afc80cc8fe576181e042b34ee9561294cf3c471350b"
+          },
+          "initial_trainable_sha256": "0540ef5d575a3479484128ad56f75d7b343b2ea9a17550aac8686faf216a6b5d",
+          "metrics": {
+            "balanced_accuracy": 0.8333333333333333,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.625,
+                "correct": 5,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.8125,
+                "correct": 13,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.875,
+                "correct": 14,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 1.0,
+                "correct": 8,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.75,
+                "correct": 18,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.9166666666666666,
+                "correct": 22,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.8333333333333334,
+              "correct": 40,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "run_manifest_sha256": "983fb1d494370027e3bb09ec9796a9fd8a4d42759c04ffb16e60318b5777f36c"
+        }
+      ],
+      "paired_initialization_sha256": "0540ef5d575a3479484128ad56f75d7b343b2ea9a17550aac8686faf216a6b5d",
+      "seed": 2026083124,
+      "status": "COMPLETE_PAIR_FRESH"
+    },
+    {
+      "arms": [
+        {
+          "arm": "IDENTIFYING_COVISIBLE",
+          "eval_manifest_sha256": "4ce17d62dc100358767865293110e28b650d68c34ed27e090aaa40990e253881",
+          "final_trainable_sha256": "41c6fbfea0e7ca2b878ab035bd18d03ab19aa3b11a9ce17d81915c79a2ef3621",
+          "heavy_publication": {
+            "asset_name": "dd1_seed2026083125_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+            "remote_digest": "sha256:fe62684ce12411f75a2d4b2e9e58c206a0af99869425680af4b5b80288533157",
+            "sha256": "fe62684ce12411f75a2d4b2e9e58c206a0af99869425680af4b5b80288533157"
+          },
+          "initial_trainable_sha256": "45f7fec5f743cee2a4e531d1f56117aa2d223e1a376c558be559ad6a95d272dd",
+          "metrics": {
+            "balanced_accuracy": 0.6875,
+            "by_support": {
+              "equality": {
+                "accuracy": 1.0,
+                "correct": 8,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.625,
+                "correct": 10,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.5,
+                "correct": 8,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.875,
+                "correct": 7,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.75,
+                "correct": 18,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.625,
+                "correct": 15,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.6875,
+              "correct": 33,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "run_manifest_sha256": "46685143100865a50fab41d6125cc6c272009eefd39f35b779916542c6fe29bc"
+        },
+        {
+          "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+          "eval_manifest_sha256": "21538a6fe62edd3f5b02498104f951054dc1fb0613973fd31d2c4d927ad4159b",
+          "final_trainable_sha256": "20ed815ac5e5d88a8a5c2440b44064d285be3ab6ed924a96b398edd7ba46a634",
+          "heavy_publication": {
+            "asset_name": "dd1_seed2026083125_MARGIN_HOMOGENEOUS_DISPERSED_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+            "remote_digest": "sha256:0816e0bd5558465e01b9fd9fd929e7d4aacd0a28cac7d74bcddb8c462fbaf093",
+            "sha256": "0816e0bd5558465e01b9fd9fd929e7d4aacd0a28cac7d74bcddb8c462fbaf093"
+          },
+          "initial_trainable_sha256": "45f7fec5f743cee2a4e531d1f56117aa2d223e1a376c558be559ad6a95d272dd",
+          "metrics": {
+            "balanced_accuracy": 0.5625,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.5,
+                "correct": 4,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.5625,
+                "correct": 9,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.5625,
+                "correct": 9,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.625,
+                "correct": 5,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.5416666666666666,
+                "correct": 13,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.5833333333333334,
+                "correct": 14,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.5625,
+              "correct": 27,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "run_manifest_sha256": "3ce36a6b248e91314988c326ddddfa4f6f941c0dd09864256179081659b264dc"
+        }
+      ],
+      "paired_initialization_sha256": "45f7fec5f743cee2a4e531d1f56117aa2d223e1a376c558be559ad6a95d272dd",
+      "seed": 2026083125,
+      "status": "COMPLETE_PAIR_FRESH"
+    },
+    {
+      "arms": [
+        {
+          "arm": "IDENTIFYING_COVISIBLE",
+          "eval_manifest_sha256": "822f7cc1cfccec2bfdb88f01c2a1aa0496f3a617e767028a3888ef066c1dfba1",
+          "final_trainable_sha256": "6abaf3c0b533c3a7d8241ce29fb21ac318fe346650a721f13f6528eeb8724a22",
+          "heavy_publication": {
+            "asset_name": "dd1_seed2026083126_IDENTIFYING_COVISIBLE_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+            "remote_digest": "sha256:56eb84a73a218e700682f1e5fb24618e48838db9a672974dd60cdabd1efed858",
+            "sha256": "56eb84a73a218e700682f1e5fb24618e48838db9a672974dd60cdabd1efed858"
+          },
+          "initial_trainable_sha256": "910fa7603c0ce4f5d135202e8347e4323f308af0a754c7d9911d5d79946ac257",
+          "metrics": {
+            "balanced_accuracy": 0.625,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.75,
+                "correct": 6,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.5,
+                "correct": 8,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.5625,
+                "correct": 9,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.875,
+                "correct": 7,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.5833333333333334,
+                "correct": 14,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.6666666666666666,
+                "correct": 16,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.625,
+              "correct": 30,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "run_manifest_sha256": "f7dd9b66556f08703e1a30f16be6ec47cc81c56cf938318624d6fc561c370cd8"
+        },
+        {
+          "arm": "MARGIN_HOMOGENEOUS_DISPERSED",
+          "eval_manifest_sha256": "a58e2d67d6121ef090aedf8d172b85fefb3e9f4e1893593eeb40d3954f55e943",
+          "final_trainable_sha256": "29732101682eef658a9dd7bbf5172a492102f4d1779f92791ca8569d82b986a8",
+          "heavy_publication": {
+            "asset_name": "dd1_seed2026083126_MARGIN_HOMOGENEOUS_DISPERSED_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd1-predicate-field-resolution-2026-08-31",
+            "remote_digest": "sha256:b38fa78b949d75e31275d3c9c071a4ae970a5da12d9e353f21592c4e2549f4eb",
+            "sha256": "b38fa78b949d75e31275d3c9c071a4ae970a5da12d9e353f21592c4e2549f4eb"
+          },
+          "initial_trainable_sha256": "910fa7603c0ce4f5d135202e8347e4323f308af0a754c7d9911d5d79946ac257",
+          "metrics": {
+            "balanced_accuracy": 0.5833333333333334,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.5,
+                "correct": 4,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.625,
+                "correct": 10,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.5625,
+                "correct": 9,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.625,
+                "correct": 5,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.5833333333333334,
+                "correct": 14,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.5833333333333334,
+                "correct": 14,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.5833333333333334,
+              "correct": 28,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "run_manifest_sha256": "affcd1881b70ffa316c5636eb4b82355ebddc7b77b84eec8943534dea5ea12a3"
+        }
+      ],
+      "paired_initialization_sha256": "910fa7603c0ce4f5d135202e8347e4323f308af0a754c7d9911d5d79946ac257",
+      "seed": 2026083126,
+      "status": "COMPLETE_PAIR_FRESH"
+    }
+  ],
+  "parent_scientific_identity": "DD1_PREDICATE_FIELD_RESOLUTION_20260831",
+  "schema": "cfe.dd1r1.recovery-campaign.v1",
+  "status": "COMPLETE_6_OF_6"
+}

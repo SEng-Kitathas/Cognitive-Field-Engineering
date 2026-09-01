@@ -1,12 +1,10 @@
 # CFE NEXT STEPS
 
-As of: 2026-08-31 23:54 Eastern Daylight Time
+As of: 2026-08-31 23:58 Eastern Daylight Time
 
-## P0 — DD1R1 closeout
-1. Verify 6/6 receipt + aggregate/manifests.
-2. Apply frozen disposition evaluator mechanically.
-3. Publish/verify closeout.
-4. Update cartography cell/boundaries/ranking.
-
-## P0 — core cartographic intent
-Every next experiment must serve both core intents: engineer developmental experience **and** reduce uncertainty about the topology of constraints while testing whether the coordinate system itself remains valid.
+## P0 — cartography-driven next selection
+1. Treat DD1 as closed `FIELD_RESOLUTION_SUPPORTED`, not strong.
+2. Use updated first-class map SHA `f9300891de4675bc48601553905ded3fff6de0b4ff255f2efdc3ec6dc806e448`.
+3. Derive experiment-to-cell binding for top-ranked hole: typed-relation co-visibility.
+4. Hostile-test whether that axis is genuinely distinct from proximity/co-visibility before preregistration.
+5. Only then freeze the next experiment.
