@@ -1,0 +1,30 @@
+{
+  "active_blockers": [],
+  "frontier": {
+    "archaeology": {
+      "class": "HISTORICAL_MECHANISM_COORDINATE_PRIOR",
+      "sha256": "24ac9f376c525b6971ac967e91879ddd842df47aa217de6696ecd15b7a7d0053"
+    },
+    "cartography": {
+      "active_successor_sha256": "e399044856e4e6f93de4fd18f48910ff55c4a73fb4cace8ac7030416e4cdb51b",
+      "frozen_dd2_map_sha256": "6ff38f8eec99f886115d8bceef2419758f696897541fb8d51f341e533215922a",
+      "pointer_sha256": "638bafc27a023a193a6808add13e5c6f834177a5394f098e43f8184161dd9275"
+    },
+    "dd2": {
+      "paired_seeds_admitted": 0,
+      "parent_job": "job-a9af74aa760d",
+      "status": "FAILED_EXECUTION_EVAL"
+    },
+    "dd2r1": {
+      "amendment_sha256": "f98a3bee1df8a7f740aa7a0a478cc5cdf2fbb90b220d82dca895ab53328ae3fa",
+      "runner_sha256": "4d7f226eef6e4b943bea832a708730a2b8b27980ca7a7e64f8785791792828f9",
+      "static_qualification_sha256": "f03ec6841c1adbd3049f73ecf2acf2d766453157ac430f49abe75faf82ed145a",
+      "status": "AUTHORIZED_FOR_RECOVERY_LAUNCH"
+    }
+  },
+  "mode": "BUILD-COMMIT",
+  "next_exact_action": "publish stable recovery state then launch sole DD2R1 GPU recovery",
+  "role": "R5 Reality Pressure Engine",
+  "schema": "cfe.per-turn-reconciliation-receipt.v5",
+  "timestamp": "2026-09-01T06:20:55-04:00"
+}

@@ -961,3 +961,12 @@ Hostile-gated typed relation as the previously selected axis. Exhaustive/permuta
 ## DD2 launch — ASSISTANT
 Timestamp: 2026-09-01 00:28 Eastern Daylight Time
 Launched DD2 structured revisit topology after hostile rejection of typed-relation independence and successful schedule/preexec qualification. Job `job-a9af74aa760d`, PID 5052, entered first CYCLIC_SPACED training arm.
+
+---
+## Turn — USER
+Timestamp: 2026-09-01 06:20 Eastern Daylight Time
+Tags: PROCEED, ARCHAEOLOGY-INFORMED CFE
+User instructed: "Proceed with CFE duly informed" after E-drive pre-formal CFE archaeology.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Bound archaeology as historical mechanism/coordinate priors only. Discovered active DD2 parent job had failed during first-arm evaluation after complete manifested training. Built DD2R1 recovery identity without changing frozen science. Static gate initially caught that archaeology annotation had modified a DD2-locked cartography file; preserved annotation as successor map, restored frozen map byte-exact from Git commit 50499d42..., and reran recovery static qualification PASS 19/19.

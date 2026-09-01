@@ -1,0 +1,8 @@
+{
+  "identity": "DD2_REVISIT_TOPOLOGY_20260901",
+  "input_lock_sha256": "04ee03408154095e2b1b9b78ae3fd9c2f6aac578c894f100a2e989856926ebc4",
+  "jobs": [],
+  "preexec_sha256": "3dbee0d61c41712a32bb07177fc79d3377533c0c2519cc112f765c5af7c1ecb0",
+  "schema": "cfe.dd2.campaign.v1",
+  "status": "RUNNING"
+}

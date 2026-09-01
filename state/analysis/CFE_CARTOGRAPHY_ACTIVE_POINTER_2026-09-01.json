@@ -1,0 +1,9 @@
+{
+  "active_map_path": "state/analysis/CFE_NEGATIVE_SPACE_INTERVENTION_LATTICE_2026-09-01_POST_ARCHAEOLOGY.json",
+  "active_map_sha256": "e399044856e4e6f93de4fd18f48910ff55c4a73fb4cace8ac7030416e4cdb51b",
+  "frozen_dd2_map_path": "state/analysis/CFE_NEGATIVE_SPACE_INTERVENTION_LATTICE_2026-08-31.json",
+  "frozen_dd2_map_sha256": "6ff38f8eec99f886115d8bceef2419758f696897541fb8d51f341e533215922a",
+  "rule": "Active cartography may advance by successor while a frozen experiment retains its exact locked predecessor map. Never rewrite a map named in an active scientific input lock.",
+  "schema": "cfe.cartography-active-pointer.v1",
+  "status": "ACTIVE_SUCCESSOR_WITH_FROZEN_EXPERIMENT_BINDING"
+}

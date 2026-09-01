@@ -1,0 +1,59 @@
+{
+  "current_scientific_consequence": "No DD2 scientific input changes. Archaeology informs interpretation, future axis proposal, and future cartography ranking only after DD2 closes.",
+  "evidence_class": "HISTORICAL_MECHANISM_COORDINATE_PRIOR",
+  "guards": [
+    "HISTORICAL_PRIOR != CAUSAL_CFE_EVIDENCE",
+    "WEIGHT_SPACE_ANALOGUE != LEARNER_DEVELOPMENTAL_MECHANISM",
+    "MIXED_TOPOLOGY_GEN1_TRAINING != CONTROLLED_GEOMETRY_ABLATION",
+    "OLD_LABELS != LEARNER_ONTOLOGY",
+    "CURRENT_FROZEN_EXPERIMENTS_MUST_NOT_BE_CHANGED_BY_ARCHAEOLOGY"
+  ],
+  "schema": "cfe.historical-mechanism-coordinate-prior.v1",
+  "source_roots": {
+    "april_gen1_project": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\monster-standard-inference-revival-2026-04-06",
+    "gen1_frozen_eval": "E:\\new pc\\AI_Pushes_Sandbox\\system\\eval_frozen_run_2026-04-10_pass01.jsonl",
+    "gen1_frozen_train": "E:\\new pc\\AI_Pushes_Sandbox\\system\\train_frozen_run_2026-04-10_pass01.jsonl",
+    "gen1_phase6_root": "E:\\new pc\\AI_Pushes_Sandbox\\historical data\\Geometric reason\\rosetta\\Training Dataset and sundry",
+    "tq2_root": "E:\\new pc\\AI_Pushes_Sandbox\\historical data\\Geometric reason\\TQ2\\GEOMETRIC_THREAD_PROJECT_ARCHIVE"
+  },
+  "status": "ACTIVE_HISTORICAL_PRIOR_NOT_SCIENTIFIC_OCCUPANCY",
+  "timestamp": "2026-09-01T06:18:33-04:00",
+  "verified_observations": [
+    {
+      "cfe_effect": "raises prior that learner-visible presentation form deserves independent coordinates",
+      "mechanism": "TOPOLOGY_CLASS_AS_TRAINING_OBJECT",
+      "occupies_cfe_cell": false,
+      "support": "Gen1 Phase-6 explicitly used multiple topology families and topology-first training-data design; surviving frozen train/eval corpora are topology-mixed."
+    },
+    {
+      "cfe_effect": "strengthens historical prior for structured revisit/currentness axes; does not alter frozen DD2",
+      "mechanism": "STRUCTURED_REVISIT_CURRENTNESS",
+      "occupies_cfe_cell": false,
+      "support": "stateful-resume topology required state write -> interruption -> later state read -> resumed trajectory; curriculum work treated order/phase separately."
+    },
+    {
+      "cfe_effect": "strengthens candidate-axis prior, but current predicate substrate independence failure still controls; typed relation remains suspended there",
+      "mechanism": "TYPED_RELATION_STRUCTURE",
+      "occupies_cfe_cell": false,
+      "support": "TQ2/Rosetta typed-cell and typed-tuple searches repeatedly outperformed coarse grouped representations; reports explicitly identified relation type as retained structure."
+    },
+    {
+      "cfe_effect": "adds latent candidate coordinate for future CFE hostile qualification; not a canonical axis yet",
+      "mechanism": "CONSTRUCTIVE_DESTRUCTIVE_EVIDENCE_GEOMETRY",
+      "occupies_cfe_cell": false,
+      "support": "TQ2/Rosetta best structures combined constructive retained structure with targeted destructive/excision structure."
+    },
+    {
+      "cfe_effect": "historical analogue to current CFE local-geometry boundaries",
+      "mechanism": "LOCAL_NEIGHBORHOOD_VS_GLOBAL_SUFFICIENCY",
+      "occupies_cfe_cell": false,
+      "support": "historical local-neighborhood/refinement work repeatedly separated stable local basins from global sufficiency."
+    },
+    {
+      "cfe_effect": "direct methodological ancestry of first-class CFE cartography",
+      "mechanism": "FACTOR_SEARCH_SPACE_AND_PRUNE_BY_BOUNDARIES",
+      "occupies_cfe_cell": false,
+      "support": "April 4 fractal combinatory search grammar explicitly decomposed spaces into axes, coupling, symmetries/equivalence classes, and treated wrong paths as boundary information."
+    }
+  ]
+}

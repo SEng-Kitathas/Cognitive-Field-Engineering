@@ -1,0 +1,9 @@
+
+=== ATTEMPT 1 RC 0 ===
+W0831 19:37:13.762000 29508 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:04<00:08,  4.09s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:07<00:03,  3.97s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:11<00:00,  3.90s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:11<00:00,  3.93s/it]

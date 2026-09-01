@@ -35,3 +35,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | P1 coordinate | typed relation semantics | non-independent on current predicate quartet under position-support + distance controls | revisit only on richer substrate with independent semantics | suspended |
 | P0 science | DD2 structured revisit topology | does recurrence spacing matter beyond same dose/window multiset? | six paired seeds + frozen disposition | ready to launch |
+
+| P1 science | Constructive/destructive evidence geometry | independently recurs in TQ2/Rosetta but not CFE-qualified | may collapse into support/coverage or typed relation | hostile independent-axis compiler gate after DD2 | open historical-prior seam |
+| P1 science | Typed relation on new substrate | historical typed-cell/tuple work strengthens prior but current predicate axis collapsed | needs substrate where relation type is orthogonal to proximity | design only after DD2/map update | suspended on current substrate |

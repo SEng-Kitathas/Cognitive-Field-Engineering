@@ -1,0 +1,22 @@
+{
+  "arm": "CYCLIC_SPACED",
+  "completed_training": {
+    "adapter_sha256": "477764b22d02c5535ce40668755196c9713d10e18ca32d9d29a74331892cb6df",
+    "global_step": 144,
+    "run_manifest_sha256": "a59fab42527c99de3f14d22d5dd460089606ac532c599ca23c710b89fc5e9117"
+  },
+  "eval_manifest_exists": false,
+  "failure_code": 3221225477,
+  "failure_phase": "EVAL",
+  "job_id": "job-a9af74aa760d",
+  "job_status": "FAILED",
+  "recovery_identity": "DD2R1_REVISIT_TOPOLOGY_20260901",
+  "recovery_static_qualification_sha256": "f03ec6841c1adbd3049f73ecf2acf2d766453157ac430f49abe75faf82ed145a",
+  "return_code": 1,
+  "schema": "cfe.dd2.execution-failure-status.v1",
+  "scientific_design_changed": false,
+  "scientific_disposition": "NONE__NO_PAIRED_SEED_ADMITTED",
+  "scientific_identity": "DD2_REVISIT_TOPOLOGY_20260901",
+  "seed": 2026083121,
+  "timestamp": "2026-09-01T06:20:55-04:00"
+}
