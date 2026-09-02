@@ -128,3 +128,7 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Standard Uplift reason-maintenance cross-domain integration policy is active design input, not training admission and not the CFE pack.
 - Trace LBE overlay now contains 15 trace nodes with 92 trace/event nodes and 164 typed edges; main archaeology field binds it.
 - Strong forest seam: combine modern flexible learned representation with bounded support-aware, temporally current, multi-hypothesis reason maintenance without brittle curator ontology.
+
+### Trace cartography publication delta — 2026-09-02
+- Trace-level temporal cartography/cross-domain transfer package committed and pushed at `4d2cfacc331964451278fbf7b0d0cb0017ce974f`; local publication checkout == remote `main`, clean at readback.
+- 17-file commit / 5,171 insertions; no raw PDFs or derived text-cache payloads entered Git.

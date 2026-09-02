@@ -191,3 +191,7 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Main archaeology LBE field now binds both reason-maintenance and trace-level overlays; SHA `a8d2d44cd73f1a147f1625644a7b1dcea76b061b80add4bb2d70879988293cd8`.
 - Created binding research/transfer intent `state/doctrine_snapshot/CFE_TRACE_TEMPORAL_CARTOGRAPHY_AND_CROSS_DOMAIN_TRANSFER_INTENT_2026-09-02.md` SHA `095fb768fbc84e032b2815b36f8327f0028a9c71389d434da635890eea8a1531`.
 - Strongest current forest question: **How do we combine flexible learned representation with bounded, support-aware, temporally current, multi-hypothesis reason maintenance without forcing brittle curator ontology?**
+
+### Trace temporal cartography publication readback — 2026-09-02
+- Publication commit `4d2cfacc331964451278fbf7b0d0cb0017ce974f` (`Build trace-level reasoning temporal cartography`) pushed successfully; local checkout HEAD == remote `main` and Git status was clean at readback.
+- Commit contained 17 files / 5,171 insertions / 1 deletion. No raw PDFs or derived trace-text cache payloads were committed; publication contains only source/provenance manifests, hashes, trace/event abstractions, matrices, LBE overlays, transfer policies, tools, and continuity/state surfaces.
