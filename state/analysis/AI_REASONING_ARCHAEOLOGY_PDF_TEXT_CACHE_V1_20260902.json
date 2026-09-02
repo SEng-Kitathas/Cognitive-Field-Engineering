@@ -1,0 +1,330 @@
+{
+  "count": 32,
+  "created_unix": 1788383984.6226065,
+  "errors": 0,
+  "items": [
+    {
+      "pages": 7,
+      "pages_with_text": 7,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\1959_GPS_A_General_Problem_Solving_Program.pdf",
+      "relative_pdf": "1959_GPS_A_General_Problem_Solving_Program.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 34029,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\1959_GPS_A_General_Problem_Solving_Program.pdf.txt",
+      "text_sha256": "dd049bff314fded25129832b09d1ae5185025229554511b12262176be91206ce"
+    },
+    {
+      "pages": 51,
+      "pages_with_text": 51,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\1969_McCarthy_Hayes_Some_Philosophical_Problems.pdf",
+      "relative_pdf": "1969_McCarthy_Hayes_Some_Philosophical_Problems.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 106722,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\1969_McCarthy_Hayes_Some_Philosophical_Problems.pdf.txt",
+      "text_sha256": "e002de4c7c1dc16ea4a611daf199c8272515df66758fc7d55445e092996e486e"
+    },
+    {
+      "pages": 19,
+      "pages_with_text": 19,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\1985_Chunking_in_Soar.pdf",
+      "relative_pdf": "1985_Chunking_in_Soar.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 7485,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\1985_Chunking_in_Soar.pdf.txt",
+      "text_sha256": "79d6e01be41b379d810348cbbcbaafa393a61412dec3bc757d7126b7ae354464"
+    },
+    {
+      "pages": 13,
+      "pages_with_text": 13,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\1993_Notes_on_Formalizing_Context.pdf",
+      "relative_pdf": "1993_Notes_on_Formalizing_Context.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 29641,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\1993_Notes_on_Formalizing_Context.pdf.txt",
+      "text_sha256": "a10fc8a78d5319d4d555aefee8d2fc8b9b16c2dd716af915fa5caf9e89332880"
+    },
+    {
+      "pages": 43,
+      "pages_with_text": 43,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\2022_Chain_of_Thought_Prompting.pdf",
+      "relative_pdf": "2022_Chain_of_Thought_Prompting.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 137819,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\2022_Chain_of_Thought_Prompting.pdf.txt",
+      "text_sha256": "4bfda1f19ead47ff8f03ed8193139662f19f1b34234d5b17163ca1145d65f21b"
+    },
+    {
+      "pages": 33,
+      "pages_with_text": 33,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\2022_ReAct.pdf",
+      "relative_pdf": "2022_ReAct.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 111443,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\2022_ReAct.pdf.txt",
+      "text_sha256": "1fd5ee0c8a6258e3f57bde75bca094500ff4500c9be1896b0f94117c9b024642"
+    },
+    {
+      "pages": 24,
+      "pages_with_text": 24,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\2022_Self_Consistency.pdf",
+      "relative_pdf": "2022_Self_Consistency.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 91828,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\2022_Self_Consistency.pdf.txt",
+      "text_sha256": "53bc6a4164d411dcd4192f3559536b4871c2124d4f93442ca4e8a65e2c20d2b3"
+    },
+    {
+      "pages": 30,
+      "pages_with_text": 30,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\2022_STaR.pdf",
+      "relative_pdf": "2022_STaR.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 102006,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\2022_STaR.pdf.txt",
+      "text_sha256": "b05a11f7815798c895083c12891e6ad450264262142b06d73604960061ea4f2e"
+    },
+    {
+      "pages": 29,
+      "pages_with_text": 29,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\2023_Lets_Verify_Step_by_Step.pdf",
+      "relative_pdf": "2023_Lets_Verify_Step_by_Step.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 53842,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\2023_Lets_Verify_Step_by_Step.pdf.txt",
+      "text_sha256": "0cc725aff3fd330bb49f192fec4f2e80c2e7186e0cdffe2a979512c7d4f304f6"
+    },
+    {
+      "pages": 19,
+      "pages_with_text": 19,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\2023_Reflexion.pdf",
+      "relative_pdf": "2023_Reflexion.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 60111,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\2023_Reflexion.pdf.txt",
+      "text_sha256": "632a667d834518e65850e56d16772c956a58150ace0e6ce9ef3bf83e42ec9b90"
+    },
+    {
+      "pages": 14,
+      "pages_with_text": 14,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\2023_Tree_of_Thoughts.pdf",
+      "relative_pdf": "2023_Tree_of_Thoughts.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 68333,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\2023_Tree_of_Thoughts.pdf.txt",
+      "text_sha256": "ded18f6bdb1d29aa545012670d944e71f8d56470f1b8d05920f9d6234920d64f"
+    },
+    {
+      "pages": 86,
+      "pages_with_text": 86,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\2025_DeepSeek_R1.pdf",
+      "relative_pdf": "2025_DeepSeek_R1.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 264328,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\2025_DeepSeek_R1.pdf.txt",
+      "text_sha256": "28bc47de4e6938bb4304eb962c75f49dc268eb017e241ec3b75370cb6eb0cd5c"
+    },
+    {
+      "pages": 35,
+      "pages_with_text": 35,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\2025_Qwen3_Technical_Report.pdf",
+      "relative_pdf": "2025_Qwen3_Technical_Report.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 117011,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\2025_Qwen3_Technical_Report.pdf.txt",
+      "text_sha256": "f0f019e8143fc3f6d7bea2c11b5cc96eb547dcc31099a4b7da4a5d706e706631"
+    },
+    {
+      "pages": 9,
+      "pages_with_text": 9,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1977_Hayes_Roth_Lesser_HEARSAY_Focus.pdf",
+      "relative_pdf": "deep_hunt_v2\\1977_Hayes_Roth_Lesser_HEARSAY_Focus.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 61094,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__1977_Hayes_Roth_Lesser_HEARSAY_Focus.pdf.txt",
+      "text_sha256": "6f0b5604e72aa75d021134271d5868562f4f49333fca4c9b5a9f556079738c97"
+    },
+    {
+      "pages": 6,
+      "pages_with_text": 6,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1977_Mitchell_Version_Spaces.pdf",
+      "relative_pdf": "deep_hunt_v2\\1977_Mitchell_Version_Spaces.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 28774,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__1977_Mitchell_Version_Spaces.pdf.txt",
+      "text_sha256": "280cb5bc6d05a59190f3ded19dec5c905de7b213b90f518d80428edbc1e713c8"
+    },
+    {
+      "pages": 12,
+      "pages_with_text": 12,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1979_Reid_Multiple_Hypothesis_Tracking.pdf",
+      "relative_pdf": "deep_hunt_v2\\1979_Reid_Multiple_Hypothesis_Tracking.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 53257,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__1979_Reid_Multiple_Hypothesis_Tracking.pdf.txt",
+      "text_sha256": "9f83572b71999a6faeed2ea0874def9f7a8c401dc8b5ed4288699b7c96638c12"
+    },
+    {
+      "pages": 36,
+      "pages_with_text": 36,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1986_deKleer_ATMS.pdf",
+      "relative_pdf": "deep_hunt_v2\\1986_deKleer_ATMS.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 82518,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__1986_deKleer_ATMS.pdf.txt",
+      "text_sha256": "7ced952b3dd349ac80e3100ea0cfaaf051cc5ddee4882381e1dcd027dff4e6d0"
+    },
+    {
+      "pages": 28,
+      "pages_with_text": 28,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1986_deKleer_Problem_Solving_ATMS.pdf",
+      "relative_pdf": "deep_hunt_v2\\1986_deKleer_Problem_Solving_ATMS.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 59264,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__1986_deKleer_Problem_Solving_ATMS.pdf.txt",
+      "text_sha256": "d2745d206f5af4bf7514af6dd4c1c2fde996e1baffc550a62e3960b999f5d7e3"
+    },
+    {
+      "pages": 8,
+      "pages_with_text": 8,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1986_deKleer_Williams_Back_to_Backtracking.pdf",
+      "relative_pdf": "deep_hunt_v2\\1986_deKleer_Williams_Back_to_Backtracking.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 36047,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__1986_deKleer_Williams_Back_to_Backtracking.pdf.txt",
+      "text_sha256": "40885a9d962462d1e0d2052bb8555423466b7c5de7b7de50e9d18a64b2de01b6"
+    },
+    {
+      "pages": 18,
+      "pages_with_text": 18,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1987_deKleer_Williams_GDE_reprint.pdf",
+      "relative_pdf": "deep_hunt_v2\\1987_deKleer_Williams_GDE_reprint.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 87771,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__1987_deKleer_Williams_GDE_reprint.pdf.txt",
+      "text_sha256": "9b0f0528b4bdc5491b0b485f7b34fe5897a3be96b5d306e25df84d3552b28fa3"
+    },
+    {
+      "pages": 6,
+      "pages_with_text": 6,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1987_Rosenbloom_Laird_Newell_Knowledge_Level_Learning_Soar.pdf",
+      "relative_pdf": "deep_hunt_v2\\1987_Rosenbloom_Laird_Newell_Knowledge_Level_Learning_Soar.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 35718,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__1987_Rosenbloom_Laird_Newell_Knowledge_Level_Learning_Soar.pdf.txt",
+      "text_sha256": "90634b94e73951d33a8e793236d1f474967c77582ea6d66e317a3f0d2eadaab1"
+    },
+    {
+      "pages": 22,
+      "pages_with_text": 22,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1993_Ginsberg_Dynamic_Backtracking.pdf",
+      "relative_pdf": "deep_hunt_v2\\1993_Ginsberg_Dynamic_Backtracking.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 64431,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__1993_Ginsberg_Dynamic_Backtracking.pdf.txt",
+      "text_sha256": "a70dda8094cb8df014c8205ffd2b1232996ac9efe062f18f9b9dfd2a95d24ad1"
+    },
+    {
+      "pages": 8,
+      "pages_with_text": 8,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1996_MarquesSilva_Sakallah_GRASP.pdf",
+      "relative_pdf": "deep_hunt_v2\\1996_MarquesSilva_Sakallah_GRASP.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 45503,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__1996_MarquesSilva_Sakallah_GRASP.pdf.txt",
+      "text_sha256": "e14546c8253e917ecd39976ef606840dc090d444a1d00ed5089d4e77b35553f9"
+    },
+    {
+      "pages": 47,
+      "pages_with_text": 47,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2009_Settles_Active_Learning_Survey.pdf",
+      "relative_pdf": "deep_hunt_v2\\2009_Settles_Active_Learning_Survey.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 99185,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__2009_Settles_Active_Learning_Survey.pdf.txt",
+      "text_sha256": "8151918f1fa9f9cc74fcbb833ce4e2a3c2f43c9da9576a10095de5c4d2f61486"
+    },
+    {
+      "pages": 17,
+      "pages_with_text": 17,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2024_Belief_R.pdf",
+      "relative_pdf": "deep_hunt_v2\\2024_Belief_R.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 63905,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__2024_Belief_R.pdf.txt",
+      "text_sha256": "e0ff29acc35311ed1aa26c5bde921691da757ff2f1b7296b7e71103ebfda4dcd"
+    },
+    {
+      "pages": 19,
+      "pages_with_text": 19,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2024_Rational_Metareasoning_LLM.pdf",
+      "relative_pdf": "deep_hunt_v2\\2024_Rational_Metareasoning_LLM.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 51604,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__2024_Rational_Metareasoning_LLM.pdf.txt",
+      "text_sha256": "4c6b666ab0efd8abeaa2290c13aa3930deba17521753ed6ba118efcc3a62834f"
+    },
+    {
+      "pages": 45,
+      "pages_with_text": 45,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2025_AR_Bench.pdf",
+      "relative_pdf": "deep_hunt_v2\\2025_AR_Bench.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 186288,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__2025_AR_Bench.pdf.txt",
+      "text_sha256": "6dd150285a5bf81ba4e27b1cebbd1cb86a5d996f1951adb23a7af6bbae15f66f"
+    },
+    {
+      "pages": 20,
+      "pages_with_text": 20,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2025_Hypothesis_Driven_ToM.pdf",
+      "relative_pdf": "deep_hunt_v2\\2025_Hypothesis_Driven_ToM.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 70425,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__2025_Hypothesis_Driven_ToM.pdf.txt",
+      "text_sha256": "31723145fdaa018e3b180be13bdaca1e51be770892b0a3497a741242e1664ad2"
+    },
+    {
+      "pages": 22,
+      "pages_with_text": 22,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2025_KUP_Knowledge_Update.pdf",
+      "relative_pdf": "deep_hunt_v2\\2025_KUP_Knowledge_Update.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 81400,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__2025_KUP_Knowledge_Update.pdf.txt",
+      "text_sha256": "cd3c444488b6e0fd374471c59f34fe3cca3533c00b6a4f66d0e711f034386f5f"
+    },
+    {
+      "pages": 18,
+      "pages_with_text": 18,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2026_CTRLS.pdf",
+      "relative_pdf": "deep_hunt_v2\\2026_CTRLS.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 63230,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__2026_CTRLS.pdf.txt",
+      "text_sha256": "5bdf462687b2043c507f5ccaa1215102fc5ec533846b66720608c323dcb31bf7"
+    },
+    {
+      "pages": 16,
+      "pages_with_text": 16,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2026_LLM_Reasoning_Trajectories.pdf",
+      "relative_pdf": "deep_hunt_v2\\2026_LLM_Reasoning_Trajectories.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 59164,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__2026_LLM_Reasoning_Trajectories.pdf.txt",
+      "text_sha256": "8682cd6b39e6e4db6d3955e90962a2abb8ddc17e4e9eaa7fbca6d14bc0b7cc6c"
+    },
+    {
+      "pages": 37,
+      "pages_with_text": 37,
+      "pdf": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2026_STALE.pdf",
+      "relative_pdf": "deep_hunt_v2\\2026_STALE.pdf",
+      "status": "EXTRACTED",
+      "text_bytes": 117033,
+      "text_path": "research\\quarry\\reasoning_archaeology\\text_cache_v1\\deep_hunt_v2__2026_STALE.pdf.txt",
+      "text_sha256": "d14cc4fa8c8e985f139dd74136253048ee42bf7b6716d3556a0a318ed9ed2778"
+    }
+  ],
+  "policy": "LOCAL_DERIVED_TEXT_CACHE_NOT_FOR_RAW_SOURCE_PUBLICATION",
+  "schema": "cfe.reasoning-archaeology.pdf-text-cache.v1",
+  "success": 32
+}

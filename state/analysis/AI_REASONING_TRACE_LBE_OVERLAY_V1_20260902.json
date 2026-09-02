@@ -1,0 +1,2155 @@
+{
+  "schema": "cfe.reasoning-archaeology.trace-lbe-overlay.v1",
+  "status": "TRACE_LEVEL_OVERLAY__HOSTILE_REVIEW_PENDING",
+  "date": "2026-09-02",
+  "trace_count": 15,
+  "node_count": 92,
+  "edge_count": 164,
+  "nodes": [
+    {
+      "id": "T1959_GPS_MEANS_ENDS",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 1959,
+      "system": "General Problem Solver",
+      "domain": "general problem solving",
+      "trace_kind": "worked reasoning/control episode",
+      "source": "1959_GPS_A_General_Problem_Solving_Program.pdf",
+      "locator": {
+        "pages": "3",
+        "derived_text_lines": "145-158"
+      },
+      "features": {
+        "explicit_state": "EXPLICIT",
+        "live_alternatives": "IMPLICIT",
+        "support_lineage": "IMPLICIT",
+        "dependency_local_repair": "IMPLICIT",
+        "representation_refinement": "NOT_VISIBLE_IN_SPECIMEN",
+        "external_evidence_authority": "NOT_VISIBLE_IN_SPECIMEN",
+        "active_discriminator": "IMPLICIT",
+        "temporal_currentness": "IMPLICIT",
+        "learning_from_deliberation": "NOT_VISIBLE_IN_SPECIMEN",
+        "adaptive_effort": "EXPLICIT",
+        "uncertainty_preservation": "IMPLICIT",
+        "shared_branch_state": "IMPLICIT",
+        "control_separation": "EXPLICIT",
+        "failure_becomes_reusable": "NOT_VISIBLE_IN_SPECIMEN"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T1959_GPS_MEANS_ENDS::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1959_GPS_MEANS_ENDS",
+      "order": 1,
+      "plane": "OBJECT",
+      "event_type": "DETECT_DIFFERENCE",
+      "summary": "Compare current and desired state and identify a salient difference."
+    },
+    {
+      "id": "T1959_GPS_MEANS_ENDS::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1959_GPS_MEANS_ENDS",
+      "order": 2,
+      "plane": "CONTROL",
+      "event_type": "SELECT_RELEVANT_OPERATOR",
+      "summary": "Search for an operator characterized by whether it can reduce that difference."
+    },
+    {
+      "id": "T1959_GPS_MEANS_ENDS::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1959_GPS_MEANS_ENDS",
+      "order": 3,
+      "plane": "CONTROL",
+      "event_type": "CREATE_SUBGOAL",
+      "summary": "If the operator cannot yet apply, create easier prerequisite goals."
+    },
+    {
+      "id": "T1959_GPS_MEANS_ENDS::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1959_GPS_MEANS_ENDS",
+      "order": 4,
+      "plane": "OBJECT",
+      "event_type": "APPLY_OPERATOR",
+      "summary": "Transform the current object when prerequisites are satisfied."
+    },
+    {
+      "id": "T1959_GPS_MEANS_ENDS::E05",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1959_GPS_MEANS_ENDS",
+      "order": 5,
+      "plane": "CONTROL",
+      "event_type": "RECURSE",
+      "summary": "Repeat on the remaining difference until the goal or method fails."
+    },
+    {
+      "id": "T1977_VERSION_SPACE_UPDATE",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 1977,
+      "system": "Candidate Elimination / Version Spaces",
+      "domain": "concept learning",
+      "trace_kind": "evidence-driven hypothesis-boundary update",
+      "source": "1977_Mitchell_Version_Spaces.pdf",
+      "locator": {
+        "pages": "4-5",
+        "derived_text_lines": "331-411"
+      },
+      "features": {
+        "explicit_state": "EXPLICIT",
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "IMPLICIT",
+        "dependency_local_repair": "IMPLICIT",
+        "representation_refinement": "IMPLICIT",
+        "external_evidence_authority": "EXPLICIT",
+        "active_discriminator": "NOT_VISIBLE_IN_SPECIMEN",
+        "temporal_currentness": "EXPLICIT",
+        "learning_from_deliberation": "NOT_VISIBLE_IN_SPECIMEN",
+        "adaptive_effort": "NOT_VISIBLE_IN_SPECIMEN",
+        "uncertainty_preservation": "EXPLICIT",
+        "shared_branch_state": "EXPLICIT",
+        "control_separation": "EXPLICIT",
+        "failure_becomes_reusable": "IMPLICIT"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T1977_VERSION_SPACE_UPDATE::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1977_VERSION_SPACE_UPDATE",
+      "order": 1,
+      "plane": "HYPOTHESIS",
+      "event_type": "INITIALIZE_VIABLE_REGION",
+      "summary": "Represent all rules consistent with the first positive instance using maximally general/specific boundaries."
+    },
+    {
+      "id": "T1977_VERSION_SPACE_UPDATE::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1977_VERSION_SPACE_UPDATE",
+      "order": 2,
+      "plane": "OBJECT",
+      "event_type": "ADD_TRAINING_EVIDENCE",
+      "summary": "Process a new positive or negative training instance."
+    },
+    {
+      "id": "T1977_VERSION_SPACE_UPDATE::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1977_VERSION_SPACE_UPDATE",
+      "order": 3,
+      "plane": "HYPOTHESIS",
+      "event_type": "ELIMINATE_CONFLICTING_REGION",
+      "summary": "Remove only rule versions inconsistent with the new evidence."
+    },
+    {
+      "id": "T1977_VERSION_SPACE_UPDATE::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1977_VERSION_SPACE_UPDATE",
+      "order": 4,
+      "plane": "REPRESENTATION",
+      "event_type": "MOVE_BOUNDARIES",
+      "summary": "Generalize the specific boundary or specialize the general boundary just enough to preserve prior consistency."
+    },
+    {
+      "id": "T1977_VERSION_SPACE_UPDATE::E05",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1977_VERSION_SPACE_UPDATE",
+      "order": 5,
+      "plane": "HYPOTHESIS",
+      "event_type": "PRESERVE_VIABLE_SET",
+      "summary": "The updated extremal sets continue to denote all and only currently evidence-consistent rules."
+    },
+    {
+      "id": "T1979_MHT_RECURSIVE_ASSOCIATION",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 1979,
+      "system": "Multiple Hypothesis Tracking",
+      "domain": "temporal tracking",
+      "trace_kind": "recursive multi-hypothesis temporal update",
+      "source": "1979_Reid_Multiple_Hypothesis_Tracking.pdf",
+      "locator": {
+        "pages": "1",
+        "derived_text_lines": "7-24"
+      },
+      "features": {
+        "explicit_state": "EXPLICIT",
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "IMPLICIT",
+        "dependency_local_repair": "IMPLICIT",
+        "representation_refinement": "NOT_VISIBLE_IN_SPECIMEN",
+        "external_evidence_authority": "EXPLICIT",
+        "active_discriminator": "IMPLICIT",
+        "temporal_currentness": "EXPLICIT",
+        "learning_from_deliberation": "NOT_VISIBLE_IN_SPECIMEN",
+        "adaptive_effort": "IMPLICIT",
+        "uncertainty_preservation": "EXPLICIT",
+        "shared_branch_state": "EXPLICIT",
+        "control_separation": "EXPLICIT",
+        "failure_becomes_reusable": "NOT_VISIBLE_IN_SPECIMEN"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T1979_MHT_RECURSIVE_ASSOCIATION::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1979_MHT_RECURSIVE_ASSOCIATION",
+      "order": 1,
+      "plane": "OBJECT",
+      "event_type": "RECEIVE_MEASUREMENT",
+      "summary": "A new sensor report arrives under false-alarm, missed-detection, and unknown-target uncertainty."
+    },
+    {
+      "id": "T1979_MHT_RECURSIVE_ASSOCIATION::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1979_MHT_RECURSIVE_ASSOCIATION",
+      "order": 2,
+      "plane": "HYPOTHESIS",
+      "event_type": "SPAWN_ASSOCIATION_ALTERNATIVES",
+      "summary": "Consider report-to-existing-target, new-target, or false-report alternatives."
+    },
+    {
+      "id": "T1979_MHT_RECURSIVE_ASSOCIATION::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1979_MHT_RECURSIVE_ASSOCIATION",
+      "order": 3,
+      "plane": "HYPOTHESIS",
+      "event_type": "RECURSIVELY_REWEIGHT",
+      "summary": "Update joint hypothesis probabilities using current and prior information without reprocessing all history."
+    },
+    {
+      "id": "T1979_MHT_RECURSIVE_ASSOCIATION::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1979_MHT_RECURSIVE_ASSOCIATION",
+      "order": 4,
+      "plane": "CONTROL",
+      "event_type": "PRUNE_MERGE_FACTOR",
+      "summary": "Eliminate unlikely hypotheses, combine similar target estimates, and split independent clusters."
+    },
+    {
+      "id": "T1979_MHT_RECURSIVE_ASSOCIATION::E05",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1979_MHT_RECURSIVE_ASSOCIATION",
+      "order": 5,
+      "plane": "TEMPORAL",
+      "event_type": "REQUALIFY_PAST",
+      "summary": "Later measurements can change the plausibility of earlier data associations."
+    },
+    {
+      "id": "T1986_ATMS_CONTEXT_NOGOOD",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 1986,
+      "system": "Assumption-Based TMS",
+      "domain": "reason maintenance",
+      "trace_kind": "support-context and contradiction maintenance",
+      "source": "1986_deKleer_ATMS.pdf",
+      "locator": {
+        "pages": "3-4,11",
+        "derived_text_lines": "108-135;409-426"
+      },
+      "features": {
+        "explicit_state": "EXPLICIT",
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "EXPLICIT",
+        "dependency_local_repair": "EXPLICIT",
+        "representation_refinement": "IMPLICIT",
+        "external_evidence_authority": "IMPLICIT",
+        "active_discriminator": "NOT_VISIBLE_IN_SPECIMEN",
+        "temporal_currentness": "EXPLICIT",
+        "learning_from_deliberation": "IMPLICIT",
+        "adaptive_effort": "IMPLICIT",
+        "uncertainty_preservation": "EXPLICIT",
+        "shared_branch_state": "EXPLICIT",
+        "control_separation": "EXPLICIT",
+        "failure_becomes_reusable": "EXPLICIT"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T1986_ATMS_CONTEXT_NOGOOD::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1986_ATMS_CONTEXT_NOGOOD",
+      "order": 1,
+      "plane": "SUPPORT",
+      "event_type": "LABEL_DATUM_WITH_ENVIRONMENTS",
+      "summary": "Attach the sets of assumptions under which each datum holds."
+    },
+    {
+      "id": "T1986_ATMS_CONTEXT_NOGOOD::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1986_ATMS_CONTEXT_NOGOOD",
+      "order": 2,
+      "plane": "HYPOTHESIS",
+      "event_type": "ALLOW_INCONSISTENT_CONTEXTS",
+      "summary": "Keep multiple mutually incompatible contexts in one database rather than selecting one global state."
+    },
+    {
+      "id": "T1986_ATMS_CONTEXT_NOGOOD::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1986_ATMS_CONTEXT_NOGOOD",
+      "order": 3,
+      "plane": "CONTROL",
+      "event_type": "GENERALIZE_DERIVATION_REGION",
+      "summary": "Record derivations as generally as possible so they cover broad valid context regions."
+    },
+    {
+      "id": "T1986_ATMS_CONTEXT_NOGOOD::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1986_ATMS_CONTEXT_NOGOOD",
+      "order": 4,
+      "plane": "CONFLICT",
+      "event_type": "DETECT_CONTRADICTION",
+      "summary": "Identify the assumptions jointly responsible for an inconsistency."
+    },
+    {
+      "id": "T1986_ATMS_CONTEXT_NOGOOD::E05",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1986_ATMS_CONTEXT_NOGOOD",
+      "order": 5,
+      "plane": "CONFLICT",
+      "event_type": "RECORD_NOGOOD",
+      "summary": "Store that assumption combination so the entire inconsistent superset region is excluded in future."
+    },
+    {
+      "id": "T1986_ATMS_CONTEXT_NOGOOD::E06",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1986_ATMS_CONTEXT_NOGOOD",
+      "order": 6,
+      "plane": "SUPPORT",
+      "event_type": "REINSTATE_SURVIVING_DERIVATIONS",
+      "summary": "When contexts change, dependency records restore prior valid consequences instead of recomputing everything."
+    },
+    {
+      "id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 1987,
+      "system": "General Diagnostic Engine",
+      "domain": "model-based diagnosis",
+      "trace_kind": "candidate diagnosis and discriminator episode",
+      "source": "1987_deKleer_Williams_GDE_reprint.pdf",
+      "locator": {
+        "pages": "2-3",
+        "derived_text_lines": "103-173;203-241"
+      },
+      "features": {
+        "explicit_state": "EXPLICIT",
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "EXPLICIT",
+        "dependency_local_repair": "EXPLICIT",
+        "representation_refinement": "IMPLICIT",
+        "external_evidence_authority": "EXPLICIT",
+        "active_discriminator": "EXPLICIT",
+        "temporal_currentness": "EXPLICIT",
+        "learning_from_deliberation": "NOT_VISIBLE_IN_SPECIMEN",
+        "adaptive_effort": "EXPLICIT",
+        "uncertainty_preservation": "EXPLICIT",
+        "shared_branch_state": "EXPLICIT",
+        "control_separation": "EXPLICIT",
+        "failure_becomes_reusable": "EXPLICIT"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "order": 1,
+      "plane": "OBJECT",
+      "event_type": "OBSERVE_MODEL_WORLD_RESIDUAL",
+      "summary": "Measured circuit outputs disagree with the behavior predicted by the device model."
+    },
+    {
+      "id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "order": 2,
+      "plane": "HYPOTHESIS",
+      "event_type": "GENERATE_MINIMAL_DIAGNOSES",
+      "summary": "Construct minimal sets of violated component assumptions that could explain the discrepancy."
+    },
+    {
+      "id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "order": 3,
+      "plane": "HYPOTHESIS",
+      "event_type": "KEEP_COMPETING_CANDIDATES",
+      "summary": "Maintain four candidate fault sets rather than collapsing immediately."
+    },
+    {
+      "id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "order": 4,
+      "plane": "CONTROL",
+      "event_type": "SELECT_DISCRIMINATING_MEASUREMENT",
+      "summary": "Choose measurement X because it most usefully separates high-probability singleton candidates."
+    },
+    {
+      "id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E05",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "order": 5,
+      "plane": "AUTHORITY",
+      "event_type": "OBSERVE_MEASUREMENT",
+      "summary": "Execute the measurement and let the observed value requalify the candidate set."
+    },
+    {
+      "id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E06",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "order": 6,
+      "plane": "CONTROL",
+      "event_type": "REPEAT_UNTIL_LOCALIZED",
+      "summary": "Iterate candidate-generation and measurement until one high-probability candidate remains."
+    },
+    {
+      "id": "T1987_SOAR_TRACE_TO_CHUNK",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 1987,
+      "system": "Soar",
+      "domain": "cognitive architecture",
+      "trace_kind": "subgoal-production trace compiled to chunk",
+      "source": "1987_Rosenbloom_Laird_Newell_Knowledge_Level_Learning_Soar.pdf",
+      "locator": {
+        "pages": "2",
+        "derived_text_lines": "100-120"
+      },
+      "features": {
+        "explicit_state": "EXPLICIT",
+        "live_alternatives": "IMPLICIT",
+        "support_lineage": "EXPLICIT",
+        "dependency_local_repair": "IMPLICIT",
+        "representation_refinement": "IMPLICIT",
+        "external_evidence_authority": "IMPLICIT",
+        "active_discriminator": "NOT_VISIBLE_IN_SPECIMEN",
+        "temporal_currentness": "EXPLICIT",
+        "learning_from_deliberation": "EXPLICIT",
+        "adaptive_effort": "EXPLICIT",
+        "uncertainty_preservation": "IMPLICIT",
+        "shared_branch_state": "IMPLICIT",
+        "control_separation": "EXPLICIT",
+        "failure_becomes_reusable": "EXPLICIT"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T1987_SOAR_TRACE_TO_CHUNK::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1987_SOAR_TRACE_TO_CHUNK",
+      "order": 1,
+      "plane": "CONTROL",
+      "event_type": "ENTER_SUBGOAL",
+      "summary": "An impasse/subgoal generates a local problem-solving episode."
+    },
+    {
+      "id": "T1987_SOAR_TRACE_TO_CHUNK::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1987_SOAR_TRACE_TO_CHUNK",
+      "order": 2,
+      "plane": "TRACE",
+      "event_type": "RECORD_PRODUCTION_TRACE",
+      "summary": "Productions fired during the subgoal form dependency structures."
+    },
+    {
+      "id": "T1987_SOAR_TRACE_TO_CHUNK::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1987_SOAR_TRACE_TO_CHUNK",
+      "order": 3,
+      "plane": "SUPPORT",
+      "event_type": "TRACE_BACK_FROM_RESULT",
+      "summary": "Start from the production that generated the subgoal result and recursively find the traces that produced its conditions."
+    },
+    {
+      "id": "T1987_SOAR_TRACE_TO_CHUNK::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1987_SOAR_TRACE_TO_CHUNK",
+      "order": 4,
+      "plane": "LEARNING",
+      "event_type": "EXTRACT_RELEVANT_DEPENDENCIES",
+      "summary": "Keep only traces relevant to determining the result."
+    },
+    {
+      "id": "T1987_SOAR_TRACE_TO_CHUNK::E05",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1987_SOAR_TRACE_TO_CHUNK",
+      "order": 5,
+      "plane": "LEARNING",
+      "event_type": "COMPILE_CHUNK",
+      "summary": "Turn the dependency-supported result into a reusable production for future similar states."
+    },
+    {
+      "id": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 1993,
+      "system": "Dynamic Backtracking",
+      "domain": "constraint satisfaction",
+      "trace_kind": "worked map-coloring repair trace",
+      "source": "1993_Ginsberg_Dynamic_Backtracking.pdf",
+      "locator": {
+        "pages": "8-10",
+        "derived_text_lines": "580-703"
+      },
+      "features": {
+        "explicit_state": "EXPLICIT",
+        "live_alternatives": "IMPLICIT",
+        "support_lineage": "EXPLICIT",
+        "dependency_local_repair": "EXPLICIT",
+        "representation_refinement": "NOT_VISIBLE_IN_SPECIMEN",
+        "external_evidence_authority": "EXPLICIT",
+        "active_discriminator": "NOT_VISIBLE_IN_SPECIMEN",
+        "temporal_currentness": "EXPLICIT",
+        "learning_from_deliberation": "EXPLICIT",
+        "adaptive_effort": "EXPLICIT",
+        "uncertainty_preservation": "IMPLICIT",
+        "shared_branch_state": "EXPLICIT",
+        "control_separation": "EXPLICIT",
+        "failure_becomes_reusable": "EXPLICIT"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T1993_DYNAMIC_BACKTRACK_MAP::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "order": 1,
+      "plane": "OBJECT",
+      "event_type": "MAKE_ASSIGNMENTS",
+      "summary": "Assign colors to countries while storing reasons individual colors are unavailable."
+    },
+    {
+      "id": "T1993_DYNAMIC_BACKTRACK_MAP::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "order": 2,
+      "plane": "CONFLICT",
+      "event_type": "REACH_DEAD_END",
+      "summary": "England has no legal color because of assignments to Albania, Bulgaria, and Denmark."
+    },
+    {
+      "id": "T1993_DYNAMIC_BACKTRACK_MAP::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "order": 3,
+      "plane": "SUPPORT",
+      "event_type": "LOCALIZE_ELIMINATION_CAUSES",
+      "summary": "Use elimination explanations to identify which assignments actually participate in the dead end."
+    },
+    {
+      "id": "T1993_DYNAMIC_BACKTRACK_MAP::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "order": 4,
+      "plane": "CONTROL",
+      "event_type": "BACKTRACK_CAUSALLY",
+      "summary": "Backtrack to a relevant assignment and remove only explanations that depend on it."
+    },
+    {
+      "id": "T1993_DYNAMIC_BACKTRACK_MAP::E05",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "order": 5,
+      "plane": "LEARNING",
+      "event_type": "ADD_NEW_ELIMINATION_EXPLANATION",
+      "summary": "Record the newly learned reason that a value cannot work under the surviving assumptions."
+    },
+    {
+      "id": "T1993_DYNAMIC_BACKTRACK_MAP::E06",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "order": 6,
+      "plane": "CONTROL",
+      "event_type": "REORDER_SEARCH",
+      "summary": "Move Bulgaria past an unrelated variable instead of unwinding strictly by time."
+    },
+    {
+      "id": "T1993_DYNAMIC_BACKTRACK_MAP::E07",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "order": 7,
+      "plane": "SUPPORT",
+      "event_type": "PRESERVE_HARD_WON_PROGRESS",
+      "summary": "Keep Czechoslovakia’s valid color and surviving elimination information while repairing Bulgaria."
+    },
+    {
+      "id": "T1996_GRASP_CONFLICT_LEARNING",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 1996,
+      "system": "GRASP",
+      "domain": "SAT solving",
+      "trace_kind": "conflict-analysis trace pattern",
+      "source": "1996_MarquesSilva_Sakallah_GRASP.pdf",
+      "locator": {
+        "pages": "1 plus worked implication graph",
+        "derived_text_lines": "7-20;704-734"
+      },
+      "features": {
+        "explicit_state": "EXPLICIT",
+        "live_alternatives": "IMPLICIT",
+        "support_lineage": "EXPLICIT",
+        "dependency_local_repair": "EXPLICIT",
+        "representation_refinement": "NOT_VISIBLE_IN_SPECIMEN",
+        "external_evidence_authority": "EXPLICIT",
+        "active_discriminator": "NOT_VISIBLE_IN_SPECIMEN",
+        "temporal_currentness": "EXPLICIT",
+        "learning_from_deliberation": "EXPLICIT",
+        "adaptive_effort": "EXPLICIT",
+        "uncertainty_preservation": "IMPLICIT",
+        "shared_branch_state": "EXPLICIT",
+        "control_separation": "EXPLICIT",
+        "failure_becomes_reusable": "EXPLICIT"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T1996_GRASP_CONFLICT_LEARNING::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1996_GRASP_CONFLICT_LEARNING",
+      "order": 1,
+      "plane": "OBJECT",
+      "event_type": "DECIDE_ASSIGNMENTS",
+      "summary": "Make branch decisions and propagate their logical consequences."
+    },
+    {
+      "id": "T1996_GRASP_CONFLICT_LEARNING::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1996_GRASP_CONFLICT_LEARNING",
+      "order": 2,
+      "plane": "SUPPORT",
+      "event_type": "BUILD_IMPLICATION_GRAPH",
+      "summary": "Record which antecedent assignments caused each implied assignment."
+    },
+    {
+      "id": "T1996_GRASP_CONFLICT_LEARNING::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1996_GRASP_CONFLICT_LEARNING",
+      "order": 3,
+      "plane": "CONFLICT",
+      "event_type": "DETECT_CONFLICT",
+      "summary": "A contradictory assignment becomes a conflict vertex with a causal ancestry."
+    },
+    {
+      "id": "T1996_GRASP_CONFLICT_LEARNING::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1996_GRASP_CONFLICT_LEARNING",
+      "order": 4,
+      "plane": "CONFLICT",
+      "event_type": "ANALYZE_CAUSES",
+      "summary": "Trace the conflict to responsible decision assignments rather than the whole search history."
+    },
+    {
+      "id": "T1996_GRASP_CONFLICT_LEARNING::E05",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1996_GRASP_CONFLICT_LEARNING",
+      "order": 5,
+      "plane": "LEARNING",
+      "event_type": "LEARN_CONFLICT_CLAUSE",
+      "summary": "Record a reusable constraint summarizing the cause so similar conflicts can be preempted."
+    },
+    {
+      "id": "T1996_GRASP_CONFLICT_LEARNING::E06",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T1996_GRASP_CONFLICT_LEARNING",
+      "order": 6,
+      "plane": "CONTROL",
+      "event_type": "BACKTRACK_NONCHRONOLOGICALLY",
+      "summary": "Jump to the causally relevant earlier decision level, pruning a larger region of future search."
+    },
+    {
+      "id": "T2022_COT_ARITHMETIC",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 2022,
+      "system": "Chain-of-Thought prompting",
+      "domain": "math language reasoning",
+      "trace_kind": "generated intermediate-token solution",
+      "source": "2022_Chain_of_Thought_Prompting.pdf",
+      "locator": {
+        "pages": "1",
+        "derived_text_lines": "23-49"
+      },
+      "features": {
+        "explicit_state": "IMPLICIT",
+        "live_alternatives": "NOT_VISIBLE_IN_SPECIMEN",
+        "support_lineage": "IMPLICIT",
+        "dependency_local_repair": "NOT_VISIBLE_IN_SPECIMEN",
+        "representation_refinement": "NOT_VISIBLE_IN_SPECIMEN",
+        "external_evidence_authority": "NOT_VISIBLE_IN_SPECIMEN",
+        "active_discriminator": "NOT_VISIBLE_IN_SPECIMEN",
+        "temporal_currentness": "IMPLICIT",
+        "learning_from_deliberation": "NOT_VISIBLE_IN_SPECIMEN",
+        "adaptive_effort": "IMPLICIT",
+        "uncertainty_preservation": "NOT_VISIBLE_IN_SPECIMEN",
+        "shared_branch_state": "NOT_VISIBLE_IN_SPECIMEN",
+        "control_separation": "NOT_VISIBLE_IN_SPECIMEN",
+        "failure_becomes_reusable": "NOT_VISIBLE_IN_SPECIMEN"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T2022_COT_ARITHMETIC::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2022_COT_ARITHMETIC",
+      "order": 1,
+      "plane": "OBJECT",
+      "event_type": "READ_PROBLEM",
+      "summary": "Receive a word problem with quantities and operations implicit in natural language."
+    },
+    {
+      "id": "T2022_COT_ARITHMETIC::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2022_COT_ARITHMETIC",
+      "order": 2,
+      "plane": "TRACE",
+      "event_type": "EXTERNALIZE_INTERMEDIATE_STATE",
+      "summary": "Generate explicit intermediate arithmetic statements rather than directly emitting the answer."
+    },
+    {
+      "id": "T2022_COT_ARITHMETIC::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2022_COT_ARITHMETIC",
+      "order": 3,
+      "plane": "OBJECT",
+      "event_type": "PROPAGATE_INTERMEDIATE_RESULT",
+      "summary": "Use an earlier computed quantity as input to the next computation."
+    },
+    {
+      "id": "T2022_COT_ARITHMETIC::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2022_COT_ARITHMETIC",
+      "order": 4,
+      "plane": "OUTPUT",
+      "event_type": "COMMIT_FINAL",
+      "summary": "Produce a final answer after the generated chain."
+    },
+    {
+      "id": "T2022_REACT_HOTPOT",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 2022,
+      "system": "ReAct",
+      "domain": "tool-using QA",
+      "trace_kind": "action-observation trajectory",
+      "source": "2022_ReAct.pdf",
+      "locator": {
+        "pages": "16",
+        "derived_text_lines": "1189-1203"
+      },
+      "features": {
+        "explicit_state": "IMPLICIT",
+        "live_alternatives": "IMPLICIT",
+        "support_lineage": "IMPLICIT",
+        "dependency_local_repair": "IMPLICIT",
+        "representation_refinement": "IMPLICIT",
+        "external_evidence_authority": "EXPLICIT",
+        "active_discriminator": "IMPLICIT",
+        "temporal_currentness": "EXPLICIT",
+        "learning_from_deliberation": "NOT_VISIBLE_IN_SPECIMEN",
+        "adaptive_effort": "IMPLICIT",
+        "uncertainty_preservation": "IMPLICIT",
+        "shared_branch_state": "IMPLICIT",
+        "control_separation": "EXPLICIT",
+        "failure_becomes_reusable": "NOT_VISIBLE_IN_SPECIMEN"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T2022_REACT_HOTPOT::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2022_REACT_HOTPOT",
+      "order": 1,
+      "plane": "CONTROL",
+      "event_type": "SEARCH_ENTITY",
+      "summary": "Issue a search action for the initial entity."
+    },
+    {
+      "id": "T2022_REACT_HOTPOT::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2022_REACT_HOTPOT",
+      "order": 2,
+      "plane": "AUTHORITY",
+      "event_type": "OBSERVE_RESULT",
+      "summary": "Receive external search evidence."
+    },
+    {
+      "id": "T2022_REACT_HOTPOT::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2022_REACT_HOTPOT",
+      "order": 3,
+      "plane": "CONTROL",
+      "event_type": "LOOKUP_RELATION",
+      "summary": "Use the observed entity relation to refine the next action."
+    },
+    {
+      "id": "T2022_REACT_HOTPOT::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2022_REACT_HOTPOT",
+      "order": 4,
+      "plane": "AUTHORITY",
+      "event_type": "OBSERVE_DISAMBIGUATION_NEED",
+      "summary": "Observation indicates High Plains is ambiguous."
+    },
+    {
+      "id": "T2022_REACT_HOTPOT::E05",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2022_REACT_HOTPOT",
+      "order": 5,
+      "plane": "CONTROL",
+      "event_type": "REFINE_QUERY",
+      "summary": "Search the disambiguated entity rather than continuing from the ambiguous state."
+    },
+    {
+      "id": "T2022_REACT_HOTPOT::E06",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2022_REACT_HOTPOT",
+      "order": 6,
+      "plane": "AUTHORITY",
+      "event_type": "GROUND_ANSWER",
+      "summary": "Use the external observation containing the elevation range to finish."
+    },
+    {
+      "id": "T2023_TOT_SEARCH",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 2023,
+      "system": "Tree of Thoughts",
+      "domain": "LLM search",
+      "trace_kind": "explicit thought-branch generation/evaluation",
+      "source": "2023_Tree_of_Thoughts.pdf",
+      "locator": {
+        "pages": "3-4",
+        "derived_text_lines": "198-247"
+      },
+      "features": {
+        "explicit_state": "EXPLICIT",
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "IMPLICIT",
+        "dependency_local_repair": "IMPLICIT",
+        "representation_refinement": "IMPLICIT",
+        "external_evidence_authority": "NOT_VISIBLE_IN_SPECIMEN",
+        "active_discriminator": "IMPLICIT",
+        "temporal_currentness": "IMPLICIT",
+        "learning_from_deliberation": "NOT_VISIBLE_IN_SPECIMEN",
+        "adaptive_effort": "EXPLICIT",
+        "uncertainty_preservation": "EXPLICIT",
+        "shared_branch_state": "IMPLICIT",
+        "control_separation": "EXPLICIT",
+        "failure_becomes_reusable": "NOT_VISIBLE_IN_SPECIMEN"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T2023_TOT_SEARCH::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2023_TOT_SEARCH",
+      "order": 1,
+      "plane": "HYPOTHESIS",
+      "event_type": "GENERATE_THOUGHT_CANDIDATES",
+      "summary": "Produce multiple candidate next thought states from the same frontier state."
+    },
+    {
+      "id": "T2023_TOT_SEARCH::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2023_TOT_SEARCH",
+      "order": 2,
+      "plane": "CONTROL",
+      "event_type": "EVALUATE_FRONTIER",
+      "summary": "Score states independently or compare/vote across them using a language-model evaluator."
+    },
+    {
+      "id": "T2023_TOT_SEARCH::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2023_TOT_SEARCH",
+      "order": 3,
+      "plane": "CONTROL",
+      "event_type": "PRUNE_FRONTIER",
+      "summary": "Keep a bounded subset of promising states; classify others as unlikely/impossible."
+    },
+    {
+      "id": "T2023_TOT_SEARCH::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2023_TOT_SEARCH",
+      "order": 4,
+      "plane": "CONTROL",
+      "event_type": "EXPAND_OR_BACKTRACK",
+      "summary": "Search deeper or revisit earlier states under BFS/DFS control."
+    },
+    {
+      "id": "T2023_TOT_SEARCH::E05",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2023_TOT_SEARCH",
+      "order": 5,
+      "plane": "OUTPUT",
+      "event_type": "SELECT_TERMINAL",
+      "summary": "Return a solution from a surviving branch."
+    },
+    {
+      "id": "T2024_BELIEFR_REVISION",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 2024,
+      "system": "Belief-R / Delta Reasoning",
+      "domain": "belief revision",
+      "trace_kind": "premise-sequence revision episode",
+      "source": "2024_Belief_R.pdf",
+      "locator": {
+        "pages": "4",
+        "derived_text_lines": "280-321"
+      },
+      "features": {
+        "explicit_state": "EXPLICIT",
+        "live_alternatives": "IMPLICIT",
+        "support_lineage": "EXPLICIT",
+        "dependency_local_repair": "EXPLICIT",
+        "representation_refinement": "IMPLICIT",
+        "external_evidence_authority": "EXPLICIT",
+        "active_discriminator": "NOT_VISIBLE_IN_SPECIMEN",
+        "temporal_currentness": "EXPLICIT",
+        "learning_from_deliberation": "NOT_VISIBLE_IN_SPECIMEN",
+        "adaptive_effort": "NOT_VISIBLE_IN_SPECIMEN",
+        "uncertainty_preservation": "EXPLICIT",
+        "shared_branch_state": "EXPLICIT",
+        "control_separation": "IMPLICIT",
+        "failure_becomes_reusable": "NOT_VISIBLE_IN_SPECIMEN"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T2024_BELIEFR_REVISION::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2024_BELIEFR_REVISION",
+      "order": 1,
+      "plane": "OBJECT",
+      "event_type": "ESTABLISH_PREMISES",
+      "summary": "Initial conditional plus antecedent licenses a conclusion under modus ponens."
+    },
+    {
+      "id": "T2024_BELIEFR_REVISION::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2024_BELIEFR_REVISION",
+      "order": 2,
+      "plane": "HYPOTHESIS",
+      "event_type": "FORM_INITIAL_BELIEF",
+      "summary": "Carry the derived conclusion into the current belief set."
+    },
+    {
+      "id": "T2024_BELIEFR_REVISION::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2024_BELIEFR_REVISION",
+      "order": 3,
+      "plane": "OBJECT",
+      "event_type": "ADD_NEW_CONDITION",
+      "summary": "Introduce new information that either undermines the earlier inference or is irrelevant to it."
+    },
+    {
+      "id": "T2024_BELIEFR_REVISION::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2024_BELIEFR_REVISION",
+      "order": 4,
+      "plane": "CONTROL",
+      "event_type": "DECIDE_REVISE_OR_PRESERVE",
+      "summary": "Correct behavior requires distinguishing when to retract the old conclusion from when to keep it."
+    },
+    {
+      "id": "T2025_R1_AHA_REVISION",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 2025,
+      "system": "DeepSeek-R1-Zero intermediate",
+      "domain": "math reasoning",
+      "trace_kind": "visible self-revision trace",
+      "source": "2025_DeepSeek_R1.pdf",
+      "locator": {
+        "pages": "5",
+        "derived_text_lines": "213-243"
+      },
+      "features": {
+        "explicit_state": "IMPLICIT",
+        "live_alternatives": "IMPLICIT",
+        "support_lineage": "IMPLICIT",
+        "dependency_local_repair": "IMPLICIT",
+        "representation_refinement": "IMPLICIT",
+        "external_evidence_authority": "NOT_VISIBLE_IN_SPECIMEN",
+        "active_discriminator": "NOT_VISIBLE_IN_SPECIMEN",
+        "temporal_currentness": "EXPLICIT",
+        "learning_from_deliberation": "EXPLICIT",
+        "adaptive_effort": "EXPLICIT",
+        "uncertainty_preservation": "IMPLICIT",
+        "shared_branch_state": "IMPLICIT",
+        "control_separation": "IMPLICIT",
+        "failure_becomes_reusable": "IMPLICIT"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T2025_R1_AHA_REVISION::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2025_R1_AHA_REVISION",
+      "order": 1,
+      "plane": "TRACE",
+      "event_type": "PURSUE_ALGEBRAIC_PATH",
+      "summary": "Generate a multi-step algebraic derivation."
+    },
+    {
+      "id": "T2025_R1_AHA_REVISION::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2025_R1_AHA_REVISION",
+      "order": 2,
+      "plane": "CONFLICT",
+      "event_type": "FLAG_PATH_AS_SUSPECT",
+      "summary": "Interrupt the running derivation and explicitly mark the need to reevaluate."
+    },
+    {
+      "id": "T2025_R1_AHA_REVISION::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2025_R1_AHA_REVISION",
+      "order": 3,
+      "plane": "CONTROL",
+      "event_type": "RESTART_LOCAL_DERIVATION",
+      "summary": "Return to an earlier equation and recompute the derivation step-by-step."
+    },
+    {
+      "id": "T2025_R1_AHA_REVISION::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2025_R1_AHA_REVISION",
+      "order": 4,
+      "plane": "TRACE",
+      "event_type": "TRY_REVISED_PATH",
+      "summary": "Continue from the corrected local state rather than merely outputting the prior conclusion."
+    },
+    {
+      "id": "T2026_CTRLS_CASE",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 2026,
+      "system": "CTRLS",
+      "domain": "latent transition-aware LLM reasoning",
+      "trace_kind": "paired baseline/transition-aware reasoning case",
+      "source": "2026_CTRLS.pdf",
+      "locator": {
+        "pages": "17-18",
+        "derived_text_lines": "1470-1549"
+      },
+      "features": {
+        "explicit_state": "IMPLICIT",
+        "live_alternatives": "IMPLICIT",
+        "support_lineage": "IMPLICIT",
+        "dependency_local_repair": "IMPLICIT",
+        "representation_refinement": "EXPLICIT",
+        "external_evidence_authority": "EXPLICIT",
+        "active_discriminator": "NOT_VISIBLE_IN_SPECIMEN",
+        "temporal_currentness": "EXPLICIT",
+        "learning_from_deliberation": "EXPLICIT",
+        "adaptive_effort": "EXPLICIT",
+        "uncertainty_preservation": "IMPLICIT",
+        "shared_branch_state": "IMPLICIT",
+        "control_separation": "EXPLICIT",
+        "failure_becomes_reusable": "IMPLICIT"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T2026_CTRLS_CASE::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2026_CTRLS_CASE",
+      "order": 1,
+      "plane": "TRACE",
+      "event_type": "SHARED_INITIAL_SETUP",
+      "summary": "Baseline and transition-aware model begin from the same arithmetic formulation."
+    },
+    {
+      "id": "T2026_CTRLS_CASE::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2026_CTRLS_CASE",
+      "order": 2,
+      "plane": "TRACE",
+      "event_type": "DIVERGE_AT_SYMBOLIC_TRANSITION",
+      "summary": "Baseline takes an invalid substitution/hallucinated symbolic move; CTRLS follows a valid transition."
+    },
+    {
+      "id": "T2026_CTRLS_CASE::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2026_CTRLS_CASE",
+      "order": 3,
+      "plane": "TRACE",
+      "event_type": "PROPAGATE_DIVERGENCE",
+      "summary": "The early transition error changes all downstream derivation state and final answer."
+    },
+    {
+      "id": "T2026_CTRLS_CASE::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2026_CTRLS_CASE",
+      "order": 4,
+      "plane": "OUTPUT",
+      "event_type": "COMPARE_TERMINAL_CONSEQUENCE",
+      "summary": "Correctness difference is attributable in the worked example to the quality of an intermediate transition, not just the final token."
+    },
+    {
+      "id": "T2026_STALE_PROPAGATED_CONFLICT",
+      "node_type": "TRACE_SPECIMEN",
+      "year": 2026,
+      "system": "STALE",
+      "domain": "agent memory",
+      "trace_kind": "implicit currentness invalidation episode",
+      "source": "2026_STALE.pdf",
+      "locator": {
+        "pages": "2-3",
+        "derived_text_lines": "76-126"
+      },
+      "features": {
+        "explicit_state": "IMPLICIT",
+        "live_alternatives": "IMPLICIT",
+        "support_lineage": "IMPLICIT",
+        "dependency_local_repair": "EXPLICIT",
+        "representation_refinement": "IMPLICIT",
+        "external_evidence_authority": "EXPLICIT",
+        "active_discriminator": "NOT_VISIBLE_IN_SPECIMEN",
+        "temporal_currentness": "EXPLICIT",
+        "learning_from_deliberation": "NOT_VISIBLE_IN_SPECIMEN",
+        "adaptive_effort": "NOT_VISIBLE_IN_SPECIMEN",
+        "uncertainty_preservation": "IMPLICIT",
+        "shared_branch_state": "EXPLICIT",
+        "control_separation": "IMPLICIT",
+        "failure_becomes_reusable": "NOT_VISIBLE_IN_SPECIMEN"
+      },
+      "claim_ceiling": "Trace-level behavioral/algorithmic specimen only; does not identify hidden mechanism."
+    },
+    {
+      "id": "T2026_STALE_PROPAGATED_CONFLICT::E01",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2026_STALE_PROPAGATED_CONFLICT",
+      "order": 1,
+      "plane": "MEMORY",
+      "event_type": "STORE_EARLIER_STATE",
+      "summary": "Earlier dialogue supports a location/routine or cycling-commute memory."
+    },
+    {
+      "id": "T2026_STALE_PROPAGATED_CONFLICT::E02",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2026_STALE_PROPAGATED_CONFLICT",
+      "order": 2,
+      "plane": "OBJECT",
+      "event_type": "OBSERVE_NEW_STATE",
+      "summary": "Later dialogue supplies new evidence such as relocation or leg injury without explicitly negating the old memory."
+    },
+    {
+      "id": "T2026_STALE_PROPAGATED_CONFLICT::E03",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2026_STALE_PROPAGATED_CONFLICT",
+      "order": 3,
+      "plane": "DEPENDENCY",
+      "event_type": "PROPAGATE_INDIRECT_CONSEQUENCE",
+      "summary": "The new attribute should cascade to invalidate applicability of an older belief or recommendation."
+    },
+    {
+      "id": "T2026_STALE_PROPAGATED_CONFLICT::E04",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2026_STALE_PROPAGATED_CONFLICT",
+      "order": 4,
+      "plane": "CONTROL",
+      "event_type": "RESIST_STALE_PREMISE",
+      "summary": "A later query must not reactivate the old memory merely because it is semantically relevant."
+    },
+    {
+      "id": "T2026_STALE_PROPAGATED_CONFLICT::E05",
+      "node_type": "TRACE_EVENT",
+      "trace_id": "T2026_STALE_PROPAGATED_CONFLICT",
+      "order": 5,
+      "plane": "OUTPUT",
+      "event_type": "ACT_ON_CURRENT_LATENT_STATE",
+      "summary": "Behavior should reflect the updated inferred user state rather than cached text similarity."
+    }
+  ],
+  "edges": [
+    {
+      "source": "T1959_GPS_MEANS_ENDS",
+      "relation": "TRACE_OF",
+      "target": "1959_gps",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1959_GPS_MEANS_ENDS",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1959_GPS_MEANS_ENDS::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1959_GPS_MEANS_ENDS",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1959_GPS_MEANS_ENDS::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1959_GPS_MEANS_ENDS::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1959_GPS_MEANS_ENDS::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1959_GPS_MEANS_ENDS",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1959_GPS_MEANS_ENDS::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1959_GPS_MEANS_ENDS::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1959_GPS_MEANS_ENDS::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1959_GPS_MEANS_ENDS",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1959_GPS_MEANS_ENDS::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1959_GPS_MEANS_ENDS::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1959_GPS_MEANS_ENDS::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1959_GPS_MEANS_ENDS",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1959_GPS_MEANS_ENDS::E05",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1959_GPS_MEANS_ENDS::E04",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1959_GPS_MEANS_ENDS::E05",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1977_VERSION_SPACE_UPDATE",
+      "relation": "TRACE_OF",
+      "target": "1977_mitchell_version_spaces",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1977_VERSION_SPACE_UPDATE",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1977_VERSION_SPACE_UPDATE::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1977_VERSION_SPACE_UPDATE",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1977_VERSION_SPACE_UPDATE::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1977_VERSION_SPACE_UPDATE::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1977_VERSION_SPACE_UPDATE::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1977_VERSION_SPACE_UPDATE",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1977_VERSION_SPACE_UPDATE::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1977_VERSION_SPACE_UPDATE::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1977_VERSION_SPACE_UPDATE::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1977_VERSION_SPACE_UPDATE",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1977_VERSION_SPACE_UPDATE::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1977_VERSION_SPACE_UPDATE::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1977_VERSION_SPACE_UPDATE::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1977_VERSION_SPACE_UPDATE",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1977_VERSION_SPACE_UPDATE::E05",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1977_VERSION_SPACE_UPDATE::E04",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1977_VERSION_SPACE_UPDATE::E05",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1979_MHT_RECURSIVE_ASSOCIATION",
+      "relation": "TRACE_OF",
+      "target": "1979_reid_multiple_hypothesis_tracking",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1979_MHT_RECURSIVE_ASSOCIATION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1979_MHT_RECURSIVE_ASSOCIATION::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1979_MHT_RECURSIVE_ASSOCIATION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1979_MHT_RECURSIVE_ASSOCIATION::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1979_MHT_RECURSIVE_ASSOCIATION::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1979_MHT_RECURSIVE_ASSOCIATION::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1979_MHT_RECURSIVE_ASSOCIATION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1979_MHT_RECURSIVE_ASSOCIATION::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1979_MHT_RECURSIVE_ASSOCIATION::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1979_MHT_RECURSIVE_ASSOCIATION::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1979_MHT_RECURSIVE_ASSOCIATION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1979_MHT_RECURSIVE_ASSOCIATION::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1979_MHT_RECURSIVE_ASSOCIATION::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1979_MHT_RECURSIVE_ASSOCIATION::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1979_MHT_RECURSIVE_ASSOCIATION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1979_MHT_RECURSIVE_ASSOCIATION::E05",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1979_MHT_RECURSIVE_ASSOCIATION::E04",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1979_MHT_RECURSIVE_ASSOCIATION::E05",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD",
+      "relation": "TRACE_OF",
+      "target": "1986_dekleer_atms",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1986_ATMS_CONTEXT_NOGOOD::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1986_ATMS_CONTEXT_NOGOOD::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1986_ATMS_CONTEXT_NOGOOD::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1986_ATMS_CONTEXT_NOGOOD::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1986_ATMS_CONTEXT_NOGOOD::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1986_ATMS_CONTEXT_NOGOOD::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1986_ATMS_CONTEXT_NOGOOD::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1986_ATMS_CONTEXT_NOGOOD::E05",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD::E04",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1986_ATMS_CONTEXT_NOGOOD::E05",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1986_ATMS_CONTEXT_NOGOOD::E06",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD::E05",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1986_ATMS_CONTEXT_NOGOOD::E06",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "relation": "TRACE_OF",
+      "target": "1987_dekleer_williams_gde",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E05",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E04",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E05",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E06",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E05",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E06",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1987_SOAR_TRACE_TO_CHUNK",
+      "relation": "TRACE_OF",
+      "target": "1987_soar_knowledge_level_learning",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_SOAR_TRACE_TO_CHUNK",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1987_SOAR_TRACE_TO_CHUNK::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_SOAR_TRACE_TO_CHUNK",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1987_SOAR_TRACE_TO_CHUNK::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_SOAR_TRACE_TO_CHUNK::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1987_SOAR_TRACE_TO_CHUNK::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1987_SOAR_TRACE_TO_CHUNK",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1987_SOAR_TRACE_TO_CHUNK::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_SOAR_TRACE_TO_CHUNK::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1987_SOAR_TRACE_TO_CHUNK::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1987_SOAR_TRACE_TO_CHUNK",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1987_SOAR_TRACE_TO_CHUNK::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_SOAR_TRACE_TO_CHUNK::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1987_SOAR_TRACE_TO_CHUNK::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1987_SOAR_TRACE_TO_CHUNK",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1987_SOAR_TRACE_TO_CHUNK::E05",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1987_SOAR_TRACE_TO_CHUNK::E04",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1987_SOAR_TRACE_TO_CHUNK::E05",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "relation": "TRACE_OF",
+      "target": "1993_ginsberg_dynamic_backtracking",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E05",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP::E04",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E05",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E06",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP::E05",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E06",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E07",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP::E06",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1993_DYNAMIC_BACKTRACK_MAP::E07",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1996_GRASP_CONFLICT_LEARNING",
+      "relation": "TRACE_OF",
+      "target": "1996_grasp_sat",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1996_GRASP_CONFLICT_LEARNING",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1996_GRASP_CONFLICT_LEARNING",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1996_GRASP_CONFLICT_LEARNING::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1996_GRASP_CONFLICT_LEARNING",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1996_GRASP_CONFLICT_LEARNING::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1996_GRASP_CONFLICT_LEARNING",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1996_GRASP_CONFLICT_LEARNING::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1996_GRASP_CONFLICT_LEARNING",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E05",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1996_GRASP_CONFLICT_LEARNING::E04",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E05",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1996_GRASP_CONFLICT_LEARNING",
+      "relation": "CONTAINS_EVENT",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E06",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T1996_GRASP_CONFLICT_LEARNING::E05",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E06",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2022_COT_ARITHMETIC",
+      "relation": "TRACE_OF",
+      "target": "2022_chain_of_thought",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2022_COT_ARITHMETIC",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2022_COT_ARITHMETIC::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2022_COT_ARITHMETIC",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2022_COT_ARITHMETIC::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2022_COT_ARITHMETIC::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2022_COT_ARITHMETIC::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2022_COT_ARITHMETIC",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2022_COT_ARITHMETIC::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2022_COT_ARITHMETIC::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2022_COT_ARITHMETIC::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2022_COT_ARITHMETIC",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2022_COT_ARITHMETIC::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2022_COT_ARITHMETIC::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2022_COT_ARITHMETIC::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2022_REACT_HOTPOT",
+      "relation": "TRACE_OF",
+      "target": "2022_react",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2022_REACT_HOTPOT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2022_REACT_HOTPOT::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2022_REACT_HOTPOT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2022_REACT_HOTPOT::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2022_REACT_HOTPOT::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2022_REACT_HOTPOT::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2022_REACT_HOTPOT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2022_REACT_HOTPOT::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2022_REACT_HOTPOT::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2022_REACT_HOTPOT::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2022_REACT_HOTPOT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2022_REACT_HOTPOT::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2022_REACT_HOTPOT::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2022_REACT_HOTPOT::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2022_REACT_HOTPOT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2022_REACT_HOTPOT::E05",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2022_REACT_HOTPOT::E04",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2022_REACT_HOTPOT::E05",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2022_REACT_HOTPOT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2022_REACT_HOTPOT::E06",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2022_REACT_HOTPOT::E05",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2022_REACT_HOTPOT::E06",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2023_TOT_SEARCH",
+      "relation": "TRACE_OF",
+      "target": "2023_tree_of_thoughts",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2023_TOT_SEARCH",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2023_TOT_SEARCH::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2023_TOT_SEARCH",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2023_TOT_SEARCH::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2023_TOT_SEARCH::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2023_TOT_SEARCH::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2023_TOT_SEARCH",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2023_TOT_SEARCH::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2023_TOT_SEARCH::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2023_TOT_SEARCH::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2023_TOT_SEARCH",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2023_TOT_SEARCH::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2023_TOT_SEARCH::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2023_TOT_SEARCH::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2023_TOT_SEARCH",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2023_TOT_SEARCH::E05",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2023_TOT_SEARCH::E04",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2023_TOT_SEARCH::E05",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2024_BELIEFR_REVISION",
+      "relation": "TRACE_OF",
+      "target": "2024_belief_r",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2024_BELIEFR_REVISION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2024_BELIEFR_REVISION::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2024_BELIEFR_REVISION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2024_BELIEFR_REVISION::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2024_BELIEFR_REVISION::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2024_BELIEFR_REVISION::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2024_BELIEFR_REVISION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2024_BELIEFR_REVISION::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2024_BELIEFR_REVISION::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2024_BELIEFR_REVISION::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2024_BELIEFR_REVISION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2024_BELIEFR_REVISION::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2024_BELIEFR_REVISION::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2024_BELIEFR_REVISION::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2025_R1_AHA_REVISION",
+      "relation": "TRACE_OF",
+      "target": "2025_deepseek_r1",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2025_R1_AHA_REVISION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2025_R1_AHA_REVISION::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2025_R1_AHA_REVISION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2025_R1_AHA_REVISION::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2025_R1_AHA_REVISION::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2025_R1_AHA_REVISION::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2025_R1_AHA_REVISION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2025_R1_AHA_REVISION::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2025_R1_AHA_REVISION::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2025_R1_AHA_REVISION::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2025_R1_AHA_REVISION",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2025_R1_AHA_REVISION::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2025_R1_AHA_REVISION::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2025_R1_AHA_REVISION::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2026_CTRLS_CASE",
+      "relation": "TRACE_OF",
+      "target": "2026_ctrls_latent_state_transition",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2026_CTRLS_CASE",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2026_CTRLS_CASE::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2026_CTRLS_CASE",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2026_CTRLS_CASE::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2026_CTRLS_CASE::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2026_CTRLS_CASE::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2026_CTRLS_CASE",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2026_CTRLS_CASE::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2026_CTRLS_CASE::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2026_CTRLS_CASE::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2026_CTRLS_CASE",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2026_CTRLS_CASE::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2026_CTRLS_CASE::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2026_CTRLS_CASE::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2026_STALE_PROPAGATED_CONFLICT",
+      "relation": "TRACE_OF",
+      "target": "2026_stale_memory_validity",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2026_STALE_PROPAGATED_CONFLICT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2026_STALE_PROPAGATED_CONFLICT::E01",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2026_STALE_PROPAGATED_CONFLICT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2026_STALE_PROPAGATED_CONFLICT::E02",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2026_STALE_PROPAGATED_CONFLICT::E01",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2026_STALE_PROPAGATED_CONFLICT::E02",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2026_STALE_PROPAGATED_CONFLICT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2026_STALE_PROPAGATED_CONFLICT::E03",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2026_STALE_PROPAGATED_CONFLICT::E02",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2026_STALE_PROPAGATED_CONFLICT::E03",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2026_STALE_PROPAGATED_CONFLICT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2026_STALE_PROPAGATED_CONFLICT::E04",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2026_STALE_PROPAGATED_CONFLICT::E03",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2026_STALE_PROPAGATED_CONFLICT::E04",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T2026_STALE_PROPAGATED_CONFLICT",
+      "relation": "CONTAINS_EVENT",
+      "target": "T2026_STALE_PROPAGATED_CONFLICT::E05",
+      "evidence_state": "VERIFIED"
+    },
+    {
+      "source": "T2026_STALE_PROPAGATED_CONFLICT::E04",
+      "relation": "TEMPORALLY_PRECEDES_IN_TRACE",
+      "target": "T2026_STALE_PROPAGATED_CONFLICT::E05",
+      "evidence_state": "VERIFIED_CHRONOLOGY_ONLY"
+    },
+    {
+      "source": "T1959_GPS_MEANS_ENDS::E03",
+      "relation": "FUNCTIONAL_RECURRENCE_OF",
+      "target": "T2022_REACT_HOTPOT::E05",
+      "evidence_state": "INFERRED",
+      "notes": "subgoal/query refinement after current action is insufficient"
+    },
+    {
+      "source": "T1977_VERSION_SPACE_UPDATE::E03",
+      "relation": "FUNCTIONAL_RECURRENCE_OF",
+      "target": "T1986_ATMS_CONTEXT_NOGOOD::E05",
+      "evidence_state": "INFERRED",
+      "notes": "new evidence/conflict removes a structured possibility region"
+    },
+    {
+      "source": "T1979_MHT_RECURSIVE_ASSOCIATION::E05",
+      "relation": "FUNCTIONAL_RECURRENCE_OF",
+      "target": "T2026_STALE_PROPAGATED_CONFLICT::E03",
+      "evidence_state": "INFERRED",
+      "notes": "later evidence requalifies earlier state through temporal dependency"
+    },
+    {
+      "source": "T1986_ATMS_CONTEXT_NOGOOD::E05",
+      "relation": "FUNCTIONAL_RECURRENCE_OF",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E05",
+      "evidence_state": "INFERRED",
+      "notes": "conflict compressed into reusable exclusion structure"
+    },
+    {
+      "source": "T1987_GDE_DIAGNOSTIC_MEASUREMENT::E04",
+      "relation": "FUNCTIONAL_RECURRENCE_OF",
+      "target": "T2022_REACT_HOTPOT::E05",
+      "evidence_state": "INFERRED",
+      "notes": "next action selected to resolve ambiguity / gain discriminating evidence"
+    },
+    {
+      "source": "T1987_SOAR_TRACE_TO_CHUNK::E05",
+      "relation": "FUNCTIONAL_RECURRENCE_OF",
+      "target": "T1996_GRASP_CONFLICT_LEARNING::E05",
+      "evidence_state": "INFERRED",
+      "notes": "deliberation/failure structure compiled into persistent future control information"
+    },
+    {
+      "source": "T1993_DYNAMIC_BACKTRACK_MAP::E04",
+      "relation": "FUNCTIONAL_RECURRENCE_OF",
+      "target": "T2024_BELIEFR_REVISION::E04",
+      "evidence_state": "INFERRED",
+      "notes": "selective revision should follow causal support rather than full reset"
+    },
+    {
+      "source": "T2022_COT_ARITHMETIC::E02",
+      "relation": "EMBODIMENT_SHIFT_TO",
+      "target": "T2025_R1_AHA_REVISION::E02",
+      "evidence_state": "INFERRED",
+      "notes": "intermediate language state becomes coupled to learned correction/control behavior"
+    },
+    {
+      "source": "T2023_TOT_SEARCH::E01",
+      "relation": "FUNCTIONAL_RECURRENCE_OF",
+      "target": "T1979_MHT_RECURSIVE_ASSOCIATION::E02",
+      "evidence_state": "INFERRED",
+      "notes": "multiple live alternatives are materialized, though semantics/control differ"
+    },
+    {
+      "source": "T2025_R1_AHA_REVISION::E03",
+      "relation": "FUNCTIONAL_RECURRENCE_OF",
+      "target": "T2026_CTRLS_CASE::E02",
+      "evidence_state": "INFERRED",
+      "notes": "quality of local transition determines downstream trajectory; one is visible self-revision, one is transition-aware learned model"
+    }
+  ],
+  "laws": [
+    "TRACE EVENT ORDER != CAUSALITY BY DEFAULT",
+    "FUNCTIONAL RECURRENCE != DOCUMENTED LINEAGE",
+    "TRACE SURFACE != HIDDEN MECHANISM",
+    "LBE RELATION MUST CARRY EVIDENCE STATE"
+  ]
+}

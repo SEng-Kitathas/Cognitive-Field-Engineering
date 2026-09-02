@@ -1138,3 +1138,12 @@ Expanded the reasoning archaeology across independent traditions rather than fol
 
 ### Build readback — 2026-09-02
 Reasoning archaeology/reason-maintenance publication commit `583bc4d2a03f78bad61fcf1ad34bf6ee6c6de387` pushed to `main`; local and remote hashes matched and working tree was clean. Commit included 22 public-safe project/state/tool artifacts and explicitly excluded the locally cached raw PDF quarry.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: TRACE ARCHAEOLOGY, TEMPORAL CARTOGRAPHY, FOREST SYNTHESIS, CROSS-DOMAIN TRANSFER, LHIT
+User explicitly required actual reasoning traces across time, charting the "million things they silently say" as temporal/causal elements, and applying the findings as a whole rather than losing the forest for the trees. User specifically invoked the prior LHIT failure mode: high-value invariants must not remain trapped in the domain where first observed and should transfer into code and other domains when consequence structure matches.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Shifted archaeology from paper-level coding to source-located trace-level cartography. Added lightweight pypdf 6.1.1 to isolated data tooling and extracted 32/32 cached PDFs into local page-marked text, 0 failures. Built 15 trace specimens spanning GPS 1959 through CTRLS/STALE 2026, with ordered events, source locators, silent-inference candidates, anti-overread guards and a categorical temporal matrix. Built a forest synthesis showing a provisional non-linear migration of reasoning structure across explicit external control/reason-maintenance, learned compression, language re-externalization, scaffold reconstruction and partial re-internalization. Built cross-domain transfer ledger applying stripped invariants to code/debugging, research, planning/agents, tools, memory/currentness, science/diagnosis, math/verification, LBE and Standard Uplift. Created an active Standard Uplift integration policy with hidden curator dimensions and cross-domain episode patterns; explicitly not the CFE experimental pack and not yet training admission. Built trace-level LBE overlay with 15 traces / 92 trace+event nodes / 164 typed edges and bound it into the main archaeology field. Created first-class transfer/cartography intent to prevent future domain trapping.

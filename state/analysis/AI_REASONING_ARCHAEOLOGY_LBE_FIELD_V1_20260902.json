@@ -6716,5 +6716,13 @@
   "reason_maintenance_overlay_sha256": "c85e10332f5804cb693dac820dd7c11f885a3094e410e49b76aba374b4f9a7d8",
   "schema": "cfe.reasoning-archaeology.lbe-field.v1",
   "source_registry_sha256": "a58d4210ff8d2a772ec83a1dc5b0c42fe8f74f175ea06aad617f8779a37a9662",
-  "status": "SOURCE_FIELD_WITH_REASON_MAINTENANCE_OVERLAY__HOSTILE_REVIEW_PENDING"
+  "status": "SOURCE_FIELD_WITH_REASON_MAINTENANCE_AND_TRACE_OVERLAYS__HOSTILE_REVIEW_PENDING",
+  "trace_level_overlay": {
+    "path": "state/analysis/AI_REASONING_TRACE_LBE_OVERLAY_V1_20260902.json",
+    "sha256": "73195d6cd6200a9fd8d6258450238454173a9465c82889f6449a458714a30570",
+    "state": "TRACE_LEVEL_OVERLAY__HOSTILE_REVIEW_PENDING",
+    "trace_count": 15,
+    "trace_edges": 164,
+    "trace_nodes": 92
+  }
 }

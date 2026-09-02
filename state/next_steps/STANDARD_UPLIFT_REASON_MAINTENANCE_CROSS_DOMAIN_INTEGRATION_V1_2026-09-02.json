@@ -1,0 +1,153 @@
+{
+  "schema": "cfe.standard-uplift.reason-maintenance-cross-domain-integration.v1",
+  "status": "ACTIVE_DESIGN_INPUT__NOT_YET_TRAINING_ADMISSION",
+  "program": "STANDARD_UPLIFT_DATASET_V1",
+  "identity_guard": "THIS IS THE CFE-INFORMED STANDARD DATASET, NOT THE MATCHED CFE EXPERIMENTAL PACK",
+  "source_artifacts": [
+    "research/AI_REASONING_TRACE_TEMPORAL_CARTOGRAPHY_FOREST_SYNTHESIS_V1_2026-09-02.md",
+    "research/REASONING_ARCHAEOLOGY_CROSS_DOMAIN_APPLICATION_LEDGER_V1_2026-09-02.md",
+    "research/REASON_MAINTENANCE_SPINE_MULTI_HYPOTHESIS_ARCHAEOLOGY_DEEP_HUNT_2026-09-02.md",
+    "state/analysis/AI_REASONING_TRACE_SPECIMENS_V1_20260902.json"
+  ],
+  "laws": [
+    "STEAL INVARIANTS NOT ABSTRACTIONS",
+    "MULTI-SAMPLE != LIVE MULTI-HYPOTHESIS FIELD",
+    "ROLLBACK TO CAUSE NOT CLOCK",
+    "CURRENTLY CONSEQUENCE-EQUIVALENT != ONTOLOGICALLY IDENTICAL",
+    "FAILURE LABEL < FAILURE EXPLANATION < GENERALIZED FAILURE BOUNDARY",
+    "RETRIEVAL != CURRENTNESS RESOLUTION",
+    "UPDATED FACT != UPDATED CONSEQUENCES",
+    "TEACHING THE LABEL != ENGINEERING THE PRESSURE",
+    "LONG CONTEXT != CONSEQUENTIAL HISTORY",
+    "MAXIMAL REASONING != OPTIMAL REASONING"
+  ],
+  "hidden_curator_dimensions": [
+    "SUPPORT_LINEAGE",
+    "LIVE_CONSEQUENCE_DISTINCT_ALTERNATIVES",
+    "CONSEQUENCE_EQUIVALENCE_COMPRESSION",
+    "DEPENDENCY_LOCAL_REPAIR",
+    "GENERALIZED_CONFLICT_BOUNDARY",
+    "ACTIVE_DISCRIMINATOR",
+    "REPRESENTATION_ADEQUACY_SHIFT",
+    "EXTERNAL_AUTHORITY_HANDOFF",
+    "CURRENTNESS_PROPAGATION",
+    "DELIBERATION_TO_PORTABLE_INVARIANT",
+    "EFFORT_ALLOCATION",
+    "CONSEQUENTIAL_HISTORY"
+  ],
+  "domain_families": {
+    "CODE_DEBUGGING": {
+      "episode_patterns": [
+        "multiple plausible root causes -> discriminating test -> causal localization -> minimal patch -> regression guard",
+        "late failure caused by early state/config assumption -> nonchronological repair while preserving valid work",
+        "repeated local patches fail -> data/state representation is refined -> downstream code simplifies",
+        "same structural bug reappears under changed surface code -> transfer generalized failure boundary"
+      ]
+    },
+    "RESEARCH": {
+      "episode_patterns": [
+        "competing causal explanations -> explicit predictions -> identifying experiment -> selective belief revision",
+        "new source changes currentness of one premise -> only dependent conclusions are downgraded",
+        "persistent residual/sign flip -> missing-axis/representation audit -> revised model",
+        "evidence insufficient -> preserve multiple viable hypotheses / UNKNOWN rather than rhetorical closure"
+      ]
+    },
+    "PLANNING_AGENT": {
+      "episode_patterns": [
+        "multiple viable plans -> defer unnecessary commitment -> later constraint splits options",
+        "tool/resource/authority observation invalidates one branch -> dependency-aware replan",
+        "cheap internal reasoning reaches confidence ceiling -> external check/readback -> action",
+        "past action consumes resource/creates commitment -> later plan must respect consequential history"
+      ]
+    },
+    "MEMORY_CURRENTNESS": {
+      "episode_patterns": [
+        "later non-negating observation invalidates earlier memory through latent-state change",
+        "one attribute changes -> indirect downstream applicability changes while unrelated memories survive",
+        "semantic retrieval favors stale item -> currentness/provenance must override similarity",
+        "ambiguous current state -> request discriminating update rather than guessing"
+      ]
+    },
+    "SCIENCE_DIAGNOSIS": {
+      "episode_patterns": [
+        "model prediction -> observed residual -> minimal competing explanations -> best discriminating measurement",
+        "new measurement removes some diagnoses while preserving others",
+        "measurement outcomes remain ambiguous -> maintain candidate partition",
+        "all local candidate models fail -> representation/model class refinement"
+      ]
+    },
+    "MATH_LOGIC": {
+      "episode_patterns": [
+        "derivation -> local contradiction -> preserve valid premises -> recompute dependency cone",
+        "multiple solution routes -> proof/checker or brute-force discriminator",
+        "early symbolic transition error causes downstream divergence -> transition-local verification",
+        "simple case requires short reasoning while boundary case earns deeper verification"
+      ]
+    },
+    "TOOL_RESEARCH": {
+      "episode_patterns": [
+        "initial query returns ambiguous entity -> refine query from observation -> grounded finish",
+        "several evidence interpretations imply different actions -> obtain one separating observation",
+        "tool output conflicts with cached belief -> external observation wins subject to provenance/currentness",
+        "tool failure becomes reusable operating constraint rather than repeated blind retry"
+      ]
+    },
+    "LHIT_LONG_HORIZON": {
+      "episode_patterns": [
+        "early state becomes causally binding many turns later",
+        "later evidence makes old conclusion stale without explicit negation",
+        "failed branch corrected while valid cross-turn state survives",
+        "representation itself must refine after later boundary event",
+        "unresolved seam persists until a later discriminator arrives"
+      ]
+    }
+  },
+  "selection_rules": [
+    "Prefer episodes with at least one observable state-changing discriminator over long performative reasoning.",
+    "Prefer local revision with preserved unaffected state over full-reset correction examples.",
+    "Prefer external checks whose result can falsify a candidate over self-congratulatory verification language.",
+    "Prefer examples where uncertainty is structurally real and the learner must preserve or reduce it.",
+    "Prefer cross-domain isomorph coverage rather than repeating one donor vocabulary/domain.",
+    "Do not admit an episode merely because its source trace is historically important; learner-visible training value must be independently justified."
+  ],
+  "ordering_rules": [
+    "Use broad support before narrow repeated drilling.",
+    "Revisit the same stripped invariant under different surface domains after spacing/dependency change.",
+    "Include anti-isomorphs where superficially similar cases require different revision/commitment behavior.",
+    "Sequence some episodes as coarse-success -> boundary failure -> representation refinement -> later transfer.",
+    "Sequence some episodes as failure -> extracted boundary -> surface-varied recurrence to test transfer.",
+    "Do not make every episode maximally difficult; train appropriate recruitment of effort by mixing cheap-sufficient and deep-required cases."
+  ],
+  "reasoning_render_policy": {
+    "rule": "Preserve the minimum reasoning/support state needed to expose discriminators, revision, verification and consequence; do not supervise redundant teacher monologue merely because it exists.",
+    "preferred": [
+      "state-changing reasoning events",
+      "branch assumptions when needed",
+      "tool/measurement observations",
+      "failure-localization evidence",
+      "verification result",
+      "final qualified answer"
+    ],
+    "avoid": [
+      "model-specific panic/self-talk style",
+      "copied historical formalism labels",
+      "unbounded inner monologue",
+      "fake multi-hypothesis created only by paraphrasing the same answer"
+    ]
+  },
+  "coverage_measurement": {
+    "rule": "No fixed donor/domain quota is justified by label alone. Measure coverage of stripped invariants and consequence structures.",
+    "minimum_reporting": [
+      "atoms/target tokens by domain family",
+      "atoms/target tokens by hidden curator dimension",
+      "cross-domain recurrence count per invariant",
+      "single-domain-only invariants",
+      "anti-isomorph coverage",
+      "currentness/revision coverage",
+      "external verification coverage",
+      "UNKNOWN/defer coverage",
+      "long-horizon causal-history coverage"
+    ]
+  },
+  "claim_ceiling": "This policy applies historically recurrent reasoning-maintenance structures to conventional dataset engineering. It does not establish CFE causality, does not authorize experimental-pack claims, and does not make historical donor ontologies learner-facing."
+}

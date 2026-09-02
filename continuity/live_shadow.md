@@ -118,3 +118,13 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 ### Publication delta — 2026-09-02
 - Reasoning archaeology/reason-maintenance package committed and pushed at `583bc4d2a03f78bad61fcf1ad34bf6ee6c6de387`; local publication checkout == remote `main`, clean at readback.
 - 22-file commit, 13,078 insertions; raw PDF quarry remains local/non-Git.
+
+## Turn delta — 2026-09-02 trace temporal cartography + forest transfer
+- Operator required actual traces across AI history and explicit forest-level synthesis/application, with LHIT-style cross-domain transfer discipline.
+- Added `pypdf==6.1.1` to isolated data tooling; extracted page-marked text from 32/32 cached PDFs, 0 failures; derived text local/non-Git.
+- Built 15 source-located trace specimens spanning 1959–2026 and a categorical temporal matrix using `NOT_VISIBLE_IN_SPECIMEN` rather than false absence claims.
+- Forest synthesis identifies a non-linear embodiment migration: explicit control/reason-maintenance -> learned compression -> generative re-externalization -> scaffold reconstruction -> partial re-internalization. This is a trajectory hypothesis, not causation.
+- Cross-domain transfer is now binding research discipline: reasoning invariants must be tested/re-derived in code/debugging, research, planning, tools, memory/currentness, science/diagnosis, math, LBE, Standard Uplift and future CFE experiments where consequence structure matches.
+- Standard Uplift reason-maintenance cross-domain integration policy is active design input, not training admission and not the CFE pack.
+- Trace LBE overlay now contains 15 trace nodes with 92 trace/event nodes and 164 typed edges; main archaeology field binds it.
+- Strong forest seam: combine modern flexible learned representation with bounded support-aware, temporally current, multi-hypothesis reason maintenance without brittle curator ontology.
