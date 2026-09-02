@@ -120,3 +120,12 @@ Preferred language:
 - Train/infer using the original source checkpoint or a real converted/quantized checkpoint.
 - Use Rosetta outputs for inspection, cross-model structural comparison, provenance routing, and candidate-hypothesis generation.
 - Do not treat Rosetta descriptor corpora as trainable models, model merges, compressed brains, or recoverable weight encodings.
+
+
+## Historical-intent preservation addendum — 2026-09-02 09:43 Eastern Daylight Time
+This audit corrects what Rosetta actually embodied; it does not erase the original design target. The operator has clarified that Rosetta was conceived as essentially "LBE for models": render model-derived tensor structure static, embed/index it, and traverse it through SoAoA + StarMap like a database to attempt reasoning with a small active compute footprint on consumer hardware.
+
+Full authority-separated intent/reality crosswalk:
+`research/ROSETTA_LBE_STATIC_MODEL_SUBSTRATE_ORIGINAL_INTENT_AND_REALITY_CROSSWALK_2026-09-02.md` SHA `9e4fdc8981821ecc4de85da47ff3340952f9243decb4bd64c741886cd81d2d58`.
+
+`IMPLEMENTATION FAILURE TO REACH INTENT != INTENT NEVER EXISTED`

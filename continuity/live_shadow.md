@@ -48,3 +48,6 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 
 ## Turn delta — 2026-09-02 09:26 Eastern Daylight Time
 - Rosetta ontology corrected from file/code reality: processed corpora are compact tensor descriptor/statistical sidecars, not runnable/trainable weights. `qwen35_4shard` source is exact Qwen3.5-9B. Audit `state/analysis/ROSETTA_PROCESSED_MODEL_REALITY_AUDIT_2026-09-02.md` SHA `03acc537b2c557a43af187f3d95daf73da47933030c211d13341eab55184e408`.
+
+## Turn delta — 2026-09-02 09:43 Eastern Daylight Time
+- Rosetta reality correction retained. Original Rosetta/LBE intent now separately preserved: static model-derived map, immutable SoAoA/StarMap-style reachability, small active traversal/controller, consumer-hardware objective. Gap itself is research branch; no retroactive success claim.

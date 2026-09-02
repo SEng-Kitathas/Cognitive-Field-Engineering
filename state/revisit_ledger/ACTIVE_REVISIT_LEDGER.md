@@ -46,3 +46,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | P1 fleet validation | broad local-model CFE training | requires stronger CFE intervention support + frozen matched controls + learner inventory + phenotype probes | authorization threshold in fleet plan | gated |
 
 | P0 terminology correction | historical `Rosetta-stripped model weights` / `qwen35=35B` language | contradicted by active converter and exact source identity | use descriptor-corpus terminology; keep separate 35B-A3B GGUF identity | resolved/corrected |
+
+| P2 historical architecture | Rosetta/LBE static model substrate | original consumer-hardware reasoning target remains unrealized; current Rosetta descriptive only | function-preserving compiled operators + routed traversal proof-of-concept | parked/reopenable |

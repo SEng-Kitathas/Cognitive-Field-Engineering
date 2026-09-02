@@ -1,0 +1,19 @@
+{
+  "claim_ceiling": "HISTORICAL DESIGN INTENT / ACTIVE RESEARCH BRANCH; NOT WORKING ARCHITECTURE OR CFE SCIENTIFIC RESULT",
+  "historical_intent": "static model-derived map traversed via SoAoA/StarMap as database-like reasoning substrate to reduce active consumer-hardware cost",
+  "implementation_gap": "function-preserving compilation + routing/composition mechanism absent",
+  "intent_crosswalk_path": "research/ROSETTA_LBE_STATIC_MODEL_SUBSTRATE_ORIGINAL_INTENT_AND_REALITY_CROSSWALK_2026-09-02.md",
+  "intent_crosswalk_sha256": "9e4fdc8981821ecc4de85da47ff3340952f9243decb4bd64c741886cd81d2d58",
+  "operator_term": "LBE",
+  "operator_term_expansion": "UNRECOVERED_DO_NOT_GUESS",
+  "reality_audit_path": "state/analysis/ROSETTA_PROCESSED_MODEL_REALITY_AUDIT_2026-09-02.md",
+  "reality_audit_sha256": "03acc537b2c557a43af187f3d95daf73da47933030c211d13341eab55184e408",
+  "schema": "cfe.rosetta-lbe-intent-reality-preservation.v1",
+  "status": "PRESERVED_WITH_AUTHORITY_SPLIT",
+  "timestamp": "2026-09-02T09:43:23-04:00",
+  "verified_lineage": [
+    "Rosetta active output is descriptor corpus, not weights",
+    "Historical StarMap contains STATIC STARMAP / immutable SoAoA optimized reads",
+    "Current CFE StarMap salvage treats shape-of-reachability as stripped invariant"
+  ]
+}

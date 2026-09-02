@@ -16,3 +16,8 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 - Preserve and freeze representative pre-CFE phenotype probes before any CFE fleet intervention.
 - Inventory eligible local learners/trainable checkpoints.
 - Do not launch broad fleet training until the authorization threshold in the fleet research plan is met.
+
+## Rosetta/LBE historical branch — parked but preserved
+- Do not mix into active CFE science without explicit branch selection.
+- If reopened, first experiment should test whether a function-preserving block representation + small router can outperform ordinary retrieval at equal active-memory/compute budget.
+- Use Rosetta structural atlas for candidate motif selection, not as the functional substrate itself.

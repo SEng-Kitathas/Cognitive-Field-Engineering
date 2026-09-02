@@ -78,3 +78,9 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Verified: `qwen35_4shard` is exact official Qwen3.5-9B, not 35B; all four shard hashes match HF revision c2022362...
 - Retire misleading phrase `Rosetta-stripped model weights` for these outputs.
 - Audit SHA `03acc537b2c557a43af187f3d95daf73da47933030c211d13341eab55184e408`.
+
+## Rosetta/LBE original-intent preservation — 2026-09-02 09:43 Eastern Daylight Time
+- Preserved original operator intent separately from implementation reality: static model-derived substrate, SoAoA storage + StarMap traversal, database-like selective reasoning to target consumer hardware.
+- `LBE` expansion not recovered; do not guess.
+- Current Rosetta remains descriptor atlas only; missing bridge is function-preserving compilation + routing/composition.
+- Crosswalk SHA `9e4fdc8981821ecc4de85da47ff3340952f9243decb4bd64c741886cd81d2d58`.

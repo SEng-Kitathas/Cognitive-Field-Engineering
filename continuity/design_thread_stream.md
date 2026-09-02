@@ -1041,3 +1041,12 @@ Operator requested direct inspection of Rosetta-processed model files because pr
 
 ## Turn — ASSISTANT / AUDIT
 Inspected live E Rosetta outputs, converter code, source checkpoints, TQ2 bridge doctrine, and exact Qwen3.5-9B remote shard identities. Corrected ontology: Rosetta outputs are compact tensor descriptor/statistical relational corpora, not runnable/trainable model weights. Corrected `qwen35_4shard`: exact official Qwen3.5-9B, not 35B.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 09:43 Eastern Daylight Time
+Tags: ROSETTA, LBE, STARMAP, SOAOA, HISTORICAL INTENT
+Operator approved the Rosetta reality audit and clarified original intent: essentially "LBE for models"—render model tensor-derived structure static, embed/index it, traverse the static map using SoAoA and StarMap like a database, and attempt reasoning from that substrate to make powerful-model capability usable on consumer hardware.
+
+## Turn — ASSISTANT / PROVENANCE PRESERVATION
+Preserved implementation reality and original intent as separate authority classes. Cross-linked historical Static StarMap / immutable SoAoA lineage. Defined the missing bridge as function-preserving compilation plus routing/composition, explicitly refusing to retroactively claim Rosetta achieved the design.
