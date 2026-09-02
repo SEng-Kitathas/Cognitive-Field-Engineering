@@ -1,0 +1,7 @@
+{
+  "campaign": 1,
+  "pass": 3,
+  "active_question": "Which external mechanisms from reservoir computing, recurrent memory, continual replay, active inference, state-space memory, and graph topology provide falsifiable donor hypotheses for CFE without importing their ontology as learner truth?",
+  "error": "RuntimeError('pass 1/3 failed source-grounded qualification after 3 attempts; last issue=The synthesis does not address the question about external mechanisms providing falsifiable donor hypotheses for CFE without importing their ontology as learner truth.')",
+  "accepted": false
+}

@@ -1,0 +1,131 @@
+{
+  "ANSWER": "Helix/OARR/Loop+/Reservoir/CSC suggest flexible topology; OARR/LOOP+ reveal sealed pairs.",
+  "EVIDENCE": "S1, S2, Q1, Q2, Q3",
+  "SURVIVE": "Hostile controls alter Microseed jobs.",
+  "SCAR": "Port reuse, job ID reuse.",
+  "DEMOTE": "Model worker leaks, runtime conflicts.",
+  "DISPOSITION": "Hostile takeover, sealed pairs exploited.",
+  "CONFIDENCE": "0.9",
+  "NEXT": "Which specific sealed pairs can be exploited under hostile controls?",
+  "confidence_numeric": 0.9,
+  "campaign": 1,
+  "pass": 1,
+  "active_question": "Which independently manipulable CFE constraint-topology dimensions are suggested by Helix/OARR/Loop+/Reservoir/CSC and existing CFE evidence, and which apparent dimensions collapse under hostile controls?",
+  "OARR": "If hostile controls alter the `CFE_MICROSEED_FORGE_RUNTIME_ISOLATION_CONTRACT_2026-09-01.json` to allow port 18191/18192 reuse, then the CFE may inadvertently bind to Microseed jobs, leading to model worker leaks or runtime conflicts.",
+  "LOOP": "Also test whether the `DD2R2_PAUSED_RECOVERY_SOURCE_2026-09-01.json` reveals any sealed pairs that could be exploited for hostile takeover, as this could change",
+  "RESERVOIR": "Neglected source class: host_qualification",
+  "source_refs": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\campaigns\\overnight_20260902\\SEED_CARTOGRAPHY.json#p0.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\campaigns\\overnight_20260902\\local_archaeology\\TOP_HITS.md#p173.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p10.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p2.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\campaigns\\overnight_20260902\\MACHINERY.stdout.log#p0.0"
+  ],
+  "source_classes": [
+    "data_contract",
+    "documentation",
+    "current_state",
+    "next_steps",
+    "execution_evidence"
+  ],
+  "promotion_authority": "NONE",
+  "divergence_meta": {
+    "attempts": [
+      {
+        "finish_reason": "length",
+        "usage": {
+          "completion_tokens": 120,
+          "prompt_tokens": 1565,
+          "total_tokens": 1685,
+          "prompt_tokens_details": {
+            "cached_tokens": 6
+          }
+        },
+        "timings": {
+          "cache_n": 6,
+          "prompt_n": 1559,
+          "prompt_ms": 13183.913,
+          "prompt_per_token_ms": 8.456647209749839,
+          "prompt_per_second": 118.25017352587203,
+          "predicted_n": 120,
+          "predicted_ms": 11104.638,
+          "predicted_per_token_ms": 92.53865,
+          "predicted_per_second": 10.806295531650829
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    ]
+  },
+  "divergence_raw": "OARR=If hostile controls alter the `CFE_MICROSEED_FORGE_RUNTIME_ISOLATION_CONTRACT_2026-09-01.json` to allow port 18191/18192 reuse, then the CFE may inadvertently bind to Microseed jobs, leading to model worker leaks or runtime conflicts. || LOOP=Also test whether the `DD2R2_PAUSED_RECOVERY_SOURCE_2026-09-01.json` reveals any sealed pairs that could be exploited for hostile takeover, as this could change",
+  "qualification_attempts": [
+    {
+      "attempt": 1,
+      "synthesis": {
+        "ANSWER": "Helix/OARR/Loop+/Reservoir/CSC suggest flexible topology; OARR/LOOP+ reveal sealed pairs.",
+        "EVIDENCE": "S1, S2, Q1, Q2, Q3",
+        "SURVIVE": "Hostile controls alter Microseed jobs.",
+        "SCAR": "Port reuse, job ID reuse.",
+        "DEMOTE": "Model worker leaks, runtime conflicts.",
+        "DISPOSITION": "Hostile takeover, sealed pairs exploited.",
+        "CONFIDENCE": "0.9",
+        "NEXT": "Which specific sealed pairs can be exploited under hostile controls?"
+      },
+      "raw": "ANSWER=Helix/OARR/Loop+/Reservoir/CSC suggest flexible topology; OARR/LOOP+ reveal sealed pairs.  \nEVIDENCE=S1, S2, Q1, Q2, Q3  \nSURVIVE=Hostile controls alter Microseed jobs.  \nSCAR=Port reuse, job ID reuse.  \nDEMOTE=Model worker leaks, runtime conflicts.  \nDISPOSITION=Hostile takeover, sealed pairs exploited.  \nCONFIDENCE=0.9  \nNEXT=Which specific sealed pairs can be exploited under hostile controls?",
+      "meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 115,
+          "prompt_tokens": 2330,
+          "total_tokens": 2445,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 2327,
+          "prompt_ms": 20274.84,
+          "prompt_per_token_ms": 8.71286635152557,
+          "prompt_per_second": 114.77279228837317,
+          "predicted_n": 115,
+          "predicted_ms": 10948.862,
+          "predicted_per_token_ms": 95.2074956521739,
+          "predicted_per_second": 10.503374688620609
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      },
+      "deterministic_errors": [],
+      "audit": {
+        "VERDICT": "ACCEPT"
+      },
+      "audit_raw": "VERDICT=ACCEPT",
+      "audit_meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 6,
+          "prompt_tokens": 1956,
+          "total_tokens": 1962,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 1953,
+          "prompt_ms": 16767.619,
+          "prompt_per_token_ms": 8.585570404505887,
+          "prompt_per_second": 116.47449766123623,
+          "predicted_n": 6,
+          "predicted_ms": 470.345,
+          "predicted_per_token_ms": 78.39083333333333,
+          "predicted_per_second": 12.756593564298546
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    }
+  ],
+  "hard_stop": false
+}

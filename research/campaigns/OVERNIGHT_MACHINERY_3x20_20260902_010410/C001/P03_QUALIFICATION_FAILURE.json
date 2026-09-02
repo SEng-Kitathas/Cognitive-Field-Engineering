@@ -1,0 +1,7 @@
+{
+  "campaign": 1,
+  "pass": 3,
+  "active_question": "Which specific preregistered pre-live defects trigger CSC audit-only hard stop?",
+  "error": "RuntimeError('pass 1/3 failed source-grounded qualification after 3 attempts; last issue=No evidence of preregistered defects')",
+  "accepted": false
+}

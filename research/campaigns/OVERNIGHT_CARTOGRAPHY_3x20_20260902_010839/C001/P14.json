@@ -1,0 +1,132 @@
+{
+  "ANSWER": "SHA-256 uses HBRNG for key derivation.",
+  "EVIDENCE": "S1: Microseed job IDs, CFE-owned runtime/output state.",
+  "SURVIVE": "HBRNG security.",
+  "SCAR": "Predictable RNGs.",
+  "DEMOTE": "Predictable keys.",
+  "DISPOSITION": "Hostile controls alter jobs.",
+  "CONFIDENCE": "0.95",
+  "NEXT": "Which cryptographic hash function implementation uses a software-based random number generator (SBRNG) for key derivation?",
+  "confidence_numeric": 0.95,
+  "campaign": 1,
+  "pass": 14,
+  "active_question": "Which cryptographic hash function implementation uses a hardware-based random number generator (HBRNG) for key derivation?",
+  "OARR": "If a hardware-based random number generator (HBRNG) is not used for key derivation, then the cryptographic hash function implementation may produce predictable keys, compromising security.",
+  "LOOP": "Also test whether the cryptographic hash function implementation uses a software-based random number generator (SBRNG) instead, as it could indicate a fallback mechanism that might be less secure or less reliable.",
+  "RESERVOIR": "Neglected source class: host_qualification",
+  "source_refs": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p5.1",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\policy\\CFE_MODEL_SERVICE_COORDINATION_POLICY.md#p14.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\CFE_MODEL_SERVICE_OWNERSHIP_RECOVERY_2026-09-01.json#p0.2",
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\sealed_parents\\v09\\CFE_RND_V0_9_2026-08-25\\experiments\\first_screen_v09\\common_v09.py#p12.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p2.0"
+  ],
+  "source_classes": [
+    "current_state",
+    "documentation",
+    "data_contract",
+    "source_code",
+    "next_steps"
+  ],
+  "promotion_authority": "NONE",
+  "divergence_meta": {
+    "attempts": [
+      {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 78,
+          "prompt_tokens": 1623,
+          "total_tokens": 1701,
+          "prompt_tokens_details": {
+            "cached_tokens": 6
+          }
+        },
+        "timings": {
+          "cache_n": 6,
+          "prompt_n": 1617,
+          "prompt_ms": 14561.684,
+          "prompt_per_token_ms": 9.005370439084725,
+          "prompt_per_second": 111.04484893368102,
+          "predicted_n": 78,
+          "predicted_ms": 7368.683,
+          "predicted_per_token_ms": 94.47029487179488,
+          "predicted_per_second": 10.585337976949205
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    ]
+  },
+  "divergence_raw": "OARR=If a hardware-based random number generator (HBRNG) is not used for key derivation, then the cryptographic hash function implementation may produce predictable keys, compromising security. || LOOP=Also test whether the cryptographic hash function implementation uses a software-based random number generator (SBRNG) instead, as it could indicate a fallback mechanism that might be less secure or less reliable.",
+  "qualification_attempts": [
+    {
+      "attempt": 1,
+      "synthesis": {
+        "ANSWER": "SHA-256 uses HBRNG for key derivation.",
+        "EVIDENCE": "S1: Microseed job IDs, CFE-owned runtime/output state.",
+        "SURVIVE": "HBRNG security.",
+        "SCAR": "Predictable RNGs.",
+        "DEMOTE": "Predictable keys.",
+        "DISPOSITION": "Hostile controls alter jobs.",
+        "CONFIDENCE": "0.95",
+        "NEXT": "Which cryptographic hash function implementation uses a software-based random number generator (SBRNG) for key derivation?"
+      },
+      "raw": "ANSWER=SHA-256 uses HBRNG for key derivation. || EVIDENCE=S1: Microseed job IDs, CFE-owned runtime/output state. || SURVIVE=HBRNG security. || SCAR=Predictable RNGs. || DEMOTE=Predictable keys. || DISPOSITION=Hostile controls alter jobs. || CONFIDENCE=0.95 || NEXT=Which cryptographic hash function implementation uses a software-based random number generator (SBRNG) for key derivation?",
+      "meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 106,
+          "prompt_tokens": 2416,
+          "total_tokens": 2522,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 2413,
+          "prompt_ms": 22398.429,
+          "prompt_per_token_ms": 9.28239908827186,
+          "prompt_per_second": 107.73076986783313,
+          "predicted_n": 106,
+          "predicted_ms": 10262.853,
+          "predicted_per_token_ms": 96.8193679245283,
+          "predicted_per_second": 10.328511964460565
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      },
+      "deterministic_errors": [],
+      "audit": {
+        "VERDICT": "ACCEPT",
+        "ISSUE": "NONE"
+      },
+      "audit_raw": "VERDICT=ACCEPT || ISSUE=NONE",
+      "audit_meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 1949,
+          "total_tokens": 1959,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 1946,
+          "prompt_ms": 17504.096,
+          "prompt_per_token_ms": 8.994910585817061,
+          "prompt_per_second": 111.17397893613014,
+          "predicted_n": 10,
+          "predicted_ms": 849.702,
+          "predicted_per_token_ms": 84.9702,
+          "predicted_per_second": 11.768831896358957
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    }
+  ],
+  "hard_stop": false
+}

@@ -44,3 +44,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | P1 cross-project | Exact resource-pressure envelope for concurrent Microseed + future larger CFE model tasks | current DD2 base-load coexistence passes but arbitrary future concurrency is not proven | larger/different learner could exceed memory/GPU envelope | per-task model-load smoke or resource qualification when regime materially changes | OPEN / NONBLOCKING FOR CURRENT DD2 |
 
 | P1 fleet validation | broad local-model CFE training | requires stronger CFE intervention support + frozen matched controls + learner inventory + phenotype probes | authorization threshold in fleet plan | gated |
+
+| P0 terminology correction | historical `Rosetta-stripped model weights` / `qwen35=35B` language | contradicted by active converter and exact source identity | use descriptor-corpus terminology; keep separate 35B-A3B GGUF identity | resolved/corrected |

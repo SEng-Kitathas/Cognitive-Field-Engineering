@@ -1,0 +1,27 @@
+{
+  "schema": "cfe.overnight.concept-archaeology.v1",
+  "status": "COMPLETE",
+  "roots": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects",
+    "D:\\Singularity_Works\\repo"
+  ],
+  "files_scanned": 23349,
+  "raw_hits": 1200,
+  "unique_hits": 1022,
+  "elapsed_seconds": 250.62703323364258,
+  "term_counts": {
+    "helix": 86,
+    "oarr": 70,
+    "loop+": 65,
+    "loop_plus": 28,
+    "attention reservoir": 25,
+    "reservoir": 86,
+    "csc": 661,
+    "co-processing": 12,
+    "coprocessing": 3,
+    "starmap": 260,
+    "cognitive geometry": 67,
+    "research loop": 19,
+    "semantic helix": 21
+  }
+}

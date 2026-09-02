@@ -45,3 +45,6 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - New law: preserve representative pre-CFE failure phenotypes; do not train away baseline before measurement.
 - Future fleet validation uses BASE / matched ordinary control / CFE developmental field. Learner regime becomes explicit cartography conditioning surface.
 - No broad fleet training authorization yet.
+
+## Turn delta — 2026-09-02 09:26 Eastern Daylight Time
+- Rosetta ontology corrected from file/code reality: processed corpora are compact tensor descriptor/statistical sidecars, not runnable/trainable weights. `qwen35_4shard` source is exact Qwen3.5-9B. Audit `state/analysis/ROSETTA_PROCESSED_MODEL_REALITY_AUDIT_2026-09-02.md` SHA `03acc537b2c557a43af187f3d95daf73da47933030c211d13341eab55184e408`.

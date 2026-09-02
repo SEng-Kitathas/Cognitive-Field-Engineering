@@ -1,0 +1,132 @@
+{
+  "ANSWER": "SHA-256, HMAC-SHA256",
+  "EVIDENCE": "S1",
+  "SURVIVE": "Hostile controls alter Microseed jobs.",
+  "SCAR": "Port reuse, job ID reuse.",
+  "DEMOTE": "Model worker leaks, runtime conflicts.",
+  "DISPOSITION": "Hostile rival/counterexample/removal.",
+  "CONFIDENCE": "0.95",
+  "NEXT": "Which cryptographic hash checks are used to verify runtime integrity?",
+  "confidence_numeric": 0.95,
+  "campaign": 1,
+  "pass": 4,
+  "active_question": "Which cryptographic hash checks are used to verify runtime integrity?",
+  "OARR": "If a malicious entity gains control of the Microseed runtime environment and modifies the cryptographic hash checks used to verify runtime integrity, then the integrity of the current state and subsequent evaluations could be compromised.",
+  "LOOP": "Also test whether the integrity of the cryptographic hash check mechanisms is verified through a separate, independent audit process to ensure that any modifications are detected and corrected before they impact the runtime integrity.",
+  "RESERVOIR": "Neglected source class: host_qualification",
+  "source_refs": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p5.1",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\policy\\CFE_MODEL_SERVICE_COORDINATION_POLICY.md#p14.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\campaigns\\OVERNIGHT_MACHINERY_3x20_20260902_010410\\C001\\P01.json#p0.3",
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\sealed_parents\\v09\\CFE_RND_V0_9_2026-08-25\\experiments\\first_screen_v09\\hostile_static_package_v09.py#p2.12",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p2.0"
+  ],
+  "source_classes": [
+    "current_state",
+    "documentation",
+    "data_contract",
+    "source_code",
+    "next_steps"
+  ],
+  "promotion_authority": "NONE",
+  "divergence_meta": {
+    "attempts": [
+      {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 81,
+          "prompt_tokens": 1613,
+          "total_tokens": 1694,
+          "prompt_tokens_details": {
+            "cached_tokens": 1612
+          }
+        },
+        "timings": {
+          "cache_n": 1612,
+          "prompt_n": 1,
+          "prompt_ms": 93.618,
+          "prompt_per_token_ms": 93.618,
+          "prompt_per_second": 10.681706509431947,
+          "predicted_n": 81,
+          "predicted_ms": 7600.78,
+          "predicted_per_token_ms": 93.8367901234568,
+          "predicted_per_second": 10.656801012527662
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    ]
+  },
+  "divergence_raw": "OARR=If a malicious entity gains control of the Microseed runtime environment and modifies the cryptographic hash checks used to verify runtime integrity, then the integrity of the current state and subsequent evaluations could be compromised. || LOOP=Also test whether the integrity of the cryptographic hash check mechanisms is verified through a separate, independent audit process to ensure that any modifications are detected and corrected before they impact the runtime integrity.",
+  "qualification_attempts": [
+    {
+      "attempt": 1,
+      "synthesis": {
+        "ANSWER": "SHA-256, HMAC-SHA256",
+        "EVIDENCE": "S1",
+        "SURVIVE": "Hostile controls alter Microseed jobs.",
+        "SCAR": "Port reuse, job ID reuse.",
+        "DEMOTE": "Model worker leaks, runtime conflicts.",
+        "DISPOSITION": "Hostile rival/counterexample/removal.",
+        "CONFIDENCE": "0.95",
+        "NEXT": "Which cryptographic hash checks are used to verify runtime integrity?"
+      },
+      "raw": "ANSWER=SHA-256, HMAC-SHA256 || EVIDENCE=S1 || SURVIVE=Hostile controls alter Microseed jobs. || SCAR=Port reuse, job ID reuse. || DEMOTE=Model worker leaks, runtime conflicts. || DISPOSITION=Hostile rival/counterexample/removal. || CONFIDENCE=0.95 || NEXT=Which cryptographic hash checks are used to verify runtime integrity?",
+      "meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 93,
+          "prompt_tokens": 2402,
+          "total_tokens": 2495,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 2399,
+          "prompt_ms": 22453.494,
+          "prompt_per_token_ms": 9.359522300958732,
+          "prompt_per_second": 106.84305970375925,
+          "predicted_n": 93,
+          "predicted_ms": 8917.536,
+          "predicted_per_token_ms": 95.88748387096774,
+          "predicted_per_second": 10.428889774036236
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      },
+      "deterministic_errors": [],
+      "audit": {
+        "VERDICT": "ACCEPT",
+        "ISSUE": "NONE"
+      },
+      "audit_raw": "VERDICT=ACCEPT || ISSUE=NONE",
+      "audit_meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 1941,
+          "total_tokens": 1951,
+          "prompt_tokens_details": {
+            "cached_tokens": 1738
+          }
+        },
+        "timings": {
+          "cache_n": 1738,
+          "prompt_n": 203,
+          "prompt_ms": 2024.518,
+          "prompt_per_token_ms": 9.972995073891626,
+          "prompt_per_second": 100.27078050182809,
+          "predicted_n": 10,
+          "predicted_ms": 861.432,
+          "predicted_per_token_ms": 86.14320000000001,
+          "predicted_per_second": 11.608577345629138
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    }
+  ],
+  "hard_stop": false
+}

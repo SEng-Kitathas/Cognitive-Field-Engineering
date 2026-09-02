@@ -1,0 +1,132 @@
+{
+  "ANSWER": "Host-based integrity check",
+  "EVIDENCE": "S1",
+  "SURVIVE": "Hostile controls alter Microseed jobs.",
+  "SCAR": "Port reuse, job ID reuse.",
+  "DEMOTE": "Model worker leaks, runtime conflicts.",
+  "DISPOSITION": "Hostile rival/counterexample/removal.",
+  "CONFIDENCE": "0.95",
+  "NEXT": "Which cryptographic hash function implementation includes a robust timestamp verification mechanism?",
+  "confidence_numeric": 0.95,
+  "campaign": 1,
+  "pass": 8,
+  "active_question": "Which trusted mechanism verifies the integrity of cryptographic hash functions?",
+  "OARR": "If a trusted mechanism fails to verify the integrity of cryptographic hash functions due to a timing anomaly, then the cryptographic signatures used to secure data transmissions could be compromised, leading to data corruption or theft.",
+  "LOOP": "Also test whether the cryptographic hash function implementation includes a robust timestamp verification mechanism to ensure the integrity of the hash values because a timing anomaly could exploit vulnerabilities in the hash function's calculation process.",
+  "RESERVOIR": "Neglected source class: host_qualification",
+  "source_refs": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p5.1",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\policy\\CFE_MODEL_SERVICE_COORDINATION_POLICY.md#p14.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\campaigns\\OVERNIGHT_MACHINERY_3x20_20260902_010410\\C001\\P01.json#p0.3",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p2.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\campaigns\\OVERNIGHT_MACHINERY_3x20_20260902_010410\\RUN_MANIFEST.json#p0.1"
+  ],
+  "source_classes": [
+    "current_state",
+    "documentation",
+    "data_contract",
+    "next_steps",
+    "manifest_integrity"
+  ],
+  "promotion_authority": "NONE",
+  "divergence_meta": {
+    "attempts": [
+      {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 83,
+          "prompt_tokens": 1613,
+          "total_tokens": 1696,
+          "prompt_tokens_details": {
+            "cached_tokens": 6
+          }
+        },
+        "timings": {
+          "cache_n": 6,
+          "prompt_n": 1607,
+          "prompt_ms": 14188.24,
+          "prompt_per_token_ms": 8.829023024268825,
+          "prompt_per_second": 113.26281483820404,
+          "predicted_n": 83,
+          "predicted_ms": 7752.802,
+          "predicted_per_token_ms": 93.40725301204819,
+          "predicted_per_second": 10.705806752191016
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    ]
+  },
+  "divergence_raw": "OARR=If a trusted mechanism fails to verify the integrity of cryptographic hash functions due to a timing anomaly, then the cryptographic signatures used to secure data transmissions could be compromised, leading to data corruption or theft. || LOOP=Also test whether the cryptographic hash function implementation includes a robust timestamp verification mechanism to ensure the integrity of the hash values because a timing anomaly could exploit vulnerabilities in the hash function's calculation process.",
+  "qualification_attempts": [
+    {
+      "attempt": 1,
+      "synthesis": {
+        "ANSWER": "Host-based integrity check",
+        "EVIDENCE": "S1",
+        "SURVIVE": "Hostile controls alter Microseed jobs.",
+        "SCAR": "Port reuse, job ID reuse.",
+        "DEMOTE": "Model worker leaks, runtime conflicts.",
+        "DISPOSITION": "Hostile rival/counterexample/removal.",
+        "CONFIDENCE": "0.95",
+        "NEXT": "Which cryptographic hash function implementation includes a robust timestamp verification mechanism?"
+      },
+      "raw": "ANSWER=Host-based integrity check || EVIDENCE=S1 || SURVIVE=Hostile controls alter Microseed jobs. || SCAR=Port reuse, job ID reuse. || DEMOTE=Model worker leaks, runtime conflicts. || DISPOSITION=Hostile rival/counterexample/removal. || CONFIDENCE=0.95 || NEXT=Which cryptographic hash function implementation includes a robust timestamp verification mechanism?",
+      "meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 86,
+          "prompt_tokens": 2404,
+          "total_tokens": 2490,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 2401,
+          "prompt_ms": 21619.715,
+          "prompt_per_token_ms": 9.004462723865057,
+          "prompt_per_second": 111.05604306069714,
+          "predicted_n": 86,
+          "predicted_ms": 8243.509,
+          "predicted_per_token_ms": 95.85475581395349,
+          "predicted_per_second": 10.432450549881125
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      },
+      "deterministic_errors": [],
+      "audit": {
+        "VERDICT": "ACCEPT",
+        "ISSUE": "NONE"
+      },
+      "audit_raw": "VERDICT=ACCEPT || ISSUE=NONE",
+      "audit_meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 1936,
+          "total_tokens": 1946,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 1933,
+          "prompt_ms": 17158.943,
+          "prompt_per_token_ms": 8.876845835488878,
+          "prompt_per_second": 112.65262667986018,
+          "predicted_n": 10,
+          "predicted_ms": 871.641,
+          "predicted_per_token_ms": 87.16409999999999,
+          "predicted_per_second": 11.472613151515361
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    }
+  ],
+  "hard_stop": false
+}

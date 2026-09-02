@@ -1,0 +1,132 @@
+{
+  "ANSWER": "Semantic Helix, OARR, Loop+, Attention Reservoir, CSC, co-processing, research loop are load-bearing.",
+  "EVIDENCE": "S1/S2/Q1/Q2/Q3",
+  "SURVIVE": "All machinery",
+  "SCAR": "NONE",
+  "DEMOTE": "NONE",
+  "DISPOSITION": "Confirmed",
+  "CONFIDENCE": "1",
+  "NEXT": "Which specific feedback paths among Semantic Helix and OARR are essential for coexistence qualification?",
+  "confidence_numeric": 1.0,
+  "campaign": 1,
+  "pass": 1,
+  "active_question": "Which separations, feedback paths, and authority boundaries among Semantic Helix, OARR, Loop+, Attention Reservoir, CSC, co-processing, and the research loop are actually load-bearing, and which are redundant or wrongly factorized?",
+  "OARR": "If Microseed's job IDs are reused after the CFE task lease expires, then the coexistence qualification will fail, as the CFE will not be able to uniquely identify its processes.",
+  "LOOP": "Also test whether the registry integrity check changes the conclusion because the reuse of job IDs could indicate a breach in the isolation contract.",
+  "RESERVOIR": "Neglected source class: host_qualification",
+  "source_refs": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\campaigns\\overnight_20260902\\SEED_MACHINERY.json#p0.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\doctrine_snapshot\\ACTIVE_RAHL_R3_1_CURRENT_STABLE_SOP_FOR_CFE_20260829.md#p19.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\campaigns\\CFE_AUTO_3x20_V3_20260829_163752\\RUN_MANIFEST.json#p0.4",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\campaign_runtime\\campaigns_v3.stdout.log#p0.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p5.0"
+  ],
+  "source_classes": [
+    "data_contract",
+    "documentation",
+    "manifest_integrity",
+    "execution_evidence",
+    "current_state"
+  ],
+  "promotion_authority": "NONE",
+  "divergence_meta": {
+    "attempts": [
+      {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 70,
+          "prompt_tokens": 1605,
+          "total_tokens": 1675,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 1605,
+          "prompt_ms": 12855.56,
+          "prompt_per_token_ms": 8.009694704049844,
+          "prompt_per_second": 124.84870359595381,
+          "predicted_n": 70,
+          "predicted_ms": 6492.254,
+          "predicted_per_token_ms": 92.74648571428571,
+          "predicted_per_second": 10.782079690659053
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    ]
+  },
+  "divergence_raw": "OARR=If Microseed's job IDs are reused after the CFE task lease expires, then the coexistence qualification will fail, as the CFE will not be able to uniquely identify its processes. || LOOP=Also test whether the registry integrity check changes the conclusion because the reuse of job IDs could indicate a breach in the isolation contract.",
+  "qualification_attempts": [
+    {
+      "attempt": 1,
+      "synthesis": {
+        "ANSWER": "Semantic Helix, OARR, Loop+, Attention Reservoir, CSC, co-processing, research loop are load-bearing.",
+        "EVIDENCE": "S1/S2/Q1/Q2/Q3",
+        "SURVIVE": "All machinery",
+        "SCAR": "NONE",
+        "DEMOTE": "NONE",
+        "DISPOSITION": "Confirmed",
+        "CONFIDENCE": "1",
+        "NEXT": "Which specific feedback paths among Semantic Helix and OARR are essential for coexistence qualification?"
+      },
+      "raw": "ANSWER=Semantic Helix, OARR, Loop+, Attention Reservoir, CSC, co-processing, research loop are load-bearing. || EVIDENCE=S1/S2/Q1/Q2/Q3 || SURVIVE=All machinery || SCAR=NONE || DEMOTE=NONE || DISPOSITION=Confirmed || CONFIDENCE=1 || NEXT=Which specific feedback paths among Semantic Helix and OARR are essential for coexistence qualification?",
+      "meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 91,
+          "prompt_tokens": 2256,
+          "total_tokens": 2347,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 2253,
+          "prompt_ms": 18735.093,
+          "prompt_per_token_ms": 8.315620505992012,
+          "prompt_per_second": 120.2556080185991,
+          "predicted_n": 91,
+          "predicted_ms": 8639.32,
+          "predicted_per_token_ms": 94.93758241758242,
+          "predicted_per_second": 10.53323641212503
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      },
+      "deterministic_errors": [],
+      "audit": {
+        "VERDICT": "ACCEPT",
+        "ISSUE": "NONE"
+      },
+      "audit_raw": "VERDICT=ACCEPT || ISSUE=NONE",
+      "audit_meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 1910,
+          "total_tokens": 1920,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 1907,
+          "prompt_ms": 16273.946,
+          "prompt_per_token_ms": 8.533794441531201,
+          "prompt_per_second": 117.18116798470389,
+          "predicted_n": 10,
+          "predicted_ms": 870.845,
+          "predicted_per_token_ms": 87.0845,
+          "predicted_per_second": 11.48309974794596
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    }
+  ],
+  "hard_stop": false
+}

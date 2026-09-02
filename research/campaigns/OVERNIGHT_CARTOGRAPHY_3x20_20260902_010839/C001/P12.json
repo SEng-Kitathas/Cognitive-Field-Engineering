@@ -1,0 +1,132 @@
+{
+  "ANSWER": "SHA-256 includes KDF",
+  "EVIDENCE": "S1",
+  "SURVIVE": "Hostile controls alter Microseed jobs.",
+  "SCAR": "Port reuse, job ID reuse.",
+  "DEMOTE": "Model worker leaks, runtime conflicts.",
+  "DISPOSITION": "Coexistence qualification",
+  "CONFIDENCE": "0.9",
+  "NEXT": "Which cryptographic hash function implementation uses a secure random number generator for key derivation?",
+  "confidence_numeric": 0.9,
+  "campaign": 1,
+  "pass": 12,
+  "active_question": "Which cryptographic hash function implementation includes a key derivation function (KDF)?",
+  "OARR": "If a cryptographic hash function implementation does not include a key derivation function (KDF), then it is vulnerable to attacks that exploit weaknesses in the hash function itself.",
+  "LOOP": "Also test whether the cryptographic hash function implementation uses a secure random number generator for key derivation because a weak random number generator could compromise the security of the KDF.",
+  "RESERVOIR": "Neglected source class: host_qualification",
+  "source_refs": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p5.1",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\policy\\CFE_MODEL_SERVICE_COORDINATION_POLICY.md#p14.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\analysis\\CFE_MODEL_SERVICE_OWNERSHIP_RECOVERY_2026-09-01.json#p0.2",
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\sealed_parents\\v09\\CFE_RND_V0_9_2026-08-25\\experiments\\first_screen_v09\\common_v09.py#p12.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p2.0"
+  ],
+  "source_classes": [
+    "current_state",
+    "documentation",
+    "data_contract",
+    "source_code",
+    "next_steps"
+  ],
+  "promotion_authority": "NONE",
+  "divergence_meta": {
+    "attempts": [
+      {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 71,
+          "prompt_tokens": 1616,
+          "total_tokens": 1687,
+          "prompt_tokens_details": {
+            "cached_tokens": 6
+          }
+        },
+        "timings": {
+          "cache_n": 6,
+          "prompt_n": 1610,
+          "prompt_ms": 14540.23,
+          "prompt_per_token_ms": 9.031198757763974,
+          "prompt_per_second": 110.72727185195832,
+          "predicted_n": 71,
+          "predicted_ms": 6674.364,
+          "predicted_per_token_ms": 94.00512676056337,
+          "predicted_per_second": 10.637717691153794
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    ]
+  },
+  "divergence_raw": "OARR=If a cryptographic hash function implementation does not include a key derivation function (KDF), then it is vulnerable to attacks that exploit weaknesses in the hash function itself. || LOOP=Also test whether the cryptographic hash function implementation uses a secure random number generator for key derivation because a weak random number generator could compromise the security of the KDF.",
+  "qualification_attempts": [
+    {
+      "attempt": 1,
+      "synthesis": {
+        "ANSWER": "SHA-256 includes KDF",
+        "EVIDENCE": "S1",
+        "SURVIVE": "Hostile controls alter Microseed jobs.",
+        "SCAR": "Port reuse, job ID reuse.",
+        "DEMOTE": "Model worker leaks, runtime conflicts.",
+        "DISPOSITION": "Coexistence qualification",
+        "CONFIDENCE": "0.9",
+        "NEXT": "Which cryptographic hash function implementation uses a secure random number generator for key derivation?"
+      },
+      "raw": "ANSWER=SHA-256 includes KDF || EVIDENCE=S1 || SURVIVE=Hostile controls alter Microseed jobs. || SCAR=Port reuse, job ID reuse. || DEMOTE=Model worker leaks, runtime conflicts. || DISPOSITION=Coexistence qualification || CONFIDENCE=0.9 || NEXT=Which cryptographic hash function implementation uses a secure random number generator for key derivation?",
+      "meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 86,
+          "prompt_tokens": 2379,
+          "total_tokens": 2465,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 2376,
+          "prompt_ms": 21930.101,
+          "prompt_per_token_ms": 9.229840488215487,
+          "prompt_per_second": 108.34423425592067,
+          "predicted_n": 86,
+          "predicted_ms": 8224.363,
+          "predicted_per_token_ms": 95.63212790697673,
+          "predicted_per_second": 10.456736892571499
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      },
+      "deterministic_errors": [],
+      "audit": {
+        "VERDICT": "ACCEPT",
+        "ISSUE": "NONE"
+      },
+      "audit_raw": "VERDICT=ACCEPT || ISSUE=NONE",
+      "audit_meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 1918,
+          "total_tokens": 1928,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 1915,
+          "prompt_ms": 17339.626,
+          "prompt_per_token_ms": 9.05463498694517,
+          "prompt_per_second": 110.44067501801942,
+          "predicted_n": 10,
+          "predicted_ms": 861.835,
+          "predicted_per_token_ms": 86.18350000000001,
+          "predicted_per_second": 11.60314909466429
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    }
+  ],
+  "hard_stop": false
+}

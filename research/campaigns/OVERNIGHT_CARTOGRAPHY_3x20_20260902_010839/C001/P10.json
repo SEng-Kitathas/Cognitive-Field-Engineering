@@ -1,0 +1,132 @@
+{
+  "ANSWER": "SHA-256 with RSA digital signature",
+  "EVIDENCE": "S1/Q1/Q2",
+  "SURVIVE": "Hostile controls alter Microseed jobs.",
+  "SCAR": "Port reuse, job ID reuse.",
+  "DEMOTE": "Model worker leaks, runtime conflicts.",
+  "DISPOSITION": "Hostile rival/counterexample/removal",
+  "CONFIDENCE": "0.95",
+  "NEXT": "Which cryptographic hash function implementation includes a mechanism for key management and rotation?",
+  "confidence_numeric": 0.95,
+  "campaign": 1,
+  "pass": 10,
+  "active_question": "Which cryptographic hash function implementation includes a digital signature verification mechanism?",
+  "OARR": "If a cryptographic hash function implementation lacks a digital signature verification mechanism, then it is vulnerable to tampering and cannot be trusted for secure communications.",
+  "LOOP": "Also test whether the cryptographic hash function implementation includes a mechanism for key management and rotation to ensure long-term security and prevent unauthorized access.",
+  "RESERVOIR": "Neglected source class: host_qualification",
+  "source_refs": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p5.1",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\policy\\CFE_MODEL_SERVICE_COORDINATION_POLICY.md#p14.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\GRAND_PROBLEM_STANDALONE_SOLUTION_PROVENANCE_CORRECTION_2026-08-31.json#p0.1",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p2.0",
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\sealed_parents\\v09\\CFE_RND_V0_9_2026-08-25\\tests\\test_v05.py#p16.0"
+  ],
+  "source_classes": [
+    "current_state",
+    "documentation",
+    "data_contract",
+    "next_steps",
+    "tests"
+  ],
+  "promotion_authority": "NONE",
+  "divergence_meta": {
+    "attempts": [
+      {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 61,
+          "prompt_tokens": 1614,
+          "total_tokens": 1675,
+          "prompt_tokens_details": {
+            "cached_tokens": 6
+          }
+        },
+        "timings": {
+          "cache_n": 6,
+          "prompt_n": 1608,
+          "prompt_ms": 14568.212,
+          "prompt_per_token_ms": 9.059833333333334,
+          "prompt_per_second": 110.37730642579886,
+          "predicted_n": 61,
+          "predicted_ms": 5751.912,
+          "predicted_per_token_ms": 94.2936393442623,
+          "predicted_per_second": 10.605169202866803
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    ]
+  },
+  "divergence_raw": "OARR=If a cryptographic hash function implementation lacks a digital signature verification mechanism, then it is vulnerable to tampering and cannot be trusted for secure communications. || LOOP=Also test whether the cryptographic hash function implementation includes a mechanism for key management and rotation to ensure long-term security and prevent unauthorized access.",
+  "qualification_attempts": [
+    {
+      "attempt": 1,
+      "synthesis": {
+        "ANSWER": "SHA-256 with RSA digital signature",
+        "EVIDENCE": "S1/Q1/Q2",
+        "SURVIVE": "Hostile controls alter Microseed jobs.",
+        "SCAR": "Port reuse, job ID reuse.",
+        "DEMOTE": "Model worker leaks, runtime conflicts.",
+        "DISPOSITION": "Hostile rival/counterexample/removal",
+        "CONFIDENCE": "0.95",
+        "NEXT": "Which cryptographic hash function implementation includes a mechanism for key management and rotation?"
+      },
+      "raw": "ANSWER=SHA-256 with RSA digital signature || EVIDENCE=S1/Q1/Q2 || SURVIVE=Hostile controls alter Microseed jobs. || SCAR=Port reuse, job ID reuse. || DEMOTE=Model worker leaks, runtime conflicts. || DISPOSITION=Hostile rival/counterexample/removal || CONFIDENCE=0.95 || NEXT=Which cryptographic hash function implementation includes a mechanism for key management and rotation?",
+      "meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 96,
+          "prompt_tokens": 2325,
+          "total_tokens": 2421,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 2322,
+          "prompt_ms": 21326.225,
+          "prompt_per_token_ms": 9.184420757967269,
+          "prompt_per_second": 108.8800291659682,
+          "predicted_n": 96,
+          "predicted_ms": 9306.045,
+          "predicted_per_token_ms": 96.93796875,
+          "predicted_per_second": 10.315875326199262
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      },
+      "deterministic_errors": [],
+      "audit": {
+        "VERDICT": "ACCEPT",
+        "ISSUE": "NONE"
+      },
+      "audit_raw": "VERDICT=ACCEPT || ISSUE=NONE",
+      "audit_meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 1935,
+          "total_tokens": 1945,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 1932,
+          "prompt_ms": 17359.407,
+          "prompt_per_token_ms": 8.985200310559005,
+          "prompt_per_second": 111.29412427509766,
+          "predicted_n": 10,
+          "predicted_ms": 862.912,
+          "predicted_per_token_ms": 86.2912,
+          "predicted_per_second": 11.588667210561447
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    }
+  ],
+  "hard_stop": false
+}

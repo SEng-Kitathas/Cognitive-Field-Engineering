@@ -1,0 +1,132 @@
+{
+  "ANSWER": "SHA-256 includes key management and rotation.",
+  "EVIDENCE": "S1/Q3",
+  "SURVIVE": "Hostile controls alter Microseed jobs.",
+  "SCAR": "Port reuse, job ID reuse.",
+  "DEMOTE": "Model worker leaks, runtime conflicts.",
+  "DISPOSITION": "Pass N+1",
+  "CONFIDENCE": "0.95",
+  "NEXT": "Which cryptographic hash function implementation includes a key derivation function (KDF)?",
+  "confidence_numeric": 0.95,
+  "campaign": 1,
+  "pass": 11,
+  "active_question": "Which cryptographic hash function implementation includes a mechanism for key management and rotation?",
+  "OARR": "If a cryptographic hash function implementation lacks a mechanism for key management and rotation, then it is vulnerable to attacks such as replay attacks and key exhaustion.",
+  "LOOP": "Also test whether the cryptographic hash function implementation includes a key derivation function (KDF) that can generate a new key from a password or seed, because a KDF can enhance the security of the hash function by providing a mechanism for key management and rotation.",
+  "RESERVOIR": "Neglected source class: host_qualification",
+  "source_refs": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\current.md#p5.1",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\policy\\CFE_MODEL_SERVICE_COORDINATION_POLICY.md#p14.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\research\\GRAND_PROBLEM_STANDALONE_SOLUTION_PROVENANCE_CORRECTION_2026-08-31.json#p0.1",
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\sealed_parents\\v09\\CFE_RND_V0_9_2026-08-25\\experiments\\first_screen_v09\\common_v09.py#p12.0",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\state\\next_steps.md#p2.0"
+  ],
+  "source_classes": [
+    "current_state",
+    "documentation",
+    "data_contract",
+    "source_code",
+    "next_steps"
+  ],
+  "promotion_authority": "NONE",
+  "divergence_meta": {
+    "attempts": [
+      {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 87,
+          "prompt_tokens": 1616,
+          "total_tokens": 1703,
+          "prompt_tokens_details": {
+            "cached_tokens": 6
+          }
+        },
+        "timings": {
+          "cache_n": 6,
+          "prompt_n": 1610,
+          "prompt_ms": 14551.206,
+          "prompt_per_token_ms": 9.038016149068323,
+          "prompt_per_second": 110.6437500781722,
+          "predicted_n": 87,
+          "predicted_ms": 8182.814,
+          "predicted_per_token_ms": 94.05533333333334,
+          "predicted_per_second": 10.632039296017238
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    ]
+  },
+  "divergence_raw": "OARR=If a cryptographic hash function implementation lacks a mechanism for key management and rotation, then it is vulnerable to attacks such as replay attacks and key exhaustion. || LOOP=Also test whether the cryptographic hash function implementation includes a key derivation function (KDF) that can generate a new key from a password or seed, because a KDF can enhance the security of the hash function by providing a mechanism for key management and rotation.",
+  "qualification_attempts": [
+    {
+      "attempt": 1,
+      "synthesis": {
+        "ANSWER": "SHA-256 includes key management and rotation.",
+        "EVIDENCE": "S1/Q3",
+        "SURVIVE": "Hostile controls alter Microseed jobs.",
+        "SCAR": "Port reuse, job ID reuse.",
+        "DEMOTE": "Model worker leaks, runtime conflicts.",
+        "DISPOSITION": "Pass N+1",
+        "CONFIDENCE": "0.95",
+        "NEXT": "Which cryptographic hash function implementation includes a key derivation function (KDF)?"
+      },
+      "raw": "ANSWER=SHA-256 includes key management and rotation. || EVIDENCE=S1/Q3 || SURVIVE=Hostile controls alter Microseed jobs. || SCAR=Port reuse, job ID reuse. || DEMOTE=Model worker leaks, runtime conflicts. || DISPOSITION=Pass N+1 || CONFIDENCE=0.95 || NEXT=Which cryptographic hash function implementation includes a key derivation function (KDF)?",
+      "meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 92,
+          "prompt_tokens": 2361,
+          "total_tokens": 2453,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 2358,
+          "prompt_ms": 21807.948,
+          "prompt_per_token_ms": 9.248493638676845,
+          "prompt_per_second": 108.12571636726206,
+          "predicted_n": 92,
+          "predicted_ms": 8943.351,
+          "predicted_per_token_ms": 97.21033695652174,
+          "predicted_per_second": 10.28697185204964
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      },
+      "deterministic_errors": [],
+      "audit": {
+        "VERDICT": "ACCEPT",
+        "ISSUE": "NONE"
+      },
+      "audit_raw": "VERDICT=ACCEPT || ISSUE=NONE",
+      "audit_meta": {
+        "finish_reason": "stop",
+        "usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 1959,
+          "total_tokens": 1969,
+          "prompt_tokens_details": {
+            "cached_tokens": 3
+          }
+        },
+        "timings": {
+          "cache_n": 3,
+          "prompt_n": 1956,
+          "prompt_ms": 17769.146,
+          "prompt_per_token_ms": 9.084430470347648,
+          "prompt_per_second": 110.0784472140642,
+          "predicted_n": 10,
+          "predicted_ms": 871.206,
+          "predicted_per_token_ms": 87.1206,
+          "predicted_per_second": 11.478341517390835
+        },
+        "model": "qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+        "fingerprint": "b8831-a279d0f0f"
+      }
+    }
+  ],
+  "hard_stop": false
+}

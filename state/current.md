@@ -72,3 +72,9 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Project law SHA `db0398a18e13b69c76d263869c787a683873226cfc6b855adc028a7a1849f547`.
 - Research plan SHA `380bc3f5004eb948b902c40472e098b2473044d1f6daeb2f7a54782602900154`.
 - Broad fleet training NOT authorized yet.
+
+## Rosetta reality correction — 2026-09-02 09:26 Eastern Daylight Time
+- Verified: active `rosetta_unified` outputs are descriptor/relational corpora, not model weights or runnable checkpoints.
+- Verified: `qwen35_4shard` is exact official Qwen3.5-9B, not 35B; all four shard hashes match HF revision c2022362...
+- Retire misleading phrase `Rosetta-stripped model weights` for these outputs.
+- Audit SHA `03acc537b2c557a43af187f3d95daf73da47933030c211d13341eab55184e408`.

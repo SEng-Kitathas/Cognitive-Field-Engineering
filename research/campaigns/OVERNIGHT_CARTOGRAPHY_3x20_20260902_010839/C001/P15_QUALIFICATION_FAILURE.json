@@ -1,0 +1,7 @@
+{
+  "campaign": 1,
+  "pass": 15,
+  "active_question": "Which cryptographic hash function implementation uses a software-based random number generator (SBRNG) for key derivation?",
+  "error": "RuntimeError('pass 1/15 failed source-grounded qualification after 3 attempts; last issue=The synthesis incorrectly states that HBRNGs are more secure for key derivation, which is not supported by the evidence.')",
+  "accepted": false
+}

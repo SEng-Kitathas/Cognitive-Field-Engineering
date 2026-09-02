@@ -1,0 +1,49 @@
+{
+  "run_id": "20260902_012501",
+  "campaigns": 3,
+  "passes_per_campaign": 20,
+  "planned_qualified_passes": 60,
+  "question_authoring": "MODEL_CHAIN_ONLY_NO_HAND_AUTHORED_PASS_QUESTIONS",
+  "seed": {
+    "schema": "cfe.overnight.seed.v1",
+    "label": "EXTERNAL",
+    "question": "Which external mechanisms from reservoir computing, recurrent memory, continual replay, active inference, state-space memory, and graph topology provide falsifiable donor hypotheses for CFE without importing their ontology as learner truth?",
+    "authority": "RESEARCH_ONLY_NO_PROMOTION"
+  },
+  "seed_sha256": "02a0a50e6721533cff62900e6cab5bd9af7fe12ffab3ef71f90b87378362032d",
+  "generator_model": "D:\\Singularity_Works\\repo\\corpus\\models\\salvaged_from_lmstudio\\Melvin56\\Qwen2.5-Coder-7B-Instruct-abliterated-Q4_K_M-GGUF\\qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+  "generator_sha256": "b77b39f196ddd460b622fe101a500723887c470db50aebd217fec7370e6724c3",
+  "divergence_model": "D:\\Singularity_Works\\repo\\corpus\\models\\salvaged_from_lmstudio\\Melvin56\\Qwen2.5-Coder-7B-Instruct-abliterated-Q4_K_M-GGUF\\qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf",
+  "divergence_sha256": "b77b39f196ddd460b622fe101a500723887c470db50aebd217fec7370e6724c3",
+  "divergence_role": "R2 via strong 7B model; separate call; zero truth/promotion authority",
+  "runtime": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+  "runtime_sha256": "01ddbfd39cb4f1aaea98dab3108179a78d5caa2105fbc971b871ca158e858c74",
+  "servers": {
+    "generator": "http://127.0.0.1:8091/v1/chat/completions",
+    "divergence": "http://127.0.0.1:8091/v1/chat/completions",
+    "legacy_small_divergence_server_unused": "http://127.0.0.1:8092/v1/chat/completions"
+  },
+  "network_downloads": "NONE",
+  "sealed_parent": "C:\\Users\\ancal\\ProtoAGI\\CFE\\sealed_parents\\v09\\CFE_RND_V0_9_2026-08-25",
+  "sealed_parent_mutation_allowed": false,
+  "corpus_chunks": 34961,
+  "source_classes": [
+    "current_state",
+    "data_contract",
+    "documentation",
+    "execution_evidence",
+    "host_qualification",
+    "manifest_integrity",
+    "next_steps",
+    "source_code",
+    "tests"
+  ],
+  "sop_sources": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\03_INTERNAL_RESEARCH_GOVERNANCE.md",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\03A_RESEARCH_MACHINERY_AND_MODES.md",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\04_EXECUTION_AND_RELEASE_DISCIPLINE.md",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\authority\\RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED\\RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29\\01_ENGINEERING_AUTHORITY_SURFACE.md"
+  ],
+  "rails": "CFE PCMMAD/R3.1 campaign law:\n- Evidence inherits; confidence does not. Model prose is not evidence. UNKNOWN across untested gaps.\n- Pass N+1 is earned only by Pass N. No future pass questions are preauthored.\n- Exactly 20 qualified passes; P20 hard-stop; no P21; P20 emits successor-campaign question.\n- OARR hostile rival/counterexample/removal is mandatory each pass and has no promotion authority.\n- LOOP+ adjacent possibility expansion is mandatory each pass and has no promotion authority.\n- Semantic Helix explicitly persists survivors/scars/demotions while confidence is re-earned.\n- Attention Reservoir breadth check runs every pass.\n- CSC is audit-only with ZERO promotion authority and runs after P20.\n- Research success never auto-promotes product/architecture; sealed v0.9 remains immutable.\n- Tool/test/action output != qualified consequence. Current project evidence outranks stale narrative.\n- No model download/training execution inside these pre-live campaigns.\n",
+  "qualification": "DIVERGENCE_THEN_STRONG_SYNTHESIS_THEN_STRONG_SOURCE_AUDIT_EACH_PASS_PLUS_CSC"
+}

@@ -1032,3 +1032,12 @@ Operator requested the idea be written into CFE as project law / intent / resear
 
 ## Turn — ASSISTANT / GOVERNANCE COMMIT
 Created active project law preserving embarrassing pre-CFE phenotype baselines, immutable Commander-intent addendum establishing the heterogeneous local fleet as a future multi-learner validation surface, and a staged matched-control research plan. Explicitly did not authorize broad fleet training yet.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 09:26 Eastern Daylight Time
+Tags: ROSETTA AUDIT, REALITY CHECK
+Operator requested direct inspection of Rosetta-processed model files because prior explanations conflicted.
+
+## Turn — ASSISTANT / AUDIT
+Inspected live E Rosetta outputs, converter code, source checkpoints, TQ2 bridge doctrine, and exact Qwen3.5-9B remote shard identities. Corrected ontology: Rosetta outputs are compact tensor descriptor/statistical relational corpora, not runnable/trainable model weights. Corrected `qwen35_4shard`: exact official Qwen3.5-9B, not 35B.

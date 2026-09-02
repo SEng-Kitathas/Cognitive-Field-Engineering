@@ -1,0 +1,2 @@
+{"pass": 1, "reservoir": "Neglected source class: execution_evidence", "seen_classes": ["current_state", "data_contract", "documentation", "next_steps", "source_code"], "retrieved_classes": ["data_contract", "documentation", "next_steps", "current_state", "source_code"]}
+{"pass": 2, "reservoir": "Neglected source class: execution_evidence", "seen_classes": ["current_state", "data_contract", "documentation", "manifest_integrity", "next_steps", "source_code"], "retrieved_classes": ["data_contract", "documentation", "next_steps", "current_state", "manifest_integrity"]}
