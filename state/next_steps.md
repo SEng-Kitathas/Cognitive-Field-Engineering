@@ -21,3 +21,9 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 - Do not mix into active CFE science without explicit branch selection.
 - If reopened, first experiment should test whether a function-preserving block representation + small router can outperform ordinary retrieval at equal active-memory/compute budget.
 - Use Rosetta structural atlas for candidate motif selection, not as the functional substrate itself.
+
+## Fleet Uplift Pack v2
+- Build new v2 pack; do not reuse empty v1 output directory as authoritative artifact.
+- Freeze Capybara core first: LDJnr/Capybara + filtered Capybara chosen responses; keep preference pairs for separate preference phase.
+- Benchmark candidate modern Capybara bases before download/train selection.
+- Repair/upgrade llama.cpp CUDA backend separately; CPU-only 35B-A3B is already usable at ~14 tok/s.

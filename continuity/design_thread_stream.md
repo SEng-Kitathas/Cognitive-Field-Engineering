@@ -1050,3 +1050,12 @@ Operator approved the Rosetta reality audit and clarified original intent: essen
 
 ## Turn — ASSISTANT / PROVENANCE PRESERVATION
 Preserved implementation reality and original intent as separate authority classes. Cross-linked historical Static StarMap / immutable SoAoA lineage. Defined the missing bridge as function-preserving compilation plus routing/composition, explicitly refusing to retroactively claim Rosetta achieved the design.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 09:57 Eastern Daylight Time
+Tags: LBE DEFINITION, FLEET PRIORITY, CAPYBARA
+Operator supplied authoritative LBE definition: Logic Blueprint Engine, Forge semantic cartography/composition engine. During work, operator further fixed fleet priorities: 35B-A3B Claude-distilled likely strongest usable local model; better Capybara desired; future dataset must include operator's Capybara lineage.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Resolved LBE expansion and model-domain translation. Verified local 35B-A3B GGUF exactly against mradermacher i1 Q4_K_M repo and measured ~14 tok/s CPU generation. Distinguished local CapybaraHermes from ORPO-Capybara; froze Fleet Uplift Pack v2 policy requiring first-class OUR_CAPYBARA_CORE and separate Capybara preference stage.

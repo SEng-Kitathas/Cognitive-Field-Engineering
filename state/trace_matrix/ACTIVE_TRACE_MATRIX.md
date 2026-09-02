@@ -113,3 +113,7 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | Rosetta processed-model reality | converter code + live E Rosetta corpus + source configs + official Qwen3.5-9B shard hashes | `state/analysis/ROSETTA_PROCESSED_MODEL_REALITY_AUDIT_2026-09-02.md` SHA `03acc537b2c557a43af187f3d95daf73da47933030c211d13341eab55184e408` | VERIFIED CORRECTION: descriptor corpus != model weights; qwen35_4shard=Qwen3.5-9B |
 
 | Rosetta/LBE original intent | operator clarification + StarMap/SoAoA archaeology | `research/ROSETTA_LBE_STATIC_MODEL_SUBSTRATE_ORIGINAL_INTENT_AND_REALITY_CROSSWALK_2026-09-02.md` SHA `9e4fdc8981821ecc4de85da47ff3340952f9243decb4bd64c741886cd81d2d58` | HISTORICAL DESIGN INTENT PRESERVED; implementation gap explicit |
+
+| LBE authoritative definition | explicit operator definition | `state/doctrine_snapshot/source/LBE_LOGIC_BLUEPRINT_ENGINE_OPERATOR_DEFINITION_2026-09-02.md` SHA `5bf64f954966ae6bab9d038410807fc70b44e1caa595323c5d56916d47db2b25` | ACTIVE HISTORICAL DESIGN SOURCE |
+| 35B-A3B local model identity | embedded GGUF metadata + exact HF repo size/SHA | `state/analysis/LOCAL_FLEET_PRIORITY_AND_CAPYBARA_DATA_POLICY_2026-09-02.md` SHA `fb10a0485f7e5abdb89323eb2434bb0198dbdf31f830ac7c77196d43bc3bd7af` | VERIFIED PRIMARY HIGH-END LOCAL MODEL |
+| Capybara data requirement | operator directive + local lineage + public Apache datasets | `state/next_steps/FLEET_UPLIFT_PACK_V2_POLICY_2026-09-02.json` SHA `9b694c828d40185672de4416d0a2356f938602cef40ca7c4f237f878de5aa40e` | FROZEN PACK V2 POLICY |

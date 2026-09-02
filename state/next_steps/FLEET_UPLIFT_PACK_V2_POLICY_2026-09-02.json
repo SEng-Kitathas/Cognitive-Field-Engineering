@@ -1,0 +1,58 @@
+{
+  "arms": [
+    "STANDARD_BALANCED",
+    "CFE_STRUCTURED"
+  ],
+  "cfe_claim_ceiling": "CFE-informed ordering only until geometry qualifies",
+  "identity_law": "exact same atom set per target across arms",
+  "next_actions": [
+    "build v2 source-normalization adapters",
+    "deduplicate by normalized prompt+conversation lineage",
+    "freeze OUR_CAPYBARA_CORE quota before sampling other families",
+    "build matched atom-set arms",
+    "freeze pre-training phenotype probes",
+    "memory-qualify Qwen3-4B QLoRA before scientific or uplift training"
+  ],
+  "preference_stage": {
+    "primary": "argilla/Capybara-Preferences-Filtered",
+    "rule": "preference phase separate from SFT; rejected responses never SFT targets",
+    "secondary": "argilla/distilabel-capybara-dpo-7k-binarized"
+  },
+  "primary_teacher": {
+    "name": "Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled.i1-Q4_K_M",
+    "role": "teacher_judge_research_not_training_target",
+    "sha256": "d1ed134b54a8509a6dc773d30d7eadb70b59bc2e5d010ee2fd40c4cb02b24992"
+  },
+  "required_sft_families": {
+    "AGENT_SUCCESS": {
+      "sources": [
+        "open-thoughts/OpenThoughts-Agent-SFT-100K successful-only"
+      ]
+    },
+    "INSTRUCTION_STRUCTURE": {
+      "sources": [
+        "nvidia/Nemotron-Instruction-Following-Chat-v1 verifier-filtered"
+      ]
+    },
+    "OUR_CAPYBARA_CORE": {
+      "law": "present identically in standard and CFE arms",
+      "minimum_fraction": 0.2,
+      "sources": [
+        "LDJnr/Capybara",
+        "argilla/Capybara-Preferences-Filtered chosen trajectories",
+        "verified selected local Capybara generations"
+      ]
+    },
+    "VERIFIED_REASONING": {
+      "sources": [
+        "open-r1/OpenR1-Math-220k default",
+        "nvidia/Nemotron-Science-v1",
+        "open-thoughts/OpenThoughts-114k"
+      ]
+    }
+  },
+  "schema": "cfe.fleet-uplift-pack-v2-policy.v1",
+  "status": "FROZEN_DATA_POLICY__PACK_NOT_BUILT",
+  "supersedes": "FLEET_UPLIFT_PACK_V1 builder attempt; v1 wrote no data rows because output directory pre-existed empty",
+  "timestamp": "2026-09-02T09:57:16-04:00"
+}

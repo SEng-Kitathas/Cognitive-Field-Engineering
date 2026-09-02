@@ -51,3 +51,8 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 
 ## Turn delta — 2026-09-02 09:43 Eastern Daylight Time
 - Rosetta reality correction retained. Original Rosetta/LBE intent now separately preserved: static model-derived map, immutable SoAoA/StarMap-style reachability, small active traversal/controller, consumer-hardware objective. Gap itself is research branch; no retroactive success claim.
+
+## Turn delta — 2026-09-02 09:57 Eastern Daylight Time
+- LBE definitively = Logic Blueprint Engine. Model-domain LBE now translated from actual semantic-field/composite semantics.
+- 35B-A3B i1 Q4_K_M exact remote identity verified and promoted to primary high-end local teacher/judge/research role.
+- OUR_CAPYBARA_CORE mandatory in Fleet Uplift Pack v2; Capybara successor desired rather than freezing old 7B checkpoint as endpoint.

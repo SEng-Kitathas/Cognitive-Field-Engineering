@@ -84,3 +84,10 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - `LBE` expansion not recovered; do not guess.
 - Current Rosetta remains descriptor atlas only; missing bridge is function-preserving compilation + routing/composition.
 - Crosswalk SHA `9e4fdc8981821ecc4de85da47ff3340952f9243decb4bd64c741886cd81d2d58`.
+
+## LBE + fleet/Capybara resolution — 2026-09-02 09:57 Eastern Daylight Time
+- LBE expansion resolved: Logic Blueprint Engine; operator definition SHA `5bf64f954966ae6bab9d038410807fc70b44e1caa595323c5d56916d47db2b25`.
+- Rosetta/model translation v2 SHA `61b82fd74199822229ba9734fdfaec2168809f566cbe35e937e7be90feb99a49`.
+- Primary high-end local model exact-verified: Qwen3.5-35B-A3B Claude-distilled mradermacher i1 Q4_K_M SHA `d1ed134b54a8509a...`; CPU generation ~14 tok/s.
+- Local Capybara models are distinct; CapybaraHermes is stronger published local branch than ORPO-Capybara.
+- Fleet Uplift Pack v2 requires `OUR_CAPYBARA_CORE` >=20% of SFT atoms and Capybara filtered preferences in preference stage. Pack not built yet.

@@ -48,3 +48,7 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | P0 terminology correction | historical `Rosetta-stripped model weights` / `qwen35=35B` language | contradicted by active converter and exact source identity | use descriptor-corpus terminology; keep separate 35B-A3B GGUF identity | resolved/corrected |
 
 | P2 historical architecture | Rosetta/LBE static model substrate | original consumer-hardware reasoning target remains unrealized; current Rosetta descriptive only | function-preserving compiled operators + routed traversal proof-of-concept | parked/reopenable |
+
+| RESOLVED terminology | LBE expansion | operator supplied authoritative definition | Logic Blueprint Engine | resolved |
+| P1 fleet | modern Capybara successor base | old Capybara branches are useful donors but dated | benchmark modern 4B-8B trainable bases + Nous V1.9 comparator | open |
+| P1 runtime | 35B-A3B CUDA offload | current llama.cpp loads CPU backend only | install/qualify CUDA backend without breaking stable runtime | open |

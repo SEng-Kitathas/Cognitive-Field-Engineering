@@ -1,0 +1,32 @@
+{
+  "fleet_policy": {
+    "path": "state/analysis/LOCAL_FLEET_PRIORITY_AND_CAPYBARA_DATA_POLICY_2026-09-02.md",
+    "sha256": "fb10a0485f7e5abdb89323eb2434bb0198dbdf31f830ac7c77196d43bc3bd7af"
+  },
+  "lbe_operator_definition": {
+    "path": "state/doctrine_snapshot/source/LBE_LOGIC_BLUEPRINT_ENGINE_OPERATOR_DEFINITION_2026-09-02.md",
+    "sha256": "5bf64f954966ae6bab9d038410807fc70b44e1caa595323c5d56916d47db2b25"
+  },
+  "not_resolved": [
+    "modern Capybara successor base selection",
+    "CUDA offload backend for 35B model",
+    "pack v2 not yet built"
+  ],
+  "pack_v2_policy": {
+    "path": "state/next_steps/FLEET_UPLIFT_PACK_V2_POLICY_2026-09-02.json",
+    "sha256": "9b694c828d40185672de4416d0a2356f938602cef40ca7c4f237f878de5aa40e"
+  },
+  "resolved": [
+    "LBE expansion = Logic Blueprint Engine",
+    "35B-A3B local GGUF exact mradermacher i1 identity",
+    "Capybara local models are distinct",
+    "OUR_CAPYBARA_CORE mandatory in pack v2"
+  ],
+  "rosetta_lbe_v2": {
+    "path": "research/ROSETTA_LBE_MODEL_SUBSTRATE_TRANSLATION_V2_2026-09-02.md",
+    "sha256": "61b82fd74199822229ba9734fdfaec2168809f566cbe35e937e7be90feb99a49"
+  },
+  "schema": "cfe.lbe-fleet-update.v1",
+  "status": "COMMITTED",
+  "timestamp": "2026-09-02T09:57:16-04:00"
+}
