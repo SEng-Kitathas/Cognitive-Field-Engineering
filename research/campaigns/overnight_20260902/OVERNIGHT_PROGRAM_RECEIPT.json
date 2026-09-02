@@ -1,7 +1,25 @@
 {
   "schema": "cfe.overnight.program.v1",
-  "status": "RUNNING",
+  "status": "COMPLETE_WITH_STAGE_FAILURES",
   "started": 1788325450.238709,
-  "stages": [],
-  "promotion_authority": "NONE"
+  "stages": [
+    {
+      "label": "MACHINERY",
+      "return_code": 1,
+      "seconds": 269.3955891132355
+    },
+    {
+      "label": "CARTOGRAPHY",
+      "return_code": 1,
+      "seconds": 981.56560587883
+    },
+    {
+      "label": "EXTERNAL",
+      "return_code": 1,
+      "seconds": 182.6788980960846
+    }
+  ],
+  "promotion_authority": "NONE",
+  "completed": 1788326884.311001,
+  "pass_files": 18
 }

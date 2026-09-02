@@ -1,0 +1,15 @@
+{
+  "baseline_preservation_required": true,
+  "commander_intent_addendum_path": "state/doctrine_snapshot/CFE_LOCAL_MODEL_FLEET_COMMANDERS_INTENT_ADDENDUM_2026-09-02.md",
+  "commander_intent_addendum_sha256": "0aaab535d4c315580e5dd5ef968a179ae8c1db54fcadfd299d2f46154bd4c17d",
+  "law": "DO_NOT_TRAIN_AWAY_THE_BASELINE_BEFORE_YOU_HAVE_MEASURED_IT",
+  "primary_future_design": "BASE_vs_MATCHED_ORDINARY_CONTROL_vs_CFE_DEVELOPMENTAL_FIELD",
+  "project_law_path": "state/doctrine_snapshot/CFE_PROJECT_LAW_PRESERVE_PRE_CFE_PHENOTYPE_AND_FLEET_VALIDATION_2026-09-02.md",
+  "project_law_sha256": "db0398a18e13b69c76d263869c787a683873226cfc6b855adc028a7a1849f547",
+  "research_plan_path": "research/CFE_LOCAL_MODEL_FLEET_DEVELOPMENTAL_VALIDATION_RESEARCH_PLAN_2026-09-02.md",
+  "research_plan_sha256": "380bc3f5004eb948b902c40472e098b2473044d1f6daeb2f7a54782602900154",
+  "schema": "cfe.fleet-validation-promotion.v1",
+  "status": "PROMOTED_PROJECT_LAW_AND_CORE_RESEARCH_INTENT",
+  "timestamp": "2026-09-02T08:14:57-04:00",
+  "training_authorized": false
+}

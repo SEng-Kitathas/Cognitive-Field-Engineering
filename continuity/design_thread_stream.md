@@ -1023,3 +1023,12 @@ Operator paused Microseed development and directed staged multi-part overnight H
 
 ## Turn — ASSISTANT / STAGED EXECUTION
 Staged and launched bounded overnight CFE work. DD2 parent was found execution-failed during evaluation with 0 paired seeds admitted. Started dedicated local Qwen2.5-Coder-7B server; launched parallel concept archaeology and a 180-pass governed autonomous research program across machinery/cartography/external lanes. Created DD2R1 execution-recovery amendment: it waits for the research sentinel, salvages only the one manifest-bound remote adapter, proves evaluator viability first, then trains only if that gate passes.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 08:14 Eastern Daylight Time
+Tags: PROJECT LAW, FLEET VALIDATION, BASELINE PRESERVATION
+Operator requested the idea be written into CFE as project law / intent / research plan.
+
+## Turn — ASSISTANT / GOVERNANCE COMMIT
+Created active project law preserving embarrassing pre-CFE phenotype baselines, immutable Commander-intent addendum establishing the heterogeneous local fleet as a future multi-learner validation surface, and a staged matched-control research plan. Explicitly did not authorize broad fleet training yet.

@@ -37,3 +37,11 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Research: local archaeology + 180 bounded autonomous Helix passes across machinery/cartography/external lanes, OARR/Loop+/Reservoir each pass, CSC hard-stop audit, no auto-promotion.
 - DD2R1 waits on research sentinel; salvage-eval gate must pass before any further training.
 - Active jobs: inference `job-09b75d2a8595`; archaeology `job-77ad0f0cf849`; Helix program `job-4da449cfa837`; DD2R1 gate/recovery `job-c3a77033cd06`.
+
+## Status delta — 2026-09-02 06:16 Eastern Daylight Time
+- Overnight research partial, not full: archaeology complete; Helix 18 pass artifacts only, with qualification failures/topic drift. Treat output as research-only and hostile-audit before reuse. DD2R1 failed on recovery-script path bug before eval; science unchanged.
+
+## Turn delta — 2026-09-02 08:14 Eastern Daylight Time
+- New law: preserve representative pre-CFE failure phenotypes; do not train away baseline before measurement.
+- Future fleet validation uses BASE / matched ordinary control / CFE developmental field. Learner regime becomes explicit cartography conditioning surface.
+- No broad fleet training authorization yet.

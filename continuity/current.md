@@ -60,3 +60,15 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - DD2 parent job failed executionally during evaluation (`0xC0000005`), 0 paired seeds scientifically admitted.
 - DD2R1 recovery job `job-c3a77033cd06` PID 22056 RUNNING in WAITING-for-research-sentinel logic. It may touch GPU only after research lane completes.
 - DD2R1 salvage allows only seed3121/CYCLIC_SPACED whose train manifest and remote adapter SHA match; unexplained remote assets without local manifests are excluded from science. Amendment SHA `161e0792dcfe62ec3a02799bb2ad347808cc65586c0cee7f151a61a257ee161a` / runner SHA `31a3a20697d71a874d00b34a9642b749fafd22eab2979d51ac16ae1541a57b01`.
+
+## Overnight status readback — 2026-09-02 06:16 Eastern Daylight Time
+- Archaeology COMPLETE: 23,349 files scanned; 1,022 unique concept-bearing hits.
+- Helix overnight process COMPLETE_WITH_STAGE_FAILURES: 18 qualified pass artifacts total (14 cartography, 2 machinery, 2 external), not planned 180. Stage failures were source-grounding/qualification failures and topic drift; no promotion authority exercised.
+- Dedicated inference server was terminated after research lane; server job nonzero reflects forced shutdown after successful service use.
+- DD2R1 FAILED before salvage evaluation due FileNotFoundError in recovery download/move path; no new scientific evidence admitted.
+
+## Fleet validation law — 2026-09-02 08:14 Eastern Daylight Time
+- Operator elevated preservation of ugly pre-CFE local-model behavior + future fleet-wide matched CFE validation into project law/core research intent.
+- Project law SHA `db0398a18e13b69c76d263869c787a683873226cfc6b855adc028a7a1849f547`.
+- Research plan SHA `380bc3f5004eb948b902c40472e098b2473044d1f6daeb2f7a54782602900154`.
+- Broad fleet training NOT authorized yet.

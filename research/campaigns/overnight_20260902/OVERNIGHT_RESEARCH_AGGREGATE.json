@@ -1,0 +1,225 @@
+{
+  "schema": "cfe.overnight.aggregate.v1",
+  "status": "RESEARCH_ONLY",
+  "runs": [
+    "research\\campaigns\\OVERNIGHT_CARTOGRAPHY_3x20_20260902_010839",
+    "research\\campaigns\\OVERNIGHT_EXTERNAL_3x20_20260902_012501",
+    "research\\campaigns\\OVERNIGHT_MACHINERY_3x20_20260902_010410"
+  ],
+  "pass_files": 18,
+  "top_terms": [
+    [
+      "hostile",
+      11
+    ],
+    [
+      "controls",
+      11
+    ],
+    [
+      "alter",
+      11
+    ],
+    [
+      "microseed",
+      11
+    ],
+    [
+      "jobs.",
+      11
+    ],
+    [
+      "port",
+      11
+    ],
+    [
+      "reuse",
+      11
+    ],
+    [
+      "reuse.",
+      11
+    ],
+    [
+      "model",
+      11
+    ],
+    [
+      "worker",
+      11
+    ],
+    [
+      "leaks",
+      11
+    ],
+    [
+      "runtime",
+      11
+    ],
+    [
+      "conflicts.",
+      11
+    ],
+    [
+      "none",
+      8
+    ],
+    [
+      "predictable",
+      4
+    ],
+    [
+      "security.",
+      2
+    ],
+    [
+      "continual",
+      2
+    ],
+    [
+      "replay",
+      2
+    ],
+    [
+      "mechanism",
+      2
+    ],
+    [
+      "identified.",
+      2
+    ],
+    [
+      "none.",
+      2
+    ],
+    [
+      "rngs.",
+      2
+    ],
+    [
+      "timestamp",
+      1
+    ],
+    [
+      "verification",
+      1
+    ],
+    [
+      "crucial.",
+      1
+    ],
+    [
+      "hbrngs",
+      1
+    ],
+    [
+      "more",
+      1
+    ],
+    [
+      "secure.",
+      1
+    ],
+    [
+      "hbrng",
+      1
+    ],
+    [
+      "machinery",
+      1
+    ],
+    [
+      "semantic",
+      1
+    ],
+    [
+      "helix",
+      1
+    ],
+    [
+      "oarr",
+      1
+    ],
+    [
+      "feedback",
+      1
+    ],
+    [
+      "paths",
+      1
+    ],
+    [
+      "rngs",
+      1
+    ],
+    [
+      "compromise",
+      1
+    ],
+    [
+      "keys.",
+      1
+    ]
+  ],
+  "survivors": [
+    "Hostile controls alter Microseed jobs.",
+    "Hostile controls alter Microseed jobs.",
+    "Hostile controls alter Microseed jobs.",
+    "Hostile controls alter Microseed jobs.",
+    "Hostile controls alter Microseed jobs.",
+    "Hostile controls alter Microseed jobs.",
+    "Hostile controls alter Microseed jobs.",
+    "Hostile controls alter Microseed jobs.",
+    "Timestamp verification is crucial.",
+    "Hostile controls alter Microseed jobs.",
+    "Hostile controls alter Microseed jobs.",
+    "Hostile controls alter Microseed jobs.",
+    "HBRNGs are more secure.",
+    "HBRNG security.",
+    "Continual replay mechanism identified.",
+    "Continual replay mechanism identified.",
+    "All machinery",
+    "Semantic Helix, OARR feedback paths"
+  ],
+  "scars": [
+    "Port reuse, job ID reuse.",
+    "Port reuse, job ID reuse.",
+    "Port reuse, job ID reuse.",
+    "Port reuse, job ID reuse.",
+    "Port reuse, job ID reuse.",
+    "Port reuse, job ID reuse.",
+    "Port reuse, job ID reuse.",
+    "Port reuse, job ID reuse.",
+    "None.",
+    "Port reuse, job ID reuse.",
+    "Port reuse, job ID reuse.",
+    "Port reuse, job ID reuse.",
+    "Predictable RNGs compromise security.",
+    "Predictable RNGs.",
+    "NONE",
+    "NONE",
+    "NONE",
+    "NONE"
+  ],
+  "demotions": [
+    "Model worker leaks, runtime conflicts.",
+    "Model worker leaks, runtime conflicts.",
+    "Model worker leaks, runtime conflicts.",
+    "Model worker leaks, runtime conflicts.",
+    "Model worker leaks, runtime conflicts.",
+    "Model worker leaks, runtime conflicts.",
+    "Model worker leaks, runtime conflicts.",
+    "Model worker leaks, runtime conflicts.",
+    "None.",
+    "Model worker leaks, runtime conflicts.",
+    "Model worker leaks, runtime conflicts.",
+    "Model worker leaks, runtime conflicts.",
+    "Predictable RNGs.",
+    "Predictable keys.",
+    "NONE",
+    "NONE",
+    "NONE",
+    "NONE"
+  ],
+  "promotion_authority": "NONE"
+}

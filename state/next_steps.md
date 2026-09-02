@@ -11,3 +11,8 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 6. If salvage evaluation fails after bounded retries: stop DD2R1 with no further training.
 7. If salvage evaluation passes: continue seed3121 pair and remaining fresh DD2 pairs under unchanged scientific contract; aggregate only 6/6.
 8. Morning readback must reconcile research artifacts against first-class cartography before any promotion or new experiment selection.
+
+## Fleet validation — gated future work
+- Preserve and freeze representative pre-CFE phenotype probes before any CFE fleet intervention.
+- Inventory eligible local learners/trainable checkpoints.
+- Do not launch broad fleet training until the authorization threshold in the fleet research plan is met.

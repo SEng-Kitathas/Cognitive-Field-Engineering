@@ -34,3 +34,10 @@ Source: `state/doctrine_snapshot/CFE_CORE_CARTOGRAPHIC_COMMANDERS_INTENT_SOURCE_
 
 This co-governs with: **The developmental structure of experience itself is the engineering medium.**
 
+## Fleet developmental validation law
+- Pre-CFE embarrassing behavior is preserved as candidate phenotype evidence.
+- Future heterogeneous local-model fleet is a multi-learner hostile validation surface for CFE.
+- Default causal design: BASE vs matched ordinary training control vs CFE developmental field.
+- Broad fleet training is **NOT YET AUTHORIZED**.
+- Law SHA `db0398a18e13b69c76d263869c787a683873226cfc6b855adc028a7a1849f547`; research plan SHA `380bc3f5004eb948b902c40472e098b2473044d1f6daeb2f7a54782602900154`.
+
