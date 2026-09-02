@@ -1,0 +1,38 @@
+{
+  "schema": "cfe.qwen35-a3b-mtp-safe-benchmark.v1",
+  "status": "STAGED_RESOURCE_BLOCKED_NOT_EXECUTED",
+  "target": {
+    "path": "D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled.i1-Q4_K_M.gguf",
+    "sha256": "d1ed134b54a8509a6dc773d30d7eadb70b59bc2e5d010ee2fd40c4cb02b24992"
+  },
+  "mtp_sidecar": {
+    "path": "E:\\models\\speculative\\qwen35_a3b_mtp\\Qwen3.5-35B-A3B-MTP-ONLY-Q8_0.gguf",
+    "bytes": 1990649856,
+    "sha256": "54f372d7ce6625a9cf66e296f9da7b2786efdb12a2ec3c957cdfec3ff6d36ed7",
+    "source_repo": "a4lg/Qwen3.5-35B-A3B-MTP-ONLY-GGUF",
+    "revision": "cd7663dc2cb47916d7f8dd1b051d4a392fc9f29d"
+  },
+  "runtime": {
+    "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\tooling\\llama_cpp_b10759_cuda13\\runtime_verified\\llama-server.exe",
+    "build": "b10759",
+    "commit": "b81c99b47"
+  },
+  "speculation": {
+    "type": "draft-mtp",
+    "draft_model": "mtp_sidecar",
+    "n_max_candidates": [2, 3, 4],
+    "checkpoint_mode": "runtime-managed"
+  },
+  "resource_gate": {
+    "guard": "tools/cfe_resource_authority_guard.py",
+    "class": "HEAVY_MODEL",
+    "rule": "any foreign model runtime blocks execution",
+    "current_blocker": "foreign llama-server PID 34152 port 8114 alias hsp-pass346-arm-b-14b"
+  },
+  "baseline_observed": {
+    "target_only_cuda_tokens_per_s": 26.17,
+    "generic_qwen35_08b_tuned_tokens_per_s": 22.61,
+    "generic_qwen35_2b_tuned_tokens_per_s": 19.99
+  },
+  "execution_rule": "No benchmark may start until guard returns PASS immediately before launch; re-run guard between configurations; launch one configuration at a time; terminate only exact CFE-owned PID."
+}

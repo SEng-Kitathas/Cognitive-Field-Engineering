@@ -1059,3 +1059,12 @@ Operator supplied authoritative LBE definition: Logic Blueprint Engine, Forge se
 
 ## Turn — ASSISTANT / BUILD-COMMIT
 Resolved LBE expansion and model-domain translation. Verified local 35B-A3B GGUF exactly against mradermacher i1 Q4_K_M repo and measured ~14 tok/s CPU generation. Distinguished local CapybaraHermes from ORPO-Capybara; froze Fleet Uplift Pack v2 policy requiring first-class OUR_CAPYBARA_CORE and separate Capybara preference stage.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 11:14 ET
+Tags: RESOURCE AUTHORITY, MULTI-PROJECT COEXISTENCE
+Operator authorized autonomous continuation but warned that five GPT/project threads are concurrently using the same server. Explicit constraint: do not steal models/resources or cause OOM; respect authority rights.
+
+## Turn — ASSISTANT / RESOURCE-GATED BUILD
+Re-grounded locally, inspected execution jobs and live OS state. Found CFE job table idle but a foreign live 14B llama server PID 34152 on port 8114. Removed only stale CFE-owned llama-cli PID 35524 after exact ownership proof. Independently verified downloaded Qwen3.5-35B-A3B MTP Q8 sidecar hash. Created active resource-authority law, fail-closed resource guard, MTP sidecar qualification, and safe sequential benchmark harness. Hostile preflight correctly blocked both target-only and MTP benchmark phases because the foreign model server is live; no heavy CFE model was launched.

@@ -91,3 +91,12 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Primary high-end local model exact-verified: Qwen3.5-35B-A3B Claude-distilled mradermacher i1 Q4_K_M SHA `d1ed134b54a8509a...`; CPU generation ~14 tok/s.
 - Local Capybara models are distinct; CapybaraHermes is stronger published local branch than ORPO-Capybara.
 - Fleet Uplift Pack v2 requires `OUR_CAPYBARA_CORE` >=20% of SFT atoms and Capybara filtered preferences in preference stage. Pack not built yet.
+
+## Multi-project resource authority + MTP staging — 2026-09-02
+- Operator reports five concurrent project/GPT threads sharing this server; CFE heavy work is now fail-closed on live OS resource ownership.
+- Verified foreign model runtime: `llama-server.exe` PID 34152, port 8114, alias `hsp-pass346-arm-b-14b`; CFE did not touch it.
+- Removed only stale CFE-owned PID 35524 after exact command-line ownership proof.
+- Qwen3.5-35B-A3B MTP-only Q8 sidecar download independently verified: 1,990,649,856 bytes; SHA `54f372d7ce6625a9cf66e296f9da7b2786efdb12a2ec3c957cdfec3ff6d36ed7`.
+- MTP compatibility/speed remains UNKNOWN because resource guard correctly blocks heavy benchmark while foreign model runtime is live.
+- Safe benchmark harness compiled and its preflight correctly returned `BLOCKED` for both target-only and MTP phases.
+- Capybara policy corrected: successor is defined by re-derived LHIT/long-horizon invariants under `STEAL INVARIANTS NOT ABSTRACTIONS`; fixed Capybara-row quota is revoked as an identity requirement.

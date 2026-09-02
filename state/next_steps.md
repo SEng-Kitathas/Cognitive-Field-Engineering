@@ -27,3 +27,10 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 - Freeze Capybara core first: LDJnr/Capybara + filtered Capybara chosen responses; keep preference pairs for separate preference phase.
 - Benchmark candidate modern Capybara bases before download/train selection.
 - Repair/upgrade llama.cpp CUDA backend separately; CPU-only 35B-A3B is already usable at ~14 tok/s.
+
+## Resource-gated continuation — 2026-09-02
+1. Do not launch Qwen3.5-35B-A3B, MTP, QLoRA, or any other heavy CFE model job while a foreign model runtime is live.
+2. Before any later heavy run, execute `tools/cfe_resource_authority_guard.py`; require PASS immediately before launch and again after CFE-owned server startup.
+3. When a safe window exists, run `tools/run_qwen35_a3b_mtp_benchmark_safe.py` sequentially: target-only baseline -> Q8 MTP, never concurrently.
+4. If MTP fails compatibility or loses throughput, preserve the failure and only then consider a target-distilled MTP/EAGLE/DFlash route.
+5. Continue low-impact dataset/LHIT/Capybara design and model-quality research while blocked.

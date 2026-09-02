@@ -1,0 +1,36 @@
+{
+  "schema": "cfe.qwen35-a3b-mtp-sidecar-qualification.v1",
+  "status": "VERIFIED_DOWNLOAD_ONLY__RUNTIME_BENCHMARK_RESOURCE_BLOCKED",
+  "artifact": {
+    "path": "E:\\models\\speculative\\qwen35_a3b_mtp\\Qwen3.5-35B-A3B-MTP-ONLY-Q8_0.gguf",
+    "bytes": 1990649856,
+    "sha256": "54f372d7ce6625a9cf66e296f9da7b2786efdb12a2ec3c957cdfec3ff6d36ed7"
+  },
+  "source": {
+    "repo": "a4lg/Qwen3.5-35B-A3B-MTP-ONLY-GGUF",
+    "revision": "cd7663dc2cb47916d7f8dd1b051d4a392fc9f29d",
+    "expected_bytes": 1990649856,
+    "expected_sha256": "54f372d7ce6625a9cf66e296f9da7b2786efdb12a2ec3c957cdfec3ff6d36ed7"
+  },
+  "verification": {
+    "download_job": "job-e43af8181abf",
+    "download_job_status": "COMPLETED",
+    "download_job_return_code": 0,
+    "independent_local_size_match": true,
+    "independent_local_sha256_match": true
+  },
+  "claim_ceiling": "THE SIDECAR FILE IS EXACTLY VERIFIED. COMPATIBILITY, ACCEPTANCE, SPEEDUP, AND QUALITY EFFECT ARE NOT YET VERIFIED.",
+  "runtime_benchmark_blocker": {
+    "kind": "FOREIGN_MODEL_RUNTIME_ACTIVE",
+    "observed_pid": 34152,
+    "observed_port": 8114,
+    "alias": "hsp-pass346-arm-b-14b",
+    "ownership": "FOREIGN_TO_CFE"
+  },
+  "laws": [
+    "DOWNLOADED_AND_HASHED != RUNTIME_COMPATIBLE",
+    "RUNTIME_COMPATIBLE != FASTER",
+    "RESOURCE AVAILABILITY != RESOURCE AUTHORITY",
+    "FOREIGN MODEL RUNTIME BLOCKS HEAVY CFE BENCHMARK BY DEFAULT"
+  ]
+}

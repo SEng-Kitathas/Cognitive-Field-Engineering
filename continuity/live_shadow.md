@@ -56,3 +56,11 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - LBE definitively = Logic Blueprint Engine. Model-domain LBE now translated from actual semantic-field/composite semantics.
 - 35B-A3B i1 Q4_K_M exact remote identity verified and promoted to primary high-end local teacher/judge/research role.
 - OUR_CAPYBARA_CORE mandatory in Fleet Uplift Pack v2; Capybara successor desired rather than freezing old 7B checkpoint as endpoint.
+
+## Turn delta — 2026-09-02 multi-project coexistence
+- New binding constraint: five concurrent projects/threads may share host; `RESOURCE AVAILABILITY != RESOURCE AUTHORITY` is active law.
+- Foreign live model PID 34152 / port 8114 blocks CFE heavy model loads. No foreign process may be terminated or repurposed.
+- Stale CFE-owned llama-cli PID 35524 was removed by exact ownership check only.
+- MTP Q8 sidecar is exact-hash verified but runtime effect remains untested due resource block.
+- Safe MTP benchmark harness is staged and preflight-tested to fail closed.
+- Capybara successor meaning corrected toward LHIT invariants, not a fixed Capybara content percentage.

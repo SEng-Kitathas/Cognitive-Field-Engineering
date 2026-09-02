@@ -4,6 +4,22 @@
     "CFE_STRUCTURED"
   ],
   "cfe_claim_ceiling": "CFE-informed ordering only until geometry qualifies",
+  "clarification_2026_09_02": {
+    "OUR_CAPYBARA_MEANING": "LHIT/long-horizon interaction invariants re-derived under new learner/data regime; not Capybara corpus identity",
+    "capybara_corpus_role": "donor + training/evaluation surface, not defining ontology",
+    "donor_invariants": [
+      "long-horizon state carry with explicit currentness",
+      "follow-up consequence tracking",
+      "revisit after dependency/state change",
+      "contradiction recovery",
+      "unresolved-seam preservation and revision triggers",
+      "state carry without fake memory theater",
+      "multi-turn capability growth rather than isolated answer quality",
+      "warm/direct/high-signal interaction shell as style donor only"
+    ],
+    "law": "STEAL INVARIANTS NOT ABSTRACTIONS",
+    "prior_minimum_fraction_status": "REVOKED_AS_IDENTITY_REQUIREMENT; any final quota must be justified by measured coverage rather than the Capybara label"
+  },
   "identity_law": "exact same atom set per target across arms",
   "next_actions": [
     "build v2 source-normalization adapters",
