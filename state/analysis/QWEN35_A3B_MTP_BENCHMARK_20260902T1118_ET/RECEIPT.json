@@ -1,0 +1,9 @@
+{
+  "error": "RuntimeError('RESOURCE_GATE_CHANGED_AFTER_LAUNCH phase=TARGET_ONLY')",
+  "mtp_sha256": "54f372d7ce6625a9cf66e296f9da7b2786efdb12a2ec3c957cdfec3ff6d36ed7",
+  "phases": [],
+  "runtime": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\tooling\\llama_cpp_b10759_cuda13\\runtime_verified\\llama-server.exe",
+  "schema": "cfe.qwen35-a3b-mtp-benchmark.v1",
+  "status": "FAILED_OR_BLOCKED",
+  "target_sha256": "d1ed134b54a8509a6dc773d30d7eadb70b59bc2e5d010ee2fd40c4cb02b24992"
+}

@@ -1,0 +1,29 @@
+{
+  "conflicts": [],
+  "foreign_model_processes": [],
+  "gpu": {
+    "free_mib": 1483,
+    "total_mib": 6141,
+    "used_mib": 4438,
+    "util_pct": 0
+  },
+  "laws": [
+    "RESOURCE_AVAILABILITY != RESOURCE_AUTHORITY",
+    "PID_OWNERSHIP_REQUIRED_FOR_TERMINATION",
+    "FOREIGN_MODEL_RUNTIME_BLOCKS_HEAVY_CFE_RUN_BY_DEFAULT"
+  ],
+  "memory": {
+    "free_gb": 17.508,
+    "total_gb": 31.21
+  },
+  "owned_pids": [
+    38908
+  ],
+  "postlaunch_reserve_conflicts": [],
+  "postlaunch_status": "PASS",
+  "project_root": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE",
+  "requested_port": 18226,
+  "run_class": "HEAVY_MODEL",
+  "schema": "cfe.resource-authority-guard.v1",
+  "status": "PASS"
+}

@@ -64,3 +64,11 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - MTP Q8 sidecar is exact-hash verified but runtime effect remains untested due resource block.
 - Safe MTP benchmark harness is staged and preflight-tested to fail closed.
 - Capybara successor meaning corrected toward LHIT invariants, not a fixed Capybara content percentage.
+
+## Turn delta — 2026-09-02 stale-load recovery + MTP disposition
+- User predicted resources should be available or stale. Audit confirmed PID 34152 was a stale orphan; exact targeted reclamation recovered ~7.1 GiB private RAM without touching live projects.
+- Resource guard post-launch semantics were corrected after a fail-safe false block; failed run preserved as scar.
+- Exact Q4_K_M MTP sidecar verified and benchmarked.
+- Best local speculative profile now: Qwen3.5-35B-A3B Claude-distilled i1 Q4_K_M + b10759 CUDA + Q4_K_M MTP + n_max=2 at 4K/single slot; paired mean speedup 1.07315x, 4/4 prompt wins.
+- Q8 MTP rejected as default on 6GB GPU because it displaced target residency and lost throughput.
+- Host left clean: no model process resident after benchmark.

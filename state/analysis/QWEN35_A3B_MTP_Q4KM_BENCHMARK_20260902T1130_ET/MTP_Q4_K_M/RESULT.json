@@ -1,0 +1,82 @@
+{
+  "command": [
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE\\tooling\\llama_cpp_b10759_cuda13\\runtime_verified\\llama-server.exe",
+    "-m",
+    "D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled.i1-Q4_K_M.gguf",
+    "-c",
+    "4096",
+    "-ngl",
+    "auto",
+    "-fa",
+    "on",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18227",
+    "--parallel",
+    "1",
+    "--cache-ram",
+    "0",
+    "-lv",
+    "4",
+    "--spec-type",
+    "draft-mtp",
+    "--spec-draft-model",
+    "E:\\models\\speculative\\qwen35_a3b_mtp\\Qwen3.5-35B-A3B-MTP-ONLY-Q4_K_M.gguf",
+    "--spec-draft-ngl",
+    "auto",
+    "--spec-draft-n-max",
+    "3"
+  ],
+  "mean_predicted_tokens_per_s": 36.0452075811382,
+  "phase": "MTP_Q4_K_M",
+  "pid": 22468,
+  "port": 18227,
+  "rows": [
+    {
+      "content": "\n\n1. **Identify the purpose of the cache** \n The cache stores the result of an authorization check (e.g., \u201cuser X is allowed to perform action Y\u201d). The cached value is only valid as long as the conditions that produced it have not changed.\n\n2. **Determine what can change** \n In this scenario, a *dependency* (such as a policy definition, a role assignment, or a configuration flag) is updated after the cache entry was created. If the dependency influences the authorization decision, the cached result may become stale.\n\n3. **Define the invariant** \n The invariant is: **\u201cA",
+      "content_sha256": "3cd468bc43ec2a483d6c3abe15ce291490dfb1071666fb59ba75bbb6fad7a640",
+      "elapsed_s": 5.962733268737793,
+      "predicted_per_second": 32.264669881616605,
+      "prompt_index": 0,
+      "prompt_per_second": 19.803882155018847,
+      "prompt_sha256": "6420e0d36ee4b48a47f19ba87bb43fa7f053f587c4c3e6e5e2de420593b10ae9",
+      "tokens_evaluated": 40,
+      "tokens_predicted": 128
+    },
+    {
+      "content": "\n\n<think>\nLet me think through this carefully.\n\nThe question/task: A training experiment improves primitive classification but zero-shot composition remains unchanged. Give the strongest causal interpretation, the main confounders, and the next discriminator without pretending the null transfer proves composition is impossible.\n\nMy reasoning: Analysis of Primitive Improvement Without Compositional Transfer\n\nThis is a nuanced question about interpreting experimental results in machine learning, particularly regarding the relationship between primitive learning and compositional generalization. The Strongest Causal Interpretation\n\nThe most defensible causal claim is:\n\n**The training procedure successfully learned the primitives but failed to learn or activate the compositional mechanism",
+      "content_sha256": "3ac005a66c40f1f5f219461fc1ebc6a11fa4830ca6b16ce8d89e261181152c70",
+      "elapsed_s": 4.26990008354187,
+      "predicted_per_second": 37.55344342899013,
+      "prompt_index": 1,
+      "prompt_per_second": 44.79077539723101,
+      "prompt_sha256": "d8b838843ef4ada1ee7d47beba63e3b02af85643f7f3359520f2ca6da380e12f",
+      "tokens_evaluated": 39,
+      "tokens_predicted": 128
+    },
+    {
+      "content": "\n\n<think>\nLet me think about how to approach this coding problem.\n\nProblem: Write a compact Python design for an append-only evidence ledger where later corrections supersede earlier claims without deleting them. Explain the integrity invariant before showing code structure.\n\nApproach: - Integrity Invariant: Every record must be immutable once written. - Supersession: Later entries with the same key override earlier ones for \"current state\" queries. - Auditability: All historical versions remain accessible. - Cryptographic Integrity: Each entry includes a hash of the previous entry, forming a chain. - Append-Only: No in-place modifications; corrections are new",
+      "content_sha256": "94a47ecc4960648758d905896c61b6ceb3aeb48e75e38d927eb01730ad49fb20",
+      "elapsed_s": 4.341341495513916,
+      "predicted_per_second": 31.50698661225964,
+      "prompt_index": 2,
+      "prompt_per_second": 104.9058723600099,
+      "prompt_sha256": "07fbd07f14e72a3b0ac0636da0a8ac93ec6d415fc0f8c34434f9396fa5f16f4b",
+      "tokens_evaluated": 31,
+      "tokens_predicted": 128
+    },
+    {
+      "content": "\n\n<think>\nLet me analyze this question carefully. The user is asking about an \"autonomous research loop\" that:\n\n1. Starts with a question about developmental geometry\n2. Gradually drifts into hash functions and random-number generation\n3. Each individual step looks locally plausible\n4. The overall trajectory seems to lose coherence\n\nThe user wants me to:\n1. Diagnose the mechanism-level failure\n2. Propose the smallest control change that would distinguish useful exploration from semantic basin capture\n\nThis is a sophisticated question about AI alignment, research methodology, and cognitive architecture. Let me think through this systematically.\n\n**Understanding the",
+      "content_sha256": "ab811595c4e33ad1bc67631bc3cc882852941dcbd3963dc39116e821480efdcf",
+      "elapsed_s": 3.8417956829071045,
+      "predicted_per_second": 42.85573040168642,
+      "prompt_index": 3,
+      "prompt_per_second": 60.35092353993466,
+      "prompt_sha256": "3f493ba355e008107b52563b7f775f877d82d844514ad6de8933f3966f8e1e47",
+      "tokens_evaluated": 53,
+      "tokens_predicted": 128
+    }
+  ],
+  "speculation": "draft-mtp"
+}

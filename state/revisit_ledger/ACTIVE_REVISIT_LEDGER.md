@@ -52,3 +52,7 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | RESOLVED terminology | LBE expansion | operator supplied authoritative definition | Logic Blueprint Engine | resolved |
 | P1 fleet | modern Capybara successor base | old Capybara branches are useful donors but dated | benchmark modern 4B-8B trainable bases + Nous V1.9 comparator | open |
 | P1 runtime | 35B-A3B CUDA offload | current llama.cpp loads CPU backend only | install/qualify CUDA backend without breaking stable runtime | open |
+
+| RESOLVED engineering | apparent foreign 14B runtime blocked CFE | live inspection showed stale orphan, not active ownership | reclaim only after parent/client/slot/CPU multi-signal stale proof | resolved; PID 34152 reclaimed exactly |
+| P1 runtime | Q4_K_M MTP n=2 long-context stability | current 7.3% gain verified only at 4K/single-slot/128-token prompts | 8K/16K paired benchmark under same resource guard | open |
+| P1 fleet | strongest machine-fit model | Claude-distilled Qwen3.5-35B-A3B is strong and optimized locally, but Qwen3.6-35B-A3B / Gemma 4 26B-A4B remain untested challengers | direct local phenotype/throughput comparison in later safe window | open |

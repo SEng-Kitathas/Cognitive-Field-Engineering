@@ -100,3 +100,13 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - MTP compatibility/speed remains UNKNOWN because resource guard correctly blocks heavy benchmark while foreign model runtime is live.
 - Safe benchmark harness compiled and its preflight correctly returned `BLOCKED` for both target-only and MTP phases.
 - Capybara policy corrected: successor is defined by re-derived LHIT/long-horizon invariants under `STEAL INVARIANTS NOT ABSTRACTIONS`; fixed Capybara-row quota is revoked as an identity requirement.
+
+## Resource recovery + speculative runtime result — 2026-09-02
+- The apparent foreign 14B server PID 34152 / port 8114 was proven stale (parent gone, idle slot, zero clients, zero CPU delta over 6s, ~7.113 GiB private RAM held) and reclaimed by exact PID/fingerprint only.
+- Current host after tests: no llama model process, ~22.76 GB free RAM, ~5.44 GB free VRAM, GPU idle.
+- Qwen3.5-35B-A3B Q8 MTP sidecar is compatible but slower than target-only at n=3 (0.977x mean ratio) because it reduces target GPU residency.
+- Q4_K_M MTP sidecar exact SHA `14639932a007d1fa49bbb837bce6ad4525e65c8ccc932104c6e6ca2b6b2aa274` is verified.
+- Q4_K_M MTP at n=3 improved mean throughput ~3.1%.
+- Q4_K_M MTP at n=2 is best tested: 35.4938 -> 38.0903 tok/s mean, ratio 1.07315x, wins 4/4 prompts.
+- Recommended verified local profile: target i1 Q4_K_M + llama.cpp b10759 CUDA + Q4_K_M MTP sidecar + draft-mtp n_max=2, 4K context, single slot.
+- Disposition SHA `43d0b01c2190627841054d05d408016ec5ed8f2376639cc6c07b9c43a7520502`.

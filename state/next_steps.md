@@ -34,3 +34,10 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 3. When a safe window exists, run `tools/run_qwen35_a3b_mtp_benchmark_safe.py` sequentially: target-only baseline -> Q8 MTP, never concurrently.
 4. If MTP fails compatibility or loses throughput, preserve the failure and only then consider a target-distilled MTP/EAGLE/DFlash route.
 5. Continue low-impact dataset/LHIT/Capybara design and model-quality research while blocked.
+
+## Speculative runtime next steps — 2026-09-02
+1. Treat `Q4_K_M MTP + n_max=2` as the current best-tested local speculative profile for the Claude-distilled Qwen3.5-35B-A3B at 4K/single-slot.
+2. Do not use the Q8 MTP sidecar as default on this 6GB GPU; it reduces target residency and lost throughput in paired testing.
+3. Before wider deployment, test the chosen Q4/n=2 profile at 8K and 16K context under the same resource guard; stop if another project claims resources.
+4. Keep Qwen3.6-35B-A3B and Gemma 4 26B-A4B as model-fit challengers, but do not download/load them until a later safe window and explicit comparison packet is ready.
+5. Keep the stale-runtime reclamation rule active: healthy socket alone does not prove current ownership; require multi-signal liveness before preserving a warm load indefinitely.

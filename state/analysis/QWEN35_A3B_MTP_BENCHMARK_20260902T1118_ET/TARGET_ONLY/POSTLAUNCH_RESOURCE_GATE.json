@@ -1,0 +1,38 @@
+{
+  "conflicts": [
+    {
+      "free_gb": 17.544,
+      "kind": "RAM_HEADROOM",
+      "needed_plus_margin_gb": 22.0
+    },
+    {
+      "free_mib": 1483,
+      "kind": "VRAM_HEADROOM",
+      "needed_plus_margin_mib": 3756
+    }
+  ],
+  "foreign_model_processes": [],
+  "gpu": {
+    "free_mib": 1483,
+    "total_mib": 6141,
+    "used_mib": 4438,
+    "util_pct": 1
+  },
+  "laws": [
+    "RESOURCE_AVAILABILITY != RESOURCE_AUTHORITY",
+    "PID_OWNERSHIP_REQUIRED_FOR_TERMINATION",
+    "FOREIGN_MODEL_RUNTIME_BLOCKS_HEAVY_CFE_RUN_BY_DEFAULT"
+  ],
+  "memory": {
+    "free_gb": 17.544,
+    "total_gb": 31.21
+  },
+  "owned_pids": [
+    42332
+  ],
+  "project_root": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\CFE",
+  "requested_port": 18226,
+  "run_class": "HEAVY_MODEL",
+  "schema": "cfe.resource-authority-guard.v1",
+  "status": "BLOCKED"
+}

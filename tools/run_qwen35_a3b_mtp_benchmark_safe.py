@@ -112,7 +112,7 @@ def stop_owned(proc: subprocess.Popen) -> None:
         proc.wait(timeout=15)
 
 
-def phase(root: Path, runtime: Path, target: Path, mtp: Path | None, out: Path, name: str, port: int, expected_vram: int):
+def phase(root: Path, runtime: Path, target: Path, mtp: Path | None, out: Path, name: str, port: int, expected_vram: int, spec_n_max: int = 3):
     rc, gate = run_guard(root, port, expected_vram, 18.0)
     dumpj(out / name / "PRELAUNCH_RESOURCE_GATE.json", gate)
     if rc != 0:
@@ -135,7 +135,7 @@ def phase(root: Path, runtime: Path, target: Path, mtp: Path | None, out: Path, 
             "--spec-type", "draft-mtp",
             "--spec-draft-model", str(mtp),
             "--spec-draft-ngl", "auto",
-            "--spec-draft-n-max", "3",
+            "--spec-draft-n-max", str(spec_n_max),
         ]
 
     pd = out / name
@@ -145,9 +145,21 @@ def phase(root: Path, runtime: Path, target: Path, mtp: Path | None, out: Path, 
     proc = subprocess.Popen(cmd, cwd=runtime.parent, stdout=so, stderr=se, text=True)
     try:
         health(port)
-        rc2, gate2 = run_guard(root, port, expected_vram, 18.0, owned_pid=proc.pid)
+        # Post-launch semantics differ from prelaunch: the owned server has already consumed
+        # its expected allocation. Re-check foreign ownership and require a remaining reserve,
+        # rather than demanding enough free memory to load the same model again.
+        rc2, gate2 = run_guard(root, port, 0, 0, owned_pid=proc.pid)
+        post_conflicts = list(gate2.get("conflicts") or [])
+        mem = gate2.get("memory") or {}
+        gpu = gate2.get("gpu") or {}
+        if float(mem.get("free_gb") or 0) < 4.0:
+            post_conflicts.append({"kind":"POSTLAUNCH_RAM_RESERVE","free_gb":mem.get("free_gb"),"required_gb":4.0})
+        if int(gpu.get("free_mib") or 0) < 512:
+            post_conflicts.append({"kind":"POSTLAUNCH_VRAM_RESERVE","free_mib":gpu.get("free_mib"),"required_mib":512})
+        gate2["postlaunch_reserve_conflicts"] = post_conflicts
+        gate2["postlaunch_status"] = "PASS" if rc2 == 0 and not post_conflicts else "BLOCKED"
         dumpj(pd / "POSTLAUNCH_RESOURCE_GATE.json", gate2)
-        if rc2 != 0:
+        if rc2 != 0 or post_conflicts:
             raise RuntimeError(f"RESOURCE_GATE_CHANGED_AFTER_LAUNCH phase={name}")
         rows = []
         for i, prompt in enumerate(PROMPTS):
@@ -180,6 +192,10 @@ def main() -> None:
     ap.add_argument("--mtp", type=Path, required=True)
     ap.add_argument("--runtime", type=Path, required=True)
     ap.add_argument("--out", type=Path, required=True)
+    ap.add_argument("--mtp-sha256", default="54f372d7ce6625a9cf66e296f9da7b2786efdb12a2ec3c957cdfec3ff6d36ed7")
+    ap.add_argument("--mtp-bytes", type=int, default=1990649856)
+    ap.add_argument("--mtp-label", default="MTP_Q8")
+    ap.add_argument("--mtp-n-max", type=int, default=3)
     ap.add_argument("--preflight-only", action="store_true")
     a = ap.parse_args()
     root = a.project_root.resolve()
@@ -189,12 +205,12 @@ def main() -> None:
             raise SystemExit(f"MISSING_REQUIRED_FILE {p}")
     if sha256_file(target) != "d1ed134b54a8509a6dc773d30d7eadb70b59bc2e5d010ee2fd40c4cb02b24992":
         raise SystemExit("TARGET_SHA_MISMATCH")
-    if mtp.stat().st_size != 1990649856 or sha256_file(mtp) != "54f372d7ce6625a9cf66e296f9da7b2786efdb12a2ec3c957cdfec3ff6d36ed7":
+    if mtp.stat().st_size != a.mtp_bytes or sha256_file(mtp) != a.mtp_sha256:
         raise SystemExit("MTP_IDENTITY_MISMATCH")
 
     if a.preflight_only:
         checks = {}
-        for name, port, vram in [("TARGET_ONLY", 18226, 3500), ("MTP_Q8", 18227, 5000)]:
+        for name, port, vram in [("TARGET_ONLY", 18226, 3500), (a.mtp_label, 18227, 5000)]:
             rc, data = run_guard(root, port, vram, 18.0)
             checks[name] = {"return_code": rc, "gate": data}
         print(json.dumps(checks, indent=2))
@@ -213,10 +229,10 @@ def main() -> None:
     }
     dumpj(a.out / "RECEIPT.json", receipt)
     try:
-        base = phase(root, runtime, target, None, a.out, "TARGET_ONLY", 18226, 3500)
+        base = phase(root, runtime, target, None, a.out, "TARGET_ONLY", 18226, 3500, a.mtp_n_max)
         receipt["phases"].append(base)
         dumpj(a.out / "RECEIPT.json", receipt)
-        mtpr = phase(root, runtime, target, mtp, a.out, "MTP_Q8", 18227, 5000)
+        mtpr = phase(root, runtime, target, mtp, a.out, a.mtp_label, 18227, 5000, a.mtp_n_max)
         receipt["phases"].append(mtpr)
         b = base.get("mean_predicted_tokens_per_s")
         m = mtpr.get("mean_predicted_tokens_per_s")

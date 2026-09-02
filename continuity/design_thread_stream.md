@@ -1068,3 +1068,16 @@ Operator authorized autonomous continuation but warned that five GPT/project thr
 
 ## Turn — ASSISTANT / RESOURCE-GATED BUILD
 Re-grounded locally, inspected execution jobs and live OS state. Found CFE job table idle but a foreign live 14B llama server PID 34152 on port 8114. Removed only stale CFE-owned llama-cli PID 35524 after exact ownership proof. Independently verified downloaded Qwen3.5-35B-A3B MTP Q8 sidecar hash. Created active resource-authority law, fail-closed resource guard, MTP sidecar qualification, and safe sequential benchmark harness. Hostile preflight correctly blocked both target-only and MTP benchmark phases because the foreign model server is live; no heavy CFE model was launched.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 11:14 ET
+Tags: RESOURCE AVAILABILITY, STALE MODEL LOADS
+Operator stated resources should be available and suggested any blocker was likely a stale model load.
+
+## Turn — ASSISTANT / AUDIT + RECOVERY + BENCHMARK
+Re-audited PID 34152. Verified it was a stale orphan: 3.52h uptime, parent gone, healthy-but-idle server, no established clients, zero CPU delta over 6s, ~7.113 GiB private RAM retained. Reclaimed only exact PID after command-line/port/model fingerprint check. Host then passed heavy-run resource gate.
+
+Ran guarded speculative benchmarks for the exact Claude-distilled Qwen3.5-35B-A3B target under current llama.cpp b10759 CUDA. Initial post-launch guard falsely blocked because it reapplied prelaunch allocation requirements after the owned model had loaded; run failed safely with no benchmark evidence and server cleanup. Corrected post-launch semantics to enforce remaining reserve + foreign ownership instead. Preserved failed run as scar.
+
+Q8 MTP n=3 completed but lost throughput (0.977x) because the large sidecar reduced target GPU residency to 36/41 layers. Downloaded and exact-hash verified Q4_K_M MTP sidecar. Q4 n=3 improved mean throughput ~3.1%. Final Q4 n=2 run produced 35.4938 -> 38.0903 tok/s mean, 1.07315x, wins on 4/4 technical prompts, with 41/41 target layers and full MTP offload. Host left with no model process resident.
