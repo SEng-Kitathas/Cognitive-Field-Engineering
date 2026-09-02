@@ -1,0 +1,48 @@
+{
+  "alternate_atoms": 40,
+  "blockers": [
+    "CONTAMINATION_CLEARANCE_PENDING"
+  ],
+  "candidate_atoms": 1802,
+  "candidate_dir": "state/analysis/STANDARD_UPLIFT_PRE_ADMISSION_CANDIDATE_V1_20260902",
+  "contamination_states": {
+    "UNSCREENED": 1674,
+    "UNSCREENED_PROJECT_GENERATED": 128
+  },
+  "domain_families": {
+    "CODE_DEBUGGING": 400,
+    "GENERAL_INTERACTION": 260,
+    "LHIT_LONG_HORIZON": 360,
+    "MATH_SCIENCE_REASONING": 820,
+    "MEMORY_CURRENTNESS": 64,
+    "PLANNING_TOOL_AGENT": 325,
+    "RESEARCH": 420,
+    "SCIENCE_DIAGNOSIS": 64
+  },
+  "donor_jargon_hits": [],
+  "errors": [],
+  "excluded_atoms": 126,
+  "input_atoms": 1968,
+  "laws": [
+    "STRUCTURAL PASS != TRAINABLE",
+    "PARTITION CONSERVATION REQUIRED",
+    "A0 SIZE RANGE 1800-3000",
+    "CONTAMINATION MUST BE EXPLICITLY CLEARED BEFORE TRAINING",
+    "NO RAW OR SWE-REVIEW ROWS IN PRE-ADMISSION CANDIDATE"
+  ],
+  "license_states": {
+    "RESOLVED": 1434,
+    "RESOLVED_PINNED_DATASET_CARD": 240,
+    "RESOLVED_PROJECT_GENERATED": 128
+  },
+  "manifest_sha256": "ef6f6e030630d954e2663e9a0432789b563fd92d8d20715e3b1272c3c03b1f7a",
+  "partition_conservation": true,
+  "preference_atoms": 120,
+  "quality_states": {
+    "CANDIDATE": 1802
+  },
+  "schema": "cfe.standard-uplift.pre-admission-candidate-audit.v1",
+  "status": "PASS_STRUCTURAL__CONTAMINATION_PENDING",
+  "unique_candidate_conversations": 1802,
+  "unique_candidate_prompts": 1802
+}

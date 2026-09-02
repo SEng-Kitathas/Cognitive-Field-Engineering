@@ -141,3 +141,15 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Cross-domain audit found current explicit source-family gaps: `MEMORY_CURRENTNESS` and `SCIENCE_DIAGNOSIS`.
 - Added blocking final-admission gate. Standard dataset cannot claim complete LHIT coverage until all reasonable domain families have qualified post-license/contamination/dedup/quality coverage.
 - Core law: apply LHIT where consequence structure exists; do not force it into trivial episodes or equate it with Capybara/multi-turn format.
+
+## Turn delta — 2026-09-02 Standard Uplift gap closure / pre-admission curation
+- Continued informed Standard dataset build. Closed missing LHIT source families with 128 deterministic project-generated quarantine atoms: 64 memory/currentness + 64 science/diagnosis. Independent verifier PASS; 128 unique prompts/conversations; no learner-facing donor jargon; discriminator tie logic and hidden contracts verified.
+- Hostile review fixed synthetic defects before final V1R4 freeze: grammar, case corruption, tied-test self-comparison, machiney placeholders, article/prose artifacts.
+- Merged into V3R2 quarantine: 1,968 SFT + 120 preference; 0 exact generated/base duplicates; 0 near duplicates >=0.90.
+- Naive donor-jargon audit produced 22 false positives (`ATMs` and CFE substrings in URLs/hashes/identifiers); exact review resolved zero doctrine leaks and scanner now uses semantic phrases.
+- Pre-admission curation excludes all 98 RAW rows, segregates all 80 Open-SWE traces until contamination clearance, and separates 40 alternate trajectories from 32 repeated-prompt groups while keeping one deterministic representative. No objective trajectory rank was invented.
+- Nemotron Agentic v2 pinned card at revision `7c804833...` resolves its 240 pilot rows to CC BY 4.0 provenance; prior quarantine history preserved.
+- Current pre-admission candidate: **1,802 SFT atoms**, 1,802 unique prompts/conversations, all quality CANDIDATE, zero RAW/SWE/unresolved-license/donor-jargon; 126 excluded + 40 alternate rows conserve all 1,968 input atoms. Candidate SHA `48b4adb1b312b996591d5b859a0e41d7ef76c320265d78522253e8eaecc63503`.
+- LHIT structural/source coverage gate now PASS across code, research, planning/tool, math/science, long horizon, memory/currentness and science/diagnosis. Training admission remains BLOCKED on contamination.
+- Current internal/private eval overlap scan PASS: 49 files / 1,720 eval text items / 0 exact / 0 near >=0.90; internal pass does not clear public protected benchmarks or future frozen fleet eval.
+- Source-native contamination metadata captured. Final gate remains public/final eval registry exact+fuzzy matching, manual ambiguous review, final invariant-quality review, then tokenization/truncation. No training authorization.

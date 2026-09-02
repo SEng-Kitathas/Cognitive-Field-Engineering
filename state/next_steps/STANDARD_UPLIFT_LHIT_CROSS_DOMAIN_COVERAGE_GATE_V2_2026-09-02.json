@@ -1,0 +1,124 @@
+{
+  "claim_ceiling": "LHIT-style cross-domain coverage is now structurally present in the 1,802-atom pre-admission Standard candidate, including single-record non-chat embodiments and dedicated memory/currentness and science/diagnosis surfaces. This does not authorize training. Contamination clearance against the frozen exclusion lock remains mandatory.",
+  "coverage_audit": {
+    "record": "state/analysis/STANDARD_UPLIFT_LHIT_CROSS_DOMAIN_COVERAGE_AUDIT_V2_20260902.json",
+    "sha256": "a80fe1113e7a46c1bb4c155cf774d42cae6fda897fba8256126c5d481a972765",
+    "status": "LHIT_REQUIRED_FAMILIES_PRESENT_IN_PRE_ADMISSION__FINAL_TRAINING_ADMISSION_BLOCKED_ON_CONTAMINATION"
+  },
+  "curation_actions_verified": {
+    "all_open_swe_traces_segregated_until_contamination_clearance": 80,
+    "alternate_trajectory_rows_segregated": 40,
+    "cross_corpus_generated_vs_base_exact_duplicates": 0,
+    "generated_vs_base_near_duplicates_ge_0_90_3gram_jaccard": 0,
+    "nemotron_agentic_rows_license_resolved_from_pinned_card": 240,
+    "raw_rows_excluded": 98,
+    "repeated_prompt_groups_processed": 32
+  },
+  "current_contamination_evidence": {
+    "internal_eval_overlap_record": "state/analysis/STANDARD_UPLIFT_INTERNAL_EVAL_OVERLAP_V1_20260902.json",
+    "internal_eval_overlap_sha256": "9080a5720b3cdae26594f6535159c9363a8c3c86dbc2aa74fc639d5387461245",
+    "internal_eval_scope": "49 current internal/private eval files; 1720 extracted eval text items; 0 exact; 0 near >=0.90; does not clear public/future evals",
+    "internal_eval_status": "PASS_NO_CURRENT_INTERNAL_OVERLAP",
+    "source_metadata_audit": "state/analysis/STANDARD_UPLIFT_SOURCE_CONTAMINATION_METADATA_AUDIT_20260902.json",
+    "source_metadata_audit_sha256": "79de35c4b1a50ab6bb872f861705d4061f9fd3ffe57d1da6d49ad2cd6c3d0996"
+  },
+  "current_verdict": "PASS_LHIT_CROSS_DOMAIN_STRUCTURE__FAIL_TRAINING_ADMISSION_CONTAMINATION_PENDING",
+  "gap_filler_evidence": {
+    "generated_jsonl_sha256": "4e06798f631a2c89ed334afde33c459b9f8e405980860d7c8f6120bf5579defe",
+    "learner_facing_donor_jargon": "ZERO_IN_GENERATED_SURFACE",
+    "manifest": "state/analysis/STANDARD_UPLIFT_PROJECT_GENERATED_LHIT_GAPS_V1R4_20260902/MANIFEST.json",
+    "manifest_sha256": "b0486ce7f303b480a425f618aa2819d92332e2f7a93f7eabafecdcb81f18830d",
+    "memory_currentness": 64,
+    "rows": 128,
+    "science_diagnosis": 64,
+    "verification": "state/analysis/STANDARD_UPLIFT_PROJECT_GENERATED_LHIT_GAPS_V1R4_20260902/VERIFICATION.json",
+    "verification_sha256": "3be4c9cdd0048f3bc050b8fa73fc4b01ad755cef86797c105fa2fbd3f6d53258",
+    "verification_status": "PASS"
+  },
+  "identity_guard": "This gate applies to the CFE-informed STANDARD dataset, not the matched CFE experimental pack.",
+  "jargon_false_positive_disposition": {
+    "record": "state/analysis/STANDARD_UPLIFT_DONOR_JARGON_FALSE_POSITIVE_DISPOSITION_20260902.json",
+    "result": "22 naive substring flags resolved as ordinary ATMs / URLs / hashes / identifiers / unrelated CFEF; no verified doctrine leak",
+    "sha256": "386ccda1f6ab3faee4d454def4732fb9f5c7551625c663a82416d00bd3f2eced"
+  },
+  "laws": [
+    "LHIT != CONVERSATION FORMAT",
+    "LHIT != CAPYBARA CORPUS IDENTITY",
+    "LHIT COVERAGE != LONG-CONTEXT TOKEN COUNT",
+    "SINGLE-RECORD EPISODE CAN CARRY CONSEQUENTIAL HISTORY",
+    "APPLY LHIT WHERE CONSEQUENCE STRUCTURE EXISTS; DO NOT FORCE IT INTO TRIVIAL EPISODES",
+    "STEAL INVARIANTS NOT ABSTRACTIONS",
+    "SOURCE GAP CLOSED != TRAINING ADMITTED",
+    "FINAL EVALUATION FREEZE REQUIRES CONTAMINATION RERUN"
+  ],
+  "license_resolution": {
+    "pinned_revision": "7c804833427f633ccd53b582dbf02525fd680f78",
+    "readme_sha256": "0c8eda1886256837995c0f51a80d50179eebcb36265096e222cfe7abbf7a6475",
+    "record": "state/analysis/STANDARD_UPLIFT_NEMOTRON_AGENTIC_V2_LICENSE_RESOLUTION_20260902.json",
+    "resolved_primary_license": "CC-BY-4.0",
+    "sha256": "aafeed3a6d72affc8f1ed63a68d0e4d124243e3cedfed8847cc6136f3e89d672"
+  },
+  "remaining_blocking_gate": {
+    "authority": "state/locks/STANDARD_UPLIFT_DATASET_V1_EVALUATION_EXCLUSION_LOCK_2026-09-02.json",
+    "name": "EVALUATION_CONTAMINATION_CLEARANCE",
+    "requirements": [
+      "execute exact normalized prompt comparison against acquired protected eval registries",
+      "execute fuzzy/near-duplicate comparison",
+      "use source-native contamination/decontamination metadata where available",
+      "manually review ambiguous high-similarity cases",
+      "rerun after the final fleet phenotype/evaluation packet is frozen",
+      "only then run final invariant-quality and tokenization/truncation gates"
+    ]
+  },
+  "required_domain_families": {
+    "CODE_DEBUGGING": {
+      "pre_admission_atoms": 400,
+      "state": "PRESENT"
+    },
+    "LHIT_LONG_HORIZON": {
+      "pre_admission_atoms": 360,
+      "state": "PRESENT"
+    },
+    "MATH_SCIENCE_REASONING": {
+      "pre_admission_atoms": 820,
+      "state": "PRESENT"
+    },
+    "MEMORY_CURRENTNESS": {
+      "pre_admission_atoms": 64,
+      "state": "PRESENT_PROJECT_GENERATED_VERIFIED"
+    },
+    "PLANNING_TOOL_AGENT": {
+      "pre_admission_atoms": 325,
+      "state": "PRESENT"
+    },
+    "RESEARCH": {
+      "pre_admission_atoms": 420,
+      "state": "PRESENT"
+    },
+    "SCIENCE_DIAGNOSIS": {
+      "pre_admission_atoms": 64,
+      "state": "PRESENT_PROJECT_GENERATED_VERIFIED"
+    }
+  },
+  "schema": "cfe.standard-uplift.lhit-cross-domain-coverage-gate.v2",
+  "scope": "STANDARD_UPLIFT_DATASET_V1",
+  "status": "LHIT_CROSS_DOMAIN_SOURCE_AND_STRUCTURAL_GATE_PASS__TRAINING_ADMISSION_STILL_BLOCKED",
+  "supersedes_for_current_state": "state/next_steps/STANDARD_UPLIFT_LHIT_CROSS_DOMAIN_COVERAGE_GATE_V1_2026-09-02.json",
+  "verified_pre_admission_state": {
+    "candidate_atoms": 1802,
+    "candidate_integrity": "state/analysis/STANDARD_UPLIFT_PRE_ADMISSION_CANDIDATE_V1_INTEGRITY_20260902.json",
+    "candidate_integrity_sha256": "77611eb31013f06018ae7b57067e374d2b6493ffae3a01c6d7f395c3c4e262b3",
+    "candidate_manifest": "state/analysis/STANDARD_UPLIFT_PRE_ADMISSION_CANDIDATE_V1_20260902/MANIFEST.json",
+    "candidate_manifest_sha256": "ef6f6e030630d954e2663e9a0432789b563fd92d8d20715e3b1272c3c03b1f7a",
+    "conversation_uniqueness": "1802/1802 unique conversations",
+    "license_state": {
+      "RESOLVED": 1434,
+      "RESOLVED_PINNED_DATASET_CARD": 240,
+      "RESOLVED_PROJECT_GENERATED": 128
+    },
+    "partition_conservation": "PASS: 1802 candidate + 126 excluded + 40 alternate trajectory = 1968 input atoms with no overlap",
+    "prompt_uniqueness": "1802/1802 unique canonical prompts",
+    "quality": "1802/1802 CANDIDATE; 0 RAW",
+    "structural_audit_status": "PASS_STRUCTURAL__CONTAMINATION_PENDING"
+  }
+}

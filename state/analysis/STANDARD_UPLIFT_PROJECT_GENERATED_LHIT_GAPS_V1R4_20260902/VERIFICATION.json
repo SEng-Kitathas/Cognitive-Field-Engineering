@@ -1,0 +1,53 @@
+{
+  "claim_ceiling": "PASS verifies generator contracts, uniqueness, quarantine/license metadata, and learner-facing structural expectations. It does not perform contamination screening, semantic near-dedup against upstream corpora, or scientific validation of the underlying invariants.",
+  "dimension_counts": {
+    "MEMORY_CURRENTNESS": {
+      "ACTIVE_DISCRIMINATOR_CANDIDATE": 16,
+      "CONSEQUENTIAL_HISTORY_CANDIDATE": 64,
+      "CURRENTNESS_PROPAGATION_CANDIDATE": 64,
+      "DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 32,
+      "LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 16,
+      "LONG_HORIZON_STATE_CARRY_CANDIDATE": 32,
+      "REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 32,
+      "UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 16
+    },
+    "SCIENCE_DIAGNOSIS": {
+      "ACTIVE_DISCRIMINATOR_CANDIDATE": 32,
+      "CURRENTNESS_PROPAGATION_CANDIDATE": 32,
+      "DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 16,
+      "EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 64,
+      "LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 48,
+      "REPRESENTATION_REFINEMENT_CANDIDATE": 16,
+      "UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 16
+    }
+  },
+  "errors": [],
+  "family_counts": {
+    "MEMORY_CURRENTNESS": 64,
+    "SCIENCE_DIAGNOSIS": 64
+  },
+  "jsonl": "state/analysis/STANDARD_UPLIFT_PROJECT_GENERATED_LHIT_GAPS_V1R4_20260902/PROJECT_GENERATED_SFT_QUARANTINE.jsonl",
+  "jsonl_sha256": "4e06798f631a2c89ed334afde33c459b9f8e405980860d7c8f6120bf5579defe",
+  "packaging_counts": {
+    "MEMORY_CURRENTNESS::MULTI_TURN": 32,
+    "MEMORY_CURRENTNESS::SINGLE_TURN": 32,
+    "SCIENCE_DIAGNOSIS::SINGLE_TURN": 64
+  },
+  "rows": 128,
+  "schema": "cfe.standard-uplift.project-generated-gap-fillers-verification.v1",
+  "status": "PASS",
+  "subtype_counts": {
+    "MEMORY_CURRENTNESS::AMBIGUOUS_CURRENTNESS_DISCRIMINATOR": 16,
+    "MEMORY_CURRENTNESS::DIRECT_STALE_UPDATE": 16,
+    "MEMORY_CURRENTNESS::INDIRECT_PROPAGATED_INVALIDATION": 16,
+    "MEMORY_CURRENTNESS::SELECTIVE_PRESERVATION": 16,
+    "SCIENCE_DIAGNOSIS::CHOOSE_DISCRIMINATOR": 16,
+    "SCIENCE_DIAGNOSIS::REPRESENTATION_REFINEMENT": 16,
+    "SCIENCE_DIAGNOSIS::SUPPORT_VS_DISCRIMINATION": 16,
+    "SCIENCE_DIAGNOSIS::UPDATE_CANDIDATES": 16
+  },
+  "unique_atom_ids": 128,
+  "unique_conversations": 128,
+  "unique_prompts": 128,
+  "warnings": []
+}

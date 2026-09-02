@@ -1,0 +1,76 @@
+{
+  "candidate_atoms": 1802,
+  "candidate_domain_families": {
+    "CODE_DEBUGGING": 400,
+    "GENERAL_INTERACTION": 260,
+    "LHIT_LONG_HORIZON": 360,
+    "MATH_SCIENCE_REASONING": 820,
+    "MEMORY_CURRENTNESS": 64,
+    "PLANNING_TOOL_AGENT": 325,
+    "RESEARCH": 420,
+    "SCIENCE_DIAGNOSIS": 64
+  },
+  "candidate_integrity": "state/analysis/STANDARD_UPLIFT_PRE_ADMISSION_CANDIDATE_V1_INTEGRITY_20260902.json",
+  "candidate_integrity_sha256": "77611eb31013f06018ae7b57067e374d2b6493ffae3a01c6d7f395c3c4e262b3",
+  "claim_ceiling": "All required LHIT-style domain families are now represented in the 1,802-atom pre-admission candidate, including verified project-generated memory/currentness and science/diagnosis surfaces. This does not make the corpus trainable; contamination and downstream final gates remain pending.",
+  "date": "2026-09-02",
+  "laws": [
+    "LHIT != CONVERSATION FORMAT",
+    "LHIT COVERAGE != CAPYBARA QUOTA",
+    "SOURCE FAMILY PRESENT != SCIENTIFIC CFE VALIDATION",
+    "PRE_ADMISSION COVERAGE != TRAINING ADMISSION",
+    "FINAL EVAL REGISTRY FREEZE REQUIRES CONTAMINATION RERUN",
+    "APPLY LHIT WHERE CONSEQUENCE STRUCTURE EXISTS; DO NOT FORCE IT INTO TRIVIAL EPISODES"
+  ],
+  "remaining_blockers": [
+    "CONTAMINATION_CLEARANCE_AGAINST_FROZEN_EVALUATION_EXCLUSION_LOCK",
+    "FINAL_INVARIANT_QUALITY_REVIEW_AFTER_CONTAMINATION",
+    "TOKENIZATION/TRUNCATION_CHECK_AFTER_FINAL_ROW_SET"
+  ],
+  "required_domain_family_state": {
+    "CODE_DEBUGGING": {
+      "count": 400,
+      "state": "PRESENT_PRE_ADMISSION"
+    },
+    "LHIT_LONG_HORIZON": {
+      "count": 360,
+      "state": "PRESENT_PRE_ADMISSION"
+    },
+    "MATH_LOGIC": {
+      "count": 820,
+      "state": "PRESENT_PRE_ADMISSION"
+    },
+    "MEMORY_CURRENTNESS": {
+      "count": 64,
+      "state": "PRESENT_PRE_ADMISSION_PROJECT_GENERATED_VERIFIED"
+    },
+    "PLANNING_TOOL_AGENT": {
+      "count": 325,
+      "state": "PRESENT_PRE_ADMISSION"
+    },
+    "RESEARCH": {
+      "count": 420,
+      "state": "PRESENT_PRE_ADMISSION"
+    },
+    "SCIENCE_DIAGNOSIS": {
+      "count": 64,
+      "state": "PRESENT_PRE_ADMISSION_PROJECT_GENERATED_VERIFIED"
+    }
+  },
+  "schema": "cfe.standard-uplift.lhit-cross-domain-coverage-audit.v2",
+  "status": "LHIT_REQUIRED_FAMILIES_PRESENT_IN_PRE_ADMISSION__FINAL_TRAINING_ADMISSION_BLOCKED_ON_CONTAMINATION",
+  "structural_readback": {
+    "donor_jargon_hits": [],
+    "license_states": {
+      "RESOLVED": 1434,
+      "RESOLVED_PINNED_DATASET_CARD": 240,
+      "RESOLVED_PROJECT_GENERATED": 128
+    },
+    "partition_conservation": "PASS",
+    "quality_states": {
+      "CANDIDATE": 1802
+    },
+    "unique_conversations": 1802,
+    "unique_prompts": 1802
+  }
+}

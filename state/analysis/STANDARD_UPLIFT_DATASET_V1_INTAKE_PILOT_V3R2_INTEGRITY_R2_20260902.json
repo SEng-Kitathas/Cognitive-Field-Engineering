@@ -1,0 +1,89 @@
+{
+  "admission_states": {
+    "QUARANTINE": 1968
+  },
+  "blockers": [
+    "CONTAMINATION_NOT_CLEARED",
+    "LICENSE_SEGREGATION_REQUIRED",
+    "RAW_QUALITY_ROWS_REMAIN",
+    "PROMPT_DEDUP_REQUIRED",
+    "ALL_ROWS_STILL_QUARANTINE"
+  ],
+  "contamination_states": {
+    "REVIEW": 80,
+    "UNSCREENED": 1760,
+    "UNSCREENED_PROJECT_GENERATED": 128
+  },
+  "duplicate_conversation_hash_groups": 0,
+  "duplicate_conversation_rows": 0,
+  "duplicate_prompt_hash_groups": 32,
+  "duplicate_prompt_rows": 72,
+  "generated_jsonl_sha256": "4e06798f631a2c89ed334afde33c459b9f8e405980860d7c8f6120bf5579defe",
+  "generated_verification_status": "PASS",
+  "laws": [
+    "SOURCE GAP FILLED != TRAINING ADMITTED",
+    "QUARANTINE != TRAINABLE",
+    "HEURISTIC COVERAGE != QUALIFIED COVERAGE",
+    "CONTAMINATION CLEARANCE MUST BE EXPLICIT",
+    "LICENSE SEGREGATION MUST PRECEDE MERGE",
+    "PROMPT DUPLICATE GROUP != AUTOMATIC DUPLICATE ANSWER\u2014REVIEW BEFORE COLLAPSE"
+  ],
+  "learner_donor_jargon_hits": [],
+  "lhit_dimension_counts": {
+    "ACTIVE_DISCRIMINATOR_CANDIDATE": 426,
+    "CONSEQUENTIAL_HISTORY_CANDIDATE": 1494,
+    "CURRENTNESS_PROPAGATION_CANDIDATE": 839,
+    "DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 1114,
+    "EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 1567,
+    "FAILURE_BOUNDARY_TRANSFER_CANDIDATE": 437,
+    "FOLLOWUP_CONSEQUENCE_TRACKING_CANDIDATE": 420,
+    "LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 1309,
+    "LOCAL_DERIVATION_REVISION_CANDIDATE": 598,
+    "LONG_HORIZON_STATE_CARRY_CANDIDATE": 957,
+    "REPRESENTATION_REFINEMENT_CANDIDATE": 369,
+    "REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 452,
+    "STATEFUL_PLAN_REVISION_CANDIDATE": 420,
+    "UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 300
+  },
+  "lhit_domain_families": {
+    "CODE_DEBUGGING": 480,
+    "GENERAL_INTERACTION": 260,
+    "LHIT_LONG_HORIZON": 360,
+    "MATH_SCIENCE_REASONING": 880,
+    "MEMORY_CURRENTNESS": 64,
+    "PLANNING_TOOL_AGENT": 420,
+    "RESEARCH": 460,
+    "SCIENCE_DIAGNOSIS": 64
+  },
+  "license_states": {
+    "RESOLVED": 1600,
+    "RESOLVED_PROJECT_GENERATED": 128,
+    "SEGREGATION_REQUIRED": 240
+  },
+  "missing_required": [],
+  "missing_required_count": 0,
+  "pilot": "state/analysis/STANDARD_UPLIFT_INTAKE_PILOT_V3R2_20260902",
+  "preference_atoms": 120,
+  "preference_sha256": "2122e965785816e4fdce041a320ce9c89a0b48e675cc2ef0cb8f39a978c69a02",
+  "quality_states": {
+    "CANDIDATE": 1870,
+    "RAW": 98
+  },
+  "required_gap_family_presence": {
+    "MEMORY_CURRENTNESS": 64,
+    "SCIENCE_DIAGNOSIS": 64
+  },
+  "schema": "cfe.standard-uplift.intake-v3-integrity.v1",
+  "sft_atoms": 1968,
+  "sft_sha256": "424e28be2c7005820bce81a3b9f9b2111adc0846cdcfefb8890617bb5a307ca1",
+  "source_counts": {
+    "default": 1660,
+    "memory_currentness_v1": 64,
+    "science_diagnosis_v1": 64,
+    "sft-trajectories": 100,
+    "v1.0": 80
+  },
+  "status": "SOURCE_GAPS_FILLED__FINAL_ADMISSION_BLOCKED",
+  "summary_sha256": "62395b8f5c76146e80cfdbccf60c1a4b70cfca2bd2a6dc8e0308a7b243d9ddcf",
+  "unique_atom_ids": 1968
+}

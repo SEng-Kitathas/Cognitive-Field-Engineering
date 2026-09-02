@@ -1,0 +1,29 @@
+{
+  "additional_information": [
+    "Apache 2.0 License",
+    "MIT License"
+  ],
+  "cached_readme_path": "state/analysis/source_cards/NEMOTRON_SFT_AGENTIC_V2_README_7c804833.md",
+  "commercial_use_statement": "This dataset is ready for commercial use.",
+  "covered_splits": [
+    "interactive_agent",
+    "search",
+    "tool_calling"
+  ],
+  "date": "2026-09-02",
+  "declared_front_matter_licenses": [
+    "cc-by-4.0",
+    "apache-2.0",
+    "mit"
+  ],
+  "disposition": "RESOLVE_PILOT_ROWS_TO_CC-BY-4.0_WITH_PINNED_CARD_PROVENANCE",
+  "guard": "DATASET_CARD_LICENSE_RESOLUTION != UPSTREAM_COMPONENT_LICENSE_REINTERPRETATION; retain attribution/provenance metadata",
+  "license_terms_statement": "This dataset is governed by the Creative Commons Attribution 4.0 International License (CC BY 4.0).",
+  "readme_bytes": 4916,
+  "readme_sha256": "0c8eda1886256837995c0f51a80d50179eebcb36265096e222cfe7abbf7a6475",
+  "repo": "nvidia/Nemotron-SFT-Agentic-v2",
+  "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/nvidia/Nemotron-SFT-Agentic-v2/7c804833427f633ccd53b582dbf02525fd680f78/README.md?%2Fdatasets%2Fnvidia%2FNemotron-SFT-Agentic-v2%2Fresolve%2F7c804833427f633ccd53b582dbf02525fd680f78%2FREADME.md=&etag=%226b6d634696109320f8d6ad49c7f8c812d733b527%22",
+  "revision": "7c804833427f633ccd53b582dbf02525fd680f78",
+  "schema": "cfe.standard-uplift.license-resolution.v1",
+  "source_url": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-v2/resolve/7c804833427f633ccd53b582dbf02525fd680f78/README.md"
+}

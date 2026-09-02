@@ -1,0 +1,28 @@
+{
+  "candidate": "state/analysis/STANDARD_UPLIFT_PRE_ADMISSION_CANDIDATE_V1_20260902/SFT_PRE_ADMISSION_CANDIDATE.jsonl",
+  "candidate_atoms": 1802,
+  "date": "2026-09-02",
+  "exact_examples": [],
+  "exact_matches": 0,
+  "internal_eval_files": 49,
+  "internal_eval_text_items": 1720,
+  "laws": [
+    "INTERNAL PASS != GLOBAL DECONTAMINATION",
+    "EXACT PRIVATE EVAL MATCH BLOCKS TRAINING",
+    "NEAR PRIVATE EVAL MATCH REQUIRES REVIEW",
+    "FINAL EVAL FREEZE REQUIRES RERUN"
+  ],
+  "max_nonexact_similarity": {
+    "candidate_atom": "191e6a6bb310ba6b3a4005d838f686cb7ef5de64ee957fbdced82e26013cbc75",
+    "eval_field": "messages[4].content",
+    "eval_line": 60,
+    "eval_path": "state/candidates/v11_fresh_eval_compiled_20260830/lhit.jsonl",
+    "score": 0.008928571428571428
+  },
+  "near_examples": [],
+  "near_matches": 0,
+  "near_threshold": 0.9,
+  "schema": "cfe.standard-uplift.internal-eval-overlap.v1",
+  "scope_guard": "CURRENT_INTERNAL CFE EVAL ONLY. Does not clear protected public benchmark families and must be rerun after final fleet phenotype/eval registry is frozen.",
+  "status": "PASS_NO_CURRENT_INTERNAL_OVERLAP"
+}

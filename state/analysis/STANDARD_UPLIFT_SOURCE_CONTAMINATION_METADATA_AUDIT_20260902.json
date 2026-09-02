@@ -1,0 +1,109 @@
+{
+  "schema": "cfe.standard-uplift.source-contamination-metadata-audit.v1",
+  "date": "2026-09-02",
+  "status": "SOURCE_NATIVE_EVIDENCE_CAPTURED__PUBLIC_REGISTRY_MATCH_STILL_REQUIRED",
+  "sources": [
+    {
+      "repo": "open-r1/OpenR1-Math-220k",
+      "revision": "e4e141ec9dea9f8326f4d347be56105859b2bd68",
+      "readme_sha256": "87a0390ba632618254d50c1614feb6a5a7803a28710118e1705bab18bda5e64e",
+      "native_evidence": "Card states problems come from NuminaMath 1.5 and solutions are generated/verified; no blanket protected-benchmark decontamination statement was found in the pinned card excerpt inspected.",
+      "risk": "HIGH_REVIEW_MATH_OLYMPIAD_LINEAGE",
+      "disposition": "REQUIRE_AIME_GPQA_MMLUPRO_REGISTRY_MATCH_AS_APPLICABLE; preserve problem_type/source lineage"
+    },
+    {
+      "repo": "nvidia/Nemotron-SFT-Math-v4",
+      "revision": "84d42ad0cb960f07f951b9baa9ed2b46a5a18c66",
+      "readme_sha256": "f979f03a730d021537a6896211d55f6ef2dc2bdc629279720547c72a14de0986",
+      "native_evidence": "Pinned card states the Math StackExchange subset is decontaminated to avoid overlap with public benchmarks; AoPS-derived samples are a distinct lineage and no blanket claim clearing all protected math eval families is assumed.",
+      "risk": "PARTIAL_NATIVE_DECONTAMINATION",
+      "disposition": "USE_ROW_SOURCE/URL/LICENSE LINEAGE; independently screen AoPS-derived rows against protected math eval registries"
+    },
+    {
+      "repo": "open-thoughts/OpenThoughts-114k",
+      "revision": "bd093c3994fd54d2390985b66988ddf282a55eb6",
+      "readme_sha256": "87dd0984b1ae912cd50507327d1358e378b3de07740600895734c939d0a55946",
+      "native_evidence": "Pinned card reports model evaluation on AIME24, GPQA-Diamond and LiveCodeBench variants, but the inspected card excerpt does not establish training-data decontamination from those protected evals.",
+      "risk": "HIGH_REVIEW_REASONING_MIX",
+      "disposition": "REQUIRE_PROTECTED_PUBLIC_EVAL_REGISTRY_MATCH"
+    },
+    {
+      "repo": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "revision": "778afc98a9e027e10b3cd78020c120e93e142ef2",
+      "readme_sha256": "85a91f876e3086903330e842e2ea9c7cda793943ce1a99837ba0ddc3a2ea051e",
+      "native_evidence": "Pinned card states its Exercism-derived Python subset removed Aider benchmark problems. Candidate rows also include Codeforces lineage; Aider decontamination does not clear LiveCodeBench or other protected coding evals.",
+      "risk": "HIGH_REVIEW_CODEFORCES_LINEAGE",
+      "disposition": "REQUIRE_LIVECODEBENCH/PROTECTED_CODE_REGISTRY_MATCH; preserve upstream lineage"
+    },
+    {
+      "repo": "osunlp/QUEST-SFT-Data-Open-ended",
+      "revision": "3d3d79ac4e2e6e0b8d1072d19bd57512c40c469b",
+      "readme_sha256": "c27a341e5ffc90f1ccc927fffcc3ca388bbd5f09273e51adaffe75ab2a6cc5dd",
+      "native_evidence": "Pinned card provides MIT licensing/copyright construction notes but no protected-eval decontamination claim in the inspected card.",
+      "risk": "RESEARCH_QUERY_REVIEW",
+      "disposition": "REQUIRE_BROWSECOMP/DEEP_RESEARCH_REGISTRY_MATCH"
+    },
+    {
+      "repo": "osunlp/QUEST-SFT-Data-Objective",
+      "revision": "5eddb5e9503cbe60761e573c16eff251b017cebe",
+      "readme_sha256": "0743d56cdc327c185e3b9cf14fc1ac8df4a23ef25e6171dbe898eaae3a0daaac",
+      "native_evidence": "Pinned card provides MIT licensing/copyright construction notes but no protected-eval decontamination claim in the inspected card.",
+      "risk": "RESEARCH_QUERY_REVIEW",
+      "disposition": "REQUIRE_BROWSECOMP/DEEP_RESEARCH_REGISTRY_MATCH"
+    },
+    {
+      "repo": "simplex-ai-inc/LiteResearcher-SFT-Data",
+      "revision": "5c8caa17121e216f8ad8f928e6a8d4f51d3fefee",
+      "readme_sha256": "a29b38a9b6cfe15a1c11b286efc59a03ace62b7defbf3d6035f5f21a211da436",
+      "native_evidence": "Pinned card explicitly lists a BenchSeedQA shard and recommends evaluation on BrowseComp, HLE and other deep-research benchmarks; no blanket decontamination statement is assumed.",
+      "risk": "VERY_HIGH_REVIEW_DEEP_RESEARCH",
+      "disposition": "USE_SOURCE/SHARD LINEAGE IF AVAILABLE; REQUIRE_BROWSECOMP_HLE_REGISTRY_MATCH"
+    },
+    {
+      "repo": "NextTokenAI/NextSearch-1-Trajectories",
+      "revision": "d32183c6289d32c5d51b6247e68d53a58dddd495",
+      "readme_sha256": "f21af89dbe7cc460835a76a7b875deca8a6f9c8c5b10053b840233df563dbfad",
+      "native_evidence": "Pinned card exposes source/license/corpus/band fields via companion task lineage but the inspected card excerpt does not establish protected-eval decontamination.",
+      "risk": "RESEARCH_TRAJECTORY_REVIEW",
+      "disposition": "PRESERVE COMPANION TASK SOURCE LINEAGE; REQUIRE BROWSECOMP/HLE/FINAL DEEP-RESEARCH REGISTRY MATCH"
+    },
+    {
+      "repo": "LDJnr/Capybara",
+      "revision": "c2bc39ac72f24748f60f5fb55b77e08fb0660ba6",
+      "readme_sha256": "51459380b8e4f5074fe07d545cd278261443de669aa5c5daffcfabd107152370",
+      "native_evidence": "Pinned card reports MinHash contamination checks down to 97% similarity against several older benchmark families and says MT-bench contamination was cleaned. This does not automatically cover the newer protected fleet-eval lock.",
+      "risk": "PARTIAL_LEGACY_DECONTAMINATION",
+      "disposition": "PRESERVE NATIVE CLAIM; STILL RUN CURRENT PROTECTED EVAL REGISTRY MATCH"
+    },
+    {
+      "repo": "CFE/project-generated-standard-uplift",
+      "revision": "v1-2026-09-02",
+      "native_evidence": "128 deterministic project-generated memory/currentness and science/diagnosis atoms passed uniqueness, hidden-contract, donor-jargon and generated-vs-base near-duplicate verification.",
+      "risk": "PROJECT_GENERATED_BUT_NOT_EVAL_CLEARED",
+      "disposition": "RUN EXACT/FUZZY MATCH AGAINST EVERY PROTECTED EVAL REGISTRY; generation provenance alone does not waive contamination gate"
+    }
+  ],
+  "current_internal_eval_screen": {
+    "record": "state/analysis/STANDARD_UPLIFT_INTERNAL_EVAL_OVERLAP_V1_20260902.json",
+    "status": "PASS_NO_CURRENT_INTERNAL_OVERLAP",
+    "internal_eval_files": 49,
+    "internal_eval_text_items": 1720,
+    "exact_matches": 0,
+    "near_matches_ge_0_90": 0,
+    "max_nonexact_similarity": 0.008928571428571428
+  },
+  "remaining": [
+    "acquire/freeze protected public eval registries named by STANDARD_UPLIFT_DATASET_V1_EVALUATION_EXCLUSION_LOCK_2026-09-02.json",
+    "run exact normalized comparison",
+    "run fuzzy/near-duplicate comparison",
+    "manual review ambiguous hits",
+    "rerun after final fleet phenotype packet is frozen"
+  ],
+  "laws": [
+    "SOURCE CARD DECONTAMINATION CLAIM != OUR FINAL CLEARANCE",
+    "PARTIAL SUBSET DECONTAMINATION != WHOLE SOURCE CLEARANCE",
+    "MODEL EVALUATED ON BENCHMARK != TRAINING DATA DECONTAMINATED FROM BENCHMARK",
+    "PROJECT GENERATED != CONTAMINATION FREE",
+    "FINAL EVAL FREEZE REQUIRES RERUN"
+  ]
+}

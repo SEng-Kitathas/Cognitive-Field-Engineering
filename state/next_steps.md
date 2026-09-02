@@ -112,3 +112,16 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 7. Require explicit single-record LHIT-style examples in final coverage to prove `LHIT != MULTI_TURN FORMAT` operationally.
 8. Audit heuristic precision before using counts for balancing; current v2 candidate counts are intentionally broad screening signals and may contain false positives.
 9. Keep Capybara as donor/training surface only; no Capybara quota may stand in for measured LHIT invariant coverage.
+
+## Standard Uplift pre-admission next pressure — 2026-09-02
+1. **Contamination is now the sole training-admission blocker for the 1,802-atom pre-admission SFT candidate.** Apply `state/locks/STANDARD_UPLIFT_DATASET_V1_EVALUATION_EXCLUSION_LOCK_2026-09-02.json` exactly; do not weaken protected families to preserve corpus size.
+2. Acquire/freeze compact local registries for the protected public eval families: AIME 2024/25/26 official, GPQA/GPQA-Diamond, MMLU-Pro, IFEval/IFBench, LiveCodeBench, SWE-bench/Verified, Terminal-Bench, BFCL, HLE, and BrowseComp/deep-research final comparison questions. Store registries locally/non-Git when redistribution is inappropriate; publish hashes/manifests only.
+3. Run normalized exact hash + fuzzy/near-duplicate matching against the 1,802 candidate, preserving source-native contamination/decontamination metadata and manually reviewing ambiguous high-similarity cases.
+4. Prioritize high-risk source lineages from `STANDARD_UPLIFT_SOURCE_CONTAMINATION_METADATA_AUDIT_20260902.json`: OpenR1 olympiad, Nemotron Math AoPS, OpenThoughts reasoning mix, Nemotron Code Codeforces, LiteResearcher BenchSeedQA, QUEST/NextSearch deep-research tasks. Do not infer whole-source clearance from partial native decontamination claims.
+5. Current internal/private CFE eval screen already PASS: 49 files / 1,720 eval text items / 0 exact / 0 near >=0.90. **Rerun after final fleet phenotype/eval packet freeze.**
+6. Keep the 80 Open-SWE traces physically segregated until SWE benchmark-form contamination is explicitly cleared; do not re-add them merely to increase code-agent volume.
+7. Keep 40 repeated-prompt alternate trajectories physically separate. They are distinct trajectories, not exact duplicates; no objective ranking exists yet. Reintroduce only if a later diversity/trajectory-selection experiment justifies their weighting.
+8. After contamination filter freezes the row set, run hostile invariant-quality sampling by domain/invariant, especially precision of LHIT cross-domain tags and project-generated memory/science surfaces. `HEURISTIC TAG != VERIFIED INVARIANT` remains binding.
+9. Run tokenizer/target-context profiling only on the final post-contamination row set; reject/descope destructive truncation rather than silently cropping consequential history.
+10. Preference data remains separate from SFT through all gates. Do not merge `Capybara-Preferences-Filtered` into SFT merely because the SFT candidate is ready.
+11. No training run until contamination + final quality + tokenization gates all PASS and an explicit training authorization artifact is created.

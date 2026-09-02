@@ -1,0 +1,377 @@
+{
+  "base_pilot": "state/analysis/STANDARD_UPLIFT_INTAKE_PILOT_V2_20260902",
+  "base_schema": "cfe.standard-uplift.intake-pilot.v2",
+  "base_sft_sha256": "37f4df74e034072c05502b3547568da5c672186536fe6046095786e3974089c2",
+  "contamination_states": {
+    "REVIEW": 80,
+    "UNSCREENED": 1760,
+    "UNSCREENED_PROJECT_GENERATED": 128
+  },
+  "created_unix": 1788386703.9541435,
+  "cross_corpus_exact_duplicates": 0,
+  "cross_corpus_max_prompt_jaccard_3gram": {
+    "base_atom": "20548490d63acf0e902261e6441d6acbcf7c8ca6747cdd35e45ae994137604a2",
+    "generated_atom": "95d1467c892936357b44f36716c956a5a399e126924c5656b0af005ac0b332e9",
+    "score": 0.017857142857142856
+  },
+  "cross_corpus_near_duplicate_threshold": 0.9,
+  "cross_corpus_near_duplicates_at_or_above_threshold": 0,
+  "generated_manifest_sha256": "b0486ce7f303b480a425f618aa2819d92332e2f7a93f7eabafecdcb81f18830d",
+  "generated_verification_sha256": "3be4c9cdd0048f3bc050b8fa73fc4b01ad755cef86797c105fa2fbd3f6d53258",
+  "interaction_shapes": {
+    "MULTI_TURN": 537,
+    "RESEARCH_TRAJECTORY": 180,
+    "SINGLE_TURN": 1011,
+    "TOOL_TRAJECTORY": 240
+  },
+  "laws": [
+    "PILOT QUARANTINE != TRAINABLE CORPUS",
+    "PROJECT GENERATED != CONTAMINATION CLEARED",
+    "GENERATOR CONTRACT PASS != HOSTILE QUALITY PASS",
+    "LHIT != CONVERSATION FORMAT",
+    "SOURCE FAMILY PRESENT != FINAL QUALIFIED COVERAGE",
+    "PREFERENCE DATA REMAINS PHYSICALLY SEPARATE FROM SFT",
+    "BASE V2 BYTES VERIFIED BEFORE MERGE"
+  ],
+  "lhit_cross_domain_dimensions": {
+    "ACTIVE_DISCRIMINATOR_CANDIDATE": 426,
+    "CONSEQUENTIAL_HISTORY_CANDIDATE": 1494,
+    "CURRENTNESS_PROPAGATION_CANDIDATE": 839,
+    "DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 1114,
+    "EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 1567,
+    "FAILURE_BOUNDARY_TRANSFER_CANDIDATE": 437,
+    "FOLLOWUP_CONSEQUENCE_TRACKING_CANDIDATE": 420,
+    "LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 1309,
+    "LOCAL_DERIVATION_REVISION_CANDIDATE": 598,
+    "LONG_HORIZON_STATE_CARRY_CANDIDATE": 957,
+    "REPRESENTATION_REFINEMENT_CANDIDATE": 369,
+    "REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 452,
+    "STATEFUL_PLAN_REVISION_CANDIDATE": 420,
+    "UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 300
+  },
+  "lhit_dimension_by_domain": {
+    "CODE_DEBUGGING::CONSEQUENTIAL_HISTORY_CANDIDATE": 479,
+    "CODE_DEBUGGING::CURRENTNESS_PROPAGATION_CANDIDATE": 290,
+    "CODE_DEBUGGING::DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 437,
+    "CODE_DEBUGGING::EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 462,
+    "CODE_DEBUGGING::FAILURE_BOUNDARY_TRANSFER_CANDIDATE": 437,
+    "CODE_DEBUGGING::FOLLOWUP_CONSEQUENCE_TRACKING_CANDIDATE": 80,
+    "CODE_DEBUGGING::LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 381,
+    "CODE_DEBUGGING::LOCAL_DERIVATION_REVISION_CANDIDATE": 339,
+    "CODE_DEBUGGING::LONG_HORIZON_STATE_CARRY_CANDIDATE": 80,
+    "CODE_DEBUGGING::REPRESENTATION_REFINEMENT_CANDIDATE": 229,
+    "CODE_DEBUGGING::REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 80,
+    "CODE_DEBUGGING::STATEFUL_PLAN_REVISION_CANDIDATE": 80,
+    "CODE_DEBUGGING::UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 115,
+    "GENERAL_INTERACTION::CONSEQUENTIAL_HISTORY_CANDIDATE": 159,
+    "GENERAL_INTERACTION::CURRENTNESS_PROPAGATION_CANDIDATE": 84,
+    "GENERAL_INTERACTION::DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 82,
+    "GENERAL_INTERACTION::EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 153,
+    "GENERAL_INTERACTION::FAILURE_BOUNDARY_TRANSFER_CANDIDATE": 18,
+    "GENERAL_INTERACTION::LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 56,
+    "GENERAL_INTERACTION::LOCAL_DERIVATION_REVISION_CANDIDATE": 30,
+    "GENERAL_INTERACTION::LONG_HORIZON_STATE_CARRY_CANDIDATE": 59,
+    "GENERAL_INTERACTION::REPRESENTATION_REFINEMENT_CANDIDATE": 73,
+    "GENERAL_INTERACTION::UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 16,
+    "LHIT_LONG_HORIZON::ACTIVE_DISCRIMINATOR_CANDIDATE": 18,
+    "LHIT_LONG_HORIZON::CONSEQUENTIAL_HISTORY_CANDIDATE": 178,
+    "LHIT_LONG_HORIZON::CURRENTNESS_PROPAGATION_CANDIDATE": 61,
+    "LHIT_LONG_HORIZON::DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 88,
+    "LHIT_LONG_HORIZON::EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 157,
+    "LHIT_LONG_HORIZON::FOLLOWUP_CONSEQUENCE_TRACKING_CANDIDATE": 80,
+    "LHIT_LONG_HORIZON::LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 128,
+    "LHIT_LONG_HORIZON::LONG_HORIZON_STATE_CARRY_CANDIDATE": 360,
+    "LHIT_LONG_HORIZON::REPRESENTATION_REFINEMENT_CANDIDATE": 19,
+    "LHIT_LONG_HORIZON::REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 80,
+    "LHIT_LONG_HORIZON::STATEFUL_PLAN_REVISION_CANDIDATE": 80,
+    "LHIT_LONG_HORIZON::UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 11,
+    "MATH_SCIENCE_REASONING::ACTIVE_DISCRIMINATOR_CANDIDATE": 80,
+    "MATH_SCIENCE_REASONING::CONSEQUENTIAL_HISTORY_CANDIDATE": 751,
+    "MATH_SCIENCE_REASONING::CURRENTNESS_PROPAGATION_CANDIDATE": 256,
+    "MATH_SCIENCE_REASONING::DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 607,
+    "MATH_SCIENCE_REASONING::EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 844,
+    "MATH_SCIENCE_REASONING::FAILURE_BOUNDARY_TRANSFER_CANDIDATE": 339,
+    "MATH_SCIENCE_REASONING::LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 735,
+    "MATH_SCIENCE_REASONING::LOCAL_DERIVATION_REVISION_CANDIDATE": 598,
+    "MATH_SCIENCE_REASONING::LONG_HORIZON_STATE_CARRY_CANDIDATE": 98,
+    "MATH_SCIENCE_REASONING::REPRESENTATION_REFINEMENT_CANDIDATE": 178,
+    "MATH_SCIENCE_REASONING::UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 139,
+    "MEMORY_CURRENTNESS::ACTIVE_DISCRIMINATOR_CANDIDATE": 16,
+    "MEMORY_CURRENTNESS::CONSEQUENTIAL_HISTORY_CANDIDATE": 64,
+    "MEMORY_CURRENTNESS::CURRENTNESS_PROPAGATION_CANDIDATE": 64,
+    "MEMORY_CURRENTNESS::DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 32,
+    "MEMORY_CURRENTNESS::LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 16,
+    "MEMORY_CURRENTNESS::LONG_HORIZON_STATE_CARRY_CANDIDATE": 32,
+    "MEMORY_CURRENTNESS::REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 32,
+    "MEMORY_CURRENTNESS::UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 16,
+    "PLANNING_TOOL_AGENT::ACTIVE_DISCRIMINATOR_CANDIDATE": 180,
+    "PLANNING_TOOL_AGENT::CONSEQUENTIAL_HISTORY_CANDIDATE": 386,
+    "PLANNING_TOOL_AGENT::CURRENTNESS_PROPAGATION_CANDIDATE": 313,
+    "PLANNING_TOOL_AGENT::DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 303,
+    "PLANNING_TOOL_AGENT::EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 399,
+    "PLANNING_TOOL_AGENT::FAILURE_BOUNDARY_TRANSFER_CANDIDATE": 80,
+    "PLANNING_TOOL_AGENT::FOLLOWUP_CONSEQUENCE_TRACKING_CANDIDATE": 420,
+    "PLANNING_TOOL_AGENT::LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 354,
+    "PLANNING_TOOL_AGENT::LONG_HORIZON_STATE_CARRY_CANDIDATE": 420,
+    "PLANNING_TOOL_AGENT::REPRESENTATION_REFINEMENT_CANDIDATE": 82,
+    "PLANNING_TOOL_AGENT::REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 420,
+    "PLANNING_TOOL_AGENT::STATEFUL_PLAN_REVISION_CANDIDATE": 420,
+    "PLANNING_TOOL_AGENT::UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 78,
+    "RESEARCH::ACTIVE_DISCRIMINATOR_CANDIDATE": 378,
+    "RESEARCH::CONSEQUENTIAL_HISTORY_CANDIDATE": 366,
+    "RESEARCH::CURRENTNESS_PROPAGATION_CANDIDATE": 321,
+    "RESEARCH::DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 270,
+    "RESEARCH::EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 378,
+    "RESEARCH::FOLLOWUP_CONSEQUENCE_TRACKING_CANDIDATE": 180,
+    "RESEARCH::LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 333,
+    "RESEARCH::LOCAL_DERIVATION_REVISION_CANDIDATE": 45,
+    "RESEARCH::LONG_HORIZON_STATE_CARRY_CANDIDATE": 446,
+    "RESEARCH::REPRESENTATION_REFINEMENT_CANDIDATE": 43,
+    "RESEARCH::REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 180,
+    "RESEARCH::STATEFUL_PLAN_REVISION_CANDIDATE": 180,
+    "RESEARCH::UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 90,
+    "SCIENCE_DIAGNOSIS::ACTIVE_DISCRIMINATOR_CANDIDATE": 32,
+    "SCIENCE_DIAGNOSIS::CURRENTNESS_PROPAGATION_CANDIDATE": 32,
+    "SCIENCE_DIAGNOSIS::DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 16,
+    "SCIENCE_DIAGNOSIS::EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 64,
+    "SCIENCE_DIAGNOSIS::LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 48,
+    "SCIENCE_DIAGNOSIS::REPRESENTATION_REFINEMENT_CANDIDATE": 16,
+    "SCIENCE_DIAGNOSIS::UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 16
+  },
+  "lhit_domain_families": {
+    "CODE_DEBUGGING": 480,
+    "GENERAL_INTERACTION": 260,
+    "LHIT_LONG_HORIZON": 360,
+    "MATH_SCIENCE_REASONING": 880,
+    "MEMORY_CURRENTNESS": 64,
+    "PLANNING_TOOL_AGENT": 420,
+    "RESEARCH": 460,
+    "SCIENCE_DIAGNOSIS": 64
+  },
+  "license_states": {
+    "RESOLVED": 1600,
+    "RESOLVED_PROJECT_GENERATED": 128,
+    "SEGREGATION_REQUIRED": 240
+  },
+  "preference_atoms": 120,
+  "preference_sha256": "2122e965785816e4fdce041a320ce9c89a0b48e675cc2ef0cb8f39a978c69a02",
+  "quality_states": {
+    "CANDIDATE": 1870,
+    "RAW": 98
+  },
+  "schema": "cfe.standard-uplift.intake-pilot.v3",
+  "sft_atoms": 1968,
+  "sft_sha256": "424e28be2c7005820bce81a3b9f9b2111adc0846cdcfefb8890617bb5a307ca1",
+  "source_stats": {
+    "capybara": {
+      "error": null,
+      "normalized": 180,
+      "read_modes": {
+        "PINNED_DATASETS_STREAM": 180
+      },
+      "repo": "LDJnr/Capybara",
+      "requested": 180,
+      "scanned": 180,
+      "split": "train"
+    },
+    "lite_research": {
+      "error": null,
+      "normalized": 100,
+      "read_modes": {
+        "PINNED_DATASETS_STREAM": 100
+      },
+      "repo": "simplex-ai-inc/LiteResearcher-SFT-Data",
+      "requested": 100,
+      "scanned": 100,
+      "split": "train"
+    },
+    "nem_agent_interactive": {
+      "error": null,
+      "normalized": 80,
+      "read_modes": {
+        "PINNED_RAW_JSONL_STREAM": 80
+      },
+      "repo": "nvidia/Nemotron-SFT-Agentic-v2",
+      "requested": 80,
+      "scanned": 80,
+      "split": "interactive_agent"
+    },
+    "nem_agent_search": {
+      "error": null,
+      "normalized": 80,
+      "read_modes": {
+        "PINNED_RAW_JSONL_STREAM": 80
+      },
+      "repo": "nvidia/Nemotron-SFT-Agentic-v2",
+      "requested": 80,
+      "scanned": 80,
+      "split": "search"
+    },
+    "nem_agent_tools": {
+      "error": null,
+      "normalized": 80,
+      "read_modes": {
+        "PINNED_RAW_JSONL_STREAM": 80
+      },
+      "repo": "nvidia/Nemotron-SFT-Agentic-v2",
+      "requested": 80,
+      "scanned": 80,
+      "split": "tool_calling"
+    },
+    "nem_code_cpp": {
+      "error": null,
+      "normalized": 80,
+      "read_modes": {
+        "PINNED_RAW_JSONL_STREAM": 80
+      },
+      "repo": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "requested": 80,
+      "scanned": 80,
+      "split": "competitive_coding_cpp"
+    },
+    "nem_code_py": {
+      "error": null,
+      "normalized": 100,
+      "read_modes": {
+        "PINNED_RAW_JSONL_STREAM": 100
+      },
+      "repo": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "requested": 100,
+      "scanned": 100,
+      "split": "competitive_coding_python"
+    },
+    "nem_if_off": {
+      "error": null,
+      "normalized": 100,
+      "read_modes": {
+        "PINNED_RAW_JSONL_STREAM": 100
+      },
+      "repo": "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2",
+      "requested": 100,
+      "scanned": 100,
+      "split": "reasoning_off"
+    },
+    "nem_if_on": {
+      "error": null,
+      "normalized": 100,
+      "read_modes": {
+        "PINNED_RAW_JSONL_STREAM": 100
+      },
+      "repo": "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2",
+      "requested": 100,
+      "scanned": 100,
+      "split": "reasoning_on"
+    },
+    "nem_math": {
+      "error": null,
+      "normalized": 180,
+      "read_modes": {
+        "PINNED_DATASETS_STREAM": 180
+      },
+      "repo": "nvidia/Nemotron-SFT-Math-v4",
+      "requested": 180,
+      "scanned": 180,
+      "split": "train"
+    },
+    "nem_sql": {
+      "error": null,
+      "normalized": 60,
+      "read_modes": {
+        "PINNED_RAW_JSONL_STREAM": 60
+      },
+      "repo": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "requested": 60,
+      "scanned": 60,
+      "split": "text_to_sql"
+    },
+    "nextsearch": {
+      "error": null,
+      "normalized": 100,
+      "read_modes": {
+        "PINNED_DATASETS_STREAM": 100
+      },
+      "repo": "NextTokenAI/NextSearch-1-Trajectories",
+      "requested": 100,
+      "scanned": 100,
+      "split": "train"
+    },
+    "openr1": {
+      "error": null,
+      "normalized": 180,
+      "read_modes": {
+        "PINNED_DATASETS_STREAM": 180
+      },
+      "repo": "open-r1/OpenR1-Math-220k",
+      "requested": 180,
+      "scanned": 180,
+      "split": "train"
+    },
+    "openthoughts": {
+      "error": null,
+      "normalized": 160,
+      "read_modes": {
+        "PINNED_DATASETS_STREAM": 160
+      },
+      "repo": "open-thoughts/OpenThoughts-114k",
+      "requested": 160,
+      "scanned": 160,
+      "split": "train"
+    },
+    "project_memory_currentness_v1": {
+      "error": null,
+      "normalized": 64,
+      "read_modes": {
+        "PROJECT_GENERATED_VERIFIED": 64
+      },
+      "repo": "CFE/project-generated-standard-uplift",
+      "requested": 64,
+      "scanned": 64,
+      "split": "quarantine"
+    },
+    "project_science_diagnosis_v1": {
+      "error": null,
+      "normalized": 64,
+      "read_modes": {
+        "PROJECT_GENERATED_VERIFIED": 64
+      },
+      "repo": "CFE/project-generated-standard-uplift",
+      "requested": 64,
+      "scanned": 64,
+      "split": "quarantine"
+    },
+    "quest_obj": {
+      "error": null,
+      "normalized": 80,
+      "read_modes": {
+        "PINNED_DATASETS_STREAM": 80
+      },
+      "repo": "osunlp/QUEST-SFT-Data-Objective",
+      "requested": 80,
+      "scanned": 80,
+      "split": "train"
+    },
+    "quest_open": {
+      "error": null,
+      "normalized": 100,
+      "read_modes": {
+        "PINNED_DATASETS_STREAM": 100
+      },
+      "repo": "osunlp/QUEST-SFT-Data-Open-ended",
+      "requested": 100,
+      "scanned": 100,
+      "split": "train"
+    },
+    "swe": {
+      "error": null,
+      "normalized": 80,
+      "read_modes": {
+        "PINNED_DATASETS_STREAM": 80
+      },
+      "repo": "nvidia/Open-SWE-Traces",
+      "requested": 80,
+      "scanned": 80,
+      "split": "openhands"
+    }
+  },
+  "status": "NORMALIZATION_PILOT_COMPLETE__SOURCE_GAPS_FILLED_AT_QUARANTINE__NOT_TRAINABLE"
+}

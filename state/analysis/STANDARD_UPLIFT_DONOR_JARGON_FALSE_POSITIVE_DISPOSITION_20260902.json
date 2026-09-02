@@ -1,0 +1,40 @@
+{
+  "schema": "cfe.standard-uplift.donor-jargon-false-positive-disposition.v1",
+  "date": "2026-09-02",
+  "status": "FALSE_POSITIVES_RESOLVED__NO_VERIFIED_DOCTRINE_LEAK_FROM_22_FLAGS",
+  "input_audit": "state/analysis/STANDARD_UPLIFT_DATASET_V1_INTAKE_PILOT_V3R2_INTEGRITY_20260902.json",
+  "flagged_count": 22,
+  "disposition": {
+    "ATMS": {
+      "flagged": 2,
+      "verified_doctrine_jargon": 0,
+      "actual": [
+        "ordinary plural ATMs in banking/search material",
+        "SQL table named atms for automated teller machines"
+      ],
+      "cause": "case-insensitive substring/token check cannot distinguish ATMS (Assumption-Based TMS) from ATMs (automated teller machines)"
+    },
+    "CFE": {
+      "flagged": 20,
+      "verified_doctrine_jargon": 0,
+      "actual": [
+        "URL/hash/commit/SHA substrings",
+        "identifier substrings",
+        "unrelated event acronym CFEF"
+      ],
+      "cause": "naive substring scan over arbitrary source text"
+    }
+  },
+  "generated_surface_readback": {
+    "path": "state/analysis/STANDARD_UPLIFT_PROJECT_GENERATED_LHIT_GAPS_V1R4_20260902/VERIFICATION.json",
+    "status": "PASS",
+    "forbidden_learner_terms_check": "PASS_ZERO_HITS"
+  },
+  "replacement_scan_policy": [
+    "Do not use bare CFE or ATMS substrings as global learner-jargon blockers.",
+    "Check semantic phrases such as Cognitive Field Engineering, Assumption-Based TMS, truth maintenance system, and explicit LHIT/long-horizon-interaction doctrine wording.",
+    "Generated project surfaces retain the stricter zero-donor-term verifier because their vocabulary is under project control.",
+    "Upstream natural corpora are not rejected for coincidental acronyms, URLs, hashes, identifiers, or ordinary ATM terminology."
+  ],
+  "claim_ceiling": "This disposition resolves only the 22 flagged jargon alerts. It does not qualify the affected upstream atoms for training and does not alter contamination, license, quality, dedup, or admission state."
+}
