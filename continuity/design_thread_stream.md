@@ -1117,3 +1117,12 @@ User proposed that the reasoning exemplar may contain much stronger signal than 
 
 ## Turn — ASSISTANT / AUDIT + BUILD-COMMIT
 Separated supported structural signal from overclaims. Rejected literal-MCTS/PRM/entropy-spike interpretations as unverified from text alone. Promoted a stronger second-order hypothesis: object-level hypothesis failure differs from representation-level failure; a representation is too coarse when it aliases states with different task-relevant consequences. Created first-class research and doctrine artifacts covering representation-adequacy monitoring, missing-distinction detection, granularity refinement, coordinate replacement, refinement-with-conservation, representation currentness/debt, and dataset/cartography implications.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: ANTHROPIC, CFE ANALOGUE, DEVELOPMENTAL FIELD
+User proposed that Anthropic may have its own rudimentary form of CFE.
+
+## Turn — ASSISTANT / AUDIT + COMPARATIVE SYNTHESIS
+Audited Anthropic's public training research. Found strong methodological isomorphisms but no evidence of CFE proper. `Teaching Claude Why` (2026) is the strongest analogue: otherwise unnecessary tool definitions and varied system prompts around unchanged user requests improved OOD alignment; principle-bearing synthetic documents/stories and difficult-advice training generalized better than surface-near demonstrations. Reward-tampering curriculum work provides a path-dependence/hysteresis analogue: prior training history altered later zero-shot behavior and residual propensity remained after surface remediation. Created a high-value external-donor audit and added candidate CFE follow-ups for contextual affordance fields and developmental hysteresis, with explicit guard `ANTHROPIC CFE-LIKE EFFECTS != ANTHROPIC HAS CFE`.

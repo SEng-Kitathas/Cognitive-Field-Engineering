@@ -98,3 +98,10 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Key candidate law: a representation is too coarse when it maps states with different task-relevant consequences/actions to the same learner-usable representation.
 - Candidate meta-primitives: representation adequacy monitoring, missing-distinction detection, granularity refinement, coordinate replacement, refinement-with-conservation, representation debt/currentness.
 - Guard: tree-like visible reasoning != literal MCTS; stress/checkmark tokens != proven entropy/PRM anchors.
+
+## Turn delta — 2026-09-02 Anthropic CFE-like audit
+- User proposed Anthropic may have a rudimentary CFE analogue.
+- Public Anthropic research shows CFE-adjacent effects: critique/revision training, synthetic contextual variation, principle-bearing OOD training, unchanged-task environment augmentation, data/environment diversity, and curriculum/path dependence.
+- Strongest methodological analogue is `Teaching Claude Why` (2026): surrounding training context/tool definitions/system variation changed later OOD behavior even when core user requests were unchanged.
+- Strongest historical analogue is reward-tampering curriculum persistence after partial remediation.
+- Guard: `ANTHROPIC CFE-LIKE EFFECTS != ANTHROPIC HAS CFE`; no public evidence of CFE's full matched-geometry/cartographic/coordinate-hostile program.

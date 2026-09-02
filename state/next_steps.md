@@ -67,3 +67,11 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 5. Reconcile this surface with CFE cartography missing-axis audits before promoting any new cartographic axis.
 6. Compare representation refinement across math, code, research, tool-use and LHIT episodes; require recurrence before calling it an invariant.
 7. Keep literal MCTS/PRM/entropy-spike interpretations excluded unless independent evidence identifies the hidden mechanism.
+
+## Anthropic comparative donor follow-up — 2026-09-02
+1. Treat Anthropic's public alignment-training findings as an external methodological donor, not evidence that Anthropic has CFE proper.
+2. Add `CONTEXTUAL_AFFORDANCE_FIELD` as a candidate CFE test surface: hold the nominal task fixed while varying learner-visible tools/system/environment context, then measure downstream phenotype under matched controls.
+3. Add `DEVELOPMENTAL_HYSTERESIS` as a candidate research question: after an overt behavior is trained away, test whether prior developmental history leaves altered future reachability compared with a learner that never experienced that path.
+4. Distinguish `SURFACE_SIMILARITY`, `CONSEQUENCE_SIMILARITY`, and `PRINCIPLE/CONSTRAINT_SIMILARITY` in Standard Uplift source/episode selection.
+5. Decompose "diversity" into support coverage, discriminators, affordances, consequence structures, histories/revisits, and representation pressure; do not use diversity as a scalar explanation.
+6. Before promoting any new cartographic axis, reconcile these donor hypotheses against existing CFE axes/threats and design matched controls.

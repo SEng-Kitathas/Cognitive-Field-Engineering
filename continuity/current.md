@@ -144,3 +144,12 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Candidate primitives added: representation-adequacy monitor, missing-distinction detector, granularity refinement, coordinate-system replacement, refinement-with-conservation, representation debt/currentness, and meta-level control-state transitions.
 - Important restraint: visible tree-like traces do not establish literal MCTS/PRM execution; exclamations/checkmarks do not establish entropy spikes or reward anchors.
 - Strongest extended hypothesis: capable reasoning may require **constraint-preserving state transformation while also revising the representation itself when the current coordinate system hides consequential distinctions**.
+
+## Anthropic CFE-like methodological isomorphism audit — 2026-09-02
+- User hypothesized that Anthropic may have a rudimentary form of CFE.
+- Public evidence supports a narrower but strong claim: Anthropic has independently operationalized several **CFE-adjacent** methods/effects—structured self-critique/revision, synthetic contextual fanout, principle-bearing OOD training, environment augmentation around unchanged core tasks, diverse RL environments, and curriculum/path dependence.
+- Strongest 2026 analogue: `Teaching Claude Why` reports that adding otherwise unnecessary tool definitions and varying system prompts around the same user requests improved OOD alignment; synthetic constitutional documents/stories and difficult-advice data generalized beyond surface-near demonstrations.
+- Strongest path-dependence analogue: Anthropic's reward-tampering curriculum produced later zero-shot generalization and residual propensity after training away overt sycophancy, supporting `CURRENT OUTPUT BEHAVIOR != COMPLETE DEVELOPMENTAL HISTORY` in that experimental regime.
+- Major boundary: public Anthropic work does not show CFE's matched atom geometry isolation, intervention cartography, identifying-neighborhood analysis, coordinate-system hostile engineering, or negative-space topology reconstruction.
+- Correct claim: **Anthropic appears to have independently discovered several local pieces of the broader developmental-field idea, especially in alignment training, without public evidence of CFE's full causal/cartographic program.**
+- Research artifact: `research/ANTHROPIC_CFE_LIKE_TRAINING_GEOMETRY_COMPARATIVE_AUDIT_2026-09-02.md` SHA `57c6af8ef8a0884e5a34a9d7839d712eee5edb63aeba8ccd7434ceae8c87f753`.

@@ -137,3 +137,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | Representation adequacy / coordinate refinement | user-supplied exemplar + high-value state-transition topology + CFE cartographic intent | `research/REPRESENTATION_ADEQUACY_GRANULARITY_SHIFT_AND_META_REASONING_2026-09-02.md` SHA `446ce4ee54445eb6e2dc45620cecc1a6c87131af2aa405d4f1d7ab17b2fc6f9b` | FIRST-CLASS HIGH-VALUE RESEARCH; mechanism PROVISIONAL |
 | Representation adequacy research intent | explicit operator intuition + structural audit | `state/doctrine_snapshot/CFE_REPRESENTATION_ADEQUACY_AND_COORDINATE_REFINEMENT_RESEARCH_INTENT_2026-09-02.md` SHA `89a98738d4f5a728836efc92a7d141c3605e0df9d2e129e139af14792f28ff26` | ACTIVE PRIORITY / NOT SCIENTIFIC PROMOTION |
+
+| Anthropic CFE-like methodological isomorphism | Anthropic public CAI/character/Teaching-Claude-Why/reward-tampering research | `research/ANTHROPIC_CFE_LIKE_TRAINING_GEOMETRY_COMPARATIVE_AUDIT_2026-09-02.md` SHA `57c6af8ef8a0884e5a34a9d7839d712eee5edb63aeba8ccd7434ceae8c87f753` | HIGH-VALUE EXTERNAL DONOR / PROVISIONAL ISOMORPHISM; `ANTHROPIC CFE-LIKE EFFECTS != ANTHROPIC HAS CFE` |

@@ -62,3 +62,5 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | P1 research | representation adequacy / consequence aliasing | exemplar suggests coarse abstraction can fail because it merges states with different consequences | test consequence-aliasing probes and representation-refinement recurrence across 50–200 open traces | open / first-class high-value |
 | P1 dataset | abstraction-refinement episodes | standard A0 policy does not yet explicitly require coarse->boundary failure->refinement topology | add bounded qualified episodes after trace-quarry recurrence and contamination/license gates | open |
+
+| P1 external donor | Anthropic contextual-affordance / path-dependence analogue | public Anthropic training research shows unchanged-task context augmentation and curriculum history can alter later behavior | design matched CFE tests before promoting as axis; separate diversity/support/affordance/history effects | open / high-value donor |
