@@ -153,3 +153,7 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - LHIT structural/source coverage gate now PASS across code, research, planning/tool, math/science, long horizon, memory/currentness and science/diagnosis. Training admission remains BLOCKED on contamination.
 - Current internal/private eval overlap scan PASS: 49 files / 1,720 eval text items / 0 exact / 0 near >=0.90; internal pass does not clear public protected benchmarks or future frozen fleet eval.
 - Source-native contamination metadata captured. Final gate remains public/final eval registry exact+fuzzy matching, manual ambiguous review, final invariant-quality review, then tokenization/truncation. No training authorization.
+
+### Standard pre-admission publication delta — 2026-09-02
+- Standard Uplift LHIT gap-closure/pre-admission package committed and pushed at `99483f750cdfcfc052702ec9fb4683d0e8a2141d`; local publication checkout == remote `main`, clean at readback.
+- 25-file commit / 2,413 insertions. Raw/generated/quarantine/candidate/excluded/alternate/preference atom payloads remain local/non-Git.
