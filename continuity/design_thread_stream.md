@@ -1099,3 +1099,12 @@ User supplied screenshots of a dense reasoning trace and said, "This one is usef
 
 ## Turn — ASSISTANT / STRUCTURAL ANNOTATION
 Confirmed usefulness at the invariant level rather than the surface prose level. Stored only structural annotation, not the raw hidden-reasoning text. Observed competing-hypothesis maintenance, counterexample/boundary pressure, local self-correction, persistent constraint carry, symbolic-to-empirical verification handoff, falsification contract, and question retention. Added `PROOF_TO_EMPIRICAL_HANDOFF` as a candidate subtype of independent verification, explicitly provisional pending recurrence across additional traces.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: HIGH-VALUE PRESERVATION, REASONING TOPOLOGY, GITHUB
+User explicitly required that the full structural analysis of the reasoning exemplar—the implications, primitives, invariants, ordering of implications/state change, and silent structure—be preserved as high-value project-relevant material in GitHub.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Promoted the full analysis into `research/REASONING_STATE_TRANSITION_TOPOLOGY_AND_SILENT_INVARIANTS_2026-09-02.md`, preserving candidate primitives, state-transition vocabulary, ordering hypotheses, CFE/LHIT/StarMap/LBE implications, dataset consequences, falsification questions, and claim ceilings. Added a first-class high-value research-priority doctrine snapshot while explicitly refusing scientific promotion from one exemplar. Wired the surface into current state, live shadow, next steps, trace matrix and revisit ledger for continuity and future execution.

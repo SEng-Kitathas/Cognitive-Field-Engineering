@@ -49,3 +49,12 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 4. Score correction, verification, alternative-path search, currentness, evidence-state separation, question retention, failed-branch recovery, composition, redundancy and token efficiency independently of raw trace length.
 5. Treat memorization-shortcut detection as a suspicion label unless contamination/memorization evidence independently confirms it.
 6. Feed the resulting invariant/efficiency findings back into A0 selection/rendering; do not expand A0 token budget merely to preserve long source traces.
+
+## High-value reasoning state-transition quarry — 2026-09-02
+1. Treat `research/REASONING_STATE_TRANSITION_TOPOLOGY_AND_SILENT_INVARIANTS_2026-09-02.md` as a first-class research input to Standard Uplift Dataset design and future CFE cartography.
+2. Build a 50–200 trace lawful/open comparison set across math, code, research, tool-use, and long-horizon currentness tasks.
+3. Annotate traces by ordered state transitions/dependency changes, not literal self-talk phrases; keep style fingerprints separate.
+4. Test recurrence of: dependency-local invalidation, scoped rollback, unresolved-seam retention, minimal revision, verification escalation, authority transfer, qualified compression, and conditional reasoning effort.
+5. Test whether state-transition order predicts success beyond event multiset and token length.
+6. Use recurring structures to inform standard-data episode construction, but do not teach the labels as learner ontology by default.
+7. Promote no primitive/invariant beyond provisional status without recurrence, hostile comparison, operationalization, and recorded counterexamples/failure boundaries.

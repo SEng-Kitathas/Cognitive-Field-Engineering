@@ -126,3 +126,11 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Observed useful events: competing-hypothesis maintenance, boundary/counterexample pressure, local self-correction, constraint carry across branches, symbolic-to-empirical handoff, falsification contract, and question retention.
 - Added candidate sublabel `PROOF_TO_EMPIRICAL_HANDOFF` under `INDEPENDENT_VERIFICATION`; not promoted as a universal primitive from one exemplar.
 - Annotation artifact: `research/USER_SUPPLIED_REASONING_TRACE_STRUCTURAL_ANNOTATION_2026-09-02.md` SHA `a93c12ec6b7cba8cbb88207064ecf1981e65aeb217a9032cc4f641e4dbacf37e`.
+
+## Reasoning-state topology promoted to high-value research priority — 2026-09-02
+- User explicitly required that the full structural reading of the supplied reasoning exemplar be preserved as project-relevant/high-value GitHub material.
+- Created first-class research artifact `research/REASONING_STATE_TRANSITION_TOPOLOGY_AND_SILENT_INVARIANTS_2026-09-02.md` SHA `60833784d5d664db7c6c62a9cafe7e0470cf98eeebf916a3548eb905edf3ecee`.
+- Promoted the surface to **FIRST-CLASS HIGH-VALUE RESEARCH PRIORITY / NOT SCIENTIFIC TRUTH** via doctrine snapshot SHA `aed8b34a91c5d302203337a947de7bb1816cc4d76eee00c89ab39132392a5cea`.
+- Candidate primitives preserved: active constraint set, hypothesis object, dependency topology, scoped rollback, unresolved seam, contradiction localization, minimal revision, search/verification mode transition, authority transfer, falsification trigger, hard-vs-scratch state, representation pressure, qualified compression, conditional reasoning effort.
+- Candidate event vocabulary preserved for cross-model trace comparison, including `ROLLBACK_DEPENDENCY_CONE`, `PRESERVE_VALID_STATE`, `ESCALATE_VERIFICATION`, `PROOF_TO_EMPIRICAL_HANDOFF`, `REVISE_CURRENTNESS`, `DEFER_UNKNOWN`, and related transitions.
+- Strongest provisional hypothesis: reasoning may be usefully modeled as **constraint-preserving state transformation under changing evidence**; this remains inference-rich research, not a verified internal mechanism.

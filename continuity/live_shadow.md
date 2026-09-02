@@ -85,3 +85,9 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Raw trace text remains excluded from Standard Uplift training intake; only invariant-level annotation was stored.
 - Useful structure observed: alternative hypotheses, boundary pressure, self-correction, state/constraint carry, orthogonal empirical verification, falsification trigger, and retention of the governing question.
 - Candidate sublabel `PROOF_TO_EMPIRICAL_HANDOFF` added under independent verification, pending recurrence across more traces.
+
+## Turn delta — 2026-09-02 high-value reasoning topology preservation
+- Full "million things it says silently" analysis promoted from chat into a first-class project research artifact and doctrine-priority surface.
+- Research artifact SHA `60833784d5d664db7c6c62a9cafe7e0470cf98eeebf916a3548eb905edf3ecee`; priority doctrine SHA `aed8b34a91c5d302203337a947de7bb1816cc4d76eee00c89ab39132392a5cea`.
+- High-value candidates include dependency-local invalidation, scoped rollback, unresolved-seam state, minimal revision, hard-vs-scratch state, verification-mode escalation, authority transfer to observed consequence, qualified compression, and reasoning effort proportional to unresolved discriminatory burden.
+- Research coordinate system now treats traces as ordered state transitions rather than token streams alone. Scientific claim ceiling remains unchanged: inferred structure is not verified internal mechanism.
