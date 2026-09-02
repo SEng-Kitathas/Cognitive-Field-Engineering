@@ -170,3 +170,7 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Main archaeology LBE field now **67 nodes / 88 edges**, status `SOURCE_FIELD_WITH_REASON_MAINTENANCE_OVERLAY__HOSTILE_REVIEW_PENDING`, SHA `c1792199de0b8758a00b7179b27b2671dd362cba9ce4a64e9e5d18a8018e8f83`.
 - Reason-maintenance research-priority doctrine created SHA `78d879a75d61c96161450f75b80eb4cad65ce918be350f212a6627c1d48e4a03`; this is **high-value research priority, not CFE scientific law and not authorization to clone historical architectures**.
 - Standard Uplift (informed standard dataset, NOT CFE pack) now has earned candidate episode families: selective revision, branch-qualified alternatives, discriminator seeking, reusable conflict isomorphs, representation shifts, currentness propagation, least commitment, effort allocation, provenance/pedigree conflicts, and partial-model honesty. Curator tags remain hidden by default; pressure comes through task consequences.
+
+### Reasoning archaeology publication readback — 2026-09-02
+- Publication commit `583bc4d2a03f78bad61fcf1ad34bf6ee6c6de387` (`Build reasoning archaeology and reason-maintenance map`) pushed successfully; local checkout HEAD == remote `main` at readback and Git status was clean.
+- Commit contained 22 files / 13,078 insertions. No raw archaeology PDFs were staged or committed; only public-safe research synthesis, schemas, source/rights manifests, hashes, LBE fields/overlays, scripts, and continuity/state surfaces were published.

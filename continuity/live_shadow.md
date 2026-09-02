@@ -114,3 +114,7 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Main archaeology LBE field is now 67 nodes / 88 edges with 30 reason-maintenance annotations and 19 typed cross-era relations. Status remains hostile-review-pending; functional recurrence does not imply shared implementation or lineage.
 - Standard Uplift implications are active research inputs: selective revision, maintained alternatives, discriminator seeking, conflict transfer, representation refinement, currentness propagation, least commitment, effort allocation, provenance sensitivity, partial-model honesty. This remains the informed standard dataset, not the CFE experimental pack.
 - Next pressure: specimen-level hostile review of the highest-leverage historical nodes and matched modern experiments against sample-and-vote / global-regenerate baselines.
+
+### Publication delta — 2026-09-02
+- Reasoning archaeology/reason-maintenance package committed and pushed at `583bc4d2a03f78bad61fcf1ad34bf6ee6c6de387`; local publication checkout == remote `main`, clean at readback.
+- 22-file commit, 13,078 insertions; raw PDF quarry remains local/non-Git.
