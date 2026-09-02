@@ -91,3 +91,10 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Research artifact SHA `60833784d5d664db7c6c62a9cafe7e0470cf98eeebf916a3548eb905edf3ecee`; priority doctrine SHA `aed8b34a91c5d302203337a947de7bb1816cc4d76eee00c89ab39132392a5cea`.
 - High-value candidates include dependency-local invalidation, scoped rollback, unresolved-seam state, minimal revision, hard-vs-scratch state, verification-mode escalation, authority transfer to observed consequence, qualified compression, and reasoning effort proportional to unresolved discriminatory burden.
 - Research coordinate system now treats traces as ordered state transitions rather than token streams alone. Scientific claim ceiling remains unchanged: inferred structure is not verified internal mechanism.
+
+## Turn delta — 2026-09-02 representation adequacy
+- User's added interpretation produced a stronger second-order research layer: the exemplar may show failure of the reasoning representation itself, not just a bad candidate hypothesis.
+- New first-class research artifact SHA `446ce4ee54445eb6e2dc45620cecc1a6c87131af2aa405d4f1d7ab17b2fc6f9b`; priority intent SHA `89a98738d4f5a728836efc92a7d141c3605e0df9d2e129e139af14792f28ff26`.
+- Key candidate law: a representation is too coarse when it maps states with different task-relevant consequences/actions to the same learner-usable representation.
+- Candidate meta-primitives: representation adequacy monitoring, missing-distinction detection, granularity refinement, coordinate replacement, refinement-with-conservation, representation debt/currentness.
+- Guard: tree-like visible reasoning != literal MCTS; stress/checkmark tokens != proven entropy/PRM anchors.

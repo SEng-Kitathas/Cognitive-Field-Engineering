@@ -58,3 +58,12 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 5. Test whether state-transition order predicts success beyond event multiset and token length.
 6. Use recurring structures to inform standard-data episode construction, but do not teach the labels as learner ontology by default.
 7. Promote no primitive/invariant beyond provisional status without recurrence, hostile comparison, operationalization, and recorded counterexamples/failure boundaries.
+
+## Representation-adequacy / granularity-shift research — 2026-09-02
+1. Add representation-level events to the 50–200 trace Silent Invariants quarry: `DETECT_MISSING_DISTINCTION`, `REFINE_REPRESENTATION_GRANULARITY`, `REPLACE_COORDINATE_SYSTEM`, and `REFINEMENT_WITH_CONSERVATION`.
+2. Test whether repeated local patch failure predicts later representation refinement and whether that transition improves correctness/token efficiency.
+3. Build consequence-aliasing probes: pairs where a coarse representation maps two states together but their relevant consequences differ.
+4. In Standard Uplift A0/A1 construction, include some episodes where a coarse abstraction initially works, later boundary evidence defeats it, local patches fail, and a finer distinction becomes necessary; do not explicitly teach the meta-labels.
+5. Reconcile this surface with CFE cartography missing-axis audits before promoting any new cartographic axis.
+6. Compare representation refinement across math, code, research, tool-use and LHIT episodes; require recurrence before calling it an invariant.
+7. Keep literal MCTS/PRM/entropy-spike interpretations excluded unless independent evidence identifies the hidden mechanism.

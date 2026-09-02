@@ -134,3 +134,13 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Candidate primitives preserved: active constraint set, hypothesis object, dependency topology, scoped rollback, unresolved seam, contradiction localization, minimal revision, search/verification mode transition, authority transfer, falsification trigger, hard-vs-scratch state, representation pressure, qualified compression, conditional reasoning effort.
 - Candidate event vocabulary preserved for cross-model trace comparison, including `ROLLBACK_DEPENDENCY_CONE`, `PRESERVE_VALID_STATE`, `ESCALATE_VERIFICATION`, `PROOF_TO_EMPIRICAL_HANDOFF`, `REVISE_CURRENTNESS`, `DEFER_UNKNOWN`, and related transitions.
 - Strongest provisional hypothesis: reasoning may be usefully modeled as **constraint-preserving state transformation under changing evidence**; this remains inference-rich research, not a verified internal mechanism.
+
+## Representation-adequacy / coordinate-refinement layer — 2026-09-02
+- User supplied a deeper interpretation of the reasoning exemplar; strongest surviving signal is **representation-level failure**, not merely answer-level correction.
+- Created first-class research artifact `research/REPRESENTATION_ADEQUACY_GRANULARITY_SHIFT_AND_META_REASONING_2026-09-02.md` SHA `446ce4ee54445eb6e2dc45620cecc1a6c87131af2aa405d4f1d7ab17b2fc6f9b`.
+- Created priority intent `state/doctrine_snapshot/CFE_REPRESENTATION_ADEQUACY_AND_COORDINATE_REFINEMENT_RESEARCH_INTENT_2026-09-02.md` SHA `89a98738d4f5a728836efc92a7d141c3605e0df9d2e129e139af14792f28ff26`.
+- New high-value distinction: `OBJECT-LEVEL FAILURE != REPRESENTATION-LEVEL FAILURE`.
+- Strong formal candidate: a representation is too coarse when it aliases states that have different task-relevant consequences/actions: `R(s1)=R(s2)` while relevant consequence/action differs.
+- Candidate primitives added: representation-adequacy monitor, missing-distinction detector, granularity refinement, coordinate-system replacement, refinement-with-conservation, representation debt/currentness, and meta-level control-state transitions.
+- Important restraint: visible tree-like traces do not establish literal MCTS/PRM execution; exclamations/checkmarks do not establish entropy spikes or reward anchors.
+- Strongest extended hypothesis: capable reasoning may require **constraint-preserving state transformation while also revising the representation itself when the current coordinate system hides consequential distinctions**.

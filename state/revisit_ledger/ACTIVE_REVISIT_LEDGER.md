@@ -59,3 +59,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | P1 research | reasoning state-transition topology | one dense exemplar suggests dependency-local invalidation, scoped rollback, unresolved seams, verification-mode escalation, authority transfer and conditional reasoning effort | compare 50–200 lawful/open traces across model families/tasks; require recurrence + failure boundaries before promotion | open / first-class high-value |
 | P1 dataset | state-transition-aware Standard Uplift episodes | current A0 policy tracks CFE/LHIT invariants but not yet full ordered transition topology | add structural annotations/selection metrics after quarry recurrence; preserve learner-facing consequences rather than explicit primitive labels | open |
+
+| P1 research | representation adequacy / consequence aliasing | exemplar suggests coarse abstraction can fail because it merges states with different consequences | test consequence-aliasing probes and representation-refinement recurrence across 50–200 open traces | open / first-class high-value |
+| P1 dataset | abstraction-refinement episodes | standard A0 policy does not yet explicitly require coarse->boundary failure->refinement topology | add bounded qualified episodes after trace-quarry recurrence and contamination/license gates | open |

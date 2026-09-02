@@ -1108,3 +1108,12 @@ User explicitly required that the full structural analysis of the reasoning exem
 
 ## Turn — ASSISTANT / BUILD-COMMIT
 Promoted the full analysis into `research/REASONING_STATE_TRANSITION_TOPOLOGY_AND_SILENT_INVARIANTS_2026-09-02.md`, preserving candidate primitives, state-transition vocabulary, ordering hypotheses, CFE/LHIT/StarMap/LBE implications, dataset consequences, falsification questions, and claim ceilings. Added a first-class high-value research-priority doctrine snapshot while explicitly refusing scientific promotion from one exemplar. Wired the surface into current state, live shadow, next steps, trace matrix and revisit ledger for continuity and future execution.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: REPRESENTATION ADEQUACY, META-REASONING, HIGH-VALUE SIGNAL
+User proposed that the reasoning exemplar may contain much stronger signal than its surface read: changing evidence, abstraction breakdown, backtracking, and RL-like search/verification structure. User explicitly emphasized intuition that the hidden implications/primitives/invariants may be much larger than the visible prose.
+
+## Turn — ASSISTANT / AUDIT + BUILD-COMMIT
+Separated supported structural signal from overclaims. Rejected literal-MCTS/PRM/entropy-spike interpretations as unverified from text alone. Promoted a stronger second-order hypothesis: object-level hypothesis failure differs from representation-level failure; a representation is too coarse when it aliases states with different task-relevant consequences. Created first-class research and doctrine artifacts covering representation-adequacy monitoring, missing-distinction detection, granularity refinement, coordinate replacement, refinement-with-conservation, representation currentness/debt, and dataset/cartography implications.
