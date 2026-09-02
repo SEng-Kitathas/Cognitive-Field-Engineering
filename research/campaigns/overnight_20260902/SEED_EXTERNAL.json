@@ -1,0 +1,6 @@
+{
+  "schema": "cfe.overnight.seed.v1",
+  "label": "EXTERNAL",
+  "question": "Which external mechanisms from reservoir computing, recurrent memory, continual replay, active inference, state-space memory, and graph topology provide falsifiable donor hypotheses for CFE without importing their ontology as learner truth?",
+  "authority": "RESEARCH_ONLY_NO_PROMOTION"
+}

@@ -1,0 +1,38 @@
+{
+  "law": "NO_PROCESS_CLASS_KILLING",
+  "phase": "MICROSEED_ISOLATION_LIVE",
+  "schema": "cfe.model-service-boundary-preflight.v1",
+  "services": [
+    {
+      "action": "PRESERVE",
+      "blocks_cfe_model_task": false,
+      "classification": "AUTHORIZED_RESIDENT_MICROSEED_MODEL",
+      "kind": "REGISTERED",
+      "process": {
+        "CommandLine": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe -m D:\\Singularity_Works\\repo\\corpus\\models\\salvaged_from_lmstudio\\Melvin56\\Qwen2.5-Coder-7B-Instruct-abliterated-Q4_K_M-GGUF\\qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf -c 4096 --host 127.0.0.1 --port 18191 --offline --parallel 1",
+        "ExecutablePath": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+        "Name": "llama-server.exe",
+        "ParentProcessId": 10720,
+        "ProcessId": 6744
+      },
+      "service_id": "microseed_primary_qwen7b"
+    },
+    {
+      "action": "PRESERVE",
+      "blocks_cfe_model_task": false,
+      "classification": "AUTHORIZED_RESIDENT_MICROSEED_MODEL",
+      "kind": "REGISTERED",
+      "process": {
+        "CommandLine": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe -m D:\\Singularity_Works\\repo\\corpus\\models\\internet_acquired\\bartowski\\Qwen2.5-Coder-1.5B-Instruct-abliterated-GGUF\\Qwen2.5-Coder-1.5B-Instruct-abliterated-Q4_K_L.gguf -c 3072 --host 127.0.0.1 --port 18192 --offline --parallel 1",
+        "ExecutablePath": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+        "Name": "llama-server.exe",
+        "ParentProcessId": 10720,
+        "ProcessId": 24744
+      },
+      "service_id": "microseed_csc_reviewer_qwen15b"
+    }
+  ],
+  "stable_observation_seconds": 4.0,
+  "status": "PASS",
+  "timestamp": "2026-09-01T09:13:58-04:00"
+}

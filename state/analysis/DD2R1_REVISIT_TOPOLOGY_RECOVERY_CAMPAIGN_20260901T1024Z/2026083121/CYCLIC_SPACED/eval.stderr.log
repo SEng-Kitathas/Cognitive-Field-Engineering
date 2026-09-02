@@ -1,0 +1,102 @@
+
+=== ATTEMPT 1 RC 1 ===
+W0901 06:23:42.848000 33808 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:07,  3.81s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:07<00:03,  3.64s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.55s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.59s/it]
+Traceback (most recent call last):
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\peft\config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+                  ^^^^^^^^^^^^^^^^
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\huggingface_hub\utils\_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\huggingface_hub\utils\_validators.py", line 160, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must use alphanumeric chars, '-', '_' or '.'. The name cannot start or end with '-' or '.' and the maximum length is 96: 'state\analysis\DD2_REVISIT_TOPOLOGY_CAMPAIGN_20260901T0432Z\2026083121\CYCLIC_SPACED\train\adapter\adapter_model.safetensors'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\new pc\AI_Pushes_Sandbox\projects\CFE\tools\evaluate_dd2_revisit_topology.py", line 26, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "E:\new pc\AI_Pushes_Sandbox\projects\CFE\tools\evaluate_dd2_revisit_topology.py", line 19, in main
+    opt=c['optimization'];bnb=BitsAndBytesConfig(load_in_4bit=True,bnb_4bit_quant_type=opt['bnb_quant_type'],bnb_4bit_use_double_quant=opt['bnb_double_quant'],bnb_4bit_compute_dtype=torch.float16);tok=AutoTokenizer.from_pretrained(host['base_snapshot_path'],use_fast=False,trust_remote_code=False,local_files_only=True);model=AutoModelForCausalLM.from_pretrained(host['base_snapshot_path'],quantization_config=bnb,device_map={'':0},trust_remote_code=False,attn_implementation=opt['attention_backend'],local_files_only=True);model=PeftModel.from_pretrained(model,str(a.adapter),is_trainable=False);model.eval();model.config.use_cache=True
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\peft\peft_model.py", line 510, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\peft\config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at 'state\analysis\DD2_REVISIT_TOPOLOGY_CAMPAIGN_20260901T0432Z\2026083121\CYCLIC_SPACED\train\adapter\adapter_model.safetensors'
+
+=== ATTEMPT 2 RC 1 ===
+W0901 06:24:10.681000 34520 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:07,  3.90s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:07<00:03,  3.61s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.49s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.55s/it]
+Traceback (most recent call last):
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\peft\config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+                  ^^^^^^^^^^^^^^^^
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\huggingface_hub\utils\_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\huggingface_hub\utils\_validators.py", line 160, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must use alphanumeric chars, '-', '_' or '.'. The name cannot start or end with '-' or '.' and the maximum length is 96: 'state\analysis\DD2_REVISIT_TOPOLOGY_CAMPAIGN_20260901T0432Z\2026083121\CYCLIC_SPACED\train\adapter\adapter_model.safetensors'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\new pc\AI_Pushes_Sandbox\projects\CFE\tools\evaluate_dd2_revisit_topology.py", line 26, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "E:\new pc\AI_Pushes_Sandbox\projects\CFE\tools\evaluate_dd2_revisit_topology.py", line 19, in main
+    opt=c['optimization'];bnb=BitsAndBytesConfig(load_in_4bit=True,bnb_4bit_quant_type=opt['bnb_quant_type'],bnb_4bit_use_double_quant=opt['bnb_double_quant'],bnb_4bit_compute_dtype=torch.float16);tok=AutoTokenizer.from_pretrained(host['base_snapshot_path'],use_fast=False,trust_remote_code=False,local_files_only=True);model=AutoModelForCausalLM.from_pretrained(host['base_snapshot_path'],quantization_config=bnb,device_map={'':0},trust_remote_code=False,attn_implementation=opt['attention_backend'],local_files_only=True);model=PeftModel.from_pretrained(model,str(a.adapter),is_trainable=False);model.eval();model.config.use_cache=True
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\peft\peft_model.py", line 510, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\peft\config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at 'state\analysis\DD2_REVISIT_TOPOLOGY_CAMPAIGN_20260901T0432Z\2026083121\CYCLIC_SPACED\train\adapter\adapter_model.safetensors'
+
+=== ATTEMPT 3 RC 1 ===
+W0901 06:24:38.271000 4524 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:07,  3.84s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:07<00:03,  3.68s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.60s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.64s/it]
+Traceback (most recent call last):
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\peft\config.py", line 317, in _get_peft_type
+    config_file = hf_hub_download(
+                  ^^^^^^^^^^^^^^^^
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\huggingface_hub\utils\_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\huggingface_hub\utils\_validators.py", line 160, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must use alphanumeric chars, '-', '_' or '.'. The name cannot start or end with '-' or '.' and the maximum length is 96: 'state\analysis\DD2_REVISIT_TOPOLOGY_CAMPAIGN_20260901T0432Z\2026083121\CYCLIC_SPACED\train\adapter\adapter_model.safetensors'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\new pc\AI_Pushes_Sandbox\projects\CFE\tools\evaluate_dd2_revisit_topology.py", line 26, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "E:\new pc\AI_Pushes_Sandbox\projects\CFE\tools\evaluate_dd2_revisit_topology.py", line 19, in main
+    opt=c['optimization'];bnb=BitsAndBytesConfig(load_in_4bit=True,bnb_4bit_quant_type=opt['bnb_quant_type'],bnb_4bit_use_double_quant=opt['bnb_double_quant'],bnb_4bit_compute_dtype=torch.float16);tok=AutoTokenizer.from_pretrained(host['base_snapshot_path'],use_fast=False,trust_remote_code=False,local_files_only=True);model=AutoModelForCausalLM.from_pretrained(host['base_snapshot_path'],quantization_config=bnb,device_map={'':0},trust_remote_code=False,attn_implementation=opt['attention_backend'],local_files_only=True);model=PeftModel.from_pretrained(model,str(a.adapter),is_trainable=False);model.eval();model.config.use_cache=True
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\peft\peft_model.py", line 510, in from_pretrained
+    config = PEFT_TYPE_TO_CONFIG_MAPPING[PeftConfig._get_peft_type(model_id, **hf_kwargs)].from_pretrained(
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ancal\ProtoAGI\CFE\.venv_cuda\Lib\site-packages\peft\config.py", line 323, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at 'state\analysis\DD2_REVISIT_TOPOLOGY_CAMPAIGN_20260901T0432Z\2026083121\CYCLIC_SPACED\train\adapter\adapter_model.safetensors'

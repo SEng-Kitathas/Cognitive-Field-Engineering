@@ -49,3 +49,14 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Current phase at readback: seed3123 CYCLIC_SPACED training.
 - Microseed remained healthy during active CFE training: PID6744:18191 `ok`, PID24744:18192 `ok`.
 - Tracking receipt SHA `b100aecc772e567c6be97148c7f1e4ad3900508c30bc3c922cdb402ffb3b50b7`.
+
+## Overnight staged research program — 2026-09-02 01:05 Eastern Daylight Time
+- Microseed dev explicitly paused by operator; overnight capacity redirected to CFE research only.
+- Dedicated local 7B inference server job `job-09b75d2a8595` PID 34916 RUNNING on 127.0.0.1:8091.
+- Parallel bounded archaeology job `job-77ad0f0cf849` PID 46060 RUNNING; script SHA `e690d618444c3fd6f418edb15fed5f49c63e6d3d134dba0ea3d1026b77079df8`.
+- Main Helix/OARR/Loop+/Attention-Reservoir/CSC program job `job-4da449cfa837` PID 37432 RUNNING; planned 3 topic lanes x 3 campaigns x 20 passes = 180 bounded passes; zero promotion authority; master SHA `08fa8e5dd79b147b7e34223c50a24bca76d2b530d8d97453fc973b38b4a684ae`; widened governed runner SHA `7e0dfa17bc6e704563d8720da8db85152bf79f028dbafb45895dec8ada12896f`.
+- Lanes: MACHINERY, CARTOGRAPHY, EXTERNAL analogue falsification.
+- External quarry seed notes SHA `3a7a8addbebb5ae043bdd159510a22d3900ce645e8c84a340656f1944fff178e`.
+- DD2 parent job failed executionally during evaluation (`0xC0000005`), 0 paired seeds scientifically admitted.
+- DD2R1 recovery job `job-c3a77033cd06` PID 22056 RUNNING in WAITING-for-research-sentinel logic. It may touch GPU only after research lane completes.
+- DD2R1 salvage allows only seed3121/CYCLIC_SPACED whose train manifest and remote adapter SHA match; unexplained remote assets without local manifests are excluded from science. Amendment SHA `161e0792dcfe62ec3a02799bb2ad347808cc65586c0cee7f151a61a257ee161a` / runner SHA `31a3a20697d71a874d00b34a9642b749fafd22eab2979d51ac16ae1541a57b01`.

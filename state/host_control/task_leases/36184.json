@@ -1,0 +1,16 @@
+{
+  "child_pid": 36184,
+  "command": [
+    "C:\\Users\\ancal\\ProtoAGI\\CFE\\.venv_cuda\\Scripts\\python.exe",
+    "-c",
+    "import json,torch; from transformers import AutoModelForCausalLM,AutoTokenizer,BitsAndBytesConfig; h=json.load(open(r'state/qualification/V14R_PREDICATE_HORIZON_RUNTIME_20260831/HOST_LOCK.json')); c=json.load(open(r'state/next_steps/DD2_REVISIT_TOPOLOGY_TRAINING_CONTRACT_2026-09-01.json')); o=c['optimization']; print('COEXISTENCE_LOAD_START',flush=True); tok=AutoTokenizer.from_pretrained(h['base_snapshot_path'],use_fast=False,trust_remote_code=False,local_files_only=True); bnb=BitsAndBytesConfig(load_in_4bit=True,bnb_4bit_quant_type=o['bnb_quant_type'],bnb_4bit_use_double_quant=o['bnb_double_quant'],bnb_4bit_compute_dtype=torch.float16); model=AutoModelForCausalLM.from_pretrained(h['base_snapshot_path'],quantization_config=bnb,device_map={'':0},trust_remote_code=False,attn_implementation=o['attention_backend'],local_files_only=True); print('COEXISTENCE_BASE_LOAD_PASS',sum(p.numel() for p in model.parameters()),flush=True)"
+  ],
+  "owner": "CFE",
+  "phase": "CFE_MICROSEED_COEXISTENCE_BASE_LOAD",
+  "return_code": 0,
+  "schema": "cfe.model-task-lease.v1",
+  "status": "CLOSED",
+  "timestamp_closed": "2026-09-01T09:14:43-04:00",
+  "timestamp_opened": "2026-09-01T09:14:11-04:00",
+  "wrapper_pid": 29904
+}

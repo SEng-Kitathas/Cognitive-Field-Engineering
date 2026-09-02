@@ -1,28 +1,13 @@
 # CFE NEXT STEPS
 
-As of: 2026-09-01 09:17 Eastern Daylight Time
+As of: 2026-09-02 01:05 Eastern Daylight Time
 
-## P0 — DD2R3
-1. Launch sole DD2R3 recovery under unchanged DD2 science.
-2. Reuse sealed seeds 3121-3122 exactly; no rerun.
-3. Restart seed3123 fresh because no RUN_MANIFEST existed at pause.
-4. Run seeds3123-3126 both arms using CFE task leases and Microseed-preserving coordination.
-5. Aggregate only after 6/6 complete pairs.
-6. Apply frozen DD2 disposition mechanically before interpretation.
-7. Update active successor cartography after formal DD2 disposition.
-
-## P0 — runtime isolation invariant
-- Preserve Microseed jobs `job-7f0dcbe757dc`, `job-489435c7630f`.
-- Preserve ports 18191/18192.
-- Shared Forge files may be read; CFE owns separate runtime/process/job/output identity.
-- Unknown model services => preserve + block.
-
-## P1 — archaeology-informed frontier after DD2
-- Recompute cartography ranking with DD2 result plus historical priors.
-- Typed relation remains suspended on current predicate substrate until independently manipulable.
-- Constructive/destructive evidence geometry remains a candidate latent axis requiring hostile qualification.
-
-## Active execution monitoring
-- Track DD2R3 by root PID 12624 + campaign receipt/manifests because no normal job handle was returned.
-- Before any termination, re-resolve PID command identity to avoid PID-reuse mistakes.
-- Do not launch another CFE model-heavy task while DD2R3 is live.
+## Overnight active
+1. Complete bounded local archaeology scan.
+2. Execute three research lanes: MACHINERY, CARTOGRAPHY, EXTERNAL; each lane is 3x20 autonomous passes with OARR, Loop+, Semantic Helix, Attention Reservoir and CSC audit-only hard stop.
+3. Research output remains non-authoritative until morning synthesis/hostile adjudication; no auto-promotion.
+4. At research completion, dedicated inference service is terminated and `RESEARCH_LANE_COMPLETE.sentinel` is emitted.
+5. DD2R1 then verifies/downloads only the train-manifest-bound seed3121/CYCLIC_SPACED adapter and attempts clean-state evaluation.
+6. If salvage evaluation fails after bounded retries: stop DD2R1 with no further training.
+7. If salvage evaluation passes: continue seed3121 pair and remaining fresh DD2 pairs under unchanged scientific contract; aggregate only 6/6.
+8. Morning readback must reconcile research artifacts against first-class cartography before any promotion or new experiment selection.

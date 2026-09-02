@@ -1,0 +1,45 @@
+{
+  "adapter_files": {
+    "README.md": {
+      "bytes": 5380,
+      "sha256": "b9264f0629a47970c39d6f80142bbaf6e5cb5ddb4e4e372105f879493d562b8a"
+    },
+    "adapter_config.json": {
+      "bytes": 1297,
+      "sha256": "d7a9aab8f0ced7a1f7d66f84c4b9947d3673345c2db1f8c06448bb4bc3ef1819"
+    },
+    "adapter_model.safetensors": {
+      "bytes": 83945296,
+      "sha256": "55b1d85155ea1f44a2a4fcf4c3685c214f6cc62d6eb8e80c4b09d4b8641777bb"
+    }
+  },
+  "arm": "CYCLIC_SPACED",
+  "contract_sha256": "2a878cf5c6e7acd68e2037c722b05b140be7c659feccec234946ef8ce98e088e",
+  "determinism": {
+    "cublas_workspace_config": ":4096:8",
+    "deterministic_algorithms": true,
+    "seed": 2026083123
+  },
+  "expanded_microbatches": 1152,
+  "expanded_row_order_sha256": "a2cdac2db67b9ee51aa5097ee8ef1184b5b35e887f76418a19792f78e2af1992",
+  "final_trainable_sha256": "85bffc34cf8c168825d7bb2547fd51de57bf78206faa452c07d0c718b2c04681",
+  "global_step": 144,
+  "initial_trainable_sha256": "838592db7159cb180a24059d27a802af78102722b093456cef9b086a3ef44e80",
+  "input_lock_sha256": "04ee03408154095e2b1b9b78ae3fd9c2f6aac578c894f100a2e989856926ebc4",
+  "peak_allocated_bytes": 5401586688,
+  "peak_reserved_bytes": 5565841408,
+  "runtime_seconds": 1313.5252661705017,
+  "schema": "cfe.dd2.train-run.v1",
+  "seed": 2026083123,
+  "status": "TRAINING_COMPLETE__PAIR_UNQUALIFIED",
+  "train_result": {
+    "epoch": 1.0,
+    "total_flos": 1.0565324689637376e+16,
+    "train_loss": 0.027334097209941573,
+    "train_runtime": 1313.2888,
+    "train_samples_per_second": 0.877,
+    "train_steps_per_second": 0.11
+  },
+  "trainable_parameters": 20971520,
+  "window_sequence_sha256": "ba0a8f80a3b5d1ae87950d32b4d9e49a93611ac1ec7d8fe9301a5c940ec9f7fb"
+}

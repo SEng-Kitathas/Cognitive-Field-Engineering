@@ -1,0 +1,12 @@
+{
+  "force_exited": [],
+  "matched_before": [],
+  "phase": "TRAIN_PRELOAD:2026083121:WINDOW_MASSED",
+  "policy": "FORCE_EXIT_ALL_RECOGNIZED_LOCAL_MODEL_SERVERS_BEFORE_CFE_TRAINING",
+  "protected_rule": "PCMMAD receiver and active CFE execution/training processes are never kill targets merely because they are Python processes.",
+  "restoration_required": false,
+  "schema": "cfe.training-model-runtime-preflight.v1",
+  "status": "PASS",
+  "survivors": [],
+  "timestamp": "2026-09-01T06:53:06-04:00"
+}

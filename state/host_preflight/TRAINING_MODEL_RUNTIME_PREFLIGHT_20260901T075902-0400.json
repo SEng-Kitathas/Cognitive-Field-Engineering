@@ -1,0 +1,28 @@
+{
+  "force_exited": [
+    {
+      "CommandLine": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe -m D:\\Singularity_Works\\repo\\corpus\\models\\internet_acquired\\bartowski\\Qwen2.5-Coder-1.5B-Instruct-abliterated-GGUF\\Qwen2.5-Coder-1.5B-Instruct-abliterated-Q4_K_L.gguf -c 4096 --cache-ram 0 --host 127.0.0.1 --port 8092 --offline --parallel 1",
+      "ExecutablePath": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+      "Name": "llama-server.exe",
+      "ParentProcessId": 37804,
+      "ProcessId": 29396
+    }
+  ],
+  "matched_before": [
+    {
+      "CommandLine": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe -m D:\\Singularity_Works\\repo\\corpus\\models\\internet_acquired\\bartowski\\Qwen2.5-Coder-1.5B-Instruct-abliterated-GGUF\\Qwen2.5-Coder-1.5B-Instruct-abliterated-Q4_K_L.gguf -c 4096 --cache-ram 0 --host 127.0.0.1 --port 8092 --offline --parallel 1",
+      "ExecutablePath": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+      "Name": "llama-server.exe",
+      "ParentProcessId": 37804,
+      "ProcessId": 29396
+    }
+  ],
+  "phase": "EVAL_PRELOAD:2026083122:CYCLIC_SPACED",
+  "policy": "FORCE_EXIT_ALL_RECOGNIZED_LOCAL_MODEL_SERVERS_BEFORE_CFE_TRAINING",
+  "protected_rule": "PCMMAD receiver and active CFE execution/training processes are never kill targets merely because they are Python processes.",
+  "restoration_required": false,
+  "schema": "cfe.training-model-runtime-preflight.v1",
+  "status": "PASS",
+  "survivors": [],
+  "timestamp": "2026-09-01T07:59:02-04:00"
+}

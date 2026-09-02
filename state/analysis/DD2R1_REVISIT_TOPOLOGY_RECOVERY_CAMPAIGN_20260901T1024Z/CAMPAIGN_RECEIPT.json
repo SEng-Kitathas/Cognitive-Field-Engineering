@@ -1,0 +1,10 @@
+{
+  "amendment_sha256": "f98a3bee1df8a7f740aa7a0a478cc5cdf2fbb90b220d82dca895ab53328ae3fa",
+  "identity": "DD2R1_REVISIT_TOPOLOGY_20260901",
+  "input_lock_sha256": "04ee03408154095e2b1b9b78ae3fd9c2f6aac578c894f100a2e989856926ebc4",
+  "jobs": [],
+  "parent_scientific_identity": "DD2_REVISIT_TOPOLOGY_20260901",
+  "preexec_sha256": "3dbee0d61c41712a32bb07177fc79d3377533c0c2519cc112f765c5af7c1ecb0",
+  "schema": "cfe.dd2r1.campaign.v1",
+  "status": "RUNNING"
+}

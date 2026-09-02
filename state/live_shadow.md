@@ -31,3 +31,9 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - DD2R3 is LIVE, PID-tracked root 12624, currently seed23 CYCLIC_SPACED.
 - Microseed 6744/18191 and 24744/18192 remain healthy during live CFE load.
 - No duplicate DD2R3 launch occurred after transport errors.
+
+## Overnight turn delta — 2026-09-02 01:05 Eastern Daylight Time
+- Microseed paused; staged CFE overnight program live.
+- Research: local archaeology + 180 bounded autonomous Helix passes across machinery/cartography/external lanes, OARR/Loop+/Reservoir each pass, CSC hard-stop audit, no auto-promotion.
+- DD2R1 waits on research sentinel; salvage-eval gate must pass before any further training.
+- Active jobs: inference `job-09b75d2a8595`; archaeology `job-77ad0f0cf849`; Helix program `job-4da449cfa837`; DD2R1 gate/recovery `job-c3a77033cd06`.

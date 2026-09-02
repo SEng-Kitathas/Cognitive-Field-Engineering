@@ -1,0 +1,137 @@
+{
+  "force_exited": [
+    {
+      "CommandLine": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe -m D:\\Singularity_Works\\repo\\corpus\\models\\salvaged_from_lmstudio\\Melvin56\\Qwen2.5-Coder-7B-Instruct-abliterated-Q4_K_M-GGUF\\qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf -c 8192 --host 127.0.0.1 --port 8091 --offline --parallel 1",
+      "ExecutablePath": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+      "Name": "llama-server.exe",
+      "ParentProcessId": 32052,
+      "ProcessId": 37204
+    },
+    {
+      "CommandLine": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe -m D:\\Singularity_Works\\repo\\corpus\\models\\internet_acquired\\bartowski\\Qwen2.5-Coder-1.5B-Instruct-abliterated-GGUF\\Qwen2.5-Coder-1.5B-Instruct-abliterated-Q4_K_L.gguf -c 8192 --host 127.0.0.1 --port 8092 --offline --parallel 1",
+      "ExecutablePath": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+      "Name": "llama-server.exe",
+      "ParentProcessId": 32052,
+      "ProcessId": 28112
+    }
+  ],
+  "gpu_snapshot_after_cleanup": {
+    "compute_apps": [
+      {
+        "pid": "2956",
+        "process_name": "[Insufficient Permissions]",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "14312",
+        "process_name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "13544",
+        "process_name": "C:\\Windows\\explorer.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "1776",
+        "process_name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "15328",
+        "process_name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "19232",
+        "process_name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.107\\msedgewebview2.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "29744",
+        "process_name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "26620",
+        "process_name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.107\\msedgewebview2.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "18184",
+        "process_name": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.24.11911.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "12856",
+        "process_name": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "7080",
+        "process_name": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "27004",
+        "process_name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2608.54041.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "13360",
+        "process_name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.107\\msedgewebview2.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "33508",
+        "process_name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "17088",
+        "process_name": "C:\\Users\\ancal\\AppData\\Local\\Vivaldi\\Application\\vivaldi.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "3396",
+        "process_name": "C:\\Users\\ancal\\AppData\\Local\\Vivaldi\\Application\\vivaldi.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "14172",
+        "process_name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "13984",
+        "process_name": "C:\\Users\\ancal\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "used_memory_mib": "[N/A]"
+      }
+    ],
+    "status": "PASS"
+  },
+  "matched_before": [
+    {
+      "CommandLine": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe -m D:\\Singularity_Works\\repo\\corpus\\models\\salvaged_from_lmstudio\\Melvin56\\Qwen2.5-Coder-7B-Instruct-abliterated-Q4_K_M-GGUF\\qwen2.5-coder-7b-instruct-abliterated-q4_k_m.gguf -c 8192 --host 127.0.0.1 --port 8091 --offline --parallel 1",
+      "ExecutablePath": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+      "Name": "llama-server.exe",
+      "ParentProcessId": 32052,
+      "ProcessId": 37204
+    },
+    {
+      "CommandLine": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe -m D:\\Singularity_Works\\repo\\corpus\\models\\internet_acquired\\bartowski\\Qwen2.5-Coder-1.5B-Instruct-abliterated-GGUF\\Qwen2.5-Coder-1.5B-Instruct-abliterated-Q4_K_L.gguf -c 8192 --host 127.0.0.1 --port 8092 --offline --parallel 1",
+      "ExecutablePath": "D:\\Singularity_Works\\repo\\tools\\llama_cpp_runtime\\b8831_cuda13\\llama-server.exe",
+      "Name": "llama-server.exe",
+      "ParentProcessId": 32052,
+      "ProcessId": 28112
+    }
+  ],
+  "phase": "FAILURE_PATH_QUALIFICATION",
+  "policy": "FORCE_EXIT_ALL_RECOGNIZED_LOCAL_MODEL_SERVERS_BEFORE_CFE_MODEL_TASK",
+  "protected_rule": "PCMMAD receiver and active CFE execution/model-task processes are never kill targets merely because they are Python processes.",
+  "restoration_required": false,
+  "schema": "cfe.training-model-runtime-preflight.v2",
+  "status": "PASS",
+  "survivors": [],
+  "timestamp": "2026-09-01T07:52:42-04:00"
+}

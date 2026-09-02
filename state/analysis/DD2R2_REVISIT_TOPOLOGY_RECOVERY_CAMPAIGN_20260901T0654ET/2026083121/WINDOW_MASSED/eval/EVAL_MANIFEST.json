@@ -1,0 +1,59 @@
+{
+  "adapter_sha256": "a331b7eb6fc41581e15a5281ad17f07cb37bd9cd4a740d74ce251492c5fff7bd",
+  "arm": "WINDOW_MASSED",
+  "metrics": {
+    "balanced_accuracy": 0.7916666666666667,
+    "by_support": {
+      "equality": {
+        "accuracy": 0.75,
+        "correct": 6,
+        "json_parse_rate": 1.0,
+        "n": 8
+      },
+      "far_negative": {
+        "accuracy": 0.9375,
+        "correct": 15,
+        "json_parse_rate": 1.0,
+        "n": 16
+      },
+      "far_positive": {
+        "accuracy": 0.875,
+        "correct": 14,
+        "json_parse_rate": 1.0,
+        "n": 16
+      },
+      "near_positive": {
+        "accuracy": 0.375,
+        "correct": 3,
+        "json_parse_rate": 1.0,
+        "n": 8
+      }
+    },
+    "by_truth": {
+      "false": {
+        "accuracy": 0.875,
+        "correct": 21,
+        "json_parse_rate": 1.0,
+        "n": 24
+      },
+      "true": {
+        "accuracy": 0.7083333333333334,
+        "correct": 17,
+        "json_parse_rate": 1.0,
+        "n": 24
+      }
+    },
+    "overall": {
+      "accuracy": 0.7916666666666666,
+      "correct": 38,
+      "json_parse_rate": 1.0,
+      "n": 48
+    }
+  },
+  "results_sha256": "0f718897b2f45e7a3eba658b1d86e3bf1f8e4dfc77a575f49c4bcf2f5a4aec2d",
+  "run_manifest_sha256": "de84acbfd7e0d47bfae195838a247c374ffd037bf4ae32c9c08291a9daf38985",
+  "runtime_seconds": 58.43830919265747,
+  "schema": "cfe.dd2.eval.v1",
+  "seed": 2026083121,
+  "status": "EVALUATION_COMPLETE__PAIR_UNQUALIFIED"
+}

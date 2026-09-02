@@ -1,0 +1,281 @@
+{
+  "amendment_sha256": "46a3eb880ddeec34cf425651dd2cd244084f1c9f8bd0ed997295888ddfe70d0e",
+  "identity": "DD2R2_REVISIT_TOPOLOGY_20260901",
+  "input_lock_sha256": "04ee03408154095e2b1b9b78ae3fd9c2f6aac578c894f100a2e989856926ebc4",
+  "jobs": [
+    {
+      "arms": [
+        {
+          "arm": "CYCLIC_SPACED",
+          "eval_manifest_sha256": "bf9c419c1aadf174ff1c9e6bbfd54f343084a915a0c0f62d1758fe73d1489f8a",
+          "final_trainable_sha256": "487b18ce075f3207d86cf8c52614b8f5c02303d0153cdd709b82dccaee38595f",
+          "heavy_publication": {
+            "asset_name": "dd2_seed2026083121_CYCLIC_SPACED_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd2-revisit-topology-2026-09-01",
+            "remote_digest": "sha256:477764b22d02c5535ce40668755196c9713d10e18ca32d9d29a74331892cb6df",
+            "sha256": "477764b22d02c5535ce40668755196c9713d10e18ca32d9d29a74331892cb6df"
+          },
+          "initial_trainable_sha256": "42ae4fd695df63c498df499ac602d5f094b19720cea7f3f4ad3c1aa722f28db3",
+          "metrics": {
+            "balanced_accuracy": 0.6458333333333334,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.875,
+                "correct": 7,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.625,
+                "correct": 10,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.5,
+                "correct": 8,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.75,
+                "correct": 6,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.7083333333333334,
+                "correct": 17,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.5833333333333334,
+                "correct": 14,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.6458333333333334,
+              "correct": 31,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "provenance": "RECOVERED_TRAIN_EVAL_REMOTE_VERIFIED__NO_RERUN",
+          "run_manifest_sha256": "a59fab42527c99de3f14d22d5dd460089606ac532c599ca23c710b89fc5e9117"
+        },
+        {
+          "arm": "WINDOW_MASSED",
+          "eval_manifest_sha256": "d681b92005bb86fc326f2fc7ccd21075cb1e15f8aeaa33353771d5ffed167d36",
+          "final_trainable_sha256": "fa0ecc95e51b7fe11da5d7d574f7453d48148f061222562ae9633551eabcb2e6",
+          "heavy_publication": {
+            "asset_name": "dd2_seed2026083121_WINDOW_MASSED_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd2-revisit-topology-2026-09-01",
+            "remote_digest": "sha256:a331b7eb6fc41581e15a5281ad17f07cb37bd9cd4a740d74ce251492c5fff7bd",
+            "sha256": "a331b7eb6fc41581e15a5281ad17f07cb37bd9cd4a740d74ce251492c5fff7bd"
+          },
+          "initial_trainable_sha256": "42ae4fd695df63c498df499ac602d5f094b19720cea7f3f4ad3c1aa722f28db3",
+          "metrics": {
+            "balanced_accuracy": 0.7916666666666667,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.75,
+                "correct": 6,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.9375,
+                "correct": 15,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.875,
+                "correct": 14,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.375,
+                "correct": 3,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.875,
+                "correct": 21,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.7083333333333334,
+                "correct": 17,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.7916666666666666,
+              "correct": 38,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "provenance": "FRESH_RECOVERY_TRAIN",
+          "run_manifest_sha256": "de84acbfd7e0d47bfae195838a247c374ffd037bf4ae32c9c08291a9daf38985"
+        }
+      ],
+      "paired_initialization_sha256": "42ae4fd695df63c498df499ac602d5f094b19720cea7f3f4ad3c1aa722f28db3",
+      "seed": 2026083121,
+      "status": "COMPLETE_PAIR_RECOVERED"
+    },
+    {
+      "arms": [
+        {
+          "arm": "CYCLIC_SPACED",
+          "eval_manifest_sha256": "faed799161b92338a7320a2ba53fc1e56890f510e1ec2353fc0f7530c8a0017d",
+          "final_trainable_sha256": "355148b59973ed0787a7058d8fe0bd6c3c08142ae7dd3e1add9f2aad4192d9ab",
+          "heavy_publication": {
+            "asset_name": "dd2_seed2026083122_CYCLIC_SPACED_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd2-revisit-topology-2026-09-01",
+            "remote_digest": "sha256:693fe5be36ef953cf3bfa569862aa964e5fc0793b67295393268c5d3fa4dee58",
+            "sha256": "693fe5be36ef953cf3bfa569862aa964e5fc0793b67295393268c5d3fa4dee58"
+          },
+          "initial_trainable_sha256": "8429c4a8319f6bbba0fa8f2c9f71781c6c7eb1e14f0312b0c80407a1823832dc",
+          "metrics": {
+            "balanced_accuracy": 0.7083333333333334,
+            "by_support": {
+              "equality": {
+                "accuracy": 0.375,
+                "correct": 3,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.6875,
+                "correct": 11,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.9375,
+                "correct": 15,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.625,
+                "correct": 5,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.5833333333333334,
+                "correct": 14,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.8333333333333334,
+                "correct": 20,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.7083333333333334,
+              "correct": 34,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "provenance": "FRESH_RECOVERY_TRAIN",
+          "run_manifest_sha256": "7ed9ec06e9649a03aafafdfe87e262083bc2059c549f780fe5d7d2a10f25a11d"
+        },
+        {
+          "arm": "WINDOW_MASSED",
+          "eval_manifest_sha256": "ea1a2b74a1886c02655804e2fa5765f2c1f18a1dbd9c6341c1bec14a8315aab4",
+          "final_trainable_sha256": "a40ee2d074429f1116110d441ad901ba7d29f7fe5beb48585748bd23f3090ad7",
+          "heavy_publication": {
+            "asset_name": "dd2_seed2026083122_WINDOW_MASSED_adapter_model.safetensors",
+            "bytes": 83945296,
+            "release_url": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering/releases/tag/cfe-dd2-revisit-topology-2026-09-01",
+            "remote_digest": "sha256:0e073df3bcf3c62c95150612e976d2c365a407de2335b11f16aaa56aa2ed9a3e",
+            "sha256": "0e073df3bcf3c62c95150612e976d2c365a407de2335b11f16aaa56aa2ed9a3e"
+          },
+          "initial_trainable_sha256": "8429c4a8319f6bbba0fa8f2c9f71781c6c7eb1e14f0312b0c80407a1823832dc",
+          "metrics": {
+            "balanced_accuracy": 0.6041666666666667,
+            "by_support": {
+              "equality": {
+                "accuracy": 1.0,
+                "correct": 8,
+                "json_parse_rate": 1.0,
+                "n": 8
+              },
+              "far_negative": {
+                "accuracy": 0.375,
+                "correct": 6,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "far_positive": {
+                "accuracy": 0.5,
+                "correct": 8,
+                "json_parse_rate": 1.0,
+                "n": 16
+              },
+              "near_positive": {
+                "accuracy": 0.875,
+                "correct": 7,
+                "json_parse_rate": 1.0,
+                "n": 8
+              }
+            },
+            "by_truth": {
+              "false": {
+                "accuracy": 0.5833333333333334,
+                "correct": 14,
+                "json_parse_rate": 1.0,
+                "n": 24
+              },
+              "true": {
+                "accuracy": 0.625,
+                "correct": 15,
+                "json_parse_rate": 1.0,
+                "n": 24
+              }
+            },
+            "overall": {
+              "accuracy": 0.6041666666666666,
+              "correct": 29,
+              "json_parse_rate": 1.0,
+              "n": 48
+            }
+          },
+          "provenance": "FRESH_RECOVERY_TRAIN",
+          "run_manifest_sha256": "09c9fd196c1fac106ab0e1ac05b19daea204871294127cadfeb50d59396eaa91"
+        }
+      ],
+      "paired_initialization_sha256": "8429c4a8319f6bbba0fa8f2c9f71781c6c7eb1e14f0312b0c80407a1823832dc",
+      "seed": 2026083122,
+      "status": "COMPLETE_PAIR_FRESH"
+    }
+  ],
+  "parent_scientific_identity": "DD2_REVISIT_TOPOLOGY_20260901",
+  "preexec_sha256": "3dbee0d61c41712a32bb07177fc79d3377533c0c2519cc112f765c5af7c1ecb0",
+  "schema": "cfe.dd2r2.campaign.v1",
+  "status": "RUNNING"
+}

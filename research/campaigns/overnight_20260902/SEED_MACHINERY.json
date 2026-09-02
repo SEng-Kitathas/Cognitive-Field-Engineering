@@ -1,0 +1,6 @@
+{
+  "schema": "cfe.overnight.seed.v1",
+  "label": "MACHINERY",
+  "question": "Which separations, feedback paths, and authority boundaries among Semantic Helix, OARR, Loop+, Attention Reservoir, CSC, co-processing, and the research loop are actually load-bearing, and which are redundant or wrongly factorized?",
+  "authority": "RESEARCH_ONLY_NO_PROMOTION"
+}

@@ -103,3 +103,7 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | DD2R3 recovery | 2 sealed prior pairs + seed23 unmanifested + isolated runtime contract | amendment `5e1b78c37f723fbf036e202be26a74791db45a743dbed1173529545d0bea8303`; runner `763e377b0ec561dbd81331de192c3080b2a10eb9b2d7c33f6c5f535e363ad019`; static `c899663360820066427bfa440251f9f9585e81bdc3ddfd95ea5aaf417949456c` | PASS / LAUNCH AUTHORIZED |
 
 | DD2R3 live execution | runSync transport lost handle but local readback found exact command/process tree | `state/analysis/DD2R3_EXECUTION_TRACKING_2026-09-01.json` SHA `b100aecc772e567c6be97148c7f1e4ad3900508c30bc3c922cdb402ffb3b50b7` | RUNNING_PID_TRACKED / seed23 spaced |
+
+| Overnight research runner | Helix/OARR/Loop+/Reservoir/CSC multi-lane program | `tools/run_overnight_research_program_20260902.py` SHA `08fa8e5dd79b147b7e34223c50a24bca76d2b530d8d97453fc973b38b4a684ae` | RUNNING job-4da449cfa837 |
+| Overnight concept archaeology | local CFE/Singularity sources | `tools/overnight_concept_archaeology.py` SHA `e690d618444c3fd6f418edb15fed5f49c63e6d3d134dba0ea3d1026b77079df8` | RUNNING job-77ad0f0cf849 |
+| DD2R1 recovery | DD2 eval access violation / 0 admitted pairs | `state/next_steps/DD2R1_REVISIT_TOPOLOGY_EXECUTION_RECOVERY_AMENDMENT_2026-09-02.json` SHA `161e0792dcfe62ec3a02799bb2ad347808cc65586c0cee7f151a61a257ee161a` + `tools/run_dd2r1_revisit_topology_recovery.py` SHA `31a3a20697d71a874d00b34a9642b749fafd22eab2979d51ac16ae1541a57b01` | WAITING ON RESEARCH SENTINEL job-c3a77033cd06 |

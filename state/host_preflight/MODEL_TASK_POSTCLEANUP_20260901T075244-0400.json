@@ -1,0 +1,107 @@
+{
+  "force_exited": [],
+  "gpu_snapshot_after_cleanup": {
+    "compute_apps": [
+      {
+        "pid": "2956",
+        "process_name": "[Insufficient Permissions]",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "14312",
+        "process_name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "13544",
+        "process_name": "C:\\Windows\\explorer.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "1776",
+        "process_name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "15328",
+        "process_name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "19232",
+        "process_name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.107\\msedgewebview2.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "29744",
+        "process_name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "26620",
+        "process_name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.107\\msedgewebview2.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "18184",
+        "process_name": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.24.11911.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "12856",
+        "process_name": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "7080",
+        "process_name": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "27004",
+        "process_name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2608.54041.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "13360",
+        "process_name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\151.0.4129.107\\msedgewebview2.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "33508",
+        "process_name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "17088",
+        "process_name": "C:\\Users\\ancal\\AppData\\Local\\Vivaldi\\Application\\vivaldi.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "3396",
+        "process_name": "C:\\Users\\ancal\\AppData\\Local\\Vivaldi\\Application\\vivaldi.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "14172",
+        "process_name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory_mib": "[N/A]"
+      },
+      {
+        "pid": "13984",
+        "process_name": "C:\\Users\\ancal\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "used_memory_mib": "[N/A]"
+      }
+    ],
+    "status": "PASS"
+  },
+  "matched_after_task": [],
+  "phase": "FAILURE_PATH_QUALIFICATION:POST",
+  "policy": "ALWAYS_CLEAN_MODEL_RUNTIMES_AFTER_CFE_MODEL_TASK_SUCCESS_OR_FAILURE",
+  "restoration_required": false,
+  "schema": "cfe.model-task-postcleanup.v1",
+  "status": "PASS",
+  "survivors": [],
+  "task_return_code": 7,
+  "timestamp": "2026-09-01T07:52:44-04:00"
+}
