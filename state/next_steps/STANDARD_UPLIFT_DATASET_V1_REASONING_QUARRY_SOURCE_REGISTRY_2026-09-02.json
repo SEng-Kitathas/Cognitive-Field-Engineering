@@ -1,0 +1,57 @@
+{
+  "schema": "cfe.standard-uplift-dataset.reasoning-quarry-registry.v1",
+  "status": "ACTIVE_RESEARCH_SOURCE_REGISTRY",
+  "program": "STANDARD_UPLIFT_DATASET_V1",
+  "sources": [
+    {
+      "name": "DeepSeek-R1 open reasoning",
+      "class": "OPEN_VISIBLE_REASONING",
+      "source": "deepseek-ai/DeepSeek-R1",
+      "license": "MIT model release; current DeepSeek release documentation states API outputs may be used for fine-tuning/distillation",
+      "use": [
+        "reasoning-invariant comparison",
+        "bounded open-trace quarry",
+        "candidate locally/API generated training examples after normal provenance/verifier gates"
+      ],
+      "state": "ELIGIBLE_AFTER_NORMAL_GATES",
+      "notes": "Keep reasoning_content separate from final content. Open trace text is observable behavior, not privileged truth about internal computation."
+    },
+    {
+      "name": "DeepSeek-R1 distilled open models",
+      "class": "OPEN_VISIBLE_REASONING",
+      "source": "deepseek-ai DeepSeek-R1-Distill Qwen/Llama family",
+      "use": [
+        "cross-scale trace-structure comparison",
+        "test whether invariants survive distillation",
+        "candidate local generation when machine-fit"
+      ],
+      "state": "RESEARCH_CANDIDATE"
+    },
+    {
+      "name": "Panfilov et al. 2026 hidden-reasoning extraction study",
+      "class": "SECURITY_RESEARCH_ONLY",
+      "source": "arXiv:2608.09867",
+      "use": [
+        "privacy/security evidence",
+        "style-vs-structure methodological caution",
+        "trace reconstruction limitations",
+        "public-log hygiene rule"
+      ],
+      "state": "RESEARCH_ONLY_DO_NOT_INGEST_RECOVERED_TRACES",
+      "notes": "Do not acquire/decode/store recovered proprietary hidden reasoning or secret-bearing logs. alphaXiv is a paper/discussion surface, not a clean decoded-trace training dataset."
+    },
+    {
+      "name": "OpenThoughts-114k",
+      "class": "OPEN_REASONING_DATASET",
+      "source": "open-thoughts/OpenThoughts-114k",
+      "use": [
+        "already in Standard Uplift source registry",
+        "reasoning structural annotation",
+        "A0 bounded-reasoning selection"
+      ],
+      "state": "ACTIVE_STANDARD_SOURCE"
+    }
+  ],
+  "comparison_rule": "When comparing reasoning families, use decontaminated identical/isomorphic tasks, keep literal style features separate from structural events, and score correctness/verification/recovery/token efficiency independently.",
+  "privacy_rule": "Opaque or encrypted reasoning fields from public proprietary logs are sensitive quarantine material, not a decryption opportunity."
+}

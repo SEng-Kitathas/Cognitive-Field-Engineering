@@ -110,3 +110,12 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Q4_K_M MTP at n=2 is best tested: 35.4938 -> 38.0903 tok/s mean, ratio 1.07315x, wins 4/4 prompts.
 - Recommended verified local profile: target i1 Q4_K_M + llama.cpp b10759 CUDA + Q4_K_M MTP sidecar + draft-mtp n_max=2, 4K context, single slot.
 - Disposition SHA `43d0b01c2190627841054d05d408016ec5ed8f2376639cc6c07b9c43a7520502`.
+
+## Frontier reasoning-trace quarry intake — 2026-09-02
+- Verified primary-source paper `arXiv:2608.09867` exists and demonstrates cross-model/session portability attacks on proprietary encrypted reasoning blocks; 315,320 reconstructed blocks from 6,708 public trajectories contained real PII/credentials.
+- The paper is **RESEARCH-ONLY** for CFE Standard Uplift. Recovered/decrypted proprietary hidden reasoning is explicitly excluded from training intake and local acquisition.
+- alphaXiv is a paper/discussion mirror, not a clean decoded-trace dataset release.
+- Open visible reasoning (DeepSeek-R1/R1-distill, OpenThoughts, later open Qwen traces under normal license/provenance gates) is the approved comparative quarry.
+- New structural reasoning taxonomy: correction/branch rejection, independent verification, alternative-path search, currentness revision, evidence-state separation, question retention, consequence propagation, failed-branch recovery, composition, memorization-shortcut suspicion, degenerate reasoning, efficient sufficient reasoning.
+- Literal phrases/style are not invariants; structural tags require observable state/evidence/approach change.
+- Research artifact SHA `a4768657ca58b3fac3eee3b8651a69124edd5496dc3f2c4fd28ae66e4903d5e9`; reasoning policy SHA `955e49cd4c6ea5812fe04fa9968168bec41b84afeb54a3401a848e8e6ec8cc67`; quarry registry SHA `48f294fafa151e12e8e8805ed5287f194b0e4bee41256d98dbdeb48e394a9625`.

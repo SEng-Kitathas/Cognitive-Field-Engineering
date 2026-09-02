@@ -1,0 +1,359 @@
+{
+  "assistant_target": {
+    "max": 130375,
+    "median": 2561.0,
+    "p90": 29799,
+    "p95": 54465,
+    "p99": 93927
+  },
+  "assistant_target_tokens_sum": 18067197,
+  "largest_atoms": [
+    {
+      "assistant_tokens": 130375,
+      "atom_id": "16fb5ac965c682d8baec1dbf02f65a08d2728ace2ec38ebd2c6c778cde32a5d4",
+      "source": "nvidia/Nemotron-SFT-Math-v4::train",
+      "total_tokens": 130517
+    },
+    {
+      "assistant_tokens": 112291,
+      "atom_id": "17f804ee19d9a180d966d7206ab5fcfac109967b8bec713ba621f838f6904ff2",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 113183
+    },
+    {
+      "assistant_tokens": 112008,
+      "atom_id": "e164b38a8c09115cf32801e36341dc0e540bfdf01a0b821ab0ecd956ad6cc74e",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 112901
+    },
+    {
+      "assistant_tokens": 111866,
+      "atom_id": "6f81e5b5e0967d85db2726abc54e3723a4eeaf86cc394da359f82b59e6221339",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 112356
+    },
+    {
+      "assistant_tokens": 111388,
+      "atom_id": "931f6590c14d5eb974198f18351128182cad88c12b6455864888ea0b8f2a56e9",
+      "source": "nvidia/Nemotron-SFT-Math-v4::train",
+      "total_tokens": 111463
+    },
+    {
+      "assistant_tokens": 108416,
+      "atom_id": "dd6d712d32b0445eda412fd7b726494d6f1d382248a8fe5514105611db162898",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 109126
+    },
+    {
+      "assistant_tokens": 106747,
+      "atom_id": "72897c6a28a6f390de9fba0abcf253f6c5c6a0bb1084ef6bc2f5f390fe850127",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 107327
+    },
+    {
+      "assistant_tokens": 106102,
+      "atom_id": "6e917ef8fef408e58aa4188abcf1a963f358d6080dc84cd9073d6bb4e9457aef",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 107225
+    },
+    {
+      "assistant_tokens": 104534,
+      "atom_id": "3f31db39802d1bce26fba777a4d278600052c5fd888aa937943486149c436c20",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 105639
+    },
+    {
+      "assistant_tokens": 104143,
+      "atom_id": "c90e91de3504677633ca538980e90e16677a4290b22db7284fa0dc956f71eedf",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 104929
+    },
+    {
+      "assistant_tokens": 102872,
+      "atom_id": "14ab46337d157d538f707e82757adf587fd808f474feb83a3436c3fdab97b2e2",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 103859
+    },
+    {
+      "assistant_tokens": 103602,
+      "atom_id": "fa081fcaea3be200c2bd73fab93ae683fbcf39dcbe1058a3a2e151c86c8baca5",
+      "source": "nvidia/Nemotron-SFT-Math-v4::train",
+      "total_tokens": 103747
+    },
+    {
+      "assistant_tokens": 102699,
+      "atom_id": "a7f7c96e22292bac4b96a37ad8b8a1bde4b079b3fc7684cc260dcce17c1c6179",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 103399
+    },
+    {
+      "assistant_tokens": 100232,
+      "atom_id": "44ee3bbfd9816fef132356de221adfa04f7a1b448cc17bc2c6516fe7abf07a84",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 101397
+    },
+    {
+      "assistant_tokens": 99780,
+      "atom_id": "cd5d765260f269d800efaee000d956018e331531c5ce289496f594b8b249b5e4",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 100590
+    },
+    {
+      "assistant_tokens": 98266,
+      "atom_id": "2a1425fccfe912d6a2447bb7a2d32a93e868233d3339e1223f140670f7afabee",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 99718
+    },
+    {
+      "assistant_tokens": 97743,
+      "atom_id": "7226ee615ab353c3bf9d3f7c086faaff00deb0028133f97b8254487319c68fba",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 98199
+    },
+    {
+      "assistant_tokens": 98091,
+      "atom_id": "45dd6b21d99baac6e032362c1f4cf9f0660c5d8b41941a4663d291469efb2cc0",
+      "source": "nvidia/Nemotron-SFT-Math-v4::train",
+      "total_tokens": 98152
+    },
+    {
+      "assistant_tokens": 24679,
+      "atom_id": "38e9c79ba491a42ad8b0a05dcd714e4585e539180bd845b09c82cd08125ec1e2",
+      "source": "nvidia/Open-SWE-Traces::openhands",
+      "total_tokens": 96812
+    },
+    {
+      "assistant_tokens": 94903,
+      "atom_id": "6f2f48fb102d42ad6657407192306101c4cfa36b214912d34ad1a9a96316f820",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python",
+      "total_tokens": 96653
+    }
+  ],
+  "over_context": {
+    "16384": {
+      "fraction": 0.24782608695652175,
+      "rows": 456
+    },
+    "2048": {
+      "fraction": 0.7885869565217392,
+      "rows": 1451
+    },
+    "32768": {
+      "fraction": 0.13967391304347826,
+      "rows": 257
+    },
+    "4096": {
+      "fraction": 0.6375,
+      "rows": 1173
+    },
+    "65536": {
+      "fraction": 0.044021739130434785,
+      "rows": 81
+    },
+    "8192": {
+      "fraction": 0.4717391304347826,
+      "rows": 868
+    }
+  },
+  "rows": 1840,
+  "schema": "cfe.standard-uplift.token-profile.v1",
+  "sources": {
+    "LDJnr/Capybara::train": {
+      "assistant_target_tokens": 144082,
+      "max_assistant": 1430,
+      "max_total": 1533,
+      "median_assistant": 772.0,
+      "median_total": 871.5,
+      "p90_assistant": 1064,
+      "p90_total": 1202,
+      "rows": 180,
+      "total_context_tokens": 162133
+    },
+    "NextTokenAI/NextSearch-1-Trajectories::train": {
+      "assistant_target_tokens": 40176,
+      "max_assistant": 1477,
+      "max_total": 29946,
+      "median_assistant": 295.5,
+      "median_total": 6252.5,
+      "p90_assistant": 890,
+      "p90_total": 13881,
+      "rows": 100,
+      "total_context_tokens": 816008
+    },
+    "nvidia/Nemotron-SFT-Agentic-v2::interactive_agent": {
+      "assistant_target_tokens": 109076,
+      "max_assistant": 3906,
+      "max_total": 6868,
+      "median_assistant": 1179.0,
+      "median_total": 3894.0,
+      "p90_assistant": 2941,
+      "p90_total": 5536,
+      "rows": 80,
+      "total_context_tokens": 325864
+    },
+    "nvidia/Nemotron-SFT-Agentic-v2::search": {
+      "assistant_target_tokens": 292419,
+      "max_assistant": 11121,
+      "max_total": 40817,
+      "median_assistant": 3316.5,
+      "median_total": 26364.0,
+      "p90_assistant": 5980,
+      "p90_total": 34056,
+      "rows": 80,
+      "total_context_tokens": 1973199
+    },
+    "nvidia/Nemotron-SFT-Agentic-v2::tool_calling": {
+      "assistant_target_tokens": 151960,
+      "max_assistant": 12698,
+      "max_total": 29921,
+      "median_assistant": 1207.0,
+      "median_total": 2737.0,
+      "p90_assistant": 3183,
+      "p90_total": 8757,
+      "rows": 80,
+      "total_context_tokens": 371984
+    },
+    "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_cpp": {
+      "assistant_target_tokens": 2670295,
+      "max_assistant": 90840,
+      "max_total": 91448,
+      "median_assistant": 31092.5,
+      "median_total": 31820.0,
+      "p90_assistant": 57308,
+      "p90_total": 58179,
+      "rows": 80,
+      "total_context_tokens": 2733320
+    },
+    "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python": {
+      "assistant_target_tokens": 6676814,
+      "max_assistant": 112291,
+      "max_total": 113183,
+      "median_assistant": 64199.0,
+      "median_total": 65323.0,
+      "p90_assistant": 100232,
+      "p90_total": 101397,
+      "rows": 100,
+      "total_context_tokens": 6756409
+    },
+    "nvidia/Nemotron-SFT-Competitive-Programming-v2::text_to_sql": {
+      "assistant_target_tokens": 71382,
+      "max_assistant": 2418,
+      "max_total": 6028,
+      "median_assistant": 1122.0,
+      "median_total": 3958.5,
+      "p90_assistant": 1757,
+      "p90_total": 4896,
+      "rows": 60,
+      "total_context_tokens": 236441
+    },
+    "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2::reasoning_off": {
+      "assistant_target_tokens": 88905,
+      "max_assistant": 6434,
+      "max_total": 6502,
+      "median_assistant": 536.0,
+      "median_total": 749.5,
+      "p90_assistant": 2037,
+      "p90_total": 2417,
+      "rows": 100,
+      "total_context_tokens": 114009
+    },
+    "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2::reasoning_on": {
+      "assistant_target_tokens": 196232,
+      "max_assistant": 9430,
+      "max_total": 10526,
+      "median_assistant": 1302.0,
+      "median_total": 1603.0,
+      "p90_assistant": 4384,
+      "p90_total": 5145,
+      "rows": 100,
+      "total_context_tokens": 224630
+    },
+    "nvidia/Nemotron-SFT-Math-v4::train": {
+      "assistant_target_tokens": 3963285,
+      "max_assistant": 130375,
+      "max_total": 130517,
+      "median_assistant": 10507.5,
+      "median_total": 10630.0,
+      "p90_assistant": 57180,
+      "p90_total": 57242,
+      "rows": 180,
+      "total_context_tokens": 3978133
+    },
+    "nvidia/Open-SWE-Traces::openhands": {
+      "assistant_target_tokens": 478328,
+      "max_assistant": 24679,
+      "max_total": 96812,
+      "median_assistant": 4893.5,
+      "median_total": 42100.0,
+      "p90_assistant": 9810,
+      "p90_total": 67403,
+      "rows": 80,
+      "total_context_tokens": 3806430
+    },
+    "open-r1/OpenR1-Math-220k::train": {
+      "assistant_target_tokens": 1061714,
+      "max_assistant": 17302,
+      "max_total": 17481,
+      "median_assistant": 4664.0,
+      "median_total": 4747.5,
+      "p90_assistant": 12225,
+      "p90_total": 12319,
+      "rows": 180,
+      "total_context_tokens": 1077810
+    },
+    "open-thoughts/OpenThoughts-114k::train": {
+      "assistant_target_tokens": 1335518,
+      "max_assistant": 26438,
+      "max_total": 27130,
+      "median_assistant": 6678.0,
+      "median_total": 7336.0,
+      "p90_assistant": 16409,
+      "p90_total": 17233,
+      "rows": 160,
+      "total_context_tokens": 1452426
+    },
+    "osunlp/QUEST-SFT-Data-Objective::train": {
+      "assistant_target_tokens": 215945,
+      "max_assistant": 8790,
+      "max_total": 16263,
+      "median_assistant": 2223.0,
+      "median_total": 15157.5,
+      "p90_assistant": 4748,
+      "p90_total": 15908,
+      "rows": 80,
+      "total_context_tokens": 1175898
+    },
+    "osunlp/QUEST-SFT-Data-Open-ended::train": {
+      "assistant_target_tokens": 298172,
+      "max_assistant": 8964,
+      "max_total": 20206,
+      "median_assistant": 2145.5,
+      "median_total": 15132.0,
+      "p90_assistant": 5940,
+      "p90_total": 16080,
+      "rows": 100,
+      "total_context_tokens": 1466970
+    },
+    "simplex-ai-inc/LiteResearcher-SFT-Data::train": {
+      "assistant_target_tokens": 272894,
+      "max_assistant": 8374,
+      "max_total": 45826,
+      "median_assistant": 2063.0,
+      "median_total": 12478.5,
+      "p90_assistant": 5362,
+      "p90_total": 22433,
+      "rows": 100,
+      "total_context_tokens": 1435654
+    }
+  },
+  "tokenizer_class": "Qwen2TokenizerFast",
+  "tokenizer_path": "D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\qwen3_4b_thinking_3shard",
+  "total_context": {
+    "max": 130517,
+    "median": 6997.0,
+    "p90": 41325,
+    "p95": 61261,
+    "p99": 96653
+  },
+  "total_context_tokens_sum": 28107318
+}

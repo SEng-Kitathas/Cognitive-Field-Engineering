@@ -1,0 +1,107 @@
+{
+  "schema": "cfe.standard-uplift-dataset.reasoning-trace-policy.v1",
+  "status": "ACTIVE_BUILD_POLICY",
+  "program": "STANDARD_UPLIFT_DATASET_V1",
+  "purpose": "use reasoning traces as structured evidence/quarry while preventing style-copying, privacy leakage, exploit-derived training data, and token-waste",
+  "laws": [
+    "STEAL INVARIANTS NOT ABSTRACTIONS",
+    "REASONING PHRASE != REASONING MECHANISM",
+    "STYLE CONVERGENCE != MECHANISM CONVERGENCE",
+    "RECOVERABLE TRACE != TRUSTWORTHY TRACE",
+    "TRACE LENGTH != DIFFICULTY",
+    "REPETITION != VERIFICATION",
+    "PUBLICLY POSTED ENCRYPTED BLOCK != CLEAN TRAINING DATA",
+    "PROPRIETARY HIDDEN-COT EXTRACTION RESEARCH != TRAINING AUTHORIZATION"
+  ],
+  "source_classes": {
+    "OPEN_VISIBLE_REASONING": {
+      "state": "ELIGIBLE_AFTER_NORMAL_SOURCE_GATES",
+      "examples": [
+        "DeepSeek-R1 / R1-distill visible reasoning outputs with valid provenance/license",
+        "open Qwen thinking/reasoning outputs with valid provenance/license",
+        "public open-weight reasoning datasets already admitted through the source registry"
+      ]
+    },
+    "PROPRIETARY_VISIBLE_FINAL_OR_SUMMARY_OUTPUT": {
+      "state": "ELIGIBLE_ONLY_UNDER TERMS_AND_NORMAL_GATES",
+      "rule": "visible authorized outputs/summaries may be used only where provider terms and dataset provenance permit; never infer that a summary equals hidden reasoning"
+    },
+    "RECOVERED_OR_DECRYPTED_PROPRIETARY_HIDDEN_REASONING": {
+      "state": "RESEARCH_ONLY_DO_NOT_INGEST",
+      "rule": "do not acquire, decode, store, normalize or train on exploit-recovered hidden reasoning blocks",
+      "risks": [
+        "privacy and credentials",
+        "provider intellectual-property/security boundary",
+        "reconstruction uncertainty",
+        "style contamination",
+        "unknown hidden prompt/tool state"
+      ]
+    },
+    "SYNTHETIC_TRACE_FROM_OPEN_MODEL": {
+      "state": "CANDIDATE_AFTER_VERIFICATION",
+      "rule": "source task, generator identity, generation settings, verifier outcome and rejection reason must remain attached"
+    }
+  },
+  "structural_annotations": [
+    "CORRECTION_BRANCH_REJECTION",
+    "INDEPENDENT_VERIFICATION",
+    "ALTERNATIVE_PATH_SEARCH",
+    "CURRENTNESS_REVISION",
+    "EVIDENCE_STATE_SEPARATION",
+    "QUESTION_RETENTION",
+    "CONSEQUENCE_PROPAGATION",
+    "FAILED_BRANCH_RECOVERY",
+    "COMPOSITION",
+    "MEMORIZATION_SHORTCUT_SUSPICION",
+    "DEGENERATE_REASONING",
+    "EFFICIENT_SUFFICIENT_REASONING"
+  ],
+  "annotation_rule": "structural tags require observable state/approach/evidence transitions; literal phrases such as 'wait', 'actually', or 'verify' are insufficient",
+  "training_translation": {
+    "primary_use": [
+      "select difficult/diverse/verifiable tasks",
+      "select bounded reasoning traces where state-changing events pay rent",
+      "construct long-horizon episodes with actual causal dependencies",
+      "preserve tool/evidence observations that cause plan revision",
+      "build correct/repair and evidence-sufficient/insufficient contrasts",
+      "identify and reject redundant performative reasoning"
+    ],
+    "not_primary_use": [
+      "copying proprietary trace wording",
+      "maximizing chain-of-thought length",
+      "teaching model-specific self-talk phrases",
+      "treating hidden reasoning text as ground truth about internal computation"
+    ]
+  },
+  "open_trace_comparison": {
+    "task_families": [
+      "decontaminated difficult math",
+      "verifiable algorithms/code",
+      "symbolic/logic tasks",
+      "tool-use with observable outcomes",
+      "long-horizon state/currentness",
+      "evidence-grounded research"
+    ],
+    "metrics": [
+      "correctness/verifier outcome",
+      "assistant target tokens",
+      "state-changing reasoning events",
+      "correction count",
+      "independent verification count",
+      "alternative path count",
+      "question-retention failures",
+      "branch-recovery events",
+      "tool/evidence grounding events",
+      "unresolved-unknown handling",
+      "non-state-changing token fraction",
+      "style fingerprint kept separate from structural score"
+    ]
+  },
+  "security_research_reference": {
+    "paper": "Panfilov et al., Stealing Reasoning Traces from Proprietary LLM APIs",
+    "arxiv": "2608.09867",
+    "use": "security/privacy evidence + methodological caution only",
+    "training_data": false
+  },
+  "related_artifact": "research/FRONTIER_REASONING_TRACE_INVARIANT_QUARRY_2026-09-02.md"
+}

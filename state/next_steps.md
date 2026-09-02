@@ -41,3 +41,11 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 3. Before wider deployment, test the chosen Q4/n=2 profile at 8K and 16K context under the same resource guard; stop if another project claims resources.
 4. Keep Qwen3.6-35B-A3B and Gemma 4 26B-A4B as model-fit challengers, but do not download/load them until a later safe window and explicit comparison packet is ready.
 5. Keep the stale-runtime reclamation rule active: healthy socket alone does not prove current ownership; require multi-signal liveness before preserving a warm load indefinitely.
+
+## Reasoning-trace quarry next steps — 2026-09-02
+1. Do not acquire/decode/store exploit-recovered proprietary hidden reasoning blocks; use `arXiv:2608.09867` only as research/security evidence.
+2. Add structural reasoning annotations to the Standard Uplift quarantine/A0 pipeline, keeping literal style fingerprints separate from invariant labels.
+3. Use open visible reasoning families (DeepSeek-R1/R1-distill, OpenThoughts, qualified open Qwen traces) for same-task/isomorphic trace comparison.
+4. Score correction, verification, alternative-path search, currentness, evidence-state separation, question retention, failed-branch recovery, composition, redundancy and token efficiency independently of raw trace length.
+5. Treat memorization-shortcut detection as a suspicion label unless contamination/memorization evidence independently confirms it.
+6. Feed the resulting invariant/efficiency findings back into A0 selection/rendering; do not expand A0 token budget merely to preserve long source traces.

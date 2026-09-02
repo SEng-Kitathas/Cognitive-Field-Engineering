@@ -1,0 +1,84 @@
+{
+  "schema": "cfe.standard-uplift.source-schema-probe.v1",
+  "created_unix": 1788373859.536888,
+  "sources": [
+    {
+      "repo": "open-r1/OpenR1-Math-220k",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    },
+    {
+      "repo": "nvidia/Nemotron-SFT-Math-v4",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    },
+    {
+      "repo": "open-thoughts/OpenThoughts-114k",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    },
+    {
+      "repo": "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    },
+    {
+      "repo": "nvidia/Nemotron-SFT-Agentic-v2",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    },
+    {
+      "repo": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    },
+    {
+      "repo": "nvidia/Open-SWE-Traces",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    },
+    {
+      "repo": "osunlp/QUEST-SFT-Data-Open-ended",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    },
+    {
+      "repo": "osunlp/QUEST-SFT-Data-Objective",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    },
+    {
+      "repo": "simplex-ai-inc/LiteResearcher-SFT-Data",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    },
+    {
+      "repo": "NextTokenAI/NextSearch-1-Trajectories",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    },
+    {
+      "repo": "LDJnr/Capybara",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    },
+    {
+      "repo": "argilla/Capybara-Preferences-Filtered",
+      "status": "ERROR",
+      "configs": [],
+      "error": "TypeError(\"DownloadConfig.__init__() got an unexpected keyword argument 'trust_remote_code'\")"
+    }
+  ]
+}

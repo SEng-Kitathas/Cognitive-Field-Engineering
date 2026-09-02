@@ -1,0 +1,146 @@
+{
+  "schema": "cfe.standard-uplift-dataset.a0-rendering-selection-policy.v1",
+  "status": "FROZEN_BEFORE_A0_CANDIDATE_BUILD",
+  "program": "STANDARD_UPLIFT_DATASET_V1",
+  "purpose": "build the first practical standard post-training corpus, deliberately CFE/LHIT-informed but not a CFE experimental arm",
+  "research_basis": [
+    "LIMO arXiv:2502.03387 — small difficult/diverse high-quality SFT can strongly elicit reasoning",
+    "s1 arXiv:2501.19393 — 1K examples selected for difficulty/diversity/quality can materially improve reasoning",
+    "Reasoning Quality Emerges Early / TEMP arXiv:2606.26797 — naive reasoning-SFT scaling can degrade performance; difficulty/diversity selection can be far more token efficient",
+    "Nemotron-Cascade 2 arXiv:2603.19220 — modern post-training mixes math, code, science, tools, software engineering, multi-turn chat and instruction following; large-scale recipe is donor evidence, not a scale prescription for this 4B/6GB regime"
+  ],
+  "observed_pilot": {
+    "normalized_sft_atoms": 1840,
+    "preference_atoms_separate": 120,
+    "naive_assistant_target_tokens_qwen3": 18067197,
+    "naive_total_context_tokens_qwen3": 28107318,
+    "median_total_context_tokens": 6997,
+    "p90_total_context_tokens": 41325,
+    "rows_over_16k_context": 456,
+    "rows_over_32k_context": 257,
+    "dominant_long_trace_sources": [
+      "nvidia/Nemotron-SFT-Competitive-Programming-v2 competitive coding reasoning",
+      "nvidia/Nemotron-SFT-Math-v4 long reasoning",
+      "nvidia/Open-SWE-Traces long repository/tool context"
+    ]
+  },
+  "stage_budgets": {
+    "A0_CORE_SEED": {
+      "assistant_target_tokens_min": 2500000,
+      "assistant_target_tokens_target": 3200000,
+      "assistant_target_tokens_max": 4000000,
+      "goal": "prove mixture, rendering, ordering, and regression safety on first learner"
+    },
+    "A1_EXPANDED_STANDARD": {
+      "assistant_target_tokens_min": 6000000,
+      "assistant_target_tokens_max": 10000000,
+      "authorization": "only after A0 local phenotype/eval result is positive or clearly informative"
+    }
+  },
+  "render_modes": {
+    "ANSWER_ONLY": "learner sees task/context and assistant answer/tool action content; stored reasoning_content is excluded from loss/render",
+    "BOUNDED_REASONING": "include source reasoning only when it falls within lane-specific bounds and passes quality gates",
+    "FULL_TRAJECTORY": "preserve messages, tools and observations in order; reasoning remains lane/budget controlled",
+    "LHIT_WHOLE_EPISODE": "preserve complete causally dependent multi-turn episode; do not crop turns merely to fit a token cap"
+  },
+  "lane_rendering": {
+    "competitive_code": {
+      "default": "ANSWER_ONLY",
+      "reason": "pilot long-CoT dominates dose; final executable code is the primary supervised target",
+      "reasoning_candidate_max_tokens": 8000,
+      "full_reasoning_fraction_ceiling": 0.15,
+      "verification_priority": "compile/sample-test or stronger verifier before reasoning-rich admission"
+    },
+    "math": {
+      "default": "BOUNDED_REASONING",
+      "full_reasoning_max_tokens": 16000,
+      "preferred_reasoning_band_tokens": [800, 12000],
+      "over_16k": "do not train full trace in A0; use verified concise solution/final-answer view if semantically complete, otherwise quarantine",
+      "selection_priority": "verifier support + difficulty + diversity + support coverage, never length alone"
+    },
+    "general_reasoning_science": {
+      "default": "BOUNDED_REASONING",
+      "full_reasoning_max_tokens": 16000,
+      "over_16k": "quarantine or answer-only only when answer remains complete and useful"
+    },
+    "instruction_following": {
+      "reasoning_off": "ANSWER_ONLY",
+      "reasoning_on": "BOUNDED_REASONING",
+      "full_reasoning_max_tokens": 8000,
+      "priority": "constraint adherence, correction, structured output, concise competence"
+    },
+    "agent_tool": {
+      "default": "FULL_TRAJECTORY",
+      "reasoning_budget_tokens_per_episode": 6000,
+      "rule": "tool calls and observations are preserved when causally required; excessive private reasoning may be omitted without deleting tool/action history",
+      "failed_trace_rule": "failed traces are not positive SFT unless explicitly qualified as recovery examples"
+    },
+    "deep_research": {
+      "default": "FULL_TRAJECTORY",
+      "reasoning_budget_tokens_per_episode": 8000,
+      "whole_episode_context_preference": 16384,
+      "rule": "preserve evidence/tool chronology; teacher reasoning is not factual ground truth; prefer episodes that cross-check and recover from weak searches"
+    },
+    "lhit_multiturn": {
+      "default": "LHIT_WHOLE_EPISODE",
+      "whole_episode_context_preference": 8192,
+      "whole_episode_context_ceiling_A0": 16384,
+      "rule": "if causal history cannot fit whole, quarantine for later long-context stage rather than flatten/crop away the dependency"
+    },
+    "swe": {
+      "default": "QUARANTINE",
+      "reason": "protected SWE-bench-family evaluation contamination must be resolved before training admission"
+    }
+  },
+  "context_buckets_qwen3": {
+    "CORE_4K": [0, 4096],
+    "MID_8K": [4097, 8192],
+    "LONG_16K": [8193, 16384],
+    "LONGER_QUARANTINE": [16385, null]
+  },
+  "source_group_target_bands": {
+    "math_reasoning_science": [0.20, 0.30],
+    "code_sql": [0.15, 0.25],
+    "instruction_chat": [0.08, 0.15],
+    "agent_tool": [0.12, 0.20],
+    "deep_research": [0.12, 0.22],
+    "capybara_lineage": [0.04, 0.10]
+  },
+  "cross_cutting_requirements": {
+    "lhit_invariant_coverage": "actively select across Capybara, agent and research sources; no fixed Capybara-label quota",
+    "cfe_support": "avoid narrow source/domain support; prefer examples that distinguish plausible rival rules",
+    "contrast": "retain useful correct/repair, changed-condition, isomorph/anti-isomorph and evidence-sufficient/insufficient contrasts where learner-visible",
+    "currentness": "include state-change/revision examples where later evidence changes the correct conclusion",
+    "composition": "include composition tasks but tag separately; primitive quality does not substitute for composition evidence"
+  },
+  "selection_order": [
+    "license resolved",
+    "evaluation contamination pass or non-protected source",
+    "objective verifier/success evidence when available",
+    "exact dedup",
+    "near-duplicate control",
+    "difficulty/diversity/coverage value",
+    "target-specific render fit",
+    "source/style diversity",
+    "CFE/LHIT invariant coverage"
+  ],
+  "standard_ordering": {
+    "type": "coverage-deficit scheduler",
+    "description": "at each step choose the capability/source group furthest below its cumulative target share, while avoiding immediate same-source repetition and preserving whole multi-turn/tool episodes",
+    "cfe_informed": [
+      "broad support before source monoculture",
+      "spaced revisit across capability families",
+      "contrast without long homogeneous blocks",
+      "causally dependent history kept intact"
+    ],
+    "claim": "engineering-informed standard ordering only; no CFE causal claim"
+  },
+  "hard_laws": [
+    "TRACE LENGTH != DIFFICULTY",
+    "LONGER REASONING != BETTER TRAINING TARGET",
+    "DO NOT PAY 100K TOKENS FOR A TRACE MERELY BECAUSE IT EXISTS",
+    "KEEP REASONING AND FINAL ANSWER SEPARABLE",
+    "LHIT HISTORY MAY NOT BE CROPPED UNTIL ITS CAUSAL DEPENDENCY IS PROVEN IRRELEVANT",
+    "A0 IS A PROBE OF THE STANDARD RECIPE, NOT THE FINAL CORPUS"
+  ]
+}

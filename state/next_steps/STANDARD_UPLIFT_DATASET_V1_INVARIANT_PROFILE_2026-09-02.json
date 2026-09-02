@@ -1,0 +1,123 @@
+{
+  "schema": "cfe.standard-uplift-dataset.invariant-profile.v1",
+  "status": "ACTIVE_BUILD_CONTRACT",
+  "program": "STANDARD_UPLIFT_DATASET_V1",
+  "not_cfe_experimental_pack": true,
+  "authority": {
+    "standard_training_goal": "practical local-model uplift",
+    "cfe_role": "engineering-informed selection/coverage/ordering constraints only",
+    "lhit_role": "stripped donor invariants re-derived into long-horizon training episodes",
+    "scientific_claim_ceiling": "NO CFE CAUSAL CLAIM FROM THIS CORPUS"
+  },
+  "cfe_informed_invariants": [
+    {
+      "name": "BROAD_IDENTIFYING_SUPPORT",
+      "operationalization": "prefer examples/episode sets that expose enough neighboring cases to distinguish the intended rule from plausible rivals; avoid narrow repetitive slices"
+    },
+    {
+      "name": "USEFUL_CONTRAST",
+      "operationalization": "select nearby positive/negative, isomorphic/anti-isomorphic, correct/repair, and changed-condition examples where the distinction is learner-visible"
+    },
+    {
+      "name": "STRUCTURED_REVISIT",
+      "operationalization": "revisit related skills after spacing and under changed surface form rather than exhausting one source/skill block at once"
+    },
+    {
+      "name": "CURRENTNESS_AND_REVISION",
+      "operationalization": "include episodes where earlier state becomes stale after a dependency/evidence change and the later answer must update rather than repeat"
+    },
+    {
+      "name": "CONSEQUENTIAL_HISTORY",
+      "operationalization": "preserve prior turns/events only when they alter later obligations, answers, tool choices, state, or confidence"
+    },
+    {
+      "name": "UNKNOWN_PRESERVATION",
+      "operationalization": "retain examples whose correct outcome is insufficient evidence / unresolved rather than forcing a guessed completion"
+    },
+    {
+      "name": "COMPOSITION_PRESSURE",
+      "operationalization": "include tasks that require composing already-supported primitives, while separately tagging composition so primitive competence is not mistaken for composition competence"
+    },
+    {
+      "name": "NEGATIVE_SPACE_COVERAGE",
+      "operationalization": "track capability/domain/behavior holes and source overconcentration; choose new atoms by uncertainty/coverage value rather than popularity alone"
+    }
+  ],
+  "lhit_stripped_invariants": [
+    {
+      "name": "LONG_HORIZON_STATE_CARRY",
+      "qualifier": "later turns must actually depend on earlier state; raw conversation length does not qualify"
+    },
+    {
+      "name": "FOLLOWUP_CONSEQUENCE_TRACKING",
+      "qualifier": "later observations/results must change what should be concluded or done"
+    },
+    {
+      "name": "REVISIT_AFTER_CHANGE",
+      "qualifier": "an earlier belief/plan/authorization is explicitly re-evaluated after new evidence or changed conditions"
+    },
+    {
+      "name": "CONTRADICTION_RECOVERY",
+      "qualifier": "the episode contains an actual conflict and a grounded correction path"
+    },
+    {
+      "name": "UNRESOLVED_SEAM_RETENTION",
+      "qualifier": "unknowns persist across turns until relevant evidence resolves them"
+    },
+    {
+      "name": "QUESTION_RETENTION",
+      "qualifier": "the trajectory resists locally plausible topic drift and returns decisions to the governing objective"
+    },
+    {
+      "name": "FAILED_BRANCH_RECOVERY",
+      "qualifier": "a mistaken or unproductive branch is recognized and corrected without discarding valid accumulated state"
+    },
+    {
+      "name": "EVIDENCE_STATE_SEPARATION",
+      "qualifier": "remembered state, direct observation, inference and uncertainty remain distinguishable"
+    },
+    {
+      "name": "MULTITURN_CAPABILITY_GROWTH",
+      "qualifier": "later performance uses consequences/structures earned earlier in the same episode rather than treating every turn as a fresh isolated prompt"
+    }
+  ],
+  "anti_patterns": [
+    "LONG_CHAT == LHIT",
+    "CAPYBARA_LABEL == DESIRED_PHENOTYPE",
+    "RANDOM_INTERLEAVING == DEVELOPMENTAL_GEOMETRY",
+    "VERBOSE_CHAIN_OF_THOUGHT == REASONING_QUALITY",
+    "MORE_ROWS == MORE_USEFUL_DOSE",
+    "FAILED_TOOL_TRACE == POSITIVE_SFT_TARGET",
+    "TEACHER_ASSERTION == VERIFIED_FACT",
+    "PRIMITIVE_SUCCESS == COMPOSITION_SUCCESS"
+  ],
+  "episode_admission": {
+    "minimum": [
+      "complete learner-visible context",
+      "source/provenance recoverable",
+      "license state resolved",
+      "later-state dependency or explicit capability value",
+      "quality/success evidence appropriate to lane"
+    ],
+    "synthetic_lhit": [
+      "source seed preserved",
+      "teacher/model identity preserved",
+      "generated episode cannot copy evaluation-only probes",
+      "objective facts independently checked where checkable",
+      "state transitions and consequence dependencies machine-validated where possible",
+      "failed candidates preserved with rejection reason"
+    ]
+  },
+  "ordering": {
+    "goal": "one best standard practical ordering, not treatment/control arms",
+    "rules": [
+      "avoid long homogeneous source runs",
+      "balance by target tokens and capability coverage rather than row count",
+      "space revisits across related skills",
+      "keep causally dependent multi-turn episodes intact",
+      "use contrast neighborhoods where learner-visible distinctions are meaningful",
+      "do not over-cluster synthetic teacher style",
+      "preserve a broad support basis before difficult composition-heavy tails"
+    ]
+  }
+}

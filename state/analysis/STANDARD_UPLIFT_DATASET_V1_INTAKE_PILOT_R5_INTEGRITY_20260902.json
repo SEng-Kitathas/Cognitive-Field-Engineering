@@ -1,0 +1,86 @@
+{
+  "admission_states": {
+    "QUARANTINE": 1840
+  },
+  "atoms": 1840,
+  "chars": {
+    "max": 294122,
+    "median": 8995.0,
+    "min": 42,
+    "p90": 65040,
+    "p95": 88733,
+    "p99": 180995,
+    "sum": 46209426
+  },
+  "contamination_states": {
+    "REVIEW": 80,
+    "UNSCREENED": 1760
+  },
+  "duplicate_conversation_hash_groups": 0,
+  "duplicate_conversation_rows": 0,
+  "duplicate_prompt_hash_groups": 32,
+  "duplicate_prompt_rows": 40,
+  "lane_counts": {
+    "agent": 320,
+    "chat": 100,
+    "code": 400,
+    "deep_research": 380,
+    "evidence_synthesis": 100,
+    "instruction_following": 200,
+    "long_horizon": 180,
+    "long_horizon_interaction": 180,
+    "math": 520,
+    "multi_turn": 180,
+    "objective_research": 80,
+    "reasoning": 880,
+    "research": 80,
+    "science": 160,
+    "search": 380,
+    "software_engineering": 80,
+    "sql": 60,
+    "structured_output": 160,
+    "tool_use": 420
+  },
+  "license_states": {
+    "RESOLVED": 1600,
+    "SEGREGATION_REQUIRED": 240
+  },
+  "missing_required": [],
+  "missing_required_count": 0,
+  "quality_states": {
+    "CANDIDATE": 1742,
+    "RAW": 98
+  },
+  "read_modes": {
+    "PINNED_DATASETS_STREAM": 1160,
+    "PINNED_RAW_JSONL_STREAM": 680
+  },
+  "reasoning_field_atoms": 940,
+  "source_counts": {
+    "LDJnr/Capybara::train": 180,
+    "NextTokenAI/NextSearch-1-Trajectories::train": 100,
+    "nvidia/Nemotron-SFT-Agentic-v2::interactive_agent": 80,
+    "nvidia/Nemotron-SFT-Agentic-v2::search": 80,
+    "nvidia/Nemotron-SFT-Agentic-v2::tool_calling": 80,
+    "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_cpp": 80,
+    "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python": 100,
+    "nvidia/Nemotron-SFT-Competitive-Programming-v2::text_to_sql": 60,
+    "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2::reasoning_off": 100,
+    "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2::reasoning_on": 100,
+    "nvidia/Nemotron-SFT-Math-v4::train": 180,
+    "nvidia/Open-SWE-Traces::openhands": 80,
+    "open-r1/OpenR1-Math-220k::train": 180,
+    "open-thoughts/OpenThoughts-114k::train": 160,
+    "osunlp/QUEST-SFT-Data-Objective::train": 80,
+    "osunlp/QUEST-SFT-Data-Open-ended::train": 100,
+    "simplex-ai-inc/LiteResearcher-SFT-Data::train": 100
+  },
+  "tool_or_research_atoms": 420,
+  "turns": {
+    "max": 277,
+    "median": 3.0,
+    "min": 2,
+    "p90": 21
+  },
+  "unique_atom_ids": 1840
+}

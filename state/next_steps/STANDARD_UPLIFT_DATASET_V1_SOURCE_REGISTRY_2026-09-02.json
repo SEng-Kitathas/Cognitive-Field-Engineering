@@ -1,0 +1,139 @@
+{
+  "schema": "cfe.standard-uplift-dataset.source-registry.v1",
+  "status": "ACTIVE_SOURCE_INTAKE_REGISTRY",
+  "program": "STANDARD_UPLIFT_DATASET_V1",
+  "not_cfe_experimental_pack": true,
+  "snapshot_date": "2026-09-02",
+  "sources": [
+    {
+      "repo": "open-r1/OpenR1-Math-220k",
+      "revision": "e4e141ec9dea9f8326f4d347be56105859b2bd68",
+      "license": ["apache-2.0"],
+      "lane": ["math", "reasoning"],
+      "state": "PRIMARY_ADMIT_CANDIDATE",
+      "selection": "default subset; prefer verifier-supported correct traces; preserve correctness metadata"
+    },
+    {
+      "repo": "nvidia/Nemotron-SFT-Math-v4",
+      "revision": "84d42ad0cb960f07f951b9baa9ed2b46a5a18c66",
+      "license": ["cc-by-4.0", "cc-by-sa-4.0"],
+      "lane": ["math", "reasoning", "tool_integrated_reasoning"],
+      "state": "LICENSE_SEGREGATION_REQUIRED",
+      "selection": "current 2026 math source; admit only rows/subsets whose source license is carried unambiguously"
+    },
+    {
+      "repo": "open-thoughts/OpenThoughts-114k",
+      "revision": "bd093c3994fd54d2390985b66988ddf282a55eb6",
+      "license": ["apache-2.0"],
+      "lane": ["reasoning", "math", "science", "code"],
+      "state": "PRIMARY_ADMIT_CANDIDATE",
+      "selection": "retain complete reasoning/problem context; deduplicate against other reasoning distillations"
+    },
+    {
+      "repo": "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2",
+      "revision": "1a9454ed054b8544503ab8d8c0a519d141a44c5b",
+      "license": ["odc-by"],
+      "lane": ["instruction_following", "chat", "structured_output"],
+      "state": "PRIMARY_ADMIT_CANDIDATE",
+      "selection": "favor precise constraints, correction, multi-turn and structured output; avoid generic verbosity"
+    },
+    {
+      "repo": "nvidia/Nemotron-SFT-Agentic-v2",
+      "revision": "7c804833427f633ccd53b582dbf02525fd680f78",
+      "license": ["cc-by-4.0", "apache-2.0", "mit"],
+      "lane": ["tool_use", "agent", "search"],
+      "state": "PRIMARY_ADMIT_CANDIDATE_WITH_CUSTOM_PARSER",
+      "selection": "preserve tool schemas and observations; parse source files directly when viewer/schema export is incomplete"
+    },
+    {
+      "repo": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "revision": "778afc98a9e027e10b3cd78020c120e93e142ef2",
+      "license": ["cc-by-4.0", "odc-by", "mit"],
+      "lane": ["code", "reasoning", "sql"],
+      "state": "LICENSE_SEGREGATION_REQUIRED",
+      "selection": "keep language/source lineage; reconstruct externally referenced prompts before admission"
+    },
+    {
+      "repo": "nvidia/Open-SWE-Traces",
+      "revision": "1e02268b36de153ab4b18707571c1cedba62cd10",
+      "license": ["cc-by-4.0"],
+      "lane": ["software_engineering", "agent", "tool_use"],
+      "state": "PRIMARY_ADMIT_CANDIDATE",
+      "selection": "prefer resolved trajectories; preserve repository SPDX license; exclude benchmark/hacking contamination patterns"
+    },
+    {
+      "repo": "nvidia/Nemotron-SFT-SWE-v3.5",
+      "revision": "ad64129216649f86179a759a6df65d0975c5df07",
+      "license": ["cc-by-4.0"],
+      "lane": ["software_engineering", "agent"],
+      "state": "TERMS_REVIEW_REQUIRED",
+      "selection": "do not admit until card wording/license scope is reconciled"
+    },
+    {
+      "repo": "osunlp/QUEST-SFT-Data-Open-ended",
+      "revision": "3d3d79ac4e2e6e0b8d1072d19bd57512c40c469b",
+      "license": ["mit"],
+      "lane": ["deep_research", "evidence_synthesis", "search"],
+      "state": "PRIMARY_ADMIT_CANDIDATE",
+      "selection": "retain complete multi-source trajectory where feasible; preserve citation/evidence structure"
+    },
+    {
+      "repo": "osunlp/QUEST-SFT-Data-Objective",
+      "revision": "5eddb5e9503cbe60761e573c16eff251b017cebe",
+      "license": ["mit"],
+      "lane": ["deep_research", "objective_research", "reasoning"],
+      "state": "PRIMARY_ADMIT_CANDIDATE",
+      "selection": "objective research complement; decontaminate against held-out research benchmarks"
+    },
+    {
+      "repo": "simplex-ai-inc/LiteResearcher-SFT-Data",
+      "revision": "5c8caa17121e216f8ad8f928e6a8d4f51d3fefee",
+      "license": ["apache-2.0"],
+      "lane": ["deep_research", "search", "tool_use", "long_horizon"],
+      "state": "PRIMARY_ADMIT_CANDIDATE_LENGTH_GATED",
+      "selection": "teacher-distilled trajectories are behavior data, not factual ground truth; admit bounded complete episodes only"
+    },
+    {
+      "repo": "NextTokenAI/NextSearch-1-Trajectories",
+      "revision": "d32183c6289d32c5d51b6247e68d53a58dddd495",
+      "license": ["apache-2.0", "cc-by-sa-4.0", "cc-by-nc-4.0"],
+      "lane": ["deep_research", "search", "tool_use"],
+      "state": "CONFIG_LICENSE_SEGREGATION_REQUIRED",
+      "selection": "standard program defaults to Apache-2.0 config only unless another license is deliberately accepted"
+    },
+    {
+      "repo": "LDJnr/Capybara",
+      "revision": "c2bc39ac72f24748f60f5fb55b77e08fb0660ba6",
+      "license": ["apache-2.0"],
+      "lane": ["long_horizon_interaction", "multi_turn", "style_donor"],
+      "state": "DONOR_AND_ADMIT_CANDIDATE",
+      "selection": "select for earned LHIT invariants and multi-turn quality; no fixed label quota"
+    },
+    {
+      "repo": "argilla/Capybara-Preferences-Filtered",
+      "revision": "c9ce1cae33b7ab9d84b4137d93e80538d218fddf",
+      "license": ["apache-2.0"],
+      "lane": ["preference", "long_horizon_interaction"],
+      "state": "PREFERENCE_PRIMARY_CANDIDATE",
+      "selection": "chosen/rejected kept separate; rejected responses never become positive SFT targets"
+    },
+    {
+      "repo": "argilla/distilabel-capybara-dpo-7k-binarized",
+      "revision": "801d1307f5c886088678a2353dedfa7b3ce1cf94",
+      "license": ["apache-2.0"],
+      "lane": ["preference", "capybara_lineage"],
+      "state": "PREFERENCE_SECONDARY_CANDIDATE",
+      "selection": "preserve lineage/preference signal; not standard positive SFT data by default"
+    }
+  ],
+  "global_rules": [
+    "PIN SOURCE REVISION BEFORE LARGE INTAKE",
+    "LICENSE STATE TRAVELS WITH EVERY ATOM",
+    "INCOMPLETE PROMPT/CONTEXT = REJECT OR RECONSTRUCT WITH SOURCE LINEAGE",
+    "FAILED AGENT TRAJECTORY != POSITIVE SFT TARGET BY DEFAULT",
+    "TEACHER REASONING != FACTUAL GROUND TRUTH",
+    "CAPYBARA LABEL != LHIT INVARIANT",
+    "STANDARD DATASET SHALL BE CFE/LHIT-INFORMED WITHOUT CLAIMING CFE CAUSAL CREDIT",
+    "CFE SCIENTIFIC TEST ATOMS ARE EXCLUDED FROM TRAINING"
+  ]
+}

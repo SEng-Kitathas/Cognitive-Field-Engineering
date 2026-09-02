@@ -1081,3 +1081,12 @@ Re-audited PID 34152. Verified it was a stale orphan: 3.52h uptime, parent gone,
 Ran guarded speculative benchmarks for the exact Claude-distilled Qwen3.5-35B-A3B target under current llama.cpp b10759 CUDA. Initial post-launch guard falsely blocked because it reapplied prelaunch allocation requirements after the owned model had loaded; run failed safely with no benchmark evidence and server cleanup. Corrected post-launch semantics to enforce remaining reserve + foreign ownership instead. Preserved failed run as scar.
 
 Q8 MTP n=3 completed but lost throughput (0.977x) because the large sidecar reduced target GPU residency to 36/41 layers. Downloaded and exact-hash verified Q4_K_M MTP sidecar. Q4 n=3 improved mean throughput ~3.1%. Final Q4 n=2 run produced 35.4938 -> 38.0903 tok/s mean, 1.07315x, wins on 4/4 technical prompts, with 41/41 target layers and full MTP offload. Host left with no model process resident.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: REASONING TRACE QUARRY, FRONTIER COT, DATASET RESEARCH
+User supplied a research package proposing comparison of proprietary recovered reasoning traces and open-source visible reasoning traces, with suggested invariants such as correction anchors, verification loops, and memorization shortcuts.
+
+## Turn — ASSISTANT / AUDIT + BUILD-PLAN
+Verified the primary security paper `arXiv:2608.09867` and corrected the package: the 315,320 blocks were reconstructed from 6,708 public trajectories and included real PII/credentials; alphaXiv is a paper/discussion surface, not a clean decoded-trace dataset. Chose not to acquire/decode/store proprietary recovered hidden reasoning. Promoted the paper only as security/methodological evidence. Approved open visible reasoning (DeepSeek-R1/R1-distill/OpenThoughts/qualified open Qwen) as lawful invariant quarry. Added structural trace taxonomy separating literal style/phrases from observable reasoning-state transitions and wired the result into Standard Uplift Dataset v1 policy.

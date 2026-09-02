@@ -72,3 +72,10 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Best local speculative profile now: Qwen3.5-35B-A3B Claude-distilled i1 Q4_K_M + b10759 CUDA + Q4_K_M MTP + n_max=2 at 4K/single slot; paired mean speedup 1.07315x, 4/4 prompt wins.
 - Q8 MTP rejected as default on 6GB GPU because it displaced target residency and lost throughput.
 - Host left clean: no model process resident after benchmark.
+
+## Turn delta — 2026-09-02 frontier reasoning-trace quarry
+- User supplied a proposed proprietary/open reasoning-trace sourcing strategy.
+- Primary-source verification: arXiv:2608.09867 is real and demonstrates large-scale reconstruction of proprietary encrypted reasoning blocks plus privacy/credential leakage.
+- Correction: alphaXiv is not a clean 315k decoded-trace training corpus; exploit-recovered proprietary hidden reasoning is excluded from CFE data intake.
+- Approved use: treat the paper as security/methodology evidence; compare only lawful/open visible reasoning traces for invariant analysis.
+- New invariant taxonomy and Standard Uplift reasoning-trace policy added. Style/phrase similarity is explicitly separated from structural reasoning events.

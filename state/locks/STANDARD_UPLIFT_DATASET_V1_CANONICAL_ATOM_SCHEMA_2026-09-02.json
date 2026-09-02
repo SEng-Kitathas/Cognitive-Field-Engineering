@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cfe://standard-uplift-dataset/v1/atom.schema.json",
+  "title": "Standard Uplift Dataset v1 Canonical Atom",
+  "type": "object",
+  "required": [
+    "atom_id",
+    "source",
+    "license",
+    "content",
+    "capability",
+    "quality",
+    "invariants",
+    "contamination",
+    "admission"
+  ],
+  "properties": {
+    "atom_id": {"type": "string", "minLength": 16},
+    "source": {
+      "type": "object",
+      "required": ["repo", "revision", "split", "row_id"],
+      "properties": {
+        "repo": {"type": "string"},
+        "revision": {"type": "string"},
+        "config": {"type": ["string", "null"]},
+        "split": {"type": "string"},
+        "row_id": {"type": ["string", "integer"]},
+        "source_url": {"type": ["string", "null"]},
+        "upstream_lineage": {"type": "array", "items": {"type": "string"}},
+        "raw_record_sha256": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "license": {
+      "type": "object",
+      "required": ["state", "labels"],
+      "properties": {
+        "state": {"enum": ["RESOLVED", "SEGREGATION_REQUIRED", "REVIEW_REQUIRED", "REJECTED"]},
+        "labels": {"type": "array", "items": {"type": "string"}},
+        "row_specific": {"type": "boolean"},
+        "notes": {"type": ["string", "null"]}
+      }
+    },
+    "content": {
+      "type": "object",
+      "required": ["messages"],
+      "properties": {
+        "messages": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": ["role", "content"],
+            "properties": {
+              "role": {"enum": ["system", "user", "assistant", "tool"]},
+              "content": {"type": "string"},
+              "tool_call": {},
+              "tool_name": {"type": ["string", "null"]}
+            },
+            "additionalProperties": true
+          }
+        },
+        "reasoning": {"type": ["string", "null"]},
+        "final_answer": {"type": ["string", "null"]},
+        "tools": {"type": "array"},
+        "observations": {"type": "array"},
+        "target_visibility": {
+          "enum": ["ANSWER_ONLY", "REASONING_AND_ANSWER", "TOOL_TRAJECTORY", "TARGET_SPECIFIC_RENDER"]
+        }
+      },
+      "additionalProperties": true
+    },
+    "capability": {
+      "type": "object",
+      "required": ["lanes", "domains", "interaction_shape"],
+      "properties": {
+        "lanes": {"type": "array", "items": {"type": "string"}},
+        "domains": {"type": "array", "items": {"type": "string"}},
+        "interaction_shape": {"enum": ["SINGLE_TURN", "MULTI_TURN", "TOOL_TRAJECTORY", "RESEARCH_TRAJECTORY"]},
+        "difficulty": {"type": ["number", "string", "null"]},
+        "composition_required": {"type": ["boolean", "null"]}
+      }
+    },
+    "quality": {
+      "type": "object",
+      "required": ["state"],
+      "properties": {
+        "state": {"enum": ["RAW", "CANDIDATE", "VERIFIED", "REJECTED"]},
+        "success_evidence": {},
+        "verifier": {},
+        "teacher_identity": {"type": ["string", "null"]},
+        "objective_check": {},
+        "rejection_reasons": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "invariants": {
+      "type": "object",
+      "properties": {
+        "cfe": {"type": "array", "items": {"type": "string"}},
+        "lhit": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"type": "string"}},
+        "tags_state": {"enum": ["UNASSESSED", "HEURISTIC", "VERIFIED"]}
+      },
+      "required": ["cfe", "lhit", "tags_state"]
+    },
+    "contamination": {
+      "type": "object",
+      "required": ["state", "exact_fingerprints", "normalized_fingerprints"],
+      "properties": {
+        "state": {"enum": ["UNSCREENED", "PASS", "REVIEW", "REJECT"]},
+        "exact_fingerprints": {"type": "array", "items": {"type": "string"}},
+        "normalized_fingerprints": {"type": "array", "items": {"type": "string"}},
+        "matched_eval_families": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "dedup": {
+      "type": "object",
+      "properties": {
+        "canonical_prompt_hash": {"type": ["string", "null"]},
+        "conversation_hash": {"type": ["string", "null"]},
+        "duplicate_of": {"type": ["string", "null"]},
+        "near_duplicate_cluster": {"type": ["string", "null"]}
+      }
+    },
+    "tokenization": {
+      "type": "object",
+      "properties": {
+        "per_target": {"type": "object"},
+        "destructive_truncation_required": {"type": "boolean"}
+      }
+    },
+    "admission": {
+      "type": "object",
+      "required": ["state", "reason"],
+      "properties": {
+        "state": {"enum": ["QUARANTINE", "CANDIDATE", "ADMITTED", "REJECTED"]},
+        "reason": {"type": "string"},
+        "review_history": {"type": "array"}
+      }
+    }
+  },
+  "additionalProperties": true
+}

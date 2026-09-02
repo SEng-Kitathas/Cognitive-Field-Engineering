@@ -1,0 +1,44 @@
+{
+  "schema": "cfe.standard-uplift-dataset.eval-exclusion-lock.v1",
+  "status": "FROZEN_BEFORE_TRAINABLE_CORPUS_FREEZE",
+  "purpose": "keep evaluation-only material out of the standard uplift training corpus so practical uplift claims remain interpretable",
+  "protected_internal_surfaces": [
+    "all CFE scientific experiment/evaluation atoms, including DD1/DD2 predicate materials and future CFE matched-arm probes",
+    "pre-CFE phenotype traces selected as baseline/evaluation artifacts",
+    "local long-horizon semantic-basin-capture probes derived from the overnight failure",
+    "future frozen fleet phenotype probes"
+  ],
+  "protected_public_eval_families": [
+    "AIME 2024/2025/2026 official problems",
+    "GPQA / GPQA-Diamond",
+    "MMLU-Pro evaluation questions",
+    "IFEval and IFBench evaluation prompts",
+    "LiveCodeBench held-out evaluation problems",
+    "SWE-bench and SWE-bench Verified evaluation issues/repos in their benchmark form",
+    "Terminal-Bench / TerminalBench 2.0 evaluation tasks",
+    "BFCL evaluation cases",
+    "Humanity's Last Exam evaluation items",
+    "BrowseComp / deep-research evaluation questions used for final model comparison",
+    "any later benchmark explicitly frozen into the fleet evaluation packet"
+  ],
+  "rules": [
+    "EXACT BENCHMARK ITEM != TRAINING ATOM",
+    "NEAR-DUPLICATE OR PARAPHRASED BENCHMARK ITEM != TRAINING ATOM",
+    "BENCHMARK-DERIVED TEACHER TRACE != SAFE MERELY BECAUSE THE ANSWER WAS REWRITTEN",
+    "SOURCE DATASET BENCHMARK-DECONTAMINATION METADATA MUST BE PRESERVED",
+    "PUBLIC DOMAIN OR OPEN LICENSE DOES NOT OVERRIDE EVALUATION HOLDOUT STATUS",
+    "IF A SOURCE CANNOT BE RELIABLY DECONTAMINATED, QUARANTINE THE AFFECTED SUBSET"
+  ],
+  "implementation": {
+    "before_final_admission": [
+      "normalize prompt/problem text",
+      "exact hash comparison against acquired eval registries",
+      "fuzzy/near-duplicate comparison",
+      "source-specific benchmark tags and contamination metadata",
+      "manual review of ambiguous high-similarity cases"
+    ],
+    "source_intake_may_begin_before_eval_corpus_download": true,
+    "trainable_release_requires_filter_application": true
+  },
+  "claim_ceiling": "This lock names protected evaluation families. It does not by itself prove every future training atom has been decontaminated; the filter must be executed before release."
+}

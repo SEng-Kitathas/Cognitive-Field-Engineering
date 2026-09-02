@@ -127,3 +127,7 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | Q8 MTP benchmark | receipt SHA `14e8569d8f88738ad1ecce2c5d1dd2573261e52599d60a80de75980e4ad56681` | target mean 34.0361 vs Q8 33.2668 tok/s | REJECT DEFAULT ON 6GB GPU |
 | Q4 MTP n=3 benchmark | receipt SHA `63dd79cfdb57e9306287c664add5c86fda938bbfa24d623fff6588dda0ee1dea` | target mean 34.9689 vs Q4 36.0452 tok/s | POSITIVE ENGINEERING SIGNAL, 1.0308x |
 | Q4 MTP n=2 benchmark | receipt SHA `8ad452ebf27ec7956102c2ea1e09bc8f425534d39449d560734abfc3aadfd299` | target mean 35.4938 vs Q4 n2 38.0903 tok/s, 4/4 prompt wins | CURRENT BEST-TESTED PROFILE, 1.07315x |
+
+| Proprietary hidden-reasoning security study | Panfilov et al. `arXiv:2608.09867` primary-source verification | `research/FRONTIER_REASONING_TRACE_INVARIANT_QUARRY_2026-09-02.md` SHA `a4768657ca58b3fac3eee3b8651a69124edd5496dc3f2c4fd28ae66e4903d5e9` | RESEARCH-ONLY; recovered proprietary traces excluded from training |
+| Standard Uplift reasoning-trace policy | primary security paper + DeepSeek open reasoning docs + CFE/LHIT invariant law | `state/next_steps/STANDARD_UPLIFT_DATASET_V1_REASONING_TRACE_POLICY_2026-09-02.json` SHA `955e49cd4c6ea5812fe04fa9968168bec41b84afeb54a3401a848e8e6ec8cc67` | ACTIVE BUILD POLICY |
+| Open reasoning quarry source registry | DeepSeek-R1 visible reasoning / OpenThoughts / security-paper separation | `state/next_steps/STANDARD_UPLIFT_DATASET_V1_REASONING_QUARRY_SOURCE_REGISTRY_2026-09-02.json` SHA `48f294fafa151e12e8e8805ed5287f194b0e4bee41256d98dbdeb48e394a9625` | ACTIVE RESEARCH SOURCE REGISTRY |
