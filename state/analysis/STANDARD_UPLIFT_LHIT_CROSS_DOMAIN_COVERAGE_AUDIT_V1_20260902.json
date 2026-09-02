@@ -1,0 +1,152 @@
+{
+  "critical_gaps": [
+    "MEMORY_CURRENTNESS",
+    "SCIENCE_DIAGNOSIS"
+  ],
+  "laws": [
+    "LHIT != CONVERSATION FORMAT",
+    "LHIT COVERAGE != CAPYBARA QUOTA",
+    "HEURISTIC TAG != VERIFIED INVARIANT",
+    "DOMAIN SOURCE PRESENCE != QUALIFIED COVERAGE",
+    "APPLY LHIT WHERE CONSEQUENCE STRUCTURE EXISTS; DO NOT FORCE IT INTO TRIVIAL EPISODES"
+  ],
+  "pilot_path": "state/analysis/STANDARD_UPLIFT_INTAKE_PILOT_V2_20260902",
+  "pilot_schema": "cfe.standard-uplift.intake-pilot.v2",
+  "preference_atoms": 120,
+  "required_domain_coverage": {
+    "CODE_DEBUGGING": {
+      "candidate_counts": {
+        "CONSEQUENTIAL_HISTORY_CANDIDATE": 479,
+        "DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 437,
+        "EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 462,
+        "FAILURE_BOUNDARY_TRANSFER_CANDIDATE": 437
+      },
+      "candidate_screen_state": "PRESENT",
+      "pilot_family": "CODE_DEBUGGING",
+      "qualification_state": "NOT_ADMITTED__HEURISTIC_SCREEN_ONLY",
+      "required_dimensions": [
+        "CONSEQUENTIAL_HISTORY_CANDIDATE",
+        "DEPENDENCY_LOCAL_REPAIR_CANDIDATE",
+        "FAILURE_BOUNDARY_TRANSFER_CANDIDATE",
+        "EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE"
+      ],
+      "source_presence": true
+    },
+    "LHIT_LONG_HORIZON": {
+      "candidate_counts": {
+        "CURRENTNESS_PROPAGATION_CANDIDATE": 61,
+        "FOLLOWUP_CONSEQUENCE_TRACKING_CANDIDATE": 80,
+        "LONG_HORIZON_STATE_CARRY_CANDIDATE": 360,
+        "REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 80
+      },
+      "candidate_screen_state": "PRESENT",
+      "pilot_family": "LHIT_LONG_HORIZON",
+      "qualification_state": "NOT_ADMITTED__HEURISTIC_SCREEN_ONLY",
+      "required_dimensions": [
+        "LONG_HORIZON_STATE_CARRY_CANDIDATE",
+        "FOLLOWUP_CONSEQUENCE_TRACKING_CANDIDATE",
+        "REVISIT_AFTER_STATE_CHANGE_CANDIDATE",
+        "CURRENTNESS_PROPAGATION_CANDIDATE"
+      ],
+      "source_presence": true
+    },
+    "MATH_LOGIC": {
+      "candidate_counts": {
+        "DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 607,
+        "EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 844,
+        "LOCAL_DERIVATION_REVISION_CANDIDATE": 598
+      },
+      "candidate_screen_state": "PRESENT",
+      "pilot_family": "MATH_SCIENCE_REASONING",
+      "qualification_state": "NOT_ADMITTED__HEURISTIC_SCREEN_ONLY",
+      "required_dimensions": [
+        "LOCAL_DERIVATION_REVISION_CANDIDATE",
+        "EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE",
+        "DEPENDENCY_LOCAL_REPAIR_CANDIDATE"
+      ],
+      "source_presence": true
+    },
+    "MEMORY_CURRENTNESS": {
+      "candidate_counts": {
+        "CURRENTNESS_PROPAGATION_CANDIDATE": 0,
+        "LONG_HORIZON_STATE_CARRY_CANDIDATE": 0,
+        "REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 0
+      },
+      "candidate_screen_state": "MISSING",
+      "pilot_family": null,
+      "qualification_state": "NOT_ADMITTED__HEURISTIC_SCREEN_ONLY",
+      "required_dimensions": [
+        "LONG_HORIZON_STATE_CARRY_CANDIDATE",
+        "CURRENTNESS_PROPAGATION_CANDIDATE",
+        "REVISIT_AFTER_STATE_CHANGE_CANDIDATE"
+      ],
+      "source_presence": false
+    },
+    "PLANNING_TOOL_AGENT": {
+      "candidate_counts": {
+        "CURRENTNESS_PROPAGATION_CANDIDATE": 313,
+        "FOLLOWUP_CONSEQUENCE_TRACKING_CANDIDATE": 420,
+        "LONG_HORIZON_STATE_CARRY_CANDIDATE": 420,
+        "REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 420,
+        "STATEFUL_PLAN_REVISION_CANDIDATE": 420
+      },
+      "candidate_screen_state": "PRESENT",
+      "pilot_family": "PLANNING_TOOL_AGENT",
+      "qualification_state": "NOT_ADMITTED__HEURISTIC_SCREEN_ONLY",
+      "required_dimensions": [
+        "LONG_HORIZON_STATE_CARRY_CANDIDATE",
+        "FOLLOWUP_CONSEQUENCE_TRACKING_CANDIDATE",
+        "REVISIT_AFTER_STATE_CHANGE_CANDIDATE",
+        "STATEFUL_PLAN_REVISION_CANDIDATE",
+        "CURRENTNESS_PROPAGATION_CANDIDATE"
+      ],
+      "source_presence": true
+    },
+    "RESEARCH": {
+      "candidate_counts": {
+        "ACTIVE_DISCRIMINATOR_CANDIDATE": 378,
+        "CONSEQUENTIAL_HISTORY_CANDIDATE": 366,
+        "CURRENTNESS_PROPAGATION_CANDIDATE": 321,
+        "LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 333,
+        "UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 90
+      },
+      "candidate_screen_state": "PRESENT",
+      "pilot_family": "RESEARCH",
+      "qualification_state": "NOT_ADMITTED__HEURISTIC_SCREEN_ONLY",
+      "required_dimensions": [
+        "CONSEQUENTIAL_HISTORY_CANDIDATE",
+        "LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE",
+        "ACTIVE_DISCRIMINATOR_CANDIDATE",
+        "CURRENTNESS_PROPAGATION_CANDIDATE",
+        "UNRESOLVED_SEAM_PRESERVATION_CANDIDATE"
+      ],
+      "source_presence": true
+    },
+    "SCIENCE_DIAGNOSIS": {
+      "candidate_counts": {
+        "ACTIVE_DISCRIMINATOR_CANDIDATE": 0,
+        "CURRENTNESS_PROPAGATION_CANDIDATE": 0,
+        "EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 0,
+        "LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 0
+      },
+      "candidate_screen_state": "MISSING",
+      "pilot_family": null,
+      "qualification_state": "NOT_ADMITTED__HEURISTIC_SCREEN_ONLY",
+      "required_dimensions": [
+        "LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE",
+        "ACTIVE_DISCRIMINATOR_CANDIDATE",
+        "EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE",
+        "CURRENTNESS_PROPAGATION_CANDIDATE"
+      ],
+      "source_presence": false
+    }
+  },
+  "schema": "cfe.standard-uplift.lhit-cross-domain-coverage-audit.v1",
+  "sft_atoms": 1840,
+  "status": "GAPS_FOUND__BLOCK_FINAL_ADMISSION",
+  "warnings": [
+    "Heuristic candidate counts are broad screening signals, not verified invariant counts.",
+    "High counts MUST NOT be interpreted as adequate balance or training value.",
+    "Final coverage must be measured after license, contamination, quality, dedup, and invariant review."
+  ]
+}

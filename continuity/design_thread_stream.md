@@ -1150,3 +1150,12 @@ Shifted archaeology from paper-level coding to source-located trace-level cartog
 
 ### Build readback — 2026-09-02 trace temporal cartography
 Trace-level reasoning temporal cartography/cross-domain transfer commit `4d2cfacc331964451278fbf7b0d0cb0017ce974f` pushed to `main`; local and remote hashes matched and working tree was clean. Commit contained 17 public-safe project/state/tool artifacts (5,171 insertions / 1 deletion) and explicitly excluded raw PDFs and derived trace-text cache payloads.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: STANDARD UPLIFT, LHIT, CROSS-DOMAIN APPLICATION, IMPLEMENTATION AUDIT
+User clarified the prior LHIT question referred specifically to the **CFE-informed Standard dataset** being built, while reaffirming that within CFE itself LHIT-style consequential-history structure should definitively be applied wherever appropriate.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Audited the Standard intake implementation rather than relying on policy wording. Found that v1 operational LHIT tagging was biased toward multi-turn/tool/research interaction shapes, meaning single-record code/debugging, planning, math/science and other causally historical episodes could be missed. Built `build_standard_uplift_intake_pilot_v2.py` with cross-domain curator-side LHIT candidate screening independent of conversation packaging and domain/dimension coverage reporting. Compile passed; synthetic examples verified single-record code/research/planning/math detection while trivial stateless arithmetic stayed untagged. Ran full v2 pilot as job `job-5395102e94db`: 17/17 source slices normalized, 1,840 SFT + 120 preference atoms, rc0, still quarantine/not trainable. Coverage audit then found honest remaining source-family gaps: MEMORY_CURRENTNESS and SCIENCE_DIAGNOSIS. Created an active blocking coverage gate so final Standard Uplift promotion cannot claim complete LHIT coverage until all reasonable domains have qualified post-license/contamination/dedup/quality/invariant coverage. Core rule: apply LHIT where consequence structure exists, not everywhere indiscriminately and not as Capybara/multi-turn identity.

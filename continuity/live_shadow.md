@@ -132,3 +132,12 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 ### Trace cartography publication delta — 2026-09-02
 - Trace-level temporal cartography/cross-domain transfer package committed and pushed at `4d2cfacc331964451278fbf7b0d0cb0017ce974f`; local publication checkout == remote `main`, clean at readback.
 - 17-file commit / 5,171 insertions; no raw PDFs or derived text-cache payloads entered Git.
+
+## Turn delta — 2026-09-02 Standard Uplift LHIT cross-domain correction
+- Operator clarified LHIT question was about the informed Standard dataset; CFE itself remains expected to apply consequential-history structure wherever scientifically/operationally appropriate.
+- Audit found Standard intake v1 was too conversation-shape-biased: LHIT tags came mostly from multi-turn/tool/research packaging.
+- Built `tools/build_standard_uplift_intake_pilot_v2.py` with cross-domain curator-side LHIT screening independent of record packaging. Single-record code/research/planning/math episodes can now be tagged when causal-history structure is present; trivial stateless examples remain untagged.
+- V2 pilot job `job-5395102e94db` completed rc0: 17/17 source slices, 1,840 SFT + 120 preference atoms, still quarantine/not trainable.
+- Cross-domain audit found current explicit source-family gaps: `MEMORY_CURRENTNESS` and `SCIENCE_DIAGNOSIS`.
+- Added blocking final-admission gate. Standard dataset cannot claim complete LHIT coverage until all reasonable domain families have qualified post-license/contamination/dedup/quality coverage.
+- Core law: apply LHIT where consequence structure exists; do not force it into trivial episodes or equate it with Capybara/multi-turn format.

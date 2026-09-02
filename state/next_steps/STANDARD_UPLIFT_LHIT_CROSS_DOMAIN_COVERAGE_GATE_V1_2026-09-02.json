@@ -1,0 +1,94 @@
+{
+  "schema": "cfe.standard-uplift.lhit-cross-domain-coverage-gate.v1",
+  "status": "ACTIVE_BLOCKING_GATE",
+  "scope": "STANDARD_UPLIFT_DATASET_V1",
+  "identity_guard": "This gate applies to the CFE-informed STANDARD dataset, not the matched CFE experimental pack.",
+  "purpose": "Prevent LHIT from collapsing back into a Capybara/multi-turn/chat bucket. Final Standard Uplift admission requires qualified consequential-history coverage wherever the same consequence structure reasonably appears.",
+  "laws": [
+    "LHIT != CONVERSATION FORMAT",
+    "LHIT != CAPYBARA CORPUS IDENTITY",
+    "LHIT COVERAGE != LONG-CONTEXT TOKEN COUNT",
+    "SINGLE-RECORD EPISODE CAN CARRY CONSEQUENTIAL HISTORY",
+    "APPLY LHIT WHERE CONSEQUENCE STRUCTURE EXISTS; DO NOT FORCE IT INTO TRIVIAL EPISODES",
+    "DOMAIN SOURCE PRESENCE != QUALIFIED COVERAGE",
+    "HEURISTIC TAG != VERIFIED INVARIANT",
+    "STEAL INVARIANTS NOT ABSTRACTIONS"
+  ],
+  "required_domain_families": {
+    "CODE_DEBUGGING": {
+      "required_structures": [
+        "earlier state/config/assumption becomes causally relevant later",
+        "failure/revision localizes to dependencies while unrelated valid work survives",
+        "repeated failure can become a reusable regression/failure boundary"
+      ]
+    },
+    "RESEARCH": {
+      "required_structures": [
+        "competing hypotheses remain live across evidence changes",
+        "later evidence changes qualification/currentness of earlier claims",
+        "identifying experiment or discriminator can be selected",
+        "unresolved seams can persist without rhetorical closure"
+      ]
+    },
+    "PLANNING_TOOL_AGENT": {
+      "required_structures": [
+        "past actions/observations alter later feasible actions",
+        "tool observation can revise a plan",
+        "resource/authority/currentness changes propagate through dependent steps",
+        "unaffected completed work survives replanning"
+      ]
+    },
+    "MATH_LOGIC": {
+      "required_structures": [
+        "earlier derivation state is reused later",
+        "local contradiction/error triggers scoped recomputation",
+        "verification can alter confidence/trajectory rather than decorate the answer"
+      ]
+    },
+    "MEMORY_CURRENTNESS": {
+      "required_structures": [
+        "later non-negating evidence can make earlier memory inapplicable",
+        "currentness propagates through indirect consequences",
+        "unrelated memories survive state revision"
+      ]
+    },
+    "SCIENCE_DIAGNOSIS": {
+      "required_structures": [
+        "model/world residual creates competing explanations",
+        "new measurement requalifies earlier hypotheses",
+        "measurement choice can be discriminating rather than merely supportive",
+        "persistent residual can trigger model/representation refinement"
+      ]
+    },
+    "LHIT_LONG_HORIZON": {
+      "required_structures": [
+        "early state becomes causally binding later",
+        "revisit occurs after dependency/state change",
+        "contradiction recovery preserves unrelated state",
+        "unresolved seam can remain live until a later discriminator"
+      ]
+    }
+  },
+  "current_pilot_readback": {
+    "pilot": "state/analysis/STANDARD_UPLIFT_INTAKE_PILOT_V2_20260902",
+    "sft_atoms": 1840,
+    "preference_atoms": 120,
+    "screening_state": "CROSS_DOMAIN_HEURISTIC_SCREEN_ACTIVE",
+    "critical_source_coverage_gaps": [
+      "MEMORY_CURRENTNESS",
+      "SCIENCE_DIAGNOSIS"
+    ],
+    "audit": "state/analysis/STANDARD_UPLIFT_LHIT_CROSS_DOMAIN_COVERAGE_AUDIT_V1_20260902.json"
+  },
+  "pass_conditions": [
+    "Every required domain family has non-trivial qualified coverage after license, contamination, dedup, quality and invariant review.",
+    "Coverage is measured by stripped consequence structures, not donor labels or source quotas.",
+    "At least some LHIT-style episodes are single-record/non-chat examples where appropriate, proving the corpus did not encode LHIT as conversation shape only.",
+    "Cross-domain isomorphs and anti-isomorphs exist so the learner cannot solve by surface format recognition.",
+    "Currentness/revision episodes include indirect propagated consequences, not only explicit corrections.",
+    "Code/debugging and research episodes include preserved unaffected state after revision, not only full-reset fixes.",
+    "Final coverage report shows no required family as MISSING or UNASSESSED."
+  ],
+  "current_verdict": "FAIL_BLOCKING__MEMORY_CURRENTNESS_AND_SCIENCE_DIAGNOSIS_NOT_YET_EXPLICITLY_COVERED",
+  "claim_ceiling": "The v2 intake now screens cross-domain LHIT candidates, but this gate intentionally blocks any claim that the final Standard Uplift dataset has complete LHIT coverage until missing domains are sourced/generated, qualified and admitted."
+}

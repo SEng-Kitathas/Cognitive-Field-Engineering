@@ -101,3 +101,14 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 10. Test `STATE-CHANGE DENSITY` and `USEFUL-TRANSITION DENSITY` against raw CoT length as data-quality predictors; do not assume longer trace == richer reasoning.
 11. Maintain the forest guard: no scalar “AI reasoning progress score.” Track representational flexibility, support visibility, branching, repair locality, authority separation, currentness, learning-from-deliberation and effort allocation separately.
 12. Before dataset training, use the trace/cartography findings to hostile-audit A0 candidate episode composition and ensure the modern/CFE-informed standard pack captures cross-domain invariants rather than overfitting math/reasoning prose.
+
+## Standard Uplift LHIT cross-domain completion pressure — 2026-09-02
+1. Treat `STANDARD_UPLIFT_LHIT_CROSS_DOMAIN_COVERAGE_GATE_V1_2026-09-02.json` as blocking for final Standard corpus promotion.
+2. Source or lawfully generate **MEMORY_CURRENTNESS** episodes with indirect/non-negating stale-state invalidation, selective preservation of unrelated memory, and currentness propagation.
+3. Source or lawfully generate **SCIENCE_DIAGNOSIS** episodes with live competing explanations, model/world residuals, discriminating measurements, revision under evidence, and representation/model refinement where local hypotheses fail.
+4. Do not satisfy the gate by adding source labels alone. Coverage is counted only after license, contamination, dedup, quality, and invariant review.
+5. Wire v2 `lhit_cross_domain` candidate dimensions into the later selector/admission stage as **coverage evidence**, not automatic admission or weighting.
+6. Build cross-domain isomorph/anti-isomorph sets spanning code, research, planning/tool, math, memory/currentness, science/diagnosis, and long horizon so LHIT cannot be solved by conversation-format recognition.
+7. Require explicit single-record LHIT-style examples in final coverage to prove `LHIT != MULTI_TURN FORMAT` operationally.
+8. Audit heuristic precision before using counts for balancing; current v2 candidate counts are intentionally broad screening signals and may contain false positives.
+9. Keep Capybara as donor/training surface only; no Capybara quota may stand in for measured LHIT invariant coverage.
