@@ -1,0 +1,868 @@
+{
+  "schema": "cfe.reasoning-archaeology.reason-maintenance-lbe-overlay.v1",
+  "date": "2026-09-02",
+  "status": "PROVISIONAL_OVERLAY__HOSTILE_REVIEW_PENDING",
+  "annotation_count": 30,
+  "relation_count": 19,
+  "annotations": {
+    "1959_advice_taker": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Selective premise activation, abstraction-level retrieval, partial success, improvable improvement mechanism.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "IMPLICIT",
+        "metareasoning": "IMPLICIT",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "IMPLICIT",
+        "deferred_commitment": "IMPLICIT"
+      },
+      "cross_era_tags": [],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1977_mitchell_version_spaces": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "All rules consistent with accumulated examples retained; viable region represented via general/specific boundaries.",
+      "recurrence_features": {
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "EXPLICIT",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "EXPLICIT"
+      },
+      "cross_era_tags": [
+        "LIVE_ALTERNATIVES",
+        "COMPACT_POSSIBILITY_REP",
+        "CURRENTNESS_REVISION",
+        "DEFERRED_COMMITMENT"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1977_stallman_sussman_dependency_backtracking": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Facts threaded with justifications; contradiction traced to responsible assumptions.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "EXPLICIT",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "IMPLICIT",
+        "scoped_rollback": "EXPLICIT",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "SUPPORT_LINEAGE",
+        "SCOPED_ROLLBACK",
+        "CURRENTNESS_REVISION"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1977_hearsay_focus_attention": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Alternative knowledge-source responses compete under goals/desirability on shared blackboard.",
+      "recurrence_features": {
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "EXPLICIT",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "EXPLICIT",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "IMPLICIT"
+      },
+      "cross_era_tags": [
+        "LIVE_ALTERNATIVES",
+        "METAREASONING",
+        "EXTERNAL_AUTHORITY"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1977_dekleer_multiple_representations": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Uses qualitative representations where sufficient, escalates to equations when required.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "EXPLICIT",
+        "metareasoning": "EXPLICIT",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "REPRESENTATION_SHIFT",
+        "METAREASONING"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1979_doyle_truth_maintenance": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Reasons for beliefs support revision, explanation, dependency-directed backtracking and control.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "EXPLICIT",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "EXPLICIT",
+        "scoped_rollback": "EXPLICIT",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "IMPLICIT",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "SUPPORT_LINEAGE",
+        "CONFLICT_LEARNING",
+        "SCOPED_ROLLBACK",
+        "CURRENTNESS_REVISION"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1979_reid_multiple_hypothesis_tracking": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Recursive joint hypotheses, later-evidence reweighting, prune/merge similar tracks, cluster independent subproblems.",
+      "recurrence_features": {
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "EXPLICIT",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "IMPLICIT",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "EXPLICIT",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "EXPLICIT"
+      },
+      "cross_era_tags": [
+        "LIVE_ALTERNATIVES",
+        "COMPACT_POSSIBILITY_REP",
+        "CURRENTNESS_REVISION",
+        "EXTERNAL_AUTHORITY",
+        "DEFERRED_COMMITMENT"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1983_eurisko": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Search over heuristics/domain concepts; representation-language design affects reachability of useful variants.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "EXPLICIT",
+        "metareasoning": "EXPLICIT",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "EXPLICIT",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "REPRESENTATION_SHIFT",
+        "METAREASONING",
+        "LEARNING_FROM_DELIBERATION"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1985_agm_belief_revision": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Formal revision/contraction under new epistemic input with minimal-change rationality pressure.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "IMPLICIT",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "IMPLICIT",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "IMPLICIT"
+      },
+      "cross_era_tags": [
+        "CURRENTNESS_REVISION"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1985_hayes_roth_blackboard_control": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Separates domain and control problem/knowledge/solutions; control acts on own knowledge and behavior.",
+      "recurrence_features": {
+        "live_alternatives": "IMPLICIT",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "EXPLICIT",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "IMPLICIT",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "METAREASONING"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1986_dekleer_atms": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Minimal assumption environments label data; nogoods exclude supersets; simultaneous inconsistent contexts without full enumeration.",
+      "recurrence_features": {
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "EXPLICIT",
+        "compact_possibility_rep": "EXPLICIT",
+        "conflict_learning": "EXPLICIT",
+        "scoped_rollback": "EXPLICIT",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "EXPLICIT"
+      },
+      "cross_era_tags": [
+        "LIVE_ALTERNATIVES",
+        "SUPPORT_LINEAGE",
+        "COMPACT_POSSIBILITY_REP",
+        "CONFLICT_LEARNING",
+        "SCOPED_ROLLBACK",
+        "CURRENTNESS_REVISION",
+        "DEFERRED_COMMITMENT"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1987_dekleer_williams_gde": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Minimal diagnoses updated incrementally; measurements chosen by expected entropy reduction.",
+      "recurrence_features": {
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "EXPLICIT",
+        "compact_possibility_rep": "EXPLICIT",
+        "conflict_learning": "EXPLICIT",
+        "scoped_rollback": "EXPLICIT",
+        "active_discriminator": "EXPLICIT",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "EXPLICIT",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "EXPLICIT"
+      },
+      "cross_era_tags": [
+        "LIVE_ALTERNATIVES",
+        "SUPPORT_LINEAGE",
+        "COMPACT_POSSIBILITY_REP",
+        "CONFLICT_LEARNING",
+        "SCOPED_ROLLBACK",
+        "ACTIVE_DISCRIMINATOR",
+        "CURRENTNESS_REVISION",
+        "EXTERNAL_AUTHORITY",
+        "DEFERRED_COMMITMENT"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1987_soar_knowledge_level_learning": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Impasse creates subgoal; successful resolution can be chunked into persistent productions.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "IMPLICIT",
+        "metareasoning": "EXPLICIT",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "EXPLICIT",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "METAREASONING",
+        "LEARNING_FROM_DELIBERATION"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1988_pearl_probabilistic_reasoning": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Conditional independence factors uncertain joint state for local propagation.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "EXPLICIT",
+        "compact_possibility_rep": "EXPLICIT",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "IMPLICIT",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "SUPPORT_LINEAGE",
+        "COMPACT_POSSIBILITY_REP",
+        "CURRENTNESS_REVISION"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1989_poole_abductive_theory_formation": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Reasoning as theory formation over assumptions; explanation and prediction separated.",
+      "recurrence_features": {
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "EXPLICIT",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "EXPLICIT"
+      },
+      "cross_era_tags": [
+        "LIVE_ALTERNATIVES",
+        "SUPPORT_LINEAGE",
+        "CURRENTNESS_REVISION",
+        "DEFERRED_COMMITMENT"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1991_russell_wefald_metareasoning": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Computational actions selected by expected impact on external decisions under resource bounds.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "IMPLICIT",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "EXPLICIT",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "METAREASONING"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1992_query_by_committee": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Queries chosen where committee disagreement is maximal.",
+      "recurrence_features": {
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "EXPLICIT",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "EXPLICIT",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "EXPLICIT"
+      },
+      "cross_era_tags": [
+        "LIVE_ALTERNATIVES",
+        "ACTIVE_DISCRIMINATOR",
+        "EXTERNAL_AUTHORITY",
+        "DEFERRED_COMMITMENT"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1993_ginsberg_dynamic_backtracking": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Moves backtrack points deeper to preserve meaningful progress.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "EXPLICIT",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "IMPLICIT",
+        "scoped_rollback": "EXPLICIT",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "IMPLICIT"
+      },
+      "cross_era_tags": [
+        "SUPPORT_LINEAGE",
+        "SCOPED_ROLLBACK"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "1996_grasp_sat": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Implication-graph conflict analysis learns clauses and backtracks nonchronologically.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "EXPLICIT",
+        "compact_possibility_rep": "EXPLICIT",
+        "conflict_learning": "EXPLICIT",
+        "scoped_rollback": "EXPLICIT",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "EXPLICIT",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "SUPPORT_LINEAGE",
+        "COMPACT_POSSIBILITY_REP",
+        "CONFLICT_LEARNING",
+        "SCOPED_ROLLBACK",
+        "LEARNING_FROM_DELIBERATION"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "2007_chella_gaglio_self_consciousness": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Multi-plane conceptual/linguistic state, attention admission, diachronic expectations, higher-order history and compression.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "EXPLICIT",
+        "metareasoning": "EXPLICIT",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "EXPLICIT",
+        "learning_from_deliberation": "IMPLICIT",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "REPRESENTATION_SHIFT",
+        "METAREASONING",
+        "CURRENTNESS_REVISION",
+        "EXTERNAL_AUTHORITY"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "2022_self_consistency": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Independent reasoning samples collapsed at answer level; weak shared support/dependency state.",
+      "recurrence_features": {
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "ABSENT",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "IMPLICIT"
+      },
+      "cross_era_tags": [
+        "LIVE_ALTERNATIVES"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "2023_tree_of_thoughts": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Explicit branch evaluation/backtracking over thought units, externally materialized.",
+      "recurrence_features": {
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "IMPLICIT",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "EXPLICIT",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "EXPLICIT"
+      },
+      "cross_era_tags": [
+        "LIVE_ALTERNATIVES",
+        "METAREASONING",
+        "DEFERRED_COMMITMENT"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "2024_belief_r": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Benchmarks selective belief revision under evolving premises; exposes update vs preserve tradeoff.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "IMPLICIT",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "CURRENTNESS_REVISION"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "2024_llm_rational_metareasoning": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Value-of-computation reward trains selective intermediate reasoning.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "EXPLICIT",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "EXPLICIT",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "METAREASONING",
+        "LEARNING_FROM_DELIBERATION"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "2025_hypothesis_driven_tom": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "SMC-inspired hypotheses over evolving mental states weighted from observations.",
+      "recurrence_features": {
+        "live_alternatives": "EXPLICIT",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "EXPLICIT",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "EXPLICIT",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "EXPLICIT"
+      },
+      "cross_era_tags": [
+        "LIVE_ALTERNATIVES",
+        "COMPACT_POSSIBILITY_REP",
+        "CURRENTNESS_REVISION",
+        "EXTERNAL_AUTHORITY",
+        "DEFERRED_COMMITMENT"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "2025_active_reasoning_arbench": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Requires acquisition of missing evidence rather than passive reasoning with complete prompts.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "EXPLICIT",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "IMPLICIT",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "EXPLICIT",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "ACTIVE_DISCRIMINATOR",
+        "EXTERNAL_AUTHORITY"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "2025_kup_knowledge_update": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Separates direct memorization of updates from indirect reasoning over consequences.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "EXPLICIT",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "CURRENTNESS_REVISION",
+        "EXTERNAL_AUTHORITY"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "2026_stale_memory_validity": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Tests implicit invalidation of old memory and downstream policy adaptation.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "IMPLICIT",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "IMPLICIT",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "UNKNOWN",
+        "metareasoning": "UNKNOWN",
+        "currentness_revision": "EXPLICIT",
+        "external_authority": "EXPLICIT",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "CURRENTNESS_REVISION",
+        "EXTERNAL_AUTHORITY"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "2026_reasoning_trajectories_geometry": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Finds ordered step-specific latent representation geometry and late correct/incorrect divergence.",
+      "recurrence_features": {
+        "live_alternatives": "UNKNOWN",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "UNKNOWN",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "EXPLICIT",
+        "metareasoning": "IMPLICIT",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "UNKNOWN",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "REPRESENTATION_SHIFT"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    },
+    "2026_ctrls_latent_state_transition": {
+      "annotation_state": "PROVISIONAL_SOURCE_LEVEL",
+      "basis": "Models CoT as latent-state MDP with distributional uncertainty and on-policy transition refinement.",
+      "recurrence_features": {
+        "live_alternatives": "IMPLICIT",
+        "support_lineage": "UNKNOWN",
+        "compact_possibility_rep": "IMPLICIT",
+        "conflict_learning": "UNKNOWN",
+        "scoped_rollback": "UNKNOWN",
+        "active_discriminator": "UNKNOWN",
+        "representation_shift": "EXPLICIT",
+        "metareasoning": "EXPLICIT",
+        "currentness_revision": "UNKNOWN",
+        "external_authority": "UNKNOWN",
+        "learning_from_deliberation": "EXPLICIT",
+        "deferred_commitment": "UNKNOWN"
+      },
+      "cross_era_tags": [
+        "REPRESENTATION_SHIFT",
+        "METAREASONING",
+        "LEARNING_FROM_DELIBERATION"
+      ],
+      "claim_ceiling": "Functional/source-level coding; not hidden-mechanism identification."
+    }
+  },
+  "relations": [
+    {
+      "source": "1959_advice_taker",
+      "relation": "DOCUMENTED_ANTECEDENT_REFERENCED_BY",
+      "target": "1989_1990_mccarthy_ailogic",
+      "evidence_state": "VERIFIED",
+      "note": "1990 McCarthy paper explicitly quotes and evaluates the 1959 Advice Taker prospectus."
+    },
+    {
+      "source": "1977_stallman_sussman_dependency_backtracking",
+      "relation": "FUNCTIONAL_PRECURSOR_OF",
+      "target": "1979_doyle_truth_maintenance",
+      "evidence_state": "INFERRED",
+      "note": "Both use justification/dependency structure for contradiction-driven repair; do not infer direct lineage from chronology alone."
+    },
+    {
+      "source": "1979_doyle_truth_maintenance",
+      "relation": "DOCUMENTED_TECHNICAL_PREDECESSOR_OF",
+      "target": "1986_dekleer_atms",
+      "evidence_state": "VERIFIED",
+      "note": "ATMS paper explicitly contrasts conventional justification-based TMSs with ATMS."
+    },
+    {
+      "source": "1986_dekleer_atms",
+      "relation": "DOCUMENTED_SUBSTRATE_OF",
+      "target": "1987_dekleer_williams_gde",
+      "evidence_state": "VERIFIED",
+      "note": "GDE explicitly uses assumption-based truth maintenance for candidate maintenance and measurement selection."
+    },
+    {
+      "source": "1987_dekleer_williams_gde",
+      "relation": "FORMALIZATION_TARGET_OF",
+      "target": "1994_hou_measurement_diagnosis",
+      "evidence_state": "VERIFIED",
+      "note": "Hou explicitly formalizes measurement/discrimination issues arising in Reiter/de Kleer diagnosis lineages."
+    },
+    {
+      "source": "1987_reiter_diagnosis",
+      "relation": "FORMALIZATION_TARGET_OF",
+      "target": "1994_hou_measurement_diagnosis",
+      "evidence_state": "VERIFIED",
+      "note": "Hou explicitly builds from Reiter diagnosis and adds measurement theory."
+    },
+    {
+      "source": "1977_mitchell_version_spaces",
+      "relation": "FUNCTIONAL_ISOMORPH_OF",
+      "target": "1986_dekleer_atms",
+      "evidence_state": "INFERRED",
+      "note": "Both compact sets of viable alternatives, but use different hypothesis/support structures."
+    },
+    {
+      "source": "1979_reid_multiple_hypothesis_tracking",
+      "relation": "FUNCTIONAL_ISOMORPH_OF",
+      "target": "1986_dekleer_atms",
+      "evidence_state": "INFERRED",
+      "note": "Both maintain multiple live alternatives and prune/compress them under new evidence; no shared implementation implied."
+    },
+    {
+      "source": "1987_dekleer_williams_gde",
+      "relation": "FUNCTIONAL_ISOMORPH_OF",
+      "target": "1992_query_by_committee",
+      "evidence_state": "INFERRED",
+      "note": "Both select observations/queries to discriminate among live candidates using different formal criteria."
+    },
+    {
+      "source": "1977_stallman_sussman_dependency_backtracking",
+      "relation": "FUNCTIONAL_ISOMORPH_OF",
+      "target": "1993_ginsberg_dynamic_backtracking",
+      "evidence_state": "INFERRED",
+      "note": "Both exploit dependency structure to avoid destructive chronological rollback."
+    },
+    {
+      "source": "1979_doyle_truth_maintenance",
+      "relation": "CONCEPTUAL_ANALOGUE_CITED_IN",
+      "target": "1996_grasp_sat",
+      "evidence_state": "VERIFIED",
+      "note": "GRASP paper explicitly notes TMS/CSP nogoods as similar conditions to conflict-induced clauses."
+    },
+    {
+      "source": "1993_prosser_conflict_backjumping",
+      "relation": "CONCEPTUAL_ANALOGUE_CITED_IN",
+      "target": "1996_grasp_sat",
+      "evidence_state": "VERIFIED",
+      "note": "GRASP situates conflict-induced clauses relative to CSP nogood/conflict methods."
+    },
+    {
+      "source": "1993_ginsberg_dynamic_backtracking",
+      "relation": "UNIFIED_WITH_FAILURE_EBL_BY",
+      "target": "1998_kambhampati_backtracking_ebl",
+      "evidence_state": "VERIFIED",
+      "note": "Kambhampati explicitly unifies intelligent backtracking and failure-driven explanation learning under refinement search."
+    },
+    {
+      "source": "1991_russell_wefald_metareasoning",
+      "relation": "FUNCTIONAL_RECURRENCE_IN",
+      "target": "2024_llm_rational_metareasoning",
+      "evidence_state": "INFERRED",
+      "note": "Both value computation/reasoning by downstream utility; exact historical citation chain not asserted here."
+    },
+    {
+      "source": "1992_query_by_committee",
+      "relation": "FUNCTIONAL_RECURRENCE_IN",
+      "target": "2025_active_reasoning_arbench",
+      "evidence_state": "INFERRED",
+      "note": "Both make evidence acquisition part of the task, though AR-Bench evaluates broad active reasoning rather than QBC specifically."
+    },
+    {
+      "source": "1985_agm_belief_revision",
+      "relation": "FUNCTIONAL_RECURRENCE_IN",
+      "target": "2024_belief_r",
+      "evidence_state": "INFERRED",
+      "note": "Both center change under new evidence; Belief-R is an LLM evaluation framework rather than AGM implementation."
+    },
+    {
+      "source": "1979_doyle_truth_maintenance",
+      "relation": "FUNCTIONAL_RECURRENCE_IN",
+      "target": "2026_stale_memory_validity",
+      "evidence_state": "INFERRED",
+      "note": "Support/currentness revision reappears as stale-memory invalidation problem."
+    },
+    {
+      "source": "1977_dekleer_multiple_representations",
+      "relation": "FUNCTIONAL_RECURRENCE_IN",
+      "target": "2026_reasoning_trajectories_geometry",
+      "evidence_state": "HYPOTHESIZED",
+      "note": "Both motivate representation-sensitive reasoning, but one is explicit symbolic engineering and the other latent neural geometry."
+    },
+    {
+      "source": "1986_dekleer_atms",
+      "relation": "FUNCTIONAL_ISOMORPH_OF",
+      "target": "2025_hypothesis_driven_tom",
+      "evidence_state": "HYPOTHESIZED",
+      "note": "Both maintain evolving multiple hypotheses; support-set vs particle/weight semantics differ materially."
+    }
+  ],
+  "laws": [
+    "DOCUMENTED_LINEAGE != FUNCTIONAL_ISOMORPHISM",
+    "FUNCTIONAL_RECURRENCE != SHARED IMPLEMENTATION",
+    "SOURCE_LEVEL_ANNOTATION != HIDDEN_MECHANISM",
+    "UNKNOWN != ABSENT"
+  ]
+}

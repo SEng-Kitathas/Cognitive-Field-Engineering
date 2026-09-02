@@ -1,0 +1,246 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cfe://reasoning-archaeology/lbe-specimen-v1",
+  "title": "AI Reasoning Archaeology LBE Specimen",
+  "type": "object",
+  "required": [
+    "specimen_id",
+    "artifact",
+    "system",
+    "temporal",
+    "trace_surface",
+    "planes",
+    "events",
+    "relations",
+    "silent_inferences",
+    "lbe_composite",
+    "feature_vector",
+    "qualification"
+  ],
+  "properties": {
+    "specimen_id": {"type": "string", "minLength": 12},
+    "artifact": {
+      "type": "object",
+      "required": ["title", "year", "source_url", "source_class", "rights_class", "raw_handling"],
+      "properties": {
+        "title": {"type": "string"},
+        "year": {"type": "integer", "minimum": 1940, "maximum": 2100},
+        "authors": {"type": "array", "items": {"type": "string"}},
+        "source_url": {"type": "string"},
+        "archive_url": {"type": ["string", "null"]},
+        "source_class": {
+          "enum": [
+            "ARCHIVAL_PRIMARY",
+            "PRIMARY_PAPER",
+            "PRIMARY_SYSTEM_DOCUMENTATION",
+            "PRIMARY_DATASET",
+            "PRIMARY_WEB_RELEASE",
+            "PUBLISHED_SPECIMEN",
+            "SECONDARY_HISTORICAL_POINTER"
+          ]
+        },
+        "rights_class": {
+          "enum": [
+            "OPEN",
+            "OPEN_WITH_LICENSE",
+            "PUBLIC_ACCESS_COPYRIGHTED",
+            "NONCOMMERCIAL_RESEARCH",
+            "METADATA_ONLY",
+            "SENSITIVE_PUBLIC_SPECIMEN"
+          ]
+        },
+        "raw_handling": {
+          "enum": [
+            "ALLOW_LOCAL_CACHE",
+            "ALLOW_LOCAL_CACHE_NO_GIT",
+            "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+            "STRUCTURAL_ANNOTATION_ONLY",
+            "DO_NOT_ACQUIRE_RAW"
+          ]
+        },
+        "local_raw_sha256": {"type": ["string", "null"]},
+        "local_raw_path": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "system": {
+      "type": "object",
+      "required": ["name", "family", "substrate", "reasoning_regime"],
+      "properties": {
+        "name": {"type": "string"},
+        "family": {"type": "string"},
+        "substrate": {
+          "enum": [
+            "SYMBOLIC_PROGRAM",
+            "EXPERT_SYSTEM",
+            "COGNITIVE_ARCHITECTURE",
+            "SEARCH_ENGINE",
+            "RL_SEARCH_HYBRID",
+            "NEURO_SYMBOLIC",
+            "LANGUAGE_MODEL",
+            "LANGUAGE_AGENT",
+            "MIXED"
+          ]
+        },
+        "reasoning_regime": {
+          "enum": [
+            "FIXED_SYMBOLIC_CONTROL",
+            "HEURISTIC_SEARCH",
+            "RULE_CHAINING",
+            "GOAL_SUBGOAL",
+            "TREE_SEARCH",
+            "LEARNED_SEARCH_GUIDANCE",
+            "GENERATED_INTERMEDIATE_TOKENS",
+            "GENERATED_REASONING_PLUS_ACTION",
+            "TRAINED_REASONING_MODEL",
+            "HYBRID_NEURAL_SYMBOLIC",
+            "OTHER"
+          ]
+        },
+        "training_or_knowledge_acquisition": {"type": "array", "items": {"type": "string"}},
+        "inference_control": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "temporal": {
+      "type": "object",
+      "required": ["year", "era", "documented_antecedents", "documented_successors", "lineage_state"],
+      "properties": {
+        "year": {"type": "integer"},
+        "era": {"type": "string"},
+        "documented_antecedents": {"type": "array", "items": {"type": "string"}},
+        "documented_successors": {"type": "array", "items": {"type": "string"}},
+        "lineage_state": {"enum": ["DOCUMENTED", "PARTIAL", "UNKNOWN"]}
+      }
+    },
+    "trace_surface": {
+      "type": "object",
+      "required": ["kind", "visibility", "fidelity_claim", "unit"],
+      "properties": {
+        "kind": {
+          "enum": [
+            "PROOF_TRACE",
+            "SEARCH_TRACE",
+            "GOAL_SUBGOAL_TRACE",
+            "RULE_EXPLANATION",
+            "DIALOGUE_STATE_TRACE",
+            "VALUE_SEARCH_TREE",
+            "ACTION_OBSERVATION_TRACE",
+            "INTERMEDIATE_TOKEN_TRACE",
+            "REASONING_SUMMARY",
+            "TRAINING_LABEL_TRACE",
+            "ALGORITHM_DESCRIPTION_WITH_EXAMPLES",
+            "MIXED"
+          ]
+        },
+        "visibility": {"enum": ["FULL", "PARTIAL", "SUMMARY", "INFERRED_FROM_DOCUMENTATION", "HIDDEN", "RECONSTRUCTED_PUBLIC_SPECIMEN"]},
+        "fidelity_claim": {"enum": ["EXECUTION_LOG", "FORMAL_PROOF", "SYSTEM_EXPLANATION", "BEHAVIORAL_SURFACE", "DOCUMENTATION_MODEL", "RECONSTRUCTION", "UNKNOWN"]},
+        "unit": {"type": "string"},
+        "raw_trace_available": {"type": "boolean"}
+      }
+    },
+    "planes": {
+      "type": "object",
+      "required": ["object_state", "hypothesis_state", "representation_state", "control_state", "authority_state", "learning_state"],
+      "properties": {
+        "object_state": {"type": "array", "items": {"type": "string"}},
+        "hypothesis_state": {"type": "array", "items": {"type": "string"}},
+        "representation_state": {"type": "array", "items": {"type": "string"}},
+        "control_state": {"type": "array", "items": {"type": "string"}},
+        "authority_state": {"type": "array", "items": {"type": "string"}},
+        "learning_state": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event_id", "order", "event_type", "plane", "evidence_state", "summary"],
+        "properties": {
+          "event_id": {"type": "string"},
+          "order": {"type": "integer"},
+          "event_type": {"type": "string"},
+          "plane": {"enum": ["OBJECT", "HYPOTHESIS", "REPRESENTATION", "CONTROL", "AUTHORITY", "LEARNING", "CROSS_PLANE"]},
+          "summary": {"type": "string"},
+          "evidence_state": {"enum": ["VERIFIED", "OBSERVED", "INFERRED", "HYPOTHESIZED", "UNKNOWN"]},
+          "source_locator": {"type": ["string", "null"]},
+          "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1}
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "relation", "target", "evidence_state"],
+        "properties": {
+          "source": {"type": "string"},
+          "relation": {"type": "string"},
+          "target": {"type": "string"},
+          "evidence_state": {"enum": ["VERIFIED", "OBSERVED", "INFERRED", "HYPOTHESIZED", "UNKNOWN"]},
+          "notes": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "silent_inferences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["inference_id", "class", "statement", "evidence_state", "competing_interpretations", "falsifiers"],
+        "properties": {
+          "inference_id": {"type": "string"},
+          "class": {"enum": ["PRIMITIVE_CANDIDATE", "INVARIANT_CANDIDATE", "ORDERING_CANDIDATE", "REPRESENTATION_CANDIDATE", "AUTHORITY_CANDIDATE", "TEMPORAL_CANDIDATE", "CAUSAL_HYPOTHESIS", "FUNCTIONAL_ISOMORPHISM"]},
+          "statement": {"type": "string"},
+          "evidence_state": {"enum": ["VERIFIED", "OBSERVED", "INFERRED", "HYPOTHESIZED", "UNKNOWN"]},
+          "competing_interpretations": {"type": "array", "items": {"type": "string"}},
+          "falsifiers": {"type": "array", "items": {"type": "string"}},
+          "cross_era_tags": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "lbe_composite": {
+      "type": "object",
+      "required": ["required_capabilities", "provided_capabilities", "state_assumptions", "effects", "invariants", "authority_ceiling", "hazards", "unknowns", "exact_lineage"],
+      "properties": {
+        "required_capabilities": {"type": "array", "items": {"type": "string"}},
+        "provided_capabilities": {"type": "array", "items": {"type": "string"}},
+        "state_assumptions": {"type": "array", "items": {"type": "string"}},
+        "effects": {"type": "array", "items": {"type": "string"}},
+        "invariants": {"type": "array", "items": {"type": "string"}},
+        "authority_ceiling": {"type": "string"},
+        "hazards": {"type": "array", "items": {"type": "string"}},
+        "unknowns": {"type": "array", "items": {"type": "string"}},
+        "exact_lineage": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "feature_vector": {
+      "type": "object",
+      "description": "Categorical trajectory features. UNKNOWN is preferable to guessed scoring.",
+      "properties": {
+        "explicit_multi_hypothesis": {"enum": ["ABSENT", "IMPLICIT", "EXPLICIT", "UNKNOWN"]},
+        "branch_backtracking": {"enum": ["ABSENT", "IMPLICIT", "EXPLICIT", "UNKNOWN"]},
+        "dependency_local_rollback": {"enum": ["ABSENT", "IMPLICIT", "EXPLICIT", "UNKNOWN"]},
+        "representation_refinement": {"enum": ["ABSENT", "IMPLICIT", "EXPLICIT", "UNKNOWN"]},
+        "external_verification": {"enum": ["ABSENT", "IMPLICIT", "EXPLICIT", "UNKNOWN"]},
+        "persistent_state_across_steps": {"enum": ["ABSENT", "IMPLICIT", "EXPLICIT", "UNKNOWN"]},
+        "consequence_propagation": {"enum": ["ABSENT", "IMPLICIT", "EXPLICIT", "UNKNOWN"]},
+        "learning_from_deliberation": {"enum": ["ABSENT", "IMPLICIT", "EXPLICIT", "UNKNOWN"]},
+        "adaptive_reasoning_effort": {"enum": ["ABSENT", "IMPLICIT", "EXPLICIT", "UNKNOWN"]},
+        "authority_separation": {"enum": ["ABSENT", "IMPLICIT", "EXPLICIT", "UNKNOWN"]},
+        "trace_visibility": {"enum": ["LOW", "MEDIUM", "HIGH", "UNKNOWN"]},
+        "trace_faithfulness": {"enum": ["LOW", "MEDIUM", "HIGH", "UNKNOWN"]}
+      },
+      "additionalProperties": false
+    },
+    "qualification": {
+      "type": "object",
+      "required": ["state", "notes"],
+      "properties": {
+        "state": {"enum": ["SOURCE_ONLY", "SPECIMEN_READY", "ANNOTATED", "HOSTILE_REVIEWED", "REJECTED"]},
+        "notes": {"type": "array", "items": {"type": "string"}},
+        "reviewed_against_schema": {"type": "boolean"}
+      }
+    }
+  },
+  "additionalProperties": true
+}

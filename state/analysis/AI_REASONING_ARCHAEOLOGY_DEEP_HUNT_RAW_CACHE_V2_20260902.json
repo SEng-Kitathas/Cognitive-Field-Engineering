@@ -1,0 +1,207 @@
+{
+  "count": 20,
+  "created_unix": 1788382968.2904718,
+  "errors": 1,
+  "items": [
+    {
+      "bytes": 119243,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijcai.org/Proceedings/77-1/Papers/048.pdf",
+      "id": "1977_mitchell_version_spaces",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1977_Mitchell_Version_Spaces.pdf",
+      "sha256": "726c620d1001371ea735a5a8d782af1673e5a9c917cbfa0552596ff513dbba39",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://www.ijcai.org/Proceedings/77-1/Papers/048.pdf"
+    },
+    {
+      "bytes": 162191,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijcai.org/Proceedings/77-1/Papers/004.pdf",
+      "id": "1977_hearsay_focus_attention",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1977_Hayes_Roth_Lesser_HEARSAY_Focus.pdf",
+      "sha256": "0be5f431b76be06c2bcc4b9bf249df5a0b04fb8daee9ad518953535a516792f4",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://www.ijcai.org/Proceedings/77-1/Papers/004.pdf"
+    },
+    {
+      "bytes": 4520605,
+      "content_type": "application/pdf",
+      "final_url": "https://graphics.stanford.edu/courses/cs428-03-spring/Papers/readings/CollaborativeProcessing/Reid_MHT_ieee_trans_ac_1979.pdf",
+      "id": "1979_reid_multiple_hypothesis_tracking",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1979_Reid_Multiple_Hypothesis_Tracking.pdf",
+      "sha256": "bf6aea64839d7bc2c49e7838e140c84ba2a3b26d2c257d3b9c491dae1d1c4728",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://graphics.stanford.edu/courses/cs428-03-spring/Papers/readings/CollaborativeProcessing/Reid_MHT_ieee_trans_ac_1979.pdf"
+    },
+    {
+      "bytes": 3498123,
+      "content_type": "application/pdf",
+      "final_url": "https://www.dekleer.org/Publications/An%20Assumption-Based%20TMS.pdf",
+      "id": "1986_dekleer_atms",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1986_deKleer_ATMS.pdf",
+      "sha256": "8536ada90472579a4ec0d0d1d604d358223e1acdca875625676c6b7c700b8535",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://www.dekleer.org/Publications/An%20Assumption-Based%20TMS.pdf"
+    },
+    {
+      "bytes": 2131321,
+      "content_type": "application/pdf",
+      "final_url": "https://www.dekleer.org/Publications/Problem%20Solving%20with%20the%20ATMS.pdf",
+      "id": "1986_dekleer_problem_solving_atms",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1986_deKleer_Problem_Solving_ATMS.pdf",
+      "sha256": "1128569e35818f075156f084f86e0d4d13c31861ce3404624f576d16c1cb54e4",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://www.dekleer.org/Publications/Problem%20Solving%20with%20the%20ATMS.pdf"
+    },
+    {
+      "bytes": 1024144,
+      "content_type": "application/pdf",
+      "final_url": "https://www.dekleer.org/Publications/Back%20to%20Backtracking.pdf",
+      "id": "1986_dekleer_back_to_backtracking",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1986_deKleer_Williams_Back_to_Backtracking.pdf",
+      "sha256": "11ca04993b5efe05ecfcebdc061932fc1cc9d98534930b0f47a5b2be94da2034",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://www.dekleer.org/Publications/Back%20to%20Backtracking.pdf"
+    },
+    {
+      "bytes": 259440,
+      "content_type": "application/pdf",
+      "final_url": "https://www.dekleer.org/Publications/gde-2006.pdf",
+      "id": "1987_dekleer_williams_gde",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1987_deKleer_Williams_GDE_reprint.pdf",
+      "sha256": "349c26fdd69916f45fd7cd5b9f082eeb204ec271b200f19cd1a154276358872f",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://www.dekleer.org/Publications/gde-2006.pdf"
+    },
+    {
+      "bytes": 1109943,
+      "content_type": "application/pdf",
+      "final_url": "https://cdn.aaai.org/AAAI/1987/AAAI87-089.pdf",
+      "id": "1987_soar_knowledge_level_learning",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1987_Rosenbloom_Laird_Newell_Knowledge_Level_Learning_Soar.pdf",
+      "sha256": "a4e4b9340c842be4be38cbc161e007c1e9d88a664181eaff29fa73012533c0dc",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://cdn.aaai.org/AAAI/1987/AAAI87-089.pdf"
+    },
+    {
+      "bytes": 231372,
+      "content_type": "application/pdf",
+      "final_url": "https://arxiv.org/pdf/cs/9308101",
+      "id": "1993_ginsberg_dynamic_backtracking",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1993_Ginsberg_Dynamic_Backtracking.pdf",
+      "sha256": "6208e0d65a778fa451b701e4551c567d2244ec5d98830e134666bbf763652209",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://arxiv.org/pdf/cs/9308101"
+    },
+    {
+      "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='cse.unl.edu', port=443): Max retries exceeded with url: /~choueiry/Documents/Hybrid-Prosser.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))\"))",
+      "id": "1993_prosser_conflict_backjumping",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1993_Prosser_Hybrid_CSP.pdf",
+      "status": "ERROR",
+      "url": "https://cse.unl.edu/~choueiry/Documents/Hybrid-Prosser.pdf"
+    },
+    {
+      "bytes": 157750,
+      "content_type": "application/pdf",
+      "final_url": "https://homepage.cs.uiowa.edu/~tinelli/classes/295/Spring03/papers/Sil96.pdf",
+      "id": "1996_grasp_sat",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\1996_MarquesSilva_Sakallah_GRASP.pdf",
+      "sha256": "9203ab84136ce8e9d02da6dab70af849481ec51309bfae3565701ab727e7cc51",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://homepage.cs.uiowa.edu/~tinelli/classes/295/Spring03/papers/Sil96.pdf"
+    },
+    {
+      "bytes": 1582699,
+      "content_type": "application/pdf;charset=utf-8",
+      "final_url": "https://minds.wisc.edu/server/api/core/bitstreams/8a78cf83-0702-4157-aeff-3cacb62f9ad5/content",
+      "id": "2009_settles_active_learning",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2009_Settles_Active_Learning_Survey.pdf",
+      "sha256": "00d71df852c856ed07448bdd30a4693a02c25062c9b5ae60b94b9f042ab2ba03",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://minds.wisconsin.edu/bitstream/handle/1793/60660/TR1648.pdf"
+    },
+    {
+      "bytes": 1192631,
+      "content_type": "application/pdf",
+      "final_url": "https://aclanthology.org/2024.emnlp-main.586.pdf",
+      "id": "2024_belief_r",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2024_Belief_R.pdf",
+      "sha256": "4de08cbedc6c64dc168d02fde9b26dc1a013b60872cc9fedf6c3f34aac4d9d07",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://aclanthology.org/2024.emnlp-main.586.pdf"
+    },
+    {
+      "bytes": 2854666,
+      "content_type": "application/pdf",
+      "final_url": "https://arxiv.org/pdf/2410.05563",
+      "id": "2024_llm_rational_metareasoning",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2024_Rational_Metareasoning_LLM.pdf",
+      "sha256": "dcee3651515afe806328931134d6d6e90f6bfecf844c4eef01360c9368488fbe",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://arxiv.org/pdf/2410.05563"
+    },
+    {
+      "bytes": 386991,
+      "content_type": "application/pdf",
+      "final_url": "https://arxiv.org/pdf/2502.11881",
+      "id": "2025_hypothesis_driven_tom",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2025_Hypothesis_Driven_ToM.pdf",
+      "sha256": "8c6d92f4b42667d71198f48b4e923aa9854ae9e779ec40d9df3f21fa45041db3",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://arxiv.org/pdf/2502.11881"
+    },
+    {
+      "bytes": 2981691,
+      "content_type": "application/octet-stream",
+      "final_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhou25e/zhou25e.pdf",
+      "id": "2025_active_reasoning_arbench",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2025_AR_Bench.pdf",
+      "sha256": "7566a5de91a463bbf06baf0d1835e259a02db9e70c849deefff06f23965c4b16",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhou25e/zhou25e.pdf"
+    },
+    {
+      "bytes": 2031478,
+      "content_type": "application/pdf",
+      "final_url": "https://aclanthology.org/2025.findings-acl.1326.pdf",
+      "id": "2025_kup_knowledge_update",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2025_KUP_Knowledge_Update.pdf",
+      "sha256": "e7c3bfca96aa1951af73f039d279954df65dcf9d105f6cade0a7558a6deda9a6",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://aclanthology.org/2025.findings-acl.1326.pdf"
+    },
+    {
+      "bytes": 5568857,
+      "content_type": "application/pdf",
+      "final_url": "https://arxiv.org/pdf/2605.06527",
+      "id": "2026_stale_memory_validity",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2026_STALE.pdf",
+      "sha256": "388f71f1eb952e7d7e7b19c2f25bfc744c47efa8ee00a548093b949432495109",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://arxiv.org/pdf/2605.06527"
+    },
+    {
+      "bytes": 12397355,
+      "content_type": "application/pdf",
+      "final_url": "https://aclanthology.org/2026.acl-long.1237.pdf",
+      "id": "2026_reasoning_trajectories_geometry",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2026_LLM_Reasoning_Trajectories.pdf",
+      "sha256": "068250a576661539dcf3169e572496daf130f78b6c76726610a80787daa00a74",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://aclanthology.org/2026.acl-long.1237.pdf"
+    },
+    {
+      "bytes": 762945,
+      "content_type": "application/octet-stream",
+      "final_url": "https://raw.githubusercontent.com/mlresearch/v300/main/assets/wu26a/wu26a.pdf",
+      "id": "2026_ctrls_latent_state_transition",
+      "path": "research\\quarry\\reasoning_archaeology\\raw_cache\\deep_hunt_v2\\2026_CTRLS.pdf",
+      "sha256": "356f11fc1ff286ff7a2af5bcd11e8df2af9f54a66e358d44892f81f772e01942",
+      "status": "DOWNLOADED_VERIFIED",
+      "url": "https://raw.githubusercontent.com/mlresearch/v300/main/assets/wu26a/wu26a.pdf"
+    }
+  ],
+  "policy": "LOCAL_RESEARCH_CACHE_NOT_FOR_GIT_PUBLICATION",
+  "schema": "cfe.reasoning-archaeology.deep-hunt-cache.v2",
+  "success": 19
+}

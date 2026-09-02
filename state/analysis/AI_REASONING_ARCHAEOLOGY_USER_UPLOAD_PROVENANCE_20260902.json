@@ -1,0 +1,31 @@
+{
+  "schema": "cfe.reasoning-archaeology.user-upload-provenance.v1",
+  "date": "2026-09-02",
+  "note": "Hashes were computed in the active chat file runtime. These files are conversation uploads, not copied into the CFE server raw cache by this record.",
+  "items": [
+    {
+      "filename": "mccarthy.pdf",
+      "identity": "John McCarthy, Programs with Common Sense (1959)",
+      "bytes": 131155,
+      "sha256": "8abaf0fa721748cdf5fd2b16567d78c104279af4a39b0ad9583e84bd8cd34fe1",
+      "project_role": "PRIMARY_USER_SUPPLIED_HISTORICAL_SPECIMEN",
+      "server_raw_copy_state": "NOT_COPIED_FROM_CHAT_RUNTIME"
+    },
+    {
+      "filename": "mccarthy.ailogic(1).pdf",
+      "identity": "John McCarthy, Artificial Intelligence, Logic and Formalizing Common Sense (1990)",
+      "bytes": 215439,
+      "sha256": "28fd0bc4f5b986eeb4d30ae429abd0391ae7f2bf6f19856d394cc4ac63403989",
+      "project_role": "PRIMARY_USER_SUPPLIED_HISTORICAL_SPECIMEN",
+      "server_raw_copy_state": "NOT_COPIED_FROM_CHAT_RUNTIME"
+    },
+    {
+      "filename": "FS07-01-006.pdf",
+      "identity": "Antonio Chella and Salvatore Gaglio, A Cognitive Approach to Robot Self-Consciousness (2007)",
+      "bytes": 890967,
+      "sha256": "ee4430918d99e7c6e66fd1421b0f0a6e29937b0dc50c0dabd72617de1c86088b",
+      "project_role": "PRIMARY_USER_SUPPLIED_HISTORICAL_SPECIMEN",
+      "server_raw_copy_state": "NOT_COPIED_FROM_CHAT_RUNTIME"
+    }
+  ]
+}

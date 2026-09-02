@@ -1,0 +1,1287 @@
+{
+  "schema": "cfe.reasoning-archaeology.source-registry.v2",
+  "status": "ACTIVE_DEEP_HUNT_EXPANDED_CROSS_DOMAIN",
+  "program": "AI_REASONING_ARCHAEOLOGY_TEMPORAL_CAUSAL_LBE",
+  "snapshot_date": "2026-09-02",
+  "rules": [
+    "SOTA != MOST INFORMATIVE SPECIMEN",
+    "CHRONOLOGY != CAUSATION",
+    "FIRST PUBLIC APPEARANCE != FIRST EXISTENCE",
+    "QUARRY BROADLY; STORE NARROWLY",
+    "SENSITIVE/PROPRIETARY SPECIMEN -> STRUCTURAL ANNOTATION ONLY",
+    "UNKNOWN RIGHTS OR TRACE FIDELITY -> NO RAW GIT INGEST",
+    "LBE FIELD STORES EXACT LINEAGE AND CLAIM CEILING PER SPECIMEN"
+  ],
+  "sources": [
+    {
+      "id": "1955_logic_theorist_archive",
+      "year": 1955,
+      "system": "Logic Theorist",
+      "lineage": "symbolic theorem proving / heuristic search",
+      "title": "Logic Theorist Program archival notes",
+      "source_url": "https://digitalcollections.library.cmu.edu/node/65957",
+      "source_state": "PRIMARY_ARCHIVE_VERIFIED",
+      "rights": "In Copyright - Non-Commercial Use Permitted",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "hand-simulation/program notes and proof-search structure",
+      "silent_questions": [
+        "goal/subgoal structure",
+        "branch selection",
+        "heuristic pruning",
+        "representation of proof state",
+        "human-protocol influence"
+      ]
+    },
+    {
+      "id": "1959_advice_taker",
+      "year": 1959,
+      "system": "Advice Taker concept",
+      "lineage": "declarative common-sense reasoning",
+      "title": "Programs with Common Sense",
+      "source_url": "https://logic.stanford.edu/logicprogramming/readings/mccarthy.pdf",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "public academic copy",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "declarative representation and inference design",
+      "silent_questions": [
+        "what knowledge is explicit",
+        "what inference is general",
+        "representation vs control",
+        "advice/currentness"
+      ]
+    },
+    {
+      "id": "1959_gps",
+      "year": 1959,
+      "system": "General Problem Solver I",
+      "lineage": "means-ends analysis / goal-subgoal search",
+      "title": "A General Problem-Solving Program for a Computer",
+      "source_url": "https://iiif.library.cmu.edu/file/Newell_box00039_fld03042_doc0001/Newell_box00039_fld03042_doc0001.pdf",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "public archival access",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "explicit executive loop, means-ends analysis, recursive subgoal reduction",
+      "silent_questions": [
+        "difference detection",
+        "operator selection",
+        "subgoal creation",
+        "goal evaluation",
+        "heuristic authority",
+        "state transformation vocabulary"
+      ]
+    },
+    {
+      "id": "1969_dendral",
+      "year": 1969,
+      "system": "Heuristic DENDRAL",
+      "lineage": "scientific hypothesis formation / heuristic search",
+      "title": "Heuristic DENDRAL: A Program for Generating Explanatory Hypotheses in Organic Chemistry",
+      "source_url": "https://cs.stanford.edu/people/eaf/wordpress/publications/",
+      "source_state": "PRIMARY_BIBLIOGRAPHIC_LINEAGE_VERIFIED",
+      "rights": "mixed historical publications",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "hypothesis generation, empirical data interpretation, heuristic pruning",
+      "silent_questions": [
+        "multi-hypothesis maintenance",
+        "evidence-to-hypothesis mapping",
+        "search control",
+        "scientific inference",
+        "explanation vs generation"
+      ]
+    },
+    {
+      "id": "1969_mccarthy_hayes_situation_calculus",
+      "year": 1969,
+      "system": "McCarthy-Hayes logical AI / Situation Calculus",
+      "lineage": "epistemological adequacy / action-state reasoning / frame problem",
+      "title": "Some Philosophical Problems from the Standpoint of Artificial Intelligence",
+      "source_url": "https://www-formal.stanford.edu/jmc/mcchay69.pdf",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "public author-hosted academic copy",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "situation/action transformation, metaphysical vs epistemological vs heuristic adequacy, action effects, persistence/frame problem",
+      "silent_questions": [
+        "what counts as an adequate representation",
+        "state transition vs observable knowledge",
+        "what persists after action",
+        "ability vs feasibility",
+        "what changes when knowledge is acquired",
+        "representation adequacy vs reasoning-control adequacy"
+      ]
+    },
+    {
+      "id": "1971_shrdlu",
+      "year": 1971,
+      "system": "SHRDLU",
+      "lineage": "language understanding / planning / world model",
+      "title": "Procedures as a Representation for Data in a Computer Program for Understanding Natural Language",
+      "source_url": "https://eric.ed.gov/?id=ED056543",
+      "source_state": "PRIMARY_DISSERTATION_METADATA_VERIFIED",
+      "rights": "public metadata / source availability varies",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "dialogue, context carry, command execution, world-state reasoning",
+      "silent_questions": [
+        "discourse currentness",
+        "world-state update",
+        "directed backtracking",
+        "reference resolution",
+        "plan/action consequence"
+      ]
+    },
+    {
+      "id": "1974_1976_mycin",
+      "year": 1976,
+      "system": "MYCIN",
+      "lineage": "rule-based expert system / explanation",
+      "title": "Computer-Based Medical Consultations: MYCIN",
+      "source_url": "https://www.sciencedirect.com/book/monograph/9780444001795/computer-based-medical-consultations-mycin",
+      "source_state": "PRIMARY_BOOK_METADATA_VERIFIED",
+      "rights": "copyrighted",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "reasoning chains, certainty factors, WHY/HOW explanation lineage",
+      "silent_questions": [
+        "uncertainty propagation",
+        "rule firing lineage",
+        "explanation authority",
+        "query-relative reasoning",
+        "hypothesis confirmation/disconfirmation"
+      ]
+    },
+    {
+      "id": "1976_meta_dendral_rule_formation",
+      "year": 1976,
+      "system": "Meta-DENDRAL",
+      "lineage": "scientific rule induction / hypothesis formation",
+      "title": "Applications of artificial intelligence for chemical inference. 22. Automatic rule formation in mass spectrometry by means of the meta-DENDRAL program",
+      "source_url": "https://doi.org/10.1021/ja00436a017",
+      "source_state": "PRIMARY_PAPER_METADATA_VERIFIED",
+      "rights": "publisher controlled",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "empirical data -> candidate rules -> test/refine rule formation",
+      "silent_questions": [
+        "hypothesis-space structure",
+        "inductive bias",
+        "evidence partition",
+        "rule refinement",
+        "scientific discovery loop"
+      ]
+    },
+    {
+      "id": "1976_shafer_evidence",
+      "year": 1976,
+      "system": "Dempster-Shafer belief functions",
+      "lineage": "structured uncertainty / evidence combination",
+      "title": "A Mathematical Theory of Evidence",
+      "source_url": "https://doi.org/10.1515/9780691214696",
+      "source_state": "PRIMARY_BOOK_METADATA_VERIFIED",
+      "rights": "copyrighted book",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "belief/plausibility over sets rather than forced point probability",
+      "silent_questions": [
+        "structural uncertainty",
+        "set-valued belief",
+        "evidence combination",
+        "ignorance representation",
+        "conflict handling"
+      ]
+    },
+    {
+      "id": "1977_dekleer_multiple_representations",
+      "year": 1977,
+      "system": "NEWTON mechanics problem solver",
+      "lineage": "multiple representations / qualitative-to-quantitative reasoning",
+      "title": "Multiple Representations of Knowledge in a Mechanics Problem-Solver",
+      "source_url": "https://www.dekleer.org/bib.htm",
+      "source_state": "PRIMARY_AUTHOR_ARCHIVE_VERIFIED",
+      "rights": "author-posted scan; publication copyright",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "multiple representations and inference schemes; qualitative reasoning first, equations when needed",
+      "silent_questions": [
+        "representation switching",
+        "representation adequacy",
+        "cheap-first reasoning",
+        "cross-representation communication",
+        "adaptive abstraction"
+      ]
+    },
+    {
+      "id": "1977_explicit_control_reasoning",
+      "year": 1977,
+      "system": "Explicit Control of Reasoning",
+      "lineage": "meta-level control / explicit heuristics",
+      "title": "Explicit Control of Reasoning",
+      "source_url": "https://www.researchgate.net/publication/37596615_Explicit_Control_of_Reasoning",
+      "source_state": "PRIMARY_MEMO_PUBLIC_COPY_VERIFIED",
+      "rights": "public author-uploaded copy; copyright status mixed",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "make normally implicit expert control knowledge explicit to manage combinatorial search",
+      "silent_questions": [
+        "control knowledge as object",
+        "meta-level state",
+        "reasoning policy",
+        "resource allocation",
+        "separation domain/control"
+      ]
+    },
+    {
+      "id": "1977_hearsay_focus_attention",
+      "year": 1977,
+      "system": "HEARSAY-II focus of attention",
+      "lineage": "blackboard / opportunistic control / distributed knowledge",
+      "title": "Focus of Attention in the HEARSAY-II Speech Understanding System",
+      "source_url": "https://www.ijcai.org/Proceedings/77-1/Papers/004.pdf",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "IJCAI public archive",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "scheduled knowledge-source instantiations compete under goals/desirability; best-first/top-down/bottom-up control",
+      "silent_questions": [
+        "meta-control",
+        "attention allocation",
+        "candidate action competition",
+        "resource-bounded reasoning",
+        "control-policy modularity"
+      ]
+    },
+    {
+      "id": "1977_mitchell_version_spaces",
+      "year": 1977,
+      "system": "Candidate Elimination / Version Spaces",
+      "lineage": "compact multi-hypothesis concept learning",
+      "title": "Version Spaces: A Candidate Elimination Approach to Rule Learning",
+      "source_url": "https://www.ijcai.org/Proceedings/77-1/Papers/048.pdf",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "IJCAI public archive",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "all hypotheses consistent with evidence represented via maximal-general/minimal-specific boundaries",
+      "silent_questions": [
+        "compact hypothesis-space representation",
+        "noncommitment",
+        "evidence-driven elimination",
+        "boundary refinement",
+        "equivalence class of viable hypotheses"
+      ]
+    },
+    {
+      "id": "1977_stallman_sussman_dependency_backtracking",
+      "year": 1977,
+      "system": "EL/ARS circuit analyzer",
+      "lineage": "constraint propagation / dependency-directed backtracking",
+      "title": "Forward reasoning and dependency-directed backtracking in a system for computer-aided circuit analysis",
+      "source_url": "https://doi.org/10.1016/0004-3702(77)90029-7",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "publisher controlled; public abstract/author discussion",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "facts threaded with justifications; contradiction -> assumption conflict -> dependency-directed revision",
+      "silent_questions": [
+        "dependency-local rollback",
+        "nogood learning precursor",
+        "preserve unaffected progress",
+        "justification lineage",
+        "contradiction localization"
+      ]
+    },
+    {
+      "id": "1979_doyle_truth_maintenance",
+      "year": 1979,
+      "system": "Truth Maintenance System",
+      "lineage": "belief revision / reason maintenance / dependency-directed backtracking",
+      "title": "A Truth Maintenance System",
+      "source_url": "https://doi.org/10.1016/0004-3702(79)90008-0",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "publisher controlled; author archive exists",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "record reasons for beliefs; revise assumptions on contradiction; explanations; dialectical modules",
+      "silent_questions": [
+        "belief pedigree",
+        "dependency-local rollback",
+        "assumption revision",
+        "explanation lineage",
+        "control embedded in assumptions"
+      ]
+    },
+    {
+      "id": "1979_reid_multiple_hypothesis_tracking",
+      "year": 1979,
+      "system": "Multiple Hypothesis Tracking",
+      "lineage": "recursive hypothesis management / temporal state estimation",
+      "title": "An Algorithm for Tracking Multiple Targets",
+      "source_url": "https://doi.org/10.1109/TAC.1979.1102177",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "IEEE copyright; public academic copy available",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "joint hypotheses updated recursively from observations; prune unlikely; merge similar; decompose independent clusters",
+      "silent_questions": [
+        "later evidence resolves earlier ambiguity",
+        "hypothesis pruning",
+        "equivalence merging",
+        "cluster decomposition",
+        "temporal state continuity",
+        "false/missing evidence"
+      ]
+    },
+    {
+      "id": "1980_hearsay_ii",
+      "year": 1980,
+      "system": "HEARSAY-II",
+      "lineage": "blackboard / cooperative hypothesis integration",
+      "title": "The HEARSAY-II Speech-Understanding System: Integrating Knowledge to Resolve Uncertainty",
+      "source_url": "https://mas.cs.umass.edu/pub/paper_detail.php/229",
+      "source_state": "PRIMARY_AUTHOR_LAB_COPY_VERIFIED",
+      "rights": "ACM copyright; lab-hosted PDF",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "hypothetical interpretations at multiple abstraction levels coordinated through blackboard under uncertainty",
+      "silent_questions": [
+        "multi-level hypotheses",
+        "shared state",
+        "cross-module integration",
+        "uncertainty resolution",
+        "opportunistic control"
+      ]
+    },
+    {
+      "id": "1980_weyhrauch_fol",
+      "year": 1980,
+      "system": "FOL mechanized formal reasoning",
+      "lineage": "reflection / formal reasoning about reasoning",
+      "title": "Prolegomena to a Theory of Mechanized Formal Reasoning",
+      "source_url": "https://doi.org/10.1016/0004-3702(80)90015-6",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "publisher controlled",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "formal reasoning system with executed examples and reflective access to inference",
+      "silent_questions": [
+        "reasoning about inference",
+        "observation-inference interaction",
+        "context/theory state",
+        "proof control",
+        "reflection"
+      ]
+    },
+    {
+      "id": "1983_eurisko",
+      "year": 1983,
+      "system": "EURISKO",
+      "lineage": "heuristic discovery / representation-language engineering",
+      "title": "EURISKO: A Program That Learns New Heuristics and Domain Concepts",
+      "source_url": "https://www.cs.northwestern.edu/~mek802/papers/not-mine/Lenat_EURISKO.pdf",
+      "source_state": "PUBLIC_REPRINT_VERIFIED",
+      "rights": "publication copyright; public academic reprint",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "discover domain concepts and heuristics; representation language redesigned so local mutations yield meaningful semantic variants",
+      "silent_questions": [
+        "meta-learning",
+        "representation-language fit",
+        "search operator semantics",
+        "heuristic self-improvement",
+        "failure due representation mismatch"
+      ]
+    },
+    {
+      "id": "1985_agm_belief_revision",
+      "year": 1985,
+      "system": "AGM belief revision",
+      "lineage": "formal rational belief change",
+      "title": "On the Logic of Theory Change: Partial Meet Contraction and Revision Functions",
+      "source_url": "https://doi.org/10.2307/2274239",
+      "source_state": "PRIMARY_PAPER_METADATA_VERIFIED",
+      "rights": "publisher controlled",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "revision/contraction under contradictory epistemic input with rationality postulates",
+      "silent_questions": [
+        "minimal change",
+        "what to preserve",
+        "revision vs contraction",
+        "iterated currentness",
+        "consistency restoration"
+      ]
+    },
+    {
+      "id": "1985_hayes_roth_blackboard_control",
+      "year": 1985,
+      "system": "Blackboard Control Architecture",
+      "lineage": "meta-control / self-observation / opportunistic planning",
+      "title": "A Blackboard Architecture for Control",
+      "source_url": "https://doi.org/10.1016/0004-3702(85)90063-3",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "publisher controlled",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "separates domain/control problems, knowledge, solutions; acts on own knowledge/behavior",
+      "silent_questions": [
+        "control-state representation",
+        "meta-reasoning",
+        "unanticipated situation adaptation",
+        "action selection",
+        "shared blackboard state"
+      ]
+    },
+    {
+      "id": "1985_soar_chunking",
+      "year": 1985,
+      "system": "Soar",
+      "lineage": "cognitive architecture / universal subgoaling / chunking",
+      "title": "Chunking in Soar: The Anatomy of a General Learning Mechanism",
+      "source_url": "https://iiif.library.cmu.edu/file/Newell_box00016_fld01156_doc0001/Newell_box00016_fld01156_doc0001.pdf",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "public archival access",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "impasse, subgoal reasoning, chunk formation",
+      "silent_questions": [
+        "learning from deliberation",
+        "impasse as discriminator",
+        "compiled shortcut",
+        "state/operator preferences",
+        "persistent history"
+      ]
+    },
+    {
+      "id": "1986_dekleer_atms",
+      "year": 1986,
+      "system": "Assumption-Based Truth Maintenance System",
+      "lineage": "simultaneous multiple contexts / reason maintenance",
+      "title": "An Assumption-Based TMS",
+      "source_url": "https://www.dekleer.org/Publications/An%20Assumption-Based%20TMS.pdf",
+      "source_state": "PRIMARY_AUTHOR_COPY_VERIFIED",
+      "rights": "author-posted copy; publication copyright",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "labels as minimal assumption environments; nogoods; simultaneous multiple potential solutions; free context switching",
+      "silent_questions": [
+        "live consequence-distinct alternatives",
+        "minimal branch assumptions",
+        "context lattice",
+        "nogood compression",
+        "shared derivation reuse"
+      ]
+    },
+    {
+      "id": "1986_dekleer_problem_solving_atms",
+      "year": 1986,
+      "system": "ATMS problem-solving interface",
+      "lineage": "reason-maintenance / compiled inference / default reasoning",
+      "title": "Problem Solving with the ATMS",
+      "source_url": "https://www.dekleer.org/Publications/Problem%20Solving%20with%20the%20ATMS.pdf",
+      "source_state": "PRIMARY_AUTHOR_COPY_VERIFIED",
+      "rights": "author-posted copy; publication copyright",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "problem solver/TMS interface; explicit contexts; default reasoning; preserve ATMS advantages",
+      "silent_questions": [
+        "boundary between domain reasoning and state maintenance",
+        "control decisions as explicit state",
+        "context membership",
+        "compiled rules",
+        "reuse across contexts"
+      ]
+    },
+    {
+      "id": "1986_mental_situation_calculus",
+      "year": 1986,
+      "system": "Mental Situation Calculus",
+      "lineage": "belief/goal/inference as explicit mental-state transitions",
+      "title": "Mental Situation Calculus",
+      "source_url": "https://tark.org/proceedings/tark_mar19_86/p307-mccarthy.pdf",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "public conference copy",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "beliefs/goals/intentions as situation state; inferring/observing/goal setting as mental actions; pedigree-sensitive nonmonotonic control",
+      "silent_questions": [
+        "reasoning about reasoning",
+        "inference as state-changing action",
+        "belief currentness",
+        "pedigree/authority of beliefs",
+        "control of tentative inference",
+        "partial plans"
+      ]
+    },
+    {
+      "id": "1987_dekleer_williams_gde",
+      "year": 1987,
+      "system": "General Diagnostic Engine",
+      "lineage": "ATMS + model-based prediction + sequential diagnosis",
+      "title": "Diagnosing Multiple Faults",
+      "source_url": "https://www.dekleer.org/Publications/Diagnosing%20Multiple%20Faults%20AIJ%20reprint.pdf",
+      "source_state": "PRIMARY_AUTHOR_COPY_VERIFIED",
+      "rights": "author-posted reprint; publication copyright",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "minimal violated-assumption candidates; incremental update; entropy-guided next measurement",
+      "silent_questions": [
+        "discriminator seeking",
+        "candidate-space refinement",
+        "minimal diagnoses",
+        "incremental revision",
+        "separation prediction/diagnosis"
+      ]
+    },
+    {
+      "id": "1987_reiter_diagnosis",
+      "year": 1987,
+      "system": "Diagnosis from First Principles",
+      "lineage": "model-based diagnosis / competing explanations",
+      "title": "A Theory of Diagnosis from First Principles",
+      "source_url": "https://doi.org/10.1016/0004-3702(87)90062-2",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "publisher controlled",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "all diagnoses explaining discrepancy; discrimination among competing diagnoses",
+      "silent_questions": [
+        "model-vs-world residual",
+        "minimal explanation sets",
+        "competing diagnoses",
+        "measurement discrimination",
+        "nonmonotonic connection"
+      ]
+    },
+    {
+      "id": "1988_pearl_probabilistic_reasoning",
+      "year": 1988,
+      "system": "Bayesian belief networks",
+      "lineage": "conditional independence / uncertain inference / graphical models",
+      "title": "Probabilistic Reasoning in Intelligent Systems",
+      "source_url": "https://doi.org/10.1016/C2009-0-27609-4",
+      "source_state": "PRIMARY_BOOK_METADATA_VERIFIED",
+      "rights": "copyrighted book",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "graph-structured uncertain inference exploiting conditional independence",
+      "silent_questions": [
+        "dependency factorization",
+        "local propagation",
+        "uncertainty semantics",
+        "causal/diagnostic direction",
+        "compact joint state"
+      ]
+    },
+    {
+      "id": "1989_poole_abductive_theory_formation",
+      "year": 1989,
+      "system": "Default/abductive theory formation",
+      "lineage": "abduction / prediction / explanation",
+      "title": "Explanation and Prediction: An Architecture for Default and Abductive Reasoning",
+      "source_url": "https://doi.org/10.1111/j.1467-8640.1989.tb00319.x",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "publisher controlled",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "reasoning as theory formation; consequences of assumptions; prediction vs explanation",
+      "silent_questions": [
+        "assumption sets",
+        "abductive hypothesis formation",
+        "prediction-explanation asymmetry",
+        "nonmonotonic qualification",
+        "theory competition"
+      ]
+    },
+    {
+      "id": "1989_1990_mccarthy_ailogic",
+      "year": 1990,
+      "system": "Logical AI / Formalizing Common Sense",
+      "lineage": "nonmonotonic reasoning / epistemological adequacy / context / rich-poor entities",
+      "title": "Artificial Intelligence, Logic and Formalizing Common Sense",
+      "source_url": "https://jmc.stanford.edu/articles/ailogic/ailogic.pdf",
+      "source_state": "PRIMARY_AUTHOR_COPY_AND_USER_UPLOAD_VERIFIED",
+      "rights": "public author-hosted copy; publication copyright",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "nonmonotonic revision, concept splitting, knowledge change, contextual truth, partial theories, meta-epistemology, rich/poor entities",
+      "silent_questions": [
+        "how uncertainty remains live",
+        "when concepts split",
+        "what context carries",
+        "how representations generalize/specialize",
+        "what can actually be known",
+        "world vs model relation",
+        "how reasoning should preserve unknowns"
+      ]
+    },
+    {
+      "id": "1991_russell_wefald_metareasoning",
+      "year": 1991,
+      "system": "Rational Metareasoning",
+      "lineage": "resource-bounded rationality / value of computation",
+      "title": "Principles of Metareasoning",
+      "source_url": "https://iiif.library.cmu.edu/file/Newell_box00014_fld01011_doc0001/Newell_box00014_fld01011_doc0001.pdf",
+      "source_state": "PRIMARY_ARCHIVE_COPY_VERIFIED",
+      "rights": "public archival copy",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "select computational actions by expected utility derived from effect on external actions",
+      "silent_questions": [
+        "appropriate reasoning effort",
+        "meta-action selection",
+        "value of computation",
+        "resource bounds",
+        "when to think more"
+      ]
+    },
+    {
+      "id": "1992_query_by_committee",
+      "year": 1992,
+      "system": "Query by Committee",
+      "lineage": "active learning / hypothesis disagreement",
+      "title": "Query by Committee",
+      "source_url": "https://doi.org/10.1145/130385.130417",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "ACM copyright",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "multiple learners/models; choose next query by maximal disagreement",
+      "silent_questions": [
+        "discriminator seeking",
+        "hypothesis disagreement",
+        "information gain",
+        "active evidence acquisition",
+        "committee diversity"
+      ]
+    },
+    {
+      "id": "1993_ginsberg_dynamic_backtracking",
+      "year": 1993,
+      "system": "Dynamic Backtracking",
+      "lineage": "dependency-directed search repair",
+      "title": "Dynamic Backtracking",
+      "source_url": "https://arxiv.org/abs/cs/9308101",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "arXiv public",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "move backtrack points deeper to avoid erasing meaningful progress; polynomial-space dependency control",
+      "silent_questions": [
+        "scoped rollback",
+        "preserve valid progress",
+        "conflict locality",
+        "complete search",
+        "state repair"
+      ]
+    },
+    {
+      "id": "1993_mccarthy_formalizing_context",
+      "year": 1993,
+      "system": "Formalized Context",
+      "lineage": "context as first-class object / lifting / transcendence",
+      "title": "Notes on Formalizing Context",
+      "source_url": "https://www-formal.stanford.edu/jmc/context3.pdf",
+      "source_state": "PRIMARY_AUTHOR_COPY_VERIFIED",
+      "rights": "public author-hosted academic copy",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "ist(c,p), moving propositions across related contexts, context specialization/generalization, transcendence beyond current outer context",
+      "silent_questions": [
+        "context-local truth",
+        "context lifting",
+        "representation currentness",
+        "specialization/generalization",
+        "unstated presuppositions",
+        "coordinate-system transcendence"
+      ]
+    },
+    {
+      "id": "1993_prosser_conflict_backjumping",
+      "year": 1993,
+      "system": "Conflict-Directed Backjumping / CSP hybrids",
+      "lineage": "constraint satisfaction / intelligent backtracking",
+      "title": "Hybrid Algorithms for the Constraint Satisfaction Problem",
+      "source_url": "https://doi.org/10.1111/j.1467-8640.1993.tb00310.x",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "publisher controlled; public academic PDF exists",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "forward checking + conflict-directed backward move; combine propagation/search repair",
+      "silent_questions": [
+        "conflict sets",
+        "causal backjump",
+        "preserve assignments",
+        "forward/backward composition",
+        "failure localization"
+      ]
+    },
+    {
+      "id": "1994_hou_measurement_diagnosis",
+      "year": 1994,
+      "system": "Measurement in diagnosis",
+      "lineage": "active discrimination / incremental diagnosis",
+      "title": "A Theory of Measurement in Diagnosis from First Principles",
+      "source_url": "https://doi.org/10.1016/0004-3702(94)90019-1",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "publisher controlled",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "new measurement incrementally updates diagnosis set; equivalence classes; discriminate competing diagnoses",
+      "silent_questions": [
+        "active evidence selection",
+        "equivalence classes",
+        "candidate partition",
+        "incremental update",
+        "measurement value"
+      ]
+    },
+    {
+      "id": "1994_weld_least_commitment_planning",
+      "year": 1994,
+      "system": "Least-Commitment / Partial-Order Planning",
+      "lineage": "planning under deferred decisions",
+      "title": "An Introduction to Least Commitment Planning",
+      "source_url": "https://doi.org/10.1609/aimag.v15i4.1109",
+      "source_state": "PRIMARY_OPEN_ARTICLE_VERIFIED",
+      "rights": "AI Magazine public",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "partially ordered/partially specified plans defer unnecessary commitment",
+      "silent_questions": [
+        "defer commitment",
+        "partial solution preservation",
+        "ordering constraints",
+        "threat resolution",
+        "commit only when consequence requires"
+      ]
+    },
+    {
+      "id": "1996_grasp_sat",
+      "year": 1996,
+      "system": "GRASP SAT solver",
+      "lineage": "conflict analysis / learned constraints / nonchronological backtracking",
+      "title": "GRASP—A New Search Algorithm for Satisfiability",
+      "source_url": "https://doi.org/10.5555/244522.244560",
+      "source_state": "PRIMARY_PAPER_PUBLIC_COPY_VERIFIED",
+      "rights": "conference copyright; public academic copy",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "implication graph -> conflict cause -> learned clause -> nonchronological backtrack -> prune recurrence",
+      "silent_questions": [
+        "causal conflict graph",
+        "nogood learning",
+        "minimal conflict explanation",
+        "nonchronological rollback",
+        "learning from failure"
+      ]
+    },
+    {
+      "id": "1997_2002_deep_blue",
+      "year": 1997,
+      "system": "Deep Blue",
+      "lineage": "massively parallel game-tree search",
+      "title": "Deep Blue",
+      "source_url": "https://research.ibm.com/publications/deep-blue",
+      "source_state": "PRIMARY_SYSTEM_PAPER_VERIFIED",
+      "rights": "copyrighted publication metadata",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "search extensions, evaluation, parallel branch exploration",
+      "silent_questions": [
+        "search breadth/depth",
+        "evaluation authority",
+        "branch pruning",
+        "database prior",
+        "compute vs representation"
+      ]
+    },
+    {
+      "id": "1998_kambhampati_backtracking_ebl",
+      "year": 1998,
+      "system": "Refinement-search explanation analysis",
+      "lineage": "planning/CSP unification / failure-driven EBL",
+      "title": "On the Relations Between Intelligent Backtracking and Failure-Driven Explanation-Based Learning in Constraint Satisfaction and Planning",
+      "source_url": "https://doi.org/10.1016/S0004-3702(98)00087-3",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "publisher controlled",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "unifies backtracking and EBL via explanations of failure regressed through search",
+      "silent_questions": [
+        "failure explanation",
+        "contextualization",
+        "nogood storage",
+        "cross-domain invariant",
+        "repair locality"
+      ]
+    },
+    {
+      "id": "2001_chaff_sat",
+      "year": 2001,
+      "system": "Chaff SAT solver",
+      "lineage": "engineered conflict-driven search",
+      "title": "Chaff: Engineering an Efficient SAT Solver",
+      "source_url": "https://doi.org/10.1145/378239.379017",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "ACM/IEEE copyright",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "efficient BCP + conflict-driven heuristics / modern SAT engineering lineage",
+      "silent_questions": [
+        "data structure matters",
+        "propagation cost",
+        "dynamic decision policy",
+        "conflict statistics",
+        "architecture-economics coupling"
+      ]
+    },
+    {
+      "id": "2006_uct",
+      "year": 2006,
+      "system": "UCT / Monte Carlo planning",
+      "lineage": "statistical tree search",
+      "title": "Bandit Based Monte-Carlo Planning",
+      "source_url": "https://doi.org/10.1007/11871842_29",
+      "source_state": "CANONICAL_POINTER_SECONDARY_VERIFIED",
+      "rights": "publisher controlled",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "selection-expansion-simulation-backup search structure",
+      "silent_questions": [
+        "uncertainty-guided exploration",
+        "value backup",
+        "branch equivalence",
+        "search allocation"
+      ]
+    },
+    {
+      "id": "2007_chella_gaglio_self_consciousness",
+      "year": 2007,
+      "system": "Robot higher-order perception architecture",
+      "lineage": "conceptual spaces / attention / self-model / temporal narrative",
+      "title": "A Cognitive Approach to Robot Self-Consciousness",
+      "source_url": "user-uploaded:FS07-01-006.pdf",
+      "source_state": "FULL_USER_UPLOAD_VERIFIED",
+      "rights": "AAAI copyright; user-provided research copy",
+      "raw_policy": "STRUCTURAL_ANNOTATION_ONLY",
+      "trace_target": "subconceptual/conceptual/linguistic planes; attention-gated assertion; synchronic/diachronic expectation; higher-order self-state; compressed history",
+      "silent_questions": [
+        "multi-plane representation",
+        "attention as admission gate",
+        "prediction across temporal transitions",
+        "self-model recursion",
+        "history compression"
+      ]
+    },
+    {
+      "id": "2009_settles_active_learning",
+      "year": 2009,
+      "system": "Active Learning survey",
+      "lineage": "selective evidence acquisition",
+      "title": "Active Learning Literature Survey",
+      "source_url": "http://digital.library.wisc.edu/1793/60660",
+      "source_state": "PRIMARY_TECHNICAL_REPORT_VERIFIED",
+      "rights": "university repository",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "uncertainty/disagreement/model-change/error-reduction/query strategies",
+      "silent_questions": [
+        "which observation to acquire",
+        "query cost",
+        "expected discrimination",
+        "density vs uncertainty",
+        "resource-aware evidence"
+      ]
+    },
+    {
+      "id": "2016_alphago",
+      "year": 2016,
+      "system": "AlphaGo",
+      "lineage": "policy/value-guided MCTS",
+      "title": "Mastering the game of Go with deep neural networks and tree search",
+      "source_url": "https://www.nature.com/articles/nature16961",
+      "source_state": "PRIMARY_PAPER_VERIFIED",
+      "rights": "publisher controlled",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "learned priors + value estimates + explicit search",
+      "silent_questions": [
+        "learned guidance vs search",
+        "value backup",
+        "branch allocation",
+        "representation compression",
+        "training/search division"
+      ]
+    },
+    {
+      "id": "2022_chain_of_thought",
+      "year": 2022,
+      "system": "large language models under chain-of-thought prompting",
+      "lineage": "generated intermediate-token reasoning",
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "source_url": "https://arxiv.org/abs/2201.11903",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "arXiv public",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "few-shot intermediate reasoning demonstrations and generated rationales",
+      "silent_questions": [
+        "scale threshold",
+        "learner-generated intermediate state",
+        "demonstration geometry",
+        "tokenized decomposition"
+      ]
+    },
+    {
+      "id": "2022_react",
+      "year": 2022,
+      "system": "ReAct",
+      "lineage": "reasoning-action-observation interleave",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "source_url": "https://arxiv.org/abs/2210.03629",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "arXiv public",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "thought/action/observation trajectories",
+      "silent_questions": [
+        "reality coupling",
+        "observation authority",
+        "plan currentness",
+        "exception handling",
+        "tool-mediated consequence"
+      ]
+    },
+    {
+      "id": "2022_self_consistency",
+      "year": 2022,
+      "system": "Self-Consistency",
+      "lineage": "sampled multi-path chain-of-thought",
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "source_url": "https://arxiv.org/abs/2203.11171",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "arXiv public",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "multiple sampled reasoning paths with answer-level marginalization",
+      "silent_questions": [
+        "multi-hypothesis vs multi-sample",
+        "equivalence collapse",
+        "answer voting",
+        "branch diversity without shared state"
+      ]
+    },
+    {
+      "id": "2022_star",
+      "year": 2022,
+      "system": "STaR",
+      "lineage": "self-generated rationale bootstrapping",
+      "title": "STaR: Bootstrapping Reasoning With Reasoning",
+      "source_url": "https://arxiv.org/abs/2203.14465",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "arXiv public",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "generate rationale -> test answer -> rationalize with answer -> fine-tune -> repeat",
+      "silent_questions": [
+        "learning from deliberation",
+        "selection bias",
+        "correct-answer conditioning",
+        "persistent compression of successful traces"
+      ]
+    },
+    {
+      "id": "2023_prm800k",
+      "year": 2023,
+      "system": "process supervision / PRM800K",
+      "lineage": "step-level reasoning evaluation",
+      "title": "Let's Verify Step by Step",
+      "source_url": "https://arxiv.org/abs/2305.20050",
+      "source_state": "PRIMARY_OPEN_PAPER_AND_DATASET_VERIFIED",
+      "rights": "public paper and released dataset",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "step-level correctness labels on generated math solutions",
+      "silent_questions": [
+        "where errors enter",
+        "process vs outcome authority",
+        "step granularity",
+        "active-learning selection"
+      ]
+    },
+    {
+      "id": "2023_reflexion",
+      "year": 2023,
+      "system": "Reflexion",
+      "lineage": "language-agent episodic verbal learning",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "source_url": "https://arxiv.org/abs/2303.11366",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "arXiv public",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "feedback -> reflection -> episodic memory -> next trial",
+      "silent_questions": [
+        "trial-to-trial state persistence",
+        "failure abstraction",
+        "memory authority",
+        "learning without weight update"
+      ]
+    },
+    {
+      "id": "2023_tree_of_thoughts",
+      "year": 2023,
+      "system": "Tree of Thoughts",
+      "lineage": "explicit multi-path LLM search",
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "source_url": "https://arxiv.org/abs/2305.10601",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "arXiv public",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "thought nodes, branch evaluation, lookahead/backtracking",
+      "silent_questions": [
+        "multi-hypothesis externalization",
+        "branch-local state",
+        "self-evaluation authority",
+        "search topology",
+        "materialization cost"
+      ]
+    },
+    {
+      "id": "2024_alphageometry",
+      "year": 2024,
+      "system": "AlphaGeometry",
+      "lineage": "neuro-symbolic proof construction",
+      "title": "AlphaGeometry: An Olympiad-level AI system for geometry",
+      "source_url": "https://deepmind.google/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/",
+      "source_state": "PRIMARY_WEB_RELEASE_VERIFIED",
+      "rights": "public web / underlying paper publisher controlled",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "neural construct proposal + symbolic deduction + machine verification",
+      "silent_questions": [
+        "representation expansion",
+        "proposal/verifier separation",
+        "proof traceback",
+        "synthetic experience geometry",
+        "orthogonal verification"
+      ]
+    },
+    {
+      "id": "2024_belief_r",
+      "year": 2024,
+      "system": "Belief-R / Delta Reasoning",
+      "lineage": "LLM belief revision under changing evidence",
+      "title": "Belief Revision: The Adaptability of Large Language Models Reasoning",
+      "source_url": "https://aclanthology.org/2024.emnlp-main.586/",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "ACL CC BY 4.0",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "premise sequences requiring suppression/revision of earlier inferences; ~30 LMs",
+      "silent_questions": [
+        "currentness",
+        "revision-vs-stability tradeoff",
+        "local invalidation",
+        "evolving evidence",
+        "failure to preserve unaffected conclusions"
+      ]
+    },
+    {
+      "id": "2024_llm_rational_metareasoning",
+      "year": 2024,
+      "system": "Rational Metareasoning for LLMs",
+      "lineage": "value-of-computation applied to LLM inference",
+      "title": "Rational Metareasoning for Large Language Models",
+      "source_url": "https://arxiv.org/abs/2410.05563",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "arXiv public",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "train models to use intermediate reasoning selectively via value-of-computation reward",
+      "silent_questions": [
+        "adaptive effort",
+        "reasoning cost",
+        "learned control policy",
+        "appropriate cognitive recruitment",
+        "metareasoning transfer"
+      ]
+    },
+    {
+      "id": "2024_openai_o1",
+      "year": 2024,
+      "system": "OpenAI o1 series",
+      "lineage": "RL-trained hidden chain-of-thought reasoning",
+      "title": "Learning to reason with LLMs",
+      "source_url": "https://openai.com/index/learning-to-reason-with-llms/",
+      "source_state": "PRIMARY_WEB_RELEASE_VERIFIED",
+      "rights": "public web / hidden raw traces proprietary",
+      "raw_policy": "STRUCTURAL_ANNOTATION_ONLY",
+      "trace_target": "published bounded examples/summaries of correction, decomposition, alternate strategy",
+      "silent_questions": [
+        "train-time reasoning pressure",
+        "adaptive test-time compute",
+        "hidden-vs-visible trace",
+        "mistake recognition",
+        "strategy switching"
+      ]
+    },
+    {
+      "id": "2025_active_reasoning_arbench",
+      "year": 2025,
+      "system": "AR-Bench",
+      "lineage": "active information acquisition for LLM reasoning",
+      "title": "From Passive to Active Reasoning: Can Large Language Models Ask the Right Questions under Incomplete Information?",
+      "source_url": "https://proceedings.mlr.press/v267/zhou25e.html",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "PMLR open",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "models must ask questions/acquire missing evidence rather than solve fully specified prompts",
+      "silent_questions": [
+        "discriminator quality",
+        "evidence acquisition",
+        "when to ask",
+        "information value",
+        "active uncertainty reduction"
+      ]
+    },
+    {
+      "id": "2025_anthropic_trace_faithfulness",
+      "year": 2025,
+      "system": "Claude/reasoning-model faithfulness experiments",
+      "lineage": "chain-of-thought monitoring / faithfulness",
+      "title": "Reasoning models don't always say what they think",
+      "source_url": "https://www.anthropic.com/research/reasoning-models-dont-say-think",
+      "source_state": "PRIMARY_WEB_RESEARCH_VERIFIED",
+      "rights": "public web",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "trace faithfulness experiments and discrepancy cases",
+      "silent_questions": [
+        "observable trace fidelity",
+        "hidden cause vs stated rationale",
+        "monitorability",
+        "authority of verbal trace"
+      ]
+    },
+    {
+      "id": "2025_claude_extended_thinking",
+      "year": 2025,
+      "system": "Claude 3.7/Claude 4 extended thinking",
+      "lineage": "adaptive extended reasoning",
+      "title": "Claude's extended thinking",
+      "source_url": "https://www.anthropic.com/research/visible-extended-thinking",
+      "source_state": "PRIMARY_WEB_RELEASE_VERIFIED",
+      "rights": "public web / model trace policy controlled",
+      "raw_policy": "METADATA_AND_BOUNDED_EXCERPTS_ONLY",
+      "trace_target": "thinking-budget behavior and public examples",
+      "silent_questions": [
+        "adaptive effort",
+        "same-model mode shift",
+        "budget pressure",
+        "trace visibility",
+        "representation/refinement events"
+      ]
+    },
+    {
+      "id": "2025_deepseek_r1",
+      "year": 2025,
+      "system": "DeepSeek-R1 family",
+      "lineage": "RL-trained open reasoning model",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "source_url": "https://arxiv.org/abs/2501.12948",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "open paper/model lineage",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "visible reasoning examples, reflection, verification, long-form search",
+      "silent_questions": [
+        "RL-emergent reflection",
+        "representation shift",
+        "rumination",
+        "reasoning effort",
+        "distillation survival"
+      ]
+    },
+    {
+      "id": "2025_hypothesis_driven_tom",
+      "year": 2025,
+      "system": "Thought-Tracing",
+      "lineage": "sequential Monte Carlo hypothesis tracking / theory of mind",
+      "title": "Hypothesis-Driven Theory-of-Mind Reasoning for Large Language Models",
+      "source_url": "https://arxiv.org/abs/2502.11881",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "arXiv public",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "generate hypotheses over evolving mental states and weight them from observations",
+      "silent_questions": [
+        "weighted live hypotheses",
+        "observation updates",
+        "state trajectories",
+        "hypothesis degeneracy",
+        "particle-like compression"
+      ]
+    },
+    {
+      "id": "2025_kup_knowledge_update",
+      "year": 2025,
+      "system": "Knowledge Update Playground / MCT",
+      "lineage": "knowledge currentness / reasoning after update",
+      "title": "Memorization vs. Reasoning: Updating LLMs with New Knowledge",
+      "source_url": "https://aclanthology.org/2025.findings-acl.1326/",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "ACL CC BY 4.0",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "direct vs indirect probes after realistic knowledge updates; memory-conditioned training",
+      "silent_questions": [
+        "fact update vs consequence propagation",
+        "currentness",
+        "reasoning over updated knowledge",
+        "indirect effects",
+        "surface memorization vs structural update"
+      ]
+    },
+    {
+      "id": "2025_qwen3",
+      "year": 2025,
+      "system": "Qwen3",
+      "lineage": "unified thinking/non-thinking LLM",
+      "title": "Qwen3 Technical Report",
+      "source_url": "https://arxiv.org/abs/2505.09388",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "Apache-2.0 model family / public paper",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "thinking mode, non-thinking mode, thinking budget",
+      "silent_questions": [
+        "adaptive reasoning recruitment",
+        "mode switching",
+        "distillation",
+        "budget-response curve"
+      ]
+    },
+    {
+      "id": "2026_ctrls_latent_state_transition",
+      "year": 2026,
+      "system": "CTRLS",
+      "lineage": "latent state-transition model of chain-of-thought",
+      "title": "CTRLS: Chain-of-Thought Reasoning via Latent State Transition",
+      "source_url": "https://proceedings.mlr.press/v300/wu26a.html",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "PMLR open",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "explicit transition-aware latent reasoning model refined with on-policy RL",
+      "silent_questions": [
+        "latent transition semantics",
+        "state transition quality",
+        "observable vs latent reasoning",
+        "transition-aware training",
+        "control"
+      ]
+    },
+    {
+      "id": "2026_proprietary_trace_security",
+      "year": 2026,
+      "system": "proprietary reasoning-model reconstructed specimens",
+      "lineage": "security research on hidden reasoning portability",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "source_url": "https://arxiv.org/abs/2608.09867",
+      "source_state": "PRIMARY_SECURITY_PAPER_VERIFIED",
+      "rights": "sensitive public research specimens",
+      "raw_policy": "STRUCTURAL_ANNOTATION_ONLY",
+      "trace_target": "bounded already-published reconstructed examples only; no decryption/replay/bulk acquisition",
+      "silent_questions": [
+        "style vs mechanism",
+        "trace reconstruction uncertainty",
+        "private-state leakage",
+        "cross-model trace structure"
+      ]
+    },
+    {
+      "id": "2026_reasoning_trajectories_geometry",
+      "year": 2026,
+      "system": "LLM Reasoning as Trajectories",
+      "lineage": "representation geometry of reasoning trajectories",
+      "title": "LLM Reasoning as Trajectories: Step-Specific Representation Geometry and Correctness Signals",
+      "source_url": "https://aclanthology.org/2026.acl-long.1237/",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "ACL CC BY 4.0",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "step-specific representation subspaces; correct/incorrect trajectory divergence; trajectory steering",
+      "silent_questions": [
+        "latent state transitions",
+        "ordered geometry",
+        "training-vs-base organization",
+        "late divergence",
+        "trajectory-based intervention"
+      ]
+    },
+    {
+      "id": "2026_stale_memory_validity",
+      "year": 2026,
+      "system": "STALE benchmark",
+      "lineage": "agent memory currentness / implicit conflict",
+      "title": "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?",
+      "source_url": "https://arxiv.org/abs/2605.06527",
+      "source_state": "PRIMARY_OPEN_PAPER_VERIFIED",
+      "rights": "arXiv public",
+      "raw_policy": "ALLOW_LOCAL_CACHE_NO_GIT",
+      "trace_target": "implicit later evidence invalidates earlier memory without explicit negation",
+      "silent_questions": [
+        "stale state detection",
+        "implicit invalidation",
+        "memory currentness",
+        "dependency propagation",
+        "contextual conflict"
+      ]
+    }
+  ]
+}

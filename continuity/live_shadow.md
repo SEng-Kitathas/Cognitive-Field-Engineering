@@ -105,3 +105,12 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Strongest methodological analogue is `Teaching Claude Why` (2026): surrounding training context/tool definitions/system variation changed later OOD behavior even when core user requests were unchanged.
 - Strongest historical analogue is reward-tampering curriculum persistence after partial remediation.
 - Guard: `ANTHROPIC CFE-LIKE EFFECTS != ANTHROPIC HAS CFE`; no public evidence of CFE's full matched-geometry/cartographic/coordinate-hostile program.
+
+## Turn delta — 2026-09-02 deep reasoning-archaeology hunt
+- User asked to chase substantially deeper historical/research-paper lineages. Quarry expanded to 67 registered sources across independent reasoning traditions.
+- Deep-hunt job `job-6dd5e81e5c88` completed rc0 with 19/20 targeted public/open PDFs locally SHA-verified; one Prosser mirror TLS failure preserved without bypass. Raw cache remains local/non-Git.
+- Strongest new convergence is a **reason-maintenance spine**: Version Spaces compact viable hypotheses; TMS/ATMS preserve support lineage and assumption-qualified contexts; MHT prunes/merges temporal alternatives; GDE/QBC seek discriminating evidence; dynamic/CSP/SAT backtracking localizes conflict and preserves unrelated progress; metareasoning values computation by downstream decision effect.
+- Multi-hypothesis seam is now better grounded as `shared hard state + minimal support environments + consequence signatures + conflict/nogood regions + equivalence classes + discriminators + representation frames + currentness/provenance + control value`, not independent sampled prose chains.
+- Main archaeology LBE field is now 67 nodes / 88 edges with 30 reason-maintenance annotations and 19 typed cross-era relations. Status remains hostile-review-pending; functional recurrence does not imply shared implementation or lineage.
+- Standard Uplift implications are active research inputs: selective revision, maintained alternatives, discriminator seeking, conflict transfer, representation refinement, currentness propagation, least commitment, effort allocation, provenance sensitivity, partial-model honesty. This remains the informed standard dataset, not the CFE experimental pack.
+- Next pressure: specimen-level hostile review of the highest-leverage historical nodes and matched modern experiments against sample-and-vote / global-regenerate baselines.
