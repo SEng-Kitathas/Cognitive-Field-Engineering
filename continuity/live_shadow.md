@@ -79,3 +79,9 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Correction: alphaXiv is not a clean 315k decoded-trace training corpus; exploit-recovered proprietary hidden reasoning is excluded from CFE data intake.
 - Approved use: treat the paper as security/methodology evidence; compare only lawful/open visible reasoning traces for invariant analysis.
 - New invariant taxonomy and Standard Uplift reasoning-trace policy added. Style/phrase similarity is explicitly separated from structural reasoning events.
+
+## Turn delta — 2026-09-02 reasoning-trace screenshot exemplar
+- User supplied a dense reasoning screenshot that strengthens the open structural-trace quarry.
+- Raw trace text remains excluded from Standard Uplift training intake; only invariant-level annotation was stored.
+- Useful structure observed: alternative hypotheses, boundary pressure, self-correction, state/constraint carry, orthogonal empirical verification, falsification trigger, and retention of the governing question.
+- Candidate sublabel `PROOF_TO_EMPIRICAL_HANDOFF` added under independent verification, pending recurrence across more traces.

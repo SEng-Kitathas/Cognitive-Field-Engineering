@@ -119,3 +119,10 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - New structural reasoning taxonomy: correction/branch rejection, independent verification, alternative-path search, currentness revision, evidence-state separation, question retention, consequence propagation, failed-branch recovery, composition, memorization-shortcut suspicion, degenerate reasoning, efficient sufficient reasoning.
 - Literal phrases/style are not invariants; structural tags require observable state/evidence/approach change.
 - Research artifact SHA `a4768657ca58b3fac3eee3b8651a69124edd5496dc3f2c4fd28ae66e4903d5e9`; reasoning policy SHA `955e49cd4c6ea5812fe04fa9968168bec41b84afeb54a3401a848e8e6ec8cc67`; quarry registry SHA `48f294fafa151e12e8e8805ed5287f194b0e4bee41256d98dbdeb48e394a9625`.
+
+## User-supplied reasoning exemplar — 2026-09-02
+- User supplied screenshots of a dense reasoning trace that is structurally useful for the Standard Uplift reasoning quarry.
+- Raw hidden-reasoning text is not ingested into training; only structural events were recorded.
+- Observed useful events: competing-hypothesis maintenance, boundary/counterexample pressure, local self-correction, constraint carry across branches, symbolic-to-empirical handoff, falsification contract, and question retention.
+- Added candidate sublabel `PROOF_TO_EMPIRICAL_HANDOFF` under `INDEPENDENT_VERIFICATION`; not promoted as a universal primitive from one exemplar.
+- Annotation artifact: `research/USER_SUPPLIED_REASONING_TRACE_STRUCTURAL_ANNOTATION_2026-09-02.md` SHA `a93c12ec6b7cba8cbb88207064ecf1981e65aeb217a9032cc4f641e4dbacf37e`.

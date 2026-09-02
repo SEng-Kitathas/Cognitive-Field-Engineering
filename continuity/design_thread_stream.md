@@ -1090,3 +1090,12 @@ User supplied a research package proposing comparison of proprietary recovered r
 
 ## Turn — ASSISTANT / AUDIT + BUILD-PLAN
 Verified the primary security paper `arXiv:2608.09867` and corrected the package: the 315,320 blocks were reconstructed from 6,708 public trajectories and included real PII/credentials; alphaXiv is a paper/discussion surface, not a clean decoded-trace dataset. Chose not to acquire/decode/store proprietary recovered hidden reasoning. Promoted the paper only as security/methodological evidence. Approved open visible reasoning (DeepSeek-R1/R1-distill/OpenThoughts/qualified open Qwen) as lawful invariant quarry. Added structural trace taxonomy separating literal style/phrases from observable reasoning-state transitions and wired the result into Standard Uplift Dataset v1 policy.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 15:26 ET
+Tags: REASONING TRACE EXEMPLAR, DATASET QUARRY
+User supplied screenshots of a dense reasoning trace and said, "This one is useful."
+
+## Turn — ASSISTANT / STRUCTURAL ANNOTATION
+Confirmed usefulness at the invariant level rather than the surface prose level. Stored only structural annotation, not the raw hidden-reasoning text. Observed competing-hypothesis maintenance, counterexample/boundary pressure, local self-correction, persistent constraint carry, symbolic-to-empirical verification handoff, falsification contract, and question retention. Added `PROOF_TO_EMPIRICAL_HANDOFF` as a candidate subtype of independent verification, explicitly provisional pending recurrence across additional traces.
