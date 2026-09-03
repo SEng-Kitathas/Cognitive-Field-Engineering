@@ -177,3 +177,13 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 3. Design learning-from-deliberation supervision ablation: answer/outcome only vs concise structural state-transition supervision vs raw trace; evaluate reason maintenance, currentness, rollback and discriminator transfer.
 4. Next research wave: reusable conflict memory, indirect currentness propagation, orthogonal authority channels.
 5. Keep external donor results in research plane until an explicit write/promotion gate is earned.
+
+
+## ISD next compiler frontier — 2026-09-02 23:06 Eastern Daylight Time
+1. Resolve the remaining 1158 rows by high-value family: instruction-following/chat, Capybara dialogue, competitive programming, math/OpenThoughts/OpenR1. Do not equate subject difficulty with dependency depth.
+2. For single-turn math/code, stage only when prerequisite/composition/representation structure is explicit enough to justify an edge; otherwise leave unresolved or treat as stage-neutral competence support.
+3. Hostile-review source-derived T2/T3 samples for actual state dependency vs repeated independent actions; demote false developmental depth when necessary.
+4. Map resolved rows to prerequisite-DAG mechanism nodes where learner-visible consequence supports it; stage alone is insufficient.
+5. Replace minimal transition-only bridge revisits with verified spiral isomorphs/anti-isomorphs as those mappings become available; avoid duplicate padding.
+6. Fill T4 only from genuine novel decomposition/self-directed discrimination/representation-creation episodes.
+7. Final order freeze only after stage coverage is adequate, whole-corpus purity/contamination/render gates pass, frozen private-eval rerun passes, and explicit training authorization is issued.

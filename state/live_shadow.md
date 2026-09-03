@@ -202,3 +202,10 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Wave 1 complete as non-authoritative external synthesis: cross-checkpoint feature evolution, support-extraction triangulation, adaptive compute allocation, compressed/latent deliberation transfer, trace-faithfulness limits.
 - Highest-value experimental bridge: matched dependency-respecting vs dependency-violating training + intermediate checkpoints + behavioral transfer/composition + representation-emergence tracking.
 - CFE prerequisite/developmental-basin law remains HYPOTHESIZED, not earned.
+
+
+## ISD compiler delta — 2026-09-02 23:06 Eastern Daylight Time
+- ISD developmental compiler advanced: 658/1816 rows now structurally staged; 1158 deliberately unresolved.
+- First prerequisite DAG and spiral schedule exist and mechanically PASS.
+- T4 remains empty by design; no long trace is promoted to frontier merely for complexity/length.
+- Structural stage classification remains weaker than mechanism verification; unresolved/source rows still require hostile episode review before final order freeze.

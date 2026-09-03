@@ -194,3 +194,8 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | Reasoning archaeology deep-research handoff | no-loss source-grounded ingress | `research/CFE_REASONING_ARCHAEOLOGY_DEEP_RESEARCH_HANDOFF_2026-09-02.md` SHA `afa4b9d8...` + index `e1f4ab23...` | VERIFIED / primary research ingress |
 | Deep Research Wave 1 | modern external quarry x handoff synthesis | `research/CFE_REASONING_ARCHAEOLOGY_DEEP_RESEARCH_WAVE1_2026-09-02.md` SHA `7116e92d62f945ddf3814ecff07ce76a0684fc8aef6b1ab9bc32a40a8eaf0092` + index `55fbc651ee52b113d79983f8177688e5e6c7116404157a7e3eea9f722b2c19e9` | RESEARCH ONLY / no scientific promotion |
+
+| ISD Stage Map V2 | 1,816-row successor + explicit contracts + learner-visible source topology | `state/analysis/ISD_DEVELOPMENTAL_STAGE_MAP_V2_20260902.json` SHA `6dbbdf09ff41a97ad6521a0e924843aeb9d491c7e217567c1a48afb01bfd0676` | 658 resolved / 1158 unresolved | PARTIAL STRUCTURAL STAGING |
+| ISD prerequisite DAG V1 | staged mechanism progression + dependency-order doctrine | `state/analysis/ISD_PREREQUISITE_DAG_V1_20260902.json` SHA `1ecbcd80c1f36e90ba87790f1b546ffdf05c339cab0a019f389cc289f1b72cb4` | 24 nodes / 28 forward edges | ENGINEERING DAG / causal truth unearned |
+| ISD spiral schedule V1 | resolved stage map + minimal lower-tier bridge recurrence | `state/analysis/ISD_SPIRAL_DEVELOPMENTAL_SCHEDULE_V1_20260902.json` SHA `d6ddbab6c2b66025165cb32cac8d64e4a685590063a4575529707822f9355eb6` | 658 primary + 13 revisit | PROVISIONAL / not training frozen |
+| ISD stage/DAG/spiral qualification | internal consistency validator | `state/qualification/ISD_STAGE_DAG_SPIRAL_QUALIFICATION_V1_20260902.json` SHA `368757ab55b94d9fe9fa5715725db545f893893f1e1e760013e3cd3175ddf446` | PASS all 8 checks | ENGINEERING QUALIFICATION ONLY |

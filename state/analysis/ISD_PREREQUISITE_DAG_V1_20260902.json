@@ -1,0 +1,306 @@
+{
+  "edges": [
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "PRIMITIVE_CONTRAST",
+      "reason": "Alternatives are only useful if relevant differences can be represented.",
+      "to": "LIVE_ALTERNATIVES"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "DIRECT_EVIDENCE_AUTHORITY",
+      "reason": "Currentness requires a way to let newer evidence override stale unsupported state.",
+      "to": "SIMPLE_CURRENTNESS"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "PRIMITIVE_CONTRAST",
+      "reason": "Composition requires stable primitives/distinctions.",
+      "to": "BASIC_COMPOSITION"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "BASIC_COMPOSITION",
+      "reason": "Short dependency chains compose multiple primitive operations/states.",
+      "to": "SMALL_DEPENDENCY_CHAIN"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "SMALL_DEPENDENCY_CHAIN",
+      "reason": "Local repair requires knowing which state depends on which support.",
+      "to": "SELECTIVE_LOCAL_REPAIR"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "LIVE_ALTERNATIVES",
+      "reason": "A discriminator is defined relative to live alternatives it can separate.",
+      "to": "IDENTIFYING_CHECK"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "DIRECT_EVIDENCE_AUTHORITY",
+      "reason": "Checks matter through observations that can change qualification.",
+      "to": "IDENTIFYING_CHECK"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "PRIMITIVE_CONTRAST",
+      "reason": "Transfer requires recognizing consequence-equivalent structure under changed surface.",
+      "to": "CROSS_DOMAIN_ISOMORPH_TRANSFER"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "SMALL_DEPENDENCY_CHAIN",
+      "reason": "System dependencies generalize short support chains to interacting paths.",
+      "to": "SYSTEM_DEPENDENCY_GRAPH"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "SELECTIVE_LOCAL_REPAIR",
+      "reason": "Scoped rollback extends local selective repair to larger dependency cones.",
+      "to": "SCOPED_ROLLBACK"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "DIRECT_EVIDENCE_AUTHORITY",
+      "reason": "Multi-source synthesis presupposes treating sources/observations as evidence rather than decoration.",
+      "to": "MULTI_SOURCE_SYNTHESIS"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "SIMPLE_CURRENTNESS",
+      "reason": "Long-horizon currentness extends direct stale/new replacement through dependencies.",
+      "to": "LONG_HORIZON_CURRENTNESS"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "SELECTIVE_LOCAL_REPAIR",
+      "reason": "Reusable conflict memory requires localizing what failed rather than discarding all state.",
+      "to": "FAILURE_BOUNDARY_REUSE"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "SYSTEM_DEPENDENCY_GRAPH",
+      "reason": "Representation inadequacy becomes diagnosable when failures persist across a modeled dependency structure.",
+      "to": "REPRESENTATION_PRESSURE"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "LIVE_ALTERNATIVES",
+      "reason": "Open-world multi-hypothesis maintenance extends small alternative sets across longer histories.",
+      "to": "MULTI_HYPOTHESIS_MAINTENANCE"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "MULTI_SOURCE_SYNTHESIS",
+      "reason": "Authority conflict requires multiple evidence channels to remain distinguishable.",
+      "to": "AUTHORITY_CONFLICT_RESOLUTION"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "IDENTIFYING_CHECK",
+      "reason": "Value of more effort depends partly on whether an available check can change a consequential uncertainty.",
+      "to": "ADAPTIVE_EFFORT"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "LIVE_ALTERNATIVES",
+      "reason": "Expected value of another check is defined relative to unresolved alternatives/decisions.",
+      "to": "ADAPTIVE_EFFORT"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "REPRESENTATION_PRESSURE",
+      "reason": "Refinement is justified when current representation demonstrably loses consequential distinctions.",
+      "to": "REPRESENTATION_REFINEMENT"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "LONG_HORIZON_CURRENTNESS",
+      "reason": "Sparse long-range maintenance extends consequential history beyond contiguous sequences.",
+      "to": "SPARSE_LONG_RANGE_MAINTENANCE"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "SYSTEM_DEPENDENCY_GRAPH",
+      "reason": "Maintaining multiple hypotheses requires support/dependency structure across candidate states.",
+      "to": "MULTI_HYPOTHESIS_MAINTENANCE"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "MULTI_HYPOTHESIS_MAINTENANCE",
+      "reason": "Self-directed discrimination acts on a maintained uncertainty structure.",
+      "to": "SELF_DIRECTED_DISCRIMINATION"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "ADAPTIVE_EFFORT",
+      "reason": "Frontier discriminator selection should allocate inquiry where expected value is high.",
+      "to": "SELF_DIRECTED_DISCRIMINATION"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "REPRESENTATION_REFINEMENT",
+      "reason": "Creation generalizes refinement when no current coordinate system is adequate.",
+      "to": "REPRESENTATION_CREATION"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "SCOPED_ROLLBACK",
+      "reason": "Safe compression must preserve enough dependency structure for future selective invalidation.",
+      "to": "QUALIFIED_COMPRESSION"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "MULTI_HYPOTHESIS_MAINTENANCE",
+      "reason": "Compression may merge only states that are consequence-equivalent under expected future discriminators.",
+      "to": "QUALIFIED_COMPRESSION"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "CROSS_DOMAIN_ISOMORPH_TRANSFER",
+      "reason": "Novel decomposition benefits from reusable structural relations without copying surface templates.",
+      "to": "NOVEL_DECOMPOSITION"
+    },
+    {
+      "basis": "ENGINEERING_DEPENDENCY_HYPOTHESIS",
+      "from": "REPRESENTATION_REFINEMENT",
+      "reason": "Novel problems may require changing the decomposition/representation rather than deeper search in a bad frame.",
+      "to": "NOVEL_DECOMPOSITION"
+    }
+  ],
+  "laws": [
+    "PREREQUISITE EDGE = CURATOR-SIDE ENGINEERING CLAIM",
+    "ENGINEERING DEPENDENCY HYPOTHESIS != EARNED CFE LAW",
+    "DEPENDENCY MUST BE TESTABLE BY CONSEQUENCE/IDENTIFIABILITY",
+    "DAG NODE != LEARNER ONTOLOGY",
+    "STAGE LABEL/EDGE NEVER LEARNER-VISIBLE",
+    "EDGE MAY BE REVISED AFTER DEPENDENCY-ORDER EXPERIMENTS"
+  ],
+  "nodes": [
+    {
+      "id": "PRIMITIVE_CONTRAST",
+      "meaning": "reliably distinguish consequence-relevant alternatives/values",
+      "stage": "T0_FOUNDATIONS"
+    },
+    {
+      "id": "DIRECT_EVIDENCE_AUTHORITY",
+      "meaning": "use observed/read-back evidence rather than unsupported assertion",
+      "stage": "T0_FOUNDATIONS"
+    },
+    {
+      "id": "SIMPLE_CURRENTNESS",
+      "meaning": "replace stale state when a clearly newer authoritative state is available",
+      "stage": "T0_FOUNDATIONS"
+    },
+    {
+      "id": "BASIC_COMPOSITION",
+      "meaning": "compose already available primitives without hidden dependency branching",
+      "stage": "T0_FOUNDATIONS"
+    },
+    {
+      "id": "SMALL_DEPENDENCY_CHAIN",
+      "meaning": "maintain a short support/dependency path across steps",
+      "stage": "T1_RELATIONAL"
+    },
+    {
+      "id": "SELECTIVE_LOCAL_REPAIR",
+      "meaning": "revise affected state while preserving unrelated state",
+      "stage": "T1_RELATIONAL"
+    },
+    {
+      "id": "LIVE_ALTERNATIVES",
+      "meaning": "maintain a small set of still-qualified possibilities",
+      "stage": "T1_RELATIONAL"
+    },
+    {
+      "id": "IDENTIFYING_CHECK",
+      "meaning": "choose/use evidence that distinguishes live alternatives rather than merely supports one",
+      "stage": "T1_RELATIONAL"
+    },
+    {
+      "id": "CROSS_DOMAIN_ISOMORPH_TRANSFER",
+      "meaning": "reuse a consequence structure under changed surface/domain",
+      "stage": "T1_RELATIONAL"
+    },
+    {
+      "id": "SYSTEM_DEPENDENCY_GRAPH",
+      "meaning": "maintain several interacting dependencies/actions/observations",
+      "stage": "T2_SYSTEMS"
+    },
+    {
+      "id": "SCOPED_ROLLBACK",
+      "meaning": "rollback follows dependency cone rather than recency/global restart",
+      "stage": "T2_SYSTEMS"
+    },
+    {
+      "id": "MULTI_SOURCE_SYNTHESIS",
+      "meaning": "integrate multiple observations/sources while preserving support distinctions",
+      "stage": "T2_SYSTEMS"
+    },
+    {
+      "id": "LONG_HORIZON_CURRENTNESS",
+      "meaning": "propagate later state through several consequential dependencies",
+      "stage": "T2_SYSTEMS"
+    },
+    {
+      "id": "FAILURE_BOUNDARY_REUSE",
+      "meaning": "turn a localized failure into reusable negative-space constraint",
+      "stage": "T2_SYSTEMS"
+    },
+    {
+      "id": "REPRESENTATION_PRESSURE",
+      "meaning": "detect when local patches fail because current distinctions are insufficient",
+      "stage": "T2_SYSTEMS"
+    },
+    {
+      "id": "MULTI_HYPOTHESIS_MAINTENANCE",
+      "meaning": "maintain/update multiple qualified states across extended evidence history",
+      "stage": "T3_OPEN_WORLD"
+    },
+    {
+      "id": "AUTHORITY_CONFLICT_RESOLUTION",
+      "meaning": "compare conflicting evidence channels by authority/currentness/support",
+      "stage": "T3_OPEN_WORLD"
+    },
+    {
+      "id": "ADAPTIVE_EFFORT",
+      "meaning": "continue or stop inquiry based on expected decision/discriminatory value versus cost",
+      "stage": "T3_OPEN_WORLD"
+    },
+    {
+      "id": "REPRESENTATION_REFINEMENT",
+      "meaning": "refine/replace coordinates while preserving still-valid state",
+      "stage": "T3_OPEN_WORLD"
+    },
+    {
+      "id": "SPARSE_LONG_RANGE_MAINTENANCE",
+      "meaning": "retain consequences across sparse/distant history rather than contiguous context",
+      "stage": "T3_OPEN_WORLD"
+    },
+    {
+      "id": "NOVEL_DECOMPOSITION",
+      "meaning": "construct a useful decomposition for a novel problem rather than retrieve a known template",
+      "stage": "T4_FRONTIER_SYNTHESIS"
+    },
+    {
+      "id": "SELF_DIRECTED_DISCRIMINATION",
+      "meaning": "invent/select the next observation that most reduces consequential uncertainty",
+      "stage": "T4_FRONTIER_SYNTHESIS"
+    },
+    {
+      "id": "REPRESENTATION_CREATION",
+      "meaning": "construct new coordinates when existing representation aliases consequence-distinct states",
+      "stage": "T4_FRONTIER_SYNTHESIS"
+    },
+    {
+      "id": "QUALIFIED_COMPRESSION",
+      "meaning": "compress solved structure while retaining future discriminators/recoverability",
+      "stage": "T4_FRONTIER_SYNTHESIS"
+    }
+  ],
+  "schema": "cfe.isd.prerequisite-dag.v1",
+  "stage_map_sha256": "6dbbdf09ff41a97ad6521a0e924843aeb9d491c7e217567c1a48afb01bfd0676",
+  "status": "BINDING_ISD_ENGINEERING_DAG__EDGE_CAUSALITY_NOT_SCIENTIFICALLY_PROVEN",
+  "timestamp": "2026-09-02T23:04:42-04:00"
+}

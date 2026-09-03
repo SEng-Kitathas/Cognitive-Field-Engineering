@@ -290,3 +290,13 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - P0 sharpened to: (1) dependency-order + cross-checkpoint representation-development experiment, (2) known-topology support-extraction benchmark with causal/necessity/sufficiency/backup-path triangulation, (3) learning-from-deliberation ablation comparing outcome-only, concise structural supervision, and raw trace on reason-maintenance transfer.
 - External modern evidence makes representation development and adaptive effort experimentally instrumentable but does NOT promote the CFE developmental-basin hypothesis to fact.
 - New guards: `CAUSAL EFFECT != COMPLETE SUPPORT GRAPH`, `FEATURE COORDINATE != LEARNER ONTOLOGY`, `REPRESENTATION PATH DIFFERENCE != COMPETENCE DIFFERENCE`, `COMPRESSED TRACE != LOSSLESS REASON STATE`.
+
+
+## ISD next construction stage — 2026-09-02 23:06 Eastern Daylight Time
+- Stage Map V2 SHA `6dbbdf09ff41a97ad6521a0e924843aeb9d491c7e217567c1a48afb01bfd0676` resolves 658/1816 rows by explicit project-generated contracts or learner-visible research/tool topology; unresolved reduced 1663 -> 1158 without guessing math/code/chat tier from difficulty or source labels.
+- Current staged counts: T0=19, T1=117, T2=225, T3=297, T4=0, UNRESOLVED=1158.
+- New source-derived assignments are episode-topology classifications, not mechanism-coverage claims: QUEST research-state carry -> T3; NextSearch depth -> T1/T2/T3 by actual search/fetch observations; Nemotron Agentic -> T1/T2/T3 by actual tool/observation depth; LiteResearcher -> T2/T3 by embedded research-history depth.
+- Prerequisite DAG V1 SHA `1ecbcd80c1f36e90ba87790f1b546ffdf05c339cab0a019f389cc289f1b72cb4`: 24 curator-side nodes / 28 edges, all labeled engineering dependency hypotheses unless separately earned later.
+- Spiral Schedule V1 SHA `d6ddbab6c2b66025165cb32cac8d64e4a685590063a4575529707822f9355eb6`: 658 primary resolved-row exposures + 13 minimal lower-tier bridge revisits = 671 exposures. Unresolved rows excluded.
+- Mechanical qualification PASS SHA `368757ab55b94d9fe9fa5715725db545f893893f1e1e760013e3cd3175ddf446`: DAG acyclic, edges forward/same-stage, exact primary conservation, no unresolved leakage, revisits lower-tier and after prior primary exposure, no fabricated T4.
+- This is a partial developmental compiler, NOT a frozen training order or training authorization.

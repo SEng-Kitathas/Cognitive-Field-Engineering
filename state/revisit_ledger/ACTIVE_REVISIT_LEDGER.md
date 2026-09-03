@@ -108,3 +108,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | 2026-09-02 | Dependency-order internal-development instrumentation | cross-checkpoint feature evolution makes developmental-basin hypothesis observable internally | treat crosscoder feature as learner ontology or proof | matched behavioral experiment + checkpoint feature tracking + causal validation | P0 | open | preregister |
 | 2026-09-02 | Faithful support extraction | modern patching/circuit methods have backup-path and interpretability-illusion risks | trust a single attribution graph | known-topology synthetic benchmark + triangulated necessity/sufficiency/intervention/stability | P0 | open | design benchmark |
+
+| 2026-09-02 | ISD remaining unresolved 1158 rows | math/code/chat source families lack justified dependency-depth rules | stage by source/difficulty/trace length | episode-level prerequisite/composition review | P0 | open | resolve only where consequence structure supports tier |
+| 2026-09-02 | Spiral bridge quality | V1 uses minimal representative lower-tier repeats to instantiate recurrence | treat arbitrary revisit ratio as optimal curriculum | replace with verified cross-stage isomorph/anti-isomorph bridges | P1 | open | after mechanism-node mapping |

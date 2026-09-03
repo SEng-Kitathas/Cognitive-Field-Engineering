@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "active_stage_non_decreasing": true,
+    "dag_acyclic": true,
+    "dag_edges_forward_or_same_stage": true,
+    "no_unresolved_row_in_schedule": true,
+    "primary_resolved_row_conservation": true,
+    "spiral_revisit_occurs_after_prior_primary_exposure": true,
+    "spiral_revisit_only_from_lower_stage": true,
+    "t4_not_fabricated": true
+  },
+  "claim_ceiling": "PASS establishes internal consistency of the curator-side partial stage map, prerequisite DAG and provisional spiral schedule. It does not establish causal superiority of the dependency order, verify mechanism content for every structurally staged source row, freeze the final ISD order, or authorize training.",
+  "counts": {
+    "candidate_rows": 1816,
+    "dag_edges": 28,
+    "dag_nodes": 24,
+    "primary_exposures": 658,
+    "resolved_rows": 658,
+    "spiral_revisit_exposures": 13,
+    "total_exposures": 671,
+    "unresolved_rows": 1158
+  },
+  "dag_sha256": "1ecbcd80c1f36e90ba87790f1b546ffdf05c339cab0a019f389cc289f1b72cb4",
+  "guards": [
+    "STRUCTURAL STAGE CLASSIFICATION != MECHANISM VERIFICATION",
+    "DAG ACYCLICITY != CAUSAL TRUTH",
+    "PROVISIONAL SPIRAL != OPTIMAL CURRICULUM",
+    "UNRESOLVED ROWS REMAIN OUTSIDE ORDER"
+  ],
+  "schedule_sha256": "d6ddbab6c2b66025165cb32cac8d64e4a685590063a4575529707822f9355eb6",
+  "schema": "cfe.isd.stage-dag-spiral-qualification.v1",
+  "stage_map_sha256": "6dbbdf09ff41a97ad6521a0e924843aeb9d491c7e217567c1a48afb01bfd0676",
+  "status": "PASS",
+  "timestamp": "2026-09-02T23:05:51.669922-04:00"
+}

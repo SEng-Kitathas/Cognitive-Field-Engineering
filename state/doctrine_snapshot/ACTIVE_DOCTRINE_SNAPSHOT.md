@@ -24,3 +24,11 @@
 - Spiral recurrence/requalification is mandatory; earlier primitives return under richer contexts.
 - All stage/prerequisite/Predator/CFE/provenance/governance metadata remains outside the training body.
 - Scientific boundary: staging is binding ISD construction doctrine; universal CFE causal benefit remains unproven until matched dependency-order experiments.
+
+
+## ISD partial developmental compiler — 2026-09-02 23:06 Eastern Daylight Time
+- Structural source episodes may earn dependency depth from learner-visible tool/research-state topology; source family or task difficulty may not.
+- Current stage map resolves 658/1816 and intentionally leaves 1158 unresolved.
+- Prerequisite DAG is binding curator-side engineering structure but its causal edges remain hypotheses until experimentally pressured.
+- Spiral schedule is provisional and sidecar-only; no tier or prerequisite metadata enters learner-visible training.
+- `STRUCTURAL STAGE CLASSIFICATION != MECHANISM VERIFICATION` is binding.
