@@ -1,0 +1,48 @@
+{
+  "audit_path": "state/analysis/STANDARD_UPLIFT_TRAINING_BODY_PURITY_AUDIT_V1_20260902.json",
+  "audit_sha256": "c2c8bd8d40a0e8e953d2056686a403f662adb8e0334ebae876be83dd89b7c57b",
+  "candidate_rows": 1800,
+  "candidate_sha256": "6cfd187f8a5380c8850f82d04e7ac204fe1414e8061688cb3710ea8bdc13ff47",
+  "confirmed_project_control_leaks": 0,
+  "false_positive_task_world_hits": 4,
+  "law": "FUNCTIONAL ROLE, NOT KEYWORD, DECIDES CONTROL-PLANE LEAKAGE",
+  "prior_embodied_removal": {
+    "count": 2,
+    "removed_meaning": "Two CFE-generated dataset-revision/manifest/hash-authority episodes were quarantined before this scan.",
+    "successor_manifest": "state/analysis/STANDARD_UPLIFT_PRE_ADMISSION_CANDIDATE_V2R2_TRAINING_BODY_PURE_20260902/MANIFEST.json"
+  },
+  "reviews": [
+    {
+      "atom_id": "0b9ce0ad00c54d45cd2b12d0840f9232112080b79f95dc17c41f1ff6c7a3b348",
+      "disposition": "FALSE_POSITIVE__TASK_WORLD_CONTENT_ALLOWED",
+      "reason": "Memory-care facility domain policy uses the phrase pre-admission in its natural operational meaning. This is task-world policy required to perform the agent task, not Standard/CFE training admission control.",
+      "signature_class": "DATASET_CONTROL_PHRASES",
+      "source": "nvidia/Nemotron-SFT-Agentic-v2"
+    },
+    {
+      "atom_id": "1215dcce2e7c205cdb76dd2d3c0859fcb073c4b974d92cf615f459ee5593864b",
+      "disposition": "FALSE_POSITIVE__TASK_WORLD_CONTENT_ALLOWED",
+      "reason": "Normal learner task about SHA-256 avalanche behavior. Cryptographic hashing is the subject matter; it is not Standard/CFE provenance or dataset bookkeeping.",
+      "signature_class": "CRYPTO_BOOKKEEPING",
+      "source": "nvidia/Nemotron-SFT-Agentic-v2"
+    },
+    {
+      "atom_id": "77cedbcd61ca3d8e1a60629b588d70590944846fbae04a500da320404aed6315",
+      "disposition": "FALSE_POSITIVE__TASK_WORLD_CONTENT_ALLOWED",
+      "reason": "Memory-care facility domain policy uses the phrase pre-admission in its natural operational meaning. This is task-world policy required to perform the agent task, not Standard/CFE training admission control.",
+      "signature_class": "DATASET_CONTROL_PHRASES",
+      "source": "nvidia/Nemotron-SFT-Agentic-v2"
+    },
+    {
+      "atom_id": "c942a30517486144567934712ad9e8cbc6f46eee305ac7093ba71b0236a29c07",
+      "disposition": "FALSE_POSITIVE__TASK_WORLD_CONTENT_ALLOWED",
+      "reason": "Memory-care facility domain policy uses the phrase pre-admission in its natural operational meaning. This is task-world policy required to perform the agent task, not Standard/CFE training admission control.",
+      "signature_class": "DATASET_CONTROL_PHRASES",
+      "source": "nvidia/Nemotron-SFT-Agentic-v2"
+    }
+  ],
+  "scanner_hits": 4,
+  "schema": "cfe.standard-uplift.training-body-purity-manual-adjudication.v1",
+  "status": "PASS_NO_PROJECT_CONTROL_PLANE_LEAK_AFTER_MANUAL_ADJUDICATION",
+  "timestamp": "2026-09-02T21:25:48-04:00"
+}

@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-09-02T21:21:35-04:00",
+  "laws": [
+    "TRAINING BODY != CONTROL PLANE",
+    "PROJECT/DATASET GOVERNANCE -> SIDECAR ONLY",
+    "BOOKKEEPING/HASH/MANIFEST/ADMISSION/CONTAMINATION STATE -> SIDECAR ONLY",
+    "DOMAIN TASK ABOUT GOVERNANCE/POLICY/AUDIT != PROJECT GOVERNANCE LEAK",
+    "CURATOR METADATA != LEARNER-VISIBLE CONTENT",
+    "ROW COUNT IS DESCRIPTIVE NOT CANONICAL"
+  ],
+  "parent_path": "state/analysis/STANDARD_UPLIFT_PRE_ADMISSION_CANDIDATE_V2R1_REFILLED_20260902/SFT_PRE_ADMISSION_CANDIDATE.jsonl",
+  "parent_rows": 1802,
+  "parent_sha256": "c0d5b4484144d8d9e238f7fd4813d7c8f1e3d0ee4a7cf0219ce2cc3212f4344d",
+  "quarantine_sha256": "acb961962eaf1dc3c8a6678aa50bae29978a2634bc37699ab41ec4e8cb6ba319",
+  "reason": "Training-body purity: project/dataset governance and bookkeeping belong only in external sidecars/control artifacts. Coincidental row count 1800 has no canonical status.",
+  "removed_atom_ids": [
+    "0b17b10c70e717b52434274b25f678d555560f8fc304944f2628c136b8a256c9",
+    "84ac81cf7635c1018fc300ca954b819903d528cd07f91fa587fb3b57ef67524d"
+  ],
+  "schema": "cfe.standard-uplift.pre-admission-candidate.v2r2-training-body-pure",
+  "status": "SUCCESSOR_CREATED__TWO_CONTROL_PLANE_EPISODES_QUARANTINED__NO_NUMERIC_FLOOR_CLAIM",
+  "successor_rows": 1800,
+  "successor_sha256": "6cfd187f8a5380c8850f82d04e7ac204fe1414e8061688cb3710ea8bdc13ff47"
+}

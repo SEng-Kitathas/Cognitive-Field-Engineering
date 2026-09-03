@@ -1,0 +1,55 @@
+{
+  "candidate_path": "state/analysis/STANDARD_UPLIFT_PRE_ADMISSION_CANDIDATE_V2R2_TRAINING_BODY_PURE_20260902/SFT_PRE_ADMISSION_CANDIDATE.jsonl",
+  "candidate_sha256": "6cfd187f8a5380c8850f82d04e7ac204fe1414e8061688cb3710ea8bdc13ff47",
+  "hard_signature_hit_count": 4,
+  "hard_signature_hits": [
+    {
+      "atom_id": "0b9ce0ad00c54d45cd2b12d0840f9232112080b79f95dc17c41f1ff6c7a3b348",
+      "class": "DATASET_CONTROL_PHRASES",
+      "context": "You are a customer service agent that helps the user.  The policy that determines how you should respond to requests from users is described below between the <policy> and </policy> tags.\n\nIn each turn you can either:\n- Send a message to the user.\n- Make a tool call.\nYou cannot do both at the same time.\n\n<policy>\n# Sunset Gardens Memory Care Facility - Chatbot Policy\n\n## Domain Basics\nCore objects and attributes:\n\n**Resident Profile**  \n- Resident ID (primary key)  \n- Care level: Mild/Moderate/Severe  \n- Allergies/dietary restrictions  \n- Emergency contacts  \n- Insurance details  \n\n**Care Plan**  \n- Last assessment date  \n- Daily assistance requirements  \n- Medication schedule  \n- Therapy regimen  \n\n**Facility**  \n- Room types: Private/Semi-private/Memory suite  \n- Therapy resource availability  \n- Billing cycle dates  \n\n---\n\n## Authentication Protocol  \nFor sensitive actions requiring identity verification:  \n1. Ask user: \"Please provide your email or phone number for verification\"  \n2. Initiate code delivery using verification system  \n3. Prompt: \"I've sent a verification code. Please share it with me.\"  \n4. Validate code through authentication system  \n5. Confirm verification be",
+      "matches": [
+        "pre-admission"
+      ],
+      "source": "nvidia/Nemotron-SFT-Agentic-v2"
+    },
+    {
+      "atom_id": "1215dcce2e7c205cdb76dd2d3c0859fcb073c4b974d92cf615f459ee5593864b",
+      "class": "CRYPTO_BOOKKEEPING",
+      "context": "\nWhat is the SHA-256 hash of the string \"The quick brown fox jumps over the lazy dog\"?\n\n{\"type\":\"text\",\"text\":\"d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592\",\"annotations\":null,\"meta\":null}\nThe SHA‑256 hash of  \n\n```\nThe quick brown fox jumps over the lazy dog\n```  \n\nis:\n\n**d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592**\nCan you also provide the SHA-256 hash for the string \"The quick brown fox jumps over the lazy dog.\" (note the period at the end)?\n\n{\"type\":\"text\",\"text\":\"ef537f25c895bfa782526529a9b63d97aa631564d5d789c2b765448c8635fb6c\",\"annotations\":null,\"meta\":null}\nThe SHA‑256 hash of  \n\n```\nThe quick brown fox jumps over the lazy dog.\n```  \n\n(including the trailing period) is:\n\n**ef537f25c895bfa782526529a9b63d97aa631564d5d789c2b765448c8635fb6c**\nWhy does adding a period at the end change the SHA‑256 hash, and could you explain how even a tiny change in the input alters the hash output?\n### Short answer  \n\nAdding a single character (the period) changes the string from  \n\n```\n\"The quick brown fox jumps over the lazy dog\"\n```  \n\nto  \n\n```\n\"The quick brown fox jumps over the lazy dog.\"\n```\n\nBecause SHA‑256 (and any good cryptographic hash) trea",
+      "matches": [
+        "SHA-256",
+        "SHA-256"
+      ],
+      "source": "nvidia/Nemotron-SFT-Agentic-v2"
+    },
+    {
+      "atom_id": "77cedbcd61ca3d8e1a60629b588d70590944846fbae04a500da320404aed6315",
+      "class": "DATASET_CONTROL_PHRASES",
+      "context": "You are a customer service agent that helps the user.  The policy that determines how you should respond to requests from users is described below between the <policy> and </policy> tags.\n\nIn each turn you can either:\n- Send a message to the user.\n- Make a tool call.\nYou cannot do both at the same time.\n\n<policy>\n# Sunset Gardens Memory Care Facility - Chatbot Policy\n\n## Domain Basics\nCore objects and attributes:\n\n**Resident Profile**  \n- Resident ID (primary key)  \n- Care level: Mild/Moderate/Severe  \n- Allergies/dietary restrictions  \n- Emergency contacts  \n- Insurance details  \n\n**Care Plan**  \n- Last assessment date  \n- Daily assistance requirements  \n- Medication schedule  \n- Therapy regimen  \n\n**Facility**  \n- Room types: Private/Semi-private/Memory suite  \n- Therapy resource availability  \n- Billing cycle dates  \n\n---\n\n## Authentication Protocol  \nFor sensitive actions requiring identity verification:  \n1. Ask user: \"Please provide your email or phone number for verification\"  \n2. Initiate code delivery using verification system  \n3. Prompt: \"I've sent a verification code. Please share it with me.\"  \n4. Validate code through authentication system  \n5. Confirm verification be",
+      "matches": [
+        "pre-admission"
+      ],
+      "source": "nvidia/Nemotron-SFT-Agentic-v2"
+    },
+    {
+      "atom_id": "c942a30517486144567934712ad9e8cbc6f46eee305ac7093ba71b0236a29c07",
+      "class": "DATASET_CONTROL_PHRASES",
+      "context": "You are a customer service agent that helps the user.  The policy that determines how you should respond to requests from users is described below between the <policy> and </policy> tags.\n\nIn each turn you can either:\n- Send a message to the user.\n- Make a tool call.\nYou cannot do both at the same time.\n\n<policy>\n# Sunset Gardens Memory Care Facility - Chatbot Policy\n\n## Domain Basics\nCore objects and attributes:\n\n**Resident Profile**  \n- Resident ID (primary key)  \n- Care level: Mild/Moderate/Severe  \n- Allergies/dietary restrictions  \n- Emergency contacts  \n- Insurance details  \n\n**Care Plan**  \n- Last assessment date  \n- Daily assistance requirements  \n- Medication schedule  \n- Therapy regimen  \n\n**Facility**  \n- Room types: Private/Semi-private/Memory suite  \n- Therapy resource availability  \n- Billing cycle dates  \n\n---\n\n## Authentication Protocol  \nFor sensitive actions requiring identity verification:  \n1. Ask user: \"Please provide your email or phone number for verification\"  \n2. Initiate code delivery using verification system  \n3. Prompt: \"I've sent a verification code. Please share it with me.\"  \n4. Validate code through authentication system  \n5. Confirm verification be",
+      "matches": [
+        "pre-admission"
+      ],
+      "source": "nvidia/Nemotron-SFT-Agentic-v2"
+    }
+  ],
+  "laws": [
+    "TRAINING BODY != CONTROL PLANE",
+    "DOMAIN TASK GOVERNANCE != PROJECT GOVERNANCE",
+    "KEYWORD GOVERNANCE != AUTOMATIC REJECTION",
+    "HARD PROJECT CONTROL SIGNATURE -> QUARANTINE/REVIEW"
+  ],
+  "rows": 1800,
+  "schema": "cfe.standard-uplift.training-body-purity-audit.v1",
+  "scope": "Learner-visible message/final-answer content only; metadata sidecars intentionally excluded. Domain-world governance/policy/audit content is not a failure unless it is Standard/CFE control-plane content.",
+  "status": "REVIEW_REQUIRED",
+  "timestamp": "2026-09-02T21:24:52.164058-04:00"
+}

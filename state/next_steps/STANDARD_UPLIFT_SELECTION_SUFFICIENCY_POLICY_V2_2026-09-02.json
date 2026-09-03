@@ -1,0 +1,87 @@
+{
+  "freeze_gate": "No known high-value competence/mechanism hole remains that is worth adding under quality/cleanliness/redundancy/resource tradeoffs; all formal gates pass. No fixed row count decides freeze.",
+  "laws": [
+    "NO_CANONICAL_ROW_COUNT",
+    "NO_CANONICAL_LINE_COUNT",
+    "QUALITY_AND_COVERAGE_OUTRANK_VOLUME",
+    "TRAINING_BODY != CONTROL_PLANE",
+    "CURATOR_METADATA -> SIDECAR_ONLY",
+    "TASK-WORLD GOVERNANCE != PROJECT-GOVERNANCE LEAK",
+    "HISTORICAL INFORMED != HISTORICAL JARGON TRAINING",
+    "CFE INFORMED != CFE LABEL TRAINING",
+    "MODERN INFORMED != RECENCY QUOTA",
+    "HEURISTIC TAG != VERIFIED INVARIANT"
+  ],
+  "preserves": [
+    "Contamination, license, dedup, quality, render-integrity and frozen-eval gates",
+    "No destructive truncation of consequential history",
+    "Preference/SFT separation",
+    "Standard != CFE experimental pack"
+  ],
+  "schema": "cfe.standard-uplift.selection-sufficiency-policy.v2",
+  "status": "FROZEN_PROJECT_POLICY",
+  "supersedes_semantics": [
+    "Any prior fixed 1800-row lower bound as a canonical success condition",
+    "Any interpretation that 2.5-4.0M assistant tokens or another token band is a dataset identity requirement"
+  ],
+  "three_lineage_surface": {
+    "cfe_informed": {
+      "cartography_path": "state/analysis/CFE_NEGATIVE_SPACE_INTERVENTION_LATTICE_2026-09-01_POST_ARCHAEOLOGY.json",
+      "cartography_sha256": "e399044856e4e6f93de4fd18f48910ff55c4a73fb4cace8ac7030416e4cdb51b",
+      "use": "hidden curator-side developmental/consequence/geometry pressure; not CFE scientific treatment claim"
+    },
+    "historical_ai_lineage": {
+      "registered_sources": 67,
+      "source_registry": "state/next_steps/AI_REASONING_ARCHAEOLOGY_SOURCE_REGISTRY_V0_2026-09-02.json",
+      "source_registry_sha256": "a58d4210ff8d2a772ec83a1dc5b0c42fe8f74f175ea06aad617f8779a37a9662",
+      "trace_count": 15,
+      "trace_specimens": "state/analysis/AI_REASONING_TRACE_SPECIMENS_V1_20260902.json",
+      "trace_specimens_sha256": "e1f05fd59d69c3f8dd02f8b069247b550ef9a4a05311975ffa229f9296bd7726",
+      "trace_year_span": [
+        1959,
+        2026
+      ],
+      "use": "derive mechanism/episode pressures and failure boundaries; no donor-name quota",
+      "year_span": [
+        1955,
+        2026
+      ]
+    },
+    "modern_ai": {
+      "current_candidate_sources": [
+        "CFE/project-generated-standard-uplift",
+        "LDJnr/Capybara",
+        "NextTokenAI/NextSearch-1-Trajectories",
+        "nvidia/Nemotron-SFT-Agentic-v2",
+        "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+        "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2",
+        "nvidia/Nemotron-SFT-Math-v4",
+        "open-r1/OpenR1-Math-220k",
+        "open-thoughts/OpenThoughts-114k",
+        "osunlp/QUEST-SFT-Data-Objective",
+        "osunlp/QUEST-SFT-Data-Open-ended",
+        "simplex-ai-inc/LiteResearcher-SFT-Data"
+      ],
+      "use": "contemporary competence/tasks/tool/research/reasoning surface; source recency alone insufficient"
+    }
+  },
+  "timestamp": "2026-09-02T21:23:21-04:00",
+  "training_body_purity": {
+    "allowed_task_world": [
+      "natural user/system/task constraints",
+      "tool schemas needed for the task",
+      "domain governance/compliance/policy when actually part of task semantics",
+      "evidence/results/consequences needed for the episode"
+    ],
+    "forbidden_project_meta": [
+      "CFE/PCMMAD doctrine",
+      "dataset bookkeeping",
+      "manifests/hashes/provenance sidecars",
+      "admission/contamination/eval registry state",
+      "curator labels/invariant names",
+      "audit/promotion/revisit/trace bookkeeping",
+      "runtime/resource/Git/job bookkeeping"
+    ],
+    "metadata_location": "sidecars/control artifacts only"
+  }
+}

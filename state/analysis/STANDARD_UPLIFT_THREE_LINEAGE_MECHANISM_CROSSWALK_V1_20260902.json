@@ -1,0 +1,286 @@
+{
+  "candidate_path": "state/analysis/STANDARD_UPLIFT_PRE_ADMISSION_CANDIDATE_V2R2_TRAINING_BODY_PURE_20260902/SFT_PRE_ADMISSION_CANDIDATE.jsonl",
+  "candidate_rows": 1800,
+  "candidate_sha256": "6cfd187f8a5380c8850f82d04e7ac204fe1414e8061688cb3710ea8bdc13ff47",
+  "lane_counts": {
+    "agent": 240,
+    "chat": 100,
+    "code": 400,
+    "currentness": 62,
+    "deep_research": 340,
+    "diagnosis": 64,
+    "evidence_synthesis": 89,
+    "hypothesis_testing": 64,
+    "instruction_following": 201,
+    "long_horizon": 242,
+    "long_horizon_interaction": 180,
+    "math": 474,
+    "measurement": 64,
+    "memory": 62,
+    "multi_turn": 180,
+    "objective_research": 66,
+    "reasoning": 821,
+    "research": 80,
+    "science": 224,
+    "search": 354,
+    "sql": 60,
+    "state_revision": 62,
+    "structured_output": 160,
+    "tool_use": 325
+  },
+  "laws": [
+    "FUNCTIONAL RECURRENCE != SHARED IMPLEMENTATION",
+    "HISTORICAL SOURCE != TRAINING ROW",
+    "CFE INFORMED != CFE EXPERIMENTAL TREATMENT",
+    "CURATOR CONTROL != LEARNER ONTOLOGY",
+    "HEURISTIC TAG != VERIFIED INVARIANT",
+    "ANTI_ISOMORPH CASES REQUIRED BEFORE CALLING A MECHANISM WELL COVERED",
+    "QUALITY OUTRANKS QUOTA"
+  ],
+  "mechanisms": [
+    {
+      "candidate_dimensions": {
+        "CONSEQUENTIAL_HISTORY_CANDIDATE": 1336,
+        "DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 986,
+        "LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 1157
+      },
+      "cfe_relation": "Identifying contrast and appropriate recruitment: experience should expose consequential distinctions without prescribing internal state representation.",
+      "historical": [
+        "GPS (1959)",
+        "least-commitment/planning lineages"
+      ],
+      "historical_function": "Represent goal-current differences; select consequence-relevant operators; create subgoals when direct action is blocked.",
+      "id": "STATE_DIFFERENCE_AND_SUBGOAL_CONTROL",
+      "modern_embodiments": [
+        "planning/tool orchestration",
+        "code/debugging",
+        "research decomposition"
+      ],
+      "posture": "PRESENT_AS_BROAD_CANDIDATE__VERIFY_EPISODE_QUALITY"
+    },
+    {
+      "candidate_dimensions": {
+        "ACTIVE_DISCRIMINATOR_CANDIDATE": 384,
+        "LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 1157,
+        "UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 249
+      },
+      "cfe_relation": "Preserve uncertainty; field should contain identifying relations/discriminators rather than merely supporting a favored hypothesis.",
+      "historical": [
+        "Version Spaces (1977)",
+        "MHT (1979)",
+        "ATMS (1986)",
+        "model-based diagnosis (1987)"
+      ],
+      "historical_function": "Maintain qualified alternatives until evidence distinguishes them; compress possibility sets without premature collapse.",
+      "id": "LIVE_ALTERNATIVES_AND_NONCOMMITMENT",
+      "modern_embodiments": [
+        "research hypothesis comparison",
+        "diagnosis",
+        "debugging root-cause alternatives",
+        "agent planning"
+      ],
+      "posture": "PRESENT_AS_BROAD_CANDIDATE__ANTI_ISOMORPH_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_dimensions": {
+        "CONSEQUENTIAL_HISTORY_CANDIDATE": 1336,
+        "DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 986,
+        "FAILURE_BOUNDARY_TRANSFER_CANDIDATE": 357,
+        "LOCAL_DERIVATION_REVISION_CANDIDATE": 568
+      },
+      "cfe_relation": "Consequential history and selective preservation; path/history should remain causally relevant, not be globally reset.",
+      "historical": [
+        "dependency-directed backtracking (1977)",
+        "TMS (1979)",
+        "ATMS (1986)",
+        "Dynamic Backtracking (1993)",
+        "GRASP/CDCL (1996+)"
+      ],
+      "historical_function": "Track why state holds; when conflict appears, retract/revise the responsible dependency cone while preserving unrelated progress.",
+      "id": "SUPPORT_LINEAGE_AND_DEPENDENCY_LOCAL_REPAIR",
+      "modern_embodiments": [
+        "code/debugging",
+        "research correction",
+        "incident response",
+        "multi-step agents"
+      ],
+      "posture": "STRONG_BROAD_CANDIDATE_SURFACE__VERIFY_SUPPORT_FAITHFULNESS"
+    },
+    {
+      "candidate_dimensions": {
+        "CONSEQUENTIAL_HISTORY_CANDIDATE": 1336,
+        "CURRENTNESS_PROPAGATION_CANDIDATE": 725,
+        "LONG_HORIZON_STATE_CARRY_CANDIDATE": 836,
+        "REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 357
+      },
+      "cfe_relation": "LHIT/currentness: old experience remains consequential later and can be revised by subsequent evidence.",
+      "historical": [
+        "MHT (1979)",
+        "belief revision / AGM (1985)",
+        "mental situation/state reasoning",
+        "modern Belief-R/STALE/currentness work"
+      ],
+      "historical_function": "Later evidence changes qualification of earlier state; preserve currentness and distinguish old truth from current truth.",
+      "id": "TEMPORAL_REQUALIFICATION_AND_CURRENTNESS",
+      "modern_embodiments": [
+        "memory/currentness",
+        "research updates",
+        "tool/agent state",
+        "long-horizon interaction"
+      ],
+      "posture": "STRONG_BROAD_CANDIDATE_SURFACE__PROJECT_GENERATED_MEMORY_ROWS_NEED_CONTINUED_HOSTILE_REVIEW"
+    },
+    {
+      "candidate_dimensions": {
+        "ACTIVE_DISCRIMINATOR_CANDIDATE": 384,
+        "EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 1399,
+        "LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 1157
+      },
+      "cfe_relation": "Identifying field resolution: support is insufficient when rival rules remain observationally compatible.",
+      "historical": [
+        "GDE (1987)",
+        "Reiter diagnosis (1987)",
+        "Query by Committee / active learning",
+        "scientific discovery systems"
+      ],
+      "historical_function": "Choose the next observation/action for its ability to distinguish live candidates, not merely support one.",
+      "id": "DISCRIMINATOR_AND_MEASUREMENT_SELECTION",
+      "modern_embodiments": [
+        "research search/query choice",
+        "debugging tests",
+        "science/diagnosis",
+        "tool calls"
+      ],
+      "posture": "PRESENT_AS_BROAD_CANDIDATE__NEEDS_EXPLICIT_ANTI_SUPPORT_BASELINES"
+    },
+    {
+      "candidate_dimensions": {
+        "CONSEQUENTIAL_HISTORY_CANDIDATE": 1336,
+        "FAILURE_BOUNDARY_TRANSFER_CANDIDATE": 357,
+        "REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 357
+      },
+      "cfe_relation": "Developmental consequence and recurrence: experience should shape later reachability/avoidance when structure repeats.",
+      "historical": [
+        "Dynamic Backtracking",
+        "GRASP/CDCL",
+        "Soar chunking",
+        "TMS/ATMS nogoods"
+      ],
+      "historical_function": "Convert failure/conflict/deliberation into reusable boundaries or compressed knowledge rather than discard the episode.",
+      "id": "CONFLICT_OR_FAILURE_BECOMES_REUSABLE",
+      "modern_embodiments": [
+        "debugging regression knowledge",
+        "agent recovery",
+        "research method reuse",
+        "code pattern learning"
+      ],
+      "posture": "PRESENT_AS_CANDIDATE__TRANSFER_NOT_YET_VERIFIED_PER_EPISODE"
+    },
+    {
+      "candidate_dimensions": {
+        "LOCAL_DERIVATION_REVISION_CANDIDATE": 568,
+        "REPRESENTATION_REFINEMENT_CANDIDATE": 321,
+        "UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 249
+      },
+      "cfe_relation": "Hostile-engineer coordinate system itself; curator geometry is provisional and representation refinement is triggered by consequential distinctions.",
+      "historical": [
+        "McCarthy/Hayes epistemological adequacy (1969)",
+        "de Kleer multiple representations (1977)",
+        "EURISKO representation-language fit",
+        "modern reasoning representation work"
+      ],
+      "historical_function": "Detect when the current representation aliases consequence-distinct states; change grain/coordinates while preserving valid structure.",
+      "id": "REPRESENTATION_ADEQUACY_AND_REFINEMENT",
+      "modern_embodiments": [
+        "math abstraction shifts",
+        "debugging model refinement",
+        "research ontology changes",
+        "diagnosis model refinement"
+      ],
+      "posture": "PRESENT_BUT_HIGH_VALUE_HOSTILE_REVIEW_REQUIRED"
+    },
+    {
+      "candidate_dimensions": {
+        "EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 1399,
+        "UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 249
+      },
+      "cfe_relation": "Actual consequence/world feedback is sovereign; preserve uncertainty when evidence is insufficient.",
+      "historical": [
+        "MYCIN/explanation lineage",
+        "Dempster-Shafer ignorance",
+        "ATMS contexts",
+        "GDE measurement authority"
+      ],
+      "historical_function": "Separate internal belief/support from observed evidence; preserve unknown/partial state rather than force binary completion.",
+      "id": "EXTERNAL_EVIDENCE_AUTHORITY_AND_UNKNOWN",
+      "modern_embodiments": [
+        "research verification",
+        "tool result readback",
+        "science/diagnosis",
+        "current-information queries"
+      ],
+      "posture": "STRONG_BROAD_CANDIDATE_SURFACE__VERIFY_NOT_JUST_VERBAL_HEDGING"
+    },
+    {
+      "candidate_dimensions": {},
+      "cfe_relation": "Appropriate recruitment of cognition, not maximal reasoning.",
+      "historical": [
+        "HEARSAY attention/control",
+        "blackboard control",
+        "Russell & Wefald metareasoning",
+        "Soar impasse control"
+      ],
+      "historical_function": "Spend computation where expected downstream decision value justifies it; stop when sufficient.",
+      "id": "ADAPTIVE_REASONING_EFFORT_VALUE_OF_COMPUTATION",
+      "modern_embodiments": [
+        "adaptive search depth",
+        "research stopping",
+        "tool budget choice",
+        "reasoning compression"
+      ],
+      "posture": "OPEN_HOLE__NO_DEDICATED_CURRENT_STANDARD_DIMENSION__DO_NOT_INFER_FROM_LONG_TRACE_LENGTH"
+    },
+    {
+      "candidate_dimensions": {},
+      "cfe_relation": "Curator ontology != learner ontology; engineer the terrain rather than teach the control schema.",
+      "historical": [
+        "blackboard architectures",
+        "TMS/domain-inference separation",
+        "metareasoning"
+      ],
+      "historical_function": "Separate task/domain reasoning from control/reason-maintenance machinery.",
+      "id": "CONTROL_SEPARATION_WITHOUT_CONTROL_PLANE_TRAINING",
+      "modern_embodiments": [
+        "tool/task execution with hidden curator selection",
+        "sidecar governance outside learner body"
+      ],
+      "posture": "NOW_BINDING_DATASET_ARCHITECTURE__NOT_A_LEARNER_LABEL"
+    }
+  ],
+  "next_pressure": [
+    "Hostile-sample current rows for each mechanism using actual learner-visible episode state changes.",
+    "Build anti-isomorph cases where similar surface form requires a different update/repair/discriminator action.",
+    "Fill adaptive-effort/value-of-computation only if clean consequence-based episodes can be built; never satisfy it by adding long chain-of-thought.",
+    "Re-run training-body purity after any new generated/selected rows."
+  ],
+  "open_holes": [
+    "ADAPTIVE_REASONING_EFFORT_VALUE_OF_COMPUTATION"
+  ],
+  "schema": "cfe.standard-uplift.three-lineage-mechanism-crosswalk.v1",
+  "source_counts": {
+    "CFE/project-generated-standard-uplift": 137,
+    "LDJnr/Capybara": 180,
+    "NextTokenAI/NextSearch-1-Trajectories": 85,
+    "nvidia/Nemotron-SFT-Agentic-v2": 240,
+    "nvidia/Nemotron-SFT-Competitive-Programming-v2": 240,
+    "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2": 190,
+    "nvidia/Nemotron-SFT-Math-v4": 180,
+    "open-r1/OpenR1-Math-220k": 134,
+    "open-thoughts/OpenThoughts-114k": 159,
+    "osunlp/QUEST-SFT-Data-Objective": 66,
+    "osunlp/QUEST-SFT-Data-Open-ended": 89,
+    "simplex-ai-inc/LiteResearcher-SFT-Data": 100
+  },
+  "status": "FIRST_EXPLICIT_HISTORY_CFE_MODERN_CROSSWALK__HOSTILE_EPISODE_REVIEW_PENDING",
+  "timestamp": "2026-09-02T21:24:29-04:00"
+}

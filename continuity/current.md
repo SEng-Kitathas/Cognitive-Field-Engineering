@@ -250,3 +250,13 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Commit contained 26 public-safe files / 5,324 insertions, including root-level `NEW_THREAD_REHYDRATION.md`, continuity copies, V1/V2/V3 public-eval manifests, V1/V2/V3 overlap summaries, V3 manual adjudication, and acquisition/scanning tools.
 - Protected/gated/full payloads were intentionally excluded from Git: no GPQA/HLE question registry, no full public-eval JSONL, no detailed overlap review packet containing protected text, no 1,802-atom training candidate, no preference/excluded/alternate payloads, no credentials, no model binaries.
 - Publication receipt: `state/THREAD_REINCARNATION_PUBLICATION_READBACK_2026-09-02.json` SHA `dd647e0cafb6a59c104c14fc7bee6507699b57ae6c824ebbed9cbc036f1bacfc`.
+
+
+## Standard selection doctrine correction — 2026-09-02 21:25 Eastern Daylight Time
+- Operator revoked any canonical row/line-count interpretation. Fixed 1,800 floor is superseded as doctrine; counts are descriptive/resource planning only.
+- Binding doctrine: Standard must be informed by (1) historical AI research lineage through modern systems, (2) CFE-derived developmental constraints, and (3) modern AI competence/research. This informs hidden episode construction/selection, not learner-facing donor jargon.
+- Training-body purity is binding: project/dataset governance, bookkeeping, manifests/hashes/provenance, curator labels, contamination/admission state, CFE/PCMMAD doctrine, Git/job/runtime bookkeeping stay outside learner-visible training payloads.
+- Successor candidate `V2R2_TRAINING_BODY_PURE`: 1,800 rows by coincidence only, SHA `6cfd187f8a5380c8850f82d04e7ac204fe1414e8061688cb3710ea8bdc13ff47`; two project-bookkeeping episodes quarantined.
+- Purity hard-signature audit + manual review PASS: remaining four signatures are legitimate task-world content (three facility pre-admission policy references, one SHA-256 cryptography lesson), not project control-plane leakage.
+- Three-lineage mechanism crosswalk v1 created; 10 mechanism families. Current clear hole: adaptive reasoning effort/value-of-computation has no dedicated Standard dimension and SHALL NOT be faked by long CoT.
+- Training remains unauthorized pending hostile episode-level crosswalk review, selection/render freeze, final contamination/private-eval rerun, and explicit authorization.

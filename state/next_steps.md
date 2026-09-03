@@ -138,3 +138,13 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 9. Freeze exact A0 row IDs, ordering/rendering, hashes, and pre-training phenotype probes.
 10. Create explicit training-authorization artifact only after all gates pass; then baseline/train/post-train.
 11. In parallel, continue first-class reasoning archaeology/multi-hypothesis program. Do not allow Standard dataset completion pressure to demote or forget CFE science, historical temporal/causal trace cartography, representation adequacy, or Commander’s Intent.
+
+
+## Standard three-lineage / purity frontier — 2026-09-02 21:25 Eastern Daylight Time
+1. Treat row/token counts as descriptive/resource variables only; never add weak rows or delete high-value episodes to hit a number.
+2. Hostile-review current Standard episodes against `STANDARD_UPLIFT_THREE_LINEAGE_MECHANISM_CROSSWALK_V1_20260902.json`; verify actual learner-visible state transitions, not curator-tag counts.
+3. Build anti-isomorph cases for live alternatives, dependency-local repair, discriminator selection, currentness, representation refinement, UNKNOWN preservation, and failure-boundary reuse.
+4. Address the adaptive-effort/value-of-computation hole only with clean consequence-based tasks where more reasoning/action has a cost and stopping quality matters; long CoT is not coverage.
+5. Re-run training-body purity after every selector/generator mutation. All project/dataset governance stays in sidecars.
+6. Re-evaluate long-context rows under value/coverage rather than a fixed A0 quota; preserve complete causal history where retained.
+7. Final freeze still requires contamination/license/dedup/quality/render integrity + final frozen private-eval rerun + explicit training authorization.

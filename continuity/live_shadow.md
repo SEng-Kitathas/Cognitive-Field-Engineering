@@ -171,3 +171,11 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Main checkpoint is remote-exact at `53d56c123ab86f8a73e38ad66b220aa2affd07a4`; clean publication tree at readback.
 - Public checkpoint includes discoverable root `NEW_THREAD_REHYDRATION.md`; protected/gated eval and training payloads remain local by policy.
 - Publication receipt SHA `dd647e0cafb6a59c104c14fc7bee6507699b57ae6c824ebbed9cbc036f1bacfc`; final continuity-only publication follow-up is the only remaining action before thread handoff.
+
+
+## Turn delta — 2026-09-02 21:25 Eastern Daylight Time
+- Standard no longer has a canonical row/token quota; quality/coverage sufficiency governs freeze.
+- Three informing surfaces are binding: historical AI lineage -> recurring mechanism pressures; CFE -> hidden developmental/field constraints; modern AI -> present competence/task surface.
+- Training body purity now hard law: Standard/CFE governance/bookkeeping/metadata/control state stays in sidecars only. Two learner-visible dataset-bookkeeping rows removed; successor SHA `6cfd187f...`, 1,800 rows descriptively.
+- Domain-world governance/policy remains allowed when genuinely required by the task; functional role rather than keyword decides.
+- First history/CFE/modern crosswalk has one explicit hole: adaptive effort/value-of-computation.

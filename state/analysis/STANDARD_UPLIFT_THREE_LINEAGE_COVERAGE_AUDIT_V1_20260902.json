@@ -1,0 +1,107 @@
+{
+  "candidate_path": "state/analysis/STANDARD_UPLIFT_PRE_ADMISSION_CANDIDATE_V2R2_TRAINING_BODY_PURE_20260902/SFT_PRE_ADMISSION_CANDIDATE.jsonl",
+  "candidate_sha256": "6cfd187f8a5380c8850f82d04e7ac204fe1414e8061688cb3710ea8bdc13ff47",
+  "cfe_informed_surface": {
+    "assessment": "Broad hidden candidate-dimension coverage exists for consequential history, alternatives/discriminators, dependency-local repair, currentness, representation refinement, unresolved seams, etc. Counts are heuristic curator signals, not verified invariant occupancy per row.",
+    "candidate_dimension_counts": {
+      "ACTIVE_DISCRIMINATOR_CANDIDATE": 384,
+      "CONSEQUENTIAL_HISTORY_CANDIDATE": 1336,
+      "CURRENTNESS_PROPAGATION_CANDIDATE": 725,
+      "DEPENDENCY_LOCAL_REPAIR_CANDIDATE": 986,
+      "EXTERNAL_OR_ORTHOGONAL_CHECK_CANDIDATE": 1399,
+      "FAILURE_BOUNDARY_TRANSFER_CANDIDATE": 357,
+      "FOLLOWUP_CONSEQUENCE_TRACKING_CANDIDATE": 325,
+      "LIVE_ALTERNATIVES_OR_DISCRIMINATOR_CANDIDATE": 1157,
+      "LOCAL_DERIVATION_REVISION_CANDIDATE": 568,
+      "LONG_HORIZON_STATE_CARRY_CANDIDATE": 836,
+      "REPRESENTATION_REFINEMENT_CANDIDATE": 321,
+      "REVISIT_AFTER_STATE_CHANGE_CANDIDATE": 357,
+      "STATEFUL_PLAN_REVISION_CANDIDATE": 325,
+      "UNRESOLVED_SEAM_PRESERVATION_CANDIDATE": 249
+    }
+  },
+  "claim_ceiling": "This audit establishes broad candidate coverage surfaces and the need for an explicit historical crosswalk. It does not certify each heuristic tag, claim perfect modernity, or authorize training.",
+  "historical_ai_surface": {
+    "assessment": "Historical archaeology is first-class and source-grounded, but most current Standard rows were selected before the full archaeology synthesis. Do not retroactively claim historical-informed construction. Before freeze, explicitly map recurring historical mechanisms to selected episode families and add/remove episodes based on holes/anti-isomorphs.",
+    "registry_sources": 67,
+    "registry_year_span": [
+      1955,
+      2026
+    ],
+    "trace_specimens": 15,
+    "trace_year_span": [
+      1959,
+      2026
+    ]
+  },
+  "known_open_seams": [
+    "Explicit history->mechanism->episode crosswalk not yet complete for current successor",
+    "Training-body purity semantic audit beyond the two confirmed project-bookkeeping leaks is not yet complete",
+    "126+ long-context/render-selection cases from prior candidate need re-evaluation under no-fixed-count doctrine",
+    "Modern-source breadth needs quality/concentration pressure rather than quotas"
+  ],
+  "modern_surface": {
+    "assessment": "Broad modern competence/source coverage is present. Final quality/source-concentration review still required; modern source presence does not itself prove useful episode quality.",
+    "domain_family_counts": {
+      "CODE_DEBUGGING": 400,
+      "GENERAL_INTERACTION": 258,
+      "LHIT_LONG_HORIZON": 360,
+      "MATH_SCIENCE_REASONING": 819,
+      "MEMORY_CURRENTNESS": 62,
+      "PLANNING_TOOL_AGENT": 325,
+      "RESEARCH": 420,
+      "SCIENCE_DIAGNOSIS": 64
+    },
+    "interaction_shape_counts": {
+      "MULTI_TURN": 511,
+      "RESEARCH_TRAJECTORY": 165,
+      "SINGLE_TURN": 964,
+      "TOOL_TRAJECTORY": 160
+    },
+    "lane_counts": {
+      "agent": 240,
+      "chat": 100,
+      "code": 400,
+      "currentness": 62,
+      "deep_research": 340,
+      "diagnosis": 64,
+      "evidence_synthesis": 89,
+      "hypothesis_testing": 64,
+      "instruction_following": 201,
+      "long_horizon": 242,
+      "long_horizon_interaction": 180,
+      "math": 474,
+      "measurement": 64,
+      "memory": 62,
+      "multi_turn": 180,
+      "objective_research": 66,
+      "reasoning": 821,
+      "research": 80,
+      "science": 224,
+      "search": 354,
+      "sql": 60,
+      "state_revision": 62,
+      "structured_output": 160,
+      "tool_use": 325
+    },
+    "source_counts": {
+      "CFE/project-generated-standard-uplift": 137,
+      "LDJnr/Capybara": 180,
+      "NextTokenAI/NextSearch-1-Trajectories": 85,
+      "nvidia/Nemotron-SFT-Agentic-v2": 240,
+      "nvidia/Nemotron-SFT-Competitive-Programming-v2": 240,
+      "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2": 190,
+      "nvidia/Nemotron-SFT-Math-v4": 180,
+      "open-r1/OpenR1-Math-220k": 134,
+      "open-thoughts/OpenThoughts-114k": 159,
+      "osunlp/QUEST-SFT-Data-Objective": 66,
+      "osunlp/QUEST-SFT-Data-Open-ended": 89,
+      "simplex-ai-inc/LiteResearcher-SFT-Data": 100
+    }
+  },
+  "row_count_posture": "DESCRIPTIVE_ONLY__NO_FLOOR_OR_TARGET",
+  "rows": 1800,
+  "schema": "cfe.standard-uplift.three-lineage-coverage-audit.v1",
+  "status": "BROAD_CANDIDATE_COVERAGE__EXPLICIT_HISTORICAL_CROSSWALK_STILL_REQUIRED_BEFORE_FREEZE",
+  "timestamp": "2026-09-02T21:23:21-04:00"
+}

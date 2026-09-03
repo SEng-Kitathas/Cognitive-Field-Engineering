@@ -1090,3 +1090,112 @@ User supplied a research package proposing comparison of proprietary recovered r
 
 ## Turn — ASSISTANT / AUDIT + BUILD-PLAN
 Verified the primary security paper `arXiv:2608.09867` and corrected the package: the 315,320 blocks were reconstructed from 6,708 public trajectories and included real PII/credentials; alphaXiv is a paper/discussion surface, not a clean decoded-trace dataset. Chose not to acquire/decode/store proprietary recovered hidden reasoning. Promoted the paper only as security/methodological evidence. Approved open visible reasoning (DeepSeek-R1/R1-distill/OpenThoughts/qualified open Qwen) as lawful invariant quarry. Added structural trace taxonomy separating literal style/phrases from observable reasoning-state transitions and wired the result into Standard Uplift Dataset v1 policy.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 15:26 ET
+Tags: REASONING TRACE EXEMPLAR, DATASET QUARRY
+User supplied screenshots of a dense reasoning trace and said, "This one is useful."
+
+## Turn — ASSISTANT / STRUCTURAL ANNOTATION
+Confirmed usefulness at the invariant level rather than the surface prose level. Stored only structural annotation, not the raw hidden-reasoning text. Observed competing-hypothesis maintenance, counterexample/boundary pressure, local self-correction, persistent constraint carry, symbolic-to-empirical verification handoff, falsification contract, and question retention. Added `PROOF_TO_EMPIRICAL_HANDOFF` as a candidate subtype of independent verification, explicitly provisional pending recurrence across additional traces.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: HIGH-VALUE PRESERVATION, REASONING TOPOLOGY, GITHUB
+User explicitly required that the full structural analysis of the reasoning exemplar—the implications, primitives, invariants, ordering of implications/state change, and silent structure—be preserved as high-value project-relevant material in GitHub.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Promoted the full analysis into `research/REASONING_STATE_TRANSITION_TOPOLOGY_AND_SILENT_INVARIANTS_2026-09-02.md`, preserving candidate primitives, state-transition vocabulary, ordering hypotheses, CFE/LHIT/StarMap/LBE implications, dataset consequences, falsification questions, and claim ceilings. Added a first-class high-value research-priority doctrine snapshot while explicitly refusing scientific promotion from one exemplar. Wired the surface into current state, live shadow, next steps, trace matrix and revisit ledger for continuity and future execution.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: REPRESENTATION ADEQUACY, META-REASONING, HIGH-VALUE SIGNAL
+User proposed that the reasoning exemplar may contain much stronger signal than its surface read: changing evidence, abstraction breakdown, backtracking, and RL-like search/verification structure. User explicitly emphasized intuition that the hidden implications/primitives/invariants may be much larger than the visible prose.
+
+## Turn — ASSISTANT / AUDIT + BUILD-COMMIT
+Separated supported structural signal from overclaims. Rejected literal-MCTS/PRM/entropy-spike interpretations as unverified from text alone. Promoted a stronger second-order hypothesis: object-level hypothesis failure differs from representation-level failure; a representation is too coarse when it aliases states with different task-relevant consequences. Created first-class research and doctrine artifacts covering representation-adequacy monitoring, missing-distinction detection, granularity refinement, coordinate replacement, refinement-with-conservation, representation currentness/debt, and dataset/cartography implications.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: ANTHROPIC, CFE ANALOGUE, DEVELOPMENTAL FIELD
+User proposed that Anthropic may have its own rudimentary form of CFE.
+
+## Turn — ASSISTANT / AUDIT + COMPARATIVE SYNTHESIS
+Audited Anthropic's public training research. Found strong methodological isomorphisms but no evidence of CFE proper. `Teaching Claude Why` (2026) is the strongest analogue: otherwise unnecessary tool definitions and varied system prompts around unchanged user requests improved OOD alignment; principle-bearing synthetic documents/stories and difficult-advice training generalized better than surface-near demonstrations. Reward-tampering curriculum work provides a path-dependence/hysteresis analogue: prior training history altered later zero-shot behavior and residual propensity remained after surface remediation. Created a high-value external-donor audit and added candidate CFE follow-ups for contextual affordance fields and developmental hysteresis, with explicit guard `ANTHROPIC CFE-LIKE EFFECTS != ANTHROPIC HAS CFE`.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: DEEP RESEARCH HUNT, REASONING ARCHAEOLOGY, MULTI-HYPOTHESIS, LBE
+User explicitly asked for a deeper research and research-paper hunt, expecting additional relevant historical lineages beyond the initial McCarthy/reasoning-trace spine.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Expanded the reasoning archaeology across independent traditions rather than following SOTA chronology alone. The strongest new vein was historical reason-maintenance: Version Spaces, dependency-directed backtracking, TMS/ATMS, Multiple Hypothesis Tracking, model-based diagnosis/GDE, Query by Committee, CSP/SAT conflict learning, least-commitment planning, blackboard/meta-control, rational metareasoning, and modern LLM belief-revision/currentness/trajectory work. Built a 67-source registry; acquired and SHA-verified 19/20 selected public/open primary PDFs under job `job-6dd5e81e5c88` with one TLS failure preserved and no bypass; retained raw PDFs locally only. Created a 45KB reason-maintenance synthesis, a temporal/causal trajectory, a 30-system x 12-feature recurrence matrix, and a 30-annotation/19-relation LBE overlay. Main reasoning archaeology field now has 67 nodes / 88 edges. Promoted the recurrence surface to first-class high-value research priority with explicit guard that functional recurrence is not shared implementation or CFE law. Multi-hypothesis target is now grounded as support/dependency-aware possibility maintenance plus identifying evidence, scoped repair, representation adequacy, currentness, and value-guided reasoning control rather than independent chain sampling/voting.
+
+### Build readback — 2026-09-02
+Reasoning archaeology/reason-maintenance publication commit `583bc4d2a03f78bad61fcf1ad34bf6ee6c6de387` pushed to `main`; local and remote hashes matched and working tree was clean. Commit included 22 public-safe project/state/tool artifacts and explicitly excluded the locally cached raw PDF quarry.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: TRACE ARCHAEOLOGY, TEMPORAL CARTOGRAPHY, FOREST SYNTHESIS, CROSS-DOMAIN TRANSFER, LHIT
+User explicitly required actual reasoning traces across time, charting the "million things they silently say" as temporal/causal elements, and applying the findings as a whole rather than losing the forest for the trees. User specifically invoked the prior LHIT failure mode: high-value invariants must not remain trapped in the domain where first observed and should transfer into code and other domains when consequence structure matches.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Shifted archaeology from paper-level coding to source-located trace-level cartography. Added lightweight pypdf 6.1.1 to isolated data tooling and extracted 32/32 cached PDFs into local page-marked text, 0 failures. Built 15 trace specimens spanning GPS 1959 through CTRLS/STALE 2026, with ordered events, source locators, silent-inference candidates, anti-overread guards and a categorical temporal matrix. Built a forest synthesis showing a provisional non-linear migration of reasoning structure across explicit external control/reason-maintenance, learned compression, language re-externalization, scaffold reconstruction and partial re-internalization. Built cross-domain transfer ledger applying stripped invariants to code/debugging, research, planning/agents, tools, memory/currentness, science/diagnosis, math/verification, LBE and Standard Uplift. Created an active Standard Uplift integration policy with hidden curator dimensions and cross-domain episode patterns; explicitly not the CFE experimental pack and not yet training admission. Built trace-level LBE overlay with 15 traces / 92 trace+event nodes / 164 typed edges and bound it into the main archaeology field. Created first-class transfer/cartography intent to prevent future domain trapping.
+
+### Build readback — 2026-09-02 trace temporal cartography
+Trace-level reasoning temporal cartography/cross-domain transfer commit `4d2cfacc331964451278fbf7b0d0cb0017ce974f` pushed to `main`; local and remote hashes matched and working tree was clean. Commit contained 17 public-safe project/state/tool artifacts (5,171 insertions / 1 deletion) and explicitly excluded raw PDFs and derived trace-text cache payloads.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: STANDARD UPLIFT, LHIT, CROSS-DOMAIN APPLICATION, IMPLEMENTATION AUDIT
+User clarified the prior LHIT question referred specifically to the **CFE-informed Standard dataset** being built, while reaffirming that within CFE itself LHIT-style consequential-history structure should definitively be applied wherever appropriate.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Audited the Standard intake implementation rather than relying on policy wording. Found that v1 operational LHIT tagging was biased toward multi-turn/tool/research interaction shapes, meaning single-record code/debugging, planning, math/science and other causally historical episodes could be missed. Built `build_standard_uplift_intake_pilot_v2.py` with cross-domain curator-side LHIT candidate screening independent of conversation packaging and domain/dimension coverage reporting. Compile passed; synthetic examples verified single-record code/research/planning/math detection while trivial stateless arithmetic stayed untagged. Ran full v2 pilot as job `job-5395102e94db`: 17/17 source slices normalized, 1,840 SFT + 120 preference atoms, rc0, still quarantine/not trainable. Coverage audit then found honest remaining source-family gaps: MEMORY_CURRENTNESS and SCIENCE_DIAGNOSIS. Created an active blocking coverage gate so final Standard Uplift promotion cannot claim complete LHIT coverage until all reasonable domains have qualified post-license/contamination/dedup/quality/invariant coverage. Core rule: apply LHIT where consequence structure exists, not everywhere indiscriminately and not as Capybara/multi-turn identity.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02
+Tags: STANDARD UPLIFT, PROCEED, LHIT CROSS-DOMAIN, GAP CLOSURE, PRE-ADMISSION
+User authorized continuation after the Standard Uplift LHIT audit. The active task was to close missing MEMORY_CURRENTNESS and SCIENCE_DIAGNOSIS coverage without collapsing LHIT into conversation shape or Capybara identity.
+
+## Turn — ASSISTANT / BUILD-COMMIT
+Built deterministic project-generated gap fillers instead of importing a donor ontology: 64 memory/currentness and 64 science/diagnosis atoms, with both single-record and multi-turn consequential-history embodiments and single-record diagnostic/discriminator/model-refinement episodes. Independent verifier and hostile sampling caught/fixed multiple generator defects before V1R4 freeze; final 128-row surface verified unique prompts/conversations, hidden contracts, discriminator ties and zero learner-facing doctrine jargon. Merged against exact v2 bytes into V3R2; found and fixed a JSONL parser bug caused by Python `splitlines()` treating Unicode line separators as record breaks. V3R2 held 1,968 SFT + 120 preference.
+
+Integrity work then localized and removed remaining non-contamination structural blockers: 22 donor-jargon alerts were proven scanner false positives; 98 RAW rows were excluded; all 80 Open-SWE traces were segregated pending benchmark contamination; 32 repeated-prompt groups were reviewed as distinct alternate trajectories, with one deterministic representative retained and 40 alternates physically segregated; 240 Nemotron Agentic v2 rows were license-resolved from the exact pinned dataset card (CC BY 4.0 primary statement, pinned README SHA recorded) without rewriting historical quarantine state.
+
+Produced a 1,802-atom pre-admission SFT candidate. Conservation audit PASS: 1,802 candidate + 126 excluded + 40 alternate = all 1,968 input atoms, no overlap. Candidate has 1,802 unique prompts/conversations, all quality CANDIDATE, zero RAW, zero SWE, zero unresolved licenses and zero semantic donor-jargon hits. Required LHIT families are all present, including 64 memory/currentness and 64 science/diagnosis. LHIT structural/source gate therefore advances to PASS, while training authorization remains blocked.
+
+Applied the pre-existing Standard evaluation exclusion lock rather than inventing a new contamination policy. Current internal/private eval scan covers 49 files / 1,720 extracted eval text items with 0 exact and 0 near matches >=0.90 (max nonexact 0.00893), but this does not clear protected public benchmarks or future frozen fleet probes. Captured pinned source-native decontamination metadata and identified high-risk lineages (olympiad/AoPS/Codeforces/BenchSeedQA/deep-research). Current sole training-admission blocker is public/final eval contamination clearance, followed by final invariant-quality and tokenization gates on the frozen post-contamination row set. No training authorization issued.
+
+### Build readback — 2026-09-02 Standard Uplift pre-admission
+Standard Uplift LHIT gap-closure/pre-admission commit `99483f750cdfcfc052702ec9fb4683d0e8a2141d` pushed to `main`; local and remote hashes matched and working tree was clean. Commit contained 25 public-safe project/state/tool artifacts (2,413 insertions) and explicitly excluded all quarantine/candidate/generated/excluded/alternate/preference row payloads.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 20:01 EDT
+Tags: CHECKPOINT, THREAD CAPACITY, GITHUB HANDOFF, CONTINUITY
+User stated the thread is full and required that GitHub contain everything needed to continue in a fresh thread, explicitly preserving nuance, depth, intent, Commander’s Intent, and engineering decisions made so far.
+
+## Turn — ASSISTANT / CHECKPOINT→BUILD-COMMIT
+Treated the request as a full reincarnation checkpoint rather than a normal summary. Re-grounded from persisted current/live/Commander’s Intent/research/Standard-data artifacts; persisted the previously in-thread-only V3 manual contamination adjudication (11 genuine protected-eval/template leaks, 7 false positives; existing 1,802 candidate not yet mutated); created a 36KB human new-thread handoff and machine-readable resume JSON; updated current, live shadow, next steps, doctrine snapshot, revisit ledger, trace matrix, and this Design Thread Stream. Handoff preserves CFE science boundaries, DD1 earned result, DD2 uncertainty, Standard-vs-experimental separation, LHIT cross-domain law, reasoning archaeology and multi-hypothesis/representation-adequacy program, local fleet/runtime/resource-authority decisions, public-eval registry engineering scars, and exact successor-candidate execution frontier. Next step is publication copy + Git commit/push + local/remote hash readback; protected/gated/full dataset payloads remain local/non-Git.
+
+### Checkpoint publication readback — 2026-09-02
+Main reincarnation checkpoint published at commit `53d56c123ab86f8a73e38ad66b220aa2affd07a4`; local and remote `main` matched and Git status was clean. Commit carried 26 public-safe files / 5,324 insertions. Protected eval text, gated GPQA/HLE material, full eval registry JSONL, detailed overlap review packet, training candidate/excluded/alternate/preference payloads, credentials, and model binaries remained local/non-Git. Publication receipt written at SHA `dd647e0cafb6a59c104c14fc7bee6507699b57ae6c824ebbed9cbc036f1bacfc`; final action is a continuity-only push recording this readback.
+
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 21:25 Eastern Daylight Time
+Tags: STANDARD DATASET, DOCTRINE, TRAINING-BODY PURITY
+Operator removed any hard/canonical dataset line-count requirement; required Standard to be modern-informed, CFE-informed, and informed by AI research from historical systems through the present. Operator additionally made governance/bookkeeping separation explicit: control-plane material stays outside the main training body because it adds noise.
+
+## Turn — ASSISTANT / EMBODIMENT
+Created binding three-lineage + training-body-purity doctrine and no-fixed-count sufficiency policy. Audited learner-visible Standard body, found two genuine CFE-generated dataset bookkeeping episodes and quarantined them into append-only successor (1,800 rows coincidentally; SHA `6cfd187f...`). Hard project-control signature rescan produced four false positives, manually adjudicated as task-world policy/cryptography. Built first explicit 10-family history->CFE->modern mechanism crosswalk; adaptive reasoning effort/value-of-computation remains a real coverage hole rather than being inferred from long CoT.

@@ -7,3 +7,12 @@
 - Standard physical candidate remains 1,802 until successor mutation. Manual V3 contamination adjudication is load-bearing decision evidence: 11 genuine rows must be quarantined, 7 false positives preserved; projected successor 1,791 requires >=9 clean refill under existing A0 floor.
 - Training authorization remains false until successor contamination rerun + final quality + tokenizer/render/truncation + frozen eval packet gates pass.
 - New thread authority surface: `state/NEW_THREAD_REHYDRATION_2026-09-02.md` SHA `49f9ca20c965d76369f91528ef5a7896027c0e5870b14ca001cde8bc180f0894`.
+
+
+## Standard no-quota / three-lineage / control-plane separation — 2026-09-02 21:25 Eastern Daylight Time
+- Binding: `QUALITY AND COVERAGE OUTRANK VOLUME`; no canonical Standard row/line/token count.
+- Binding: Standard is informed by historical AI mechanism recurrence, CFE hidden developmental constraints, and modern AI competence/research. None implies learner-facing donor labels.
+- Binding: `TRAINING BODY != CONTROL PLANE`; project governance/bookkeeping/metadata are sidecar-only.
+- Binding distinction: task-world governance/policy/audit may appear when it is genuinely part of the task; keyword presence is not a control-plane leak.
+- Current successor purity mutation removed two CFE-generated dataset-bookkeeping episodes.
+- Historical recurrence remains an informing quarry, not proof of shared implementation or scientific CFE law.

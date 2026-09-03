@@ -1189,3 +1189,13 @@ Treated the request as a full reincarnation checkpoint rather than a normal summ
 
 ### Checkpoint publication readback — 2026-09-02
 Main reincarnation checkpoint published at commit `53d56c123ab86f8a73e38ad66b220aa2affd07a4`; local and remote `main` matched and Git status was clean. Commit carried 26 public-safe files / 5,324 insertions. Protected eval text, gated GPQA/HLE material, full eval registry JSONL, detailed overlap review packet, training candidate/excluded/alternate/preference payloads, credentials, and model binaries remained local/non-Git. Publication receipt written at SHA `dd647e0cafb6a59c104c14fc7bee6507699b57ae6c824ebbed9cbc036f1bacfc`; final action is a continuity-only push recording this readback.
+
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 21:25 Eastern Daylight Time
+Tags: STANDARD DATASET, DOCTRINE, TRAINING-BODY PURITY
+Operator removed any hard/canonical dataset line-count requirement; required Standard to be modern-informed, CFE-informed, and informed by AI research from historical systems through the present. Operator additionally made governance/bookkeeping separation explicit: control-plane material stays outside the main training body because it adds noise.
+
+## Turn — ASSISTANT / EMBODIMENT
+Created binding three-lineage + training-body-purity doctrine and no-fixed-count sufficiency policy. Audited learner-visible Standard body, found two genuine CFE-generated dataset bookkeeping episodes and quarantined them into append-only successor (1,800 rows coincidentally; SHA `6cfd187f...`). Hard project-control signature rescan produced four false positives, manually adjudicated as task-world policy/cryptography. Built first explicit 10-family history->CFE->modern mechanism crosswalk; adaptive reasoning effort/value-of-computation remains a real coverage hole rather than being inferred from long CoT.
