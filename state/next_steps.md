@@ -169,3 +169,11 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 5. Convert recurring high-value structures into matched discriminators: support-aware field vs sample/vote; dependency-local repair vs regeneration; conflict memory vs no carry; discriminating vs merely supporting evidence; fixed vs refinable representation; fixed vs value-guided reasoning budget; static vs propagation-aware currentness; identical experience multiset under altered developmental geometry.
 6. Preserve security/provenance boundary: do not acquire/decode/train on proprietary hidden-CoT recovered via exploits. Open visible reasoning traces only under ordinary rights/provenance gates.
 7. Feed verified/hostile-surviving invariants into LBE and cross-domain Standard/CFE research only through re-derived consequence structure; never copy donor ontology or learner-facing jargon by default.
+
+
+## Reasoning archaeology deep-research Wave 1 frontier — 2026-09-02 22:50 Eastern Daylight Time
+1. Draft/preregister dependency-order x representation-development experiment with matched information/dose and checkpoint instrumentation.
+2. Build synthetic known-support-topology benchmark to test whether attribution/circuit methods recover true dependency cones and predict local rollback.
+3. Design learning-from-deliberation supervision ablation: answer/outcome only vs concise structural state-transition supervision vs raw trace; evaluate reason maintenance, currentness, rollback and discriminator transfer.
+4. Next research wave: reusable conflict memory, indirect currentness propagation, orthogonal authority channels.
+5. Keep external donor results in research plane until an explicit write/promotion gate is earned.

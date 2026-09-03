@@ -186,3 +186,19 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Stage assignment is sidecar-only; learner sees no grade/tier/CFE/Predator/governance labels.
 - V1 stage map resolves 153/1816 explicit project-generated rows and leaves 1663 `UNRESOLVED_TIER` rather than guessing.
 - CFE prerequisite topology/developmental basin remains research hypothesis; ISD uses staged order as a low-regret engineering shape pending causal test.
+
+## Turn delta — 2026-09-02 22:34 ET — reasoning archaeology deep-research handoff
+- User requested a no-loss handoff before independent deep research: all Commander’s Intent, all reasoning-trace discoveries, all “million silent things” structural inference, meaningful intuitions/extrapolations, applications, and operationally important guards.
+- Re-grounded from project state and first-class reasoning archaeology artifacts rather than chat memory.
+- Created `research/CFE_REASONING_ARCHAEOLOGY_DEEP_RESEARCH_HANDOFF_2026-09-02.md` SHA `afa4b9d8e4805679644b8c22f9ef71dc02f4ae3bd967ae077f4f7eb5a1147b44`, 65,194 bytes.
+- Created machine index `state/analysis/CFE_REASONING_ARCHAEOLOGY_DEEP_RESEARCH_HANDOFF_INDEX_20260902.json` SHA `e1f4ab231c6b26f06606ad47e20a6c1790740b30b8911f1e339f111a0e8c273e`.
+- Handoff preserves exact core cartographic Commander’s Intent, original terrain-engineering intent, reason-maintenance/multi-hypothesis priority, StarMap origin correction, temporal trace spine, representation-adequacy layer, LBE requirements, Anthropic boundary, cross-domain/Standard/LHIT applications, research holes and anti-overread/security guards.
+- Current strongest provisional synthesis: constraint-preserving state transformation + representation-adequacy/coordinate refinement + support-aware multi-hypothesis maintenance + identifying evidence + value-guided control.
+- Truth labels explicit; no scientific promotion occurred.
+
+
+## Deep-research delta — 2026-09-02 22:50 Eastern Daylight Time
+- No-loss reasoning archaeology handoff verified and adopted as primary deep-research ingress.
+- Wave 1 complete as non-authoritative external synthesis: cross-checkpoint feature evolution, support-extraction triangulation, adaptive compute allocation, compressed/latent deliberation transfer, trace-faithfulness limits.
+- Highest-value experimental bridge: matched dependency-respecting vs dependency-violating training + intermediate checkpoints + behavioral transfer/composition + representation-emergence tracking.
+- CFE prerequisite/developmental-basin law remains HYPOTHESIZED, not earned.

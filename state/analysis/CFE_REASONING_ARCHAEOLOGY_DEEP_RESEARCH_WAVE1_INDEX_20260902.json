@@ -1,0 +1,41 @@
+{
+  "hard_guards": [
+    "EXTERNAL DONOR != CFE LAW",
+    "CAUSAL EFFECT != COMPLETE SUPPORT GRAPH",
+    "TRACE TEXT != REASONING STATE",
+    "FEATURE COORDINATE != LEARNER ONTOLOGY",
+    "REPRESENTATION PATH DIFFERENCE != COMPETENCE DIFFERENCE",
+    "MORE REASONING != OBJECTIVE",
+    "COMPRESSED TRACE != LOSSLESS REASON STATE"
+  ],
+  "ingress_handoff_sha256": "afa4b9d8e4805679644b8c22f9ef71dc02f4ae3bd967ae077f4f7eb5a1147b44",
+  "ingress_index_sha256": "e1f4ab231c6b26f06606ad47e20a6c1790740b30b8911f1e339f111a0e8c273e",
+  "new_external_signals": [
+    "cross-snapshot feature emergence/consolidation",
+    "mechanistic data attribution linking training data to feature emergence",
+    "sequential activation patching for distributed CoT effects",
+    "interpretability-illusion warning for subspace patching",
+    "adaptive TTC as explicit constrained resource allocation",
+    "compressed/latent/selective reasoning distillation"
+  ],
+  "priority_update": [
+    "P0 dependency-order + representation-development matched experiment",
+    "P0 known-topology support extraction benchmark",
+    "P0 learning-from-deliberation supervision ablation",
+    "P1 cross-episode conflict memory",
+    "P1 currentness propagation",
+    "P1 orthogonal authority channels"
+  ],
+  "research_lanes": [
+    "representation-development across checkpoints",
+    "faithful support/dependency extraction",
+    "adaptive effort/value-of-computation",
+    "learning from deliberation without raw trace imitation",
+    "trace faithfulness"
+  ],
+  "schema": "cfe.reasoning-archaeology.deep-research-wave1.v1",
+  "scientific_status": "CFE prerequisite/developmental-basin hypothesis remains unproven; wave 1 only sharpens instruments and discriminating experiments.",
+  "status": "RESEARCH_SYNTHESIS_COMPLETE__NO_SCIENTIFIC_PROMOTION",
+  "timestamp": "2026-09-02T22:50:04-04:00",
+  "wave_artifact_sha256": "7116e92d62f945ddf3814ecff07ce76a0684fc8aef6b1ab9bc32a40a8eaf0092"
+}

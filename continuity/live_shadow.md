@@ -195,3 +195,10 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Handoff preserves exact core cartographic Commander’s Intent, original terrain-engineering intent, reason-maintenance/multi-hypothesis priority, StarMap origin correction, temporal trace spine, representation-adequacy layer, LBE requirements, Anthropic boundary, cross-domain/Standard/LHIT applications, research holes and anti-overread/security guards.
 - Current strongest provisional synthesis: constraint-preserving state transformation + representation-adequacy/coordinate refinement + support-aware multi-hypothesis maintenance + identifying evidence + value-guided control.
 - Truth labels explicit; no scientific promotion occurred.
+
+
+## Deep-research delta — 2026-09-02 22:50 Eastern Daylight Time
+- No-loss reasoning archaeology handoff verified and adopted as primary deep-research ingress.
+- Wave 1 complete as non-authoritative external synthesis: cross-checkpoint feature evolution, support-extraction triangulation, adaptive compute allocation, compressed/latent deliberation transfer, trace-faithfulness limits.
+- Highest-value experimental bridge: matched dependency-respecting vs dependency-violating training + intermediate checkpoints + behavioral transfer/composition + representation-emergence tracking.
+- CFE prerequisite/developmental-basin law remains HYPOTHESIZED, not earned.

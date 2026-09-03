@@ -282,3 +282,11 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Truth-state separation is explicit throughout: VERIFIED / OBSERVED / INFERRED / HYPOTHESIZED / USER INTUITION / REJECTED-OVERREAD. The package does not promote trace-inferred structure into scientific CFE law.
 - Highest-current synthesis preserved: constraint-preserving state transformation + representation-adequacy/coordinate refinement + support/dependency-aware possibility maintenance + identifying evidence acquisition + value-guided reasoning control.
 - Handoff also preserves the hard research frontier question: how to combine flexible learned representation with bounded, support-aware, temporally current, multi-hypothesis reason maintenance without forcing brittle curator ontology.
+
+
+## Deep research handoff ingestion + Wave 1 — 2026-09-02 22:50 Eastern Daylight Time
+- Authoritative deep-research ingress verified locally and in publication mirror: handoff SHA `afa4b9d8e4805679644b8c22f9ef71dc02f4ae3bd967ae077f4f7eb5a1147b44`; index SHA `e1f4ab231c6b26f06606ad47e20a6c1790740b30b8911f1e339f111a0e8c273e`; source Git head `092d078d4432a75ab5070b89f5edff43b427dc91`.
+- Deep Research Wave 1 SHA `7116e92d62f945ddf3814ecff07ce76a0684fc8aef6b1ab9bc32a40a8eaf0092` / index `55fbc651ee52b113d79983f8177688e5e6c7116404157a7e3eea9f722b2c19e9`.
+- P0 sharpened to: (1) dependency-order + cross-checkpoint representation-development experiment, (2) known-topology support-extraction benchmark with causal/necessity/sufficiency/backup-path triangulation, (3) learning-from-deliberation ablation comparing outcome-only, concise structural supervision, and raw trace on reason-maintenance transfer.
+- External modern evidence makes representation development and adaptive effort experimentally instrumentable but does NOT promote the CFE developmental-basin hypothesis to fact.
+- New guards: `CAUSAL EFFECT != COMPLETE SUPPORT GRAPH`, `FEATURE COORDINATE != LEARNER ONTOLOGY`, `REPRESENTATION PATH DIFFERENCE != COMPETENCE DIFFERENCE`, `COMPRESSED TRACE != LOSSLESS REASON STATE`.

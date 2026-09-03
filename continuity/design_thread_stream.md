@@ -1218,3 +1218,13 @@ User requested a comprehensive research handoff containing all Commander’s Int
 
 ## Turn — ASSISTANT / CHECKPOINT -> BUILD-COMMIT
 Re-grounded from current CFE local project state and first-class research/doctrine artifacts, not chat memory. Built `research/CFE_REASONING_ARCHAEOLOGY_DEEP_RESEARCH_HANDOFF_2026-09-02.md` (65,194 bytes, SHA `afa4b9d8e4805679644b8c22f9ef71dc02f4ae3bd967ae077f4f7eb5a1147b44`) and machine index `state/analysis/CFE_REASONING_ARCHAEOLOGY_DEEP_RESEARCH_HANDOFF_INDEX_20260902.json` (7,708 bytes, SHA `e1f4ab231c6b26f06606ad47e20a6c1790740b30b8911f1e339f111a0e8c273e`). The package explicitly separates VERIFIED / OBSERVED / INFERRED / HYPOTHESIZED / USER-INTUITION / REJECTED-OVERREAD states and preserves the core synthesis, temporal trace archaeology, multi-hypothesis reason-maintenance problem, representation adequacy, CFE/LHIT/LBE/Standard applications, StarMap provenance, Anthropic boundary, hostile experiments, and deep-research holes. No scientific promotion or training authorization occurred.
+
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 22:50 Eastern Daylight Time
+Tags: DEEP RESEARCH HANDOFF, REASONING ARCHAEOLOGY, CONTINUITY GIFT
+Operator supplied a no-loss reasoning-archaeology deep-research handoff and index, already Git-published at commit `092d078d4432a75ab5070b89f5edff43b427dc91`, with explicit truth labels, 1959-2026 archaeology, 67-source field, 15 worked traces, 92 trace/event nodes, 164 typed LBE edges, 80-ish silent-structure questions, strongest provisional synthesis and open seams.
+
+## Turn — ASSISTANT / INGESTION + WAVE 1
+Verified exact handoff/index hashes and clean source Git head, adopted them as authoritative research ingress, and performed Wave 1 external research on representation development, faithful support extraction, adaptive effort, learning from deliberation without trace imitation, and trace faithfulness. Persisted `research/CFE_REASONING_ARCHAEOLOGY_DEEP_RESEARCH_WAVE1_2026-09-02.md` SHA `7116e92d62f945ddf3814ecff07ce76a0684fc8aef6b1ab9bc32a40a8eaf0092` and machine index SHA `55fbc651ee52b113d79983f8177688e5e6c7116404157a7e3eea9f722b2c19e9`. Main experimental upgrade: pair dependency-order training with cross-checkpoint representation-emergence tracking; strengthen support extraction with multi-method causal/necessity/sufficiency/backup-path triangulation. No CFE scientific promotion.
