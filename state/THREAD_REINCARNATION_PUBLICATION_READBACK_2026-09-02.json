@@ -1,0 +1,18 @@
+{
+  "schema": "cfe.thread-reincarnation-publication-readback.v1",
+  "date": "2026-09-02",
+  "checkpoint_handoff": "state/NEW_THREAD_REHYDRATION_2026-09-02.md",
+  "checkpoint_handoff_sha256": "49f9ca20c965d76369f91528ef5a7896027c0e5870b14ca001cde8bc180f0894",
+  "checkpoint_machine_json": "state/NEW_THREAD_REHYDRATION_2026-09-02.json",
+  "checkpoint_machine_json_sha256": "3c15730c7857d5cd4a52d0947af6e06a0fa711a527fdd9e5d134784bc9926947",
+  "manual_adjudication_sha256": "7426a49b980e156819b0a0e6524bd35197492e8a95362354e86fa89e7af93a3a",
+  "publication_commit": "53d56c123ab86f8a73e38ad66b220aa2affd07a4",
+  "publication_commit_message": "Seal full-thread CFE reincarnation checkpoint",
+  "publication_commit_files": 26,
+  "publication_commit_insertions": 5324,
+  "remote_branch": "main",
+  "local_equals_remote_at_readback": true,
+  "working_tree_clean_at_readback": true,
+  "protected_payload_policy": "Full eval registries, gated GPQA/HLE prompts, detailed overlap review packet, training candidate JSONL payloads, preferences, excluded/alternate rows, model binaries, and credentials were intentionally not published.",
+  "status": "MAIN_CHECKPOINT_PUBLISHED_REMOTE_EXACT__FINAL_CONTINUITY_RECEIPT_PENDING_SECOND_COMMIT"
+}

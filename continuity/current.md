@@ -244,3 +244,9 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - The checkpoint explicitly preserves first-class parallel reasoning-archaeology intent: historical temporal/causal traces, “million silent things,” multi-hypothesis maintenance, dependency-aware repair, discriminator choice, authority transfer, representation adequacy/granularity refinement; this work MUST NOT disappear behind Standard dataset shipping.
 - Scientific CFE truth boundary preserved: DD1R1 = `FIELD_RESOLUTION_SUPPORTED` (+0.03125 mean paired BA, 4/6 wins, only 1/6 stable two-sided); DD2 revisit topology remains unresolved unless a newer admitted final disposition exists; failed executions do not occupy scientific negative cells.
 - Training remains **NOT AUTHORIZED**. Next active build is successor-candidate contamination embodiment/refill/rerun, then final quality/tokenization/frozen-eval gates.
+
+### Thread reincarnation publication readback — 2026-09-02
+- Main checkpoint publication commit `53d56c123ab86f8a73e38ad66b220aa2affd07a4` (`Seal full-thread CFE reincarnation checkpoint`) pushed successfully; local publication checkout HEAD == remote `main`, working tree clean at readback.
+- Commit contained 26 public-safe files / 5,324 insertions, including root-level `NEW_THREAD_REHYDRATION.md`, continuity copies, V1/V2/V3 public-eval manifests, V1/V2/V3 overlap summaries, V3 manual adjudication, and acquisition/scanning tools.
+- Protected/gated/full payloads were intentionally excluded from Git: no GPQA/HLE question registry, no full public-eval JSONL, no detailed overlap review packet containing protected text, no 1,802-atom training candidate, no preference/excluded/alternate payloads, no credentials, no model binaries.
+- Publication receipt: `state/THREAD_REINCARNATION_PUBLICATION_READBACK_2026-09-02.json` SHA `dd647e0cafb6a59c104c14fc7bee6507699b57ae6c824ebbed9cbc036f1bacfc`.

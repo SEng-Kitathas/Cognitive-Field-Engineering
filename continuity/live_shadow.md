@@ -166,3 +166,8 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - First-class parallel research preserved in handoff: reasoning archaeology across AI history, “million silent things,” multi-hypothesis reason maintenance, representation adequacy, scoped rollback, discriminator selection, authority transfer, LHIT consequential history.
 - CFE Commander’s Intent and science boundary preserved. DD1 positive conditional is earned; DD2 is not to be hallucinated into closure.
 - Immediate next move in fresh thread: build successor candidate append-only, remove 11, refill >=9 clean atoms, rerun contamination; no training authorization yet.
+
+### Reincarnation publication readback — 2026-09-02
+- Main checkpoint is remote-exact at `53d56c123ab86f8a73e38ad66b220aa2affd07a4`; clean publication tree at readback.
+- Public checkpoint includes discoverable root `NEW_THREAD_REHYDRATION.md`; protected/gated eval and training payloads remain local by policy.
+- Publication receipt SHA `dd647e0cafb6a59c104c14fc7bee6507699b57ae6c824ebbed9cbc036f1bacfc`; final continuity-only publication follow-up is the only remaining action before thread handoff.
