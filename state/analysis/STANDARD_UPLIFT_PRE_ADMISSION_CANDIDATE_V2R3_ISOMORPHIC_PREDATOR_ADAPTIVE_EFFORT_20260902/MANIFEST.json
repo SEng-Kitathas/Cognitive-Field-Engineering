@@ -1,0 +1,29 @@
+{
+  "admitted_family": "ADAPTIVE_REASONING_EFFORT_VALUE_OF_COMPUTATION",
+  "admitted_rows": 16,
+  "continue_rows": 8,
+  "laws": [
+    "ADMISSION BY COVERAGE/QUALITY NOT ROW COUNT",
+    "ISOMORPHIC PREDATOR = CURATOR_SIDE ONLY",
+    "STOP/CONTINUE ANTI_ISOMORPHS ADMITTED AS TASK-WORLD EPISODES ONLY",
+    "PAIR IDS/CURATOR DIMENSIONS/PROVENANCE REMAIN SIDECAR_ONLY",
+    "FINAL WHOLE-CORPUS PUBLIC/PRIVATE/PURITY/RENDER GATES REQUIRED",
+    "FINAL FROZEN FLEET EVAL REQUIRES PRIVATE RERUN",
+    "TRAINING NOT AUTHORIZED"
+  ],
+  "pairs": 8,
+  "parent_path": "state/analysis/STANDARD_UPLIFT_PRE_ADMISSION_CANDIDATE_V2R2_TRAINING_BODY_PURE_20260902/SFT_PRE_ADMISSION_CANDIDATE.jsonl",
+  "parent_rows": 1800,
+  "parent_sha256": "6cfd187f8a5380c8850f82d04e7ac204fe1414e8061688cb3710ea8bdc13ff47",
+  "private_internal_scan_sha256": "d7fea51542bed93b7b76b384c436afb201f357a35f9c5c4e30a0a303d731f0e9",
+  "public_v3_scan_sha256": "746835433d730d435ff227d65ec4fcd29da8208e7431fdfc30775e37b614cdd3",
+  "quarry_sha256": "112c73ccb9f135cda637cdd704fb9e59b362e4334d3b66b90a7cf34803a4d9a0",
+  "render_manifest_sha256": "2b247b72075efabb71faba1bd29e8e4f0afebecf4428e6e1160a0e3f894db52f",
+  "schema": "cfe.standard-uplift.pre-admission-candidate.v2r3-isomorphic-predator",
+  "status": "SUCCESSOR_WITH_FIRST_PREDATOR_QUALIFIED_FAMILY__FINAL_WHOLE_CORPUS_GATES_REQUIRED",
+  "stop_rows": 8,
+  "successor_rows": 1816,
+  "successor_sha256": "c9e9ae8d885f54a2848f14816fb6d45f64cde82a1999657e4b39d6993274c00f",
+  "timestamp": "2026-09-02T22:08:15-04:00",
+  "verification_sha256": "796142843e37e77a8296c3d765759fd1e319f8a0e8ef8522e96d7018f55ee4bf"
+}

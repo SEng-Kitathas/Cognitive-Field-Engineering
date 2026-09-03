@@ -1,0 +1,53 @@
+{
+  "candidate": {
+    "payload_publication": "LOCAL_ONLY_NOT_GIT",
+    "rows": 1816,
+    "sha256": "c9e9ae8d885f54a2848f14816fb6d45f64cde82a1999657e4b39d6993274c00f"
+  },
+  "cfe_research": {
+    "prerequisite_topology_hypothesis_sha256": "a58b8b4b2e3203fd8eab7b1e243436006ef1a25a8771a01695c2c256fc173084",
+    "scientific_status": "HIGH_VALUE_HYPOTHESIS_NOT_EARNED_CFE_LAW"
+  },
+  "integration_gates": {
+    "private_internal_scan_sha256": "709cb67d7f0c4393266c19fcfc63b5755a6c7839f90967a699ee02d5674df705",
+    "public_v3_carryforward_sha256": "c2b944b9da417266dfe7fcd4dbad49d6229c17829d5d74a2d62ef1ec485eb201",
+    "render_manifest_sha256": "91ac1a69cbb7ab7d159e48ede51dbff0d1b4b3cd777092e4a7eb55c4df27a270",
+    "training_authorized": false
+  },
+  "isomorphic_predator": {
+    "doctrine_sha256": "4853b03fb5333451e6c1c0a13a7854a75cc66ec643516ad4942bbf482487b91f",
+    "first_family": "ADAPTIVE_REASONING_EFFORT_VALUE_OF_COMPUTATION",
+    "policy_sha256": "71716cbcd22dd8ce7028a7ddf1b2772ed7ff5df52ee37542b913911dfe22e7ca",
+    "successor_manifest_sha256": "def42605dbf292c6d41eb98adf2b2bd61a2f609716756a739149058d7c41336d"
+  },
+  "laws": [
+    "ISD STAGING = BINDING ENGINEERING SHAPE",
+    "CFE CAUSAL PREREQUISITE LAW = UNPROVEN RESEARCH HYPOTHESIS",
+    "SCHOOL LABELS = CURATOR-SIDE DEPENDENCY-DEPTH ALIASES",
+    "STAGE LABELS/GRAPHS/PROVENANCE/GOVERNANCE -> SIDECAR ONLY",
+    "UNRESOLVED_TIER != FAILURE",
+    "NO FINAL ORDER FREEZE FROM HEURISTIC TAGS",
+    "SPIRAL REVISIT REQUIRED",
+    "NO CANONICAL STAGE SIZE OR ROW COUNT"
+  ],
+  "operator_intent": "Preserve the same dependency-respecting staged developmental shape in ISD: foundations -> relational -> systems -> college/open-world -> target/frontier, with all informed CFE/Predator/reason-maintenance tricks applied at stage-appropriate depth.",
+  "schema": "cfe.isd.developmental-staging-promotion-receipt.v1",
+  "staging": {
+    "doctrine_sha256": "bb4b7112a7e9dfc07d7da314f7419319e14698a5366aa6af55530f7f192476da",
+    "meaning": "Only explicit project-generated contracts are stage-assigned in v1; source rows remain unresolved rather than inferred from heuristic tags.",
+    "progression_matrix_sha256": "3c79b38d7823c82d01f91726157b883b7c4b99a76a6fc8ecff56ada38b28fdfc",
+    "resolved_rows": 153,
+    "stage_counts": {
+      "T0_FOUNDATIONS": 19,
+      "T1_RELATIONAL": 56,
+      "T2_SYSTEMS": 46,
+      "T3_OPEN_WORLD": 32,
+      "UNRESOLVED_TIER": 1663
+    },
+    "stage_map_sha256": "7e51033a62228ce01a954e8ebe3979f3f4a9b6f706b821ae7a658aae2e2b4113",
+    "stage_spec_sha256": "ca90687b8a661283633fa01c66d0548fa3672f0a37398de4a41b053fbf09781b",
+    "unresolved_rows": 1663
+  },
+  "status": "BINDING_ISD_CONSTRUCTION_SHAPE__PARTIAL_STAGE_MAP__TRAINING_NOT_AUTHORIZED",
+  "timestamp": "2026-09-02T22:21:17-04:00"
+}

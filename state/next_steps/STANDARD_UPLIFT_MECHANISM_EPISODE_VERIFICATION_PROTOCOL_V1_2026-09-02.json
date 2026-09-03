@@ -1,0 +1,118 @@
+{
+  "coverage_statuses": [
+    "VERIFIED_POSITIVE_INSTANCE",
+    "VERIFIED_ANTI_ISOMORPH",
+    "PLAUSIBLE_BUT_UNVERIFIED",
+    "FALSE_POSITIVE_TAG",
+    "NOT_APPLICABLE"
+  ],
+  "freeze_rule": "A mechanism is not counted as well-covered merely because many rows carry candidate tags. Before freeze, require diverse verified positive instances plus anti-isomorphs across more than one domain for high-value mechanisms, or explicitly record the mechanism as an accepted hole.",
+  "global_laws": [
+    "HEURISTIC TAG != VERIFIED INVARIANT",
+    "SOURCE FAMILY != MECHANISM",
+    "LONG TRAJECTORY != LONG-HORIZON CONSEQUENCE",
+    "LONG COT != ADAPTIVE EFFORT",
+    "SIMILAR WORDING != SAME STATE TRANSITION",
+    "VERIFIED MECHANISM COVERAGE REQUIRES LEARNER-VISIBLE CONSEQUENCE",
+    "ANTI_ISOMORPH REQUIRED FOR LOAD-BEARING COVERAGE CLAIM"
+  ],
+  "mechanisms": {
+    "ADAPTIVE_REASONING_EFFORT_VALUE_OF_COMPUTATION": {
+      "anti_isomorph": [
+        "paired near-neighbor cases reverse STOP/CONTINUE because ambiguity/value changes, not because wording announces the answer"
+      ],
+      "positive_requirements": [
+        "additional check/search/reasoning/action has explicit or implied cost",
+        "current evidence state determines whether expected decision value of more work exceeds cost",
+        "response sometimes stops and sometimes continues under matched task families"
+      ]
+    },
+    "CONFLICT_OR_FAILURE_BECOMES_REUSABLE": {
+      "anti_isomorph": [
+        "failure is local/non-generalizable and should not be promoted into reusable rule"
+      ],
+      "positive_requirements": [
+        "episode contains a failure/conflict/boundary",
+        "response converts it into a reusable constraint, avoidance rule, or later decision aid"
+      ]
+    },
+    "CONTROL_SEPARATION_WITHOUT_CONTROL_PLANE_TRAINING": {
+      "anti_isomorph": [
+        "not a learner-facing mechanism; verified architecturally by purity audit, not by teaching examples"
+      ],
+      "positive_requirements": [
+        "control/curation logic remains entirely outside learner-visible episode",
+        "learner sees only task-world state, evidence, actions, and consequences"
+      ]
+    },
+    "DISCRIMINATOR_AND_MEASUREMENT_SELECTION": {
+      "anti_isomorph": [
+        "checks are equally discriminating or evidence is already sufficient, so more measurement is wasteful"
+      ],
+      "positive_requirements": [
+        "multiple live explanations predict different observable outcomes",
+        "candidate action/check is evaluated by expected discrimination rather than generic usefulness"
+      ]
+    },
+    "EXTERNAL_EVIDENCE_AUTHORITY_AND_UNKNOWN": {
+      "anti_isomorph": [
+        "external signal is stale/untrusted/irrelevant and should not override stronger current evidence"
+      ],
+      "positive_requirements": [
+        "learner-visible external observation/readback bears on belief/action",
+        "response lets evidence override unsupported internal preference and preserves UNKNOWN when evidence is insufficient"
+      ]
+    },
+    "LIVE_ALTERNATIVES_AND_NONCOMMITMENT": {
+      "anti_isomorph": [
+        "similar surface where one candidate is actually identified and continued noncommitment would be wrong"
+      ],
+      "positive_requirements": [
+        "at least two live candidate states/hypotheses are learner-visible or functionally implied",
+        "evidence is insufficient to collapse them",
+        "response preserves alternatives or seeks a discriminator"
+      ]
+    },
+    "REPRESENTATION_ADEQUACY_AND_REFINEMENT": {
+      "anti_isomorph": [
+        "existing representation already distinguishes consequences; refinement would add needless complexity"
+      ],
+      "positive_requirements": [
+        "observation cannot be represented/explained cleanly by current candidate/model coordinates",
+        "response explicitly preserves residual and refines/expands representation rather than force-fitting"
+      ]
+    },
+    "STATE_DIFFERENCE_AND_SUBGOAL_CONTROL": {
+      "anti_isomorph": [
+        "similar task where direct action is sufficient and unnecessary subgoal creation would be wrong"
+      ],
+      "positive_requirements": [
+        "episode exposes a current-vs-goal or blocked-action difference",
+        "response/action selects a subgoal/operator because of that difference"
+      ]
+    },
+    "SUPPORT_LINEAGE_AND_DEPENDENCY_LOCAL_REPAIR": {
+      "anti_isomorph": [
+        "new evidence hits a shared/root dependency, making wider rollback appropriate"
+      ],
+      "positive_requirements": [
+        "an earlier conclusion/state depends on identifiable support",
+        "new evidence invalidates only a dependency cone",
+        "response revises affected state while preserving unrelated state"
+      ]
+    },
+    "TEMPORAL_REQUALIFICATION_AND_CURRENTNESS": {
+      "anti_isomorph": [
+        "later information is irrelevant/non-authoritative and earlier state should remain current"
+      ],
+      "positive_requirements": [
+        "later learner-visible evidence changes qualification of earlier state",
+        "response uses newer authority/currentness rather than merely repeating history"
+      ]
+    }
+  },
+  "purpose": "Replace heuristic curator-tag counts with learner-visible episode-level evidence for historical/CFE/modern mechanism coverage.",
+  "schema": "cfe.standard-uplift.mechanism-episode-verification-protocol.v1",
+  "status": "BINDING_PRE_FREEZE_VERIFICATION_PROTOCOL",
+  "timestamp": "2026-09-02T21:48:38-04:00"
+}

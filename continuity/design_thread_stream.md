@@ -1199,3 +1199,13 @@ Operator removed any hard/canonical dataset line-count requirement; required Sta
 
 ## Turn — ASSISTANT / EMBODIMENT
 Created binding three-lineage + training-body-purity doctrine and no-fixed-count sufficiency policy. Audited learner-visible Standard body, found two genuine CFE-generated dataset bookkeeping episodes and quarantined them into append-only successor (1,800 rows coincidentally; SHA `6cfd187f...`). Hard project-control signature rescan produced four false positives, manually adjudicated as task-world policy/cryptography. Built first explicit 10-family history->CFE->modern mechanism crosswalk; adaptive reasoning effort/value-of-computation remains a real coverage hole rather than being inferred from long CoT.
+
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 22:21 Eastern Daylight Time
+Tags: ISD, DEVELOPMENTAL STAGING, GITHUB CONTINUITY
+Operator required the prerequisite/dependency-order insight to be preserved to GitHub and applied to the in-progress ISD: tiered foundations/K-5 -> 6-8 -> 9-12 -> college -> target capability, with existing informed/CFE/Predator mechanisms applied inside the stages.
+
+## Turn — ASSISTANT / EMBODIMENT
+Created binding ISD developmental-dependency staging doctrine, machine stage spec, tiered mechanism progression matrix, and a conservative sidecar stage map over the current 1,816-row successor. Only 153 project-generated rows with explicit construction contracts were stage-assigned (T0=19/T1=56/T2=46/T3=32); 1,663 source rows remain `UNRESOLVED_TIER` rather than being guessed from heuristic tags, difficulty or trace length. T4 remains empty until genuine frontier-synthesis episodes are verified. Spiral recurrence/requalification is mandatory. CFE prerequisite topology remains a separate high-value causal hypothesis, not promoted scientific law.

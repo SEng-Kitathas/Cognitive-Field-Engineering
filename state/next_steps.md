@@ -148,3 +148,15 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 5. Re-run training-body purity after every selector/generator mutation. All project/dataset governance stays in sidecars.
 6. Re-evaluate long-context rows under value/coverage rather than a fixed A0 quota; preserve complete causal history where retained.
 7. Final freeze still requires contamination/license/dedup/quality/render integrity + final frozen private-eval rerun + explicit training authorization.
+
+
+## ISD developmental staging frontier — 2026-09-02 22:21 Eastern Daylight Time
+1. Episode-review source rows into dependency depth using learner-visible consequence, not domain prestige, difficulty or heuristic tags.
+2. Resolve high-value source families first and maintain `UNRESOLVED_TIER` for ambiguous rows.
+3. Build prerequisite edges among verified mechanism families; each edge requires task-consequence/identifiability justification.
+4. Compile spiral revisit plan so T0/T1 primitives reappear inside T2/T3/T4 contexts without duplicate padding.
+5. Use Isomorphic Predator to supply positive/anti-isomorph embodiments at each stage, with donor provenance sidecar-only.
+6. Fill T4 only when genuine frontier-synthesis episodes are verified; do not label long research traces T4 merely because they are long.
+7. After stage map is adequate, compile an exact developmental ordering sidecar; do not mutate learner-visible content to encode stage.
+8. Before training freeze: whole-corpus purity/contamination/dedup/license/render + frozen private-eval rerun + explicit authorization.
+9. In parallel, preregister a CFE dependency-order experiment to test staged vs dependency-violating fields under matched information/dose.

@@ -1,0 +1,163 @@
+{
+  "core_law": "Figure out what must logically become available before what, then engineer experience so those dependencies become discoverable in the right causal order.",
+  "curator_side_only": [
+    "stage labels",
+    "prerequisite graph",
+    "mechanism labels",
+    "historical/CFE/personal donor provenance",
+    "Isomorphic Predator hunt state",
+    "coverage/governance/contamination metadata"
+  ],
+  "guards": [
+    "STAGING != EASY_TO_HARD",
+    "DEPENDENCY_DEPTH != TASK_DIFFICULTY",
+    "SCHOOL_ALIAS != AGE_OR_GRADE_CLAIM",
+    "CURATOR_ONTOLOGY != LEARNER_ONTOLOGY",
+    "ISD_STAGING_DOCTRINE != EARNED_CFE_SCIENTIFIC_LAW",
+    "NO_DESTRUCTIVE_CROP_TO_FORCE_STAGE_SIZE"
+  ],
+  "integration": [
+    "three-lineage informed Standard doctrine",
+    "Isomorphic Predator",
+    "mechanism episode verification protocol",
+    "training-body purity law",
+    "no canonical row/token quota"
+  ],
+  "learner_visible_only": [
+    "task-world prompts/context",
+    "actions/responses/tool calls",
+    "observations",
+    "consequences",
+    "natural domain constraints"
+  ],
+  "schema": "cfe.isd.developmental-dependency-stage-spec.v1",
+  "spiral_rule": "Earlier primitives must recur in later stages under changed relational/consequence contexts; recurrence is developmental requalification, not duplicate padding.",
+  "stage_assignment_contract": {
+    "allowed_statuses": [
+      "T0_FOUNDATIONS",
+      "T1_RELATIONAL",
+      "T2_SYSTEMS",
+      "T3_OPEN_WORLD",
+      "T4_FRONTIER_SYNTHESIS",
+      "UNRESOLVED_TIER"
+    ],
+    "inputs": [
+      "learner-visible episode",
+      "verified mechanism contract",
+      "prerequisite sidecar",
+      "dependency evidence",
+      "anti-isomorph status"
+    ],
+    "rules": [
+      "assign by highest dependency structure genuinely required, not lexical difficulty",
+      "prerequisite claims require consequence/identifiability justification",
+      "if prerequisite evidence is absent -> UNRESOLVED_TIER, not guessed tier",
+      "long trace does not imply high tier",
+      "advanced domain vocabulary does not imply high tier",
+      "simple-looking episode may be high tier if authority/currentness/representation structure is deep"
+    ]
+  },
+  "stages": [
+    {
+      "alias": "K-5",
+      "id": "T0_FOUNDATIONS",
+      "prerequisite_depth": 0,
+      "purpose": "primitive distinctions/direct consequences",
+      "required_pressures": [
+        "direct consequence",
+        "simple contrasts",
+        "exact transformations",
+        "basic evidence authority",
+        "simple currentness",
+        "basic composition",
+        "UNKNOWN when unobserved"
+      ],
+      "spiral_targets": [
+        "identity/difference",
+        "cause/effect",
+        "evidence authority",
+        "basic composition"
+      ]
+    },
+    {
+      "alias": "6-8",
+      "id": "T1_RELATIONAL",
+      "prerequisite_depth": 1,
+      "purpose": "small relational/dependency structures",
+      "required_pressures": [
+        "small dependency chains",
+        "selective local repair",
+        "few live alternatives",
+        "identifying checks",
+        "cross-domain isomorph/anti-isomorph",
+        "revisit after state change"
+      ],
+      "spiral_targets": [
+        "T0 primitives under relation/composition",
+        "simple currentness under conflict"
+      ]
+    },
+    {
+      "alias": "9-12",
+      "id": "T2_SYSTEMS",
+      "prerequisite_depth": 2,
+      "purpose": "larger interacting systems",
+      "required_pressures": [
+        "multi-hop planning",
+        "dependency graphs",
+        "scoped rollback",
+        "competing explanations",
+        "discriminator selection",
+        "long-horizon currentness",
+        "failure-boundary reuse",
+        "representation pressure"
+      ],
+      "spiral_targets": [
+        "T0/T1 primitives inside systems",
+        "cross-domain transfer under changed surface"
+      ]
+    },
+    {
+      "alias": "COLLEGE",
+      "id": "T3_OPEN_WORLD",
+      "prerequisite_depth": 3,
+      "purpose": "incomplete information/conflicting authority/costly inquiry",
+      "required_pressures": [
+        "multi-hypothesis maintenance",
+        "research/search authority",
+        "adaptive effort",
+        "conflicting evidence channels",
+        "sparse long-range dependency",
+        "representation refinement",
+        "STOP/CONTINUE value-of-check",
+        "preserve uncertainty"
+      ],
+      "spiral_targets": [
+        "earlier dependencies under uncertainty/currentness",
+        "anti-isomorphs with cost-sensitive reversal"
+      ]
+    },
+    {
+      "alias": "POST_COLLEGE_TARGET",
+      "id": "T4_FRONTIER_SYNTHESIS",
+      "prerequisite_depth": 4,
+      "purpose": "novel synthesis/representation creation/self-correction",
+      "required_pressures": [
+        "novel decomposition",
+        "self-directed discriminator selection",
+        "novel-domain transfer",
+        "representation creation/replacement",
+        "long-horizon reason maintenance",
+        "qualified compression",
+        "efficient cognition recruitment",
+        "framing recovery"
+      ],
+      "spiral_targets": [
+        "all earlier primitives under novel composition",
+        "representation refinement with conservation"
+      ]
+    }
+  ],
+  "status": "BINDING_ISD_CONSTRUCTION_SPEC__SCIENTIFIC_CAUSALITY_UNPROVEN",
+  "timestamp": "2026-09-02T22:19:06-04:00"
+}

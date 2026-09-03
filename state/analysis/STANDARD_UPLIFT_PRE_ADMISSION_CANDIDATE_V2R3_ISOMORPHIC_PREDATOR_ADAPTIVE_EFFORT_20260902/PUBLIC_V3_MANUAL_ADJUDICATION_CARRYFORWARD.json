@@ -1,0 +1,23 @@
+{
+  "adaptive_effort_atom_ids_flagged": [],
+  "all_current_flags_exact_id_prior_false_positive": true,
+  "candidate_rows": 1816,
+  "candidate_sha256": "c9e9ae8d885f54a2848f14816fb6d45f64cde82a1999657e4b39d6993274c00f",
+  "current_flag_ids": [
+    "17ca3cf833939b99e53ba35b5f51abb5e5099c7ca7b86a0bee0776d485ff6256",
+    "2206561f2f5cd6f895836dffedf4737fb04978a314c46db24527baf98d24190d",
+    "529cda4f95e18509fc57af8ccd417d45e1a9ea8541f26850c6a7b1b08b30ceb1",
+    "69a84af7bcc8544ddd69e3aa8d3d363d60f1332b68b89af03988df9cb83bf478",
+    "7b101b03bd7c8bfdc9084d8d4b8ee703dbc722512eaebfaef8a7769146b6056b",
+    "b4d8168f0270073400c76612c35ecf0253397e8b653bfe429f91b0dafa8587e3"
+  ],
+  "law": "MANUAL DISPOSITION MAY CARRY FORWARD ONLY BY EXACT ATOM ID AND UNCHANGED LEARNER-VISIBLE CONTENT",
+  "new_flag_ids": [],
+  "prior_adjudication_sha256": "1dd27554450fb83d253588abe5761f4b7c40deacba93acec06ed1491c85db66f",
+  "public_status": "CLEAR_CURRENT_V3_BY_SCANNER_PLUS_EXACT_ID_MANUAL_CARRYFORWARD",
+  "scanner_sha256": "df82db337a6a5a6a6780f7c040d85c68c80b7f3762e9586662192d2a0d1efa01",
+  "schema": "cfe.standard-uplift.public-v3-carryforward.v1",
+  "status": "ALL_CURRENT_FLAGS_PRIOR_FALSE_POSITIVES__NO_NEW_PREDATOR_FLAGS",
+  "timestamp": "2026-09-02T22:10:23-04:00",
+  "training_authorized": false
+}

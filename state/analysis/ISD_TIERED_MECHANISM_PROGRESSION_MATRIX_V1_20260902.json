@@ -1,0 +1,73 @@
+{
+  "law": "Progression increases dependency/relational burden, not vocabulary prestige or raw task difficulty.",
+  "rows": [
+    {
+      "T0": "simple cross-domain same-consequence pairs",
+      "T1": "positive + anti-isomorph pairs",
+      "T2": "multi-relation isomorphs under changed surface",
+      "T3": "cost/authority/currentness reversals across domains",
+      "T4": "novel-domain transfer and representation-level isomorph discovery",
+      "mechanism": "ISOMORPHIC_PREDATOR"
+    },
+    {
+      "T0": "direct newer-over-stale replacement",
+      "T1": "selective update with unaffected state preserved",
+      "T2": "multi-event propagation across dependencies",
+      "T3": "conflicting authorities / stale channels / temporal uncertainty",
+      "T4": "representation/dependency currentness under model revision",
+      "mechanism": "CURRENTNESS"
+    },
+    {
+      "T0": "binary contrast",
+      "T1": "few candidates + identifying check",
+      "T2": "multi-candidate diagnosis and pruning",
+      "T3": "multi-hypothesis maintenance over research/agents",
+      "T4": "create/refine candidate representation when all local hypotheses fail",
+      "mechanism": "LIVE_ALTERNATIVES"
+    },
+    {
+      "T0": "single cause/effect correction",
+      "T1": "small dependency cone",
+      "T2": "system graph scoped rollback",
+      "T3": "long-horizon cross-source repair",
+      "T4": "repair representation/dependency model itself while conserving valid state",
+      "mechanism": "DEPENDENCY_LOCAL_REPAIR"
+    },
+    {
+      "T0": "remember direct failed action",
+      "T1": "reuse small constraint",
+      "T2": "generalize reusable conflict boundary",
+      "T3": "transfer boundary across contexts/domains",
+      "T4": "learn when a boundary should itself be revised",
+      "mechanism": "FAILURE_BOUNDARY_REUSE"
+    },
+    {
+      "T0": "learn a needed distinction",
+      "T1": "split overbroad category when consequences differ",
+      "T2": "replace failing local abstraction",
+      "T3": "refine model/ontology while preserving valid conclusions",
+      "T4": "construct new coordinates for novel problem class",
+      "mechanism": "REPRESENTATION_REFINEMENT"
+    },
+    {
+      "T0": "obvious sufficient vs missing-evidence stop/continue",
+      "T1": "cheap discriminator vs unnecessary check",
+      "T2": "cost-aware test selection in systems",
+      "T3": "search/tool/research budget allocation under uncertainty",
+      "T4": "self-directed compute allocation and stopping under novel task structure",
+      "mechanism": "ADAPTIVE_EFFORT"
+    },
+    {
+      "T0": "simple later correction",
+      "T1": "revisit after local state change",
+      "T2": "longer dependency-bearing history",
+      "T3": "sparse long-range consequential history",
+      "T4": "compress/reconstruct durable state across extended novel work",
+      "mechanism": "LHIT_REVISIT"
+    }
+  ],
+  "schema": "cfe.isd.tiered-mechanism-progression.v1",
+  "stage_spec_sha256": "ca90687b8a661283633fa01c66d0548fa3672f0a37398de4a41b053fbf09781b",
+  "status": "DESIGN_MATRIX__CURATOR_SIDE_ONLY",
+  "timestamp": "2026-09-02T22:19:06-04:00"
+}

@@ -16,3 +16,11 @@
 - Binding distinction: task-world governance/policy/audit may appear when it is genuinely part of the task; keyword presence is not a control-plane leak.
 - Current successor purity mutation removed two CFE-generated dataset-bookkeeping episodes.
 - Historical recurrence remains an informing quarry, not proof of shared implementation or scientific CFE law.
+
+
+## ISD developmental-dependency shape — 2026-09-02 22:21 Eastern Daylight Time
+- Binding ISD engineering law: organize learning by justified prerequisite/dependency depth, not easy-to-hard difficulty.
+- Five curator-side stages: T0 Foundations (K-5 alias), T1 Relational (6-8), T2 Systems (9-12), T3 Open-world (College), T4 Frontier Synthesis (target capability).
+- Spiral recurrence/requalification is mandatory; earlier primitives return under richer contexts.
+- All stage/prerequisite/Predator/CFE/provenance/governance metadata remains outside the training body.
+- Scientific boundary: staging is binding ISD construction doctrine; universal CFE causal benefit remains unproven until matched dependency-order experiments.

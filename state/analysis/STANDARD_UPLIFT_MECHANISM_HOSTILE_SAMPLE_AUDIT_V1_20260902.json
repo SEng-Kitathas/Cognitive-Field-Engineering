@@ -1,0 +1,500 @@
+{
+  "earned": [
+    "Current candidate-dimension counts materially overstate verified mechanism coverage.",
+    "Several project-generated rows do directly instantiate targeted mechanisms.",
+    "Generic source-family rows frequently appear as false-positive mechanism samples under heuristic tags."
+  ],
+  "next_action": "Use the protocol to select/verify mechanism-positive and anti-isomorph episode families; build clean missing families rather than rely on tag counts.",
+  "not_earned": [
+    "Full corpus mechanism coverage",
+    "Any claim that research/tool trajectory source membership implies discriminator/currentness/failure-reuse behavior",
+    "Any inference that long reasoning traces instantiate adaptive effort."
+  ],
+  "per_mechanism_counts": {
+    "CONFLICT_OR_FAILURE_BECOMES_REUSABLE": {
+      "PLAUSIBLE_BUT_UNVERIFIED": 8
+    },
+    "DISCRIMINATOR_AND_MEASUREMENT_SELECTION": {
+      "PLAUSIBLE_BUT_UNVERIFIED": 7,
+      "VERIFIED_ANTI_ISOMORPH": 1
+    },
+    "EXTERNAL_EVIDENCE_AUTHORITY_AND_UNKNOWN": {
+      "PLAUSIBLE_BUT_UNVERIFIED": 7,
+      "VERIFIED_POSITIVE_INSTANCE": 1
+    },
+    "LIVE_ALTERNATIVES_AND_NONCOMMITMENT": {
+      "PLAUSIBLE_BUT_UNVERIFIED": 7,
+      "VERIFIED_POSITIVE_INSTANCE": 1
+    },
+    "REPRESENTATION_ADEQUACY_AND_REFINEMENT": {
+      "PLAUSIBLE_BUT_UNVERIFIED": 7,
+      "VERIFIED_POSITIVE_INSTANCE": 1
+    },
+    "STATE_DIFFERENCE_AND_SUBGOAL_CONTROL": {
+      "PLAUSIBLE_BUT_UNVERIFIED": 8
+    },
+    "SUPPORT_LINEAGE_AND_DEPENDENCY_LOCAL_REPAIR": {
+      "PLAUSIBLE_BUT_UNVERIFIED": 7,
+      "VERIFIED_POSITIVE_INSTANCE": 1
+    },
+    "TEMPORAL_REQUALIFICATION_AND_CURRENTNESS": {
+      "PLAUSIBLE_BUT_UNVERIFIED": 7,
+      "VERIFIED_POSITIVE_INSTANCE": 1
+    }
+  },
+  "protocol_sha256": "006ff5eccb73e0c04af0f29a0251f15f48a9b96d4119098a223fdc512771b5fd",
+  "results": [
+    {
+      "atom_id": "01092fefd647a46d58766a63f6d6fa671a7f73d1a9ee0ba8600f0372d2f58297",
+      "mechanism": "CONFLICT_OR_FAILURE_BECOMES_REUSABLE",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "CFE/project-generated-standard-uplift",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "071f0f5b4c85541c35ac043852755b438ae31f5adae1ee1daca4dd66ab3c8349",
+      "mechanism": "CONFLICT_OR_FAILURE_BECOMES_REUSABLE",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "NextTokenAI/NextSearch-1-Trajectories",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0094b2ddeef628ec16995695475f72c964b0cad6891fb951e60eeb289d31e6c1",
+      "mechanism": "CONFLICT_OR_FAILURE_BECOMES_REUSABLE",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Agentic-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0036ca0098261e582ed809b73c031b0de6191e212469ac1edbd972c6e3534c6f",
+      "mechanism": "CONFLICT_OR_FAILURE_BECOMES_REUSABLE",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "00b4d0f96b904f834279041b25cbd417111083fb9bae412881dcd049b495a36a",
+      "mechanism": "CONFLICT_OR_FAILURE_BECOMES_REUSABLE",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "open-thoughts/OpenThoughts-114k",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "046a4eee466f721b997ffcbc2c07144213d3fdd7cba1a01c1f65d8b10e0c36e2",
+      "mechanism": "CONFLICT_OR_FAILURE_BECOMES_REUSABLE",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "LDJnr/Capybara",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0610f5d109b469f18702cffe4cb5fc1ba119fd0ae4522cd16617ce0f5c30df8a",
+      "mechanism": "CONFLICT_OR_FAILURE_BECOMES_REUSABLE",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "04f41b3c7657f12d2b40a94eb29b114ad4f334fe74a1765a1e616416d214e4a8",
+      "mechanism": "CONFLICT_OR_FAILURE_BECOMES_REUSABLE",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Math-v4",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "01ab2cec4b88d6dc457ca5946f563dd99e70ec2afedb9fa1e3707c5dcbf63740",
+      "mechanism": "DISCRIMINATOR_AND_MEASUREMENT_SELECTION",
+      "reason": "Learner-visible excerpt directly instantiates the mechanism requirement or explicit anti-isomorph.",
+      "source": "CFE/project-generated-standard-uplift",
+      "status": "VERIFIED_ANTI_ISOMORPH"
+    },
+    {
+      "atom_id": "071f0f5b4c85541c35ac043852755b438ae31f5adae1ee1daca4dd66ab3c8349",
+      "mechanism": "DISCRIMINATOR_AND_MEASUREMENT_SELECTION",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "NextTokenAI/NextSearch-1-Trajectories",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0094b2ddeef628ec16995695475f72c964b0cad6891fb951e60eeb289d31e6c1",
+      "mechanism": "DISCRIMINATOR_AND_MEASUREMENT_SELECTION",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Agentic-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "00a125d688a0ee98620c600dfb758db7faebfa46a7b29c44bbb71b2bc67d3f90",
+      "mechanism": "DISCRIMINATOR_AND_MEASUREMENT_SELECTION",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "osunlp/QUEST-SFT-Data-Objective",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0048694bdd48f92fc580383aef36a8cc9f2049c4f4292e7f9ec796869831fcd3",
+      "mechanism": "DISCRIMINATOR_AND_MEASUREMENT_SELECTION",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "osunlp/QUEST-SFT-Data-Open-ended",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "362a2b1dc0381e14554b2d8fee1accab9e0c60d7c4f2eae8c4e8173947c4d7f1",
+      "mechanism": "DISCRIMINATOR_AND_MEASUREMENT_SELECTION",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "simplex-ai-inc/LiteResearcher-SFT-Data",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "000cc9e6f912ac0da00937dc20d4dd8ca071c3d23885606837095b7816cb8784",
+      "mechanism": "DISCRIMINATOR_AND_MEASUREMENT_SELECTION",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "LDJnr/Capybara",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0036ca0098261e582ed809b73c031b0de6191e212469ac1edbd972c6e3534c6f",
+      "mechanism": "DISCRIMINATOR_AND_MEASUREMENT_SELECTION",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0be8db2f503166b7e39493450caffbf058a1957adbbecd0f552faf68739482e0",
+      "mechanism": "EXTERNAL_EVIDENCE_AUTHORITY_AND_UNKNOWN",
+      "reason": "Learner-visible excerpt directly instantiates the mechanism requirement or explicit anti-isomorph.",
+      "source": "CFE/project-generated-standard-uplift",
+      "status": "VERIFIED_POSITIVE_INSTANCE"
+    },
+    {
+      "atom_id": "1719fc760b3e4ebf31fd1c6e4d6083c81cda30f2d6cadb96f209830899a937eb",
+      "mechanism": "EXTERNAL_EVIDENCE_AUTHORITY_AND_UNKNOWN",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "LDJnr/Capybara",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "071f0f5b4c85541c35ac043852755b438ae31f5adae1ee1daca4dd66ab3c8349",
+      "mechanism": "EXTERNAL_EVIDENCE_AUTHORITY_AND_UNKNOWN",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "NextTokenAI/NextSearch-1-Trajectories",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "02e90e53052c21fa876272c961d6146c93f2cf041c0993c386ebf2e90d9904d2",
+      "mechanism": "EXTERNAL_EVIDENCE_AUTHORITY_AND_UNKNOWN",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Agentic-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0173d9842b52a5bdf1ac7264b7d09b7b223201083bc2a47c04066e3f243c3387",
+      "mechanism": "EXTERNAL_EVIDENCE_AUTHORITY_AND_UNKNOWN",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0c526601d480e23996afe1b4fcb217862ea7e1589c241ab2ccfdba35080573b4",
+      "mechanism": "EXTERNAL_EVIDENCE_AUTHORITY_AND_UNKNOWN",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "04fbbebb4ac400d0a5e7dca95cbfafb586f6805f97c374bae78bddd130477190",
+      "mechanism": "EXTERNAL_EVIDENCE_AUTHORITY_AND_UNKNOWN",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Math-v4",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "01f9f48edbb03c616e7d710288e9d34b8a024ec1f4a8f2c8f3bf9a5516cf851f",
+      "mechanism": "EXTERNAL_EVIDENCE_AUTHORITY_AND_UNKNOWN",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "open-r1/OpenR1-Math-220k",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "20046fb3c57c54cec78a7e7b4abe1624933d420f4c99d499175535c93fdb27ea",
+      "mechanism": "LIVE_ALTERNATIVES_AND_NONCOMMITMENT",
+      "reason": "Learner-visible excerpt directly instantiates the mechanism requirement or explicit anti-isomorph.",
+      "source": "CFE/project-generated-standard-uplift",
+      "status": "VERIFIED_POSITIVE_INSTANCE"
+    },
+    {
+      "atom_id": "071f0f5b4c85541c35ac043852755b438ae31f5adae1ee1daca4dd66ab3c8349",
+      "mechanism": "LIVE_ALTERNATIVES_AND_NONCOMMITMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "NextTokenAI/NextSearch-1-Trajectories",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0547dd2ab3b2a3e569243fc3171d722c3b2050e7e905111d1a72e36f761a0309",
+      "mechanism": "LIVE_ALTERNATIVES_AND_NONCOMMITMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Agentic-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "00a125d688a0ee98620c600dfb758db7faebfa46a7b29c44bbb71b2bc67d3f90",
+      "mechanism": "LIVE_ALTERNATIVES_AND_NONCOMMITMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "osunlp/QUEST-SFT-Data-Objective",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0048694bdd48f92fc580383aef36a8cc9f2049c4f4292e7f9ec796869831fcd3",
+      "mechanism": "LIVE_ALTERNATIVES_AND_NONCOMMITMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "osunlp/QUEST-SFT-Data-Open-ended",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "1719fc760b3e4ebf31fd1c6e4d6083c81cda30f2d6cadb96f209830899a937eb",
+      "mechanism": "LIVE_ALTERNATIVES_AND_NONCOMMITMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "LDJnr/Capybara",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0348d086fadaed8cdb632e1429b862c4ff418d6fc51f34660625c06d6321f05f",
+      "mechanism": "LIVE_ALTERNATIVES_AND_NONCOMMITMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0c526601d480e23996afe1b4fcb217862ea7e1589c241ab2ccfdba35080573b4",
+      "mechanism": "LIVE_ALTERNATIVES_AND_NONCOMMITMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0348d086fadaed8cdb632e1429b862c4ff418d6fc51f34660625c06d6321f05f",
+      "mechanism": "REPRESENTATION_ADEQUACY_AND_REFINEMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "1c4c66a2e4722463da53ba0a5e9495707aba190161bc469db015dd693ebf942d",
+      "mechanism": "REPRESENTATION_ADEQUACY_AND_REFINEMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Math-v4",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "b859839297096d59b33736a90175cc80cc25e943eeacaed05615a7caf05f6d48",
+      "mechanism": "REPRESENTATION_ADEQUACY_AND_REFINEMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "osunlp/QUEST-SFT-Data-Objective",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0be8db2f503166b7e39493450caffbf058a1957adbbecd0f552faf68739482e0",
+      "mechanism": "REPRESENTATION_ADEQUACY_AND_REFINEMENT",
+      "reason": "Learner-visible excerpt directly instantiates the mechanism requirement or explicit anti-isomorph.",
+      "source": "CFE/project-generated-standard-uplift",
+      "status": "VERIFIED_POSITIVE_INSTANCE"
+    },
+    {
+      "atom_id": "d72c17924448b6a29a76c0bb75c34b28c91283591cb9b5f6ea6e8fffe47f50e7",
+      "mechanism": "REPRESENTATION_ADEQUACY_AND_REFINEMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "NextTokenAI/NextSearch-1-Trajectories",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "02e90e53052c21fa876272c961d6146c93f2cf041c0993c386ebf2e90d9904d2",
+      "mechanism": "REPRESENTATION_ADEQUACY_AND_REFINEMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Agentic-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0a0fdcdfe26a5cbff1aa7d3b680bbba9e458b221430195a650941fa13a6b13d2",
+      "mechanism": "REPRESENTATION_ADEQUACY_AND_REFINEMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "01f9f48edbb03c616e7d710288e9d34b8a024ec1f4a8f2c8f3bf9a5516cf851f",
+      "mechanism": "REPRESENTATION_ADEQUACY_AND_REFINEMENT",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "open-r1/OpenR1-Math-220k",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "23cc7d59f3bd774a1dfffabe483c0c9ef2d565f8a31acbc508f77193af624de4",
+      "mechanism": "STATE_DIFFERENCE_AND_SUBGOAL_CONTROL",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "LDJnr/Capybara",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "071f0f5b4c85541c35ac043852755b438ae31f5adae1ee1daca4dd66ab3c8349",
+      "mechanism": "STATE_DIFFERENCE_AND_SUBGOAL_CONTROL",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "NextTokenAI/NextSearch-1-Trajectories",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0094b2ddeef628ec16995695475f72c964b0cad6891fb951e60eeb289d31e6c1",
+      "mechanism": "STATE_DIFFERENCE_AND_SUBGOAL_CONTROL",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Agentic-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0036ca0098261e582ed809b73c031b0de6191e212469ac1edbd972c6e3534c6f",
+      "mechanism": "STATE_DIFFERENCE_AND_SUBGOAL_CONTROL",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0a0fdcdfe26a5cbff1aa7d3b680bbba9e458b221430195a650941fa13a6b13d2",
+      "mechanism": "STATE_DIFFERENCE_AND_SUBGOAL_CONTROL",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "04f41b3c7657f12d2b40a94eb29b114ad4f334fe74a1765a1e616416d214e4a8",
+      "mechanism": "STATE_DIFFERENCE_AND_SUBGOAL_CONTROL",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Math-v4",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "00eeba93b2cd4224337167cc56c685ad523cf3d56e3f46193406e5e157e9c3d8",
+      "mechanism": "STATE_DIFFERENCE_AND_SUBGOAL_CONTROL",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "open-r1/OpenR1-Math-220k",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "00b4d0f96b904f834279041b25cbd417111083fb9bae412881dcd049b495a36a",
+      "mechanism": "STATE_DIFFERENCE_AND_SUBGOAL_CONTROL",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "open-thoughts/OpenThoughts-114k",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0036ca0098261e582ed809b73c031b0de6191e212469ac1edbd972c6e3534c6f",
+      "mechanism": "SUPPORT_LINEAGE_AND_DEPENDENCY_LOCAL_REPAIR",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Competitive-Programming-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "00b4d0f96b904f834279041b25cbd417111083fb9bae412881dcd049b495a36a",
+      "mechanism": "SUPPORT_LINEAGE_AND_DEPENDENCY_LOCAL_REPAIR",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "open-thoughts/OpenThoughts-114k",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0a0fdcdfe26a5cbff1aa7d3b680bbba9e458b221430195a650941fa13a6b13d2",
+      "mechanism": "SUPPORT_LINEAGE_AND_DEPENDENCY_LOCAL_REPAIR",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "04f41b3c7657f12d2b40a94eb29b114ad4f334fe74a1765a1e616416d214e4a8",
+      "mechanism": "SUPPORT_LINEAGE_AND_DEPENDENCY_LOCAL_REPAIR",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Math-v4",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "00eeba93b2cd4224337167cc56c685ad523cf3d56e3f46193406e5e157e9c3d8",
+      "mechanism": "SUPPORT_LINEAGE_AND_DEPENDENCY_LOCAL_REPAIR",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "open-r1/OpenR1-Math-220k",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "08e2197d35df687595e39b8b8212e80337806a07270fd3f695f17c4ce93286bf",
+      "mechanism": "SUPPORT_LINEAGE_AND_DEPENDENCY_LOCAL_REPAIR",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "osunlp/QUEST-SFT-Data-Objective",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "01092fefd647a46d58766a63f6d6fa671a7f73d1a9ee0ba8600f0372d2f58297",
+      "mechanism": "SUPPORT_LINEAGE_AND_DEPENDENCY_LOCAL_REPAIR",
+      "reason": "Learner-visible excerpt directly instantiates the mechanism requirement or explicit anti-isomorph.",
+      "source": "CFE/project-generated-standard-uplift",
+      "status": "VERIFIED_POSITIVE_INSTANCE"
+    },
+    {
+      "atom_id": "0eed9def1b0b006c9fe9a7a950982b7361aacb402e282b125a7926340c37c73a",
+      "mechanism": "SUPPORT_LINEAGE_AND_DEPENDENCY_LOCAL_REPAIR",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "LDJnr/Capybara",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "01092fefd647a46d58766a63f6d6fa671a7f73d1a9ee0ba8600f0372d2f58297",
+      "mechanism": "TEMPORAL_REQUALIFICATION_AND_CURRENTNESS",
+      "reason": "Learner-visible excerpt directly instantiates the mechanism requirement or explicit anti-isomorph.",
+      "source": "CFE/project-generated-standard-uplift",
+      "status": "VERIFIED_POSITIVE_INSTANCE"
+    },
+    {
+      "atom_id": "071f0f5b4c85541c35ac043852755b438ae31f5adae1ee1daca4dd66ab3c8349",
+      "mechanism": "TEMPORAL_REQUALIFICATION_AND_CURRENTNESS",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "NextTokenAI/NextSearch-1-Trajectories",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0094b2ddeef628ec16995695475f72c964b0cad6891fb951e60eeb289d31e6c1",
+      "mechanism": "TEMPORAL_REQUALIFICATION_AND_CURRENTNESS",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Agentic-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "10c6246f7f1b03989d843225f5fa974c0f335b9dcb2c536e7a0cdacf085d8197",
+      "mechanism": "TEMPORAL_REQUALIFICATION_AND_CURRENTNESS",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "LDJnr/Capybara",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "20ec65f171c1e4e3143a7c01cb783c70b8c19a570e04dbbb8e31be3a7fed9f1f",
+      "mechanism": "TEMPORAL_REQUALIFICATION_AND_CURRENTNESS",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "00a125d688a0ee98620c600dfb758db7faebfa46a7b29c44bbb71b2bc67d3f90",
+      "mechanism": "TEMPORAL_REQUALIFICATION_AND_CURRENTNESS",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "osunlp/QUEST-SFT-Data-Objective",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "0329b0db94e5fb589985e7a6f3888283e5f28d735103cbed3e1646642d401cb6",
+      "mechanism": "TEMPORAL_REQUALIFICATION_AND_CURRENTNESS",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "osunlp/QUEST-SFT-Data-Open-ended",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    },
+    {
+      "atom_id": "362a2b1dc0381e14554b2d8fee1accab9e0c60d7c4f2eae8c4e8173947c4d7f1",
+      "mechanism": "TEMPORAL_REQUALIFICATION_AND_CURRENTNESS",
+      "reason": "Excerpt/source could contain the mechanism later in the full episode, but the bounded learner-visible sample does not establish it. Requires full-episode review.",
+      "source": "simplex-ai-inc/LiteResearcher-SFT-Data",
+      "status": "PLAUSIBLE_BUT_UNVERIFIED"
+    }
+  ],
+  "sample_sha256": "534b6534735c98722d381760c8052621b2c137f1da8f46b312c7e496d0abede0",
+  "schema": "cfe.standard-uplift.mechanism-hostile-sample-audit.v1",
+  "status": "HEURISTIC_TAG_COVERAGE_DEMOTED__EPISODE_VERIFICATION_REQUIRED",
+  "timestamp": "2026-09-02T21:48:38-04:00"
+}

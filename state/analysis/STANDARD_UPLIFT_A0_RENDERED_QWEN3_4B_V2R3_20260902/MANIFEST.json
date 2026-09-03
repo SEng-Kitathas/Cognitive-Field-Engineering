@@ -1,0 +1,172 @@
+{
+  "a0_context_eligible": {
+    "assistant_visible_tokens_sum": 3001780,
+    "below_policy_atom_floor": true,
+    "context_tokens_sum": 7066577,
+    "rows": 1690
+  },
+  "all_rows": {
+    "assistant_visible_tokens_sum": 3658347,
+    "bucket_counts": {
+      "CORE_4K": 1132,
+      "LONGER_QUARANTINE": 126,
+      "LONG_16K": 330,
+      "MID_8K": 228
+    },
+    "context_max": 45971,
+    "context_median": 2454.5,
+    "context_p90": 15647,
+    "context_p95": 19198,
+    "context_p99": 28443,
+    "context_tokens_sum": 10030620
+  },
+  "canonical_candidate_path": "state/analysis/STANDARD_UPLIFT_PRE_ADMISSION_CANDIDATE_V2R3_ISOMORPHIC_PREDATOR_ADAPTIVE_EFFORT_20260902/SFT_PRE_ADMISSION_CANDIDATE.jsonl",
+  "canonical_candidate_sha256": "c9e9ae8d885f54a2848f14816fb6d45f64cde82a1999657e4b39d6993274c00f",
+  "canonical_rows": 1816,
+  "created_unix": 1788401480.9731975,
+  "laws": [
+    "CANONICAL ATOM != TARGET RENDER",
+    "PRIVATE TEACHER REASONING REMOVAL != DESTRUCTIVE CONTEXT TRUNCATION",
+    "LONGER_THAN_16K != AUTO_CROP",
+    "PROJECT FINAL_ANSWER FALLBACK IS SOURCE-SCOPED",
+    "REDACTION OCCURS IN RENDER ONLY; CANONICAL PROVENANCE REMAINS IMMUTABLE",
+    "STOCK CHAT TEMPLATE ASSISTANT MASK != TRUSTED LOSS MASK",
+    "TOOL_CALL_ONLY ASSISTANT TURN = VALID TARGET",
+    "RENDER COMPLETE != A0 FREEZE"
+  ],
+  "payload_sha256": "fea2c1f1e3cacb0317a545d6e95dc1461b5f785255892b573b86b3447e0741b4",
+  "per_row_manifest": "PER_ROW_RENDER_MANIFEST.json",
+  "policy_sha256": "fdb0d4568dd9d61eab555d0d4b17f30c959890efd3071aed7d3dc394c29a7e17",
+  "project_final_answers_appended": 153,
+  "reasoning_fields_removed": 2472,
+  "redactions": {
+    "JSON_APIKEY": 6,
+    "OWM_API_KEY": 7,
+    "RESET_TOKEN": 3,
+    "TEMP_PASSWORD": 7
+  },
+  "render_error_count": 0,
+  "render_errors": [],
+  "render_rules": {
+    "a0_context_ceiling": 16384,
+    "assistant_target_detection": "EXPLICIT_ASSISTANT_BODY_SPANS_FROM_EXACT_RENDER_OFFSETS__CONTENT_OR_TOOL_CALL_PAYLOAD",
+    "chat_template": "TARGET_TOKENIZER_EXACT",
+    "content_reasoning": "NOT_RENDERED_SEPARATELY",
+    "credential_literals": "DETERMINISTIC_HIGH_CONFIDENCE_REDACTION",
+    "messages_tools_observations": "PRESERVE_ORDER",
+    "private_reasoning_content": "REMOVED",
+    "project_generated_final_answer": "APPEND_IF_NOT_ALREADY_VISIBLE",
+    "truncation": "NONE",
+    "upstream_aux_final_answer": "DO_NOT_APPEND"
+  },
+  "schema": "cfe.standard-uplift.a0-render.v2",
+  "source_profiles": {
+    "CFE/project-generated-standard-uplift::quarantine": {
+      "assistant_visible_tokens": 5574,
+      "context_tokens": 15609,
+      "over16k": 0,
+      "rows": 153
+    },
+    "LDJnr/Capybara::train": {
+      "assistant_visible_tokens": 144802,
+      "context_tokens": 168933,
+      "over16k": 0,
+      "rows": 180
+    },
+    "NextTokenAI/NextSearch-1-Trajectories::train": {
+      "assistant_visible_tokens": 30552,
+      "context_tokens": 661730,
+      "over16k": 5,
+      "rows": 85
+    },
+    "nvidia/Nemotron-SFT-Agentic-v2::interactive_agent": {
+      "assistant_visible_tokens": 49462,
+      "context_tokens": 320593,
+      "over16k": 0,
+      "rows": 80
+    },
+    "nvidia/Nemotron-SFT-Agentic-v2::search": {
+      "assistant_visible_tokens": 35483,
+      "context_tokens": 1735847,
+      "over16k": 57,
+      "rows": 80
+    },
+    "nvidia/Nemotron-SFT-Agentic-v2::tool_calling": {
+      "assistant_visible_tokens": 116428,
+      "context_tokens": 362336,
+      "over16k": 5,
+      "rows": 80
+    },
+    "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_cpp": {
+      "assistant_visible_tokens": 51978,
+      "context_tokens": 115803,
+      "over16k": 0,
+      "rows": 80
+    },
+    "nvidia/Nemotron-SFT-Competitive-Programming-v2::competitive_coding_python": {
+      "assistant_visible_tokens": 119530,
+      "context_tokens": 200125,
+      "over16k": 0,
+      "rows": 100
+    },
+    "nvidia/Nemotron-SFT-Competitive-Programming-v2::text_to_sql": {
+      "assistant_visible_tokens": 19746,
+      "context_tokens": 185705,
+      "over16k": 0,
+      "rows": 60
+    },
+    "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2::reasoning_off": {
+      "assistant_visible_tokens": 83581,
+      "context_tokens": 105631,
+      "over16k": 0,
+      "rows": 92
+    },
+    "nvidia/Nemotron-SFT-Instruction-Following-Chat-v2::reasoning_on": {
+      "assistant_visible_tokens": 101664,
+      "context_tokens": 130215,
+      "over16k": 0,
+      "rows": 98
+    },
+    "nvidia/Nemotron-SFT-Math-v4::train": {
+      "assistant_visible_tokens": 103566,
+      "context_tokens": 120214,
+      "over16k": 0,
+      "rows": 180
+    },
+    "open-r1/OpenR1-Math-220k::train": {
+      "assistant_visible_tokens": 723509,
+      "context_tokens": 736601,
+      "over16k": 1,
+      "rows": 134
+    },
+    "open-thoughts/OpenThoughts-114k::train": {
+      "assistant_visible_tokens": 1334105,
+      "context_tokens": 1452835,
+      "over16k": 22,
+      "rows": 159
+    },
+    "osunlp/QUEST-SFT-Data-Objective::train": {
+      "assistant_visible_tokens": 185000,
+      "context_tokens": 969345,
+      "over16k": 0,
+      "rows": 66
+    },
+    "osunlp/QUEST-SFT-Data-Open-ended::train": {
+      "assistant_visible_tokens": 280453,
+      "context_tokens": 1308366,
+      "over16k": 8,
+      "rows": 89
+    },
+    "simplex-ai-inc/LiteResearcher-SFT-Data::train": {
+      "assistant_visible_tokens": 272914,
+      "context_tokens": 1440732,
+      "over16k": 28,
+      "rows": 100
+    }
+  },
+  "status": "RENDER_V2_COMPLETE__SELECTION_NOT_FROZEN",
+  "tokenizer_class": "Qwen2TokenizerFast",
+  "tokenizer_config_sha256": "60adcfc35f5f251e19a196ec977b4ca0fcfb534852911b3196d68d5e3b146aa0",
+  "tokenizer_json_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "tokenizer_path": "D:\\Project_Linked_Tensors\\monster-standard-inference-revival-2026-04-06\\incoming\\qwen3_4b_thinking_3shard"
+}

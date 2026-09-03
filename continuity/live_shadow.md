@@ -179,3 +179,10 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - Training body purity now hard law: Standard/CFE governance/bookkeeping/metadata/control state stays in sidecars only. Two learner-visible dataset-bookkeeping rows removed; successor SHA `6cfd187f...`, 1,800 rows descriptively.
 - Domain-world governance/policy remains allowed when genuinely required by the task; functional role rather than keyword decides.
 - First history/CFE/modern crosswalk has one explicit hole: adaptive effort/value-of-computation.
+
+
+## Turn delta — 2026-09-02 22:21 Eastern Daylight Time
+- ISD construction now has binding dependency-depth stages: T0 foundations, T1 relational, T2 systems, T3 open-world/college, T4 frontier synthesis. Spiral revisits required.
+- Stage assignment is sidecar-only; learner sees no grade/tier/CFE/Predator/governance labels.
+- V1 stage map resolves 153/1816 explicit project-generated rows and leaves 1663 `UNRESOLVED_TIER` rather than guessing.
+- CFE prerequisite topology/developmental basin remains research hypothesis; ISD uses staged order as a low-regret engineering shape pending causal test.

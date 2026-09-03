@@ -98,3 +98,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | 2026-09-02 | Standard adaptive reasoning effort / value-of-computation | historical + CFE appropriate-recruitment surface lacks dedicated Standard dimension | fake coverage via long CoT or generic tool depth | consequence-based cost/stopping episodes + anti-isomorphs | P0 | open | design only after purity/contamination-safe generator contract |
 | 2026-09-02 | Three-lineage episode-level verification | current tags predate full historical synthesis and are heuristic | tag counts fail hostile episode review | state-transition sample review + cross-domain anti-isomorphs | P0 | open | crosswalk-driven audit before freeze |
+
+| 2026-09-02 | ISD unresolved developmental tiers | 1663/1816 source rows lack verified dependency-depth assignment | infer tier from tags/difficulty/trace length | episode-level consequence review + prerequisite justification | P0 | open | resolve enough to compile causal order without cosmetic completeness |
+| 2026-09-02 | CFE prerequisite topology causal test | staging is coherent ISD engineering but causal advantage unearned | promote analogy into law | matched same-information dependency-respecting vs violating experiment | P0 science | open | prereg after current active science reconciliation |

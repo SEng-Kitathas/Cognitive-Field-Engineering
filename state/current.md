@@ -260,3 +260,15 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Purity hard-signature audit + manual review PASS: remaining four signatures are legitimate task-world content (three facility pre-admission policy references, one SHA-256 cryptography lesson), not project control-plane leakage.
 - Three-lineage mechanism crosswalk v1 created; 10 mechanism families. Current clear hole: adaptive reasoning effort/value-of-computation has no dedicated Standard dimension and SHALL NOT be faked by long CoT.
 - Training remains unauthorized pending hostile episode-level crosswalk review, selection/render freeze, final contamination/private-eval rerun, and explicit authorization.
+
+
+## ISD developmental dependency staging — 2026-09-02 22:21 Eastern Daylight Time
+- Operator made dependency-respecting tiered development the desired ISD shape: foundations/K-5 -> relational/6-8 -> systems/9-12 -> open-world/college -> frontier/target capability. School names are curator-side dependency-depth aliases, not literal grades/difficulty labels.
+- Binding ISD doctrine SHA `bb4b7112a7e9dfc07d7da314f7419319e14698a5366aa6af55530f7f192476da`; machine stage spec SHA `ca90687b8a661283633fa01c66d0548fa3672f0a37398de4a41b053fbf09781b`; mechanism progression matrix SHA `3c79b38d7823c82d01f91726157b883b7c4b99a76a6fc8ecff56ada38b28fdfc`.
+- Spiral rule active: earlier primitives recur under richer relational/currentness/conflict/representation contexts; stages are not sealed curricula.
+- All CFE/Isomorphic-Predator/reason-maintenance tricks remain curator-side and are applied at stage-appropriate depth; learner-facing body stays task-world-only.
+- Current local successor remains 1,816 rows descriptively, SHA `c9e9ae8d885f54a2848f14816fb6d45f64cde82a1999657e4b39d6993274c00f`; training payload remains local/non-Git.
+- First conservative stage map SHA `7e51033a62228ce01a954e8ebe3979f3f4a9b6f706b821ae7a658aae2e2b4113`: T0=19, T1=56, T2=46, T3=32, T4=0, UNRESOLVED=1663. Only explicit project-generated contracts are staged; unverified source rows are not guessed.
+- Isomorphic Predator first admitted family: adaptive effort/value-of-computation, 8 STOP/CONTINUE pairs; no new public V3 flags.
+- CFE prerequisite/dependency-order idea remains high-value hypothesis, not earned causal law; research note SHA `a58b8b4b2e3203fd8eab7b1e243436006ef1a25a8771a01695c2c256fc173084`.
+- No training authorization.

@@ -1,0 +1,41 @@
+{
+  "donor_surfaces": [
+    "AI reasoning archaeology/history",
+    "CFE earned science and research hypotheses",
+    "operator/personal reasoning structural archaeology",
+    "modern lawful/open AI research",
+    "clean ISD task families"
+  ],
+  "first_admitted_family": {
+    "mechanism": "ADAPTIVE_REASONING_EFFORT_VALUE_OF_COMPUTATION",
+    "pairs": 8,
+    "rows": 16,
+    "status": "QUALIFIED_INITIAL_COVERAGE_NOT_COMPLETE_UNIVERSAL_COVERAGE",
+    "successor_sha256": "c9e9ae8d885f54a2848f14816fb6d45f64cde82a1999657e4b39d6993274c00f"
+  },
+  "laws": [
+    "ISOMORPHIC_PREDATOR = CURATOR_SIDE_ONLY",
+    "SURFACE_MATCH != STRUCTURAL_ISOMORPH",
+    "POSITIVE_WITHOUT_ANTI_ISOMORPH != LOAD_BEARING_COVERAGE",
+    "FUNCTIONAL_RECURRENCE != SHARED_IMPLEMENTATION",
+    "PERSONAL/CFE/HISTORICAL/MODERN_DONOR_PROVENANCE -> SIDECAR_ONLY",
+    "TRAINING_BODY != CONTROL_PLANE",
+    "LEARNER SEES TASK-WORLD EXPERIENCE NOT THEORY LABELS"
+  ],
+  "pipeline": [
+    "extract functional contract",
+    "hunt positive isomorph leads",
+    "hunt anti-isomorph leads",
+    "verify learner-visible consequence/state transition",
+    "hostile-check surface-vs-structure confound",
+    "dedup",
+    "training-body purity",
+    "public/private contamination",
+    "target render/quality",
+    "admit only task-world episode; sidecar retains donor lineage"
+  ],
+  "role": "Search/compile structurally equivalent and anti-isomorphic task-world episodes from donor mechanisms without leaking donor ontology or governance into training.",
+  "schema": "cfe.isomorphic-predator.isd-policy.v1",
+  "status": "FIRST_CLASS_CURATOR_SIDE_ISD_MACHINERY",
+  "timestamp": "2026-09-02T22:10:23-04:00"
+}
