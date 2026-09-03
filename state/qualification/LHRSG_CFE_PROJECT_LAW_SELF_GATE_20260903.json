@@ -1,0 +1,34 @@
+{
+  "schema": "cfe.lhrsg.receipt.v1",
+  "status": "PASS",
+  "gate": "LINEAR_HUMAN_READ_SEMANTIC_GATE",
+  "artifact": "state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md",
+  "sha256": "cde0ef9aa141bac519f63bec2ca91c5f80f6a09a5267d02b29eee1387d64d1d2",
+  "bytes": 12239,
+  "lines": 239,
+  "reviewer_type": "MODEL_REVIEWER",
+  "reviewer": "PCMMAD Lab / active reasoning model",
+  "read_order": "line 1 through line 239, deterministic sequential order",
+  "coverage": {
+    "readable_units": 239,
+    "reviewed_units": 239,
+    "coverage_fraction": 1.0,
+    "unreadable_or_skipped_units": 0
+  },
+  "semantic_checks": [
+    "scope and authority coherence",
+    "relationship to Rahl Engineering SOP R4.1 and PDVER",
+    "promotion/admission/execution boundary",
+    "mutation invalidation semantics",
+    "automation-vs-semantic-review separation",
+    "opaque/binary boundary",
+    "large-artifact/no-sampling behavior",
+    "reviewer attribution honesty",
+    "anti-ritual/reuse behavior"
+  ],
+  "defects_found_in_final_artifact": [],
+  "pre_final_draft_defect_disposition": "Draft scope could be read too narrowly as only artifacts already relied upon. Final law was strengthened before activation so every readable artifact entering active CFE use requires LHRSG before semantic reliance; training rows, eval items, and execution-authoritative code/source bundles are explicit hard applications.",
+  "mutation_after_final_read": false,
+  "timestamp": "2026-09-03T16:12:00-04:00",
+  "law": "READABLE -> LINEAR READ -> SEMANTIC GATE -> ONLY THEN SEMANTIC USE / LOAD-BEARING"
+}

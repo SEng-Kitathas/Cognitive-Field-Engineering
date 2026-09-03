@@ -1,0 +1,168 @@
+{
+  "continuity_lhrsg": {
+    "defects_repaired": [
+      "stale old-ruler authority",
+      "stale SPACED priority",
+      "chronological authority ambiguity",
+      "stale Design Thread header",
+      "stale Live Shadow metadata"
+    ],
+    "receipt": {
+      "bytes": 4796,
+      "lines": 105,
+      "path": "state/qualification/LHRSG_CONTINUITY_SURFACES_POST_MEASUREMENT_REPAIR_20260903.json",
+      "sha256": "7d3b76e4736194bd7950fbb6b37bf4e930c1a322cc34655b4150273b3b82ad6f"
+    },
+    "status": "PASS_10_OF_10_SURFACES__100_PERCENT_READABLE_COVERAGE"
+  },
+  "continuity_surfaces": [
+    {
+      "bytes": 6527,
+      "lines": 101,
+      "path": "state/current/ACTIVE_CURRENT_STATE.json",
+      "sha256": "8b5dbd8b2c65884f28f5d2ab45e478c3a8e81bfd35e87c8110cc711fb1045f70"
+    },
+    {
+      "bytes": 3048,
+      "lines": 35,
+      "path": "state/next_steps/ACTIVE_NEXT_STEPS.json",
+      "sha256": "b755132c88f85269fa672cb195d75134c3d46f45817a8d1e1c2bfa7abeded5c0"
+    },
+    {
+      "bytes": 61849,
+      "lines": 370,
+      "path": "state/current.md",
+      "sha256": "0c77b74583ffdb0d87e2662385b5715123d81a3bd54dbc7bce7eefe2dca73564"
+    },
+    {
+      "bytes": 33759,
+      "lines": 239,
+      "path": "state/next_steps.md",
+      "sha256": "f05086550e2c14e0b1bb8f51bcc7496db8d171e468a892533ba694c0374cc525"
+    },
+    {
+      "bytes": 7829,
+      "lines": 53,
+      "path": "state/doctrine_snapshot.md",
+      "sha256": "3428dcc86b5bff741f305be04c965e7697dba3b91655525f7c13c7b625d48b30"
+    },
+    {
+      "bytes": 8826,
+      "lines": 68,
+      "path": "state/doctrine_snapshot/ACTIVE_DOCTRINE_SNAPSHOT.md",
+      "sha256": "fb9c6cd85cb62ecb66f22b5c1649fc8340073c496d1628f5bfa84dbb981f31bb"
+    },
+    {
+      "bytes": 26248,
+      "lines": 142,
+      "path": "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md",
+      "sha256": "85cbd8ffce193da00cc6a126a7bc8acc2277fad682fe1a54a4762f19a0a79277"
+    },
+    {
+      "bytes": 50003,
+      "lines": 231,
+      "path": "state/trace_matrix/ACTIVE_TRACE_MATRIX.md",
+      "sha256": "0340193c94354d4a121628b186e05260d640e2f4e1de4bf72942baaca610e4e7"
+    },
+    {
+      "bytes": 11469,
+      "lines": 125,
+      "path": "state/live_shadow.md",
+      "sha256": "2dc598844019f474abd9648f344587ad4ed07a2c91d1747b76eefbc803018eef"
+    },
+    {
+      "bytes": 120908,
+      "lines": 1402,
+      "path": "state/design_thread_stream.md",
+      "sha256": "59be8a1d1323a0a0f8a08d3a89c14fefd4b98c56147f4b912d58407b28af2b32"
+    }
+  ],
+  "created_at": "2026-09-03T16:36:00-04:00",
+  "execution": {
+    "active_eval_job": null,
+    "active_training_job": null,
+    "new_training_launched_during_lhrsg_activation": false
+  },
+  "measurement_repair": {
+    "current_eval": {
+      "bytes": 62492,
+      "lines": 96,
+      "path": "state/analysis/ISD_MAGNUM_EVAL_V2R7_20260903/ISD_EVAL_V2.private.jsonl",
+      "sha256": "cf2568d771bc2d2484bd1f300308572cee8c4beefc53dea2cf10021c7324e2d8"
+    },
+    "current_eval_independent_verification": {
+      "bytes": 1904,
+      "lines": 53,
+      "path": "state/analysis/ISD_MAGNUM_EVAL_V2R7_20260903/INDEPENDENT_VERIFICATION.json",
+      "sha256": "79d2e4d48ce8440cdd73897dec822cedfb93fdf58f5fd670d1df161c66cf5d48"
+    },
+    "current_eval_lhrsg_receipt": {
+      "bytes": 3070,
+      "lines": 54,
+      "path": "state/qualification/LHRSG_ISD_MAGNUM_EVAL_V2R7_20260903.json",
+      "sha256": "f89124692a03596caaff52dc6d296ef4ba0dc8bb531824d8a74812966f766dc5"
+    },
+    "current_eval_manifest": {
+      "bytes": 2290,
+      "lines": 85,
+      "path": "state/analysis/ISD_MAGNUM_EVAL_V2R7_20260903/EVAL_V2_MANIFEST.json",
+      "sha256": "305d863e73aea726e2f5e03ca2df8666fd2a041a9f346efd1f11199390b26a28"
+    },
+    "current_eval_status": "V2R7__96_OF_96_LHRSG_PASS__POST_OUTCOME_DIAGNOSTIC__PROSPECTIVELY_FREEZABLE_IF_EXACT_HASH_BOUND_PRE_OUTCOME",
+    "historical_runs": "preserved as intervention archaeology / post-outcome information; old full-AE phenotype claim not load-bearing",
+    "old_eval_audit": {
+      "bytes": 4146,
+      "lines": 55,
+      "path": "state/analysis/ISD_MAGNUM_EVAL_AUDIT_AND_MINING_V1_20260903/EVAL_DUPLICATION_AND_CHOICE_BIAS_AUDIT_V1.json",
+      "sha256": "de5124366219c61dd2bf0b75d698f6498730ef375c52ce8b49f105f249cf428e"
+    },
+    "old_eval_status": "DEFECTIVE__HISTORICAL_ONLY",
+    "withdrawn_inference": "old within-seed p=0.03125 from six duplicated Adaptive-Effort item discordances"
+  },
+  "mode": "CHECKPOINT__LHRSG_ACTIVE",
+  "process_authority": {
+    "package": "RAHL_ENGINEERING_CANONICAL_SOP_R4_1_2026-09-03.zip",
+    "sha256": "af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2"
+  },
+  "project_law": {
+    "artifact": {
+      "bytes": 12239,
+      "lines": 239,
+      "path": "state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md",
+      "sha256": "cde0ef9aa141bac519f63bec2ca91c5f80f6a09a5267d02b29eee1387d64d1d2"
+    },
+    "core": "READABLE -> LINEAR READ -> SEMANTIC GATE -> ONLY THEN SEMANTIC USE / LOAD-BEARING",
+    "name": "Linear Human Read / Semantic Gate",
+    "self_gate_receipt": {
+      "bytes": 1643,
+      "lines": 34,
+      "path": "state/qualification/LHRSG_CFE_PROJECT_LAW_SELF_GATE_20260903.json",
+      "sha256": "5c2b65d947f9e07bd28b16a2dafb1c105e7aac2bbecb6bbb828be5980739b55e"
+    }
+  },
+  "publication": {
+    "current_lhrsg_measurement_repair_changes_published": false,
+    "last_verified_publication_head": "3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3"
+  },
+  "resume_point": "Begin deterministic 1,840/1,840 LHRSG on exact learner-visible Magnum training body SHA b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef. Sampling forbidden. Any defect -> append-only corrected successor + full gate replay. No new training before gate PASS and prospective experiment/eval/scorer freeze.",
+  "role": "R1 Conservative Auditor + R4 Convergence Refiner",
+  "schema": "cfe.continuity.checkpoint.v2",
+  "status": "CHECKPOINT_COMPLETE__LHRSG_ACTIVE__MEASUREMENT_REPAIR_RECONCILED__TRAINING_BODY_GATE_NEXT",
+  "training_body": {
+    "artifact": {
+      "bytes": 134605263,
+      "lines": 1929,
+      "path": "state/analysis/ISD_MAGNUM_OPUS_CANDIDATE_V1_20260903/ISD_CANONICAL.private.jsonl",
+      "sha256": "b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef"
+    },
+    "lhrsg_status": "INCOMPLETE_0_OF_1840_UNDER_NEW_PROJECT_LAW",
+    "rows": 1840,
+    "structural_disposition": {
+      "bytes": 4371,
+      "lines": 77,
+      "path": "state/analysis/ISD_MAGNUM_TRAINING_BODY_AUDIT_V2_20260903/TRAINING_BODY_DISPOSITION_V2.json",
+      "sha256": "f9392dc680d111003ce669185d98f6d0005115c296f936b48545e3b5387b3591"
+    },
+    "training_authorized": false
+  }
+}

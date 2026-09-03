@@ -2,7 +2,7 @@
 
 ## Header
 - Thread: CFE takeover / recovery / build
-- Last Updated: 2026-08-29
+- Last Updated: 2026-09-03
 - Purpose: chronological recovery spine
 
 ---
@@ -1248,3 +1248,235 @@ Operator clarified that the previously stated five-tier ISD developmental shape 
 
 ## Turn — ASSISTANT / CANONICALIZATION
 Reconciled all surrounding doctrine into a single canonical ISD blueprint and machine build contract. Preserved historical artifacts rather than rewriting them. Five-tier spiral is now binding ISD engineering authority; causal superiority remains an experiment. Integrated three-lineage informing, Isomorphic Predator, anti-isomorphs, identifying contrast, LHIT/currentness, reason-maintenance/support topology, local rollback, failure reuse, representation refinement, adaptive effort, stage-neutral support, purity, long-context reserve discipline and matched DEVELOPMENTAL_SPIRAL vs ORDER_DESTROYED_CONTROL first-run design.
+
+
+## 2026-09-03 12:07 ET — USER
+Tags: AUTHORIZATION, DURABILITY, AUTONOMOUS_CONTINUATION
+
+User: “Proceed as you see fit, keep it durable and check pointed etc”
+
+---
+
+## 2026-09-03 12:07–12:16 ET — ASSISTANT
+Tags: BUILD-COMMIT, RECOVERY_QUALIFICATION, PREREGISTRATION, REPLICATION_LAUNCH
+
+Assistant selected a stronger paired next experiment rather than a one-arm rerun: six fresh paired seeds comparing identical 140-exposure fields with the same first 19 T0 foundations and same four T0 revisit exposures, differing only in revisit placement (LATE after all T1 vs FRONTLOAD before T1). This simultaneously tests whether 19 foundations are sufficient for the Adaptive-Effort transfer at exposure136 and whether late revisit timing produces the Discriminator-Selection jump at exposure140.
+
+Durability work preceded launch. A new append-only resilient trainer was created rather than mutating the historical trainer. It checkpoints adapter+optimizer+progress+trainable hashes every 5 optimizer steps and at milestones, supports recovery from `recovery_current` without dose replay, validates seed/experiment/step/exposure/loss-log/milestone lineage, and emits a resume receipt.
+
+Historical recovery checkpoint exposure119/step30 was replayed through exposure140 as qualification. Resume completed with no dose replay. Final weights were not bit-identical to the original due to an explicitly warned non-deterministic memory-efficient attention backward path, but all 96 frozen categorical predictions and correctness outcomes matched. Recovery qualification status: `PASS_BEHAVIORALLY_EQUIVALENT__NOT_BIT_EXACT`, SHA `7d7de1fff6e02007cd58a7d244ead8ced504273ae46a8831dd5ef627d0c00235`.
+
+New replication campaign frozen before outcomes at `state/analysis/ISD_MAGNUM_BLOCK_A_REVISIT_TIMING_REPLICATION_V1_20260903`, identity `68ed5b31b50c6ed70b6bc7df919edf3e157d65be1f4daf16a8649230d31409b6`, lock SHA `835daa791b3933e67963c9ff0923a9a3bc9374553d816bcebff012793209d4e0`. Seeds 2026090501..2026090506; arm order alternates by seed. Paired initial hashes and exact exposure19 trainable/adapter hashes are required to match.
+
+Server-native runner launched as `job-d1276bf4bfb6`, launcher PID `39020`. First arm seed2026090501 LATE reached exposure23/140, step6/36, 68C. Exposure19/step5 recovery checkpoint and milestone were verified persisted with adapter SHA `fcbe1105e4a9b8359be66e11ccbbe8f6a53408ff9cbe92cdc7c1632a74950803`, optimizer SHA `b2ac60e7aae9a5932e24b786ecf26dbd73177e44312280b4bf5a631904127e55`, trainable SHA `1b523dd06a6d219e7d632cda445ae320e513bc2f49b7e82c1fdf5033e6b0a6fd`.
+
+No replication scientific outcome existed at this point.
+
+
+## CONTINUITY GAP REPAIR — SOP / PDVER SIDEBAR
+Time window: 2026-09-03 after revisit-timing launch and before 14:09 ET adoption entry
+Status: RETROACTIVE CHRONOLOGY REPAIR; exact per-turn timestamps were not persisted, sequence below is preserved.
+
+### USER
+Tags: CFE / ISD ONTOLOGY, THIRD LAYER
+User observed that CFE and ISD were currently blurred: ISD may become the base/substrate, CFE the science, and the learner-specific topology/field probe/traversal/fine-tune layer likely needed a distinct term.
+
+### ASSISTANT
+Tags: ONTOLOGY SEPARATION, PROVISIONAL NAMING
+Assistant separated CFE=science, ISD=developmental substrate/reference field, and provisionally suggested Developmental Field Navigation/Compiler for the learner-specific operational loop.
+
+### USER
+Tags: PDVER
+User observed: “Step three is PDVER!” and noted that this may resolve the naming problem.
+
+### ASSISTANT
+Tags: AUTHORITY CHECK
+Assistant searched the live CFE project, found no local PDVER definition, and explicitly refused to invent the acronym expansion; DFN was demoted to a placeholder pending canonical doctrine.
+
+### USER
+Tags: SOP, ENGINEERING DOCTRINE, PDVER
+User instructed the lab to check the SOP and Engineering Doctrine because PDVER should already be a defined semantically-compressed fractal algorithm.
+
+### ASSISTANT
+Tags: PDVER AUTHORITY RESOLVED
+Assistant verified current engineering canon defines PDVER as `Probe -> Derive -> Verify -> Embody -> Recurse`; identified older `Probe -> Derive -> Embody -> Verify -> Recurse` wording as historical lineage rather than current process authority.
+
+### USER
+Tags: BASE-TIER ENGINEERING METABOLISM, OPERATOR DOCTRINE
+User clarified that PDVER was always intended as a base requirement for nontrivial work, paired with hostile engineering, Semantic Helix, Attention Reservoir, Loop+, OARR, CSC, and additive AI strengths acting as a co-processor for early failure surfacing, synthesis, isomorphs, cross-human knowledge reach, and blind-spot pressure. User explicitly rejected using the full machinery ceremonially on trivial problems.
+
+### ASSISTANT
+Tags: DOCTRINE OVERRIDE, EMBODIMENT
+Assistant treated the clarification as load-bearing process doctrine, persisted `notes/maintenance/BASE_TIER_ENGINEERING_METABOLISM_OPERATOR_OVERRIDE_20260903.md`, and recorded the law that base-tier functional obligations are standing for nontrivial work while visible linear ritual is not mandatory.
+
+### USER
+Tags: CANONICAL SOP MUTATION
+User instructed: “Fix the package, we’re just killing time waiting on the run.”
+
+### ASSISTANT
+Tags: BUILD-COMMIT, SOP SELF-APPLICATION
+Assistant began repairing the canonical Rahl Engineering SOP package, including PDVER/base-tier semantics and verifier/hostile-test hardening, while preserving lineage rather than silently erasing prior wording.
+
+### USER
+Tags: MANUAL LINEAR INSPECTION, SOP-ON-SOP
+User required a manual linear inspection/read of every file before handoff and explicitly instructed the lab to apply the SOP to fixing the SOP as the final step.
+
+### ASSISTANT
+Tags: RELEASE GATE, HOSTILE VERIFICATION
+Assistant added the hard release gate, manually inspected all 36 outer package files after final mutation, treated nested ancestry ZIPs as sealed ancestry with hash/member/CRC verification, found and repaired a verifier weakness in required-document enforcement, expanded the hostile suite to 17 cases, and clean-extraction verified the rebuilt package.
+
+### USER
+Tags: PROCEED
+User instructed: “Proceed.”
+
+### ASSISTANT
+Tags: PROMOTION, PACKAGE SEALED
+Assistant sealed `RAHL_ENGINEERING_CANONICAL_SOP_R4_1_2026-09-03.zip` SHA `af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2`; verifier PASS, hostile suite 17/17 rejected, manual 36/36 inspection PASS, clean extraction identity PASS.
+
+---
+
+## 2026-09-03 14:09 ET — USER
+Tags: SOP ADOPTION, AUTHORITY PROMOTION
+
+User: “Okay adopt the SOP package”
+
+---
+
+## 2026-09-03 14:09–14:10 ET — ASSISTANT
+Tags: PROMOTION, DOCTRINE BINDING, AUTHORITY CLEANUP
+
+Assistant adopted `RAHL_ENGINEERING_CANONICAL_SOP_R4_1_2026-09-03.zip` (SHA `af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2`) as the active project-agnostic engineering-process and cold-start authority for CFE. R4.0 was demoted to historical lineage. The earlier operator override note remains as provenance but is no longer a parallel active authority because its semantics are incorporated into R4.1. Adoption receipt persisted at `notes/maintenance/RAHL_ENGINEERING_SOP_R4_1_ADOPTION_20260903.md` SHA `c24198eccb1aed682ae406b2cfd8356778d760dffc2c97d7e4be73355b01c1e6`. No CFE scientific result was promoted or altered.
+
+
+## 2026-09-03 14:09 ET — USER
+Tags: ACTUAL PROJECT AUDIT, SOP ADHERENCE, CONTINUITY UPDATE
+
+User: “Check on the actual project now, and remain adherent to SOP, and update all continuity docs”
+
+---
+
+## 2026-09-03 14:09–14:36 ET — ASSISTANT
+Tags: AUDIT, CHECKPOINT, PDVER, HOSTILE INTERPRETATION, CONTINUITY REPAIR
+
+Assistant re-grounded from the live CFE server/project rather than chat memory. Rehydrator returned partial context and explicitly failed to select Live Shadow / Design Thread Stream, so assistant read the project continuity surfaces directly and reconciled them against the execution job and campaign artifacts.
+
+Verified `job-d1276bf4bfb6` is COMPLETED RC0. Campaign `state/analysis/ISD_MAGNUM_BLOCK_A_REVISIT_TIMING_REPLICATION_V1_20260903` has 12/12 run manifests, 18 eval manifests, zero resume receipts, and authoritative result SHA `417ec4a2072beee05f822a54e732a935dd56984ff2a5a70014c6463dff628551`. Independent recomputation confirmed all six paired initial trainable hashes, first19 trainable hashes, and first19 adapter hashes match.
+
+Preregistered Q1 foundations19 sufficiency produced 1/6 successes -> `NOT_REPLICATED`; exploratory general-sufficiency claim demoted. Preregistered Q2 late-vs-frontload Discriminator timing produced 0 late wins / 6 ties / 0 frontload wins with two-sided sign p=1.0; within-LATE discriminator 136->140 was 0 positive / 6 zero / 0 negative; exploratory late-revisit Discriminator claim demoted. Secondary Adaptive Effort remained path-sensitive: LATE full phenotype 1/6 at 136 -> 4/6 at 140; FRONTLOAD 2/6 at 140; LATE-vs-FRONTLOAD 2 wins / 4 ties / 0 losses, p=0.5; within-LATE 3 positive / 3 zero / 0 negative, p=0.25. Earlier prerequisite-first vs phase-scramble six-seed result remains independently load-bearing (5 treatment wins / 1 tie / 0 scramble wins). Current claim ceiling: field order matters in the fixed regime; simple foundations-only or late-revisit recipes are not supported; seed/path sensitivity is observed but internal cause unresolved.
+
+Sealed `SCIENTIFIC_DISPOSITION_V1.json` SHA `0b7073e6776ccdbf23efb60eb8cbdc2f4a40942321540009a09fe936fcbf4a51`. No new training was launched.
+
+Continuity repair: current Live Shadow had drifted to a 45,015-byte append log, violating bounded-shadow doctrine. Preserved it at `state/checkpoints/live_shadow/LIVE_SHADOW_PRE_BOUNDED_REPAIR_20260903.md` SHA `a36a6cd0880af4ddc79c66e5f74d57fde7f4e30115fcc3b91be27b87facacde9`, then rebuilt active Live Shadow into structured bounded state. Design Thread Stream itself had omitted several PDVER/SOP-package sidebar turns; preserved pre-repair stream at `state/checkpoints/design_thread_stream/DESIGN_THREAD_STREAM_PRE_GAP_REPAIR_20260903.md` SHA `2d0bbb548a4fd9327399f4ac6abc44d449eb7ba9e174722ddbd3f6681c62bf07` and inserted an explicit retroactive chronology-repair block before the existing R4.1 adoption entry.
+
+Updated machine and human continuity surfaces: active current state, active next steps, top-level current, top-level next steps, top-level doctrine snapshot, active doctrine snapshot, revisit ledger, trace matrix, Live Shadow, and Design Thread Stream.
+
+Actual-project SOP embodiment audit found R4.1 adoption receipt/hash are project-local but the sealed R4.1 ZIP payload itself is not present under live project root. Created project-local active authority binding `doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md` SHA `f9a2a1bcb529765069246ee6f46847cdb6629c628fee49b50f8b2c138d45f899`, explicitly recording the external package-payload boundary rather than falsely claiming the ZIP is local.
+
+Publication-plane readback: live project root is not a Git repo. Publication checkout is clean `main`, HEAD == origin/main at `3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3` (`Seal canonical ISD developmental blueprint`). New replication/disposition/continuity changes are local and not claimed published.
+
+Provisional next discriminator, not launched: mine existing 12-arm trajectory/margin/loss/checkpoint data first; if unresolved, preregister original-SPACED schedule on the same seeds `2026090501..0506` to create within-seed SPACED vs completed LATE vs FRONTLOAD schedule-geometry comparison.
+
+
+## 2026-09-03 — USER
+Tags: PROJECT LAW, LHRSG, SEMANTIC REVIEW
+
+User: “The Linear Human Read/Semantic Gate should be a project law- if it can be read, it gets Linear Human Read/Semantic Gate”
+
+---
+
+## 2026-09-03 — ASSISTANT
+Tags: BUILD-COMMIT, PROJECT LAW, SOP SELF-APPLICATION, MEASUREMENT REPAIR, CONTINUITY
+
+Assistant treated the directive as a load-bearing CFE project-law mutation, not an eval-specific preference. A draft LHRSG law was created at `notes/maintenance/CFE_LINEAR_HUMAN_READ_SEMANTIC_GATE_LAW_DRAFT_20260903.md` and explicitly marked inactive pending its own semantic gate. The draft was read linearly 1->221; that self-read found a scope weakness that could have limited the law to artifacts already being relied upon. The final law was strengthened so every readable artifact entering active CFE semantic use requires complete deterministic semantic review before reliance/admission/execution authority/promotion/sealing/publication. Hard applications include every learner-visible training row, every eval item, every readable source/config/build file in execution-authoritative or promoted bundles, and complete reports/specifications/doctrine. Sampling/search/automation do not substitute; consecutive chunking is allowed but coverage must reach 100%.
+
+Final ACTIVE law: `state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md`, SHA `cde0ef9aa141bac519f63bec2ca91c5f80f6a09a5267d02b29eee1387d64d1d2`. Exact final artifact was read sequentially line 1->239 with no remaining semantic defect. Self-gate receipt: `state/qualification/LHRSG_CFE_PROJECT_LAW_SELF_GATE_20260903.json`, SHA `5c2b65d947f9e07bd28b16a2dafb1c105e7aac2bbecb6bbb828be5980739b55e`.
+
+Applying the new law immediately corrected a prior overclaim: V2R4 had not actually received a full post-mutation 96-item read despite earlier wording implying it had. A true full read found additional defects and forced rebuilds. V2R4 failed on discriminator grammar and a substantive contract-review Adaptive-Effort contradiction; V2R5 failed on further readable-quality/semantic issues; V2R6 failed on a telemetry no-signal ambiguity. None were promoted.
+
+V2R7 was generated after these corrections. Its automated builder gates passed, independent verifier PASS, 5/5 hostile mutations rejected. Then the exact final JSONL was read in deterministic row order 1->96 with every full JSON record, all fields, full prompt, all four options, expected label, semantic answer, pair/scenario/variant identity, and rotation metadata inspected. No substantive semantic defect remained. V2R7 exact SHA `cf2568d771bc2d2484bd1f300308572cee8c4beefc53dea2cf10021c7324e2d8`, bytes 62492. LHRSG PASS receipt `state/qualification/LHRSG_ISD_MAGNUM_EVAL_V2R7_20260903.json`, SHA `f89124692a03596caaff52dc6d296ef4ba0dc8bb531824d8a74812966f766dc5`; the receipt itself was read end-to-end after write.
+
+The new law changes training authorization. Canonical Magnum training body `ISD_CANONICAL.private.jsonl`, 1840 rows, SHA `b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef`, remains byte-unchanged because structural/purity audits did not establish a learner-visible defect. However it has NOT received complete 1840-row LHRSG, so current status is `LHRSG_INCOMPLETE__NOT_TRAINING_AUTHORIZED`. No historical artifact is grandfathered by rhetoric.
+
+Old frozen ISD eval remains DEFECTIVE/HISTORICAL: 96 rows -> 46 unique prompts, five families duplicated one semantic pair six times, and answer-token calibration confounded key Adaptive-Effort flips. Old within-seed p=0.03125 from six duplicated item differences is withdrawn as pseudo-replication. Historical Block-A interventions/checkpoints/schedules remain valid information/intervention archaeology, but the old full Adaptive-Effort phenotype claim is not load-bearing. Fresh preregistered replication under an exact prospectively frozen LHRSG-passed training body/eval/scorer is required before scientific restoration.
+
+Continuity propagation began: active current state/next steps, top-level current/next steps, doctrine snapshots, revisit ledger, trace matrix, Live Shadow, and this Design Thread Stream were updated. Immediate frontier changed to post-mutation continuity LHRSG/checkpoint, then full 1840-row training-body LHRSG. No new training was launched.
+
+
+## 2026-09-03 — CHECKPOINT REGISTRATION / ASSISTANT
+Tags: LHRSG, CHECKPOINT, REGISTRATION, READBACK
+
+After the LHRSG law, V2R7 repair, and continuity reconciliation were embodied, assistant linearly read the exact 168-line checkpoint `state/checkpoints/CFE_CONTINUITY_CHECKPOINT_LHRSG_MEASUREMENT_REPAIR_20260903_1636.json`, SHA `d549315e73af6cf59d43e3533c6f685de75775239c117d055a865b2e391fbdd7`, with no semantic defect. A checkpoint-specific LHRSG receipt was created at `state/qualification/LHRSG_CONTINUITY_CHECKPOINT_20260903_1636.json`, SHA `cc79e9e1b8559fafbdf92e6ccbc35b233256bb23b58d3a1709dc9e19c75a6c40`, and itself read end-to-end 29/29 lines.
+
+The checkpoint was registered successfully as artifact class `continuity.checkpoint`, logical name `CFE_CONTINUITY_CHECKPOINT_LHRSG_MEASUREMENT_REPAIR_20260903_1636.json`, registration commit `execution-register-fa038d25`. Commit-status readback returned the same path, 6,677 bytes, and SHA `d549315e73af6cf59d43e3533c6f685de75775239c117d055a865b2e391fbdd7`.
+
+One parser-boundary observation was explicitly recorded: the 134 MB canonical training body contains 1,840 streaming JSON records but Python `splitlines()` reports 1,929 units because embedded Unicode line-separator characters occur inside records. The upcoming training-body LHRSG SHALL therefore use streaming-parsed JSON records as the 1,840 semantic units in deterministic stream order, not naive `splitlines()`.
+
+No new training or eval run was launched. Resume point remains the exact 1,840-row learner-visible training-body LHRSG.
+
+
+## 2026-09-03 17:08 ET — USER
+Tags: THREAD EXIT, FULL GITHUB UPDATE, R4.1, CONTINUITY, SOP ADHERENCE
+
+User: “I need a full github project update, especially all continuity and SOP required documents per R4.1 as should be your current SOP- this thread is unfortunately full- and please ensure that the SOP is applied to this as you do it”
+
+State effect: explicit thread-exit/reincarnation publication request. Public GitHub continuity becomes immediate P0. R4.1 and LHRSG apply to the publication operation itself.
+
+---
+
+## 2026-09-03 17:08+ ET — ASSISTANT / THREAD-EXIT CHECKPOINT BUILD
+Tags: BUILD-COMMIT, REHYDRATION, PUBLICATION, LHRSG, R4.1
+
+Assistant re-grounded from the actual CFE project/server rather than chat memory. Verified project execution capacity reports zero running jobs. Verified publication checkout `publication/github/Cognitive-Field-Engineering` was clean before mutation at `main == origin/main == 3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3`.
+
+Publication-policy readback confirmed the normal Git boundary: publish source/tooling, continuity, doctrine/policy, public-safe scientific contracts/manifests/hashes/analyses/receipts; do not put model weights, checkpoints/adapters, private full training/eval payloads, protected/gated benchmark text, credentials, transient sync logs, or giant forensic packages into normal Git.
+
+Audit of public re-entry surfaces found material staleness: README/reincarnation chain still named R3.1 as active and pointed to an obsolete v1.1/Standard-Uplift frontier. Current local authority is Rahl Engineering R4.1 plus CFE-local LHRSG. Therefore a fresh 2026-09-03 rehydration packet is required rather than merely copying old files.
+
+Created local human rehydration packet `state/NEW_THREAD_REHYDRATION_2026-09-03.md` SHA `c06c46995d5aab17ce8b7e12930163e9a3a30fab8b6fefbf68a1e48aac4bd884` and machine packet `state/NEW_THREAD_REHYDRATION_2026-09-03.json` SHA `a6d0b124ec0cc60dcfb833c9ce13aee13e712e97d5a3feef4ae3b8b01e66cbe6`.
+
+The handoff preserves the current science boundary: DD1R1 remains separately earned fixed-regime `FIELD_RESOLUTION_SUPPORTED`; old Block-A frozen eval is defective/historical and its full-AE interpretation/pseudo-replicated within-seed p=.03125 are demoted/withdrawn; historical interventions remain usable archaeology; V2R7 is the current repaired 96/96 LHRSG-passed eval candidate; canonical 1,840-row learner-visible Magnum body remains exact SHA `b85229cd...` but `LHRSG_INCOMPLETE__NOT_TRAINING_AUTHORIZED`.
+
+Reviewer execution archaeology was preserved so a new thread does not repeat failed routes blindly: 4B/7B classifier/reviewer protocols failed hostile semantic qualification; Capybara free-form semantics passed a small qualifier but throughput was impractical; parallel/35B service attempts did not produce an admitted full-review path. No reviewer service remains active.
+
+Assistant updated active current/next machine state and appended thread-exit publication state to current, next steps, doctrine, revisit ledger, trace matrix, and this Design Thread Stream. Publication is still `IN_PROGRESS` at this entry; no remote success claim is authorized until post-mutation LHRSG, Git commit/push, and remote-head readback complete.
+
+
+## 2026-09-03 17:08 ET — USER
+Tags: THREAD CAPACITY, FULL GITHUB UPDATE, R4.1, CONTINUITY, SOP APPLICATION
+
+User: “I need a full github project update, especially all continuity and SOP required documents per R4.1 as should be your current SOP- this thread is unfortunately full- and please ensure that the SOP is applied to this as you do it”
+
+State change:
+- Thread reincarnation/publication became P0.
+- User explicitly required R4.1 to govern the publication itself.
+- Fresh-thread restart completeness, not merely a status summary, became the delivery target.
+
+---
+
+## 2026-09-03 17:08–17:16 ET — ASSISTANT
+Tags: BUILD-COMMIT, R4.1, LHRSG, PUBLICATION AUDIT, REINCARNATION
+
+Assistant re-grounded from the live local CFE project and publication checkout rather than chat memory. Verified project root `E:\new pc\AI_Pushes_Sandbox\projects\CFE`; Git publication checkout `publication/github/Cognitive-Field-Engineering`; remote `SEng-Kitathas/Cognitive-Field-Engineering`; pre-update HEAD `3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3`; clean worktree.
+
+Reconfirmed Rahl Engineering Canonical SOP R4.1 as active process authority and CFE Linear Human Read / Semantic Gate as active project law. Read exact R4.1 authority/adoption/state-binding surfaces and the latest active Commander’s Intent binding plus cartographic/fleet intent addenda before promotion.
+
+Verified current scientific state from active continuity: old ISD frozen eval remains defective/historical; V2R7 is current repaired 96-row/48-pair eval with 96/96 exact LHRSG PASS; historical Block-A interventions remain information but original full Adaptive-Effort phenotype claim is demoted; DD1R1 remains separately earned; DD2 remains unresolved. Canonical 1,840-row learner body SHA `b85229cd...` remains byte-unchanged but LHRSG-incomplete and not training-authorized.
+
+Persisted reviewer-method status at `state/analysis/ISD_MAGNUM_LHRSG_REVIEWER_METHOD_STATUS_20260903.json` SHA `a87644b1c91cdff14ef3c42b3f09f59b026c3c7b4da7bbc5944c2a8071fee022`: fast Qwen3-4B/Qwen2.5-Coder-7B semantic-review protocols failed hostile qualification; CapybaraHermes free-form review passed basic semantic qualification but ~45 tok/s prompt ingestion was too slow for practical 134 MB full-body LHRSG; one-token protocol regressed semantic detection; 8-slot benchmark job `job-1f83395d2146` ended RC1 after task cancellation/timeout and produced no corpus/science result. Machine process readback then verified no active CFE training/eval/rescore/reviewer process.
+
+Assistant updated active current/next, chronological current/next, doctrine snapshots, revisit ledger, trace matrix, and rebuilt bounded Live Shadow for thread-reincarnation publication. Publication boundary locked: public-safe restart-critical files only; do not stage full private training/eval/result payloads, protected/gated benchmark text, credentials, model weights/adapters, or heavy runtime artifacts.
+
+Next exact sequence: build new-thread handoff + publication manifest/entry surfaces -> LHRSG every new/mutated readable promoted artifact or reuse unchanged exact-hash receipts -> copy to publication checkout -> commit/push -> remote readback -> publication receipt + final continuity push.
+
+
+## 2026-09-03 — USER
+Tags: GLOBAL GIT SETUP, CREDENTIALS, OPERATOR ACTION
+
+User requested that the assistant perform the Git setup directly and open a local PowerShell window for credential entry, with configuration global to all projects.
+
+---
+
+## 2026-09-03 — ASSISTANT
+Tags: BUILD-COMMIT, GLOBAL GIT, SECURE LOCAL INPUT
+
+Assistant launched a visible PowerShell window titled `Global Git + GitHub Setup`. The window prompts locally for Git author name/email, writes them with `git config --global`, sets `credential.helper=manager`, and starts `git credential-manager github login`. Sensitive authentication material is not captured into chat, project files, or tool output. State: popup launched successfully; awaiting operator completion before verification and resuming the GitHub publication.

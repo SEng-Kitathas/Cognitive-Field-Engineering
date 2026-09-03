@@ -1,0 +1,85 @@
+{
+  "answer_position_counts_by_family": {
+    "ADAPTIVE_EFFORT": {
+      "A": 3,
+      "B": 3,
+      "C": 3,
+      "D": 3
+    },
+    "COMPOSITION_TRANSFER": {
+      "A": 3,
+      "B": 3,
+      "C": 3,
+      "D": 3
+    },
+    "CURRENTNESS_SELECTIVE": {
+      "A": 3,
+      "B": 3,
+      "C": 3,
+      "D": 3
+    },
+    "DEPENDENCY_LOCAL_REPAIR": {
+      "A": 3,
+      "B": 3,
+      "C": 3,
+      "D": 3
+    },
+    "DISCRIMINATOR_SELECTION": {
+      "A": 3,
+      "B": 3,
+      "C": 3,
+      "D": 3
+    },
+    "GENERAL_CONSTRAINT": {
+      "A": 3,
+      "B": 3,
+      "C": 3,
+      "D": 3
+    },
+    "REPRESENTATION_REFINEMENT": {
+      "A": 3,
+      "B": 3,
+      "C": 3,
+      "D": 3
+    },
+    "UNKNOWN_PRESERVATION": {
+      "A": 3,
+      "B": 3,
+      "C": 3,
+      "D": 3
+    }
+  },
+  "construction": "48 genuinely distinct scenario identities; each pair is a controlled anti-isomorph; answer positions rotated so every family has exactly 3 A/3 B/3 C/3 D correct rows",
+  "cross_scenario_near_dup_ge_070": [],
+  "errors": [],
+  "eval_sha256": "cf2568d771bc2d2484bd1f300308572cee8c4beefc53dea2cf10021c7324e2d8",
+  "exact_training_overlap": [],
+  "families": {
+    "ADAPTIVE_EFFORT": 12,
+    "COMPOSITION_TRANSFER": 12,
+    "CURRENTNESS_SELECTIVE": 12,
+    "DEPENDENCY_LOCAL_REPAIR": 12,
+    "DISCRIMINATOR_SELECTION": 12,
+    "GENERAL_CONSTRAINT": 12,
+    "REPRESENTATION_REFINEMENT": 12,
+    "UNKNOWN_PRESERVATION": 12
+  },
+  "historical_status": "POST_OUTCOME FOR ALL SAVED ADAPTERS; diagnostic/recharacterization only. Eligible for confirmatory use only when frozen before a future training campaign.",
+  "laws": [
+    "EVAL != TRAINING",
+    "ROW COUNT != EFFECTIVE SCENARIO COUNT",
+    "EXACT PROMPT UNIQUENESS REQUIRED",
+    "CROSS-SCENARIO SEMANTIC REDUNDANCY AUDITED",
+    "CORRECT ANSWER POSITION BALANCED WITHIN EACH FAMILY",
+    "GLOBAL ANSWER-TOKEN CALIBRATION SHALL BE AUDITED",
+    "PAIR VARIANTS ARE THE ONLY INTENDED NEAR-NEIGHBORS",
+    "OLD RUN RESCORING != RETROACTIVE PREREGISTRATION"
+  ],
+  "near_training_overlap_ge_080": [],
+  "pairs": 48,
+  "rows": 96,
+  "schema": "cfe.isd.magnum.eval-v2.freeze.v1",
+  "status": "PASS_POST_OUTCOME_SUCCESSOR",
+  "training_body_sha256": "b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef",
+  "unique_prompts": 96
+}

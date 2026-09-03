@@ -1,0 +1,97 @@
+{
+  "schema": "cfe.isd.magnum.block-a.revisit-timing-scientific-disposition.v1",
+  "status": "COMPLETE__Q1_NOT_REPLICATED__Q2_NO_DISCRIMINATOR_TIMING_EFFECT_OBSERVED",
+  "date": "2026-09-03",
+  "replication_identity_sha256": "68ed5b31b50c6ed70b6bc7df919edf3e157d65be1f4daf16a8649230d31409b6",
+  "replication_lock_sha256": "835daa791b3933e67963c9ff0923a9a3bc9374553d816bcebff012793209d4e0",
+  "replication_result_sha256": "417ec4a2072beee05f822a54e732a935dd56984ff2a5a70014c6463dff628551",
+  "replication_progress_sha256": "bdc5c1063cd0c24a04dc0e9e84f5e3ba7686a10e7e7684be6265041a81a105da",
+  "execution": {
+    "job_id": "job-d1276bf4bfb6",
+    "status": "COMPLETED",
+    "return_code": 0,
+    "completed_arm_runs": 12,
+    "eval_manifests": 18,
+    "resume_receipts": 0,
+    "artifact_registration_status": "not_attempted"
+  },
+  "integrity": {
+    "paired_seed_count": 6,
+    "all_paired_initial_trainable_hashes_match": true,
+    "all_paired_first19_trainable_hashes_match": true,
+    "all_paired_first19_adapter_hashes_match": true,
+    "all_runs_fresh_no_recovery_resume": true,
+    "disposition": "PASS"
+  },
+  "preregistered_outcomes": {
+    "Q1_FOUNDATIONS19_SUFFICIENCY": {
+      "criterion": "LATE exposure136 has ADAPTIVE_EFFORT accuracy=1.0 and pair_complete_accuracy=1.0 before any revisit dose",
+      "success_seeds": 1,
+      "total_seeds": 6,
+      "preregistered_band": "NOT_REPLICATED",
+      "disposition": "DEMOTE_EXPLORATORY_FOUNDATIONS19_SUFFICIENCY_CLAIM"
+    },
+    "Q2_LATE_REVISIT_DISCRIMINATOR_TIMING": {
+      "late_wins": 0,
+      "ties": 6,
+      "frontload_wins": 0,
+      "exact_two_sided_sign_test_p_non_ties": 1.0,
+      "preregistered_band": "MIXED",
+      "more_specific_observation": "NO_DISCRIMINATOR_TIMING_DIFFERENCE_OBSERVED_IN_ANY_PAIRED_SEED",
+      "disposition": "DEMOTE_EXPLORATORY_LATE_REVISIT_DISCRIMINATOR_CLAIM"
+    }
+  },
+  "secondary_outcomes": {
+    "WITHIN_LATE_DISCRIMINATOR_136_TO_140": {
+      "positive_seeds": 0,
+      "zero_seeds": 6,
+      "negative_seeds": 0,
+      "exact_two_sided_sign_test_p_non_ties": 1.0,
+      "interpretation": "The single-seed exploratory Discriminator-Selection jump did not recur in any of six fresh LATE trajectories."
+    },
+    "ADAPTIVE_EFFORT_FULL_PHENOTYPE_FREQUENCY": {
+      "late_at_136_before_revisits": "1/6",
+      "late_at_140_after_late_revisits": "4/6",
+      "frontload_at_140": "2/6"
+    },
+    "ADAPTIVE_EFFORT_LATE_VS_FRONTLOAD_AT_140": {
+      "late_wins": 2,
+      "ties": 4,
+      "frontload_wins": 0,
+      "exact_two_sided_sign_test_p_non_ties": 0.5,
+      "interpretation": "Exploratory timing signal only; not a resolved timing law."
+    },
+    "ADAPTIVE_EFFORT_WITHIN_LATE_136_TO_140": {
+      "positive_seeds": 3,
+      "zero_seeds": 3,
+      "negative_seeds": 0,
+      "exact_two_sided_sign_test_p_non_ties": 0.25,
+      "interpretation": "Late revisit dose rescued the full Adaptive-Effort phenotype in some trajectories, but the effect is seed/path-sensitive and not sufficient to identify a universal route."
+    }
+  },
+  "cross_experiment_reconciliation": {
+    "preserved_result": "The earlier six-paired-seed prerequisite-first versus phase-scramble experiment remains valid fixed-regime evidence: prerequisite-first won 5/6, tied 1/6, scramble won 0/6 on Adaptive-Effort pair-complete phenotype.",
+    "demoted_mechanism_claims": [
+      "The original 19 T0 foundations are generally sufficient before any revisit dose.",
+      "Placing four T0 revisits late after T1 generally causes a Discriminator-Selection phenotype jump."
+    ],
+    "current_best_geometry": "Field order matters in the fixed regime, but the successful path is not identified by a single static foundations-only or late-revisit recipe. Adaptation trajectory / seed sensitivity is now a first-class boundary condition.",
+    "guard": "SEED-CONDITIONED ADAPTATION TRAJECTORY != PRETRAINED-MODEL TOPOLOGY"
+  },
+  "hostile_interpretation": [
+    "Q1 failure does not negate the broader prerequisite-first order effect; it rejects a finer sufficiency attribution.",
+    "Q2 all-tie result does not prove revisits are useless; it rejects the claimed Discriminator timing effect under this six-seed screen.",
+    "Adaptive-Effort rescue after late revisits in 3/6 LATE trajectories is secondary/exploratory and cannot be promoted as a universal timing rule.",
+    "Between-campaign success-rate differences across different seed sets are not a paired schedule comparison.",
+    "All new runs were fresh; the qualified non-bit-exact recovery path was not invoked and therefore cannot explain these outcomes.",
+    "Behavioral phenotype differences do not establish an internal representation ontology or basin mechanism."
+  ],
+  "claim_ceiling": [
+    "ROBUST FIXED-REGIME PREREQUISITE-FIRST ORDER EFFECT REMAINS SUPPORTED BY THE PRIOR PAIRED REPLICATION",
+    "FOUNDATIONS19 SUFFICIENCY IS NOT REPLICATED",
+    "LATE-REVISIT DISCRIMINATOR EFFECT IS NOT REPLICATED",
+    "STATIC UNIQUE DEVELOPMENTAL ROUTE IS NOT SUPPORTED",
+    "SEED/PATH SENSITIVITY IS OBSERVED BUT ITS INTERNAL CAUSE IS UNRESOLVED"
+  ],
+  "next_discriminator": "If continuing this seam, the cleanest next matched test is to add the original SPACED-revisit schedule on the same 2026090501..0506 seeds, yielding a within-seed three-arm SPACED vs LATE vs FRONTLOAD schedule-geometry comparison without rerunning the completed LATE/FRONTLOAD arms. Do not launch implicitly from this checkpoint."
+}

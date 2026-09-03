@@ -1,0 +1,31 @@
+{
+  "coverage_fraction": 1.0,
+  "defects_found": [],
+  "files": [
+    {
+      "bytes": 11990,
+      "coverage_fraction": 1.0,
+      "lines": 128,
+      "path": "state/live_shadow.md",
+      "sha256": "185a0ec0f64a30fd098ecd0d4b6eb314496175a0314319ec12e5bd3907595a81"
+    },
+    {
+      "bytes": 122478,
+      "coverage_fraction": 1.0,
+      "lines": 1414,
+      "path": "state/design_thread_stream.md",
+      "sha256": "b15d28a385b8972698a22b2a9fcf5eff407f12f5bc3ed92c37e4acad46ed268b"
+    }
+  ],
+  "gate": "LINEAR_HUMAN_READ_SEMANTIC_GATE",
+  "mutation_after_final_read": false,
+  "read_order": "Live Shadow line 1 through final line; Design Thread Stream line 1 through final line in deterministic contiguous chunks 1-360, 361-720, 721-1080, 1081-1414.",
+  "result": "PASS__SHADOW_PAIR_CURRENT_AFTER_CHECKPOINT_REGISTRATION",
+  "reviewer": "PCMMAD Lab / active reasoning model",
+  "reviewer_type": "MODEL_REVIEWER",
+  "schema": "cfe.lhrsg.batch-receipt.v1",
+  "scope": "post-checkpoint-registration shadow-pair mutation",
+  "status": "PASS",
+  "timestamp": "2026-09-03T16:40:00-04:00",
+  "unreadable_or_skipped_units": 0
+}

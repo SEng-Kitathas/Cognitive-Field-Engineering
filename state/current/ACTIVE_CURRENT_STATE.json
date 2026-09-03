@@ -1,46 +1,121 @@
 {
-  "as_of": "2026-08-31T12:45:13-04:00",
-  "blockers": [],
-  "frontier": "V14R1_ACTIVE__STARMAP_ORIGIN_ATTRIBUTION_V2",
-  "mode": "BUILD-COMMIT",
-  "role": "R4 lineage convergence / R5 execution",
-  "schema": "cfe.active-current-state.v8",
-  "starmap_origin": {
-    "approximate_period": "circa 2024",
-    "attribution": {
-      "cognitive_geometry_formal_label": "Claude per operator recollection, derived from operator geometric framing",
-      "geometric_framing": "operator",
-      "mechanization_intent": "operator",
-      "native_mechanism": "operator",
-      "traversable_property": "Claude per operator recollection"
-    },
-    "exact_date": "UNKNOWN",
-    "laws": [
-      "OPERATOR MEMORY != TRANSCRIPT-VERIFIED QUOTE",
-      "FORMALIZATION ASSIST != ORIGIN OF UNDERLYING FRAMING",
-      "RECOVERED ARTIFACT DATE != CONCEPTION DATE"
+  "as_of": "2026-09-03T17:08:00-04:00",
+  "continuity_gate": {
+    "defects_found_and_repaired": [
+      "stale old-ruler load-bearing language in doctrine/trace/revisit surfaces",
+      "stale SPACED-as-next priority",
+      "chronological current/next authority ambiguity",
+      "Design Thread Stream stale Last Updated header"
     ],
-    "markdown_path": "research/STARMAP_ORIGIN_PROVENANCE_CORRECTION_V2_2026-08-31.md",
-    "markdown_sha256": "b45ad7dd63688bb66902a1a3ec95e1fe30fbc3a698572aba9be0799fe83a1432",
-    "quote_status": "REMEMBERED_WORDING_NOT_TRANSCRIPT_VERIFIED",
-    "schema": "cfe.starmap-origin-provenance-correction.v2",
-    "sequence": [
-      "operator describes native cognitive process",
-      "operator frames it as mind working almost geometrically",
-      "Claude asks clarifying question",
-      "Claude formalizes/compresses as cognitive geometry",
-      "Claude identifies traversability as a property",
-      "StarMap formalization/embodiment follows"
-    ],
-    "status": "OPERATOR_REPORTED_DATE_UNCERTAIN",
-    "supersedes_active_interpretation": "research/STARMAP_ORIGIN_PROVENANCE_CORRECTION_2026-08-31.md",
-    "timestamp": "2026-08-31T12:45:13-04:00"
+    "next": "seal/register continuity checkpoint; no semantic project work blocked on that transport step",
+    "scope": "active current/next, top-level current/next, doctrine snapshots, revisit ledger, trace matrix, Live Shadow, Design Thread Stream",
+    "status": "PASS_POST_MUTATION_READ_COMPLETE"
   },
-  "v14r1": {
-    "job_id": "job-d4aac6ed6175",
-    "pid": 35196,
-    "pid_status": "ALIVE",
-    "sealed_trajectories": 0,
-    "status": "RUNNING"
+  "evaluation": {
+    "current_repaired_candidate": {
+      "future_use": "eligible to be prospectively frozen only if these exact bytes/hash are bound before outcomes",
+      "historical_use": "POST_OUTCOME_DIAGNOSTIC_ONLY",
+      "independent_verifier": "PASS__5_OF_5_HOSTILE_REJECTED",
+      "lhrsg": "PASS_96_OF_96_FULL_RAW_RECORDS",
+      "lhrsg_receipt": "state/qualification/LHRSG_ISD_MAGNUM_EVAL_V2R7_20260903.json",
+      "lhrsg_receipt_sha256": "f89124692a03596caaff52dc6d296ef4ba0dc8bb531824d8a74812966f766dc5",
+      "name": "ISD_MAGNUM_EVAL_V2R7_20260903",
+      "pairs": 48,
+      "path": "state/analysis/ISD_MAGNUM_EVAL_V2R7_20260903/ISD_EVAL_V2.private.jsonl",
+      "rows": 96,
+      "sha256": "cf2568d771bc2d2484bd1f300308572cee8c4beefc53dea2cf10021c7324e2d8"
+    },
+    "old_frozen_eval": {
+      "audit": "state/analysis/ISD_MAGNUM_EVAL_AUDIT_AND_MINING_V1_20260903/EVAL_DUPLICATION_AND_CHOICE_BIAS_AUDIT_V1.json",
+      "audit_sha256": "de5124366219c61dd2bf0b75d698f6498730ef375c52ce8b49f105f249cf428e",
+      "status": "DEFECTIVE__HISTORICAL_ONLY"
+    },
+    "v2r4_rescore": {
+      "manifest_sha256": "cb8c8737ec52e19b943ed8c8791a7272b2c353feec811ffa88f7fbdcca52ecad",
+      "results_sha256": "460edb1b6e22ed82a5b45fe2835c51970030f4072bc814375d127457cd155091",
+      "status": "SUPERSEDED_POST_OUTCOME_DIAGNOSTIC_LINEAGE__NOT_CURRENT_RULER"
+    }
+  },
+  "execution": {
+    "active_eval_job": null,
+    "active_reviewer_job": null,
+    "active_training_job": null,
+    "last_reviewer_benchmark_job": "job-1f83395d2146",
+    "last_reviewer_benchmark_status": "FAILED_RC1__NO_SCIENCE",
+    "machine_process_readback": "NO_MATCHING_CFE_TRAINING_EVAL_RESCORE_OR_REVIEWER_PROCESS"
+  },
+  "frontier": "THREAD_EXIT_REINCARNATION_PUBLICATION__TRAINING_BODY_LHRSG_STILL_PENDING",
+  "mode": "CHECKPOINT__THREAD_EXIT_GITHUB_PUBLICATION",
+  "open_seams": [
+    "Complete 1840/1840 LHRSG on exact canonical learner-visible training bytes before any new training authorization.",
+    "Optionally rescore saved historical adapters on exact V2R7 using permutation-neutral semantic scoring; post-outcome only.",
+    "Freeze/preregister a fresh paired prerequisite-first vs scramble replication using an LHRSG-passed training body and exact prospectively bound V2R7 or later successor.",
+    "Decide after fresh confirmation whether schedule geometry (SPACED/LATE/FRONTLOAD) is still the highest-value causal seam.",
+    "DD2 Structured Revisit remains separately unresolved."
+  ],
+  "process_authority": {
+    "base_tier": "PDVER + hostile engineering + Semantic Helix + Attention Reservoir + Loop+ + OARR + CSC + additive AI co-processor strengths; proportional/non-ritual",
+    "name": "Rahl Engineering Canonical SOP R4.1",
+    "package": "RAHL_ENGINEERING_CANONICAL_SOP_R4_1_2026-09-03.zip",
+    "sha256": "af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2",
+    "status": "ACTIVE_PROJECT_AGNOSTIC_ENGINEERING_PROCESS_AUTHORITY"
+  },
+  "project_laws": {
+    "linear_human_read_semantic_gate": {
+      "law": "READABLE -> LINEAR READ -> SEMANTIC GATE -> ONLY THEN SEMANTIC USE / LOAD-BEARING",
+      "path": "state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md",
+      "self_gate_receipt": "state/qualification/LHRSG_CFE_PROJECT_LAW_SELF_GATE_20260903.json",
+      "self_gate_receipt_sha256": "5c2b65d947f9e07bd28b16a2dafb1c105e7aac2bbecb6bbb828be5980739b55e",
+      "sha256": "cde0ef9aa141bac519f63bec2ca91c5f80f6a09a5267d02b29eee1387d64d1d2",
+      "status": "ACTIVE_PROJECT_LAW"
+    }
+  },
+  "publication": {
+    "checkout": "publication/github/Cognitive-Field-Engineering",
+    "policy": "PUBLIC_SAFE_GIT_ONLY__PROTECTED_PRIVATE_HEAVY_PAYLOADS_EXCLUDED",
+    "pre_update_head": "3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3",
+    "pre_update_worktree_clean": true,
+    "remote": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering.git",
+    "request": "FULL_GITHUB_PROJECT_UPDATE_WITH_R4_1_CONTINUITY_AND_REINCARNATION_HANDOFF",
+    "status": "BUILDING_PUBLICATION_BUNDLE"
+  },
+  "resume_point": "Fresh thread: rehydrate from the 2026-09-03 checkpoint under RECOVERY/AUDIT. No new training. Complete exact 1,840/1,840 learner-visible Magnum LHRSG first; V2R7 remains the byte-exact 96/96 LHRSG-passed repaired eval. Consult Git publication receipt for remote-head status.",
+  "role": "R1 Conservative Auditor + R5 Reality Pressure Engine",
+  "schema": "cfe.active-current-state.v10",
+  "science": {
+    "dd1r1": {
+      "posture": "remains earned; unrelated to the ISD eval defect unless its own measurement surface is later challenged",
+      "status": "FIELD_RESOLUTION_SUPPORTED__FIXED_REGIME"
+    },
+    "historical_block_a_order_runs": {
+      "current_claim_ceiling": "historical matched interventions remain reusable as post-outcome archaeology and saved-adapter diagnostics; the original full Adaptive-Effort phenotype claim is not load-bearing and requires fresh preregistered replication under a pre-frozen LHRSG-passed ruler",
+      "old_eval_defect": "96 rows contained only 46 unique prompts; five families duplicated one semantic pair six times; answer-letter calibration confounded key Adaptive-Effort flips",
+      "old_prerequisite_order_result_sha256": "ba7b63746f2d50b8ef5b58673a7fd57e79f1d0006433c2b4302f7708bb70e686",
+      "status": "VALID_INTERVENTION_HISTORY__OLD_PHENOTYPE_MEASUREMENT_DEMOTED"
+    },
+    "historical_revisit_timing_runs": {
+      "note": "old foundations19/discriminator/AE timing phenotype interpretations are retained as history but cannot carry current semantic scientific authority under the defective frozen eval",
+      "result_sha256": "417ec4a2072beee05f822a54e732a935dd56984ff2a5a70014c6463dff628551",
+      "status": "VALID_INTERVENTION_HISTORY__OLD_RULER_INTERPRETATION_DEMOTED"
+    }
+  },
+  "thread_exit": {
+    "human_rehydration": "state/NEW_THREAD_REHYDRATION_2026-09-03.md",
+    "human_rehydration_sha256": "c06c46995d5aab17ce8b7e12930163e9a3a30fab8b6fefbf68a1e48aac4bd884",
+    "machine_rehydration": "state/NEW_THREAD_REHYDRATION_2026-09-03.json",
+    "machine_rehydration_sha256": "a6d0b124ec0cc60dcfb833c9ce13aee13e712e97d5a3feef4ae3b8b01e66cbe6",
+    "operator_request": "Full GitHub project update with all continuity and current R4.1-required state preserved before leaving a context-saturated thread.",
+    "publication_status": "IN_PROGRESS__DO_NOT_CLAIM_REMOTE_SUCCESS_UNTIL_GIT_PUSH_AND_REMOTE_HEAD_READBACK"
+  },
+  "training_body": {
+    "guard": "STRUCTURAL/PURITY PASS != LHRSG PASS != TRAINING AUTHORIZATION",
+    "lhrsg_status": "INCOMPLETE_0_OF_1840__REVIEWER_METHOD_UNRESOLVED",
+    "path": "state/analysis/ISD_MAGNUM_OPUS_CANDIDATE_V1_20260903/ISD_CANONICAL.private.jsonl",
+    "reviewer_method_status": "state/analysis/ISD_MAGNUM_LHRSG_REVIEWER_METHOD_STATUS_20260903.json",
+    "rows": 1840,
+    "sha256": "b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef",
+    "structural_audit": "PASS_NO_LEARNER_VISIBLE_MUTATION_REQUIRED__MEASUREMENT_PIPELINE_REPAIR_REQUIRED",
+    "structural_audit_sha256": "f9392dc680d111003ce669185d98f6d0005115c296f936b48545e3b5387b3591",
+    "training_authorized": false
   }
 }

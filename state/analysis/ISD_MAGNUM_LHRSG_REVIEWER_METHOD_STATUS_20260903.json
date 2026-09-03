@@ -1,0 +1,59 @@
+{
+  "schema": "cfe.isd.magnum.lhrsg-reviewer-method-status.v1",
+  "status": "TRAINING_BODY_LHRSG_NOT_STARTED__REVIEWER_METHOD_UNRESOLVED",
+  "date": "2026-09-03",
+  "training_body": {
+    "path": "state/analysis/ISD_MAGNUM_OPUS_CANDIDATE_V1_20260903/ISD_CANONICAL.private.jsonl",
+    "rows": 1840,
+    "sha256": "b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef",
+    "lhrsg_authorized_rows": 0,
+    "training_authorized": false
+  },
+  "method_trials": [
+    {
+      "method": "Qwen3-4B-Thinking free-form semantic reviewer",
+      "result": "REJECTED_PROTOCOL",
+      "reason": "generation budget was consumed by reasoning narration before a structured verdict was reached",
+      "receipt": "state/qualification/LHRSG_QWEN3_4B_REVIEWER_QUALIFICATION_V1_20260903.json"
+    },
+    {
+      "method": "Qwen3-4B-Thinking single-forward P/F/E classifier",
+      "result": "REJECTED_REVIEWER",
+      "reason": "failed hostile controls including ambiguity/wrong-answer cases; later uncertainty-gated stress test still missed control-plane leakage and multiple-valid-answer defects at high confidence",
+      "receipt": "state/qualification/LHRSG_QWEN3_4B_CLASSIFIER_V2_20260903.json"
+    },
+    {
+      "method": "Qwen2.5-Coder-7B-Instruct abliterated free-form reviewer",
+      "result": "REJECTED_REVIEWER",
+      "reason": "caught wrong arithmetic but missed ambiguity and explicit project-control leakage controls"
+    },
+    {
+      "method": "CapybaraHermes-2.5-Mistral-7B Q3_K_S free-form reviewer",
+      "result": "SEMANTIC_QUALIFICATION_PASS__THROUGHPUT_INADEQUATE",
+      "reason": "passed clean/ambiguous/wrong/control-plane qualification controls, but a ~2385-token real row took ~56 seconds; measured prompt ingestion around 45 tokens/s makes literal full-body review impractically long",
+      "runtime": "llama.cpp b8831 CUDA13, full 33/33 layer GPU offload, 8K slot"
+    },
+    {
+      "method": "CapybaraHermes one-token verdict",
+      "result": "REJECTED_PROTOCOL",
+      "reason": "semantic hostile controls regressed when reasoning/explanation was removed; bottleneck was prompt ingestion rather than output length"
+    },
+    {
+      "method": "CapybaraHermes 8-slot parallel throughput benchmark",
+      "result": "EXECUTION_FAILED_NO_SCIENCE",
+      "job_id": "job-1f83395d2146",
+      "return_code": 1,
+      "reason": "server tasks were cancelled/timeout-limited during parallel benchmark; no corpus-review result or scientific inference admitted"
+    }
+  ],
+  "resource_boundary": {
+    "Qwen3.5-35B-A3B reviewer": "not launched because ~19.7 GB model plus runtime overhead did not fit project RAM headroom under resource-authority law",
+    "law": "RESOURCE AVAILABILITY != RESOURCE AUTHORITY"
+  },
+  "current_disposition": [
+    "Do not weaken LHRSG to fit a convenient reviewer.",
+    "Do not count qualification-contact rows as training-body semantic authorization.",
+    "Resume by finding/qualifying a reviewer or review architecture that achieves 100% deterministic row coverage with acceptable semantic sensitivity and practical throughput; direct model review/escalation remains required for uncertain/flagged rows.",
+    "Until then: LHRSG_INCOMPLETE__NOT_TRAINING_AUTHORIZED."
+  ]
+}

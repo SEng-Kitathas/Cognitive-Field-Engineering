@@ -1,219 +1,130 @@
 # CFE LIVE SHADOW
 
-## Thread Identity
-- Last Updated: 2026-09-01 09:17 Eastern Daylight Time
-- Mode: BUILD-COMMIT
-- Dominant Objective: complete DD2 without interfering with Microseed's resident model services.
+## 1. Thread Identity
+- Thread: Cognitive Field Engineering / ISD measurement repair / thread-exit publication
+- Last updated: 2026-09-03 17:08+ ET
+- Mode: CHECKPOINT__THREAD_EXIT_GITHUB_PUBLICATION
+- Active role: R1 Conservative Auditor + R5 Reality Pressure Engine
+- Dominant objective: finish a full public-safe GitHub reincarnation checkpoint under Rahl Engineering SOP R4.1 and the active Linear Human Read / Semantic Gate, then hand a fresh thread the exact current frontier without resurrecting defective measurement or unauthorized training.
 
-## Authoritative State
-- DD1 closed `FIELD_RESOLUTION_SUPPORTED`.
-- DD2 structured revisit remains frozen next derivative.
-- DD2 recovery has 2/6 sealed pairs; seed23 is unmanifested/fresh.
-- DD2R3 static qualification PASS.
+## 2. Active User Intent
+- Current thread is at practical capacity; create a complete GitHub handoff now.
+- Publish all public-safe continuity and current SOP/R4.1-required state needed for exact re-entry.
+- Apply R4.1 to the publication work itself.
+- Preserve LHRSG as project law and do not waive it for publication or for the large 1,840-row training body.
+- Do not leak private training/eval payloads merely to make the repository feel “complete.”
 
-## Cross-project runtime contract
-- Shared Forge files are safe/readable by both projects.
-- Microseed live ownership:
-  - `job-7f0dcbe757dc` / port18191 / PID6744 / 7B primary;
-  - `job-489435c7630f` / port18192 / PID24744 / 1.5B CSC reviewer.
-- CFE never terminates/reuses those processes, ports, jobs, or live runtime instances.
-- CFE model tasks use separate PID leases and CFE-owned runtime/output directories.
-- Unknown model services are preserved and block, never killed.
+## 3. Current Authoritative State
+### Process authority
+- ACTIVE: Rahl Engineering Canonical SOP R4.1.
+- Package identity: `RAHL_ENGINEERING_CANONICAL_SOP_R4_1_2026-09-03.zip`.
+- SHA-256: `af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2`.
+- Project binding: `doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md`.
+- Base-tier nontrivial-work metabolism: PDVER (`Probe -> Derive -> Verify -> Embody -> Recurse`) + hostile engineering + Semantic Helix + Attention Reservoir + Loop+ + OARR + CSC + additive AI co-processing; proportional/non-ritual.
+- R3.1/R4.0 remain historical lineage where superseded.
 
-## Verified coexistence
-- CFE frozen base load PASS with both Microseed services alive; 3,752,087,552 parameters loaded.
-- Microseed PIDs/health unchanged after CFE task exit.
+### Active CFE project law — LHRSG
+- Law: `READABLE -> LINEAR READ -> SEMANTIC GATE -> ONLY THEN SEMANTIC USE / LOAD-BEARING`.
+- Authority: `state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md`.
+- Law SHA: `cde0ef9aa141bac519f63bec2ca91c5f80f6a09a5267d02b29eee1387d64d1d2`.
+- Self-gate receipt SHA: `5c2b65d947f9e07bd28b16a2dafb1c105e7aac2bbecb6bbb828be5980739b55e`.
+- Hard guards: `AUTOMATED PASS != SEMANTIC PASS`; `SAMPLING != LINEAR READ`; `STRUCTURAL VALIDITY != SEMANTIC VALIDITY`; any semantic mutation invalidates the old gate for changed bytes.
+- Full-read requirement applies to the final readable Git publication bundle before promotion.
 
-## Immediate Next Step
-Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrently.
+### Current science
+- DD1R1 remains separately earned fixed-regime `FIELD_RESOLUTION_SUPPORTED`: mean paired BA +0.03125, identifying-field wins 4/6, stable two-sided competence only 1/6. Claim ceiling remains narrow.
+- DD2 Structured Revisit remains unresolved.
+- Historical Block-A training interventions/schedules/checkpoints/adapters remain valid historical artifacts.
+- The old Block-A phenotype ruler is DEFECTIVE/HISTORICAL: 96 rows contained only 46 unique prompts; five families duplicated one semantic pair six times; Adaptive-Effort also carried A/C answer-letter confounding.
+- Old full-AE phenotype interpretation is DEMOTED. Old within-seed p=.03125 from six duplicated AE item differences is WITHDRAWN AS PSEUDO-REPLICATION.
+- Guard: `VALID INTERVENTION HISTORY != VALID OLD MEASUREMENT INTERPRETATION`.
 
-## Execution delta — 2026-09-01 09:23 Eastern Daylight Time
-- DD2R3 is LIVE, PID-tracked root 12624, currently seed23 CYCLIC_SPACED.
-- Microseed 6744/18191 and 24744/18192 remain healthy during live CFE load.
-- No duplicate DD2R3 launch occurred after transport errors.
+### Repaired evaluation — V2R7
+- Private eval path: `state/analysis/ISD_MAGNUM_EVAL_V2R7_20260903/ISD_EVAL_V2.private.jsonl`.
+- SHA: `cf2568d771bc2d2484bd1f300308572cee8c4beefc53dea2cf10021c7324e2d8`.
+- 96 unique rows / 48 anti-isomorph pairs / 8 families.
+- Independent verifier PASS; hostile 5/5 rejected; exact final 96/96 LHRSG PASS.
+- Receipt: `state/qualification/LHRSG_ISD_MAGNUM_EVAL_V2R7_20260903.json`, SHA `f89124692a03596caaff52dc6d296ef4ba0dc8bb531824d8a74812966f766dc5`.
+- Historical saved-adapter use remains POST_OUTCOME diagnostic only. Future confirmatory use requires prospective exact-byte binding before outcomes.
 
-## Overnight turn delta — 2026-09-02 01:05 Eastern Daylight Time
-- Microseed paused; staged CFE overnight program live.
-- Research: local archaeology + 180 bounded autonomous Helix passes across machinery/cartography/external lanes, OARR/Loop+/Reservoir each pass, CSC hard-stop audit, no auto-promotion.
-- DD2R1 waits on research sentinel; salvage-eval gate must pass before any further training.
-- Active jobs: inference `job-09b75d2a8595`; archaeology `job-77ad0f0cf849`; Helix program `job-4da449cfa837`; DD2R1 gate/recovery `job-c3a77033cd06`.
+### Canonical Magnum training body
+- Exact path: `state/analysis/ISD_MAGNUM_OPUS_CANDIDATE_V1_20260903/ISD_CANONICAL.private.jsonl`.
+- Rows: 1,840.
+- SHA: `b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef`.
+- Structural/purity audit: PASS; no learner-visible byte mutation justified by the eval defect.
+- Structural disposition SHA: `f9392dc680d111003ce669185d98f6d0005115c296f936b48545e3b5387b3591`.
+- LHRSG status: `INCOMPLETE_0_OF_1840`.
+- Training authorization: **FALSE**.
+- `STRUCTURAL/PURITY PASS != LHRSG PASS != TRAINING AUTHORIZATION`.
 
-## Status delta — 2026-09-02 06:16 Eastern Daylight Time
-- Overnight research partial, not full: archaeology complete; Helix 18 pass artifacts only, with qualification failures/topic drift. Treat output as research-only and hostile-audit before reuse. DD2R1 failed on recovery-script path bug before eval; science unchanged.
+### Reviewer-path archaeology
+- Qwen3-4B free-form qualifier: protocol failed before verdict.
+- Qwen3-4B one-token semantic classifier: failed hostile controls; rejected.
+- Qwen2.5-Coder-7B reviewer: missed ambiguity/control-plane hostile cases; rejected.
+- CapybaraHermes-7B free-form reviewer: passed small hostile semantic qualification but ~45 tok/s prompt ingestion made full 134.6 MB pass impractical; one-token mode lost discrimination.
+- Parallel Capybara and Qwen3.5-35B-A3B service experiments did not yield an admitted practical full-review path.
+- Current server execution capacity readback: **0 running jobs**. No active training/eval/reviewer/model-service job.
 
-## Turn delta — 2026-09-02 08:14 Eastern Daylight Time
-- New law: preserve representative pre-CFE failure phenotypes; do not train away baseline before measurement.
-- Future fleet validation uses BASE / matched ordinary control / CFE developmental field. Learner regime becomes explicit cartography conditioning surface.
-- No broad fleet training authorization yet.
+### Thread-exit rehydration packet
+- Human: `state/NEW_THREAD_REHYDRATION_2026-09-03.md`, creation SHA `c06c46995d5aab17ce8b7e12930163e9a3a30fab8b6fefbf68a1e48aac4bd884`.
+- Machine: `state/NEW_THREAD_REHYDRATION_2026-09-03.json`, creation SHA `a6d0b124ec0cc60dcfb833c9ce13aee13e712e97d5a3feef4ae3b8b01e66cbe6`.
+- Public Git re-entry chain was verified stale before this update: README/reincarnation files still pointed at R3.1 and an obsolete frontier.
+- Pre-update publication checkout was clean at `main == origin/main == 3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3`.
+- Publication remains **IN PROGRESS** until exact final bundle LHRSG + commit + push + remote-head readback succeed.
 
-## Turn delta — 2026-09-02 09:26 Eastern Daylight Time
-- Rosetta ontology corrected from file/code reality: processed corpora are compact tensor descriptor/statistical sidecars, not runnable/trainable weights. `qwen35_4shard` source is exact Qwen3.5-9B. Audit `state/analysis/ROSETTA_PROCESSED_MODEL_REALITY_AUDIT_2026-09-02.md` SHA `03acc537b2c557a43af187f3d95daf73da47933030c211d13341eab55184e408`.
+## 4. Active Constraints
+- Local project/server state outranks stale chat/public prose.
+- Publication is a separate plane: local write != Git stage != commit != push != remote readback.
+- Normal Git is thin/public-safe. Do not publish private 1,840-row training text, private V2R7 eval text, protected/gated benchmark payloads, model weights, checkpoints/adapters, credentials, or transient execution logs.
+- LHRSG applies to readable files being promoted to GitHub. Full final bytes must be read after mutation.
+- No new training before exact 1,840/1,840 training-body LHRSG and prospective experiment/eval/scorer freeze.
+- Post-outcome historical rescoring cannot restore confirmatory status.
+- Keep Live Shadow bounded; chronology belongs in Design Thread Stream.
 
-## Turn delta — 2026-09-02 09:43 Eastern Daylight Time
-- Rosetta reality correction retained. Original Rosetta/LBE intent now separately preserved: static model-derived map, immutable SoAoA/StarMap-style reachability, small active traversal/controller, consumer-hardware objective. Gap itself is research branch; no retroactive success claim.
+## 5. Decisions Locked In
+- R4.1 is active process authority.
+- LHRSG is active CFE project law.
+- Old frozen Block-A eval and dependent full-AE phenotype claim are demoted; duplicated-item p=.03125 withdrawn.
+- Historical Block-A interventions remain useful information/archaeology.
+- V2R7 is current repaired semantic eval candidate and already 96/96 LHRSG-passed.
+- Canonical 1,840-row training body remains byte-unchanged but NOT training-authorized.
+- Fresh paired prerequisite-first vs scramble replication is required before restoring a developmental-order Adaptive-Effort scientific claim.
+- Public re-entry must be superseded to R4.1/2026-09-03 state rather than patched around the obsolete R3.1 bootstrap.
 
-## Turn delta — 2026-09-02 09:57 Eastern Daylight Time
-- LBE definitively = Logic Blueprint Engine. Model-domain LBE now translated from actual semantic-field/composite semantics.
-- 35B-A3B i1 Q4_K_M exact remote identity verified and promoted to primary high-end local teacher/judge/research role.
-- OUR_CAPYBARA_CORE mandatory in Fleet Uplift Pack v2; Capybara successor desired rather than freezing old 7B checkpoint as endpoint.
+## 6. Open Loops
+- Complete final public-safe publication bundle and LHRSG it end-to-end.
+- Commit/push and verify remote head; create publication receipt.
+- Fresh thread: complete 1,840/1,840 training-body LHRSG with a semantically qualified and operationally feasible reviewer/process.
+- If any training row fails, build append-only successor and replay full semantic gate.
+- Optional only after gate closure: post-outcome V2R7 rescore of saved adapters.
+- Then prospectively preregister fresh paired prerequisite-first vs phase-scramble replication.
+- Only after fresh confirmation reconsider SPACED/LATE/FRONTLOAD timing geometry.
 
-## Turn delta — 2026-09-02 multi-project coexistence
-- New binding constraint: five concurrent projects/threads may share host; `RESOURCE AVAILABILITY != RESOURCE AUTHORITY` is active law.
-- Foreign live model PID 34152 / port 8114 blocks CFE heavy model loads. No foreign process may be terminated or repurposed.
-- Stale CFE-owned llama-cli PID 35524 was removed by exact ownership check only.
-- MTP Q8 sidecar is exact-hash verified but runtime effect remains untested due resource block.
-- Safe MTP benchmark harness is staged and preflight-tested to fail closed.
-- Capybara successor meaning corrected toward LHIT invariants, not a fixed Capybara content percentage.
+## 7. Immediate Next Step
+1. Finish local thread-exit continuity updates and new rehydration packet.
+2. Build public-safe Git publication delta including all active continuity, R4.1 authority/adoption, LHRSG law/receipts, public-safe measurement-repair dispositions, transcript, README/reincarnation updates, and new handoff.
+3. Perform post-mutation LHRSG on every readable promoted file.
+4. Run Git secret/size/private-path checks.
+5. Commit, push, verify remote `main`, and persist a publication receipt.
+6. Fresh thread resumes under RECOVERY/AUDIT at the 1,840-row training-body semantic gate. No new training.
 
-## Turn delta — 2026-09-02 stale-load recovery + MTP disposition
-- User predicted resources should be available or stale. Audit confirmed PID 34152 was a stale orphan; exact targeted reclamation recovered ~7.1 GiB private RAM without touching live projects.
-- Resource guard post-launch semantics were corrected after a fail-safe false block; failed run preserved as scar.
-- Exact Q4_K_M MTP sidecar verified and benchmarked.
-- Best local speculative profile now: Qwen3.5-35B-A3B Claude-distilled i1 Q4_K_M + b10759 CUDA + Q4_K_M MTP + n_max=2 at 4K/single slot; paired mean speedup 1.07315x, 4/4 prompt wins.
-- Q8 MTP rejected as default on 6GB GPU because it displaced target residency and lost throughput.
-- Host left clean: no model process resident after benchmark.
+## 8. Last 10 Turn Reinforcement Window
+1. USER: asked to mine completed revisit-timing campaign. State change: old results became active audit surface.
+2. ASSISTANT: found old frozen-eval prompt duplication and broad A/C response calibration; mechanism interpretation became measurement audit.
+3. USER: ordered correction of training data under the full SOP and asked whether historical runs could still be used. State change: data/eval repair authorized.
+4. ASSISTANT: full 1,840-row structural audit found no exact learner-visible duplication defect; preserved training bytes and historical interventions, demoted old ruler.
+5. ASSISTANT: built repaired eval successors and hostile-tested them; multiple V2 revisions were rejected rather than polished into acceptance.
+6. ASSISTANT: permutation-neutral historical rescoring showed some residual directional information but could not restore confirmatory status.
+7. USER: declared Linear Human Read / Semantic Gate a project law for anything readable. State change: new project law.
+8. ASSISTANT: self-gated the law and applied it to repaired evals; full semantic reads caught defects automation missed; V2R7 eventually passed 96/96.
+9. ASSISTANT: attempted to engineer a practical full 1,840-row LHRSG reviewer path; several local reviewer protocols failed hostile qualification or throughput practicality; no full gate was completed and no new training was authorized.
+10. USER: requested a full GitHub project update because this thread is full, explicitly requiring R4.1/SOP adherence and all continuity/SOP-required documents. Current turn is executing that thread-exit publication.
 
-## Turn delta — 2026-09-02 frontier reasoning-trace quarry
-- User supplied a proposed proprietary/open reasoning-trace sourcing strategy.
-- Primary-source verification: arXiv:2608.09867 is real and demonstrates large-scale reconstruction of proprietary encrypted reasoning blocks plus privacy/credential leakage.
-- Correction: alphaXiv is not a clean 315k decoded-trace training corpus; exploit-recovered proprietary hidden reasoning is excluded from CFE data intake.
-- Approved use: treat the paper as security/methodology evidence; compare only lawful/open visible reasoning traces for invariant analysis.
-- New invariant taxonomy and Standard Uplift reasoning-trace policy added. Style/phrase similarity is explicitly separated from structural reasoning events.
-
-## Turn delta — 2026-09-02 reasoning-trace screenshot exemplar
-- User supplied a dense reasoning screenshot that strengthens the open structural-trace quarry.
-- Raw trace text remains excluded from Standard Uplift training intake; only invariant-level annotation was stored.
-- Useful structure observed: alternative hypotheses, boundary pressure, self-correction, state/constraint carry, orthogonal empirical verification, falsification trigger, and retention of the governing question.
-- Candidate sublabel `PROOF_TO_EMPIRICAL_HANDOFF` added under independent verification, pending recurrence across more traces.
-
-## Turn delta — 2026-09-02 high-value reasoning topology preservation
-- Full "million things it says silently" analysis promoted from chat into a first-class project research artifact and doctrine-priority surface.
-- Research artifact SHA `60833784d5d664db7c6c62a9cafe7e0470cf98eeebf916a3548eb905edf3ecee`; priority doctrine SHA `aed8b34a91c5d302203337a947de7bb1816cc4d76eee00c89ab39132392a5cea`.
-- High-value candidates include dependency-local invalidation, scoped rollback, unresolved-seam state, minimal revision, hard-vs-scratch state, verification-mode escalation, authority transfer to observed consequence, qualified compression, and reasoning effort proportional to unresolved discriminatory burden.
-- Research coordinate system now treats traces as ordered state transitions rather than token streams alone. Scientific claim ceiling remains unchanged: inferred structure is not verified internal mechanism.
-
-## Turn delta — 2026-09-02 representation adequacy
-- User's added interpretation produced a stronger second-order research layer: the exemplar may show failure of the reasoning representation itself, not just a bad candidate hypothesis.
-- New first-class research artifact SHA `446ce4ee54445eb6e2dc45620cecc1a6c87131af2aa405d4f1d7ab17b2fc6f9b`; priority intent SHA `89a98738d4f5a728836efc92a7d141c3605e0df9d2e129e139af14792f28ff26`.
-- Key candidate law: a representation is too coarse when it maps states with different task-relevant consequences/actions to the same learner-usable representation.
-- Candidate meta-primitives: representation adequacy monitoring, missing-distinction detection, granularity refinement, coordinate replacement, refinement-with-conservation, representation debt/currentness.
-- Guard: tree-like visible reasoning != literal MCTS; stress/checkmark tokens != proven entropy/PRM anchors.
-
-## Turn delta — 2026-09-02 Anthropic CFE-like audit
-- User proposed Anthropic may have a rudimentary CFE analogue.
-- Public Anthropic research shows CFE-adjacent effects: critique/revision training, synthetic contextual variation, principle-bearing OOD training, unchanged-task environment augmentation, data/environment diversity, and curriculum/path dependence.
-- Strongest methodological analogue is `Teaching Claude Why` (2026): surrounding training context/tool definitions/system variation changed later OOD behavior even when core user requests were unchanged.
-- Strongest historical analogue is reward-tampering curriculum persistence after partial remediation.
-- Guard: `ANTHROPIC CFE-LIKE EFFECTS != ANTHROPIC HAS CFE`; no public evidence of CFE's full matched-geometry/cartographic/coordinate-hostile program.
-
-## Turn delta — 2026-09-02 deep reasoning-archaeology hunt
-- User asked to chase substantially deeper historical/research-paper lineages. Quarry expanded to 67 registered sources across independent reasoning traditions.
-- Deep-hunt job `job-6dd5e81e5c88` completed rc0 with 19/20 targeted public/open PDFs locally SHA-verified; one Prosser mirror TLS failure preserved without bypass. Raw cache remains local/non-Git.
-- Strongest new convergence is a **reason-maintenance spine**: Version Spaces compact viable hypotheses; TMS/ATMS preserve support lineage and assumption-qualified contexts; MHT prunes/merges temporal alternatives; GDE/QBC seek discriminating evidence; dynamic/CSP/SAT backtracking localizes conflict and preserves unrelated progress; metareasoning values computation by downstream decision effect.
-- Multi-hypothesis seam is now better grounded as `shared hard state + minimal support environments + consequence signatures + conflict/nogood regions + equivalence classes + discriminators + representation frames + currentness/provenance + control value`, not independent sampled prose chains.
-- Main archaeology LBE field is now 67 nodes / 88 edges with 30 reason-maintenance annotations and 19 typed cross-era relations. Status remains hostile-review-pending; functional recurrence does not imply shared implementation or lineage.
-- Standard Uplift implications are active research inputs: selective revision, maintained alternatives, discriminator seeking, conflict transfer, representation refinement, currentness propagation, least commitment, effort allocation, provenance sensitivity, partial-model honesty. This remains the informed standard dataset, not the CFE experimental pack.
-- Next pressure: specimen-level hostile review of the highest-leverage historical nodes and matched modern experiments against sample-and-vote / global-regenerate baselines.
-
-### Publication delta — 2026-09-02
-- Reasoning archaeology/reason-maintenance package committed and pushed at `583bc4d2a03f78bad61fcf1ad34bf6ee6c6de387`; local publication checkout == remote `main`, clean at readback.
-- 22-file commit, 13,078 insertions; raw PDF quarry remains local/non-Git.
-
-## Turn delta — 2026-09-02 trace temporal cartography + forest transfer
-- Operator required actual traces across AI history and explicit forest-level synthesis/application, with LHIT-style cross-domain transfer discipline.
-- Added `pypdf==6.1.1` to isolated data tooling; extracted page-marked text from 32/32 cached PDFs, 0 failures; derived text local/non-Git.
-- Built 15 source-located trace specimens spanning 1959–2026 and a categorical temporal matrix using `NOT_VISIBLE_IN_SPECIMEN` rather than false absence claims.
-- Forest synthesis identifies a non-linear embodiment migration: explicit control/reason-maintenance -> learned compression -> generative re-externalization -> scaffold reconstruction -> partial re-internalization. This is a trajectory hypothesis, not causation.
-- Cross-domain transfer is now binding research discipline: reasoning invariants must be tested/re-derived in code/debugging, research, planning, tools, memory/currentness, science/diagnosis, math, LBE, Standard Uplift and future CFE experiments where consequence structure matches.
-- Standard Uplift reason-maintenance cross-domain integration policy is active design input, not training admission and not the CFE pack.
-- Trace LBE overlay now contains 15 trace nodes with 92 trace/event nodes and 164 typed edges; main archaeology field binds it.
-- Strong forest seam: combine modern flexible learned representation with bounded support-aware, temporally current, multi-hypothesis reason maintenance without brittle curator ontology.
-
-### Trace cartography publication delta — 2026-09-02
-- Trace-level temporal cartography/cross-domain transfer package committed and pushed at `4d2cfacc331964451278fbf7b0d0cb0017ce974f`; local publication checkout == remote `main`, clean at readback.
-- 17-file commit / 5,171 insertions; no raw PDFs or derived text-cache payloads entered Git.
-
-## Turn delta — 2026-09-02 Standard Uplift LHIT cross-domain correction
-- Operator clarified LHIT question was about the informed Standard dataset; CFE itself remains expected to apply consequential-history structure wherever scientifically/operationally appropriate.
-- Audit found Standard intake v1 was too conversation-shape-biased: LHIT tags came mostly from multi-turn/tool/research packaging.
-- Built `tools/build_standard_uplift_intake_pilot_v2.py` with cross-domain curator-side LHIT screening independent of record packaging. Single-record code/research/planning/math episodes can now be tagged when causal-history structure is present; trivial stateless examples remain untagged.
-- V2 pilot job `job-5395102e94db` completed rc0: 17/17 source slices, 1,840 SFT + 120 preference atoms, still quarantine/not trainable.
-- Cross-domain audit found current explicit source-family gaps: `MEMORY_CURRENTNESS` and `SCIENCE_DIAGNOSIS`.
-- Added blocking final-admission gate. Standard dataset cannot claim complete LHIT coverage until all reasonable domain families have qualified post-license/contamination/dedup/quality coverage.
-- Core law: apply LHIT where consequence structure exists; do not force it into trivial episodes or equate it with Capybara/multi-turn format.
-
-## Turn delta — 2026-09-02 Standard Uplift gap closure / pre-admission curation
-- Continued informed Standard dataset build. Closed missing LHIT source families with 128 deterministic project-generated quarantine atoms: 64 memory/currentness + 64 science/diagnosis. Independent verifier PASS; 128 unique prompts/conversations; no learner-facing donor jargon; discriminator tie logic and hidden contracts verified.
-- Hostile review fixed synthetic defects before final V1R4 freeze: grammar, case corruption, tied-test self-comparison, machiney placeholders, article/prose artifacts.
-- Merged into V3R2 quarantine: 1,968 SFT + 120 preference; 0 exact generated/base duplicates; 0 near duplicates >=0.90.
-- Naive donor-jargon audit produced 22 false positives (`ATMs` and CFE substrings in URLs/hashes/identifiers); exact review resolved zero doctrine leaks and scanner now uses semantic phrases.
-- Pre-admission curation excludes all 98 RAW rows, segregates all 80 Open-SWE traces until contamination clearance, and separates 40 alternate trajectories from 32 repeated-prompt groups while keeping one deterministic representative. No objective trajectory rank was invented.
-- Nemotron Agentic v2 pinned card at revision `7c804833...` resolves its 240 pilot rows to CC BY 4.0 provenance; prior quarantine history preserved.
-- Current pre-admission candidate: **1,802 SFT atoms**, 1,802 unique prompts/conversations, all quality CANDIDATE, zero RAW/SWE/unresolved-license/donor-jargon; 126 excluded + 40 alternate rows conserve all 1,968 input atoms. Candidate SHA `48b4adb1b312b996591d5b859a0e41d7ef76c320265d78522253e8eaecc63503`.
-- LHIT structural/source coverage gate now PASS across code, research, planning/tool, math/science, long horizon, memory/currentness and science/diagnosis. Training admission remains BLOCKED on contamination.
-- Current internal/private eval overlap scan PASS: 49 files / 1,720 eval text items / 0 exact / 0 near >=0.90; internal pass does not clear public protected benchmarks or future frozen fleet eval.
-- Source-native contamination metadata captured. Final gate remains public/final eval registry exact+fuzzy matching, manual ambiguous review, final invariant-quality review, then tokenization/truncation. No training authorization.
-
-### Standard pre-admission publication delta — 2026-09-02
-- Standard Uplift LHIT gap-closure/pre-admission package committed and pushed at `99483f750cdfcfc052702ec9fb4683d0e8a2141d`; local publication checkout == remote `main`, clean at readback.
-- 25-file commit / 2,413 insertions. Raw/generated/quarantine/candidate/excluded/alternate/preference atom payloads remain local/non-Git.
-
-## Thread-seal delta — 2026-09-02 20:01 EDT
-- Current chat is at practical context capacity. Operator requires a GitHub-complete reincarnation surface.
-- New authoritative re-entry surface: `state/NEW_THREAD_REHYDRATION_2026-09-02.md` SHA `49f9ca20c965d76369f91528ef5a7896027c0e5870b14ca001cde8bc180f0894`; machine companion JSON SHA `3c15730c7857d5cd4a52d0947af6e06a0fa711a527fdd9e5d134784bc9926947`.
-- Previously implicit contamination decision now persisted: V3 manual adjudication SHA `7426a49b980e156819b0a0e6524bd35197492e8a95362354e86fa89e7af93a3a`; 11 genuine leaks, 7 false positives; existing candidate still 1,802 because deletion has not yet been embodied. Successor pre-refill = 1,791; refill >=9 clean atoms required to satisfy current A0 floor.
-- V3 public eval registry: 53,620 rows / 43,659 unique texts / no acquisition blockers; 0 exact hits in 1,802 candidate.
-- First-class parallel research preserved in handoff: reasoning archaeology across AI history, “million silent things,” multi-hypothesis reason maintenance, representation adequacy, scoped rollback, discriminator selection, authority transfer, LHIT consequential history.
-- CFE Commander’s Intent and science boundary preserved. DD1 positive conditional is earned; DD2 is not to be hallucinated into closure.
-- Immediate next move in fresh thread: build successor candidate append-only, remove 11, refill >=9 clean atoms, rerun contamination; no training authorization yet.
-
-### Reincarnation publication readback — 2026-09-02
-- Main checkpoint is remote-exact at `53d56c123ab86f8a73e38ad66b220aa2affd07a4`; clean publication tree at readback.
-- Public checkpoint includes discoverable root `NEW_THREAD_REHYDRATION.md`; protected/gated eval and training payloads remain local by policy.
-- Publication receipt SHA `dd647e0cafb6a59c104c14fc7bee6507699b57ae6c824ebbed9cbc036f1bacfc`; final continuity-only publication follow-up is the only remaining action before thread handoff.
-
-
-## Turn delta — 2026-09-02 21:25 Eastern Daylight Time
-- Standard no longer has a canonical row/token quota; quality/coverage sufficiency governs freeze.
-- Three informing surfaces are binding: historical AI lineage -> recurring mechanism pressures; CFE -> hidden developmental/field constraints; modern AI -> present competence/task surface.
-- Training body purity now hard law: Standard/CFE governance/bookkeeping/metadata/control state stays in sidecars only. Two learner-visible dataset-bookkeeping rows removed; successor SHA `6cfd187f...`, 1,800 rows descriptively.
-- Domain-world governance/policy remains allowed when genuinely required by the task; functional role rather than keyword decides.
-- First history/CFE/modern crosswalk has one explicit hole: adaptive effort/value-of-computation.
-
-
-## Turn delta — 2026-09-02 22:21 Eastern Daylight Time
-- ISD construction now has binding dependency-depth stages: T0 foundations, T1 relational, T2 systems, T3 open-world/college, T4 frontier synthesis. Spiral revisits required.
-- Stage assignment is sidecar-only; learner sees no grade/tier/CFE/Predator/governance labels.
-- V1 stage map resolves 153/1816 explicit project-generated rows and leaves 1663 `UNRESOLVED_TIER` rather than guessing.
-- CFE prerequisite topology/developmental basin remains research hypothesis; ISD uses staged order as a low-regret engineering shape pending causal test.
-
-## Turn delta — 2026-09-02 22:34 ET — reasoning archaeology deep-research handoff
-- User requested a no-loss handoff before independent deep research: all Commander’s Intent, all reasoning-trace discoveries, all “million silent things” structural inference, meaningful intuitions/extrapolations, applications, and operationally important guards.
-- Re-grounded from project state and first-class reasoning archaeology artifacts rather than chat memory.
-- Created `research/CFE_REASONING_ARCHAEOLOGY_DEEP_RESEARCH_HANDOFF_2026-09-02.md` SHA `afa4b9d8e4805679644b8c22f9ef71dc02f4ae3bd967ae077f4f7eb5a1147b44`, 65,194 bytes.
-- Created machine index `state/analysis/CFE_REASONING_ARCHAEOLOGY_DEEP_RESEARCH_HANDOFF_INDEX_20260902.json` SHA `e1f4ab231c6b26f06606ad47e20a6c1790740b30b8911f1e339f111a0e8c273e`.
-- Handoff preserves exact core cartographic Commander’s Intent, original terrain-engineering intent, reason-maintenance/multi-hypothesis priority, StarMap origin correction, temporal trace spine, representation-adequacy layer, LBE requirements, Anthropic boundary, cross-domain/Standard/LHIT applications, research holes and anti-overread/security guards.
-- Current strongest provisional synthesis: constraint-preserving state transformation + representation-adequacy/coordinate refinement + support-aware multi-hypothesis maintenance + identifying evidence + value-guided control.
-- Truth labels explicit; no scientific promotion occurred.
-
-
-## Deep-research delta — 2026-09-02 22:50 Eastern Daylight Time
-- No-loss reasoning archaeology handoff verified and adopted as primary deep-research ingress.
-- Wave 1 complete as non-authoritative external synthesis: cross-checkpoint feature evolution, support-extraction triangulation, adaptive compute allocation, compressed/latent deliberation transfer, trace-faithfulness limits.
-- Highest-value experimental bridge: matched dependency-respecting vs dependency-violating training + intermediate checkpoints + behavioral transfer/composition + representation-emergence tracking.
-- CFE prerequisite/developmental-basin law remains HYPOTHESIZED, not earned.
-
-
-## ISD compiler delta — 2026-09-02 23:06 Eastern Daylight Time
-- ISD developmental compiler advanced: 658/1816 rows now structurally staged; 1158 deliberately unresolved.
-- First prerequisite DAG and spiral schedule exist and mechanically PASS.
-- T4 remains empty by design; no long trace is promoted to frontier merely for complexity/length.
-- Structural stage classification remains weaker than mechanism verification; unresolved/source rows still require hostile episode review before final order freeze.
-
-
-## Canonical ISD blueprint delta — 2026-09-02 23:49 Eastern Daylight Time
-- Five-tier spiral excerpt is now the authoritative ISD conceptual center, not merely one staging note.
-- Blueprint SHA `9b01f81ce152777fa971243267b083a599595cf6e398b608ee96ab6e94674290`; build contract `e3ea3726db200d1153a2632d2225eed48c1b36c6213181bf945b08b257e05ff2`.
-- Binding: dependency depth not task difficulty; spiral accretion; all CFE/Predator/reason-maintenance machinery inside stage-appropriate experience; stage-neutral support only after conservative entry points; no control-plane leakage.
-- Matched first-run causal design is binding: same frozen trainable multiset, developmental order vs order-destroyed control.
-- Scientific guard remains: ISD architecture is binding engineering; accretion superiority is unproven until outcomes.
+## 9. Delta Since Previous Shadow
+- Dominant objective changed from training-body reviewer engineering to immediate thread-exit GitHub reincarnation publication.
+- Verified zero running CFE jobs; no hidden reviewer/training/eval service survives.
+- Created fresh 2026-09-03 human and machine rehydration packets.
+- Updated current/next/doctrine/revisit/trace/transcript/DTS with thread-exit publication state.
+- Preserved training-body LHRSG as incomplete rather than smoothing it into readiness.
+- Identified stale public R3.1/2026-09-02 ingress as a publication defect to be superseded.
+- Publication success is not yet claimed; final bundle LHRSG, commit/push, and remote readback remain outstanding.

@@ -1,0 +1,55 @@
+{
+  "schema": "cfe.isd.magnum.eval-audit.v1",
+  "status": "DEFECT_CONFIRMED__SEED_LEVEL_ORDER_DIRECTION_SURVIVES__WITHIN_SEED_ITEM_INFERENCE_WITHDRAWN",
+  "date": "2026-09-03",
+  "audited_eval": "state/analysis/ISD_MAGNUM_BLOCK_A_PREFIX140_FOUNDATIONS19_T1_LATE_REVISITS_V1_20260903/ISD_EVAL.private.jsonl",
+  "rows": 96,
+  "unique_exact_prompts": 46,
+  "duplication": {
+    "families_with_two_unique_prompts_repeated_six_times": [
+      "ADAPTIVE_EFFORT",
+      "DEPENDENCY_LOCAL_REPAIR",
+      "DISCRIMINATOR_SELECTION",
+      "REPRESENTATION_REFINEMENT",
+      "UNKNOWN_PRESERVATION"
+    ],
+    "families_with_genuinely_distinct_six_pair_scenarios": [
+      "COMPOSITION_TRANSFER",
+      "CURRENTNESS_SELECTIVE",
+      "GENERAL_CONSTRAINT"
+    ],
+    "adaptive_effort_effective_semantic_pairs": 1,
+    "adaptive_effort_manifest_pairs": 6
+  },
+  "consequences": {
+    "seed_level_prerequisite_order_replication_direction_after_exact_prompt_dedup": "UNCHANGED: 5 treatment wins / 1 tie / 0 scramble wins",
+    "current_late_frontload_seed_level_categorical_outcomes_after_exact_prompt_dedup": "UNCHANGED",
+    "withdrawn": [
+      "Any interpretation of ADAPTIVE_EFFORT 6/6 pair-complete as six independent semantic scenarios.",
+      "The exploratory within-seed exact paired p=0.03125 derived from six treatment-only ADAPTIVE_EFFORT item differences; those six differences were repeated copies of one semantic CONTINUE prompt and are pseudo-replication.",
+      "Descriptive totals such as 66/72 Adaptive-Effort items or 30/36 complete pairs as if the repeated rows were independent evidence."
+    ],
+    "preserved": [
+      "Paired-seed treatment/control direction in the six-seed prerequisite-order replication, because seed—not repeated eval row—is the inferential unit.",
+      "Categorical seed-level success/failure labels as a readout of the one frozen semantic STOP/CONTINUE pair, with narrowed phenotype breadth."
+    ]
+  },
+  "choice_token_bias_mining": {
+    "observation": "Across all 46 unique frozen prompts, LATE exposure136->140 produces a broad positive shift in C relative to A, approximately +0.21 to +0.24 logits per seed, across unrelated families and expected-answer letters.",
+    "adaptive_effort_specific_note": "The frozen ADAPTIVE_EFFORT CONTINUE prompt expects C and lies near the A/C decision boundary in several seeds. The four late revisits move all six duplicated copies by the same signed-margin amount within each seed because they are the same prompt.",
+    "discriminator_note": "DISCRIMINATOR_SELECTION ALREADY_IDENTIFIED also expects C and shows subthreshold improvement while complementary A-expected variants worsen, consistent with a broad A-vs-C calibration movement rather than family-specific semantic transfer.",
+    "current_best_explanation": "A substantial portion of the observed categorical Adaptive-Effort late-revisit flip is explainable by a global answer-token calibration shift from A toward C; semantic reasoning gain is not established by this readout.",
+    "guard": "CHOICE-LETTER CALIBRATION MOVEMENT != SEMANTIC CAPABILITY ACQUISITION"
+  },
+  "parameter_geometry_hostile_check": {
+    "result": "Raw LoRA parameter-delta cosine across independent seeds is near zero and is not used as a scientific negative.",
+    "reason": "Independent LoRA initializations admit low-rank factorization/gauge differences, making raw A/B coordinate comparison across seeds a poor functional coordinate system.",
+    "guard": "BAD COORDINATE SYSTEM != ABSENCE OF FUNCTIONAL GEOMETRY"
+  },
+  "next_diagnostic": {
+    "surface": "state/analysis/STANDARD_UPLIFT_PROJECT_GENERATED_ADAPTIVE_EFFORT_V1R1_20260902/PROJECT_GENERATED_ADAPTIVE_EFFORT_QUARANTINE.jsonl",
+    "reason": "16 distinct prompts forming 8 STOP/CONTINUE anti-isomorph pairs across multiple domains; verified project-generated and absent from Block-A learner-visible exposure.",
+    "status": "POST_OUTCOME_DIAGNOSTIC_ONLY__NOT_CONFIRMATORY",
+    "scoring_requirement": "Avoid A/B/C/D forced-choice letters; score STOP vs CONTINUE directly under a fixed answer prefix."
+  }
+}

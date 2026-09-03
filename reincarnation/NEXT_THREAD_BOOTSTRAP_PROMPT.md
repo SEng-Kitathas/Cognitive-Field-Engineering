@@ -1,15 +1,15 @@
-# Next Thread Bootstrap Prompt
+# Next Thread Bootstrap Prompt — 2026-09-03
 
-Paste or point a fresh thread at this repository and use the following instruction:
+Use this with a fresh thread after the GitHub reincarnation publication is complete:
 
-> Re-enter the CFE project from `SEng-Kitathas/Cognitive-Field-Engineering` under RECOVERY/AUDIT mode. Treat repository continuity as the primary handoff surface, but verify live machine reality before execution. Read, in order: `reincarnation/READ_ME_FIRST.md`, `continuity/live_shadow.md`, `continuity/current.md`, `continuity/next_steps.md`, `docs/COMMANDERS_INTENT.md`, `docs/SCIENTIFIC_CLAIM_LEDGER.md`, `docs/ENGINEERING_DECISION_LEDGER.md`, `docs/DO_NOT_REINTRODUCE.md`, active R3.1 SOP and CFE overlay, `transcript/THIS_CONVERSATION.md`, then the Design Thread Stream if more chronology is needed. Do not ask the operator to restate project history already present in these artifacts. Reconcile repository state with the live run root before mutation. Current scientific posture is `core observation established; mechanism unresolved`. v1.0 is closed; v1.1 scientific training has not started. K1/K2/K4 is parked behind cheaper mechanism discriminators. Immediate frontier: recover/read back the gradient-conflict diagnostic; run existing adapters on out-of-support bounded-transport and explicit-vs-latent diagnostic surfaces; then determine whether basis constitution, sibling interference, optimizer-window geometry, or an unmodeled mechanism best explains the bounded-transport -71. Every material turn must update continuity, commit, push when authenticated, and verify remote head. Heavy R&D archives are opt-in release assets and must not be pulled as part of normal runtime installation.
+> Re-enter `SEng-Kitathas/Cognitive-Field-Engineering` in RECOVERY/AUDIT mode. Treat repository continuity as the primary handoff surface and verify live machine reality before execution. Read `reincarnation/READ_ME_FIRST.md`, `continuity/NEW_THREAD_REHYDRATION_2026-09-03.md`, `continuity/live_shadow.md`, active current/next state, active doctrine, LHRSG law, Rahl Engineering SOP R4.1 project-local authority/adoption binding, Commander’s Intent, revisit ledger, trace matrix, then Design Thread Stream if chronology is needed. Do not ask the operator to restate history already persisted. Do not use R3.1/R4.0 as current process authority where R4.1 supersedes them. Current scientific boundary: DD1R1 remains separately earned; DD2 unresolved; old Block-A frozen eval is defective/historical and the original full Adaptive-Effort phenotype claim is demoted; V2R7 is the current repaired 96-row/48-pair eval with exact 96/96 LHRSG PASS; historical Block-A interventions remain useful post-outcome information. The exact 1,840-row private Magnum learner body SHA `b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef` is structurally audited but LHRSG incomplete and NOT training-authorized. Resume by qualifying a practical full-coverage semantic-review method and completing 1,840/1,840 LHRSG (or an append-only corrected successor) before any new training. Every new/mutated readable artifact entering semantic authority must receive LHRSG. Preserve the normal Git privacy/heavy boundary. Verify local/remote Git head before mutation.
 
-## Fresh-thread first response
-The new thread should state only:
-- mode;
-- role;
-- verified baseline;
-- provisional mechanism hypotheses;
-- current blockers;
-- exact next action;
+## First response grammar
+State only:
+1. mode;
+2. role;
+3. likely bias / first friction;
+4. verified vs provisional;
+5. baseline vs open seams;
+6. immediate next actions;
 then begin useful work.

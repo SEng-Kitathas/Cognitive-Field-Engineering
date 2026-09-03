@@ -1,0 +1,53 @@
+{
+  "claim_ceiling": "Structural/rotation/redundancy/overlap verification. Does not convert post-outcome use on historical adapters into confirmatory evidence.",
+  "errors": [],
+  "eval_sha256": "cf2568d771bc2d2484bd1f300308572cee8c4beefc53dea2cf10021c7324e2d8",
+  "hostile_rejected": 5,
+  "hostile_tests": [
+    {
+      "errors": [
+        "NONUNIQUE:prompt",
+        "ROTATION_INTEGRITY:CURRENTNESS_SELECTIVE:0:IRRELEVANT1"
+      ],
+      "name": "duplicate_prompt",
+      "rejected": true
+    },
+    {
+      "errors": [
+        "ROTATION_INTEGRITY:CURRENTNESS_SELECTIVE:0:UPDATE0"
+      ],
+      "name": "wrong_rotation_metadata",
+      "rejected": true
+    },
+    {
+      "errors": [
+        "FAMILY_LABEL_BALANCE:CURRENTNESS_SELECTIVE:{'D': 4, 'C': 3, 'B': 3, 'A': 2}",
+        "ROTATION_INTEGRITY:CURRENTNESS_SELECTIVE:0:UPDATE0"
+      ],
+      "name": "family_label_imbalance",
+      "rejected": true
+    },
+    {
+      "errors": [
+        "ROW_COUNT:95",
+        "FAMILY_SHAPE:{'CURRENTNESS_SELECTIVE': 12, 'DEPENDENCY_LOCAL_REPAIR': 12, 'DISCRIMINATOR_SELECTION': 12, 'ADAPTIVE_EFFORT': 12, 'REPRESENTATION_REFINEMENT': 12, 'UNKNOWN_PRESERVATION': 12, 'COMPOSITION_TRANSFER': 12, 'GENERAL_CONSTRAINT': 11}",
+        "FAMILY_LABEL_BALANCE:GENERAL_CONSTRAINT:{'A': 3, 'C': 3, 'B': 3, 'D': 2}",
+        "PAIR_SHAPE:GENERAL_CONSTRAINT"
+      ],
+      "name": "missing_row",
+      "rejected": true
+    },
+    {
+      "errors": [
+        "EXACT_TRAIN_OVERLAP:CURRENTNESS_SELECTIVE:0:UPDATE0",
+        "NEAR_TRAIN_OVERLAP:CURRENTNESS_SELECTIVE:0:UPDATE0:1.0:000cc9e6f912ac0da00937dc20d4dd8ca071c3d23885606837095b7816cb8784"
+      ],
+      "name": "exact_training_overlap",
+      "rejected": true
+    }
+  ],
+  "hostile_total": 5,
+  "schema": "cfe.isd.magnum.eval-v2-independent-verification.v1",
+  "status": "PASS",
+  "train_sha256": "b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef"
+}

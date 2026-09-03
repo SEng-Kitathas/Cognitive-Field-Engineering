@@ -1,5 +1,7 @@
 # CFE CURRENT STATE
 
+> **Authority rule:** This file is chronological state history. Later dated sections supersede earlier conflicting state. For bounded active truth, use `state/current/ACTIVE_CURRENT_STATE.json` together with `state/live_shadow.md`. Historical statements remain preserved as lineage and SHALL NOT be read as current merely because they appear earlier in this file.
+
 As of: 2026-09-01 09:17 Eastern Daylight Time
 Mode: BUILD-COMMIT
 Role: R4 Convergence Refiner
@@ -312,3 +314,89 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Resource limits may create an arm-symmetric long-context reserve; they SHALL NOT redefine tier or trigger destructive history cropping.
 - First serious training run is now required to be matched: DEVELOPMENTAL_SPIRAL vs ORDER_DESTROYED_CONTROL on the same frozen trainable atoms/tokens/learner/initialization/optimizer/eval.
 - Training remains unauthorized until exact frozen payload, resource qualification, baseline phenotype and preregistration are sealed.
+
+## 2026-09-03 local-first execution-method adoption
+
+- Operator-provided generic methodology adopted; stale external project references intentionally ignored.
+- Execution preference under instability is now explicit: strongest surviving operator-side/server-native route first, then direct local subprocess/Python, then durable project runners; assistant/bridge-side execution is exception-only when materially superior.
+- Consequential runs should be durable, resumable where practical, artifact-emitting, and verified by direct machine readback.
+- Scientific identity must not be altered to accommodate a flaky execution plane.
+- Canonical note: `notes/maintenance/SERVER_EXECUTION_METHODOLOGY_LOCAL_FIRST_20260903.md` SHA-256 `87c6a642bd21c4f4eca15f7fc543ed3a8446bb5e0ee7e9421b09081815b7c017`.
+
+
+### 2026-09-03 12:16 ET — Active ISD mechanism-replication state
+- Mode: BUILD-COMMIT scientific runner; role R5 with R4 convergence support.
+- Verified incumbent: prerequisite-first T0-before-T1 ordering produced full unseen Adaptive-Effort phenotype in 5/6 fresh paired seeds versus 0/6 phase-scramble arms; one tie; no scramble wins. Authoritative result SHA `ba7b63746f2d50b8ef5b58673a7fd57e79f1d0006433c2b4302f7708bb70e686`.
+- Verified mechanism seam from exploratory seed: 19 original T0 foundations + all 117 T1 were sufficient for Adaptive Effort at exposure136 before revisit dose; four late T0 revisits then additionally moved Discriminator Selection to 12/12 + 6/6 at exposure140.
+- Active replication campaign now tests those two seams across six fresh paired seeds with exact LATE vs FRONTLOAD 140-exposure multiset matching and identical first19 prefix. Campaign identity `68ed5b31b50c6ed70b6bc7df919edf3e157d65be1f4daf16a8649230d31409b6`, lock SHA `835daa791b3933e67963c9ff0923a9a3bc9374553d816bcebff012793209d4e0`.
+- Durability upgraded: new resilient trainer SHA `9a3c80707be8f860c57a5bbd0686f9d80395d69f5ae25115f96975c6c97318fa`; checkpoint every 5 optimizer steps + milestones; qualified recovery is behaviorally equivalent but non-bit-exact due active non-deterministic attention backward. Qualification SHA `7d7de1fff6e02007cd58a7d244ead8ced504273ae46a8831dd5ef627d0c00235`.
+- Active job `job-d1276bf4bfb6`, launcher PID `39020`; first arm seed2026090501 LATE has verified persisted exposure19 recovery/milestone and was observed at exposure23/140, step6/36. No new replication outcome yet.
+- Resume point: allow the server-native runner to complete. On interruption, inspect `REPLICATION_PROGRESS.json` and per-arm `recovery_current` before any restart; do not replay persisted dose. After completion, read `REPLICATION_RESULT.json` and hostile-interpret Q1 foundation sufficiency separately from Q2 late-revisit timing.
+
+
+### 2026-09-03 14:10 ET — Engineering SOP authority update
+- Active project-agnostic process authority is now Rahl Engineering Canonical SOP R4.1: `RAHL_ENGINEERING_CANONICAL_SOP_R4_1_2026-09-03.zip`, SHA `af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2`.
+- R4.0 is historical lineage only. The interim base-tier operator override is retained as provenance but its active function is absorbed into R4.1.
+- Nontrivial CFE work defaults to the R4.1 base-tier metabolism: PDVER + hostile engineering + Semantic Helix + Attention Reservoir + Loop+ + OARR + CSC + additive AI co-processor strengths, applied proportionally rather than ceremonially.
+- This authority change is process-layer only and does not alter or promote any scientific result.
+
+
+## 2026-09-03 14:34 ET — Revisit-timing replication final disposition / actual-project readback
+- Active engineering-process authority remains Rahl Engineering Canonical SOP R4.1, package SHA `af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2`.
+- Server-native replication job `job-d1276bf4bfb6` is VERIFIED `COMPLETED`, return code `0`; duration ~5368.9 s. Job artifact registration status is `not_attempted` and SHALL NOT be conflated with local artifact persistence.
+- Campaign `state/analysis/ISD_MAGNUM_BLOCK_A_REVISIT_TIMING_REPLICATION_V1_20260903` completed 12/12 training arms and 18 eval manifests with zero recovery resumes. All six LATE/FRONTLOAD pairs match on initial trainable SHA, exposure-19 trainable SHA, and exposure-19 adapter SHA.
+- Authoritative `REPLICATION_RESULT.json` SHA `417ec4a2072beee05f822a54e732a935dd56984ff2a5a70014c6463dff628551`; sealed disposition `SCIENTIFIC_DISPOSITION_V1.json` SHA `0b7073e6776ccdbf23efb60eb8cbdc2f4a40942321540009a09fe936fcbf4a51`.
+- Preregistered Q1 `FOUNDATIONS19_SUFFICIENCY`: 1/6 successful seeds -> `NOT_REPLICATED`. The exploratory claim that the original 19 T0 foundations are generally sufficient before any revisit dose is DEMOTED.
+- Preregistered Q2 `LATE_REVISIT_DISCRIMINATOR_TIMING`: 0 late wins / 6 ties / 0 frontload wins, exact two-sided sign p=1.0. No Discriminator-Selection timing effect appeared in this six-seed screen. The prior one-seed late-revisit Discriminator jump is DEMOTED.
+- Within LATE, Discriminator pair-complete change 136->140 = 0 positive / 6 zero / 0 negative.
+- Secondary Adaptive-Effort geometry: LATE full phenotype 1/6 at exposure136 before revisits -> 4/6 at exposure140 after late revisits; FRONTLOAD full phenotype 2/6 at exposure140. Paired LATE vs FRONTLOAD = 2 wins / 4 ties / 0 losses, two-sided sign p=0.5. Within LATE 136->140 = 3 positive / 3 zero / 0 negative, p=0.25. This is exploratory path sensitivity, not a timing law.
+- Earlier prerequisite-first vs phase-scramble replication remains independently valid: 5 treatment wins / 1 tie / 0 scramble wins on Adaptive-Effort pair-complete. New result narrows mechanism attribution; it does not erase the broader order effect.
+- Current best scientific geometry: `FIELD ORDER MATTERS IN THIS FIXED REGIME`; `FOUNDATIONS19 SUFFICIENCY NOT REPLICATED`; `LATE-REVISIT DISCRIMINATOR EFFECT NOT REPLICATED`; `STATIC UNIQUE DEVELOPMENTAL ROUTE NOT SUPPORTED`; `SEED/PATH SENSITIVITY OBSERVED, INTERNAL CAUSE UNRESOLVED`.
+- Guard: `SEED-CONDITIONED ADAPTATION TRAJECTORY != PRETRAINED-MODEL TOPOLOGY`.
+- No active training job. Last GPU readback: 47 C / ~740 MiB / 3% utilization.
+- Live project root is not a Git repo. Publication checkout is clean at `main` HEAD == `origin/main` = `3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3` (`Seal canonical ISD developmental blueprint`). This revisit-timing result is local and SHALL NOT be called published.
+- Resume frontier: mine completed 12-arm trajectories for early topology/predictor signal; if unresolved, freeze a same-seed original-SPACED add-on over seeds `2026090501..0506` to compare SPACED vs completed LATE vs FRONTLOAD without rerunning completed arms. No new training was launched in this checkpoint pass.
+
+
+## 2026-09-03 — LHRSG project law + Magnum measurement correction
+- ACTIVE PROJECT LAW: `Linear Human Read / Semantic Gate (LHRSG)`. Exact authority artifact `state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md`, SHA `cde0ef9aa141bac519f63bec2ca91c5f80f6a09a5267d02b29eee1387d64d1d2`; self-gate PASS receipt SHA `5c2b65d947f9e07bd28b16a2dafb1c105e7aac2bbecb6bbb828be5980739b55e`.
+- Binding law: `READABLE -> LINEAR READ -> SEMANTIC GATE -> ONLY THEN SEMANTIC USE / LOAD-BEARING`. Sampling, search, schema/tests, hostile automation, and structural PASS are support machinery and SHALL NOT substitute for 100% linear semantic review.
+- Any post-gate semantic mutation invalidates the prior gate and requires full replay before semantic authority.
+- Old ISD frozen eval is DEFECTIVE/HISTORICAL: 96 rows contained only 46 unique prompts; five families duplicated one semantic pair six times, and key Adaptive-Effort flips were confounded by broad C-over-A answer-token calibration. Old six-item within-seed p=0.03125 is withdrawn as pseudo-replication.
+- Historical Block-A training runs/checkpoints/schedules remain valid intervention history and may support post-outcome archaeology, but the old `full Adaptive-Effort phenotype` interpretation is no longer load-bearing.
+- Canonical Magnum learner-visible body remains byte-unchanged: 1,840 rows, SHA `b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef`. Structural/purity audit found no learner-visible mutation requirement, but under LHRSG the full body is now `LHRSG_INCOMPLETE__NOT_TRAINING_AUTHORIZED` until all 1,840 exact rows are semantically reviewed.
+- Current repaired eval candidate is `ISD_MAGNUM_EVAL_V2R7_20260903`, 96 rows / 48 distinct anti-isomorph pairs, SHA `cf2568d771bc2d2484bd1f300308572cee8c4beefc53dea2cf10021c7324e2d8`. Automated independent verifier PASS with 5/5 hostile mutations rejected; exact full-record LHRSG PASS 96/96. Receipt `state/qualification/LHRSG_ISD_MAGNUM_EVAL_V2R7_20260903.json`, SHA `f89124692a03596caaff52dc6d296ef4ba0dc8bb531824d8a74812966f766dc5`.
+- V2R7 is post-outcome for historical adapters; it can diagnose/recharacterize but cannot retroactively confirm old runs. It may become a prospective ruler only if these exact bytes/hash are frozen before future outcomes.
+- No new training has been launched. Fresh confirmatory prerequisite-first vs scramble science requires exact training-body LHRSG + prospective freeze first.
+
+
+## 2026-09-03 17:14 ET — Thread-reincarnation / full GitHub publication pass
+- Operator explicitly requested a full GitHub project update because the current chat thread is at practical capacity, with special emphasis on all continuity and SOP-required artifacts under active Rahl Engineering SOP R4.1.
+- Mode: `BUILD-COMMIT__THREAD_REINCARNATION_PUBLICATION`; role: R1 Conservative Auditor + R5 Reality Pressure Engine.
+- R4.1 remains active process authority. CFE LHRSG remains active project law; publication itself is subject to LHRSG on every new/mutated readable promoted artifact.
+- Current science remains unchanged by the publication request: old ISD frozen eval is defective/historical; V2R7 is the current repaired 96-row/48-pair eval with exact 96/96 LHRSG PASS; historical Block-A interventions remain information; original full Adaptive-Effort phenotype claim remains demoted; DD1R1 remains separately earned; DD2 remains unresolved.
+- Canonical Magnum learner-visible body remains exact SHA `b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef`, 1,840 streaming JSON records, `LHRSG_INCOMPLETE__NOT_TRAINING_AUTHORIZED`.
+- LHRSG reviewer-method status is now persisted at `state/analysis/ISD_MAGNUM_LHRSG_REVIEWER_METHOD_STATUS_20260903.json` SHA `a87644b1c91cdff14ef3c42b3f09f59b026c3c7b4da7bbc5944c2a8071fee022`. Fast Qwen3-4B and Qwen2.5-Coder-7B protocols failed hostile semantic qualification; CapybaraHermes free-form review passed semantic qualification but was too slow (~45 tok/s prompt ingestion); 8-slot parallel benchmark job `job-1f83395d2146` ended RC1 after task cancellation/timeout and produced no scientific/corpus-review result.
+- Machine readback at publication start: no active CFE training, eval, rescore, or reviewer process.
+- Publication checkout is `publication/github/Cognitive-Field-Engineering`, remote `SEng-Kitathas/Cognitive-Field-Engineering`, pre-update HEAD `3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3`, clean worktree.
+- Publication boundary remains public-safe Git only: no protected/gated eval text, no full 1,840-row learner body, no private result JSONL, no credentials, model weights, adapters, or heavy runtime artifacts in normal clone.
+- Exact immediate sequence: build public-safe reincarnation bundle -> LHRSG exact promoted bytes -> commit/push -> remote readback -> publication receipt/final continuity delta -> second continuity push if needed.
+- Fresh-thread resume after publication: complete the 1,840/1,840 learner-visible training-body LHRSG; no new training before that semantic gate and a prospectively frozen experiment/eval/scorer contract.
+
+
+## 2026-09-03 17:08 ET — Thread-exit / full GitHub reincarnation checkpoint
+- Operator explicitly requested a **full GitHub project update before leaving this context-saturated thread**, with all continuity and current SOP-required surfaces preserved and the update itself performed under Rahl Engineering SOP R4.1.
+- Active process authority remains **Rahl Engineering Canonical SOP R4.1**, package identity `RAHL_ENGINEERING_CANONICAL_SOP_R4_1_2026-09-03.zip`, SHA `af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2`.
+- Active project law remains **Linear Human Read / Semantic Gate (LHRSG)**, law SHA `cde0ef9aa141bac519f63bec2ca91c5f80f6a09a5267d02b29eee1387d64d1d2`, self-gate PASS receipt SHA `5c2b65d947f9e07bd28b16a2dafb1c105e7aac2bbecb6bbb828be5980739b55e`.
+- Fresh human rehydration packet created: `state/NEW_THREAD_REHYDRATION_2026-09-03.md`, SHA `c06c46995d5aab17ce8b7e12930163e9a3a30fab8b6fefbf68a1e48aac4bd884`.
+- Fresh machine rehydration packet created: `state/NEW_THREAD_REHYDRATION_2026-09-03.json`, SHA `a6d0b124ec0cc60dcfb833c9ce13aee13e712e97d5a3feef4ae3b8b01e66cbe6`.
+- Current science boundary at handoff:
+  - DD1R1 remains `FIELD_RESOLUTION_SUPPORTED__FIXED_REGIME` with narrow claim ceiling.
+  - old Block-A frozen eval is `DEFECTIVE__HISTORICAL_ONLY`; original full Adaptive-Effort phenotype interpretation is demoted and the duplicated-item within-seed p=.03125 is withdrawn as pseudo-replication.
+  - historical Block-A schedules/checkpoints/adapters remain valid intervention history / archaeology.
+  - V2R7 is current repaired eval candidate, SHA `cf2568d771bc2d2484bd1f300308572cee8c4beefc53dea2cf10021c7324e2d8`, with 96/96 exact LHRSG PASS; historical use is post-outcome only.
+  - exact 1,840-row canonical Magnum learner-visible body SHA `b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef` remains `LHRSG_INCOMPLETE__NOT_TRAINING_AUTHORIZED`.
+- Execution readback before publication: project execution capacity reports **0 running project/global jobs**. Failed/terminated reviewer-service experiments remain execution archaeology; there is no active training, eval, or reviewer process to inherit.
+- Publication boundary remains thin-clone/public-safe: continuity, doctrine/process bindings, public-safe scientific summaries/hashes/receipts, source/tooling, and decision history may publish; private training/eval text, model weights, checkpoints/adapters, protected/gated benchmark text, credentials, and transient execution logs remain local/non-Git.
+- Current publication checkout was verified clean at `main == origin/main == 3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3` before this update. This paragraph SHALL NOT be read as proof the new checkpoint is already published; push/remote-head readback is a separate required step.
+- Resume point after thread transition: **RECOVERY/AUDIT from the 2026-09-03 rehydration packet; complete 1,840/1,840 training-body LHRSG before any new training.**

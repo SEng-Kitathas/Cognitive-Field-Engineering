@@ -1,48 +1,83 @@
 # Cognitive Field Engineering (CFE)
 
-CFE is an active R&D project investigating whether the **geometry of learner-visible experience**—which experiences are co-visible, how causal contrasts are grouped, and what the optimizer can integrate inside an update horizon—changes learned phenotype under fixed model/training constraints.
+CFE is an active R&D program investigating the **developmental geometry of experience**: how support resolution, local relational co-visibility, temporal/revisit structure, connectivity, and task closure shape learned phenotype under controlled learner/training conditions.
+
+The governing program intent is broader than curriculum tuning:
+
+> **The developmental structure of experience itself is the engineering medium.**
+
+> **ENGINEER THE TERRAIN, NOT THE ANIMAL.**
+
+> **We are not merely trying to discover the right developmental geometry. We are trying to reconstruct the topology of constraints governing developmental geometry, while simultaneously hostile-engineering the coordinate system used to describe that topology.**
 
 ## Read this before doing anything
 
-New threads and new operators MUST begin with:
+Fresh threads/operators MUST begin with:
 1. `reincarnation/READ_ME_FIRST.md`
-2. `continuity/live_shadow.md`
-3. `continuity/current.md`
-4. `continuity/next_steps.md`
-5. `docs/COMMANDERS_INTENT.md`
-6. `docs/PROJECT_HISTORY_AND_DECISIONS.md`
-7. `docs/DO_NOT_REINTRODUCE.md`
-8. `doctrine/rahl_r3_1/`
-9. `transcript/THIS_CONVERSATION.md`
-10. `continuity/design_thread_stream.md` for forensic chronology.
+2. `continuity/NEW_THREAD_REHYDRATION_2026-09-03.md`
+3. `continuity/live_shadow.md`
+4. `state/current/ACTIVE_CURRENT_STATE.json`
+5. `state/next_steps/ACTIVE_NEXT_STEPS.json`
+6. `state/doctrine_snapshot/ACTIVE_DOCTRINE_SNAPSHOT.md`
+7. `state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md`
+8. `doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md`
+9. `state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-09-01T0027-04-00.md`
+10. `state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md`
+11. `state/trace_matrix/ACTIVE_TRACE_MATRIX.md`
+12. `continuity/design_thread_stream.md` if forensic chronology is needed.
 
-Do not infer project state from README prose when the live continuity surfaces disagree.
+Do not infer current project state from older README/transcript/doctrine surfaces when active continuity disagrees.
 
-## Current scientific posture
+## Active process authority
 
-**Earned:** relational co-visibility geometry has a measurable, family-dependent effect on held-out-domain task performance under the v1.0 screen.
+CFE currently uses **Rahl Engineering Canonical SOP R4.1** as its project-agnostic engineering-process authority. The project-local binding is:
 
-Observed six-seed family discordance (TREATMENT minus CONTROL):
-- `warrant_vs_taint`: **+43**
-- `dependency_currentness`: **0**
-- `bounded_transport`: **-71**
+`doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md`
 
-**Not earned:** a predictive mechanism for the sign flip, a generally usable cognitive archetype, or the claim that “CFE works and only needs tuning.”
+R3.1 and R4.0 remain historical lineage where superseded.
 
-Current strongest statement: **core observation established; mechanism unresolved.**
+## Active CFE project law
+
+**Linear Human Read / Semantic Gate (LHRSG):**
+
+`READABLE -> LINEAR READ -> SEMANTIC GATE -> ONLY THEN SEMANTIC USE / LOAD-BEARING`
+
+Automated verification supports the gate but does not replace complete semantic reading. Exact unchanged receipts may be reused; semantic mutation invalidates the prior gate for changed bytes.
+
+## Current scientific posture — 2026-09-03
+
+**Still earned:** DD1R1 remains fixed-regime `FIELD_RESOLUTION_SUPPORTED` evidence: mean paired balanced-accuracy delta +0.03125, 4/6 paired wins, but stable two-sided competence only 1/6.
+
+**Still unresolved:** DD2 Structured Revisit.
+
+**Demoted after measurement audit:** the historical Block-A frozen eval was defective. Its 96 rows contained only 46 unique prompts; five families copied one semantic pair six times, and the key Adaptive-Effort readout was answer-letter confounded. The original “full Adaptive-Effort phenotype” claim and its duplicated-item within-seed p=.03125 are not load-bearing.
+
+**Preserved:** the historical Block-A schedules, paired interventions, saved adapters/checkpoints, and training trajectories remain useful post-outcome information.
+
+**Current repaired eval:** V2R7, 96 unique rows / 48 distinct anti-isomorph pairs / 8 families, independent verifier PASS + 5/5 hostile rejection + exact 96/96 LHRSG PASS. Historical adapter use remains post-outcome diagnostic only unless a future experiment prospectively freezes these exact bytes before outcomes.
+
+**Current training blocker:** the exact 1,840-row private Magnum learner body is structurally audited but has not received 1,840/1,840 LHRSG. It is **not training-authorized**.
+
+See `continuity/NEW_THREAD_REHYDRATION_2026-09-03.md` for the exact restart frontier.
 
 ## Repository boundary
 
-This repository is deliberately a **thin clone**. It contains code, continuity, policy, scientific state, small candidate datasets, analysis artifacts, campaign ledgers, and doctrine. It MUST NOT make OS/runtime installation pull model weights, checkpoints, executed adapters, raw multi-hundred-MB reincarnation packages, or archival R&D dumps.
+This repository is deliberately a **public-safe thin clone**, not a mirror of the local R&D filesystem.
 
-Heavy source packages belong in GitHub Releases (or another explicitly opt-in archive surface) and are referenced by SHA-256 from `archive_manifests/`. See `policy/PUBLICATION_AND_ASSET_BOUNDARY.md`.
+Normal Git tracks restart-critical code, continuity, doctrine, scientific manifests/dispositions, small public-safe analysis artifacts, and verification receipts.
 
-## Per-turn continuity rule
+Normal Git excludes:
+- private learner-visible training JSONL;
+- private eval/result JSONL;
+- protected/gated benchmark question text;
+- credentials/tokens;
+- model weights and adapters;
+- heavy runtime caches/log dumps.
 
-Every material turn SHALL update the appropriate continuity files and create a Git commit. When authenticated remote access is available, that commit SHALL be pushed in the same turn. See `policy/PER_TURN_GIT_CONTINUITY_POLICY.md`.
+Heavy or protected material is identified by hashes/manifests and lives on local or explicit release surfaces as appropriate.
 
+`FULL PROJECT UPDATE != FULL LOCAL FILESYSTEM MIRROR`
 
-## Publication identity
-Initial continuity-complete publication remote head: `f7fdbd91068eb9629824d67185d358f4e77ea7c2`.
-Remote: `https://github.com/SEng-Kitathas/Cognitive-Field-Engineering.git`
-Heavy archive release assets are a separate opt-in surface and are not required by normal clone/install.
+## Continuity rule
+
+Every material project state change should update the appropriate continuity surfaces. Publication is not complete until the Git commit is pushed and remote state is read back. Local persistence, execution completion, artifact registration, Git commit, and remote publication are separate truth surfaces.

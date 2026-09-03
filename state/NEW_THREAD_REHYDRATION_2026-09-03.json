@@ -1,0 +1,99 @@
+{
+  "schema": "cfe.new-thread-rehydration.v2",
+  "checkpoint_date": "2026-09-03",
+  "status": "RECOVERY_READY__PUBLICATION_PENDING_READBACK",
+  "mode_on_reentry": "RECOVERY_AUDIT",
+  "process_authority": {
+    "name": "Rahl Engineering Canonical SOP R4.1",
+    "package": "RAHL_ENGINEERING_CANONICAL_SOP_R4_1_2026-09-03.zip",
+    "sha256": "af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2",
+    "binding": "doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md"
+  },
+  "project_laws": {
+    "lhrsg": {
+      "status": "ACTIVE_PROJECT_LAW",
+      "path": "state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md",
+      "sha256": "cde0ef9aa141bac519f63bec2ca91c5f80f6a09a5267d02b29eee1387d64d1d2",
+      "self_gate_receipt_sha256": "5c2b65d947f9e07bd28b16a2dafb1c105e7aac2bbecb6bbb828be5980739b55e",
+      "law": "READABLE -> LINEAR READ -> SEMANTIC GATE -> ONLY THEN SEMANTIC USE / LOAD-BEARING"
+    }
+  },
+  "science": {
+    "dd1r1": {
+      "status": "FIELD_RESOLUTION_SUPPORTED__FIXED_REGIME",
+      "mean_paired_balanced_accuracy_delta": 0.03125,
+      "paired_wins": "4/6",
+      "stable_two_sided_competence": "1/6",
+      "claim_ceiling": "local identifying field resolution matters causally in this fixed regime; not sufficient for robust two-sided competence and not universal"
+    },
+    "dd2": "UNRESOLVED",
+    "block_a_historical_runs": {
+      "status": "VALID_INTERVENTION_HISTORY__OLD_PHENOTYPE_MEASUREMENT_DEMOTED",
+      "old_eval_defect": "96 rows -> 46 unique prompts; five families duplicated one semantic pair six times; Adaptive-Effort coupled to A/C answer letters",
+      "withdrawn": "old within-seed p=0.03125 based on six duplicated Adaptive-Effort item differences",
+      "guard": "VALID INTERVENTION HISTORY != VALID OLD MEASUREMENT INTERPRETATION"
+    }
+  },
+  "evaluation": {
+    "old_frozen_eval": "DEFECTIVE__HISTORICAL_ONLY",
+    "current_repaired_candidate": {
+      "name": "ISD_MAGNUM_EVAL_V2R7_20260903",
+      "private_path": "state/analysis/ISD_MAGNUM_EVAL_V2R7_20260903/ISD_EVAL_V2.private.jsonl",
+      "sha256": "cf2568d771bc2d2484bd1f300308572cee8c4beefc53dea2cf10021c7324e2d8",
+      "rows": 96,
+      "pairs": 48,
+      "lhrsg": "PASS_96_OF_96",
+      "receipt_sha256": "f89124692a03596caaff52dc6d296ef4ba0dc8bb531824d8a74812966f766dc5",
+      "historical_use": "POST_OUTCOME_DIAGNOSTIC_ONLY",
+      "future_use": "eligible only if exact bytes/hash are prospectively bound before outcomes"
+    }
+  },
+  "training_body": {
+    "private_path": "state/analysis/ISD_MAGNUM_OPUS_CANDIDATE_V1_20260903/ISD_CANONICAL.private.jsonl",
+    "rows": 1840,
+    "sha256": "b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef",
+    "structural_audit": "PASS_NO_LEARNER_VISIBLE_MUTATION_REQUIRED__MEASUREMENT_PIPELINE_REPAIR_REQUIRED",
+    "structural_audit_sha256": "f9392dc680d111003ce669185d98f6d0005115c296f936b48545e3b5387b3591",
+    "lhrsg": "INCOMPLETE_0_OF_1840",
+    "training_authorized": false
+  },
+  "execution": {
+    "active_jobs": 0,
+    "active_training_job": null,
+    "active_eval_job": null,
+    "active_reviewer_job": null,
+    "reviewer_attempts": [
+      "Qwen3-4B free-form qualifier: protocol failed before verdict",
+      "Qwen3-4B single-token semantic classifier: failed hostile controls",
+      "Qwen2.5-Coder-7B reviewer: failed ambiguity/control-plane hostile controls",
+      "CapybaraHermes-7B free-form reviewer: semantic qualification passed but throughput impractical for 134.6 MB full pass",
+      "Capybara parallel runtime: no admitted practical throughput solution",
+      "Qwen3.5-35B-A3B service attempts: execution archaeology only; no admitted full-review path"
+    ]
+  },
+  "resume_point": "Complete exact 1840/1840 learner-visible training-body LHRSG in deterministic record order. If any row fails, preserve original and build append-only successor, then restart full gate. No new training until this closes. Afterward, optionally remeasure saved adapters on exact V2R7 as post-outcome archaeology, then prospectively preregister a fresh paired prerequisite-first vs phase-scramble replication.",
+  "publication_boundary": {
+    "normal_git": "continuity, doctrine/process bindings, public-safe scientific summaries/manifests/receipts, source/tooling, project history",
+    "excluded": "private training/eval payloads, model weights, checkpoints/adapters, protected/gated benchmark text, credentials, transient logs"
+  },
+  "read_order": [
+    "reincarnation/READ_ME_FIRST.md",
+    "continuity/NEW_THREAD_REHYDRATION_2026-09-03.md",
+    "continuity/live_shadow.md",
+    "continuity/current.md",
+    "state/current/ACTIVE_CURRENT_STATE.json",
+    "continuity/next_steps.md",
+    "state/next_steps/ACTIVE_NEXT_STEPS.json",
+    "doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+    "state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md",
+    "state/doctrine_snapshot/ACTIVE_DOCTRINE_SNAPSHOT.md",
+    "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md",
+    "state/trace_matrix/ACTIVE_TRACE_MATRIX.md",
+    "docs/COMMANDERS_INTENT.md",
+    "docs/SCIENTIFIC_CLAIM_LEDGER.md",
+    "docs/ENGINEERING_DECISION_LEDGER.md",
+    "docs/DO_NOT_REINTRODUCE.md",
+    "transcript/THIS_CONVERSATION.md",
+    "continuity/design_thread_stream.md"
+  ]
+}

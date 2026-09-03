@@ -1,0 +1,77 @@
+{
+  "schema": "cfe.isd.magnum.training-body-audit.v2",
+  "status": "PASS_NO_LEARNER_VISIBLE_MUTATION_REQUIRED__MEASUREMENT_PIPELINE_REPAIR_REQUIRED",
+  "date": "2026-09-03",
+  "candidate_path": "state/analysis/ISD_MAGNUM_OPUS_CANDIDATE_V1_20260903/ISD_CANONICAL.private.jsonl",
+  "candidate_rows": 1840,
+  "candidate_sha256": "b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef",
+  "whole_body_checks": {
+    "json_parse": "PASS_1840_OF_1840",
+    "unique_atom_ids": 1840,
+    "unique_canonical_prompt_hashes": 1840,
+    "unique_conversation_hashes": 1840,
+    "exact_learner_visible_conversation_duplicates": 0,
+    "duplicate_raw_record_sha256_groups": 0,
+    "project_generated_rows": 177,
+    "project_generated_configs": {
+      "science_diagnosis_v1": 64,
+      "memory_currentness_v1": 62,
+      "frontier_synthesis_v1r2": 24,
+      "adaptive_effort_v1r1": 16,
+      "deficit_repair_v1": 11
+    },
+    "project_generated_prompt_similarity_3gram": {
+      "adaptive_effort_v1r1_max": 0.4895833333333333,
+      "deficit_repair_v1_max": 0.020833333333333332,
+      "frontier_synthesis_v1r2_max": 0.6078431372549019,
+      "science_diagnosis_v1_max": 0.45454545454545453,
+      "memory_currentness_v1_max": 0.7647058823529411,
+      "pairs_ge_0_75_total": 1
+    },
+    "intentional_high_similarity_pair": {
+      "atom_ids": [
+        "4493a1867a0bcfba3ce9b076d101574745658888086e5a8008fe2cfa040889a0",
+        "a2429fc33658f412498e8fa73ac7e8f642b0161d2e8f865f59a92da7f57d8d2a"
+      ],
+      "jaccard_3gram": 0.7647058823529411,
+      "disposition": "PRESERVE_INTENTIONAL_SINGLE_TURN_VS_MULTI_TURN_EMBODIMENT_OF_SAME_CURRENTNESS_CONTRACT",
+      "repair_needed": "SIDECAR_CLUSTER_ANNOTATION_ONLY__NO_LEARNER_VISIBLE_BYTE_CHANGE"
+    }
+  },
+  "target_render_interpretation": {
+    "project_generated_canonical_rows_may_end_on_user_role": true,
+    "renderer_contract": "PROJECT FINAL_ANSWER FALLBACK IS SOURCE-SCOPED; content.final_answer is appended as an assistant target for CFE/project-generated-standard-uplift rows when not already visible.",
+    "disposition": "FINAL_USER_ROLE_BY_ITSELF_IS_NOT_A_TARGETLESS_TRAINING_DEFECT"
+  },
+  "existing_gate_readback": {
+    "training_body_purity": "PASS_NO_PROJECT_CONTROL_PLANE_LEAK_AFTER_EXACT_ID_CARRYFORWARD",
+    "private_internal_overlap": "PASS_NO_CURRENT_INTERNAL_OVERLAP",
+    "public_v3": "CLEAR_CURRENT_V3_BY_EXACT_ID_UNCHANGED_FALSE_POSITIVE_CARRYFORWARD",
+    "note": "Existing gates remain scope-bounded and do not substitute for the new semantic-redundancy/eval-independence checks."
+  },
+  "block_a_direct_adaptive_effort_exposure": {
+    "adaptive_effort_atoms_in_full_magnum_body": 16,
+    "hits_in_persisted_block_a_schedule": 0,
+    "hits_in_late_schedule": 0,
+    "hits_in_frontload_schedule": 0,
+    "disposition": "COMPLETED_BLOCK_A_INTERVENTIONS_WERE_NOT_DIRECTLY_TRAINED_ON_THE_ADAPTIVE_EFFORT_FAMILY"
+  },
+  "required_pipeline_repairs": [
+    "Future frozen eval construction SHALL enforce exact-prompt uniqueness and report effective semantic scenario count separately from row count.",
+    "Future multiple-choice evals SHALL balance/rotate correct answer positions and audit global answer-token calibration movement.",
+    "Repeated semantic scenarios SHALL NOT be treated as independent inferential units.",
+    "Future training-body admission SHALL run whole-body exact uniqueness plus bounded semantic near-neighbor screening over project-generated families, with intentional anti-isomorph/packaging pairs explicitly sidecar-labeled.",
+    "Eval-vs-training overlap SHALL be rerun after every eval successor freeze."
+  ],
+  "mutation_decision": {
+    "learner_visible_training_body": "UNCHANGED",
+    "reason": "No learner-visible training defect was established. Mutating valid training bytes in response to an eval-construction defect would destroy intervention lineage without evidence.",
+    "sidecar_and_measurement_pipeline": "REPAIR_REQUIRED_AND_AUTHORIZED"
+  },
+  "claim_ceiling": [
+    "TRAINING BODY AUDIT PASS != FULL SCIENTIFIC VALIDATION",
+    "NO EXACT/PROJECT-GENERATED NEAR-DUP DEFECT != NO POSSIBLE SEMANTIC REDUNDANCY",
+    "VALID INTERVENTION DATA != VALID OLD MEASUREMENT INTERPRETATION",
+    "OLD RUNS MAY BE RE-SCORED; OLD PHENOTYPE CLAIMS DO NOT AUTOMATICALLY SURVIVE"
+  ]
+}

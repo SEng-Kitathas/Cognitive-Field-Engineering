@@ -1,0 +1,54 @@
+{
+  "schema": "cfe.lhrsg.receipt.v1",
+  "status": "PASS",
+  "gate": "LINEAR_HUMAN_READ_SEMANTIC_GATE",
+  "artifact": "state/analysis/ISD_MAGNUM_EVAL_V2R7_20260903/ISD_EVAL_V2.private.jsonl",
+  "sha256": "cf2568d771bc2d2484bd1f300308572cee8c4beefc53dea2cf10021c7324e2d8",
+  "bytes": 62492,
+  "rows": 96,
+  "reviewer_type": "MODEL_REVIEWER",
+  "reviewer": "PCMMAD Lab / active reasoning model",
+  "read_order": "JSONL row 1 through row 96, deterministic sequential order; every full JSON record including metadata, prompt, all four answer options, expected label, semantic answer, pair/scenario/variant identifiers, and rotation metadata was inspected",
+  "coverage": {
+    "readable_units": 96,
+    "reviewed_units": 96,
+    "coverage_fraction": 1.0,
+    "unreadable_or_skipped_units": 0
+  },
+  "supporting_automation": {
+    "manifest": "state/analysis/ISD_MAGNUM_EVAL_V2R7_20260903/EVAL_V2_MANIFEST.json",
+    "manifest_sha256": "305d863e73aea726e2f5e03ca2df8666fd2a041a9f346efd1f11199390b26a28",
+    "independent_verification": "state/analysis/ISD_MAGNUM_EVAL_V2R7_20260903/INDEPENDENT_VERIFICATION.json",
+    "independent_verification_sha256": "79d2e4d48ce8440cdd73897dec822cedfb93fdf58f5fd670d1df161c66cf5d48",
+    "independent_verification_status": "PASS",
+    "hostile_tests_rejected": "5/5"
+  },
+  "semantic_checks": [
+    "single-best-answer correctness for every item",
+    "anti-isomorph pair coherence",
+    "question/option/expected-label/semantic-answer consistency",
+    "ambiguity and multiple-valid-answer pressure",
+    "domain-story coherence",
+    "dependency and temporal logic correctness",
+    "adaptive-effort STOP/CONTINUE justification",
+    "representation-refinement adequacy",
+    "unknown-vs-commit evidence sufficiency",
+    "composition arithmetic/string/set correctness",
+    "general-constraint satisfiability and uniqueness",
+    "readable metadata consistency"
+  ],
+  "defects_found_in_exact_v2r7": [],
+  "non_blocking_observations": [
+    "A small number of prompts retain stylistically plain or lower-case domain nouns after punctuation; no ambiguity, answer error, or semantic shortcut was introduced by those stylistic choices."
+  ],
+  "predecessor_failures": {
+    "V2R3": "Automated PASS but linear semantic read found three ambiguous General-Constraint items.",
+    "V2R4": "Post-mutation read found discriminator grammar defects and a substantive contract-review Adaptive-Effort contradiction.",
+    "V2R5": "Linear read found additional grammar/semantic-quality defects.",
+    "V2R6": "Linear read found a telemetry no-signal ambiguity plus weaker wording; rejected before promotion."
+  },
+  "mutation_after_final_read": false,
+  "semantic_authority": "PASS_FOR_POST_OUTCOME_DIAGNOSTIC_USE; MAY BE FROZEN PROSPECTIVELY FOR A FUTURE EXPERIMENT ONLY IF THESE EXACT BYTES/HASH ARE BOUND BEFORE OUTCOME",
+  "historical_guard": "PASS DOES NOT RETROACTIVELY PREREGISTER V2R7 FOR HISTORICAL ADAPTERS OR RESTORE OLD PHENOTYPE CLAIMS",
+  "timestamp": "2026-09-03T16:15:00-04:00"
+}

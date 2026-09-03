@@ -1,0 +1,29 @@
+{
+  "schema": "cfe.lhrsg.receipt.v1",
+  "status": "PASS",
+  "gate": "LINEAR_HUMAN_READ_SEMANTIC_GATE",
+  "artifact": "state/checkpoints/CFE_CONTINUITY_CHECKPOINT_LHRSG_MEASUREMENT_REPAIR_20260903_1636.json",
+  "sha256": "d549315e73af6cf59d43e3533c6f685de75775239c117d055a865b2e391fbdd7",
+  "bytes": 6677,
+  "lines": 168,
+  "reviewer_type": "MODEL_REVIEWER",
+  "reviewer": "PCMMAD Lab / active reasoning model",
+  "read_order": "line 1 through line 168, deterministic sequential order",
+  "coverage_fraction": 1.0,
+  "unreadable_or_skipped_units": 0,
+  "semantic_checks": [
+    "continuity-surface hashes and roles",
+    "LHRSG law/self-gate binding",
+    "old-eval demotion and withdrawn inference",
+    "V2R7 current-eval identity and gate binding",
+    "training-body authorization boundary",
+    "execution/publication separation",
+    "resume-point correctness"
+  ],
+  "observations": [
+    "Training-body artifact metadata reports 1929 Python splitlines() units but 1840 streaming JSON records. Embedded Unicode line-separator characters can split text without delimiting JSONL records. The upcoming training-body LHRSG SHALL use the 1840 streaming-parsed JSON records as semantic record units, preserving stream order, rather than naive splitlines()."
+  ],
+  "defects_found": [],
+  "mutation_after_final_read": false,
+  "timestamp": "2026-09-03T16:38:00-04:00"
+}

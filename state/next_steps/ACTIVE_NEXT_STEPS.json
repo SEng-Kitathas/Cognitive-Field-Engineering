@@ -1,13 +1,43 @@
 {
-  "as_of": "2026-08-31T12:45:13-04:00",
-  "blocked": [],
+  "as_of": "2026-09-03T17:08:00-04:00",
+  "blocked": [
+    "NEW TRAINING remains blocked on exact 1,840-row learner-visible training-body LHRSG plus prospective experiment/eval/scorer freeze.",
+    "Full-body LHRSG reviewer method remains unresolved; prior fast reviewer protocols failed semantic qualification and qualified Capybara review was too slow."
+  ],
+  "demoted_or_closed": [
+    "Old 96-row frozen eval as a scientific ruler: DEFECTIVE / historical only.",
+    "Original full Adaptive-Effort phenotype claim from duplicated A/C probe: DEMOTED.",
+    "Old within-seed p=0.03125 based on six duplicated AE item differences: WITHDRAWN AS PSEUDO-REPLICATION.",
+    "V2R4 permutation-neutral rescore: superseded post-outcome diagnostic lineage because V2R7 changed semantic bytes."
+  ],
+  "do_not_do": [
+    "Do not publish protected eval text, gated datasets, full learner-visible training payloads, private result JSONL, credentials, model weights, or heavy runtime artifacts into normal Git.",
+    "Do not weaken LHRSG because the thread is full or the corpus is large.",
+    "Do not claim publication until git push and remote readback confirm it.",
+    "Do not restart training during the reincarnation handoff."
+  ],
   "p0": [
-    "keep V14R1 job-d4aac6ed6175/PID 35196 unchanged",
-    "no StarMap intervention"
+    "Complete the full public-safe GitHub reincarnation update and remote readback for this thread-exit checkpoint.",
+    "Complete a full public-safe GitHub reincarnation update: active current/next/doctrine/revisit/trace/shadow/stream, R4.1 authority/adoption bindings, LHRSG law/receipts, Commander intent binding, latest measurement-repair science, engineering scars, and new-thread handoff.",
+    "Apply LHRSG to every new or mutated readable file in the publication set; reuse exact-hash receipts only for unchanged bytes.",
+    "Commit and push the main publication delta, verify remote HEAD and content hashes, then write/push a publication readback receipt and final continuity delta.",
+    "After thread reincarnation, resume exact 1,840-row training-body LHRSG. No training until 1,840/1,840 semantic coverage passes or an append-only corrected successor passes."
   ],
   "p1": [
-    "targeted origin transcript hunt using operator phrase variants",
-    "append-only supersession if recovered"
+    "Fresh confirmatory prerequisite-first vs phase-scramble replication is required before restoring a developmental-order Adaptive-Effort scientific claim.",
+    "Only after fresh confirmation revisit SPACED/LATE/FRONTLOAD schedule geometry; old schedule runs remain historical intervention information.",
+    "Extend LHRSG receipts to other currently load-bearing readable project artifacts as they enter active semantic use; do not retroactively pretend historical artifacts were gated."
   ],
-  "schema": "cfe.active-next-steps.v8"
+  "preserved": [
+    "V2R7 exact repaired eval remains byte-frozen and 96/96 LHRSG PASS for post-outcome diagnostic use / prospective future freeze only.",
+    "Historical Block-A interventions, schedules, checkpoints, and saved adapters remain reusable information; old phenotype interpretation remains demoted.",
+    "DD1R1 remains separately earned fixed-regime evidence.",
+    "No CFE training/eval/rescore/reviewer process is active at publication start."
+  ],
+  "schema": "cfe.active-next-steps.v10",
+  "thread_exit_publication": {
+    "private_exclusions": "1840-row training payload, V2R7 private prompt text, checkpoints/adapters/models, gated/protected benchmark text, credentials, transient logs.",
+    "required": "Sync all public-safe active continuity, R4.1 authority, LHRSG law/receipts, measurement-repair dispositions, transcript, and new-thread rehydration surfaces; LHRSG final publication bytes; commit/push; remote readback.",
+    "status": "IN_PROGRESS"
+  }
 }

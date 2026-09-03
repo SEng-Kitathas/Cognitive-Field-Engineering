@@ -1,0 +1,105 @@
+{
+  "coverage_fraction": 1.0,
+  "defects_found_and_repaired_during_gate": [
+    "Active doctrine snapshots retained stale pre-audit language saying the defective-eval prerequisite-order phenotype was load-bearing; historical sections were explicitly superseded/demoted.",
+    "Revisit ledger retained stale broad-order load-bearing status and SPACED-as-highest-priority next step; both were superseded/deferred.",
+    "Trace matrix retained stale old-ruler scientific authority, Adaptive-Effort path-sensitivity interpretation, static-route wording, and SPACED next-step priority; all were rewritten as historical/superseded lineage.",
+    "Top-level current.md and next_steps.md were chronological histories without explicit authority ordering; headers now state later dated entries govern conflicts and bounded active JSON/Live Shadow control current truth.",
+    "Design Thread Stream header had stale Last Updated=2026-08-29; corrected to 2026-09-03 and full 1402-line replay completed afterward.",
+    "Live Shadow metadata lagged the 16:31 checkpoint state; corrected to exact current timestamp/mode and full 125-line replay completed afterward."
+  ],
+  "files": [
+    {
+      "bytes": 6527,
+      "coverage_fraction": 1.0,
+      "lines": 101,
+      "path": "state/current/ACTIVE_CURRENT_STATE.json",
+      "reviewed_sequentially": true,
+      "sha256": "8b5dbd8b2c65884f28f5d2ab45e478c3a8e81bfd35e87c8110cc711fb1045f70"
+    },
+    {
+      "bytes": 3048,
+      "coverage_fraction": 1.0,
+      "lines": 35,
+      "path": "state/next_steps/ACTIVE_NEXT_STEPS.json",
+      "reviewed_sequentially": true,
+      "sha256": "b755132c88f85269fa672cb195d75134c3d46f45817a8d1e1c2bfa7abeded5c0"
+    },
+    {
+      "bytes": 61849,
+      "coverage_fraction": 1.0,
+      "lines": 370,
+      "path": "state/current.md",
+      "reviewed_sequentially": true,
+      "sha256": "0c77b74583ffdb0d87e2662385b5715123d81a3bd54dbc7bce7eefe2dca73564"
+    },
+    {
+      "bytes": 33759,
+      "coverage_fraction": 1.0,
+      "lines": 239,
+      "path": "state/next_steps.md",
+      "reviewed_sequentially": true,
+      "sha256": "f05086550e2c14e0b1bb8f51bcc7496db8d171e468a892533ba694c0374cc525"
+    },
+    {
+      "bytes": 7829,
+      "coverage_fraction": 1.0,
+      "lines": 53,
+      "path": "state/doctrine_snapshot.md",
+      "reviewed_sequentially": true,
+      "sha256": "3428dcc86b5bff741f305be04c965e7697dba3b91655525f7c13c7b625d48b30"
+    },
+    {
+      "bytes": 8826,
+      "coverage_fraction": 1.0,
+      "lines": 68,
+      "path": "state/doctrine_snapshot/ACTIVE_DOCTRINE_SNAPSHOT.md",
+      "reviewed_sequentially": true,
+      "sha256": "fb9c6cd85cb62ecb66f22b5c1649fc8340073c496d1628f5bfa84dbb981f31bb"
+    },
+    {
+      "bytes": 26248,
+      "coverage_fraction": 1.0,
+      "lines": 142,
+      "path": "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md",
+      "reviewed_sequentially": true,
+      "sha256": "85cbd8ffce193da00cc6a126a7bc8acc2277fad682fe1a54a4762f19a0a79277"
+    },
+    {
+      "bytes": 50003,
+      "coverage_fraction": 1.0,
+      "lines": 231,
+      "path": "state/trace_matrix/ACTIVE_TRACE_MATRIX.md",
+      "reviewed_sequentially": true,
+      "sha256": "0340193c94354d4a121628b186e05260d640e2f4e1de4bf72942baaca610e4e7"
+    },
+    {
+      "bytes": 11469,
+      "coverage_fraction": 1.0,
+      "lines": 125,
+      "path": "state/live_shadow.md",
+      "reviewed_sequentially": true,
+      "sha256": "2dc598844019f474abd9648f344587ad4ed07a2c91d1747b76eefbc803018eef"
+    },
+    {
+      "bytes": 120908,
+      "coverage_fraction": 1.0,
+      "lines": 1402,
+      "path": "state/design_thread_stream.md",
+      "reviewed_sequentially": true,
+      "sha256": "59be8a1d1323a0a0f8a08d3a89c14fefd4b98c56147f4b912d58407b28af2b32"
+    }
+  ],
+  "gate": "LINEAR_HUMAN_READ_SEMANTIC_GATE",
+  "historical_content_rule": "Historical contradictory beliefs may remain in the Design Thread Stream because chronology is its purpose, provided later corrections are preserved. Active state/doctrine surfaces may not present superseded claims as current authority.",
+  "mutation_after_final_read": false,
+  "read_order": "Each file read from first readable unit to final readable unit; Design Thread Stream read in contiguous ordered chunks 1-350, 351-700, 701-1050, 1051-1402 with 100% coverage. Files mutated after an initial pass were fully replayed on exact final bytes.",
+  "result": "PASS__CONTINUITY_SEMANTICALLY_RECONCILED__RESUME_AT_1840_ROW_TRAINING_BODY_LHRSG",
+  "reviewer": "PCMMAD Lab / active reasoning model",
+  "reviewer_type": "MODEL_REVIEWER",
+  "schema": "cfe.lhrsg.batch-receipt.v1",
+  "scope": "CFE active continuity surfaces after LHRSG-law activation and ISD measurement repair",
+  "status": "PASS",
+  "timestamp": "2026-09-03T16:34:00-04:00",
+  "unreadable_or_skipped_units": 0
+}

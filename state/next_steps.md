@@ -1,5 +1,7 @@
 # CFE NEXT STEPS
 
+> **Authority rule:** This file is chronological work-queue history. Later dated sections supersede earlier conflicting next actions. For bounded active execution priority, use `state/next_steps/ACTIVE_NEXT_STEPS.json` together with `state/live_shadow.md`. Historical queues remain lineage, not current authorization.
+
 As of: 2026-09-02 01:05 Eastern Daylight Time
 
 ## Overnight active
@@ -199,3 +201,62 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 7. Launch paired training only after explicit authorization artifacts pass; report submitted/started/completed/registered separately.
 8. Evaluate ordinary competence plus composition, transfer, currentness, local repair, rollback selectivity, hypothesis maintenance, discriminator selection, adaptive effort, representation/framing recovery and correction cost.
 9. Preserve intermediate checkpoints if feasible for representation-development analysis; interpretability remains triangulation, not learner ontology.
+
+
+## 2026-09-03 12:16 ET — Active revisit-timing replication queue
+1. Let `job-d1276bf4bfb6` complete the frozen six-seed LATE-vs-FRONTLOAD campaign without interactive interference.
+2. If visibility/control plane fails, do not infer process failure. Reconnect and inspect `REPLICATION_PROGRESS.json`, per-arm `RUN_MANIFEST.json`, and `recovery_current`. Resume only through the qualified resilient trainer; no dose replay.
+3. At completion, verify 12/12 arm runs and all paired initial + first19 trainable/adapter hash equalities before interpreting outcomes.
+4. Q1 disposition: count seeds where LATE exposure136 already has ADAPTIVE_EFFORT accuracy=1.0 and pair-complete=1.0 before revisit dose.
+5. Q2 disposition: compare DISCRIMINATOR_SELECTION pair-complete at exposure140 LATE vs FRONTLOAD within seed; report wins/ties/losses and exact two-sided sign test on non-ties.
+6. Secondary: within LATE, compare Discriminator Selection 136->140 and Adaptive Effort persistence 136->140; preserve sign flips and family-local effects.
+7. Only after replication result is sealed decide whether to promote a fixed-regime prerequisite/revisit mechanism claim, design a minimal-foundation ablation, or move the Magnum campaign onward into T2/T3.
+
+
+## 2026-09-03 14:34 ET — Post-replication execution frontier
+1. **Do not launch another training campaign implicitly from this checkpoint.** The completed revisit-timing result first needs to become the new continuity baseline.
+2. Mine the completed 12-arm LATE/FRONTLOAD artifacts before spending more GPU: per-item margins, row-loss trajectory, checkpoint state, and seed-local divergence associated with Adaptive-Effort success or late rescue. Preserve `OBSERVED PREDICTOR != CAUSAL MECHANISM`.
+3. Treat `FOUNDATIONS19 general sufficiency` as demoted: preregistered result = 1/6 successes (`NOT_REPLICATED`). Do not use the exploratory single-seed 136 result as a planning invariant.
+4. Treat `late revisits cause Discriminator-Selection jump` as demoted: 0/6 fresh LATE trajectories showed a positive 136->140 pair-complete change; LATE vs FRONTLOAD discriminator timing was six ties.
+5. Preserve the independently replicated broader prerequisite-first vs scramble order effect (5 wins / 1 tie / 0 losses) while narrowing its mechanism interpretation. `FINER MECHANISM FAILURE != BROADER ORDER EFFECT FAILURE`.
+6. If existing artifacts cannot resolve schedule geometry, freeze and preregister an **original-SPACED add-on** on seeds `2026090501..2026090506`. Use the exact original spaced revisit positions, frozen 140-exposure multiset, same model/LoRA/optimizer/eval, and exact paired initialization requirements. Reuse completed LATE/FRONTLOAD arms rather than rerunning them.
+7. Primary discriminator for that add-on: within-seed SPACED vs LATE vs FRONTLOAD Adaptive-Effort pair-complete phenotype and margins. Secondary: whether distributed revisits reduce seed sensitivity. Do not use between-campaign seed frequencies as a substitute for paired comparison.
+8. In parallel, define a **learner-state/topology probe** research seam: ask whether early checkpoint margins, gradient/adapter geometry, or other low-cost observables predict which adaptation trajectory will cross the later phenotype boundary. Guard: `ADAPTATION MICROSTATE != PRETRAINED-MODEL TOPOLOGY`.
+9. Only after schedule geometry is pressure-tested decide whether the Magnum program should: (a) ablate minimal foundations, (b) test distributed revisit/requalification geometry, or (c) advance into T2/T3.
+10. Keep DD2 Structured Revisit separate and unresolved; do not import the ISD Block-A disposition into DD2.
+11. Publication is a separate step. Current local result is not published; publication checkout is clean at `3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3`.
+
+
+## 2026-09-03 — LHRSG-constrained frontier
+1. **P0 — Complete 1,840/1,840 LHRSG on exact canonical Magnum training bytes** (`ISD_CANONICAL.private.jsonl`, SHA `b85229cd...`). Consecutive chunking is permitted; sampling is forbidden. Until complete: `NOT_TRAINING_AUTHORIZED`.
+2. Any learner-visible training defect found during that pass SHALL create an append-only successor with explicit quarantine/demotion; do not silently rewrite the canonical file.
+3. Preserve V2R7 eval exact bytes SHA `cf2568d...`. Its 96/96 LHRSG receipt is PASS. Any semantic edit invalidates the receipt and requires full 96/96 replay.
+4. Optional low-cost archaeology after the training-body gate: rescore saved historical adapters on exact V2R7 using permutation-neutral semantic choice scoring. Label all such use POST_OUTCOME / DIAGNOSTIC.
+5. Before new causal training, preregister/freeze exact training body, exact eval, permutation-neutral scorer, paired seeds, learner/base revision, exposure multiset, schedule arms, optimizer, stopping rule, and claim ceiling.
+6. Fresh prerequisite-first vs phase-scramble paired replication is required before restoring an Adaptive-Effort developmental-order scientific claim.
+7. Do not prioritize SPACED/LATE/FRONTLOAD schedule geometry until the broader order signal survives the repaired prospective ruler.
+8. Keep DD2 Structured Revisit separate and unresolved.
+9. Extend LHRSG to any other readable artifact when it enters active semantic use. Reuse exact-hash receipts for unchanged bytes; do not reread ceremonially.
+
+
+## 2026-09-03 17:14 ET — Thread-reincarnation publication queue
+1. Build the full **public-safe** GitHub delta needed for a clean fresh-thread restart: active current/next/doctrine/revisit/trace/shadow/stream, R4.1 authority/adoption bindings, LHRSG law/receipts, current Commander’s Intent binding and key immutable intent addenda, latest measurement-repair science, current engineering scars, and new-thread handoff/index/bootstrap surfaces.
+2. Reuse existing LHRSG receipts only where exact bytes are unchanged. Any new or mutated readable artifact in the publication set must receive full final-byte LHRSG before promotion.
+3. Preserve the normal-clone boundary: do not stage the 1,840-row private training body, V2R7 private eval JSONL, private result JSONL, gated/protected benchmark text, credentials, model weights, adapters, or heavy runtime artifacts.
+4. Main publication commit -> push -> remote HEAD/content readback. Only then may publication be called successful.
+5. Write a publication readback receipt with exact commit, remote-head equality, staged-file manifest, hashes, exclusions, and warnings; propagate any load-bearing result into continuity and push a final continuity-only commit if needed.
+6. Fresh thread resumes at **1,840/1,840 training-body LHRSG**. Reviewer-method seam remains unresolved; do not weaken the semantic gate to fit a fast but underqualified reviewer.
+7. No new training until training-body LHRSG passes (or append-only successor passes) and exact experiment/eval/scorer/seeds/base/schedule/optimizer/stopping rule are prospectively frozen.
+
+
+## 2026-09-03 17:08 ET — Thread-exit publication frontier
+1. **P0 — finish the public-safe GitHub reincarnation checkpoint before leaving this thread.** Sync active continuity/state, R4.1 authority, LHRSG law/receipts, public-safe measurement-repair dispositions, transcript, and the new 2026-09-03 human+machine rehydration packets into `publication/github/Cognitive-Field-Engineering`.
+2. Apply LHRSG to the exact readable publication bundle after all mutation. Automated secret/size/hash/Git checks support but do not replace the full linear semantic read.
+3. Keep private/non-Git: exact 1,840-row learner-visible training payload; private V2R7 prompt text; model weights; checkpoints/adapters; protected/gated benchmark text; credentials; transient execution logs.
+4. Commit only intended public-safe files; push authenticated `main`; read back remote `main` before claiming publication.
+5. Create a publication receipt recording the verified content commit and remote readback. A later receipt commit may carry that readback; do not confuse its existence with the content commit it documents.
+6. **Fresh-thread P0 after publication:** complete exact 1,840/1,840 learner-visible training-body LHRSG on SHA `b85229cd04d68e9990deda091131fdf4f81981497a1f322127e8253ac0d89fef`. No new training before full semantic authorization.
+7. If any training row fails LHRSG, preserve the old body and build an append-only corrected successor; replay full LHRSG on exact successor bytes.
+8. Preserve V2R7 exact eval bytes SHA `cf2568d771bc2d2484bd1f300308572cee8c4beefc53dea2cf10021c7324e2d8` and 96/96 LHRSG receipt. Any mutation invalidates that gate.
+9. Only after training-body closure: optional historical V2R7 permutation-neutral rescore as POST_OUTCOME archaeology, then fresh preregistered paired prerequisite-first vs phase-scramble confirmation.
+10. Do not reopen SPACED/LATE/FRONTLOAD schedule geometry until broad order effects survive a prospectively frozen repaired measurement regime.
