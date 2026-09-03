@@ -157,3 +157,12 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 ### Standard pre-admission publication delta — 2026-09-02
 - Standard Uplift LHIT gap-closure/pre-admission package committed and pushed at `99483f750cdfcfc052702ec9fb4683d0e8a2141d`; local publication checkout == remote `main`, clean at readback.
 - 25-file commit / 2,413 insertions. Raw/generated/quarantine/candidate/excluded/alternate/preference atom payloads remain local/non-Git.
+
+## Thread-seal delta — 2026-09-02 20:01 EDT
+- Current chat is at practical context capacity. Operator requires a GitHub-complete reincarnation surface.
+- New authoritative re-entry surface: `state/NEW_THREAD_REHYDRATION_2026-09-02.md` SHA `49f9ca20c965d76369f91528ef5a7896027c0e5870b14ca001cde8bc180f0894`; machine companion JSON SHA `3c15730c7857d5cd4a52d0947af6e06a0fa711a527fdd9e5d134784bc9926947`.
+- Previously implicit contamination decision now persisted: V3 manual adjudication SHA `7426a49b980e156819b0a0e6524bd35197492e8a95362354e86fa89e7af93a3a`; 11 genuine leaks, 7 false positives; existing candidate still 1,802 because deletion has not yet been embodied. Successor pre-refill = 1,791; refill >=9 clean atoms required to satisfy current A0 floor.
+- V3 public eval registry: 53,620 rows / 43,659 unique texts / no acquisition blockers; 0 exact hits in 1,802 candidate.
+- First-class parallel research preserved in handoff: reasoning archaeology across AI history, “million silent things,” multi-hypothesis reason maintenance, representation adequacy, scoped rollback, discriminator selection, authority transfer, LHIT consequential history.
+- CFE Commander’s Intent and science boundary preserved. DD1 positive conditional is earned; DD2 is not to be hallucinated into closure.
+- Immediate next move in fresh thread: build successor candidate append-only, remove 11, refill >=9 clean atoms, rerun contamination; no training authorization yet.

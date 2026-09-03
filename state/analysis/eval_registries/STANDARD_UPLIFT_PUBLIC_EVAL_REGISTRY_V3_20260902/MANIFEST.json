@@ -1,0 +1,120 @@
+{
+  "base_manifest_sha256": "4f2b82f166823c96f035358318d547b017f3e6564f8914bdda0b056a2a7a6938",
+  "base_registry": "STANDARD_UPLIFT_PUBLIC_EVAL_REGISTRY_V2_20260902",
+  "blockers": [],
+  "created_unix": 1788391436.1340091,
+  "family_rows": {
+    "AIME_2024": 30,
+    "AIME_2025": 30,
+    "AIME_2026": 30,
+    "BFCL_V4": 7742,
+    "BROWSECOMP": 1266,
+    "GPQA_DIAMOND": 405,
+    "HLE": 2500,
+    "IFBENCH": 13824,
+    "IFEVAL": 541,
+    "LIVECODEBENCH_RELEASE_V6": 2110,
+    "LIVECODEBENCH_V6_SLICE": 350,
+    "MMLU_PRO": 24203,
+    "SWE_BENCH_VERIFIED": 500,
+    "TERMINAL_BENCH_2_0": 89
+  },
+  "laws": [
+    "QUESTION-ONLY LCB HTTP RANGE PROJECTION",
+    "MIRROR MUST MATCH DIRECT OFFICIAL OVERLAP",
+    "EVAL REGISTRY != TRAINING DATA",
+    "ANSWERS/RATIONALES/PRIVATE TESTS NOT RETAINED",
+    "FINAL FLEET EVAL FREEZE REQUIRES RERUN"
+  ],
+  "livecodebench_full": {
+    "cases": 1055,
+    "config": "release_v6",
+    "crosscheck": "PASS",
+    "official_increment_crosscheck_cases": 175,
+    "official_increment_mismatch": 0,
+    "official_increment_missing": 0,
+    "private_tests_retained": false,
+    "repo": "lighteval/code_generation_lite",
+    "retained_fields": [
+      "question_id",
+      "question_title",
+      "question_content"
+    ],
+    "revision": "89e5fc5c2a8e748f50e95bc7235fab2372d49bfa",
+    "shards": [
+      {
+        "bytes_fetched": 8276388,
+        "path": "release_v6/test-00000-of-00009.parquet",
+        "range_requests": 2,
+        "rows": 118,
+        "source_bytes": 75385252
+      },
+      {
+        "bytes_fetched": 5116081,
+        "path": "release_v6/test-00001-of-00009.parquet",
+        "range_requests": 2,
+        "rows": 118,
+        "source_bytes": 353243313
+      },
+      {
+        "bytes_fetched": 6082876,
+        "path": "release_v6/test-00002-of-00009.parquet",
+        "range_requests": 2,
+        "rows": 117,
+        "source_bytes": 547148092
+      },
+      {
+        "bytes_fetched": 7244848,
+        "path": "release_v6/test-00003-of-00009.parquet",
+        "range_requests": 2,
+        "rows": 117,
+        "source_bytes": 879660080
+      },
+      {
+        "bytes_fetched": 6846745,
+        "path": "release_v6/test-00004-of-00009.parquet",
+        "range_requests": 2,
+        "rows": 117,
+        "source_bytes": 635992345
+      },
+      {
+        "bytes_fetched": 6157951,
+        "path": "release_v6/test-00005-of-00009.parquet",
+        "range_requests": 2,
+        "rows": 117,
+        "source_bytes": 1159591551
+      },
+      {
+        "bytes_fetched": 7358844,
+        "path": "release_v6/test-00006-of-00009.parquet",
+        "range_requests": 2,
+        "rows": 117,
+        "source_bytes": 514869628
+      },
+      {
+        "bytes_fetched": 7145615,
+        "path": "release_v6/test-00007-of-00009.parquet",
+        "range_requests": 2,
+        "rows": 117,
+        "source_bytes": 78448783
+      },
+      {
+        "bytes_fetched": 6227131,
+        "path": "release_v6/test-00008-of-00009.parquet",
+        "range_requests": 2,
+        "rows": 117,
+        "source_bytes": 90113211
+      }
+    ],
+    "total_bytes_fetched": 60456479,
+    "total_range_requests": 18,
+    "total_source_bytes": 4334452255
+  },
+  "registry_path": "state/analysis/eval_registries/STANDARD_UPLIFT_PUBLIC_EVAL_REGISTRY_V3_20260902/PUBLIC_EVAL_REGISTRY.jsonl",
+  "registry_rows": 53620,
+  "registry_sha256": "c479934d40565c71159646b6bb5bcd3b13041eaaea75286651b90a32becd7e76",
+  "schema": "cfe.standard-uplift.public-eval-registry.v3",
+  "scope": "Protected public evaluation input text for current exclusion lock. Full registry local/non-Git.",
+  "status": "ACQUIRED_COMPLETE_FOR_CURRENT_PUBLIC_LOCK",
+  "unique_normalized_texts": 43659
+}

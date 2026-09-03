@@ -1,0 +1,257 @@
+{
+  "aime_crosschecks": {
+    "2024": {
+      "a": 30,
+      "b": 30,
+      "ge_0_90": 26,
+      "ge_0_95": 24,
+      "mean_jaccard": 0.9472125358046751,
+      "min_jaccard": 0.5263157894736842,
+      "paired": 30
+    },
+    "2025": {
+      "a": 30,
+      "b": 30,
+      "ge_0_90": 25,
+      "ge_0_95": 23,
+      "mean_jaccard": 0.9350392030213724,
+      "min_jaccard": 0.589041095890411,
+      "paired": 30
+    },
+    "2026": {
+      "a": 30,
+      "b": 30,
+      "ge_0_90": 30,
+      "ge_0_95": 30,
+      "mean_jaccard": 1.0,
+      "min_jaccard": 1.0,
+      "paired": 30
+    }
+  },
+  "blockers": [
+    {
+      "family": "GPQA",
+      "reason": "Idavidrein/gpqa requires authenticated accepted access; HF auth absent. Public mirror metadata was observed but payload was not used to bypass gate.",
+      "state": "ACCESS_BLOCKED"
+    },
+    {
+      "family": "HLE",
+      "reason": "cais/hle requires authenticated accepted access; HF auth absent. HLE canary can be screened, but full item matching is not complete.",
+      "state": "ACCESS_BLOCKED"
+    },
+    {
+      "family": "LIVECODEBENCH_RELEASE_LATEST",
+      "reason": "v6 incremental slice acquired. Official release_latest is union v1-v6 and would require ~4.5GB source transfer because private tests are co-packaged; older slices remain to be acquired or replaced with verified question-only registry.",
+      "state": "PARTIAL"
+    }
+  ],
+  "created_unix": 1788388956.4954312,
+  "family_rows": {
+    "AIME_2024": 30,
+    "AIME_2025": 30,
+    "AIME_2026": 30,
+    "BFCL_V4": 7742,
+    "BROWSECOMP": 1266,
+    "IFBENCH": 13824,
+    "IFEVAL": 541,
+    "LIVECODEBENCH_V6_SLICE": 350,
+    "MMLU_PRO": 24203,
+    "SWE_BENCH_VERIFIED": 500,
+    "TERMINAL_BENCH_2_0": 89
+  },
+  "laws": [
+    "ACCESS GATE != PERMISSION TO USE MIRROR AROUND IT",
+    "EVAL REGISTRY != TRAINING DATA",
+    "ANSWERS/PRIVATE TESTS/REFERENCE SOLUTIONS NOT RETAINED",
+    "PARTIAL REGISTRY != CLEARANCE",
+    "FINAL FLEET EVAL FREEZE REQUIRES RERUN"
+  ],
+  "registry_path": "state/analysis/eval_registries/STANDARD_UPLIFT_PUBLIC_EVAL_REGISTRY_V1_20260902/PUBLIC_EVAL_REGISTRY.jsonl",
+  "registry_rows": 48605,
+  "registry_sha256": "89df1468c549498a6579043e45b6a38e18684b385b3357748c63430368c6d784",
+  "schema": "cfe.standard-uplift.public-eval-registry.v1",
+  "scope": "Protected public evaluation input text only. Registry remains local/non-Git; publish manifest/hashes only.",
+  "sources": [
+    {
+      "family": "AIME_2024",
+      "repo": "HuggingFaceH4/aime_2024",
+      "revision": "2fe88a2f1091d5048c0f36abc874fb997b3dd99a",
+      "role": "canonical_registry",
+      "rows": 30
+    },
+    {
+      "family": "AIME_2024_CROSSCHECK",
+      "repo": "Maxwell-Jia/AIME_2024",
+      "revision": "8d88b2876a82a080e2f172cc9b25d0d9d2cb4792",
+      "role": "independent_packaging_crosscheck",
+      "rows": 30
+    },
+    {
+      "family": "AIME_2025",
+      "repo": "opencompass/AIME2025",
+      "revision": "a6ad95f611d72cf628a80b58bd0432ef6638f958",
+      "role": "canonical_registry",
+      "rows": 30
+    },
+    {
+      "family": "AIME_2025_CROSSCHECK",
+      "repo": "yentinglin/aime_2025",
+      "revision": "6f71d77b0b89b9dabe07ab466c51df33f514df7f",
+      "role": "independent_packaging_crosscheck",
+      "rows": 30
+    },
+    {
+      "family": "AIME_2026",
+      "repo": "MathArena/aime_2026",
+      "revision": "d2de22f3c656b4f56cf8981212186377d1e23bc3",
+      "role": "canonical_registry",
+      "rows": 30
+    },
+    {
+      "family": "AIME_2026_CROSSCHECK",
+      "repo": "zhenghaoxu/aime-2026",
+      "revision": "252cd0519bef57aa55669070f5693f1e5ed1d0ee",
+      "role": "independent_packaging_crosscheck",
+      "rows": 30
+    },
+    {
+      "family": "MMLU_PRO",
+      "repo": "TIGER-Lab/MMLU-Pro",
+      "revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+      "rows": 70,
+      "split": "validation"
+    },
+    {
+      "family": "MMLU_PRO",
+      "repo": "TIGER-Lab/MMLU-Pro",
+      "revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+      "rows": 12032,
+      "split": "test"
+    },
+    {
+      "family": "IFEVAL",
+      "repo": "google/IFEval",
+      "revision": "966cd89545d6b6acfd7638bc708b98261ca58e84"
+    },
+    {
+      "family": "IFBENCH",
+      "repo": "allenai/IFBench_test",
+      "revision": "2e8a48de45ff3bf41242f927254ca81b59ca3ae2"
+    },
+    {
+      "config": "ifbench_constraints",
+      "family": "IFBENCH",
+      "repo": "allenai/IFBench_multi-turn",
+      "revision": "e1ea65c5178fbeac522a26d12b8c71a298e9846d",
+      "rows": 1387
+    },
+    {
+      "config": "ifeval_constraints",
+      "family": "IFBENCH",
+      "repo": "allenai/IFBench_multi-turn",
+      "revision": "e1ea65c5178fbeac522a26d12b8c71a298e9846d",
+      "rows": 1774
+    },
+    {
+      "family": "IFBENCH",
+      "repo": "THU-KEG/IFBench",
+      "revision": "6fa6f03960d0e5eab9e5c8549a355a1ade70291e",
+      "rows": 444
+    },
+    {
+      "family": "SWE_BENCH_VERIFIED",
+      "repo": "princeton-nlp/SWE-bench_Verified",
+      "revision": "c104f840cc67f8b6eec6f759ebc8b2693d585d4a",
+      "rows": 500
+    },
+    {
+      "family": "BROWSECOMP",
+      "repo": "smolagents/browse_comp",
+      "revision": "f975f60afc3c811de82951165f5a9a921d024e14",
+      "role": "public_repack",
+      "rows": 1266
+    },
+    {
+      "cases": 4696,
+      "errors": [
+        {
+          "error": "json",
+          "line": 1,
+          "path": "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_format_sensitivity.json"
+        },
+        {
+          "error": "json",
+          "line": 2,
+          "path": "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_format_sensitivity.json"
+        },
+        {
+          "error": "json",
+          "line": 3,
+          "path": "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_format_sensitivity.json"
+        },
+        {
+          "error": "json",
+          "line": 4,
+          "path": "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_format_sensitivity.json"
+        },
+        {
+          "error": "json",
+          "line": 5,
+          "path": "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_format_sensitivity.json"
+        },
+        {
+          "error": "json",
+          "line": 6,
+          "path": "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_format_sensitivity.json"
+        },
+        {
+          "error": "json",
+          "line": 7,
+          "path": "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_format_sensitivity.json"
+        },
+        {
+          "error": "json",
+          "line": 8,
+          "path": "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_format_sensitivity.json"
+        },
+        {
+          "error": "json",
+          "line": 9,
+          "path": "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_format_sensitivity.json"
+        },
+        {
+          "error": "json",
+          "line": 10,
+          "path": "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_format_sensitivity.json"
+        }
+      ],
+      "family": "BFCL_V4",
+      "files": 20,
+      "repo": "ShishirPatil/gorilla",
+      "revision": "f7cf7359b7ac615a0b294831c5ba2bc95ee4a000"
+    },
+    {
+      "acquired": 89,
+      "errors": [],
+      "family": "TERMINAL_BENCH_2_0",
+      "instruction_paths": 89,
+      "repo": "harborframework/terminal-bench-2.0",
+      "revision": "f2e8c75e23add71613117eecc9498f53bcd7e04e",
+      "tree_files": 1270
+    },
+    {
+      "cases": 175,
+      "errors": [],
+      "family": "LIVECODEBENCH_V6_SLICE",
+      "path": "test6.jsonl",
+      "raw_retained": false,
+      "repo": "livecodebench/code_generation_lite",
+      "revision": "0fe84c3912ea0c4d4a78037083943e8f0c4dd505",
+      "scope": "ONLY_LCB_v6_INCREMENT; release_latest includes v1-v6, so this is partial coverage",
+      "source_bytes": 134303240,
+      "source_sha256": "bb4c364f71921c4495a6ad15abe1a927350b720009f4933e2e71f8af0f6fd1f5"
+    }
+  ],
+  "status": "ACQUIRED_WITH_EXPLICIT_ACCESS/PARTIAL_BLOCKERS",
+  "unique_normalized_texts": 39104
+}

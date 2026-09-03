@@ -1,0 +1,82 @@
+{
+  "schema": "cfe.thread-reincarnation-checkpoint.v1",
+  "checkpoint_time_local": "2026-09-02T20:01:00-04:00",
+  "mode": "CHECKPOINT_TO_BUILD_COMMIT",
+  "role": "R4_CONVERGENCE_REFINER_WITH_R1_CONTINUITY_AUDIT",
+  "status": "READY_FOR_NEW_THREAD_AFTER_PUBLICATION_READBACK",
+  "human_handoff": {
+    "path": "state/NEW_THREAD_REHYDRATION_2026-09-02.md",
+    "sha256": "49f9ca20c965d76369f91528ef5a7896027c0e5870b14ca001cde8bc180f0894"
+  },
+  "commanders_intent": {
+    "active_file": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-09-01T0027-04-00.md",
+    "core": "Reconstruct the topology of constraints governing developmental geometry while hostile-engineering the coordinate system used to describe that topology.",
+    "terrain_law": "ENGINEER THE TERRAIN, NOT THE ANIMAL",
+    "ontology_guard": "SHAPE THE FIELD != PRESCRIBE THE ORGANISM"
+  },
+  "cfe_science": {
+    "dd1_disposition": "FIELD_RESOLUTION_SUPPORTED",
+    "dd1_mean_paired_balanced_accuracy_delta": 0.03125,
+    "dd1_pair_wins": "4/6",
+    "dd1_stable_two_sided_ge_0_65": "1/6",
+    "dd2_revisit_topology": "UNRESOLVED_UNLESS_NEWER_ADMITTED_FINAL_DISPOSITION_EXISTS",
+    "guards": [
+      "execution failure != scientific negative",
+      "same global atom multiset != same learner-visible field",
+      "rich/coherent support != identifying support",
+      "source geometry != optimizer-visible update-field geometry"
+    ]
+  },
+  "reasoning_archaeology": {
+    "status": "FIRST_CLASS_PARALLEL_RESEARCH_PROGRAM",
+    "core_hypothesis": "constraint-preserving state transformation under changing evidence plus multi-hypothesis reason maintenance plus representation-adequacy monitoring and authority transfer",
+    "high_value_artifacts": [
+      "research/REASON_MAINTENANCE_SPINE_MULTI_HYPOTHESIS_ARCHAEOLOGY_DEEP_HUNT_2026-09-02.md",
+      "research/REASONING_STATE_TRANSITION_TOPOLOGY_AND_SILENT_INVARIANTS_2026-09-02.md",
+      "research/REPRESENTATION_ADEQUACY_GRANULARITY_SHIFT_AND_META_REASONING_2026-09-02.md",
+      "research/AI_REASONING_TRACE_TEMPORAL_CARTOGRAPHY_FOREST_SYNTHESIS_V1_2026-09-02.md",
+      "research/MCCARTHY_STRIP_FOR_PARTS_REASONING_ARCHAEOLOGY_LBE_2026-09-02.md",
+      "research/ANTHROPIC_CFE_LIKE_TRAINING_GEOMETRY_COMPARATIVE_AUDIT_2026-09-02.md"
+    ],
+    "operator_lens": "chart the million things reasoning traces say silently as temporal and causal elements across AI history; strip invariants, do not copy donor architectures or prose"
+  },
+  "standard_uplift": {
+    "identity_guard": "STANDARD UPLIFT DATASET != CFE EXPERIMENTAL PACK",
+    "physical_pre_admission_candidate_atoms_now": 1802,
+    "candidate_sha256": "48b4adb1b312b996591d5b859a0e41d7ef76c320265d78522253e8eaecc63503",
+    "public_eval_registry_v3": {
+      "path": "state/analysis/eval_registries/STANDARD_UPLIFT_PUBLIC_EVAL_REGISTRY_V3_20260902/MANIFEST.json",
+      "registry_rows": 53620,
+      "unique_normalized_texts": 43659,
+      "blockers": 0
+    },
+    "public_overlap_v3": {
+      "path": "state/analysis/STANDARD_UPLIFT_PUBLIC_EVAL_OVERLAP_V3_20260902.json",
+      "sha256": "cef66038be618a6dd946a96199695718f2007e44ee32f0739ba19f3f65ee2779",
+      "exact_hits": 0,
+      "high_confidence_near_atoms": 10,
+      "manual_review_atoms": 8,
+      "unique_flagged_atoms": 18
+    },
+    "manual_adjudication": {
+      "path": "state/analysis/STANDARD_UPLIFT_PUBLIC_EVAL_OVERLAP_V3_MANUAL_ADJUDICATION_20260902.json",
+      "sha256": "7426a49b980e156819b0a0e6524bd35197492e8a95362354e86fa89e7af93a3a",
+      "status": "COMPLETE_NOT_YET_EMBODIED",
+      "genuine_contamination_rows": 11,
+      "false_positive_rows": 7,
+      "successor_count_before_refill": 1791,
+      "a0_minimum_atoms": 1800,
+      "minimum_refill_needed": 9
+    },
+    "next_gate": "Build successor candidate, quarantine 11 genuine rows, refill with >=9 independently clean atoms, rerun V3 public and private contamination, final invariant-quality and tokenization/render gates, freeze eval packet, then explicit training authorization.",
+    "training_authorized": false
+  },
+  "resource_authority": {
+    "law": "RESOURCE AVAILABILITY != RESOURCE AUTHORITY",
+    "guard_tool": "tools/cfe_resource_authority_guard.py",
+    "best_tested_qwen35_mtp_profile": "Q4_K_M native MTP, draft-mtp n_max=2, 4K single-slot only",
+    "best_tested_speedup_ratio": 1.07315,
+    "broad_process_kills_forbidden": true
+  },
+  "new_thread_resume": "Resume in BUILD-COMMIT/R5 at Standard Uplift contamination embodiment while preserving CFE science and reasoning archaeology as first-class parallel work. Do not mutate the historical 1802-atom candidate in place."
+}

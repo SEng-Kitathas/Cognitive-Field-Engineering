@@ -1,0 +1,22 @@
+{
+  "bfcl_commit": "f7cf7359b7ac615a0b294831c5ba2bc95ee4a000",
+  "bfcl_registry_unique_case_ids": 4607,
+  "date": "2026-09-02",
+  "disposition": "BFCL_v4_format_sensitivity.json is a mapping of categories to existing BFCL case IDs, not a prompt JSONL. Its line-by-line parse errors do not indicate missing prompt text.",
+  "missing_selected_ids": [],
+  "schema": "cfe.standard-uplift.bfcl-format-sensitivity-disposition.v1",
+  "selected_ids": 200,
+  "selection_categories": {
+    "live_multiple": 86,
+    "live_parallel": 6,
+    "live_parallel_multiple": 9,
+    "live_simple": 24,
+    "multiple": 15,
+    "parallel": 15,
+    "parallel_multiple": 15,
+    "simple_python": 30
+  },
+  "selection_manifest_sha256": "1e7ebd0ec441198d3f7d3b60be73d0c9eba54094d2c3731b830f5da7a2c63c19",
+  "status": "PASS_SELECTION_MANIFEST_IDS_ALREADY_COVERED",
+  "unique_selected_ids": 200
+}

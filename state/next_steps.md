@@ -125,3 +125,16 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 9. Run tokenizer/target-context profiling only on the final post-contamination row set; reject/descope destructive truncation rather than silently cropping consequential history.
 10. Preference data remains separate from SFT through all gates. Do not merge `Capybara-Preferences-Filtered` into SFT merely because the SFT candidate is ready.
 11. No training run until contamination + final quality + tokenization gates all PASS and an explicit training authorization artifact is created.
+
+## New-thread execution frontier — 2026-09-02 20:01 EDT
+1. Rehydrate from `state/NEW_THREAD_REHYDRATION_2026-09-02.md` before widening work.
+2. Verify manual contamination adjudication artifact SHA `7426a49b980e156819b0a0e6524bd35197492e8a95362354e86fa89e7af93a3a`.
+3. Build a **successor** Standard pre-admission candidate; do not overwrite the historical 1,802-atom candidate.
+4. Quarantine exactly the 11 genuine V3 protected-eval/template-leak atom IDs; verify successor count 1,791 before refill and preserve partition lineage.
+5. Refill with >=9 independently clean, quality-qualified, non-duplicate atoms selected by capability/invariant deficit, not arbitrary quota pressure. Do not restore RAW, Open-SWE, contaminated rows, or segregated alternates merely to hit 1,800.
+6. Rerun full V3 public protected-eval exact+fuzzy scan; manually adjudicate any new hits.
+7. Rerun current internal/private eval overlap; rerun again after final fleet phenotype/eval packet freeze.
+8. Run hostile invariant-quality review on final row set, then tokenizer/render/truncation profile; preserve consequential episodes whole.
+9. Freeze exact A0 row IDs, ordering/rendering, hashes, and pre-training phenotype probes.
+10. Create explicit training-authorization artifact only after all gates pass; then baseline/train/post-train.
+11. In parallel, continue first-class reasoning archaeology/multi-hypothesis program. Do not allow Standard dataset completion pressure to demote or forget CFE science, historical temporal/causal trace cartography, representation adequacy, or Commander’s Intent.

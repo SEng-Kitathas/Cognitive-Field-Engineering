@@ -1177,3 +1177,12 @@ Applied the pre-existing Standard evaluation exclusion lock rather than inventin
 
 ### Build readback — 2026-09-02 Standard Uplift pre-admission
 Standard Uplift LHIT gap-closure/pre-admission commit `99483f750cdfcfc052702ec9fb4683d0e8a2141d` pushed to `main`; local and remote hashes matched and working tree was clean. Commit contained 25 public-safe project/state/tool artifacts (2,413 insertions) and explicitly excluded all quarantine/candidate/generated/excluded/alternate/preference row payloads.
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 20:01 EDT
+Tags: CHECKPOINT, THREAD CAPACITY, GITHUB HANDOFF, CONTINUITY
+User stated the thread is full and required that GitHub contain everything needed to continue in a fresh thread, explicitly preserving nuance, depth, intent, Commander’s Intent, and engineering decisions made so far.
+
+## Turn — ASSISTANT / CHECKPOINT→BUILD-COMMIT
+Treated the request as a full reincarnation checkpoint rather than a normal summary. Re-grounded from persisted current/live/Commander’s Intent/research/Standard-data artifacts; persisted the previously in-thread-only V3 manual contamination adjudication (11 genuine protected-eval/template leaks, 7 false positives; existing 1,802 candidate not yet mutated); created a 36KB human new-thread handoff and machine-readable resume JSON; updated current, live shadow, next steps, doctrine snapshot, revisit ledger, trace matrix, and this Design Thread Stream. Handoff preserves CFE science boundaries, DD1 earned result, DD2 uncertainty, Standard-vs-experimental separation, LHIT cross-domain law, reasoning archaeology and multi-hypothesis/representation-adequacy program, local fleet/runtime/resource-authority decisions, public-eval registry engineering scars, and exact successor-candidate execution frontier. Next step is publication copy + Git commit/push + local/remote hash readback; protected/gated/full dataset payloads remain local/non-Git.

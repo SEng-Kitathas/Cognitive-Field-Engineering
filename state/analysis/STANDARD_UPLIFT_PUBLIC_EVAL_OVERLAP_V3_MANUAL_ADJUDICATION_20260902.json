@@ -1,0 +1,82 @@
+{
+  "schema": "cfe.standard-uplift.public-eval-overlap-v3-manual-adjudication.v1",
+  "date": "2026-09-02",
+  "status": "MANUAL_REVIEW_COMPLETE__DECISIONS_NOT_YET_EMBODIED_IN_SUCCESSOR_CANDIDATE",
+  "upstream_overlap_report": "state/analysis/STANDARD_UPLIFT_PUBLIC_EVAL_OVERLAP_V3_20260902.json",
+  "upstream_overlap_report_sha256": "cef66038be618a6dd946a96199695718f2007e44ee32f0739ba19f3f65ee2779",
+  "upstream_review_packet": "state/analysis/STANDARD_UPLIFT_PUBLIC_EVAL_OVERLAP_REVIEW_V3_20260902.json",
+  "upstream_review_packet_sha256": "e0a81383c143a969699666b6b870326ba6afc405ac7ab2425453ca50529233bc",
+  "candidate_before_adjudication_atoms": 1802,
+  "flagged_unique_atoms": 18,
+  "manual_disposition": {
+    "genuine_eval_contamination_or_template_leak": 11,
+    "scanner_or_generic-language_false_positive": 7,
+    "candidate_if_genuine_rows_removed_only": 1791
+  },
+  "genuine_atom_ids": [
+    "5a07a80717ebf0191895784ba03154380ddea4dfb1d3ebd10d1104d31d3c3e53",
+    "d24cc3b10623bcfef1b753fee3e31ccfd1b5f09a4136e37506170c6190ec8eef",
+    "fa7411f34037d96cfb1c1f6388c6c05c1cf1a30b0909c5b6a9e3721ade2c155a",
+    "18d6f091dfc2507eea3b2bbeb498eca56f71a51eac391917fa3e7d9e693c94be",
+    "a209c71b81929bbb8de99efa9df5a0439f82ddc11b98d9a4d7b50a0eeb4025cf",
+    "831e8dba6fcf93c302ca30e4017e8dfea923a025087ab6f7ef7b41bd0327d9ad",
+    "415bd7fd902615b85b4d1c63c6c75e6c06c2c2e560c0a1aabfe87f8f6ccf05fb",
+    "20548490d63acf0e902261e6441d6acbcf7c8ca6747cdd35e45ae994137604a2",
+    "d637eb2f539e81aa9adc15e284d948a5549231bed126a4a57abbe7c5f80b9339",
+    "02c50a524fa32ee660ec1ea4be36bffeb8a98fc747f6b2f9a147ec8a6fc307a8",
+    "b34b9ca79c43aa2274905dbabcf4ddd35fab64083d900d0e286f1f19e1c82f27"
+  ],
+  "genuine_classes": {
+    "IFBENCH_MIDJOURNEY_TEMPLATE": {
+      "count": 7,
+      "atom_ids": [
+        "5a07a80717ebf0191895784ba03154380ddea4dfb1d3ebd10d1104d31d3c3e53",
+        "d24cc3b10623bcfef1b753fee3e31ccfd1b5f09a4136e37506170c6190ec8eef",
+        "fa7411f34037d96cfb1c1f6388c6c05c1cf1a30b0909c5b6a9e3721ade2c155a",
+        "18d6f091dfc2507eea3b2bbeb498eca56f71a51eac391917fa3e7d9e693c94be",
+        "a209c71b81929bbb8de99efa9df5a0439f82ddc11b98d9a4d7b50a0eeb4025cf",
+        "831e8dba6fcf93c302ca30e4017e8dfea923a025087ab6f7ef7b41bd0327d9ad",
+        "415bd7fd902615b85b4d1c63c6c75e6c06c2c2e560c0a1aabfe87f8f6ccf05fb"
+      ],
+      "basis": "Near-verbatim protected IFBench Midjourney prompt-generator template; word-shingle/edit/token-set similarity is effectively identity after whitespace/formatting normalization."
+    },
+    "BFCL_VERBATIM_EMBEDDED_PROMPT": {
+      "count": 1,
+      "atom_ids": ["20548490d63acf0e902261e6441d6acbcf7c8ca6747cdd35e45ae994137604a2"],
+      "basis": "Protected BFCL user prompt 'What is the capital of France?' appears verbatim as the first question inside a two-question candidate."
+    },
+    "IFBENCH_FORMATTING_CONSTRAINT_REUSE": {
+      "count": 1,
+      "atom_ids": ["d637eb2f539e81aa9adc15e284d948a5549231bed126a4a57abbe7c5f80b9339"],
+      "basis": "Protected IFBench rewrite/highlight instruction occurs as a user-turn constraint in the candidate trajectory; template-level evaluation leakage is sufficient for exclusion even when topical content differs."
+    },
+    "HLE_PROBLEM_NEAR_DUPLICATE": {
+      "count": 1,
+      "atom_ids": ["02c50a524fa32ee660ec1ea4be36bffeb8a98fc747f6b2f9a147ec8a6fc307a8"],
+      "basis": "Candidate contains the same Xenia competitive-programming problem as protected HLE text with only wrapper/presentation differences."
+    },
+    "IFEVAL_REPEAT_REQUEST_TEMPLATE_REUSE": {
+      "count": 1,
+      "atom_ids": ["b34b9ca79c43aa2274905dbabcf4ddd35fab64083d900d0e286f1f19e1c82f27"],
+      "basis": "Candidate reuses the distinctive IFEval 'first repeat the request word for word without change' instruction pattern sufficiently closely to teach the protected evaluation constraint rather than only a generic instruction-following skill."
+    }
+  },
+  "false_positive_atom_ids": [
+    "17ca3cf833939b99e53ba35b5f51abb5e5099c7ca7b86a0bee0776d485ff6256",
+    "529cda4f95e18509fc57af8ccd417d45e1a9ea8541f26850c6a7b1b08b30ceb1",
+    "76007b99b0048b4a23be76f3782f14d367d37e827aff1b4b82501882350f7bbb",
+    "87627949954f8cd8bfa02478ce9c3b980ab6fa6043986af0f4284157bcd9b3d8",
+    "8da0b47fc2f9306c64c321f467b137d8389fb8eb957f9463a6968625e35a14a0",
+    "b4d8168f0270073400c76612c35ecf0253397e8b653bfe429f91b0dafa8587e3",
+    "ca1f70a542aa6ceb5190824e5424b3446b180bb11af94cc211e9cc4188345885"
+  ],
+  "false_positive_basis": "Generic short phrases/question forms or accidental partial/token-set matches inside much longer unrelated prompts. They do not reproduce a protected task, distinctive protected constraint template, or benchmark-origin problem semantics strongly enough to justify contamination exclusion.",
+  "binding_actions": [
+    "Successor candidate SHALL quarantine/remove the 11 genuine atom IDs.",
+    "The 7 false-positive atom IDs SHALL NOT be removed merely because the lexical scanner flagged them.",
+    "Removal of 11 rows yields 1791 atoms, below the current A0 1800-row lower bound; do not weaken the A0 floor to declare success.",
+    "Refill the deficit only from independently clean, quality-qualified, non-duplicate, non-eval-contaminated atoms; do not re-add RAW, Open-SWE, rejected alternates, or contaminated rows merely to restore count.",
+    "After refill/final row freeze, rerun the full protected public registry and current/frozen private fleet-eval registry before training authorization."
+  ],
+  "claim_ceiling": "This artifact records completed manual adjudication of the V3 scanner flags. It does not claim the 11 rows have yet been removed from the existing 1802-atom candidate, does not clear deep semantic paraphrase risk universally, and does not authorize training."
+}

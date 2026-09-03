@@ -1,0 +1,67 @@
+{
+  "base_manifest_sha256": "547cc9507d48ed2a20150db280bc1857ca00a9350daf373c4fac7fd918c49670",
+  "base_registry": "STANDARD_UPLIFT_PUBLIC_EVAL_REGISTRY_V1_20260902",
+  "blockers": [
+    {
+      "family": "LIVECODEBENCH_RELEASE_LATEST",
+      "reason": "v6 incremental slice acquired. Official release_latest is union v1-v6 and would require ~4.5GB source transfer because private tests are co-packaged; older slices remain to be acquired or replaced with verified question-only registry.",
+      "state": "PARTIAL"
+    }
+  ],
+  "created_unix": 1788390042.6740065,
+  "family_rows": {
+    "AIME_2024": 30,
+    "AIME_2025": 30,
+    "AIME_2026": 30,
+    "BFCL_V4": 7742,
+    "BROWSECOMP": 1266,
+    "GPQA_DIAMOND": 405,
+    "HLE": 2500,
+    "IFBENCH": 13824,
+    "IFEVAL": 541,
+    "LIVECODEBENCH_V6_SLICE": 350,
+    "MMLU_PRO": 24203,
+    "SWE_BENCH_VERIFIED": 500,
+    "TERMINAL_BENCH_2_0": 89
+  },
+  "gated_sources": [
+    {
+      "answers_retained": false,
+      "dataset_rows": 198,
+      "family": "GPQA_DIAMOND",
+      "repo": "Idavidrein/gpqa",
+      "retained_fields": [
+        "Question",
+        "Pre-Revision Question when populated",
+        "Extra Revised Question when populated"
+      ],
+      "revision": "633f5ee89ab8ad4522a9f850766b73f62147ffdd"
+    },
+    {
+      "answers_retained": false,
+      "dataset_rows": 2500,
+      "family": "HLE",
+      "images_retained": false,
+      "rationales_retained": false,
+      "repo": "cais/hle",
+      "retained_fields": [
+        "question"
+      ],
+      "revision": "5a81a4c7271a2a2a312b9a690f0c2fde837e4c29"
+    }
+  ],
+  "laws": [
+    "GATED ACCESS USED DIRECTLY AFTER USER ACCEPTANCE",
+    "EVAL REGISTRY != TRAINING DATA",
+    "ANSWERS/RATIONALES/PRIVATE TESTS NOT RETAINED",
+    "PARTIAL REGISTRY != GLOBAL CLEARANCE",
+    "FINAL FLEET EVAL FREEZE REQUIRES RERUN"
+  ],
+  "registry_path": "state/analysis/eval_registries/STANDARD_UPLIFT_PUBLIC_EVAL_REGISTRY_V2_20260902/PUBLIC_EVAL_REGISTRY.jsonl",
+  "registry_rows": 51510,
+  "registry_sha256": "9b10d98363e6c1756a79cdfadb4dfdea38c3c1d4c1f3b23a51bbb161137bc9f1",
+  "schema": "cfe.standard-uplift.public-eval-registry.v2",
+  "scope": "Protected public evaluation input text only. Full registry local/non-Git.",
+  "status": "ACQUIRED_WITH_PARTIAL_LIVECODEBENCH_BLOCKER",
+  "unique_normalized_texts": 41899
+}
