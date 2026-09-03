@@ -209,3 +209,11 @@ Launch/monitor DD2R3 from seed23 fresh; no other CFE model-heavy job concurrentl
 - First prerequisite DAG and spiral schedule exist and mechanically PASS.
 - T4 remains empty by design; no long trace is promoted to frontier merely for complexity/length.
 - Structural stage classification remains weaker than mechanism verification; unresolved/source rows still require hostile episode review before final order freeze.
+
+
+## Canonical ISD blueprint delta — 2026-09-02 23:49 Eastern Daylight Time
+- Five-tier spiral excerpt is now the authoritative ISD conceptual center, not merely one staging note.
+- Blueprint SHA `9b01f81ce152777fa971243267b083a599595cf6e398b608ee96ab6e94674290`; build contract `e3ea3726db200d1153a2632d2225eed48c1b36c6213181bf945b08b257e05ff2`.
+- Binding: dependency depth not task difficulty; spiral accretion; all CFE/Predator/reason-maintenance machinery inside stage-appropriate experience; stage-neutral support only after conservative entry points; no control-plane leakage.
+- Matched first-run causal design is binding: same frozen trainable multiset, developmental order vs order-destroyed control.
+- Scientific guard remains: ISD architecture is binding engineering; accretion superiority is unproven until outcomes.

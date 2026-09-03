@@ -1,0 +1,16 @@
+{
+  "authority": "Operator explicitly selected the five-tier developmental/spiral excerpt as the conceptual center, informed by all prior and subsequent CFE/ISD work.",
+  "blueprint_sha256": "9b01f81ce152777fa971243267b083a599595cf6e398b608ee96ab6e94674290",
+  "build_contract_sha256": "e3ea3726db200d1153a2632d2225eed48c1b36c6213181bf945b08b257e05ff2",
+  "candidate_rows": 1816,
+  "candidate_sha256": "c9e9ae8d885f54a2848f14816fb6d45f64cde82a1999657e4b39d6993274c00f",
+  "prerequisite_dag_sha256": "1ecbcd80c1f36e90ba87790f1b546ffdf05c339cab0a019f389cc289f1b72cb4",
+  "schema": "cfe.isd.canonical-developmental-blueprint-receipt.v1",
+  "scientific_boundary": "Five-tier spiral is binding ISD engineering architecture. Causal superiority of dependency-respecting accretion remains a preregistered hypothesis requiring matched arms.",
+  "spiral_schedule_v1_sha256": "d6ddbab6c2b66025165cb32cac8d64e4a685590063a4575529707822f9355eb6",
+  "stage_map_v2_sha256": "6dbbdf09ff41a97ad6521a0e924843aeb9d491c7e217567c1a48afb01bfd0676",
+  "stage_neutral_support_sha256": "feaadf551a7b7096fb6a9104530905604f4c281d2bd09157620a653bac00394d",
+  "status": "CANONICAL_ISD_CONCEPTUAL_CENTER_SEALED__TRAINING_BUILD_MUST_REHYDRATE_FROM_THIS_SURFACE",
+  "timestamp": "2026-09-02T23:49:33-04:00",
+  "training_authorized": false
+}

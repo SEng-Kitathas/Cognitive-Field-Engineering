@@ -300,3 +300,15 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Spiral Schedule V1 SHA `d6ddbab6c2b66025165cb32cac8d64e4a685590063a4575529707822f9355eb6`: 658 primary resolved-row exposures + 13 minimal lower-tier bridge revisits = 671 exposures. Unresolved rows excluded.
 - Mechanical qualification PASS SHA `368757ab55b94d9fe9fa5715725db545f893893f1e1e760013e3cd3175ddf446`: DAG acyclic, edges forward/same-stage, exact primary conservation, no unresolved leakage, revisits lower-tier and after prior primary exposure, no fabricated T4.
 - This is a partial developmental compiler, NOT a frozen training order or training authorization.
+
+
+## ISD canonical conceptual center sealed — 2026-09-02 23:49 Eastern Daylight Time
+- Operator explicitly selected the five-tier developmental excerpt as the canonical conceptual center, informed by everything before/after it.
+- Canonical blueprint: `state/doctrine_snapshot/ISD_CANONICAL_DEVELOPMENTAL_BLUEPRINT_2026-09-02.md` SHA `9b01f81ce152777fa971243267b083a599595cf6e398b608ee96ab6e94674290`.
+- Machine build contract: `state/next_steps/ISD_CANONICAL_DEVELOPMENTAL_BUILD_CONTRACT_V1_2026-09-02.json` SHA `e3ea3726db200d1153a2632d2225eed48c1b36c6213181bf945b08b257e05ff2`.
+- Binding engineering shape: T0 Foundations -> T1 Relational -> T2 Systems -> T3 Open-world -> T4 Frontier Synthesis, with mandatory spiral accretion/requalification.
+- Integrated machinery: three-lineage informing, Isomorphic Predator + anti-isomorphs, field resolution/identifying evidence, LHIT, currentness, selective revision, support/dependency maintenance, failure-boundary reuse, representation refinement, adaptive effort, cross-domain transfer, reasoning archaeology, modern research, stage-neutral competence support, training-body purity.
+- Stage-neutral support remains valid but secondary to the developmental spine and earns no developmental coverage credit.
+- Resource limits may create an arm-symmetric long-context reserve; they SHALL NOT redefine tier or trigger destructive history cropping.
+- First serious training run is now required to be matched: DEVELOPMENTAL_SPIRAL vs ORDER_DESTROYED_CONTROL on the same frozen trainable atoms/tokens/learner/initialization/optimizer/eval.
+- Training remains unauthorized until exact frozen payload, resource qualification, baseline phenotype and preregistration are sealed.

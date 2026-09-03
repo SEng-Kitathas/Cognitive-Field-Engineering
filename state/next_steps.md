@@ -187,3 +187,15 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 5. Replace minimal transition-only bridge revisits with verified spiral isomorphs/anti-isomorphs as those mappings become available; avoid duplicate padding.
 6. Fill T4 only from genuine novel decomposition/self-directed discrimination/representation-creation episodes.
 7. Final order freeze only after stage coverage is adequate, whole-corpus purity/contamination/render gates pass, frozen private-eval rerun passes, and explicit training authorization is issued.
+
+
+## ISD canonical-blueprint execution frontier — 2026-09-02 23:49 Eastern Daylight Time
+1. Rebuild/finalize the trainable ISD order from the canonical blueprint, not from older isolated staging/support notes.
+2. Finish stage/spiral bridge quality review; replace generic repeats with consequence-bearing isomorph/anti-isomorph requalifications where possible.
+3. Freeze arm-symmetric trainable payload under the highest runtime-qualified context ceiling; retain excluded complete episodes in a shared long-context reserve, never destructively crop.
+4. Seal baseline phenotype/eval packet before training.
+5. Freeze matched-arm preregistration: DEVELOPMENTAL_SPIRAL vs ORDER_DESTROYED_CONTROL, same exact trainable atoms, supervised token multiset, base model, trainable initialization, LoRA/optimizer, dose and evaluation.
+6. Run preflight/resource probes under frozen profile; any context/profile change before launch updates both arms and prereg identity.
+7. Launch paired training only after explicit authorization artifacts pass; report submitted/started/completed/registered separately.
+8. Evaluate ordinary competence plus composition, transfer, currentness, local repair, rollback selectivity, hypothesis maintenance, discriminator selection, adaptive effort, representation/framing recovery and correction cost.
+9. Preserve intermediate checkpoints if feasible for representation-development analysis; interpretability remains triangulation, not learner ontology.

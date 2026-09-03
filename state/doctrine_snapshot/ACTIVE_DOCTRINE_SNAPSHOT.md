@@ -32,3 +32,11 @@
 - Prerequisite DAG is binding curator-side engineering structure but its causal edges remain hypotheses until experimentally pressured.
 - Spiral schedule is provisional and sidecar-only; no tier or prerequisite metadata enters learner-visible training.
 - `STRUCTURAL STAGE CLASSIFICATION != MECHANISM VERIFICATION` is binding.
+
+
+## Canonical ISD developmental blueprint — 2026-09-02 23:49 Eastern Daylight Time
+- Authority surface: `ISD_CANONICAL_DEVELOPMENTAL_BLUEPRINT_2026-09-02.md` SHA `9b01f81ce152777fa971243267b083a599595cf6e398b608ee96ab6e94674290`.
+- Five-tier developmental spiral is binding ISD engineering architecture.
+- All prior/future CFE/ISD mechanisms are interpreted through this center unless explicitly overridden: three-lineage informing, Predator/anti-isomorph, identifying contrast, LHIT/currentness, support topology, selective rollback, failure reuse, representation adequacy/refinement, adaptive effort, cross-domain transfer, stage-neutral support, purity.
+- Matched causal first run required; a single developmental run cannot prove accretion.
+- `FIVE-TIER SHAPE = ENGINEERING AUTHORITY`; `ACCRETION CAUSAL SUPERIORITY = HYPOTHESIS`.

@@ -1238,3 +1238,13 @@ Operator instructed the lab to push the next stage of ISD.
 
 ## Turn — ASSISTANT / BUILD-COMMIT
 Advanced ISD from a sparse explicit-contract stage map to a partial developmental compiler. Stage Map V2 resolved 658/1816 rows using only explicit generated contracts or learner-visible research/tool topology, leaving 1158 unresolved rather than inferring from difficulty/source. Built 24-node/28-edge prerequisite DAG and first 671-exposure provisional spiral schedule over resolved rows (658 primary + 13 lower-tier transition revisits). Qualification PASS: acyclic forward DAG, exact resolved-row conservation, no unresolved leakage, valid lower-tier revisits, no fabricated T4. No learner-visible tier metadata; no training authorization.
+
+
+---
+## Turn — USER
+Timestamp: 2026-09-02 23:49 Eastern Daylight Time
+Tags: ISD CANONICAL CENTER, DEVELOPMENTAL SPIRAL
+Operator clarified that the previously stated five-tier ISD developmental shape is the essential architecture, informed by all CFE/ISD discoveries before and after that reply: Foundations/K-5 -> Relational/6-8 -> Systems/9-12 -> Open-world/College -> Frontier target, with spiral recurrence and all existing informed machinery progressing through the tiers.
+
+## Turn — ASSISTANT / CANONICALIZATION
+Reconciled all surrounding doctrine into a single canonical ISD blueprint and machine build contract. Preserved historical artifacts rather than rewriting them. Five-tier spiral is now binding ISD engineering authority; causal superiority remains an experiment. Integrated three-lineage informing, Isomorphic Predator, anti-isomorphs, identifying contrast, LHIT/currentness, reason-maintenance/support topology, local rollback, failure reuse, representation refinement, adaptive effort, stage-neutral support, purity, long-context reserve discipline and matched DEVELOPMENTAL_SPIRAL vs ORDER_DESTROYED_CONTROL first-run design.

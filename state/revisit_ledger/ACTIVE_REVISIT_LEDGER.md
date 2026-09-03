@@ -111,3 +111,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 
 | 2026-09-02 | ISD remaining unresolved 1158 rows | math/code/chat source families lack justified dependency-depth rules | stage by source/difficulty/trace length | episode-level prerequisite/composition review | P0 | open | resolve only where consequence structure supports tier |
 | 2026-09-02 | Spiral bridge quality | V1 uses minimal representative lower-tier repeats to instantiate recurrence | treat arbitrary revisit ratio as optimal curriculum | replace with verified cross-stage isomorph/anti-isomorph bridges | P1 | open | after mechanism-node mapping |
+
+| 2026-09-02 | Accretion causal attribution | canonical ISD architecture now includes many informed mechanisms; one-arm success would confound dataset quality with order | train developmental arm only and declare victory | matched same-multiset order-destroyed control + paired initialization/eval | P0 | open | prereg before any training outcome |
+| 2026-09-02 | Five-tier decomposition optimality | operator froze five-tier engineering shape, not universal scientific truth | treat tier boundaries as discovered natural law | dependency-order experiments + stage-specific ablations | P1 science | open | after first paired run |
