@@ -160,3 +160,12 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 7. After stage map is adequate, compile an exact developmental ordering sidecar; do not mutate learner-visible content to encode stage.
 8. Before training freeze: whole-corpus purity/contamination/dedup/license/render + frozen private-eval rerun + explicit authorization.
 9. In parallel, preregister a CFE dependency-order experiment to test staged vs dependency-violating fields under matched information/dose.
+
+## Reasoning archaeology deep-research continuation — 2026-09-02 22:35 ET
+1. Use `research/CFE_REASONING_ARCHAEOLOGY_DEEP_RESEARCH_HANDOFF_2026-09-02.md` as the research ingress surface; reread the active Commander’s Intent file before any doctrine-changing proposal.
+2. Extend the archaeology by functional seam, not by chronology alone. Highest-value hunts: representation-level branching/refinement; support-lineage extraction in neural reasoners; consequence-equivalence compression; conflict memory; currentness propagation; active discriminator selection; adaptive/value-of-computation control; learning from deliberation without trace imitation; orthogonal authority channels.
+3. For every new system/paper/trace annotate state, hypothesis/possibility, support/dependency, representation, control, authority, time/currentness, compression, failure class, and learning-from-deliberation. Use `EXPLICIT / IMPLICIT / NOT_VISIBLE_IN_SPECIMEN / UNKNOWN` rather than inferred absence.
+4. Keep chronology, documented lineage, functional recurrence, and candidate causal-enabling relations as separate edge classes. `FUNCTIONAL RECURRENCE != SHARED IMPLEMENTATION`; `CHRONOLOGY != CAUSATION`.
+5. Convert recurring high-value structures into matched discriminators: support-aware field vs sample/vote; dependency-local repair vs regeneration; conflict memory vs no carry; discriminating vs merely supporting evidence; fixed vs refinable representation; fixed vs value-guided reasoning budget; static vs propagation-aware currentness; identical experience multiset under altered developmental geometry.
+6. Preserve security/provenance boundary: do not acquire/decode/train on proprietary hidden-CoT recovered via exploits. Open visible reasoning traces only under ordinary rights/provenance gates.
+7. Feed verified/hostile-surviving invariants into LBE and cross-domain Standard/CFE research only through re-derived consequence structure; never copy donor ontology or learner-facing jargon by default.

@@ -1,0 +1,196 @@
+{
+  "commander_intent": [
+    "The developmental structure of experience itself is the engineering medium.",
+    "Engineer the terrain, not the animal.",
+    "Reconstruct the topology of constraints governing developmental geometry while hostile-engineering the coordinate system used to describe it.",
+    "Preserve uncertainty where reality does not justify collapse.",
+    "CFE matures independently; downstream usefulness does not terminate the research program."
+  ],
+  "cross_substrate_candidate_invariants": [
+    "qualified persistence",
+    "support lineage",
+    "compact possibility representation",
+    "consequence-distinct non-collapse",
+    "conflict as reusable information",
+    "rollback to cause not clock",
+    "identifying evidence",
+    "deferred commitment",
+    "representation-conditioned search geometry",
+    "separation of domain reasoning/reason maintenance/control/authority",
+    "learning from deliberation",
+    "appropriate recruitment of effort"
+  ],
+  "current_field_state": {
+    "registered_source_nodes": 67,
+    "source_located_trace_specimens": 15,
+    "trace_lbe_trace_nodes": 15,
+    "trace_lbe_trace_plus_event_nodes": 92,
+    "trace_lbe_typed_edges": 164
+  },
+  "date": "2026-09-02",
+  "handoff": {
+    "bytes": 65194,
+    "path": "research/CFE_REASONING_ARCHAEOLOGY_DEEP_RESEARCH_HANDOFF_2026-09-02.md",
+    "sha256": "afa4b9d8e4805679644b8c22f9ef71dc02f4ae3bd967ae077f4f7eb5a1147b44"
+  },
+  "hard_guards": [
+    "DONOR != AUTHORITY",
+    "FUNCTIONAL RECURRENCE != SHARED IMPLEMENTATION",
+    "CHRONOLOGY != CAUSATION",
+    "MULTI-SAMPLE != LIVE MULTI-HYPOTHESIS FIELD",
+    "NOT_VISIBLE_IN_SPECIMEN != ABSENT_FROM_SYSTEM",
+    "TRACE TEXT != REASONING STATE",
+    "UNKNOWN / MULTIPLE-VIABLE IS A LEGITIMATE STATE",
+    "CURRENTLY CONSEQUENCE-EQUIVALENT != ONTOLOGICALLY IDENTICAL",
+    "ROLLBACK TO CAUSE NOT CLOCK",
+    "PROPRIETARY HIDDEN-COT SECURITY RECOVERY != TRAINING AUTHORIZATION"
+  ],
+  "high_value_open_seams": [
+    "modern representation-level branching",
+    "faithful neural support extraction",
+    "consequence-equivalence compression",
+    "cross-episode conflict memory",
+    "currentness propagation",
+    "value-of-computation/adaptive effort",
+    "active discriminator seeking",
+    "developmental geometry of reason-maintenance functions",
+    "negative-space/constraint-topology cartography",
+    "trace faithfulness",
+    "learning from deliberation without trace imitation",
+    "orthogonal authority channels",
+    "Anthropic/CFE-adjacent path dependence"
+  ],
+  "million_silent_things_planes": [
+    "state/currentness",
+    "hypotheses/possibility",
+    "support/dependency",
+    "conflict/negative space",
+    "representation/coordinates",
+    "control/metareasoning",
+    "authority",
+    "time/history",
+    "compression",
+    "failure class",
+    "learning from deliberation",
+    "objective retention"
+  ],
+  "schema": "cfe.reasoning-archaeology.deep-research-handoff-index.v1",
+  "sources": [
+    {
+      "bytes": 38551,
+      "exists": true,
+      "path": "state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-09-01T0027-04-00.md",
+      "sha256": "531abff5025be76f3e3cad9070a9878c6e48eb71264965bf84525cd2d9ee42d1"
+    },
+    {
+      "bytes": 1311,
+      "exists": true,
+      "path": "state/doctrine_snapshot/CFE_CORE_CARTOGRAPHIC_COMMANDERS_INTENT_SOURCE_2026-08-31.md",
+      "sha256": "7dc7f49be48afc4de61b3b9f33e1d78a1b234d31771da6d5ad02fe7ad6953fa3"
+    },
+    {
+      "bytes": 34205,
+      "exists": true,
+      "path": "state/doctrine_snapshot/CFE_ORIGINAL_THREAD_COMMANDERS_INTENT_SOURCE_2026-08-30.md",
+      "sha256": "29a1e6c4ac885d8021fb12eca8173d0b493306255814423d05b511c2f8ce4765"
+    },
+    {
+      "bytes": 2119,
+      "exists": true,
+      "path": "state/doctrine_snapshot/CFE_REASONING_STATE_TRANSITION_HIGH_VALUE_RESEARCH_INTENT_2026-09-02.md",
+      "sha256": "aed8b34a91c5d302203337a947de7bb1816cc4d76eee00c89ab39132392a5cea"
+    },
+    {
+      "bytes": 2648,
+      "exists": true,
+      "path": "state/doctrine_snapshot/CFE_REASON_MAINTENANCE_AND_MULTI_HYPOTHESIS_RESEARCH_INTENT_2026-09-02.md",
+      "sha256": "78d879a75d61c96161450f75b80eb4cad65ce918be350f212a6627c1d48e4a03"
+    },
+    {
+      "bytes": 18199,
+      "exists": true,
+      "path": "research/REASONING_STATE_TRANSITION_TOPOLOGY_AND_SILENT_INVARIANTS_2026-09-02.md",
+      "sha256": "60833784d5d664db7c6c62a9cafe7e0470cf98eeebf916a3548eb905edf3ecee"
+    },
+    {
+      "bytes": 16070,
+      "exists": true,
+      "path": "research/REPRESENTATION_ADEQUACY_GRANULARITY_SHIFT_AND_META_REASONING_2026-09-02.md",
+      "sha256": "446ce4ee54445eb6e2dc45620cecc1a6c87131af2aa405d4f1d7ab17b2fc6f9b"
+    },
+    {
+      "bytes": 5058,
+      "exists": true,
+      "path": "research/USER_SUPPLIED_REASONING_TRACE_STRUCTURAL_ANNOTATION_2026-09-02.md",
+      "sha256": "a93c12ec6b7cba8cbb88207064ecf1981e65aeb217a9032cc4f641e4dbacf37e"
+    },
+    {
+      "bytes": 14202,
+      "exists": true,
+      "path": "research/AI_REASONING_ARCHAEOLOGY_TEMPORAL_CAUSAL_LBE_PROGRAM_2026-09-02.md",
+      "sha256": "88702bae2687cb59c50b59e9443e95e5ed24f26cf8e86aa05a1c21205de49bfa"
+    },
+    {
+      "bytes": 12175,
+      "exists": true,
+      "path": "research/AI_REASONING_ARCHAEOLOGY_TEMPORAL_CAUSAL_TRAJECTORY_V1_2026-09-02.md",
+      "sha256": "32a73ab09ce1f5951eebf1baf946ee18a089671914d3216b9a90970c4d73f1b3"
+    },
+    {
+      "bytes": 20863,
+      "exists": true,
+      "path": "research/AI_REASONING_TRACE_TEMPORAL_CARTOGRAPHY_FOREST_SYNTHESIS_V1_2026-09-02.md",
+      "sha256": "06c39923d9e471a04bc9092fdb726981981b9520ba6616c514ad60d90949b662"
+    },
+    {
+      "bytes": 45182,
+      "exists": true,
+      "path": "research/REASON_MAINTENANCE_SPINE_MULTI_HYPOTHESIS_ARCHAEOLOGY_DEEP_HUNT_2026-09-02.md",
+      "sha256": "ac4428ed935cad12c8ec2b57e16ce62553ccb26d23c7957a9918c466cfd44e38"
+    },
+    {
+      "bytes": 21997,
+      "exists": true,
+      "path": "research/MCCARTHY_STRIP_FOR_PARTS_REASONING_ARCHAEOLOGY_LBE_2026-09-02.md",
+      "sha256": "91f52127ce21c7304b217a0b0588124927b63409bd1d47f865d8f05ecd403206"
+    },
+    {
+      "bytes": 13945,
+      "exists": true,
+      "path": "research/REASONING_ARCHAEOLOGY_CROSS_DOMAIN_APPLICATION_LEDGER_V1_2026-09-02.md",
+      "sha256": "a3bbca8d1fe3be265185dfe5e502130902fdfa5d611c5dad9c2fa12230814e91"
+    },
+    {
+      "bytes": 8354,
+      "exists": true,
+      "path": "research/FRONTIER_REASONING_TRACE_INVARIANT_QUARRY_2026-09-02.md",
+      "sha256": "a4768657ca58b3fac3eee3b8651a69124edd5496dc3f2c4fd28ae66e4903d5e9"
+    },
+    {
+      "bytes": 17428,
+      "exists": true,
+      "path": "research/STARMAP_TO_CFE_SALVAGE_LEDGER_2026-08-31.md",
+      "sha256": "046e08913cf1b913dc8812d4e85a0818e5e3cadd3a1a914d4662a7e6a854e387"
+    },
+    {
+      "bytes": 12071,
+      "exists": true,
+      "path": "research/ANTHROPIC_CFE_LIKE_TRAINING_GEOMETRY_COMPARATIVE_AUDIT_2026-09-02.md",
+      "sha256": "57c6af8ef8a0884e5a34a9d7839d712eee5edb63aeba8ccd7434ceae8c87f753"
+    },
+    {
+      "bytes": 65194,
+      "exists": true,
+      "path": "research/CFE_REASONING_ARCHAEOLOGY_DEEP_RESEARCH_HANDOFF_2026-09-02.md",
+      "sha256": "afa4b9d8e4805679644b8c22f9ef71dc02f4ae3bd967ae077f4f7eb5a1147b44"
+    }
+  ],
+  "status": "FIRST_CLASS_RESEARCH_HANDOFF__NOT_SCIENTIFIC_PROMOTION",
+  "strongest_provisional_synthesis": [
+    "constraint-preserving state transformation under changing evidence",
+    "representation-adequacy monitoring and coordinate refinement when consequence-distinct states are aliased",
+    "support/dependency-aware maintenance of multiple still-possible states",
+    "identifying evidence/discriminator selection",
+    "value-guided allocation of reasoning effort"
+  ]
+}
