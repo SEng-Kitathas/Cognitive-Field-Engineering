@@ -1,7 +1,7 @@
 # CFE New-Thread Rehydration / Thread-Exit Checkpoint
 
 ## R4.2 AUTHORITY UPDATE — 2026-09-03
-Rahl Engineering Canonical SOP **R4.2** is now the project-local bound process/cold-start authority. Exact outer ZIP SHA `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a` / 625556 bytes / 38 members is stored at `doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03.zip` and package-native verification + hostile 26/26 have PASSed. R4.1 is preserved as `SUPERSEDED_PROCESS_ANCESTRY`. This process change does not promote CFE science. GitHub publication of the adoption transaction is pending at this prepublication state.
+Rahl Engineering Canonical SOP **R4.2** is now the project-local bound process/cold-start authority. Exact outer ZIP SHA `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a` / 625556 bytes / 38 members is stored at `doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03.zip` and package-native verification + hostile 26/26 have PASSed. R4.1 is preserved as `SUPERSEDED_PROCESS_ANCESTRY`. This process change does not promote CFE science. Commit A `aaffb64c13b7ea9c988b776035c3e4e779ed842f` is independently remote-verified; Commit B receipt/continuity closure remains pending.
 
 **Checkpoint date:** 2026-09-03  
 **Mode at seal:** CHECKPOINT / RECOVERY-READY  
@@ -264,7 +264,7 @@ The next thread should first seek a reviewer protocol that is both semantically 
 # 9. Immediate resume frontier
 
 P0:
-1. Complete exact final-byte LHRSG on the repaired R4.2 adoption candidate, publish/verify Commit A, then publish/verify Commit B receipt/continuity closure.
+1. Commit A is already remotely verified. Complete exact final-byte LHRSG on the Commit B receipt/continuity candidate, then publish and independently verify Commit B with parent exactly Commit A.
 2. Only after R4.2 adoption is `R4.2_ADOPTION_COMPLETE__REMOTE_VERIFIED`, complete exact **1,840/1,840 LHRSG** on the canonical learner-visible Magnum body in deterministic record order.
 3. If any row fails, preserve the original body and construct an append-only corrected successor; then restart full LHRSG on the exact successor bytes.
 4. Keep V2R7 byte-exact and already gated.
@@ -343,3 +343,11 @@ This checkpoint intentionally preserves UNKNOWN and incomplete work. It is a res
 - Immediately before R4.2 adoption publication, local main and independently queried remote main were both verified at `6b2dc681ded9151451107b9ec7396099757765dd`.
 - R4.2 adoption publication remains pending until Commit A + Commit B remote verification closes.
 - Scientific state and training authorization remain unchanged.
+
+## R4.2 Commit A verified — 2026-09-03T23:59:10-04:00
+- Commit A `aaffb64c13b7ea9c988b776035c3e4e779ed842f` is the remotely verified R4.2 adoption/content commit; parent `6b2dc681ded9151451107b9ec7396099757765dd`.
+- 70 changed paths == 70-path allowlist; zero extras; 70/70 promoted blob verification PASS.
+- Exact outer R4.2 ZIP committed content SHA-256 `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a`.
+- Post-publication receipt: `notes/maintenance/R4_2_ADOPTION_POST_PUBLICATION_RECEIPT_20260903.md`.
+- Full adoption closure still requires Commit B receipt/continuity publication with B parent=A and local==remote readback.
+- Science remains unchanged; training remains unauthorized; learner-body LHRSG remains 0/1840.

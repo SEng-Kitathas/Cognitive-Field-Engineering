@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-09-03T23:35:16-04:00",
+  "as_of": "2026-09-04T00:02:16-04:00",
   "continuity_gate": {
-    "next": "freeze exact bytes; complete full final-byte semantic admission; then Commit A",
-    "scope": "all newly authored/semantically mutated R4.2 adoption/state/continuity/reincarnation artifacts",
-    "status": "R4_2_ADOPTION_FINAL_BYTE_LHRSG_PENDING"
+    "next": "gate exact B candidate; publish B; verify B parent=A and local=remote",
+    "scope": "Commit B post-publication receipt plus only continuity surfaces materially changed by verified Commit A",
+    "status": "COMMIT_B_FINAL_BYTE_LHRSG_PENDING"
   },
   "evaluation": {
     "current_repaired_candidate": {
@@ -50,7 +50,7 @@
     ]
   },
   "frontier": "TRAINING_BODY_LHRSG__NO_NEW_TRAINING",
-  "mode": "BUILD_COMMIT__R4_2_ADOPTION_CANDIDATE_REPAIRED__LHRSG_PENDING",
+  "mode": "BUILD_COMMIT__R4_2_ADOPTION_COMMIT_A_VERIFIED__COMMIT_B_PENDING",
   "open_seams": [
     "Complete 1840/1840 LHRSG on exact canonical learner-visible training bytes before any new training authorization.",
     "Optionally rescore saved historical adapters on exact V2R7 using permutation-neutral semantic scoring; post-outcome only.",
@@ -85,7 +85,7 @@
     "content_commit": "0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed",
     "content_commit_role": "PREDECESSOR_RESTART_CONTENT_COMMIT",
     "extra_changed_paths": 0,
-    "local_main_sha": "6b2dc681ded9151451107b9ec7396099757765dd",
+    "local_main_sha": "aaffb64c13b7ea9c988b776035c3e4e779ed842f",
     "local_remote_match": true,
     "policy": "PUBLIC_SAFE_GIT_ONLY__PROTECTED_PRIVATE_HEAVY_PAYLOADS_EXCLUDED",
     "post_push_object_verification": "PASS",
@@ -93,25 +93,28 @@
     "pre_r4_2_verified_main": "6b2dc681ded9151451107b9ec7396099757765dd",
     "pre_update_head": "3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3",
     "promoted_allowlist_paths": 43,
-    "r4_2_adoption_publication": "PENDING",
+    "r4_2_adoption_publication": "COMMIT_A_REMOTE_VERIFIED__COMMIT_B_PENDING",
     "remote": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering.git",
-    "remote_main_sha": "6b2dc681ded9151451107b9ec7396099757765dd",
+    "remote_main_sha": "aaffb64c13b7ea9c988b776035c3e4e779ed842f",
     "remote_main_sha_at_content_readback": "0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed",
     "request": "FULL_GITHUB_PROJECT_UPDATE_WITH_R4_1_CONTINUITY_AND_REINCARNATION_HANDOFF",
-    "status": "PRE_R4_2_MAIN_REMOTE_VERIFIED__R4_2_ADOPTION_PUBLICATION_PENDING"
+    "status": "R4_2_COMMIT_A_REMOTE_VERIFIED__COMMIT_B_PENDING"
   },
   "r4_2_adoption": {
     "bytes": 625556,
-    "github_publication": "PENDING",
+    "commit_a": "aaffb64c13b7ea9c988b776035c3e4e779ed842f",
+    "commit_a_parent": "6b2dc681ded9151451107b9ec7396099757765dd",
+    "github_publication": "COMMIT_A_REMOTE_VERIFIED__COMMIT_B_PENDING",
     "hostile_suite": "PASS_26_OF_26_REJECTED",
-    "lhrsg_status": "PENDING_FINAL_BYTE_REVIEW",
+    "lhrsg_status": "PREPUBLICATION_ADOPTION_SURFACES_PASS__COMMIT_B_CANDIDATE_LHRSG_IN_PROGRESS",
     "materialized_root": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03",
     "package_verifier": "PASS",
+    "post_publication_receipt": "notes/maintenance/R4_2_ADOPTION_POST_PUBLICATION_RECEIPT_20260903.md",
     "project_local_zip": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03.zip",
     "science_change": "NONE",
     "sha256": "eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a"
   },
-  "resume_point": "Complete R4.2 adoption publication and remote readback; then resume exact 1840/1840 learner-visible training-body LHRSG. No new training.",
+  "resume_point": "Close Commit B receipt/continuity remote verification. Only then resume exact 1840/1840 learner-visible training-body LHRSG. No new training.",
   "role": {
     "primary": "R1 Conservative Auditor",
     "secondary": "R5 Reality Pressure Engine"

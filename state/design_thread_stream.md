@@ -1507,3 +1507,12 @@ Tags: BUILD-COMMIT, CONSEQUENCE-RECOVERY, R4.2, LHRSG-PENDING
 - Verified pre-R4.2 publication parent remains `6b2dc681ded9151451107b9ec7396099757765dd` local=remote. Two unrelated drive scans remain RUNNING; no Magnum scientific execution active.
 - Repaired only stale/missing tail. Added explicit canonical-package-root receiver-contamination scar. RES remained byte-unchanged.
 - Candidate now awaits exact final-byte LHRSG before any Git publication.
+
+## R4.2 Commit A remote verification / Commit B preparation — 2026-09-03T23:59:10-04:00
+Tags: BUILD-COMMIT, REMOTE-VERIFIED, COMMIT-B-PENDING
+
+- Consequence readback after control interruption found `COMMIT_A_MECHANICAL_RESULT.json` and complete publication logs.
+- Independent recheck confirmed local main = live GitHub main = `aaffb64c13b7ea9c988b776035c3e4e779ed842f`; A parent = `6b2dc681ded9151451107b9ec7396099757765dd`.
+- Commit A changed exactly 70 explicit-allowlist paths, zero extras, all 70 Git blobs matched expected Git-coordinate hashes; exact outer ZIP Git-object content remains SHA-256 `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a` / 625556 bytes.
+- Created post-publication receipt and updated only continuity surfaces whose current-state semantics depend on verified Commit A. Commit B still requires final-byte LHRSG + push + independent remote verification.
+- No scientific state change and no training authorization.

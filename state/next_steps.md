@@ -275,3 +275,9 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 3. Build/push/independently verify Commit A from verified parent `6b2dc681ded9151451107b9ec7396099757765dd`.
 4. Create/gate/publish Commit B post-publication receipt + only continuity surfaces requiring the completed-publication fact; verify B parent=A and local==remote.
 5. Only after `R4.2_ADOPTION_COMPLETE__REMOTE_VERIFIED` resume the 1,840/1,840 training-body LHRSG frontier. No new training.
+
+## Commit B closure gate — 2026-09-03T23:59:10-04:00
+1. Final-byte gate the post-publication receipt and this minimal continuity update set.
+2. Publish Commit B with parent exactly `aaffb64c13b7ea9c988b776035c3e4e779ed842f`.
+3. Independently verify local main == remote main == Commit B and B parent == Commit A.
+4. Only then mark `R4.2_ADOPTION_COMPLETE__REMOTE_VERIFIED` and resume 1,840/1,840 learner-body LHRSG.

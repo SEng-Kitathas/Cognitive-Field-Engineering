@@ -425,3 +425,11 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - No active Magnum training/eval/rescore/reviewer process. Two unrelated drive scans remain RUNNING and are excluded from publication.
 - R4.2 adoption candidate is repaired but final-byte LHRSG and Commit A/Commit B remote verification remain pending.
 - Scientific state unchanged; 1,840-row learner body remains 0/1840 and training authorization false.
+
+## R4.2 Commit A remote verification — 2026-09-03T23:59:10-04:00
+- Commit A `aaffb64c13b7ea9c988b776035c3e4e779ed842f` was independently verified on local main and live GitHub `main`; parent is `6b2dc681ded9151451107b9ec7396099757765dd`.
+- Commit A changed exactly 70 allowlisted paths with zero extras; all 70 promoted Git blobs matched publisher-generated expected blobs.
+- Committed outer R4.2 ZIP is exact SHA-256 `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a` / 625556 bytes.
+- Private/heavy boundary PASS.
+- Adoption is not fully closed until Commit B publishes the post-publication receipt + minimal continuity update and is remotely verified.
+- Scientific state unchanged; training body remains 0/1840 and training authorization false.

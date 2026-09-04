@@ -29,7 +29,7 @@
       "Qwen3.5-35B-A3B service attempts: execution archaeology only; no admitted full-review path"
     ]
   },
-  "mode_on_reentry": "RECOVERY_AUDIT__VERIFY_R4_2_ADOPTION_PUBLICATION_THEN_LHRSG",
+  "mode_on_reentry": "BUILD_COMMIT__R4_2_ADOPTION_FINALIZATION",
   "process_authority": {
     "adoption_receipt": "notes/maintenance/RAHL_ENGINEERING_SOP_R4_2_ADOPTION_20260903.md",
     "binding": "doctrine/rahl_r4_2/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
@@ -48,16 +48,21 @@
     }
   },
   "publication": {
+    "commit_a": "aaffb64c13b7ea9c988b776035c3e4e779ed842f",
+    "commit_a_parent": "6b2dc681ded9151451107b9ec7396099757765dd",
     "content_commit": "0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed",
     "content_commit_role": "PREDECESSOR_RESTART_CONTENT_COMMIT",
-    "local_main_sha": "6b2dc681ded9151451107b9ec7396099757765dd",
+    "local_main_sha": "aaffb64c13b7ea9c988b776035c3e4e779ed842f",
     "local_remote_match": true,
     "object_verification": "PASS",
-    "parent": "3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3",
+    "post_publication_receipt": "notes/maintenance/R4_2_ADOPTION_POST_PUBLICATION_RECEIPT_20260903.md",
     "pre_r4_2_verified_main": "6b2dc681ded9151451107b9ec7396099757765dd",
+    "predecessor_restart_content_parent": "3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3",
+    "predecessor_restart_content_parent_role": "PARENT_OF_PREDECESSOR_RESTART_CONTENT_COMMIT__NOT_CURRENT_R4_2_COMMIT_PARENT",
     "public_policy": "PUBLIC_SAFE_GIT_ONLY__PRIVATE_HEAVY_EXCLUDED",
-    "r4_2_adoption_publication": "PENDING",
-    "remote_main_sha": "6b2dc681ded9151451107b9ec7396099757765dd",
+    "r4_2_adoption_publication": "COMMIT_A_REMOTE_VERIFIED__COMMIT_B_PENDING",
+    "r4_2_current_parent": "aaffb64c13b7ea9c988b776035c3e4e779ed842f",
+    "remote_main_sha": "aaffb64c13b7ea9c988b776035c3e4e779ed842f",
     "remote_verified": true
   },
   "publication_boundary": {
@@ -80,7 +85,7 @@
     "state/research_epistemic_shadow/ACTIVE_RESEARCH_EPISTEMIC_SHADOW.md",
     "state/design_thread_stream.md"
   ],
-  "resume_point": "Complete final-byte R4.2 adoption LHRSG, Commit A remote verification, then Commit B receipt/continuity remote verification. Only then resume exact 1840/1840 training-body LHRSG; no new training.",
+  "resume_point": "Publish/gate/verify Commit B receipt+continuity closure; then resume 1840/1840 training-body LHRSG. No new training.",
   "schema": "cfe.new-thread-rehydration.v2",
   "science": {
     "block_a_historical_runs": {
@@ -98,7 +103,7 @@
     },
     "dd2": "UNRESOLVED"
   },
-  "status": "R4_2_PROJECT_LOCAL_ADOPTION_CANDIDATE_REPAIRED__LHRSG_AND_GITHUB_PENDING",
+  "status": "R4_2_COMMIT_A_REMOTE_VERIFIED__COMMIT_B_PENDING",
   "training_body": {
     "lhrsg": "INCOMPLETE_0_OF_1840",
     "private_path": "state/analysis/ISD_MAGNUM_OPUS_CANDIDATE_V1_20260903/ISD_CANONICAL.private.jsonl",
