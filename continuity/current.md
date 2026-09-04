@@ -410,3 +410,18 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Normal Git excluded private learner/eval/result JSONL, protected/gated benchmark text, credentials, model weights/adapters, and heavy runtime material.
 - Git plumbing scar: normal `git status`/`git add` were pathologically slow on this checkout; publication used an LHRSG-reviewed temporary-index plumbing publisher (`hash-object -> update-index -> write-tree -> commit-tree -> exact push -> remote readback`) with explicit allowlist and fail-closed remote equality.
 - Scientific state did not change. The next P0 science/engineering blocker is exact 1,840/1,840 learner-visible training-body LHRSG; no new training is authorized.
+
+## R4.2 project-local adoption — 2026-09-03 22:46:31-04:00
+- R4.2 exact ZIP SHA `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a`, 625556 bytes, 38 members copied into CFE and extracted with exact 38/38 member-hash identity.
+- Package-native verifier PASS and hostile suite 26/26 rejected after rerouting receiver logs outside the package root.
+- R4.2 is now bound as process/cold-start authority; R4.1 is preserved as superseded ancestry. No scientific authority transfer.
+- No Magnum training/eval/rescore/reviewer process is active. Two unrelated drive scans remain live and are excluded from this publication transaction.
+- GitHub publication is pending; scientific P0 remains 1,840/1,840 LHRSG after remote publication closes.
+
+## R4.2 consequence-recovery correction — 2026-09-03T23:35:16-04:00
+- Timed multi-surface mutation was reconstructed from consequences. Last successful intended write was `state/current.md`; later continuity targets had not been written.
+- Stale/missing tail repaired explicitly; no binding/RES replay.
+- Verified pre-R4.2 Git main: local = remote = `6b2dc681ded9151451107b9ec7396099757765dd`. `0142e6b...` remains predecessor restart content commit, not the current Git coordinate.
+- No active Magnum training/eval/rescore/reviewer process. Two unrelated drive scans remain RUNNING and are excluded from publication.
+- R4.2 adoption candidate is repaired but final-byte LHRSG and Commit A/Commit B remote verification remain pending.
+- Scientific state unchanged; 1,840-row learner body remains 0/1840 and training authorization false.

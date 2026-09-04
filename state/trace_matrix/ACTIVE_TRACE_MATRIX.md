@@ -1,6 +1,8 @@
 # CFE ACTIVE TRACE MATRIX
 
-As of: 2026-08-31 12:45 Eastern Daylight Time
+As of: 2026-09-03T23:40:51-04:00
+
+> **Authority rule:** This is an append-only/cumulative trace matrix. Older rows remain evidence/lineage and may describe states that were current when recorded. Later explicit dispositions supersede earlier conflicting status. Use `state/current/ACTIVE_CURRENT_STATE.json` plus `state/live_shadow.md` for bounded current operational truth.
 
 | Claim / artifact | Evidence | Status |
 |---|---|---|
@@ -255,3 +257,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | Full GitHub reincarnation update | operator explicit request + stale public R3.1/2026-09-02 ingress + per-turn Git continuity policy | public-safe synchronization under thin-clone boundary | publication checkout `publication/github/Cognitive-Field-Engineering` | pre-mutation checkout verified clean at `main==origin/main==3b41dd5`; final commit/push/readback pending at this trace row | **IN PROGRESS** | high operational priority | push/readback failure | Do not claim publication until remote head confirms |
 
 | GitHub reincarnation main publication | operator thread-exit request + active R4.1/LHRSG continuity | explicit public-safe allowlist; temporary-index Git plumbing after porcelain scan pathology | commit `0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed` | local/remote equality PASS; parent `3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3`; 43 allowlist paths; 39 changed; 0 extra; 0 blob mismatches under publisher Git-coordinate verification | **PUBLISHED / VERIFIED** | high | future remote divergence or discovered omitted restart-critical surface | publication itself changes no scientific claim |
+
+| R4.2 CFE process/cold-start authority | exact outer ZIP `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a`; direct R4.2 cold-start read; project-local exact copy | adopt process authority without scientific transfer | `doctrine/rahl_r4_2/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md` + adoption receipt | source/destination SHA/bytes PASS; 38/38 extraction identity; native verifier PASS; hostile 26/26 rejected | **load-bearing process authority / publication pending** | high | failed final-byte gate, remote blob mismatch, or valid later supersession | R4.1 preserved as ancestry; outer ZIP exception is specific |
+| Canonical package root receiver contamination scar | first project-local verifier run detected receiver-created `.pcmmad_sync_runs` extras | distinguish execution contamination from package defect | `notes/maintenance/R4_2_CANONICAL_PACKAGE_WORKSPACE_CONTAMINATION_SCAR_20260903.md` | debris removed; 38/38 restored; verifier PASS after reroute | active engineering scar | high | future proof of safe non-mutating in-root execution may narrow default | scar-informed default, not universal prohibition |

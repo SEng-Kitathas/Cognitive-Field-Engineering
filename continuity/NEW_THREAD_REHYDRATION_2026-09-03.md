@@ -1,5 +1,8 @@
 # CFE New-Thread Rehydration / Thread-Exit Checkpoint
 
+## R4.2 AUTHORITY UPDATE — 2026-09-03
+Rahl Engineering Canonical SOP **R4.2** is now the project-local bound process/cold-start authority. Exact outer ZIP SHA `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a` / 625556 bytes / 38 members is stored at `doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03.zip` and package-native verification + hostile 26/26 have PASSed. R4.1 is preserved as `SUPERSEDED_PROCESS_ANCESTRY`. This process change does not promote CFE science. GitHub publication of the adoption transaction is pending at this prepublication state.
+
 **Checkpoint date:** 2026-09-03  
 **Mode at seal:** CHECKPOINT / RECOVERY-READY  
 **Reason:** current chat thread is at practical context capacity; operator explicitly requested a full GitHub project update with continuity and current SOP/R4.1 state preserved.
@@ -18,17 +21,19 @@ Re-enter in **RECOVERY/AUDIT** and read in this order:
 5. `state/current/ACTIVE_CURRENT_STATE.json`
 6. `continuity/next_steps.md`
 7. `state/next_steps/ACTIVE_NEXT_STEPS.json`
-8. `doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md`
-9. `state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md`
-10. `state/doctrine_snapshot/ACTIVE_DOCTRINE_SNAPSHOT.md`
-11. `state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md`
-12. `state/trace_matrix/ACTIVE_TRACE_MATRIX.md`
-13. `docs/COMMANDERS_INTENT.md`
-14. `docs/SCIENTIFIC_CLAIM_LEDGER.md`
-15. `docs/ENGINEERING_DECISION_LEDGER.md`
-16. `docs/DO_NOT_REINTRODUCE.md`
-17. `transcript/THIS_CONVERSATION.md`
-18. `continuity/design_thread_stream.md` only as much as needed for forensic chronology.
+8. `doctrine/rahl_r4_2/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md`
+9. `state/doctrine_snapshot/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md`
+10. `state/research_epistemic_shadow/ACTIVE_RESEARCH_EPISTEMIC_SHADOW.md`
+11. `state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md`
+12. `state/doctrine_snapshot/ACTIVE_DOCTRINE_SNAPSHOT.md`
+13. `state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md`
+14. `state/trace_matrix/ACTIVE_TRACE_MATRIX.md`
+15. `docs/COMMANDERS_INTENT.md`
+16. `docs/SCIENTIFIC_CLAIM_LEDGER.md`
+17. `docs/ENGINEERING_DECISION_LEDGER.md`
+18. `docs/DO_NOT_REINTRODUCE.md`
+19. `transcript/THIS_CONVERSATION.md`
+20. `continuity/design_thread_stream.md` only as much as needed for forensic chronology.
 
 Then inspect the actual live project/server state before any mutation.
 
@@ -60,31 +65,22 @@ Current conceptual separation:
 
 # 2. Active engineering-process authority
 
-## Rahl Engineering Canonical SOP R4.1
+## Rahl Engineering Canonical SOP R4.2
 
-R4.1 is the active project-agnostic engineering-process authority for CFE.
+R4.2 is the active project-agnostic engineering-process / cold-start authority for CFE.
 
-- Package identity: `RAHL_ENGINEERING_CANONICAL_SOP_R4_1_2026-09-03.zip`
-- SHA-256: `af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2`
-- Bytes: `309036`
-- Project-local authority binding: `doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md`
-- Adoption receipt: `notes/maintenance/RAHL_ENGINEERING_SOP_R4_1_ADOPTION_20260903.md`
+- Package: `RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03.zip`
+- SHA-256: `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a`
+- Bytes: `625556`
+- Members: `38`
+- Exact project-local ZIP: `doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03.zip`
+- Active binding: `doctrine/rahl_r4_2/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md`
+- Adoption receipt: `notes/maintenance/RAHL_ENGINEERING_SOP_R4_2_ADOPTION_20260903.md`
+- R4.1 is `SUPERSEDED_PROCESS_ANCESTRY` and remains preserved at package SHA `af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2`.
 
-R4.1 supersedes R4.0 and project-local R3.1 process surfaces where they conflict. R3.1 remains historical lineage only.
+R4.2 process authority does not promote CFE scientific/domain truth. CFE's Linear Human Read / Semantic Gate remains active as project-local embodiment, aligned with R4.2 native semantic-admission requirements.
 
-Base-tier nontrivial-work metabolism:
-- PDVER = `Probe -> Derive -> Verify -> Embody -> Recurse`
-- hostile engineering / adversarial pressure
-- Semantic Helix
-- Attention Reservoir
-- Loop+
-- OARR
-- CSC
-- additive AI co-processor strengths
-
-`BASE TIER != MAXIMAL CEREMONY`: functional obligations are standing, but visible ritual is proportional to consequence, uncertainty, novelty, reversibility, and complexity.
-
-Important storage boundary: the sealed R4.1 ZIP payload itself is not claimed to be stored under the live CFE project root. The exact package identity and release verification are bound locally by the authority/adoption artifacts.
+Engineering scar: canonical package root should not double as transient receiver/execution workspace when the execution plane can write logs; see `notes/maintenance/R4_2_CANONICAL_PACKAGE_WORKSPACE_CONTAMINATION_SCAR_20260903.md`.
 
 ---
 
@@ -256,9 +252,10 @@ Do not repeat these attempts blindly:
 - Qwen3.5-35B-A3B reviewer service experiments loaded the model but did not produce an admitted full-review path; they are execution archaeology, not a passed reviewer gate.
 
 Current execution truth:
-- **no active training job**
-- **no active eval job**
-- **no active reviewer/model-service job**
+- **no active Magnum training job**
+- **no active Magnum eval/rescore job**
+- **no active Magnum reviewer/model-service job**
+- two unrelated drive-scan jobs are RUNNING (`job-1e185f8ec6be`, `job-30e8d8dd8820`); their outputs are excluded from R4.2 publication
 
 The next thread should first seek a reviewer protocol that is both semantically qualified and operationally feasible, or conduct bounded consecutive direct review without weakening the 100% coverage law.
 
@@ -267,15 +264,16 @@ The next thread should first seek a reviewer protocol that is both semantically 
 # 9. Immediate resume frontier
 
 P0:
-1. Complete exact **1,840/1,840 LHRSG** on the canonical learner-visible Magnum body in deterministic record order.
-2. If any row fails, preserve the original body and construct an append-only corrected successor; then restart full LHRSG on the exact successor bytes.
-3. Keep V2R7 byte-exact and already gated.
-4. No training while training-body semantic authorization is incomplete.
+1. Complete exact final-byte LHRSG on the repaired R4.2 adoption candidate, publish/verify Commit A, then publish/verify Commit B receipt/continuity closure.
+2. Only after R4.2 adoption is `R4.2_ADOPTION_COMPLETE__REMOTE_VERIFIED`, complete exact **1,840/1,840 LHRSG** on the canonical learner-visible Magnum body in deterministic record order.
+3. If any row fails, preserve the original body and construct an append-only corrected successor; then restart full LHRSG on the exact successor bytes.
+4. Keep V2R7 byte-exact and already gated.
+5. No training while training-body semantic authorization is incomplete.
 
 After the training-body gate closes:
-5. Optional: rescore saved historical adapters on exact V2R7 using permutation-neutral semantic scoring. This remains post-outcome archaeology.
-6. Freeze/preregister a fresh paired prerequisite-first vs phase-scramble replication binding exact training bytes, eval bytes, scorer, paired seeds, base learner, schedules, optimizer, stopping rule, and claim ceiling.
-7. Only if the broad developmental-order signal survives fresh confirmation should the program reopen SPACED/LATE/FRONTLOAD schedule geometry.
+6. Optional: rescore saved historical adapters on exact V2R7 using permutation-neutral semantic scoring. This remains post-outcome archaeology.
+7. Freeze/preregister a fresh paired prerequisite-first vs phase-scramble replication binding exact training bytes, eval bytes, scorer, paired seeds, base learner, schedules, optimizer, stopping rule, and claim ceiling.
+8. Only if the broad developmental-order signal survives fresh confirmation should the program reopen SPACED/LATE/FRONTLOAD schedule geometry.
 
 Parallel long-horizon seams:
 - learner-state / topology probes capable of distinguishing inherited model topology from adaptation microstate/path;
@@ -287,7 +285,7 @@ Parallel long-horizon seams:
 
 # 10. Things the next thread must not resurrect
 
-- Do not treat R3.1 as current process authority; R4.1 is active.
+- Do not treat R4.1/R4.0/R3.1 as current process authority; verified project-local R4.2 is active and R4.1 remains ancestry.
 - Do not use the old 96-row frozen eval as current scientific authority.
 - Do not call duplicated `6/6` AE pairs six independent scenarios.
 - Do not restore the withdrawn within-seed p=0.03125.
@@ -324,7 +322,7 @@ Heavy/restricted material remains local or opt-in release/archive surfaces and i
 
 # 12. Minimal resume sentence
 
-> **Resume CFE in RECOVERY/AUDIT under Rahl Engineering SOP R4.1 and the active Linear Human Read / Semantic Gate law. The old Block-A phenotype ruler is defective and its full-AE claim is demoted; historical interventions remain usable archaeology. V2R7 is the current 96/96 LHRSG-passed repaired eval (post-outcome only for old runs), while the exact 1,840-row Magnum learner-visible body remains `LHRSG_INCOMPLETE__NOT_TRAINING_AUTHORIZED`. There are no active jobs. Close the 1,840/1,840 semantic gate before any new training, then prospectively freeze a fresh paired prerequisite-order replication.**
+> **Resume CFE in RECOVERY/AUDIT under Rahl Engineering SOP R4.2 and the active Linear Human Read / Semantic Gate law. R4.2 exact project-local package SHA `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a` is possessed/verified but adoption publication must close through remotely verified Commit A + Commit B before science resumes. R4.1 is preserved ancestry. The old Block-A ruler is defective and full-AE claim demoted; V2R7 is 96/96 gated; the 1,840-row learner body remains 0/1840 and NOT training-authorized. No Magnum scientific execution is active; two unrelated drive scans are running and excluded from publication.**
 
 ---
 
@@ -338,3 +336,10 @@ This checkpoint intentionally preserves UNKNOWN and incomplete work. It is a res
 - Local/remote main equality was verified after push.
 - Post-push object verification PASS: no changed path outside the explicit publication allowlist and no mismatch against the Git blob identities generated before commit construction.
 - Publication success does **not** change science or authorize training. Fresh-thread P0 remains 1,840/1,840 learner-visible training-body LHRSG.
+
+
+## R4.2 publication-coordinate correction — 2026-09-03T23:35:16-04:00
+- `0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed` is retained as the predecessor restart **content** commit.
+- Immediately before R4.2 adoption publication, local main and independently queried remote main were both verified at `6b2dc681ded9151451107b9ec7396099757765dd`.
+- R4.2 adoption publication remains pending until Commit A + Commit B remote verification closes.
+- Scientific state and training authorization remain unchanged.

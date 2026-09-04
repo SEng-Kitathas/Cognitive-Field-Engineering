@@ -16,7 +16,8 @@
   },
   "execution": {
     "active_eval_job": null,
-    "active_jobs": 0,
+    "active_jobs": 2,
+    "active_jobs_note": "Two unrelated drive-scan jobs are RUNNING; no active CFE Magnum training/eval/rescore/reviewer process. Scan outputs are excluded from R4.2 publication.",
     "active_reviewer_job": null,
     "active_training_job": null,
     "reviewer_attempts": [
@@ -28,12 +29,14 @@
       "Qwen3.5-35B-A3B service attempts: execution archaeology only; no admitted full-review path"
     ]
   },
-  "mode_on_reentry": "RECOVERY_AUDIT",
+  "mode_on_reentry": "RECOVERY_AUDIT__VERIFY_R4_2_ADOPTION_PUBLICATION_THEN_LHRSG",
   "process_authority": {
-    "binding": "doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
-    "name": "Rahl Engineering Canonical SOP R4.1",
-    "package": "RAHL_ENGINEERING_CANONICAL_SOP_R4_1_2026-09-03.zip",
-    "sha256": "af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2"
+    "adoption_receipt": "notes/maintenance/RAHL_ENGINEERING_SOP_R4_2_ADOPTION_20260903.md",
+    "binding": "doctrine/rahl_r4_2/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+    "name": "Rahl Engineering Canonical SOP R4.2",
+    "package": "RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03.zip",
+    "r4_1": "SUPERSEDED_PROCESS_ANCESTRY",
+    "sha256": "eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a"
   },
   "project_laws": {
     "lhrsg": {
@@ -46,10 +49,15 @@
   },
   "publication": {
     "content_commit": "0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed",
+    "content_commit_role": "PREDECESSOR_RESTART_CONTENT_COMMIT",
+    "local_main_sha": "6b2dc681ded9151451107b9ec7396099757765dd",
     "local_remote_match": true,
     "object_verification": "PASS",
     "parent": "3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3",
+    "pre_r4_2_verified_main": "6b2dc681ded9151451107b9ec7396099757765dd",
     "public_policy": "PUBLIC_SAFE_GIT_ONLY__PRIVATE_HEAVY_EXCLUDED",
+    "r4_2_adoption_publication": "PENDING",
+    "remote_main_sha": "6b2dc681ded9151451107b9ec7396099757765dd",
     "remote_verified": true
   },
   "publication_boundary": {
@@ -59,24 +67,20 @@
   "read_order": [
     "reincarnation/READ_ME_FIRST.md",
     "continuity/NEW_THREAD_REHYDRATION_2026-09-03.md",
-    "continuity/live_shadow.md",
-    "continuity/current.md",
     "state/current/ACTIVE_CURRENT_STATE.json",
-    "continuity/next_steps.md",
+    "continuity/current.md",
     "state/next_steps/ACTIVE_NEXT_STEPS.json",
-    "doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+    "continuity/next_steps.md",
+    "doctrine/rahl_r4_2/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
     "state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md",
     "state/doctrine_snapshot/ACTIVE_DOCTRINE_SNAPSHOT.md",
+    "state/live_shadow.md",
     "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md",
     "state/trace_matrix/ACTIVE_TRACE_MATRIX.md",
-    "docs/COMMANDERS_INTENT.md",
-    "docs/SCIENTIFIC_CLAIM_LEDGER.md",
-    "docs/ENGINEERING_DECISION_LEDGER.md",
-    "docs/DO_NOT_REINTRODUCE.md",
-    "transcript/THIS_CONVERSATION.md",
-    "continuity/design_thread_stream.md"
+    "state/research_epistemic_shadow/ACTIVE_RESEARCH_EPISTEMIC_SHADOW.md",
+    "state/design_thread_stream.md"
   ],
-  "resume_point": "Complete exact 1840/1840 learner-visible training-body LHRSG in deterministic record order. If any row fails, preserve original and build append-only successor, then restart full gate. No new training until this closes. Afterward, optionally remeasure saved adapters on exact V2R7 as post-outcome archaeology, then prospectively preregister a fresh paired prerequisite-first vs phase-scramble replication.",
+  "resume_point": "Complete final-byte R4.2 adoption LHRSG, Commit A remote verification, then Commit B receipt/continuity remote verification. Only then resume exact 1840/1840 training-body LHRSG; no new training.",
   "schema": "cfe.new-thread-rehydration.v2",
   "science": {
     "block_a_historical_runs": {
@@ -94,7 +98,7 @@
     },
     "dd2": "UNRESOLVED"
   },
-  "status": "RECOVERY_READY__GITHUB_RESTART_CONTENT_VERIFIED",
+  "status": "R4_2_PROJECT_LOCAL_ADOPTION_CANDIDATE_REPAIRED__LHRSG_AND_GITHUB_PENDING",
   "training_body": {
     "lhrsg": "INCOMPLETE_0_OF_1840",
     "private_path": "state/analysis/ISD_MAGNUM_OPUS_CANDIDATE_V1_20260903/ISD_CANONICAL.private.jsonl",

@@ -1,0 +1,469 @@
+{
+  "allowlist_meta_path": "state/qualification/R4_2_COMMIT_A_PUBLICATION_ALLOWLIST_20260903.json",
+  "as_of": "2026-09-03T23:45:06-04:00",
+  "boundary_scan": {
+    "forbidden_path_hits": 0,
+    "high_confidence_secret_findings": [],
+    "status": "PASS",
+    "unauthorized_archive_count": 0
+  },
+  "expected_parent": "6b2dc681ded9151451107b9ec7396099757765dd",
+  "explicit_exclusions": [
+    "private learner JSONL",
+    "private V2R7 prompt JSONL",
+    "private result JSONL",
+    "gated/protected benchmark text",
+    "credentials/secrets",
+    "models/weights",
+    "adapters/checkpoints",
+    "transient scanner outputs",
+    ".pcmmad_sync_runs",
+    "execution logs not deliberately selected",
+    "nested ancestry ZIP archives"
+  ],
+  "final_git_allowlist_rule": "payload_paths PLUS allowlist_meta_path; no other changed path permitted",
+  "outer_zip_exception": {
+    "authorization_scope": "EXACT_OUTER_R4_2_ZIP_ONLY__NOT_GENERAL_ARCHIVE_PERMISSION",
+    "bytes": 625556,
+    "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03.zip",
+    "sha256": "eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a"
+  },
+  "payload_path_count_excluding_this_manifest": 69,
+  "payload_paths": [
+    {
+      "bytes": 625556,
+      "kind": "AUTHORIZED_OUTER_R4_2_ZIP",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03.zip",
+      "sha256": "eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a"
+    },
+    {
+      "bytes": 6013,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/00_READ_ME_FIRST.md",
+      "sha256": "7dd77f056803fcbf48e631d612f6f595e180a12cc2ecbbec86f9169335f14e5e"
+    },
+    {
+      "bytes": 2086,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/01_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md",
+      "sha256": "008390e0c69c64e744d11826451dde7dca25abf38dcefc4ddb8cca6b1fe92dd4"
+    },
+    {
+      "bytes": 9339,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/02_ENGINEERING_AUTHORITY_SURFACE.md",
+      "sha256": "217a1cef5535b7907d3549624c3445dc308994d4ee13cc01f538445010978ef8"
+    },
+    {
+      "bytes": 905,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/03_PROJECT_OBLIGATION_INTERFACE.md",
+      "sha256": "59326c29a598e6eee4f66be943fd453a3d9a15d433da2807c98e0282f1278ade"
+    },
+    {
+      "bytes": 6878,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/04_RESEARCH_GOVERNANCE.md",
+      "sha256": "957c97abfe0701f7097de188e92caae335940b5a9720c400bdfde2f018b34029"
+    },
+    {
+      "bytes": 6599,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/05_RESEARCH_MACHINERY_AND_MODES.md",
+      "sha256": "775fc6e9b2853f9c35f520e86e07efa46e8c85a4ac57b743cba3222a105dc2e4"
+    },
+    {
+      "bytes": 7314,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/06A_SERVER_EXECUTION_METHODOLOGY_FOR_UNRELIABLE_PLANES.md",
+      "sha256": "6c30134b3e213bb088ac4ec13651c205439ee8cab8824e848fe16ab93dffb1f0"
+    },
+    {
+      "bytes": 8117,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/06_EXECUTION_RELEASE_AND_ENVIRONMENT_DISCIPLINE.md",
+      "sha256": "2b950b70afb5f9f172b72c253875c2c9dc12586af082b59192025208699ffb93"
+    },
+    {
+      "bytes": 958,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/07A_LIVE_SHADOW_PROTOCOL.md",
+      "sha256": "05c191e6b49ceaee0fe290e94827b204f91f0ad9cb136284aa37134d74b674f1"
+    },
+    {
+      "bytes": 771,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/07B_DESIGN_THREAD_STREAM_PROTOCOL.md",
+      "sha256": "9a0ef949c13aecba346af93e5f497ae1e9b3e828e6bb5359ec130ff134c12df3"
+    },
+    {
+      "bytes": 3354,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/07C_RESEARCH_EPISTEMIC_SHADOW_PROTOCOL.md",
+      "sha256": "d49bb28773d17a79abdc848624f3cbe3a7a60025ce7301bede4d7746e7e2963e"
+    },
+    {
+      "bytes": 4056,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/07_CONTINUITY_SYSTEM.md",
+      "sha256": "b917a7f76ded842000cac50e761e61e8704c0916c3228ff615e8b773724a9da9"
+    },
+    {
+      "bytes": 2245,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/08_STATE_INSTRUMENTS_PROMOTION_AND_APPEND_ONLY.md",
+      "sha256": "a2ec3946cd97048f84e9b42269920ea7dc79277468082657a7ce0dc1ec349381"
+    },
+    {
+      "bytes": 1611,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/09_UNKNOWN_TRACE_AND_RECOVERY_RULE.md",
+      "sha256": "ee36bddcfaa6f9219fcf3909c39bcbe3f7bc91e35bee514443859047e3147bfc"
+    },
+    {
+      "bytes": 620,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/10_SUBSTRATE_PROFILE_ACTIVATION.md",
+      "sha256": "bc7750f08dca9d8721df55dd2d84f6d4166a8576abc43622e229d2d2068d0e7c"
+    },
+    {
+      "bytes": 3660,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/11_ACTIVE_SCAR_INDEX.md",
+      "sha256": "4eac2b61a9d78436539cd93bc49529f4d668a8a3212250ead30de61349847c45"
+    },
+    {
+      "bytes": 3614,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/12_COLD_START_PROTOCOL.md",
+      "sha256": "f287ccce983ec3aaec56c0311ab296a0c9291e6cc2d12fc971814d0d7553ed82"
+    },
+    {
+      "bytes": 2542,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/13_PACKAGE_ARCHIVE_AND_PROVENANCE.md",
+      "sha256": "01fc04d6a730a67defc36d0fc87d30f6e29bb389df02a63a58d7692b8040e22d"
+    },
+    {
+      "bytes": 6673,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/14_CHANGELOG_AND_CULL_LEDGER.md",
+      "sha256": "6fa8118e23238d2ddc59e2921e3ff9542e627cb886d15fa1bd0d2d4cbcd7909d"
+    },
+    {
+      "bytes": 1978,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/15_CLAIM_CEILING_AND_NONCLAIMS.md",
+      "sha256": "6defda6a1102134792e3f453357931292f7545d919ad5d2135b37a2221c84cbe"
+    },
+    {
+      "bytes": 6045,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/MANIFEST_SHA256.json",
+      "sha256": "abe35b0914173b6d8dedf890982788a518505fcbdc8a94fb58e050b10ac215de"
+    },
+    {
+      "bytes": 2016,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/PROMOTION_RECEIPT.md",
+      "sha256": "34510f26a0a210bf45ee9552a1c489e2018d4be318b79edc92908ce07ba744d5"
+    },
+    {
+      "bytes": 2441,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/RELEASE_VERIFICATION.md",
+      "sha256": "bfa82add12f72c0760504765309e1588d04100367ddd6b36c9a7e509ef0722e3"
+    },
+    {
+      "bytes": 10795,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/VERIFY_CANONICAL_SOP.py",
+      "sha256": "a2a579602b3fe007a8cbed29df89202ec99474c607c2f50c3c8f9982ce6c95d2"
+    },
+    {
+      "bytes": 505,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/evidence/README.md",
+      "sha256": "efc1079c8d5eb0e8836ecc96e96a5dd7d3d02e15f204258868687fc0fa560af4"
+    },
+    {
+      "bytes": 1024,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/evidence/receiver_continuity_qualification/CANDIDATE_SEAL.json",
+      "sha256": "16c04f9460a1dcad12485db00ee6639f63f8382862262eadf26ea5af7829fdea"
+    },
+    {
+      "bytes": 24649,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/evidence/receiver_continuity_qualification/CONTINUITY_ENVELOPE_V0_1.patch",
+      "sha256": "59fef362ce36896a20379d1514ae865aad547b3ce57705fad9b8add382bc106a"
+    },
+    {
+      "bytes": 7642,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/evidence/receiver_continuity_qualification/QUALIFICATION_REPORT.md",
+      "sha256": "5a8d50cf7dcd95722756116db786dae32944efb7360d1cf7f47ad37e88115aa7"
+    },
+    {
+      "bytes": 9609,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/evidence/receiver_continuity_qualification/SOURCE_SNAPSHOT_MANIFEST.json",
+      "sha256": "20c83018ee217de05e714edaaef3b97ce49899d4d18db2cb6601f0d01c83d24f"
+    },
+    {
+      "bytes": 408,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/machine/AUTHORITY_CLASSES.json",
+      "sha256": "e2bc24ab821c12041d3ee88602696bf3591125e733a96b5dadc95d5dddd40eee"
+    },
+    {
+      "bytes": 1211,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/machine/BASE_TIER_ENGINEERING_METABOLISM.json",
+      "sha256": "acafb6c28563be79d17dd888cdd45d332c5f06dc6dc12a47844432509f01830f"
+    },
+    {
+      "bytes": 745,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/machine/CONTINUITY_INSTRUMENTS.json",
+      "sha256": "c3e6491615b86615f583a1d90c79da866a37c8cad3478549f2289561a96110f1"
+    },
+    {
+      "bytes": 3177,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/machine/EXECUTION_AND_ENVIRONMENT.json",
+      "sha256": "1665c54176d87554d509c6629bae082292d78307b15daa3aeabff2559e088986"
+    },
+    {
+      "bytes": 4108,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/machine/SCARS.json",
+      "sha256": "30499d259f1930a66a0964af36fcc327ab3d9bffe83be453a9d6d8c7ebd07102"
+    },
+    {
+      "bytes": 7794,
+      "kind": "R4_2_READABLE_MATERIALIZATION",
+      "path": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/tests/RUN_HOSTILE_TESTS.py",
+      "sha256": "60a2de566fb9442e0527024204e1b2048c0258ea89af32484e71f9b51e187eb5"
+    },
+    {
+      "bytes": 2651,
+      "kind": "ADOPTION_STATE",
+      "path": "doctrine/rahl_r4_2/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+      "sha256": "449b988649862f0ebf1056afd2ed1795799389d733c27958a57e02ff6dc79f9c"
+    },
+    {
+      "bytes": 2720,
+      "kind": "ADOPTION_STATE",
+      "path": "notes/maintenance/RAHL_ENGINEERING_SOP_R4_2_ADOPTION_20260903.md",
+      "sha256": "553be2fc48e4863313c2caa39a6f2b9183c53896433aad3e2c5bf907f4dd443d"
+    },
+    {
+      "bytes": 1422,
+      "kind": "ADOPTION_STATE",
+      "path": "notes/maintenance/R4_2_CANONICAL_PACKAGE_WORKSPACE_CONTAMINATION_SCAR_20260903.md",
+      "sha256": "42f43f9c7d3d97690b2c70f84d20ef1e55200fe17531dd2f8be069a72e7a3bb6"
+    },
+    {
+      "bytes": 640,
+      "kind": "ADOPTION_STATE",
+      "path": "doctrine/rahl_r4_1/R4_1_SUPERSESSION_BY_R4_2_20260903.md",
+      "sha256": "43d5d8e06b4fe7808ba5a49962ce7bfb49f34ea6da3e30016daaf1e24a945e25"
+    },
+    {
+      "bytes": 3585,
+      "kind": "ADOPTION_STATE",
+      "path": "doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+      "sha256": "e74ff71124ae80acef384e9e34811157b79a506b24433c8d5a2f2258045aad80"
+    },
+    {
+      "bytes": 1742,
+      "kind": "ADOPTION_STATE",
+      "path": "state/doctrine_snapshot/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+      "sha256": "21bbedaa70c51689224af017204df2a376f5825ed7202a8e3cdafe9561e3c7fa"
+    },
+    {
+      "bytes": 741,
+      "kind": "ADOPTION_STATE",
+      "path": "state/doctrine_snapshot/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+      "sha256": "167602345b64ed118c5824211c382cfa8e88c966ff87aabba0d881d06b8f81d4"
+    },
+    {
+      "bytes": 2961,
+      "kind": "ADOPTION_STATE",
+      "path": "state/research_epistemic_shadow/ACTIVE_RESEARCH_EPISTEMIC_SHADOW.md",
+      "sha256": "7f91cfccf0bb5d5e20073545a7bb70b0bff6232e9430b1ccb0ef46d21d544e80"
+    },
+    {
+      "bytes": 9053,
+      "kind": "ADOPTION_STATE",
+      "path": "state/current/ACTIVE_CURRENT_STATE.json",
+      "sha256": "4667e1aaef7ccf9e57fbc3404d56b5748c108bf73bdf7150fa268fcad604729d"
+    },
+    {
+      "bytes": 70463,
+      "kind": "ADOPTION_STATE",
+      "path": "state/current.md",
+      "sha256": "71b03a514675fa2e81bc9a83a7efc4f30fc0d7841e59a15c3a1818a48cecce73"
+    },
+    {
+      "bytes": 70463,
+      "kind": "ADOPTION_STATE",
+      "path": "continuity/current.md",
+      "sha256": "71b03a514675fa2e81bc9a83a7efc4f30fc0d7841e59a15c3a1818a48cecce73"
+    },
+    {
+      "bytes": 4263,
+      "kind": "ADOPTION_STATE",
+      "path": "state/next_steps/ACTIVE_NEXT_STEPS.json",
+      "sha256": "0e603867d4dee65082d85584c16ad1d87f7e6f9eb382c7a94375d77d4bd03426"
+    },
+    {
+      "bytes": 38762,
+      "kind": "ADOPTION_STATE",
+      "path": "state/next_steps.md",
+      "sha256": "f4a1dc2e6749c99667fc488bbd010e6930c8e0df37f6306191c931b6da9fa990"
+    },
+    {
+      "bytes": 38762,
+      "kind": "ADOPTION_STATE",
+      "path": "continuity/next_steps.md",
+      "sha256": "f4a1dc2e6749c99667fc488bbd010e6930c8e0df37f6306191c931b6da9fa990"
+    },
+    {
+      "bytes": 13362,
+      "kind": "ADOPTION_STATE",
+      "path": "state/doctrine_snapshot/ACTIVE_DOCTRINE_SNAPSHOT.md",
+      "sha256": "3eecce1b59f1535234b5ab2529840fd47b060b62a33043156f1d581e57d860b5"
+    },
+    {
+      "bytes": 11262,
+      "kind": "ADOPTION_STATE",
+      "path": "state/doctrine_snapshot.md",
+      "sha256": "5dfdde873d4a7130ef9e65d297cea3dc07c1d4eafca567d5939f6887c5684a70"
+    },
+    {
+      "bytes": 31888,
+      "kind": "ADOPTION_STATE",
+      "path": "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md",
+      "sha256": "09966bba3d42b8d0eea683c7566da702e97291961a2b1448c3e8151f43dcbe0f"
+    },
+    {
+      "bytes": 59422,
+      "kind": "ADOPTION_STATE",
+      "path": "state/trace_matrix/ACTIVE_TRACE_MATRIX.md",
+      "sha256": "faede1fdea04bdaba0241b668e066c7532c49447c29393832969541698545449"
+    },
+    {
+      "bytes": 3112,
+      "kind": "ADOPTION_STATE",
+      "path": "state/live_shadow.md",
+      "sha256": "22207e60f64ca405d0d6b6ec7eaa5c082913a02b290b00fc18880da40929fc78"
+    },
+    {
+      "bytes": 3112,
+      "kind": "ADOPTION_STATE",
+      "path": "continuity/live_shadow.md",
+      "sha256": "22207e60f64ca405d0d6b6ec7eaa5c082913a02b290b00fc18880da40929fc78"
+    },
+    {
+      "bytes": 133089,
+      "kind": "ADOPTION_STATE",
+      "path": "state/design_thread_stream.md",
+      "sha256": "51e58f15f07465f9a89bc8bfa981d70c0614f778499f09515d326c30706ed20d"
+    },
+    {
+      "bytes": 133089,
+      "kind": "ADOPTION_STATE",
+      "path": "continuity/design_thread_stream.md",
+      "sha256": "51e58f15f07465f9a89bc8bfa981d70c0614f778499f09515d326c30706ed20d"
+    },
+    {
+      "bytes": 6032,
+      "kind": "ADOPTION_STATE",
+      "path": "state/NEW_THREAD_REHYDRATION_2026-09-03.json",
+      "sha256": "01c19968c6ca3759e710bcdc1a5d0ed4aeb32f3570cf08c9aee490e0101efb55"
+    },
+    {
+      "bytes": 6032,
+      "kind": "ADOPTION_STATE",
+      "path": "continuity/NEW_THREAD_REHYDRATION_2026-09-03.json",
+      "sha256": "01c19968c6ca3759e710bcdc1a5d0ed4aeb32f3570cf08c9aee490e0101efb55"
+    },
+    {
+      "bytes": 18133,
+      "kind": "ADOPTION_STATE",
+      "path": "state/NEW_THREAD_REHYDRATION_2026-09-03.md",
+      "sha256": "dacbe254bfccb5b06cc412c5416ef8f4a3a703f2f749a93b0348a97f69fbcb23"
+    },
+    {
+      "bytes": 18133,
+      "kind": "ADOPTION_STATE",
+      "path": "continuity/NEW_THREAD_REHYDRATION_2026-09-03.md",
+      "sha256": "dacbe254bfccb5b06cc412c5416ef8f4a3a703f2f749a93b0348a97f69fbcb23"
+    },
+    {
+      "bytes": 4380,
+      "kind": "ADOPTION_STATE",
+      "path": "reincarnation/READ_ME_FIRST.md",
+      "sha256": "5bd4f4bbfbd540e8db512b78fb857fb3869757d1e177eff943285bb3d771a947"
+    },
+    {
+      "bytes": 1938,
+      "kind": "ADOPTION_STATE",
+      "path": "reincarnation/NEXT_THREAD_BOOTSTRAP_PROMPT.md",
+      "sha256": "b41dff24438966aac4a82fa43af07860a659d30f5bb56d61fd3a9e9f516234b3"
+    },
+    {
+      "bytes": 3049,
+      "kind": "ADOPTION_STATE",
+      "path": "reincarnation/PROJECT_REINCARNATION_INDEX.md",
+      "sha256": "2b6f575aa2ab5ef6f9859ce9fcdd8b140a8dbbb40b318a97604200f3af0b1546"
+    },
+    {
+      "bytes": 7327,
+      "kind": "ADOPTION_STATE",
+      "path": "state/qualification/R4_2_PROJECT_LOCAL_ACQUISITION_PREBIND_20260903.json",
+      "sha256": "0cda6a444085688536fb8c700352378ba4e1c1fb0c2255b98e00cb81174bb351"
+    },
+    {
+      "bytes": 15853,
+      "kind": "ADOPTION_STATE",
+      "path": "state/qualification/R4_2_CONSEQUENCE_AUDIT_MATRIX_PRE_REPAIR_20260903.json",
+      "sha256": "6fba03c519a39765ce22e874a7d6fc8c7571a85758f0c60ffc571a92ca0b987a"
+    },
+    {
+      "bytes": 4518,
+      "kind": "ADOPTION_STATE",
+      "path": "state/qualification/R4_2_CONSEQUENCE_REPAIR_CANDIDATE_20260903.json",
+      "sha256": "76c0055d333cdab3734928cf1755eeb4aa642ec15f791f30eef43beb5c51bf54"
+    },
+    {
+      "bytes": 15276,
+      "kind": "ADOPTION_STATE",
+      "path": "state/qualification/R4_2_CFE_ADOPTION_PREPUBLICATION_20260903.json",
+      "sha256": "b73398848dd8e38e670584b0d162248f4ac4f97f47d8b9d5a24b3ee12e0c6607"
+    }
+  ],
+  "prepublication_lhrsg_receipt": {
+    "path": "state/qualification/R4_2_CFE_ADOPTION_PREPUBLICATION_20260903.json",
+    "sha256": "b73398848dd8e38e670584b0d162248f4ac4f97f47d8b9d5a24b3ee12e0c6607",
+    "status": "PASS_ALL_CHANGED_READABLE_ADOPTION_SURFACES"
+  },
+  "readable_materialization": {
+    "excluded_nested_archives": [
+      "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/ancestry/RAHL_ENGINEERING_CANONICAL_SOP_R4_0_2026-09-02.zip",
+      "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/ancestry/RAHL_ENGINEERING_CANONICAL_SOP_R4_1_2026-09-03.zip",
+      "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03/ancestry/RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29.zip"
+    ],
+    "package_files_total": 38,
+    "root": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03",
+    "selected_nonarchive_files": 35
+  },
+  "remote": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering.git",
+  "schema": "cfe.r4_2-commit-a-publication-allowlist.v1",
+  "science_change": "NONE",
+  "status": "FROZEN_PENDING_SELF_LHRSG_AND_GIT_PARENT_RECHECK",
+  "training_authorized": false,
+  "training_body_semantic_coverage": "0/1840"
+}

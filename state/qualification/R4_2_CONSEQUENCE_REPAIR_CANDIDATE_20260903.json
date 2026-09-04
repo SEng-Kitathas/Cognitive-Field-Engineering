@@ -1,0 +1,124 @@
+{
+  "as_of": "2026-09-03T23:35:16-04:00",
+  "kept_without_rewrite": [
+    "doctrine/rahl_r4_2/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+    "doctrine/rahl_r4_1/R4_1_SUPERSESSION_BY_R4_2_20260903.md",
+    "doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+    "state/doctrine_snapshot/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+    "state/doctrine_snapshot/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+    "state/research_epistemic_shadow/ACTIVE_RESEARCH_EPISTEMIC_SHADOW.md",
+    "reincarnation/NEXT_THREAD_BOOTSTRAP_PROMPT.md",
+    "reincarnation/PROJECT_REINCARNATION_INDEX.md"
+  ],
+  "lhrsg": "PENDING",
+  "pre_r4_2_verified_git_main": "6b2dc681ded9151451107b9ec7396099757765dd",
+  "repaired_paths": [
+    {
+      "bytes": 2720,
+      "path": "notes/maintenance/RAHL_ENGINEERING_SOP_R4_2_ADOPTION_20260903.md",
+      "sha256": "553be2fc48e4863313c2caa39a6f2b9183c53896433aad3e2c5bf907f4dd443d"
+    },
+    {
+      "bytes": 1422,
+      "path": "notes/maintenance/R4_2_CANONICAL_PACKAGE_WORKSPACE_CONTAMINATION_SCAR_20260903.md",
+      "sha256": "42f43f9c7d3d97690b2c70f84d20ef1e55200fe17531dd2f8be069a72e7a3bb6"
+    },
+    {
+      "bytes": 9053,
+      "path": "state/current/ACTIVE_CURRENT_STATE.json",
+      "sha256": "4667e1aaef7ccf9e57fbc3404d56b5748c108bf73bdf7150fa268fcad604729d"
+    },
+    {
+      "bytes": 70463,
+      "path": "state/current.md",
+      "sha256": "71b03a514675fa2e81bc9a83a7efc4f30fc0d7841e59a15c3a1818a48cecce73"
+    },
+    {
+      "bytes": 70463,
+      "path": "continuity/current.md",
+      "sha256": "71b03a514675fa2e81bc9a83a7efc4f30fc0d7841e59a15c3a1818a48cecce73"
+    },
+    {
+      "bytes": 4263,
+      "path": "state/next_steps/ACTIVE_NEXT_STEPS.json",
+      "sha256": "0e603867d4dee65082d85584c16ad1d87f7e6f9eb382c7a94375d77d4bd03426"
+    },
+    {
+      "bytes": 38762,
+      "path": "state/next_steps.md",
+      "sha256": "f4a1dc2e6749c99667fc488bbd010e6930c8e0df37f6306191c931b6da9fa990"
+    },
+    {
+      "bytes": 38762,
+      "path": "continuity/next_steps.md",
+      "sha256": "f4a1dc2e6749c99667fc488bbd010e6930c8e0df37f6306191c931b6da9fa990"
+    },
+    {
+      "bytes": 12855,
+      "path": "state/doctrine_snapshot/ACTIVE_DOCTRINE_SNAPSHOT.md",
+      "sha256": "b4ce29f2376a79321e7f1a2ab830b260f2cca903fd126a5a5b935ac297ad4a38"
+    },
+    {
+      "bytes": 11262,
+      "path": "state/doctrine_snapshot.md",
+      "sha256": "5dfdde873d4a7130ef9e65d297cea3dc07c1d4eafca567d5939f6887c5684a70"
+    },
+    {
+      "bytes": 31557,
+      "path": "state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md",
+      "sha256": "c710a49003530a121905c171675665ffdedfd85103f412313e859a37a60c296b"
+    },
+    {
+      "bytes": 59093,
+      "path": "state/trace_matrix/ACTIVE_TRACE_MATRIX.md",
+      "sha256": "b6e81b305589189a9c383b0d3bc97d1cb866d54a0c414d558132795859439756"
+    },
+    {
+      "bytes": 3112,
+      "path": "state/live_shadow.md",
+      "sha256": "22207e60f64ca405d0d6b6ec7eaa5c082913a02b290b00fc18880da40929fc78"
+    },
+    {
+      "bytes": 3112,
+      "path": "continuity/live_shadow.md",
+      "sha256": "22207e60f64ca405d0d6b6ec7eaa5c082913a02b290b00fc18880da40929fc78"
+    },
+    {
+      "bytes": 133089,
+      "path": "state/design_thread_stream.md",
+      "sha256": "51e58f15f07465f9a89bc8bfa981d70c0614f778499f09515d326c30706ed20d"
+    },
+    {
+      "bytes": 133089,
+      "path": "continuity/design_thread_stream.md",
+      "sha256": "51e58f15f07465f9a89bc8bfa981d70c0614f778499f09515d326c30706ed20d"
+    },
+    {
+      "bytes": 6032,
+      "path": "state/NEW_THREAD_REHYDRATION_2026-09-03.json",
+      "sha256": "01c19968c6ca3759e710bcdc1a5d0ed4aeb32f3570cf08c9aee490e0101efb55"
+    },
+    {
+      "bytes": 6032,
+      "path": "continuity/NEW_THREAD_REHYDRATION_2026-09-03.json",
+      "sha256": "01c19968c6ca3759e710bcdc1a5d0ed4aeb32f3570cf08c9aee490e0101efb55"
+    },
+    {
+      "bytes": 18132,
+      "path": "state/NEW_THREAD_REHYDRATION_2026-09-03.md",
+      "sha256": "65095acacae4dc1c6ca467193d5ce5f4afb680233c45ee8899dcbe890e9b230e"
+    },
+    {
+      "bytes": 18132,
+      "path": "continuity/NEW_THREAD_REHYDRATION_2026-09-03.md",
+      "sha256": "65095acacae4dc1c6ca467193d5ce5f4afb680233c45ee8899dcbe890e9b230e"
+    },
+    {
+      "bytes": 4380,
+      "path": "reincarnation/READ_ME_FIRST.md",
+      "sha256": "99754cf0760bc8f968fcdc8405b2044394e7735b5f4de6219ba9e32a3282a436"
+    }
+  ],
+  "schema": "cfe.r4_2-consequence-repair.v1",
+  "status": "REPAIRED_CANDIDATE__FINAL_BYTE_LHRSG_PENDING"
+}

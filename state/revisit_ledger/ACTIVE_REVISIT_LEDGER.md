@@ -1,6 +1,8 @@
 # CFE ACTIVE REVISIT LEDGER
 
-As of: 2026-08-31 12:45 Eastern Daylight Time
+As of: 2026-09-03T23:40:51-04:00
+
+> **Authority rule:** This is an append-only/cumulative revisit ledger. Older rows remain evidence/lineage and may describe states that were current when recorded. Later explicit dispositions supersede earlier conflicting status. Use `state/current/ACTIVE_CURRENT_STATE.json` plus `state/live_shadow.md` for bounded current operational truth.
 
 | Priority | Seam | Status | Decider |
 |---|---|---|---|
@@ -161,3 +163,6 @@ As of: 2026-08-31 12:45 Eastern Daylight Time
 | 2026-09-03 | Historical Block-A prerequisite-order signal under repaired measurement | Old ruler is defective, but intervention history may still contain causal signal | Fresh preregistered paired replication under prospectively frozen LHRSG-passed ruler | First finish training-body gate; optionally post-outcome V2R7 archaeology; then fresh paired replication | P1 science | **OPEN / OLD CLAIM DEMOTED** | Do not restore full-AE phenotype claim from historical saved adapters alone |
 
 | 2026-09-03 | GitHub thread-reincarnation publication | close continuity-risk seam after saturated thread | remote/content mismatch or omitted restart-critical surface | verified commit `0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed`, explicit allowlist, post-push object readback PASS | P0 continuity | **CLOSED / MAIN CONTENT PUBLISHED AND VERIFIED** | fresh thread verifies current HEAD, then resumes training-body LHRSG |
+
+| 2026-09-03 | R4.2 adoption / publication closure | Local package/binding exists but final-byte LHRSG + remote Commit A/B closure still required | semantic-gate failure, allowlist leakage, Git-object mismatch, remote divergence | full changed-artifact LHRSG + explicit allowlist + independent A/B readback | P0 process | **repair complete / LHRSG pending** | freeze bytes, gate, publish A, verify, receipt B, verify |
+| 2026-09-03 | Canonical package root receiver contamination scar | Receiver logs contaminated exact materialization when canonical root was used as workspace | proof that execution is non-mutating or isolation is unnecessary in a specific environment | preserve exact-package verification and use external receiver workspace by default | P1 engineering | active scar | avoid recurrence; do not universalize into absolute ban |

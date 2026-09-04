@@ -70,3 +70,12 @@
 - Thread-exit doctrine requires a fresh rehydration packet because the existing public 2026-09-02 ingress is stale and still points at R3.1 / obsolete Standard-Uplift work.
 - Current scientific posture at handoff: DD1R1 remains separately earned fixed-regime evidence; old Block-A frozen eval is defective/historical; historical intervention trajectories remain information; V2R7 is current repaired 96/96 LHRSG-passed eval candidate; 1,840-row canonical training body is structurally audited but semantically unauthorized until 1,840/1,840 LHRSG completes.
 - `THREAD CAPACITY PRESSURE != PERMISSION TO COMPRESS AWAY UNRESOLVED STATE`.
+
+## R4.2 ACTIVE PROCESS AUTHORITY — 2026-09-03T23:35:16-04:00
+- R4.2 SHA `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a` is current project-agnostic process/cold-start authority.
+- R4.1 is `SUPERSEDED_PROCESS_ANCESTRY`; R4.0/R3.1 remain older lineage where conflicting.
+- CFE LHRSG remains active project-local embodiment; R4.2 independently requires linear semantic admission.
+- Continuity triad: Live Shadow = current operational truth; Design Thread Stream = chronology; RES = interpreted research frontier. RES is not doctrine.
+- Canonical package workspace contamination scar is active as a non-universal execution default.
+- No scientific promotion: DD1R1 narrow fixed-regime; DD2 unresolved; old Block-A ruler/full-AE claim demoted; V2R7 repaired/96-of-96; learner body 0/1840 and not training-authorized.
+- R4.2 adoption publication remains pending final-byte LHRSG + Commit A/B remote verification.

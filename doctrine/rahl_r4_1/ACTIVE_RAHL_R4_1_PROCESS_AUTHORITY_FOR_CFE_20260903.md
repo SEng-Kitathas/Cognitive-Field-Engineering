@@ -1,5 +1,8 @@
 # Active Rahl Engineering SOP R4.1 Process Authority for CFE
 
+## R4.2 SUPERSESSION NOTICE — 2026-09-03
+**CURRENT STATUS: SUPERSEDED_PROCESS_ANCESTRY.** R4.2 SHA `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a` is now the active CFE process/cold-start authority. This R4.1 surface is preserved for ancestry and historical adoption lineage; any older `ACTIVE` wording below is historical to the pre-R4.2 state.
+
 Date: 2026-09-03
 Status: ACTIVE PROJECT-AGNOSTIC ENGINEERING-PROCESS AUTHORITY
 

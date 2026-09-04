@@ -1,15 +1,9 @@
 {
-  "as_of": "2026-09-03T19:57:20-04:00",
+  "as_of": "2026-09-03T23:35:16-04:00",
   "continuity_gate": {
-    "defects_found_and_repaired": [
-      "stale old-ruler load-bearing language in doctrine/trace/revisit surfaces",
-      "stale SPACED-as-next priority",
-      "chronological current/next authority ambiguity",
-      "Design Thread Stream stale Last Updated header"
-    ],
-    "next": "seal/register continuity checkpoint; no semantic project work blocked on that transport step",
-    "scope": "active current/next, top-level current/next, doctrine snapshots, revisit ledger, trace matrix, Live Shadow, Design Thread Stream",
-    "status": "PASS_POST_MUTATION_READ_COMPLETE"
+    "next": "freeze exact bytes; complete full final-byte semantic admission; then Commit A",
+    "scope": "all newly authored/semantically mutated R4.2 adoption/state/continuity/reincarnation artifacts",
+    "status": "R4_2_ADOPTION_FINAL_BYTE_LHRSG_PENDING"
   },
   "evaluation": {
     "current_repaired_candidate": {
@@ -37,15 +31,26 @@
     }
   },
   "execution": {
-    "active_eval_job": null,
-    "active_reviewer_job": null,
-    "active_training_job": null,
-    "last_reviewer_benchmark_job": "job-1f83395d2146",
-    "last_reviewer_benchmark_status": "FAILED_RC1__NO_SCIENCE",
-    "machine_process_readback": "NO_MATCHING_CFE_TRAINING_EVAL_RESCORE_OR_REVIEWER_PROCESS"
+    "active_eval": null,
+    "active_rescore": null,
+    "active_reviewer": null,
+    "active_training": null,
+    "os_process_readback": "NO_MATCHING_MAGNUM_TRAIN_EVAL_RESCORE_REVIEWER_PROCESS",
+    "other_live_project_jobs": [
+      {
+        "job_id": "job-1e185f8ec6be",
+        "kind": "UNRELATED_DRIVE_FILENAME_SCAN",
+        "publication_excluded": true
+      },
+      {
+        "job_id": "job-30e8d8dd8820",
+        "kind": "UNRELATED_DRIVE_CONTENT_SCAN",
+        "publication_excluded": true
+      }
+    ]
   },
   "frontier": "TRAINING_BODY_LHRSG__NO_NEW_TRAINING",
-  "mode": "CHECKPOINT__THREAD_REINCARNATION_PUBLISHED",
+  "mode": "BUILD_COMMIT__R4_2_ADOPTION_CANDIDATE_REPAIRED__LHRSG_PENDING",
   "open_seams": [
     "Complete 1840/1840 LHRSG on exact canonical learner-visible training bytes before any new training authorization.",
     "Optionally rescore saved historical adapters on exact V2R7 using permutation-neutral semantic scoring; post-outcome only.",
@@ -54,11 +59,14 @@
     "DD2 Structured Revisit remains separately unresolved."
   ],
   "process_authority": {
-    "base_tier": "PDVER + hostile engineering + Semantic Helix + Attention Reservoir + Loop+ + OARR + CSC + additive AI co-processor strengths; proportional/non-ritual",
-    "name": "Rahl Engineering Canonical SOP R4.1",
-    "package": "RAHL_ENGINEERING_CANONICAL_SOP_R4_1_2026-09-03.zip",
-    "sha256": "af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2",
-    "status": "ACTIVE_PROJECT_AGNOSTIC_ENGINEERING_PROCESS_AUTHORITY"
+    "adoption_receipt": "notes/maintenance/RAHL_ENGINEERING_SOP_R4_2_ADOPTION_20260903.md",
+    "binding": "doctrine/rahl_r4_2/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+    "bytes": 625556,
+    "name": "Rahl Engineering Canonical SOP R4.2",
+    "package": "RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03.zip",
+    "r4_1_status": "SUPERSEDED_PROCESS_ANCESTRY",
+    "sha256": "eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a",
+    "status": "ACTIVE_PROCESS_AND_COLD_START_AUTHORITY"
   },
   "project_laws": {
     "linear_human_read_semantic_gate": {
@@ -75,21 +83,39 @@
     "blob_mismatches": 0,
     "checkout": "publication/github/Cognitive-Field-Engineering",
     "content_commit": "0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed",
+    "content_commit_role": "PREDECESSOR_RESTART_CONTENT_COMMIT",
     "extra_changed_paths": 0,
-    "local_main_sha": "0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed",
+    "local_main_sha": "6b2dc681ded9151451107b9ec7396099757765dd",
     "local_remote_match": true,
     "policy": "PUBLIC_SAFE_GIT_ONLY__PROTECTED_PRIVATE_HEAVY_PAYLOADS_EXCLUDED",
     "post_push_object_verification": "PASS",
     "post_push_object_verification_path": "state/publication/CFE_GITHUB_REINCARNATION_20260903/POST_PUSH_OBJECT_VERIFICATION_MAIN_V2.json",
+    "pre_r4_2_verified_main": "6b2dc681ded9151451107b9ec7396099757765dd",
     "pre_update_head": "3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3",
     "promoted_allowlist_paths": 43,
+    "r4_2_adoption_publication": "PENDING",
     "remote": "https://github.com/SEng-Kitathas/Cognitive-Field-Engineering.git",
+    "remote_main_sha": "6b2dc681ded9151451107b9ec7396099757765dd",
     "remote_main_sha_at_content_readback": "0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed",
     "request": "FULL_GITHUB_PROJECT_UPDATE_WITH_R4_1_CONTINUITY_AND_REINCARNATION_HANDOFF",
-    "status": "MAIN_RESTART_CONTENT_PUBLISHED_AND_VERIFIED__THIS_STATE_IS_FINALIZATION_CONTINUITY"
+    "status": "PRE_R4_2_MAIN_REMOTE_VERIFIED__R4_2_ADOPTION_PUBLICATION_PENDING"
   },
-  "resume_point": "Fresh thread: rehydrate from the 2026-09-03 checkpoint under RECOVERY/AUDIT. Verify current remote HEAD, then resume exact 1,840/1,840 learner-visible Magnum LHRSG. No new training. V2R7 remains the byte-exact 96/96 LHRSG-passed repaired eval.",
-  "role": "R1 Conservative Auditor + R5 Reality Pressure Engine",
+  "r4_2_adoption": {
+    "bytes": 625556,
+    "github_publication": "PENDING",
+    "hostile_suite": "PASS_26_OF_26_REJECTED",
+    "lhrsg_status": "PENDING_FINAL_BYTE_REVIEW",
+    "materialized_root": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03",
+    "package_verifier": "PASS",
+    "project_local_zip": "doctrine/rahl_r4_2/RAHL_ENGINEERING_CANONICAL_SOP_R4_2_2026-09-03.zip",
+    "science_change": "NONE",
+    "sha256": "eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a"
+  },
+  "resume_point": "Complete R4.2 adoption publication and remote readback; then resume exact 1840/1840 learner-visible training-body LHRSG. No new training.",
+  "role": {
+    "primary": "R1 Conservative Auditor",
+    "secondary": "R5 Reality Pressure Engine"
+  },
   "schema": "cfe.active-current-state.v10",
   "science": {
     "dd1r1": {
@@ -109,12 +135,14 @@
     }
   },
   "thread_exit": {
+    "historical_pre_r4_2_checkpoint": true,
     "human_rehydration": "state/NEW_THREAD_REHYDRATION_2026-09-03.md",
     "human_rehydration_sha256": "95034721cc3502d7ac2df8dca751b25e4f755f62dc0956dd732b548a6eace2c4",
     "machine_rehydration": "state/NEW_THREAD_REHYDRATION_2026-09-03.json",
     "machine_rehydration_sha256": "2563896a0be4b6dca0a7a3c9f2bfc7b272ae6f207899f4aaac3ee20d141d613a",
     "operator_request": "Full GitHub project update with all continuity and current R4.1-required state preserved before leaving a context-saturated thread.",
-    "publication_status": "MAIN_RESTART_CONTENT_PUBLISHED_AND_VERIFIED"
+    "publication_status": "MAIN_RESTART_CONTENT_PUBLISHED_AND_VERIFIED",
+    "stored_rehydration_hashes_are_pre_r4_2_checkpoint": true
   },
   "training_body": {
     "guard": "STRUCTURAL/PURITY PASS != LHRSG PASS != TRAINING AUTHORIZATION",

@@ -1496,3 +1496,14 @@ A first raw-byte Git blob verifier falsely reported mismatches because Git clean
 Local branch state was subsequently observed already advanced to `0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed` (publisher continued beyond client disconnect); normal index was aligned with `read-tree`, and local/remote equality was verified.
 
 State change: GitHub main restart content is now PUBLISHED / VERIFIED. Science did not change. Fresh-thread P0 becomes exact 1,840/1,840 learner-visible training-body LHRSG; no new training is authorized.
+
+## R4.2 consequence recovery / adoption candidate repair — 2026-09-03T23:35:16-04:00
+Tags: BUILD-COMMIT, CONSEQUENCE-RECOVERY, R4.2, LHRSG-PENDING
+
+- Operator froze new mutation and required exact consequence reconstruction after the timed multi-surface adoption call.
+- Readback established exact boundary: transaction wrote through `state/current.md` and did not reach `continuity/current.md` or later intended targets.
+- Coherent R4.2 binding, R4.1 supersession notices, R4.2 state binding, RES, machine Current/Next, rehydration pairs, reincarnation surfaces, and `state/current.md` were preserved rather than replayed.
+- Stale defects found: adoption receipt overclaimed continuity completion; machine continuity retained stale `0142e6b...` current-Git semantics; rehydration/readme contained pre-R4.2 'R4.1 active' text; Live/Doctrine/Revisit/Trace/DTS/human Next and mirrors were stale or missing.
+- Verified pre-R4.2 publication parent remains `6b2dc681ded9151451107b9ec7396099757765dd` local=remote. Two unrelated drive scans remain RUNNING; no Magnum scientific execution active.
+- Repaired only stale/missing tail. Added explicit canonical-package-root receiver-contamination scar. RES remained byte-unchanged.
+- Candidate now awaits exact final-byte LHRSG before any Git publication.

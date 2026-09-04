@@ -268,3 +268,10 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 3. If any row fails, preserve historical bytes and build an append-only corrected successor; restart complete LHRSG on the successor.
 4. No new training until the training-body gate closes and the next experiment/eval/scorer/seeds/base/schedule/optimizer/stopping rule are prospectively frozen.
 5. Historical V2R7 rescoring is optional post-outcome archaeology only; do not restore the old full-AE phenotype claim.
+
+## R4.2 adoption finalization gate — 2026-09-03T23:35:16-04:00
+1. Freeze repaired adoption candidate and complete final-byte LHRSG on all new/semantically mutated readable load-bearing artifacts.
+2. Freeze explicit public allowlist; exclude private/heavy/scanner/receiver-log/nested-ancestry-archive payloads.
+3. Build/push/independently verify Commit A from verified parent `6b2dc681ded9151451107b9ec7396099757765dd`.
+4. Create/gate/publish Commit B post-publication receipt + only continuity surfaces requiring the completed-publication fact; verify B parent=A and local==remote.
+5. Only after `R4.2_ADOPTION_COMPLETE__REMOTE_VERIFIED` resume the 1,840/1,840 training-body LHRSG frontier. No new training.

@@ -10,9 +10,11 @@
 - `../state/next_steps/ACTIVE_NEXT_STEPS.json`
 
 ## Active process / project law
-- `../doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md`
-- `../notes/maintenance/RAHL_ENGINEERING_SOP_R4_1_ADOPTION_20260903.md`
-- `../state/doctrine_snapshot/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md`
+- `../doctrine/rahl_r4_2/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md`
+- `../notes/maintenance/RAHL_ENGINEERING_SOP_R4_2_ADOPTION_20260903.md`
+- `../state/doctrine_snapshot/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md`
+- `../doctrine/rahl_r4_1/R4_1_SUPERSESSION_BY_R4_2_20260903.md`
+- `../doctrine/rahl_r4_1/ACTIVE_RAHL_R4_1_PROCESS_AUTHORITY_FOR_CFE_20260903.md` (ancestry)
 - `../state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md`
 - `../state/qualification/LHRSG_CFE_PROJECT_LAW_SELF_GATE_20260903.json`
 
@@ -23,6 +25,8 @@
 - `../state/revisit_ledger/ACTIVE_REVISIT_LEDGER.md`
 - `../state/trace_matrix/ACTIVE_TRACE_MATRIX.md`
 - `../continuity/design_thread_stream.md`
+
+- `../state/research_epistemic_shadow/ACTIVE_RESEARCH_EPISTEMIC_SHADOW.md`
 
 ## Commander’s Intent
 - `../state/doctrine_snapshot/ACTIVE_CFE_COMMANDERS_INTENT_2026-09-01T0027-04-00.md`

@@ -1,3 +1,6 @@
+# CFE ACTIVE DOCTRINE SNAPSHOT
+
+> **Authority rule:** This file preserves cumulative doctrine sections for lineage. Later explicit sections supersede earlier conflicting process-status language. Current process/cold-start authority is R4.2; R4.1 is preserved as superseded ancestry. Historical scientific interpretations remain historical where explicitly demoted.
 
 ## Thread reincarnation preservation delta — 2026-09-02 20:01 EDT
 - No Commander’s Intent reversal. Active intent remains topology-of-constraints reconstruction plus hostile coordinate-system engineering: `ENGINEER THE TERRAIN, NOT THE ANIMAL`; `SHAPE THE FIELD != PRESCRIBE THE ORGANISM`.
@@ -58,7 +61,7 @@
 - ACTIVE PROJECT LAW: every readable artifact entering active CFE semantic use must receive complete deterministic linear semantic review before semantic reliance, admission, execution authority, promotion, sealing, publication, or load-bearing use.
 - Authority: `state/doctrine_snapshot/CFE_PROJECT_LAW_LINEAR_HUMAN_READ_SEMANTIC_GATE_2026-09-03.md` SHA `cde0ef9aa141bac519f63bec2ca91c5f80f6a09a5267d02b29eee1387d64d1d2`; final-law self-gate PASS receipt SHA `5c2b65d947f9e07bd28b16a2dafb1c105e7aac2bbecb6bbb828be5980739b55e`.
 - Hard laws: `AUTOMATED PASS != SEMANTIC PASS`; `SAMPLING != LINEAR READ`; `ANY POST-GATE SEMANTIC MUTATION -> FULL LHRSG REPLAY BEFORE SEMANTIC AUTHORITY`; `FULL READ != FULL CHAT DUMP`.
-- This is CFE-local project law layered under Rahl Engineering R4.1 process authority; it does not self-promote into universal CFE scientific law.
+- At the time this project law was adopted it was layered under Rahl Engineering R4.1 process authority; current process/cold-start authority is R4.2. The CFE-local law remains active and does not self-promote into universal CFE scientific law.
 
 ## Current Magnum evidence posture after measurement audit
 - Old frozen ISD eval is DEFECTIVE/HISTORICAL; 96 rows collapsed to 46 unique prompts, five families duplicated one pair six times, and response-letter calibration confounded key Adaptive-Effort flips.
@@ -68,7 +71,7 @@
 - Do not use V2R4 post-outcome rescore as current measurement; V2R7 superseded its semantic bytes and has not yet been used for a saved-adapter rescore.
 
 
-## 2026-09-03 17:14 ET — Publication / reincarnation binding
+## [HISTORICAL PRE-R4.2] 2026-09-03 17:14 ET — Publication / reincarnation binding
 - Active process authority remains Rahl Engineering Canonical SOP R4.1, package identity SHA `af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2`.
 - Active CFE project law remains Linear Human Read / Semantic Gate: `READABLE -> LINEAR READ -> SEMANTIC GATE -> ONLY THEN SEMANTIC USE / LOAD-BEARING`.
 - The current GitHub update is a governed reincarnation build, not a generic file sync. Public-safe continuity/research/code/doctrine SHALL be promoted; protected/private/heavy learner/eval/model payloads SHALL remain local or on their designated release surface.
@@ -77,7 +80,7 @@
 - No current scientific claim changes in this publication pass.
 
 
-## Thread-exit publication / reincarnation checkpoint — 2026-09-03 17:08 ET
+## [HISTORICAL PRE-R4.2] Thread-exit publication / reincarnation checkpoint — 2026-09-03 17:08 ET
 - Active process authority: **Rahl Engineering Canonical SOP R4.1**, package SHA `af4364fbcf8e5d33aa2ad06e4da9c4669d4be2ffcbc332e416742bec1543f4d2`.
 - Active CFE project law: **Linear Human Read / Semantic Gate**, law SHA `cde0ef9aa141bac519f63bec2ca91c5f80f6a09a5267d02b29eee1387d64d1d2`.
 - This GitHub update is itself subject to LHRSG: exact readable final publication bytes must be read end-to-end before promotion; `AUTOMATED PASS != SEMANTIC PASS`.
@@ -91,3 +94,12 @@
 - No active training/eval/reviewer jobs exist at this checkpoint.
 - Fresh-thread first causal obligation is **not another schedule run**. It is closure of the exact 1,840/1,840 learner-visible semantic gate, followed by prospective experiment/eval/scorer freeze.
 - Publication boundary remains thin clone/public-safe. `FULL PROJECT UPDATE != PUBLICATION OF PRIVATE TRAINING/EVAL CONTENT`.
+
+## R4.2 ACTIVE PROCESS AUTHORITY — 2026-09-03T23:35:16-04:00
+- R4.2 SHA `eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a` is current project-agnostic process/cold-start authority.
+- R4.1 is `SUPERSEDED_PROCESS_ANCESTRY`; R4.0/R3.1 remain older lineage where conflicting.
+- CFE LHRSG remains active project-local embodiment; R4.2 independently requires linear semantic admission.
+- Continuity triad: Live Shadow = current operational truth; Design Thread Stream = chronology; RES = interpreted research frontier. RES is not doctrine.
+- Canonical package workspace contamination scar is active as a non-universal execution default.
+- No scientific promotion: DD1R1 narrow fixed-regime; DD2 unresolved; old Block-A ruler/full-AE claim demoted; V2R7 repaired/96-of-96; learner body 0/1840 and not training-authorized.
+- R4.2 adoption publication remains pending final-byte LHRSG + Commit A/B remote verification.

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-03T19:57:20-04:00",
+  "as_of": "2026-09-03T23:35:16-04:00",
   "blocked": [
     "NEW TRAINING remains blocked on exact 1,840-row learner-visible training-body LHRSG plus prospective experiment/eval/scorer freeze.",
     "Full-body LHRSG reviewer method remains unresolved; prior fast reviewer protocols failed semantic qualification and qualified Capybara review was too slow."
@@ -16,10 +16,25 @@
     "Do not restart training during the reincarnation handoff.",
     "Do not treat the successful GitHub reincarnation publication as scientific promotion; the next scientific blocker remains full training-body LHRSG."
   ],
+  "other_live_project_jobs": [
+    {
+      "job_id": "job-1e185f8ec6be",
+      "kind": "UNRELATED_DRIVE_FILENAME_SCAN",
+      "publication_excluded": true,
+      "status": "RUNNING"
+    },
+    {
+      "job_id": "job-30e8d8dd8820",
+      "kind": "UNRELATED_DRIVE_CONTENT_SCAN",
+      "publication_excluded": true,
+      "status": "RUNNING"
+    }
+  ],
   "p0": [
-    "Fresh thread rehydrates under RECOVERY/AUDIT from the published 2026-09-03 continuity surfaces and verifies local/remote Git head before mutation.",
-    "Complete exact 1,840/1,840 learner-visible training-body LHRSG in deterministic record order. If any row fails, preserve the historical body and build an append-only corrected successor, then restart the full gate.",
-    "Do not authorize new training until training-body LHRSG passes and the next experiment/eval/scorer/seeds/base/schedule/optimizer/stopping rule are prospectively frozen."
+    "Freeze exact repaired R4.2 adoption candidate bytes and complete final-byte LHRSG on every new/semantically mutated readable load-bearing artifact.",
+    "Publish explicit-allowlist Commit A containing R4.2 adoption/content; independently verify remote main, parent, changed-path subset, Git-object identities, and exact committed outer ZIP SHA-256.",
+    "After Commit A verification, create/gate/publish Commit B containing the post-publication receipt and only continuity surfaces that materially require the verified publication fact; verify B parent=A and local HEAD==remote main.",
+    "Only after A+B close as R4.2_ADOPTION_COMPLETE__REMOTE_VERIFIED may work resume on exact 1,840/1,840 learner-visible training-body LHRSG. No new training."
   ],
   "p1": [
     "Fresh confirmatory prerequisite-first vs phase-scramble replication is required before restoring a developmental-order Adaptive-Effort scientific claim.",
@@ -32,6 +47,12 @@
     "DD1R1 remains separately earned fixed-regime evidence.",
     "No CFE training/eval/rescore/reviewer process is active at publication start."
   ],
+  "r4_2_adoption": {
+    "binding": "doctrine/rahl_r4_2/ACTIVE_RAHL_R4_2_PROCESS_AUTHORITY_FOR_CFE_20260903.md",
+    "pre_adoption_verified_main": "6b2dc681ded9151451107b9ec7396099757765dd",
+    "sha256": "eb167543e9ceb2ae01449f421d2916e61b7dd924270ea2e83e3364c9d808ce9a",
+    "status": "CANDIDATE_REPAIRED__FINAL_BYTE_LHRSG_PENDING"
+  },
   "schema": "cfe.active-next-steps.v10",
   "thread_exit_publication": {
     "content_commit": "0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed",
