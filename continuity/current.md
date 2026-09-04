@@ -400,3 +400,13 @@ Launch DD2R3 as the sole CFE model-heavy campaign while Microseed retains owners
 - Publication boundary remains thin-clone/public-safe: continuity, doctrine/process bindings, public-safe scientific summaries/hashes/receipts, source/tooling, and decision history may publish; private training/eval text, model weights, checkpoints/adapters, protected/gated benchmark text, credentials, and transient execution logs remain local/non-Git.
 - Current publication checkout was verified clean at `main == origin/main == 3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3` before this update. This paragraph SHALL NOT be read as proof the new checkpoint is already published; push/remote-head readback is a separate required step.
 - Resume point after thread transition: **RECOVERY/AUDIT from the 2026-09-03 rehydration packet; complete 1,840/1,840 training-body LHRSG before any new training.**
+
+
+## 2026-09-03 19:57 ET — GitHub reincarnation main content published and verified
+- OAuth/global Git author identity restored at the Windows-user level; GitHub access verified non-mutating before publication.
+- Public-safe reincarnation content commit: `0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed`; parent `3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3`.
+- Remote `main` and local `main` were read back equal at `0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed` after recovery from a client disconnect.
+- Post-push Git-object verification PASS: 43 explicit allowlist paths bound, 39 paths changed relative to parent, zero extra changed paths, zero publisher-expected blob mismatches. Verification artifact: `state/publication/CFE_GITHUB_REINCARNATION_20260903/POST_PUSH_OBJECT_VERIFICATION_MAIN_V2.json`.
+- Normal Git excluded private learner/eval/result JSONL, protected/gated benchmark text, credentials, model weights/adapters, and heavy runtime material.
+- Git plumbing scar: normal `git status`/`git add` were pathologically slow on this checkout; publication used an LHRSG-reviewed temporary-index plumbing publisher (`hash-object -> update-index -> write-tree -> commit-tree -> exact push -> remote readback`) with explicit allowlist and fail-closed remote equality.
+- Scientific state did not change. The next P0 science/engineering blocker is exact 1,840/1,840 learner-visible training-body LHRSG; no new training is authorized.

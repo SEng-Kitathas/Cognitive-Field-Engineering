@@ -260,3 +260,11 @@ As of: 2026-09-02 01:05 Eastern Daylight Time
 8. Preserve V2R7 exact eval bytes SHA `cf2568d771bc2d2484bd1f300308572cee8c4beefc53dea2cf10021c7324e2d8` and 96/96 LHRSG receipt. Any mutation invalidates that gate.
 9. Only after training-body closure: optional historical V2R7 permutation-neutral rescore as POST_OUTCOME archaeology, then fresh preregistered paired prerequisite-first vs phase-scramble confirmation.
 10. Do not reopen SPACED/LATE/FRONTLOAD schedule geometry until broad order effects survive a prospectively frozen repaired measurement regime.
+
+
+## 2026-09-03 19:57 ET — Post-publication resume queue
+1. Fresh thread: rehydrate from published 2026-09-03 continuity under RECOVERY/AUDIT and verify current remote/local Git head.
+2. Resume the full learner-visible Magnum LHRSG: 1,840/1,840 records, deterministic order, no sampling.
+3. If any row fails, preserve historical bytes and build an append-only corrected successor; restart complete LHRSG on the successor.
+4. No new training until the training-body gate closes and the next experiment/eval/scorer/seeds/base/schedule/optimizer/stopping rule are prospectively frozen.
+5. Historical V2R7 rescoring is optional post-outcome archaeology only; do not restore the old full-AE phenotype claim.

@@ -1467,3 +1467,32 @@ Persisted reviewer-method status at `state/analysis/ISD_MAGNUM_LHRSG_REVIEWER_ME
 Assistant updated active current/next, chronological current/next, doctrine snapshots, revisit ledger, trace matrix, and rebuilt bounded Live Shadow for thread-reincarnation publication. Publication boundary locked: public-safe restart-critical files only; do not stage full private training/eval/result payloads, protected/gated benchmark text, credentials, model weights/adapters, or heavy runtime artifacts.
 
 Next exact sequence: build new-thread handoff + publication manifest/entry surfaces -> LHRSG every new/mutated readable promoted artifact or reuse unchanged exact-hash receipts -> copy to publication checkout -> commit/push -> remote readback -> publication receipt + final continuity push.
+
+
+## 2026-09-03 — USER
+Tags: GLOBAL GIT SETUP, CREDENTIALS, OPERATOR ACTION
+
+User requested that the assistant perform the Git setup directly and open a local PowerShell window for credential entry, with configuration global to all projects.
+
+---
+
+## 2026-09-03 — ASSISTANT
+Tags: BUILD-COMMIT, GLOBAL GIT, SECURE LOCAL INPUT
+
+Assistant launched a visible PowerShell window titled `Global Git + GitHub Setup`. The window prompts locally for Git author name/email, writes them with `git config --global`, sets `credential.helper=manager`, and starts `git credential-manager github login`. Sensitive authentication material is not captured into chat, project files, or tool output. State: popup launched successfully; awaiting operator completion before verification and resuming the GitHub publication.
+
+
+## 2026-09-03 19:34–19:57 ET — USER / ASSISTANT
+Tags: GLOBAL GIT, OAUTH, PUBLICATION RECOVERY, R4.1, LHRSG, REMOTE READBACK
+
+User completed global Git author setup and requested OAuth-only rerun; GitHub device OAuth connected successfully. Assistant verified global user.name/user.email presence, `credential.helper=manager`, and non-mutating `ls-remote` access.
+
+The LHRSG-reviewed temporary-index publisher was resumed. Local filesystem Git plumbing showed variable high latency; v3 widened only bounded local-plumbing timeouts. The exact v3 source received a complete 378-line post-mutation LHRSG before execution.
+
+Publisher v3 created and pushed content commit `0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed` from parent `3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3`. The chat/control client disconnected after the remote mutation and before normal local alignment/result receipt. Durable step logs showed `commit-tree`, `push`, and `remote_after` all RC0. Direct remote readback showed remote `main` at `0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed`.
+
+A first raw-byte Git blob verifier falsely reported mismatches because Git clean/text normalization changes blob identity on this Windows checkout. That coordinate was rejected. Corrected verification used the publisher's exact pre-commit `git hash-object` outputs, then compared those against the committed tree. Result: PASS; 43 promoted allowlist paths, 39 actual changed paths, zero extra changed paths, zero blob mismatches, parent exactly `3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3`, remote exactly `0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed`.
+
+Local branch state was subsequently observed already advanced to `0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed` (publisher continued beyond client disconnect); normal index was aligned with `read-tree`, and local/remote equality was verified.
+
+State change: GitHub main restart content is now PUBLISHED / VERIFIED. Science did not change. Fresh-thread P0 becomes exact 1,840/1,840 learner-visible training-body LHRSG; no new training is authorized.

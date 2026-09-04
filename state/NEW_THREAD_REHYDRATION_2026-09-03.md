@@ -331,3 +331,10 @@ Heavy/restricted material remains local or opt-in release/archive surfaces and i
 ## Seal boundary
 
 This checkpoint intentionally preserves UNKNOWN and incomplete work. It is a restart surface, not a claim that the project is finished. GitHub publication status must be read from the accompanying publication receipt / remote-head readback created during this thread-exit update.
+
+
+## Publication completion addendum — 2026-09-03 19:57 ET
+- Main public-safe reincarnation content is published at Git commit `0142e6b97ba0353deb6c3e2e8ced81dd25ace5ed` with parent `3b41dd54dc9f229f17acaa8c890a03d4ddd5dde3`.
+- Local/remote main equality was verified after push.
+- Post-push object verification PASS: no changed path outside the explicit publication allowlist and no mismatch against the Git blob identities generated before commit construction.
+- Publication success does **not** change science or authorize training. Fresh-thread P0 remains 1,840/1,840 learner-visible training-body LHRSG.
